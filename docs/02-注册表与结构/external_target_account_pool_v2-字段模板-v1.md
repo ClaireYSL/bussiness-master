@@ -32,7 +32,8 @@
 | `industry_l1` | 一级行业 | 文本 | 是 | 一级行业标签 |
 | `industry_l2` | 二级行业 | 文本 | 是 | 二级行业标签 |
 | `business_model` | 业务模式 | 文本 | 是 | 品牌零售、品牌出海、离散制造等 |
-| `persona_tag` | 主画像 | 文本 | 是 | 引用 `persona_registry_v1` |
+| `persona_tag` | 主画像 | 文本 | 是 | 只允许填写 1 个主画像，引用 `persona_registry_v1` |
+| `secondary_persona_tags` | 次级画像 | 文本 | 否 | 可多值；只记录辅助解释或边界观察用画像 |
 | `company_scale_band` | 公司规模分层 | 枚举文本 | 否 | `小型 / 中型 / 中大型 / 大型 / 未确认` |
 | `complexity_tag` | 复杂度标签 | 文本 | 是 | 一句话复杂度概括 |
 | `primary_jtbd` | 主 JTBD | 文本 | 是 | 必须写成任务 |
@@ -43,7 +44,7 @@
 | `case_type_match` | 案例类型匹配 | 文本 | 是 | 对应案例类型 |
 | `existing_customer_reference` | 样本客户引用 | 文本 | 是 | 1-3 个样本客户 |
 | `solution_match` | 方案匹配 | 文本 | 是 | 对应方案或打法 |
-| `knowledge_asset_refs` | 知识资产引用 | 文本 | 否 | 对应资产 ID 列表 |
+| `knowledge_asset_refs` | 强相关知识资产引用 | 文本 | 否 | 对应资产 ID 列表；仅记录对该潜客判断和阅读最相关的资产 |
 | `信息扎实度` | 信息扎实度 | 枚举 | 是 | `高 / 中高 / 中 / 中低`；表示当前已掌握信息的完整度、可靠性与边界清晰度 |
 | `ICP匹配概率` | ICP匹配概率 | 枚举 | 是 | `高 / 中高 / 中 / 中低`；表示基于当前已知信息，对其符合目标客群画像的阶段性判断 |
 | `静态潜客记录成熟度` | 静态潜客记录成熟度 | 枚举 | 是 | `L1 / L2 / L3 / L4 / L5`；表示该记录在静态池中的综合成熟度与使用层级 |
@@ -150,6 +151,20 @@
 - 在 `L5` 阶段，`review_status=active` 表示正式候选
 - 在 `L5` 阶段，`review_status=pending_review` 表示观察 / 边界对象，不得直接按正式候选推进
 
+### `persona_tag` 与 `secondary_persona_tags`
+
+- `persona_tag` 只允许填写 1 个主画像
+- `secondary_persona_tags` 用于记录次级画像、边界画像或辅助解释画像，可多值
+- 一个潜客可以命中多个画像，但主表判断、默认入池理由和默认上移判断都必须以 `persona_tag` 为主
+- 任何新增画像都必须先注册到 [persona_registry_v1-字段模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/persona_registry_v1-字段模板-v1.md)，不允许在账户表里临时发明画像
+
+### `knowledge_asset_refs`
+
+- 本字段只记录与当前潜客强相关的知识资产引用
+- 允许用于说明“为什么它像这个画像、为什么值得补证或上移”
+- 不允许把知识资产引用直接当成公司事实字段
+- 默认展示时应优先展示强相关资产，而不是把所有相邻资产都堆进去
+
 ## 6. 最低入池约束
 
 一条账户记录要正式进入本表，至少必须满足：
@@ -163,7 +178,7 @@
 ## 7. 推荐空表表头
 
 ```text
-account_id,account_canonical_name,brand_name,group_name,primary_track,industry_l1,industry_l2,business_model,persona_tag,company_scale_band,complexity_tag,primary_jtbd,secondary_jtbd,transformation_stage_tag,current_business_problem,admission_reason_summary,case_type_match,existing_customer_reference,solution_match,knowledge_asset_refs,信息扎实度,ICP匹配概率,静态潜客记录成熟度,static_priority,dedupe_status,legacy_customer_check_status,review_status,source_note,validation_gap,last_verified_at,dynamic_signal_status,recent_trigger_event,engagement_signal,referral_signal,sales_feedback_status
+account_id,account_canonical_name,brand_name,group_name,primary_track,industry_l1,industry_l2,business_model,persona_tag,secondary_persona_tags,company_scale_band,complexity_tag,primary_jtbd,secondary_jtbd,transformation_stage_tag,current_business_problem,admission_reason_summary,case_type_match,existing_customer_reference,solution_match,knowledge_asset_refs,信息扎实度,ICP匹配概率,静态潜客记录成熟度,static_priority,dedupe_status,legacy_customer_check_status,review_status,source_note,validation_gap,last_verified_at,dynamic_signal_status,recent_trigger_event,engagement_signal,referral_signal,sales_feedback_status
 ```
 
 ## 8. 样例记录

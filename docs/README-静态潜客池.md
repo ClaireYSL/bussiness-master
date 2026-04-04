@@ -19,6 +19,10 @@
 
 - `知识库 -> 画像 -> L5 候选 -> 上移补强 -> 阅读与共享`
 
+当前关于“知识库 / 画像 / 潜客 / 潜客池 / 潜客档案”五层关系的权威说明，统一见：
+
+- [知识库画像潜客池档案关系总说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/知识库画像潜客池档案关系总说明-v1.md)
+
 不要再把系统理解成：
 
 - `先修客户档案 -> 再决定谁值得判断`
@@ -152,7 +156,93 @@
 
 ---
 
-## 6. 当前不建议怎么用这个仓库
+## 6. skill 与脚本入口映射
+
+当前仓库已经不是“只有规则文档”，而是形成了：
+
+- `skill` 负责流程入口和边界
+- `script` 负责执行
+
+默认映射如下：
+
+### 6.1 `static-pool-expand`
+
+职责：
+
+- 找候选
+- 做最小入池增强
+
+当前调用规则：
+
+- 先按主线 / 主画像分流
+- 再判断是否存在匹配的稳定专题脚本
+
+当前已落地脚本入口：
+
+- [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
+
+当前成熟度：
+
+- `零售消费 / 部分消费品画像`：已有专题脚本入口
+- `跨境电商`：暂未形成稳定扩池脚本入口
+- `先进制造`：暂未形成稳定扩池脚本入口
+
+当前边界：
+
+- 不允许把零售专题脚本误当成所有 active 主线 / 画像的默认 expand 入口
+
+### 6.2 `static-pool-promote`
+
+职责：
+
+- 强核验增强
+- 升层判断
+
+当前默认脚本入口：
+
+- 通用入口：[promote_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_static_pool.py)
+- 批次配置：[configs/promote_batches](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/configs/promote_batches)
+
+历史 wrapper：
+
+- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l5_to_l3_consumer_20260331.py)
+- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l3_to_l2_mass_20260331.py)
+
+### 6.3 `static-pool-cleanup`
+
+职责：
+
+- 去重治理
+- 事实源收口
+
+当前状态：
+
+- 仍以规则驱动为主
+- 只有少量辅助脚本
+- 尚无统一 cleanup 主引擎
+
+### 6.4 `static-pool-share`
+
+职责：
+
+- 展示输出
+- 团队协作分享
+
+当前状态：
+
+- 仍以规则和载体选择为主
+- 可借助个别脚本更新共享载体
+- 尚无统一 share 主引擎
+
+一句话：
+
+- `promote` 已经最先进入“skill -> 通用脚本入口”阶段
+- `expand` 只有专题脚本入口
+- `cleanup / share` 目前仍主要靠规则驱动
+
+---
+
+## 7. 当前不建议怎么用这个仓库
 
 不建议：
 
@@ -163,7 +253,7 @@
 
 ---
 
-## 7. 维护口径
+## 8. 维护口径
 
 后续默认维护原则：
 

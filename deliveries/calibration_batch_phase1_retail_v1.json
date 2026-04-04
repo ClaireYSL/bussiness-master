@@ -1,0 +1,662 @@
+{
+  "task_id": "calibration_batch_5",
+  "task_scope": "静态潜客池污染止血后的小样本校准初判",
+  "rules_summary": {
+    "frozen_content": [
+      "旧L3+客户档案页正文不得直接作为事实源",
+      "旧主表解释型长文本不得直接作为判断依据",
+      "旧重点公司note和专题包中未挂真实来源的描述不得直接作为事实源"
+    ],
+    "minimum_fields": [
+      "account_id",
+      "account_canonical_name",
+      "primary_track",
+      "persona_tag",
+      "公司产品与服务概述",
+      "商业模式概述",
+      "admission_reason_summary",
+      "validation_gap",
+      "信息扎实度",
+      "ICP匹配概率",
+      "静态潜客记录成熟度"
+    ],
+    "allowed_sources": [
+      "官网",
+      "年报/财报/招股书/IR",
+      "官方新闻",
+      "官方招聘页",
+      "交易所公告",
+      "权威公开资料"
+    ]
+  },
+  "track_definitions": [
+    {
+      "track_id": "retail_consumer",
+      "track_name": "零售消费",
+      "definition": "以品牌零售、连锁零售、消费品经营为主，存在总部到渠道/门店/商品经营协同复杂度。"
+    },
+    {
+      "track_id": "cross_border_ecommerce",
+      "track_name": "跨境电商",
+      "definition": "以品牌出海、多平台、多店铺、跨国经营或履约协同为主要结构特征。"
+    },
+    {
+      "track_id": "advanced_manufacturing",
+      "track_name": "先进制造",
+      "definition": "以多工厂、多事业部、研产销协同、经营驾驶舱或集团经营可视化需求为主要结构特征。"
+    }
+  ],
+  "persona_definitions": [
+    {
+      "persona_id": "retail_multi_store",
+      "persona_name": "多门店连锁零售",
+      "definition": "总部强管理、多门店、多区域、多层级经营复盘需求明显的连锁零售经营主体。"
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "persona_name": "高SKU品牌消费品",
+      "definition": "SKU多、上新快、渠道复杂、库存与商品经营联动明显的品牌消费品企业。"
+    },
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "persona_name": "多平台品牌出海型",
+      "definition": "多平台、多店铺、多国家经营，利润分析与供需协同复杂的品牌出海企业。"
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "persona_name": "多工厂离散制造集团",
+      "definition": "多工厂、多事业部、经营协同和LTC可视化需求明显的制造集团。"
+    }
+  ],
+  "knowledge_summary": [
+    {
+      "asset_cluster": "retail_high_sku_brand",
+      "signals": [
+        "商品/库存/补货联动复杂",
+        "渠道/动销/分货协同明显",
+        "品牌消费品属性强"
+      ]
+    },
+    {
+      "asset_cluster": "cbec_multi_platform_brand",
+      "signals": [
+        "多平台经营",
+        "跨国经营或履约复杂度",
+        "T+1利润分析和供应链协同需求明显"
+      ]
+    },
+    {
+      "asset_cluster": "mfg_multi_factory_group",
+      "signals": [
+        "多工厂或多基地",
+        "集团经营驾驶舱需求",
+        "事业部/产线协同复杂"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "account_id": "acc_miniso",
+      "account_canonical_name": "名创优品（广州）有限责任公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "公司产品与服务概述": "生活方式零售商品，覆盖家居、文创、美妆个护、玩具等多品类。",
+        "商业模式概述": "品牌零售为主，依托直营网点与全球渠道网络进行标准化运营。",
+        "admission_reason_summary": "零售网络广、区域经营复杂、总部管理半径大，适合做多门店连锁零售核心标尺。",
+        "validation_gap": "中国经营主体与组织结构仍可补",
+        "信息扎实度": "高",
+        "ICP匹配概率": "高",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://ir.miniso.com/2025-03-21-MINISO-Group-Announces-December-Quarter-and-Full-Year-of-2024-Unaudited-Financial-Results",
+        "https://www.miniso.cn/",
+        "名创优品 IR 材料可确认其海内外门店规模、全球化连锁经营与门店网络复杂度，足以支撑 `L1`。",
+        "名创优品（广州）有限责任公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。",
+        "补强名创优品的集合店品类结构与全球门店经营模式。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "investor_relations",
+          "strength": "A",
+          "supports": [
+            "主线",
+            "画像",
+            "上移"
+          ],
+          "summary": "名创优品 IR 材料可确认其海内外门店规模、全球化连锁经营与门店网络复杂度，足以支撑 `L1`。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "名创优品（广州）有限责任公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "补强名创优品的集合店品类结构与全球门店经营模式。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_miniso",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "中国经营主体与组织结构仍可补"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_miniso",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "account_canonical_name": "三只松鼠股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "品牌消费品经营，SKU较多，渠道与供应链协同复杂。",
+        "商业模式概述": "品牌消费品全渠道经营，依赖商品、供应链和渠道协同。",
+        "admission_reason_summary": "多 SKU 和全渠道经营特征明确，可作为高 SKU 品牌消费品补充标尺。",
+        "validation_gap": "渠道与库存颗粒度仍可补",
+        "信息扎实度": "高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L2",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/外部目标客户池-v1.0-第十至第十一批关键账户强核验-v0.1.md",
+        "https://quote.eastmoney.com/unify/r/0.300783",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300783",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三只松鼠股份有限公司",
+        "第十至第十一批强核验已确认三只松鼠多 SKU 与全渠道经营特征。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "画像",
+            "上移"
+          ],
+          "summary": "第十至第十一批强核验已确认三只松鼠多 SKU 与全渠道经营特征。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "三只松鼠股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "补强休闲食品品牌事实和电商+分销经营模式。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_threesquirrels",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "generic_product",
+              "severity": "warn",
+              "field_name": "公司产品与服务概述",
+              "message": "产品与服务字段仍偏模板句。"
+            },
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象可入观察/待核验状态，需补强事实或来源后再视作正式候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "渠道与库存颗粒度仍可补"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_threesquirrels",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "generic_product",
+              "severity": "warn",
+              "field_name": "公司产品与服务概述",
+              "message": "产品与服务字段仍偏模板句。"
+            },
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_ays",
+      "account_canonical_name": "上海爱婴室商务服务股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "公司产品与服务概述": "母婴用品零售与母婴服务，覆盖门店零售、会员运营与线上渠道。",
+        "商业模式概述": "以连锁门店和会员体系为核心，叠加直营网店与全渠道经营。",
+        "admission_reason_summary": "母婴零售连锁网络和门店经营特征明确，客观上符合多门店连锁零售画像。",
+        "validation_gap": "仍可继续补直营网 / 加盟结构与区域经营颗粒度细节，但连锁母婴零售画像已可成立。",
+        "信息扎实度": "中高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L3",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-03/1222992965.PDF",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海爱婴室商务服务股份有限公司",
+        "爱婴室2024年报可确认其在多城市持续开店、直营网店与线上渠道并行、母婴零售网络扩张，支撑其作为多门店零售样本从L4上移至L3。",
+        "本轮L3到L2扩容专项已确认该账户达到高质量样本复用标准。",
+        "上海爱婴室商务服务股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "official_annual_report",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "爱婴室2024年报可确认其在多城市持续开店、直营网店与线上渠道并行、母婴零售网络扩张，支撑其作为多门店零售样本从L4上移至L3。"
+        },
+        {
+          "evidence_type": null,
+          "strength": null,
+          "supports": [
+            "share_support"
+          ],
+          "summary": "本轮L3到L2扩容专项已确认该账户达到高质量样本复用标准。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "上海爱婴室商务服务股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "把爱婴室收回到母婴连锁零售与会员服务公司的公司级事实。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_ays",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "仍可继续补直营网 / 加盟结构与区域经营颗粒度细节，但连锁母婴零售画像已可成立。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_ays",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_popmart",
+      "account_canonical_name": "北京泡泡玛特文化创意有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "公司产品与服务概述": "潮流玩具与IP零售，覆盖直营门店、机器人商店、电商与海外渠道。",
+        "商业模式概述": "IP运营、产品零售与渠道扩张并行。",
+        "admission_reason_summary": "品牌零售、门店网络和商品经营特征成立，适合作为品牌零售画像候选。",
+        "validation_gap": "中国经营主体、门店结构和商品分析切入证据仍需补。",
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L4",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [],
+      "evidence_summary": [],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_popmart",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [
+            {
+              "code": "official_source_missing",
+              "severity": "block",
+              "field_name": "evidence",
+              "message": "缺少可定位的官方或高可信来源。"
+            }
+          ],
+          "warnings": [
+            {
+              "code": "generic_admission",
+              "severity": "warn",
+              "field_name": "admission_reason_summary",
+              "message": "入池理由仍偏画像模板。"
+            },
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "boundary_review",
+          "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "中国经营主体、门店结构和商品分析切入证据仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_popmart",
+          "decision": "block",
+          "blocking_issues": [
+            {
+              "code": "official_source_missing",
+              "severity": "block",
+              "field_name": "evidence",
+              "message": "缺少可定位的官方或高可信来源。"
+            }
+          ],
+          "warning_issues": [
+            {
+              "code": "generic_admission",
+              "severity": "warn",
+              "field_name": "admission_reason_summary",
+              "message": "入池理由仍偏画像模板。"
+            },
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_eastroc",
+      "account_canonical_name": "东鹏饮料（集团）股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "覆盖东鹏特饮、电解质饮料、即饮咖啡、无糖茶等多品类饮料产品。",
+        "商业模式概述": "以品牌饮料经营为核心，依托全国渠道分销与终端动销体系扩张。",
+        "admission_reason_summary": "能量饮料与多品类饮料矩阵、全国渠道覆盖和一物一码数字链路公开特征明确，符合高 SKU 品牌消费品画像。",
+        "validation_gap": "渠道结构、费用归因与多基地产销协同公开信息仍可继续补。",
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L5",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://quote.eastmoney.com/concept/sh605499.html",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md",
+        "https://quote.eastmoney.com/unify/r/1.605499",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605499",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=东鹏饮料（集团）股份有限公司",
+        "官网介绍披露东鹏饮料已形成能量饮料、电解质饮料、无糖茶、咖啡等产品矩阵。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "official_site",
+          "strength": "A",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "官网介绍披露东鹏饮料已形成能量饮料、电解质饮料、无糖茶、咖啡等产品矩阵。"
+        },
+        {
+          "evidence_type": "official_site",
+          "strength": "A",
+          "supports": [
+            "digital_signal"
+          ],
+          "summary": "官网介绍披露公司形成一物一码、五码关联的全渠道数字化高速链路。"
+        },
+        {
+          "evidence_type": null,
+          "strength": null,
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "本轮L5到L3扩容专项已确认该账户达到标准就绪层级。"
+        },
+        {
+          "evidence_type": "field_support",
+          "strength": "高可信",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "已对 东鹏饮料（集团）股份有限公司 完成 L3 全量补强；当前产品/行业/经营复杂度判断已收束到可继续补证层。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "高可信",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "已满足 L3->L2 批量上移门槛：信息扎实度中高、ICP中高及以上、官方源>=1、高可信源>=2、档案完整度达到可升级水平。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_eastroc",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "渠道结构、费用归因与多基地产销协同公开信息仍可继续补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_eastroc",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    }
+  ],
+  "source_boundary_check": {
+    "declared_source_tags": [
+      "abstract_knowledge",
+      "structured_main_record",
+      "structured_profile_record",
+      "evidence_summary"
+    ],
+    "frozen_input_detected": false
+  },
+  "local_validation_summary": [
+    {
+      "account_id": "acc_miniso",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_ays",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_popmart",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "block"
+    },
+    {
+      "account_id": "acc_eastroc",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    }
+  ]
+}

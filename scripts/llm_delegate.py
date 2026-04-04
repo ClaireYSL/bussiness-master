@@ -119,6 +119,21 @@ def extract_text(data: dict) -> str:
     raise SystemExit(f"Unsupported message content: {json.dumps(message, ensure_ascii=False)[:1000]}")
 
 
+def should_retry_without_json_format(response: requests.Response, requested_format: str) -> bool:
+    if requested_format != "json":
+        return False
+    if response.status_code != 400:
+        return False
+    try:
+        data = response.json()
+    except Exception:
+        return False
+    error = data.get("error") or {}
+    message = str(error.get("message") or "")
+    param = str(error.get("param") or "")
+    return "response_format.type" in param or "json_object" in message
+
+
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
@@ -157,6 +172,17 @@ def main() -> int:
         json=payload,
         timeout=args.timeout,
     )
+    if should_retry_without_json_format(response, args.format):
+        payload.pop("response_format", None)
+        response = requests.post(
+            normalize_base_url(args.base_url),
+            headers={
+                "Authorization": f"Bearer {args.api_key}",
+                "Content-Type": "application/json",
+            },
+            json=payload,
+            timeout=args.timeout,
+        )
     response.raise_for_status()
     text = extract_text(response.json())
 

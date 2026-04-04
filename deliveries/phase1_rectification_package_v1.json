@@ -1,0 +1,1241 @@
+{
+  "milestone": "Milestone 4",
+  "title": "治理收口与 Phase 1 全样本纠偏",
+  "standard_persona_ids": [
+    "cbec_multi_platform_brand",
+    "cbec_platform_operator",
+    "mfg_multi_factory_group",
+    "mfg_rnd_sales_complex",
+    "retail_brand_beauty",
+    "retail_brand_maternal_pet",
+    "retail_fashion_group",
+    "retail_high_sku_brand",
+    "retail_multi_store"
+  ],
+  "legacy_persona_alias_map": {
+    "cbec_brand_outbound": "cbec_multi_platform_brand",
+    "cbec_supply_chain_complex": "cbec_multi_platform_brand",
+    "retail_multi_store_chain": "retail_multi_store",
+    "retail_chain_fnb": "retail_multi_store"
+  },
+  "summary": {
+    "formal_candidate": 11,
+    "observation": 4,
+    "downgrade": 5,
+    "maturity_regraded": 9,
+    "persona_adjusted": 7,
+    "official_source_repair_needed": 4
+  },
+  "results": [
+    {
+      "account_id": "acc_miniso",
+      "account_name": "名创优品（广州）有限责任公司",
+      "current_state": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "normalized_current_persona": "retail_multi_store",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_xianfeng_retail_v1",
+          "ka_case_chatbi_frontline_v1",
+          "ka_insight_retail_operating_platform_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_hq_visibility_retail_v1",
+          "ka_talktrack_frontline_loop_retail_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L1",
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留主画像与层级，补 promotion_review 队列和组织结构颗粒度。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "生活方式零售商品，覆盖家居、文创、美妆个护、玩具等多品类",
+          "商业模式概述": "品牌零售为主，依托直营网点与全球渠道网络进行标准化连锁运营",
+          "admission_reason_summary": "零售网络覆盖海内外，多区域经营复杂度高，总部管理半径大，符合多门店连锁零售核心标尺要求",
+          "validation_gap": "需补充中国经营主体与组织结构细节，明确persona边界"
+        },
+        "evidence_gaps": [
+          "补充中国经营主体与组织结构细节",
+          "完成promotion_review队列审批",
+          "明确persona边界稳定性"
+        ],
+        "risk_flags": [
+          "persona_overreach",
+          "track_boundary_risk"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_xianfeng_retail_v1",
+          "ka_case_chatbi_frontline_v1",
+          "ka_insight_retail_operating_platform_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_hq_visibility_retail_v1",
+          "ka_talktrack_frontline_loop_retail_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_057",
+            "material_title": "LLLM 采销供应链数据化解决方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_058",
+            "material_title": "CJ Foods 需求计划数字化平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_059",
+            "material_title": "鲜丰水果数据智能化应用方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_060",
+            "material_title": "7-Eleven 终端经营透视案例",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "account_name": "三只松鼠股份有限公司",
+      "current_state": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "normalized_current_persona": "retail_high_sku_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_wangxiaolu_growth_v1",
+          "ka_case_huaxizi_growth_v1",
+          "ka_insight_retail_operating_platform_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_hq_visibility_retail_v1",
+          "ka_talktrack_inventory_replenishment_retail_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "partial",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L2",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "rectification_action": "保留主画像，重写模板化产品/服务描述并补强来源。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "休闲食品品牌消费品经营，SKU丰富，全渠道布局",
+          "商业模式概述": "品牌消费品全渠道经营，依托商品、供应链和多渠道协同开展业务",
+          "admission_reason_summary": "多SKU与全渠道经营特征明确，可作为高SKU品牌消费品补充标尺",
+          "validation_gap": "需补充渠道与库存颗粒度细节，优化产品与服务描述，明确persona边界"
+        },
+        "evidence_gaps": [
+          "补充渠道与库存颗粒度细节",
+          "完善产品与服务概述的非模板化描述",
+          "完成promotion_review队列审批",
+          "明确persona边界稳定性"
+        ],
+        "risk_flags": [
+          "generic_fact_risk",
+          "persona_overreach",
+          "evidence_thin"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_wangxiaolu_growth_v1",
+          "ka_case_huaxizi_growth_v1",
+          "ka_insight_retail_operating_platform_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_hq_visibility_retail_v1",
+          "ka_talktrack_inventory_replenishment_retail_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_057",
+            "material_title": "LLLM 采销供应链数据化解决方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_058",
+            "material_title": "CJ Foods 需求计划数字化平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_059",
+            "material_title": "鲜丰水果数据智能化应用方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_060",
+            "material_title": "7-Eleven 终端经营透视案例",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_ays",
+      "account_name": "上海爱婴室商务服务股份有限公司",
+      "current_state": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "normalized_current_persona": "retail_multi_store",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_babycare_ops_v1",
+          "ka_case_chatbi_frontline_v1",
+          "ka_insight_retail_operating_platform_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_hq_visibility_retail_v1",
+          "ka_talktrack_frontline_loop_retail_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L3",
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [
+          "retail_brand_maternal_pet"
+        ],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留多门店主画像，补次级母婴品牌画像用于辅助解释。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "母婴用品零售与母婴服务，覆盖门店零售、会员运营与线上渠道",
+          "商业模式概述": "以连锁门店和会员体系为核心，叠加直营网店与全渠道经营",
+          "admission_reason_summary": "母婴零售连锁网络和多门店经营特征明确，符合多门店连锁零售画像要求",
+          "validation_gap": "需补充直营/加盟结构与区域经营颗粒度细节，明确persona边界"
+        },
+        "evidence_gaps": [
+          "补充直营/加盟结构与区域经营颗粒度细节",
+          "完成promotion_review队列审批",
+          "明确persona边界稳定性"
+        ],
+        "risk_flags": [
+          "persona_overreach"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_babycare_ops_v1",
+          "ka_case_chatbi_frontline_v1",
+          "ka_insight_retail_operating_platform_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_hq_visibility_retail_v1",
+          "ka_talktrack_frontline_loop_retail_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_057",
+            "material_title": "LLLM 采销供应链数据化解决方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_058",
+            "material_title": "CJ Foods 需求计划数字化平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_059",
+            "material_title": "鲜丰水果数据智能化应用方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_060",
+            "material_title": "7-Eleven 终端经营透视案例",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "current_state": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "normalized_current_persona": "retail_multi_store",
+        "静态潜客记录成熟度": "L4",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_xianfeng_retail_v1"
+        ],
+        "talk_track_refs": []
+      },
+      "rectification": {
+        "track_decision": "uncertain",
+        "persona_decision": "uncertain",
+        "minimum_fact_decision": "fail",
+        "maturity_decision": "downgrade",
+        "suggested_maturity": "待核验",
+        "suggested_primary_persona": "",
+        "suggested_secondary_persona_tags": [
+          "retail_fashion_group"
+        ],
+        "final_candidate_type": "observation",
+        "final_review_status": "pending_review",
+        "required_queue_type": "boundary_review",
+        "rectification_action": "退出正式候选，先补官方来源和商业模式，再重判主画像。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "暂缺有效证据支撑，待补证",
+          "商业模式概述": "暂缺有效证据支撑，待补证",
+          "admission_reason_summary": "暂缺有效证据支撑，待补证",
+          "validation_gap": "缺少官方高可信来源，需补全核心事实证据"
+        },
+        "evidence_gaps": [
+          "补充官方/高可信公开来源证据，验证主体、产品、商业模式核心事实",
+          "补充中国经营主体、门店结构和商品分析切入证据",
+          "优化入池理由的非模板化描述",
+          "完成promotion_review队列审批",
+          "明确persona边界稳定性"
+        ],
+        "risk_flags": [
+          "generic_fact_risk",
+          "persona_overreach",
+          "track_boundary_risk",
+          "maturity_overrated",
+          "evidence_thin",
+          "official_source_missing"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_xianfeng_retail_v1"
+        ],
+        "strong_related_talk_tracks": [],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_057",
+            "material_title": "LLLM 采销供应链数据化解决方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_058",
+            "material_title": "CJ Foods 需求计划数字化平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_059",
+            "material_title": "鲜丰水果数据智能化应用方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_060",
+            "material_title": "7-Eleven 终端经营透视案例",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_eastroc",
+      "account_name": "东鹏饮料（集团）股份有限公司",
+      "current_state": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "normalized_current_persona": "retail_high_sku_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_insight_consumer_supply_chain_v1",
+          "ka_mapping_retail_sample_cluster_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_hq_visibility_retail_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L3",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留主画像并接受 L3 建议，作为正向升级样本。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "覆盖东鹏特饮、电解质饮料、即饮咖啡、无糖茶等多品类饮料产品，已建立一物一码、五码关联的全渠道数字化链路",
+          "商业模式概述": "以品牌饮料经营为核心，依托全国渠道分销与终端动销体系扩张",
+          "admission_reason_summary": "拥有多品类饮料产品矩阵，全国渠道覆盖特征明确，符合高SKU品牌消费品画像要求",
+          "validation_gap": "需补充渠道结构、费用归因与多基地产销协同公开信息，明确persona边界"
+        },
+        "evidence_gaps": [
+          "补充渠道结构、费用归因与多基地产销协同公开信息",
+          "完成promotion_review队列审批",
+          "明确persona边界稳定性"
+        ],
+        "risk_flags": [
+          "persona_overreach"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_insight_consumer_supply_chain_v1",
+          "ka_mapping_retail_sample_cluster_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_hq_visibility_retail_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_057",
+            "material_title": "LLLM 采销供应链数据化解决方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_058",
+            "material_title": "CJ Foods 需求计划数字化平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+          },
+          {
+            "queue_id": "klq_059",
+            "material_title": "鲜丰水果数据智能化应用方案",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_060",
+            "material_title": "7-Eleven 终端经营透视案例",
+            "priority": "P2",
+            "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_anker",
+      "account_name": "安克创新科技股份有限公司",
+      "current_state": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "normalized_current_persona": "cbec_multi_platform_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_smallrig_outbound_v1",
+          "ka_solution_cbec_profit_v1",
+          "ka_insight_cbec_jtbd_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L1",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留主画像与层级，补平台矩阵与区域颗粒度证据。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "消费电子品牌出海，覆盖充电储能、智能设备及多品类产品矩阵",
+          "商业模式概述": "品牌出海与多平台经营并行，依托跨境渠道和全球市场销售",
+          "admission_reason_summary": "全球品牌出海和多平台经营特征稳定，可作为跨境品牌出海核心锚点",
+          "validation_gap": "平台矩阵和区域经营颗粒度仍可补，待补promotion_review队列项"
+        },
+        "evidence_gaps": [
+          "补充平台矩阵和区域经营颗粒度的官方证据",
+          "补充开放的promotion_review队列项"
+        ],
+        "risk_flags": [
+          "persona_overreach"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_smallrig_outbound_v1",
+          "ka_solution_cbec_profit_v1",
+          "ka_insight_cbec_jtbd_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_051",
+            "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_052",
+            "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_053",
+            "material_title": "倍思 BI 案例分享",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_054",
+            "material_title": "有棵树 BI 案例分享",
+            "priority": "P2",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_songmics",
+      "account_name": "致欧家居科技股份有限公司",
+      "current_state": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "normalized_current_persona": "cbec_multi_platform_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_cbec_home_outbound_ops_v1",
+          "ka_insight_cbec_home_living_outbound_v1",
+          "ka_solution_cbec_profit_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L2",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留主画像，继续补多平台与区域经营颗粒度。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "家居家清类品牌出海，覆盖多平台和海外仓经营",
+          "商业模式概述": "跨境品牌零售，依赖平台、供应链与海外仓协同",
+          "admission_reason_summary": "家居出海链路长、平台和区域经营复杂，可作为跨境品牌出海补充标尺",
+          "validation_gap": "海外仓与平台颗粒度仍可补，待补promotion_review队列项"
+        },
+        "evidence_gaps": [
+          "补充海外仓与平台颗粒度的官方证据",
+          "补充开放的promotion_review队列项"
+        ],
+        "risk_flags": [
+          "persona_overreach"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_cbec_home_outbound_ops_v1",
+          "ka_insight_cbec_home_living_outbound_v1",
+          "ka_solution_cbec_profit_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_051",
+            "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_052",
+            "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_053",
+            "material_title": "倍思 BI 案例分享",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_054",
+            "material_title": "有棵树 BI 案例分享",
+            "priority": "P2",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_jihong",
+      "account_name": "厦门吉宏科技股份有限公司",
+      "current_state": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_supply_chain_complex",
+        "normalized_current_persona": "cbec_multi_platform_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_solution_cbec_profit_v1",
+          "ka_insight_cbec_abm_v1",
+          "ka_insight_cbec_jtbd_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "adjust",
+        "minimum_fact_decision": "partial",
+        "maturity_decision": "downgrade",
+        "suggested_maturity": "L2",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [
+          "cbec_platform_operator"
+        ],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "rectification_action": "清理旧 persona，回到标准画像体系并下调到 L2。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "跨境电商与包装印刷业务并行，覆盖品牌出海与包装解决方案",
+          "商业模式概述": "跨境电商运营与制造服务双轮驱动",
+          "admission_reason_summary": "跨境经营与供应链协同方向成立，可作为复杂跨境经营次级样本",
+          "validation_gap": "需补跨境业务占比、平台结构和供应链复杂度的高可信官方证据，待补promotion_review队列项"
+        },
+        "evidence_gaps": [
+          "补充跨境业务占比的官方证据",
+          "补充平台结构的官方证据",
+          "补充供应链复杂度的官方证据",
+          "补充开放的promotion_review队列项"
+        ],
+        "risk_flags": [
+          "persona_overreach",
+          "maturity_overrated",
+          "evidence_thin"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_solution_cbec_profit_v1",
+          "ka_insight_cbec_abm_v1",
+          "ka_insight_cbec_jtbd_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_051",
+            "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_052",
+            "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_053",
+            "material_title": "倍思 BI 案例分享",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_054",
+            "material_title": "有棵树 BI 案例分享",
+            "priority": "P2",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "account_name": "子不语集团有限公司",
+      "current_state": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_supply_chain_complex",
+        "normalized_current_persona": "cbec_multi_platform_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_solution_cbec_profit_v1",
+          "ka_insight_cbec_jtbd_v1",
+          "ka_insight_cbec_market_selection_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "adjust",
+        "minimum_fact_decision": "partial",
+        "maturity_decision": "downgrade",
+        "suggested_maturity": "L3",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "rectification_action": "清理旧 persona，保留跨境品牌出海主画像并下调到 L3。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "跨境时尚电商，覆盖服饰及生活方式品类的全球线上销售",
+          "商业模式概述": "以跨平台运营和品牌化出海为核心，依赖选品、投放与供应链协同",
+          "admission_reason_summary": "服饰跨境与多平台经营方向成立，可作为复杂跨境经营画像候选",
+          "validation_gap": "需补主体、组织结构与经营复杂度官方证据，待补promotion_review队列项"
+        },
+        "evidence_gaps": [
+          "补充主体资质的官方证据",
+          "补充组织结构的官方证据",
+          "补充经营复杂度的官方证据",
+          "补充开放的promotion_review队列项"
+        ],
+        "risk_flags": [
+          "persona_overreach",
+          "maturity_overrated",
+          "evidence_thin"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_solution_cbec_profit_v1",
+          "ka_insight_cbec_jtbd_v1",
+          "ka_insight_cbec_market_selection_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_051",
+            "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_052",
+            "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_053",
+            "material_title": "倍思 BI 案例分享",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_054",
+            "material_title": "有棵树 BI 案例分享",
+            "priority": "P2",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "current_state": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_brand_outbound",
+        "normalized_current_persona": "cbec_multi_platform_brand",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_cbec_home_outbound_ops_v1",
+          "ka_insight_cbec_home_living_outbound_v1",
+          "ka_solution_cbec_profit_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "uncertain",
+        "persona_decision": "uncertain",
+        "minimum_fact_decision": "fail",
+        "maturity_decision": "downgrade",
+        "suggested_maturity": "L3",
+        "suggested_primary_persona": "",
+        "suggested_secondary_persona_tags": [
+          "cbec_multi_platform_brand"
+        ],
+        "final_candidate_type": "observation",
+        "final_review_status": "pending_review",
+        "required_queue_type": "boundary_review",
+        "rectification_action": "退出正式候选，先补产品/服务、商业模式和官方来源，再重判。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "人体工学健康办公类产品品牌出海",
+          "商业模式概述": "依托跨境渠道开展人体工学产品全球品牌化经营",
+          "admission_reason_summary": "人体工学家居与海外品牌经营属性明确，可作为品牌出海观察候选",
+          "validation_gap": "需补产品服务、商业模式、海外平台结构、品牌矩阵与区域经营官方证据，待补promotion_review队列项"
+        },
+        "evidence_gaps": [
+          "补充公司产品与服务概述的官方信息",
+          "补充商业模式概述的官方信息",
+          "补充海外平台结构的官方证据",
+          "补充品牌矩阵与区域经营的官方证据",
+          "补充开放的promotion_review队列项"
+        ],
+        "risk_flags": [
+          "generic_fact_risk",
+          "persona_overreach",
+          "maturity_overrated",
+          "evidence_thin",
+          "official_source_missing"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_cbec_home_outbound_ops_v1",
+          "ka_insight_cbec_home_living_outbound_v1",
+          "ka_solution_cbec_profit_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_profit_governance_cbec_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_051",
+            "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_052",
+            "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+          },
+          {
+            "queue_id": "klq_053",
+            "material_title": "倍思 BI 案例分享",
+            "priority": "P1",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          },
+          {
+            "queue_id": "klq_054",
+            "material_title": "有棵树 BI 案例分享",
+            "priority": "P2",
+            "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_inovance",
+      "account_name": "深圳市汇川技术股份有限公司",
+      "current_state": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "normalized_current_persona": "mfg_multi_factory_group",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_haozhi_dashboard_v1",
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L1",
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "suggested_secondary_persona_tags": [
+          "mfg_rnd_sales_complex"
+        ],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留多工厂主画像，并补研产销协同作为次级画像解释。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "工业自动化、驱动控制、新能源汽车电驱等产品，面向设备制造商/工业客户销售",
+          "商业模式概述": "研发、制造、销售一体化的技术型制造集团，多业务线全球布局",
+          "admission_reason_summary": "多业务线经营协同复杂度高，符合先进制造经营型BI需求，可作为L1母样本",
+          "validation_gap": "多工厂颗粒度、渠道协同细节待补充"
+        },
+        "evidence_gaps": [
+          "补充多工厂颗粒度细节证据",
+          "补充渠道协同细节证据"
+        ],
+        "risk_flags": [
+          "persona_overreach",
+          "evidence_thin"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_haozhi_dashboard_v1",
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_055",
+            "material_title": "SAP PCE 对接技术白皮书",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          },
+          {
+            "queue_id": "klq_056",
+            "material_title": "兆驰集团多工厂多产线经营效能案例",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_sany",
+      "account_name": "三一重工股份有限公司",
+      "current_state": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "normalized_current_persona": "mfg_multi_factory_group",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_zerorun_self_service_v1",
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "keep",
+        "minimum_fact_decision": "pass",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L2",
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "promotion_review",
+        "rectification_action": "保留主画像并补多工厂与渠道协同细节。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "工程机械研发、制造、销售业务，采用多工厂多事业部集团架构",
+          "商业模式概述": "集团型制造，依赖多基地协同+总部统一经营管理",
+          "admission_reason_summary": "多基地制造、全球经营协同复杂度高，可作为多工厂制造画像补充标尺",
+          "validation_gap": "工厂布局、事业部颗粒度细节待补充"
+        },
+        "evidence_gaps": [
+          "补充工厂布局细节证据",
+          "补充事业部颗粒度细节证据"
+        ],
+        "risk_flags": [
+          "persona_overreach",
+          "evidence_thin"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_zerorun_self_service_v1",
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_055",
+            "material_title": "SAP PCE 对接技术白皮书",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          },
+          {
+            "queue_id": "klq_056",
+            "material_title": "兆驰集团多工厂多产线经营效能案例",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_amec",
+      "account_name": "中微半导体设备（上海）股份有限公司",
+      "current_state": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "normalized_current_persona": "mfg_rnd_sales_complex",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_insight_mfg_value_stream_v1",
+          "ka_insight_auto_electronics_coordination_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "adjust",
+        "minimum_fact_decision": "partial",
+        "maturity_decision": "uncertain",
+        "suggested_maturity": "待核验后确认",
+        "suggested_primary_persona": "",
+        "suggested_secondary_persona_tags": [
+          "mfg_rnd_sales_complex"
+        ],
+        "final_candidate_type": "observation",
+        "final_review_status": "pending_review",
+        "required_queue_type": "boundary_review",
+        "rectification_action": "暂不硬贴主画像，先补官方来源与制造协同边界证据。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "半导体设备相关产品与解决方案，为集成电路和泛半导体行业提供高端设备与服务",
+          "商业模式概述": "技术驱动型制造，覆盖研发、制造、销售与项目交付全链路协同",
+          "admission_reason_summary": "高端半导体设备制造，研发投入高、产品线拓展快，经营协同复杂度高，适合作为技术型制造候选",
+          "validation_gap": "需补充官方源经营与系统类证据，确认组织协同复杂度"
+        },
+        "evidence_gaps": [
+          "补充官方源经营与系统类证据",
+          "补充多工厂/事业部协同细节证据",
+          "优化入池理由，避免模板化表述"
+        ],
+        "risk_flags": [
+          "generic_fact_risk",
+          "persona_overreach",
+          "evidence_thin",
+          "official_source_missing"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_insight_mfg_value_stream_v1",
+          "ka_insight_auto_electronics_coordination_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_055",
+            "material_title": "SAP PCE 对接技术白皮书",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          },
+          {
+            "queue_id": "klq_056",
+            "material_title": "兆驰集团多工厂多产线经营效能案例",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_bozon",
+      "account_name": "博众精工科技股份有限公司",
+      "current_state": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "normalized_current_persona": "mfg_rnd_sales_complex",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_xtc_smart_mfg_v1",
+          "ka_insight_mfg_ltc_coordination_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "keep",
+        "persona_decision": "adjust",
+        "minimum_fact_decision": "partial",
+        "maturity_decision": "keep",
+        "suggested_maturity": "L4",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "suggested_secondary_persona_tags": [
+          "mfg_multi_factory_group"
+        ],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "rectification_action": "保留技术型制造主画像，并补多工厂协同作为次级画像说明。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "自动化装备与智能制造解决方案，服务消费电子、新能源等制造场景",
+          "商业模式概述": "主营非标自动化装备、产线解决方案交付，研产销全链路协同",
+          "admission_reason_summary": "装备制造业务客户协同复杂度高，符合技术型制造画像要求",
+          "validation_gap": "LTC链路、组织复杂度细节待补充"
+        },
+        "evidence_gaps": [
+          "补充LTC链路证据",
+          "补充组织复杂度细节证据"
+        ],
+        "risk_flags": [
+          "persona_overreach",
+          "evidence_thin"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_xtc_smart_mfg_v1",
+          "ka_insight_mfg_ltc_coordination_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_055",
+            "material_title": "SAP PCE 对接技术白皮书",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          },
+          {
+            "queue_id": "klq_056",
+            "material_title": "兆驰集团多工厂多产线经营效能案例",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          }
+        ]
+      }
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "current_state": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "normalized_current_persona": "mfg_multi_factory_group",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "active",
+        "knowledge_asset_refs": [
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_solution_group_coordination_mfg_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "talk_track_refs": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ]
+      },
+      "rectification": {
+        "track_decision": "uncertain",
+        "persona_decision": "uncertain",
+        "minimum_fact_decision": "fail",
+        "maturity_decision": "downgrade",
+        "suggested_maturity": "待补证后重新判定",
+        "suggested_primary_persona": "",
+        "suggested_secondary_persona_tags": [
+          "mfg_multi_factory_group"
+        ],
+        "final_candidate_type": "observation",
+        "final_review_status": "pending_review",
+        "required_queue_type": "boundary_review",
+        "rectification_action": "退出正式候选，先补产品/服务、商业模式与官方来源，再重判。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "能源装备与油田工程服务相关产品（待补官方信息）",
+          "商业模式概述": "待补官方信息",
+          "admission_reason_summary": "暂按高端能源装备制造属性归入观察池，待补证后确认正式入池资格",
+          "validation_gap": "产品服务、商业模式、多基地布局、业务条线、全球经营等信息均待补充"
+        },
+        "evidence_gaps": [
+          "补充公司产品与服务概述官方信息",
+          "补充商业模式概述官方信息",
+          "补充多基地布局、业务条线与全球经营证据"
+        ],
+        "risk_flags": [
+          "generic_fact_risk",
+          "track_boundary_risk",
+          "maturity_overrated",
+          "evidence_thin",
+          "official_source_missing"
+        ]
+      },
+      "knowledge_alignment": {
+        "strong_related_knowledge_assets": [
+          "ka_case_mfg_group_dashboard_v1",
+          "ka_solution_group_coordination_mfg_v1",
+          "ka_insight_mfg_value_stream_v1"
+        ],
+        "strong_related_talk_tracks": [
+          "ka_talktrack_group_coordination_mfg_v1"
+        ],
+        "matched_learning_queue_items": [
+          {
+            "queue_id": "klq_055",
+            "material_title": "SAP PCE 对接技术白皮书",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          },
+          {
+            "queue_id": "klq_056",
+            "material_title": "兆驰集团多工厂多产线经营效能案例",
+            "priority": "P1",
+            "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -10,8 +10,10 @@ from .constants import (
     GENERIC_PRODUCT_HINTS,
     GENERIC_PROFILE_TEXT_HINTS,
     LEGACY_REVIEW_STATUS_MAP,
+    LEGACY_PERSONA_TAG_MAP,
     OBSERVATION_L5_REVIEW_STATUS,
     PLACEHOLDER_VALUES,
+    STANDARD_PERSONA_IDS,
     VALID_REVIEW_STATUSES,
 )
 from .models import PromotionGateResult, ValidationIssue, ValidationResult
@@ -43,6 +45,30 @@ def _contains_any(text: object, patterns: tuple[str, ...]) -> bool:
     if not clean:
         return False
     return any(pattern in clean for pattern in patterns)
+
+
+def _split_multi_values(value: object) -> list[str]:
+    clean = _clean_text(value)
+    if not clean:
+        return []
+    normalized = clean.replace("，", ",").replace("；", ",").replace(";", ",").replace("\n", ",")
+    return [item.strip() for item in normalized.split(",") if item.strip()]
+
+
+def normalize_persona_tag(value: object) -> str:
+    clean = _clean_text(value)
+    if clean in LEGACY_PERSONA_TAG_MAP:
+        return LEGACY_PERSONA_TAG_MAP[clean]
+    return clean
+
+
+def normalize_secondary_persona_tags(value: object) -> list[str]:
+    normalized: list[str] = []
+    for item in _split_multi_values(value):
+        mapped = normalize_persona_tag(item)
+        if mapped and mapped not in normalized:
+            normalized.append(mapped)
+    return normalized
 
 
 def _count_official_evidence(evidence_rows: list[dict]) -> int:
@@ -93,8 +119,59 @@ def evaluate_track_persona_stability(main_row: dict, evidence_rows: list[dict]) 
     issues: list[ValidationIssue] = []
     if not _clean_text(main_row.get("primary_track")):
         issues.append(ValidationIssue("track_missing", "block", "primary_track", "主线未明确。"))
-    if not _clean_text(main_row.get("persona_tag")):
+    raw_persona = _clean_text(main_row.get("persona_tag"))
+    normalized_persona = normalize_persona_tag(raw_persona)
+    if not raw_persona:
         issues.append(ValidationIssue("persona_missing", "block", "persona_tag", "画像未明确。"))
+    elif raw_persona in LEGACY_PERSONA_TAG_MAP:
+        issues.append(
+            ValidationIssue(
+                "legacy_persona_alias",
+                "block",
+                "persona_tag",
+                f"当前 persona `{raw_persona}` 属于历史旧标签，应切回标准画像 `{normalized_persona}` 后再继续判断。",
+            )
+        )
+    elif normalized_persona not in STANDARD_PERSONA_IDS:
+        issues.append(
+            ValidationIssue(
+                "nonstandard_persona",
+                "block",
+                "persona_tag",
+                f"当前 persona `{raw_persona}` 不在标准画像体系内。",
+            )
+        )
+
+    secondary_personas = normalize_secondary_persona_tags(main_row.get("secondary_persona_tags"))
+    for item in _split_multi_values(main_row.get("secondary_persona_tags")):
+        mapped = normalize_persona_tag(item)
+        if item in LEGACY_PERSONA_TAG_MAP:
+            issues.append(
+                ValidationIssue(
+                    "legacy_secondary_persona_alias",
+                    "warn",
+                    "secondary_persona_tags",
+                    f"次级画像 `{item}` 已按标准画像 `{mapped}` 兼容，应逐步切回标准集合。",
+                )
+            )
+        elif mapped not in STANDARD_PERSONA_IDS:
+            issues.append(
+                ValidationIssue(
+                    "nonstandard_secondary_persona",
+                    "warn",
+                    "secondary_persona_tags",
+                    f"次级画像 `{item}` 不在标准画像体系内。",
+                )
+            )
+    if raw_persona and normalized_persona and normalized_persona in secondary_personas:
+        issues.append(
+            ValidationIssue(
+                "duplicated_primary_secondary_persona",
+                "warn",
+                "secondary_persona_tags",
+                "主画像不应在次级画像列表中重复出现。",
+            )
+        )
 
     official_evidence_count = _count_official_evidence(evidence_rows)
     if official_evidence_count == 0:
@@ -109,8 +186,12 @@ def evaluate_track_persona_stability(main_row: dict, evidence_rows: list[dict]) 
 
 def classify_l5_candidate(main_row: dict, evidence_rows: list[dict]) -> ValidationResult:
     account_id = _clean_text(main_row.get("account_id"))
+    normalized_persona_tag = normalize_persona_tag(main_row.get("persona_tag"))
+    normalized_secondary_persona_tags = normalize_secondary_persona_tags(main_row.get("secondary_persona_tags"))
     normalized_fields = {
         "review_status": normalize_review_status(_clean_text(main_row.get("review_status"))),
+        "persona_tag": normalized_persona_tag,
+        "secondary_persona_tags": ",".join(normalized_secondary_persona_tags),
         "validation_gap": _clean_text(main_row.get("validation_gap")),
     }
     issues = evaluate_minimum_fact_set(main_row)
@@ -126,6 +207,8 @@ def classify_l5_candidate(main_row: dict, evidence_rows: list[dict]) -> Validati
             candidate_type="observation",
             review_status=OBSERVATION_L5_REVIEW_STATUS,
             is_formal_l5_candidate=False,
+            normalized_persona_tag=normalized_persona_tag,
+            normalized_secondary_persona_tags=normalized_secondary_persona_tags,
             issues=blocking,
             warnings=warnings,
             required_queue_type=queue_type,
@@ -141,6 +224,8 @@ def classify_l5_candidate(main_row: dict, evidence_rows: list[dict]) -> Validati
             candidate_type="observation",
             review_status=OBSERVATION_L5_REVIEW_STATUS,
             is_formal_l5_candidate=False,
+            normalized_persona_tag=normalized_persona_tag,
+            normalized_secondary_persona_tags=normalized_secondary_persona_tags,
             issues=[],
             warnings=warnings,
             required_queue_type="verification",
@@ -154,6 +239,8 @@ def classify_l5_candidate(main_row: dict, evidence_rows: list[dict]) -> Validati
         candidate_type="formal_candidate",
         review_status=FORMAL_L5_REVIEW_STATUS,
         is_formal_l5_candidate=True,
+        normalized_persona_tag=normalized_persona_tag,
+        normalized_secondary_persona_tags=normalized_secondary_persona_tags,
         issues=[],
         warnings=warnings,
         required_queue_type="verification",
@@ -164,6 +251,10 @@ def classify_l5_candidate(main_row: dict, evidence_rows: list[dict]) -> Validati
 
 def evaluate_promotion_gate(main_row: dict, profile_row: dict | None, evidence_rows: list[dict], queue_rows: list[dict]) -> PromotionGateResult:
     account_id = _clean_text(main_row.get("account_id"))
+    normalized_persona_tag = normalize_persona_tag(main_row.get("persona_tag"))
+    normalized_secondary_persona_tags = normalize_secondary_persona_tags(
+        main_row.get("secondary_persona_tags") or (profile_row or {}).get("secondary_persona_tags")
+    )
     blocking_issues: list[ValidationIssue] = []
     warning_issues: list[ValidationIssue] = []
 
@@ -206,6 +297,8 @@ def evaluate_promotion_gate(main_row: dict, profile_row: dict | None, evidence_r
         return PromotionGateResult(
             account_id=account_id,
             decision="block",
+            normalized_persona_tag=normalized_persona_tag,
+            normalized_secondary_persona_tags=normalized_secondary_persona_tags,
             blocking_issues=blocking_issues,
             warning_issues=warning_issues,
             suggested_review_status=normalized_status or OBSERVATION_L5_REVIEW_STATUS,
@@ -216,6 +309,8 @@ def evaluate_promotion_gate(main_row: dict, profile_row: dict | None, evidence_r
         return PromotionGateResult(
             account_id=account_id,
             decision="warn",
+            normalized_persona_tag=normalized_persona_tag,
+            normalized_secondary_persona_tags=normalized_secondary_persona_tags,
             blocking_issues=[],
             warning_issues=warning_issues,
             suggested_review_status=normalized_status or FORMAL_L5_REVIEW_STATUS,
@@ -225,6 +320,8 @@ def evaluate_promotion_gate(main_row: dict, profile_row: dict | None, evidence_r
     return PromotionGateResult(
         account_id=account_id,
         decision="allow",
+        normalized_persona_tag=normalized_persona_tag,
+        normalized_secondary_persona_tags=normalized_secondary_persona_tags,
         blocking_issues=[],
         warning_issues=[],
         suggested_review_status=FORMAL_L5_REVIEW_STATUS,

@@ -130,6 +130,33 @@
 - 已完成 `贝泰妮 / 东山精密 / 迈为` `3` 组重复主体 cleanup，当前高质量层稳定为 `205`
 - 已完成一轮大规模 `客户档案逐客户修复` 试运行，验证了档案层可按批次修复，但该机制应回归为上移和共享层的支持性工具，而不是默认总任务
 
+### Milestone 4：治理收口与 Phase 1 全样本纠偏
+
+当前状态：`已启动`
+
+当前目标：
+
+1. 把 `L4/L5` 正式候选与观察对象分开
+2. 把旧 persona 漂移收回到标准画像体系
+3. 把 `Phase 1` 的 `15` 家样本做成正式纠偏结果
+4. 复核 `learning_queue` 中与本轮纠偏强相关的 queued 项
+5. 把治理收口结果沉到结构层、共享校验层和核心脚本
+
+当前结果：
+
+- 已形成 `Phase 1` 三条主线 `15` 家校准样本外部初判
+- 已将 `主画像 / 次级画像 / 强相关知识资产引用` 下沉到字段模板和校准打包脚本
+- 已新增标准 persona 集合与 legacy persona alias 映射，作为共享校验层的一部分
+- 已生成 `deliveries/phase1_rectification_package_v1.json`，收口 `15` 家样本的正式纠偏建议
+- 已输出 `Phase1` 样本正式纠偏清单和 `learning_queue` 关联复核文档，作为本阶段的中间交付物
+
+核心文档：
+
+- [Milestone 4-治理收口与Phase1纠偏复盘-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/Milestone%204-%E6%B2%BB%E7%90%86%E6%94%B6%E5%8F%A3%E4%B8%8EPhase1%E7%BA%A0%E5%81%8F%E5%A4%8D%E7%9B%98-v1.md)
+- [Phase1样本正式纠偏清单-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/Phase1%E6%A0%B7%E6%9C%AC%E6%AD%A3%E5%BC%8F%E7%BA%A0%E5%81%8F%E6%B8%85%E5%8D%95-v1.md)
+- [learning_queue与Phase1样本关联复核-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/learning_queue%E4%B8%8EPhase1%E6%A0%B7%E6%9C%AC%E5%85%B3%E8%81%94%E5%A4%8D%E6%A0%B8-v1.md)
+- [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
+
 核心文档：
 
 - [Milestone 3 执行跟踪文档-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/Milestone%203%20执行跟踪文档-v1.md)

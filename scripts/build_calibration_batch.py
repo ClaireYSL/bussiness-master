@@ -5,16 +5,16 @@ import json
 import sys
 from pathlib import Path
 
-from openpyxl import load_workbook
-
 WORKSPACE = Path(__file__).resolve().parents[1]
 ROOT = WORKSPACE.parents[2]
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
 from shared.static_pool import (
+    attach_account_ids,
     classify_l5_candidate,
     evaluate_promotion_gate,
+    load_sheet_rows,
     normalize_review_status,
     should_allow_frozen_text_as_input,
     to_jsonable,
@@ -51,14 +51,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     return parser
 
-
-def load_sheet_rows(path: Path, sheet_name: str) -> tuple[list[str], list[dict[str, object]]]:
-    ws = load_workbook(path, read_only=True, data_only=True)[sheet_name]
-    headers = [cell.value for cell in next(ws.iter_rows(min_row=1, max_row=1))]
-    rows = [{headers[i]: row[i] for i in range(len(headers))} for row in ws.iter_rows(min_row=2, values_only=True)]
-    return headers, rows
-
-
 def load_main_rows() -> list[dict[str, object]]:
     try:
         _headers, rows = load_sheet_rows(MAIN_XLSX, "accounts_main")
@@ -74,6 +66,7 @@ def load_main_rows() -> list[dict[str, object]]:
                     "account_canonical_name": canonical_name,
                     "primary_track": row.get("主线"),
                     "persona_tag": row.get("业务形态画像"),
+                    "secondary_persona_tags": row.get("辅助画像标签") or row.get("次级画像"),
                     "公司产品与服务概述": row.get("公司产品与服务概述"),
                     "商业模式概述": row.get("商业模式概述"),
                     "admission_reason_summary": row.get("一话入池理由"),
@@ -88,11 +81,11 @@ def load_main_rows() -> list[dict[str, object]]:
             )
         return normalized_rows
 
-
 def filter_accounts(main_rows: list[dict[str, object]], args: argparse.Namespace) -> list[dict[str, object]]:
     if args.account_id:
         wanted = set(args.account_id)
-        return [row for row in main_rows if str(row.get("account_id") or "") in wanted][: args.limit]
+        filtered = [row for row in main_rows if str(row.get("account_id") or "") in wanted]
+        return filtered[: args.limit]
     filtered = []
     for row in main_rows:
         if args.track and str(row.get("primary_track") or "") != args.track:
@@ -132,6 +125,12 @@ def main() -> int:
     template = json.loads(TEMPLATE_PATH.read_text(encoding="utf-8"))
     main_rows = load_main_rows()
     _profile_headers, profile_rows = load_sheet_rows(PROFILE_XLSX, "account_profiles")
+    profile_id_to_name = {
+        str(row.get("account_id") or "").strip(): str(row.get("account_canonical_name") or "").strip()
+        for row in profile_rows
+        if row.get("account_id")
+    }
+    main_rows = attach_account_ids(main_rows, profile_rows)
     _queue_headers, queue_rows = load_sheet_rows(GOV_XLSX, "review_queue")
     _evidence_headers, evidence_rows = load_sheet_rows(GOV_XLSX, "evidence_log")
 
@@ -149,6 +148,17 @@ def main() -> int:
             evidence_map.setdefault(account_id, []).append(row)
 
     selected_rows = filter_accounts(main_rows, args)
+    if args.account_id and len(selected_rows) < len(set(args.account_id)):
+        wanted_names = {profile_id_to_name.get(account_id, "") for account_id in args.account_id}
+        wanted_names.discard("")
+        already = {str(row.get("account_id") or "") for row in selected_rows}
+        for row in main_rows:
+            if str(row.get("account_id") or "") in already:
+                continue
+            if str(row.get("account_canonical_name") or "") in wanted_names:
+                selected_rows.append(row)
+                if len(selected_rows) >= args.limit:
+                    break
     samples = []
     validation_summaries = []
     for main_row in selected_rows:
@@ -172,6 +182,9 @@ def main() -> int:
                 "current_record": {
                     "primary_track": main_row.get("primary_track"),
                     "persona_tag": main_row.get("persona_tag"),
+                    "secondary_persona_tags": main_row.get("secondary_persona_tags")
+                    or profile_row.get("secondary_persona_tags")
+                    or "",
                     "公司产品与服务概述": main_row.get("公司产品与服务概述"),
                     "商业模式概述": main_row.get("商业模式概述"),
                     "admission_reason_summary": main_row.get("admission_reason_summary"),
@@ -180,6 +193,10 @@ def main() -> int:
                     "ICP匹配概率": main_row.get("ICP匹配概率"),
                     "静态潜客记录成熟度": main_row.get("静态潜客记录成熟度"),
                     "review_status": main_row.get("review_status"),
+                    "knowledge_asset_refs": main_row.get("knowledge_asset_refs")
+                    or profile_row.get("knowledge_asset_refs")
+                    or "",
+                    "talk_track_refs": main_row.get("talk_track_refs") or profile_row.get("talk_track_refs") or "",
                     "candidate_type": validation.candidate_type,
                 },
                 "public_source_summary": public_source_summary,

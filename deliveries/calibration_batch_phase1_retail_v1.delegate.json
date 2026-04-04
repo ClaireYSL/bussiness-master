@@ -1,0 +1,217 @@
+{
+  "task_id": "calibration_batch_5",
+  "samples": [
+    {
+      "account_id": "acc_miniso",
+      "account_name": "名创优品（广州）有限责任公司",
+      "track_assessment": {
+        "status": "keep",
+        "reason": "IR材料确认其海内外连锁零售经营属性，符合零售消费主线定义"
+      },
+      "persona_assessment": {
+        "status": "keep",
+        "reason": "证据显示多门店全球化连锁经营特征，符合多门店连锁零售画像，仅存在边界观察提醒"
+      },
+      "minimum_fact_assessment": {
+        "status": "pass",
+        "reason": "主体、产品品类、全球连锁商业模式均有A类证据支撑，最小事实成立"
+      },
+      "maturity_assessment": {
+        "status": "keep",
+        "reason": "IR等A类证据支撑其L1层级，暂未发现高估迹象",
+        "suggested_maturity": "L1"
+      },
+      "confidence_assessment": {
+        "信息扎实度": "高",
+        "ICP匹配概率": "高"
+      },
+      "evidence_gaps": [
+        "补充中国经营主体与组织结构细节",
+        "完成promotion_review队列审批",
+        "明确persona边界稳定性"
+      ],
+      "rewrite_suggestion": {
+        "公司产品与服务概述": "生活方式零售商品，覆盖家居、文创、美妆个护、玩具等多品类",
+        "商业模式概述": "品牌零售为主，依托直营网点与全球渠道网络进行标准化连锁运营",
+        "admission_reason_summary": "零售网络覆盖海内外，多区域经营复杂度高，总部管理半径大，符合多门店连锁零售核心标尺要求",
+        "validation_gap": "需补充中国经营主体与组织结构细节，明确persona边界"
+      },
+      "risk_flags": [
+        "persona_overreach",
+        "track_boundary_risk"
+      ]
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "account_name": "三只松鼠股份有限公司",
+      "track_assessment": {
+        "status": "keep",
+        "reason": "强核验确认其为品牌消费品全渠道经营，符合零售消费主线定义"
+      },
+      "persona_assessment": {
+        "status": "keep",
+        "reason": "强核验确认多SKU全渠道经营特征，符合高SKU品牌消费品画像，仅存在产品描述偏模板的瑕疵"
+      },
+      "minimum_fact_assessment": {
+        "status": "partial",
+        "reason": "主体、商业模式有证据支撑，产品与服务描述偏模板化，需补强"
+      },
+      "maturity_assessment": {
+        "status": "keep",
+        "reason": "现有证据支撑L2层级，暂未发现高估迹象，处于观察状态",
+        "suggested_maturity": "L2"
+      },
+      "confidence_assessment": {
+        "信息扎实度": "高",
+        "ICP匹配概率": "中高"
+      },
+      "evidence_gaps": [
+        "补充渠道与库存颗粒度细节",
+        "完善产品与服务概述的非模板化描述",
+        "完成promotion_review队列审批",
+        "明确persona边界稳定性"
+      ],
+      "rewrite_suggestion": {
+        "公司产品与服务概述": "休闲食品品牌消费品经营，SKU丰富，全渠道布局",
+        "商业模式概述": "品牌消费品全渠道经营，依托商品、供应链和多渠道协同开展业务",
+        "admission_reason_summary": "多SKU与全渠道经营特征明确，可作为高SKU品牌消费品补充标尺",
+        "validation_gap": "需补充渠道与库存颗粒度细节，优化产品与服务描述，明确persona边界"
+      },
+      "risk_flags": [
+        "generic_fact_risk",
+        "persona_overreach",
+        "evidence_thin"
+      ]
+    },
+    {
+      "account_id": "acc_ays",
+      "account_name": "上海爱婴室商务服务股份有限公司",
+      "track_assessment": {
+        "status": "keep",
+        "reason": "2024年报确认其多城市连锁母婴零售经营，符合零售消费主线定义"
+      },
+      "persona_assessment": {
+        "status": "keep",
+        "reason": "年报证据支撑多门店连锁零售特征，符合画像定义，仅存在边界观察提醒"
+      },
+      "minimum_fact_assessment": {
+        "status": "pass",
+        "reason": "主体、母婴产品服务、连锁商业模式均有年报等A类证据支撑，最小事实成立"
+      },
+      "maturity_assessment": {
+        "status": "keep",
+        "reason": "年报等A类证据支撑其L3层级，暂未发现高估迹象",
+        "suggested_maturity": "L3"
+      },
+      "confidence_assessment": {
+        "信息扎实度": "中高",
+        "ICP匹配概率": "中高"
+      },
+      "evidence_gaps": [
+        "补充直营/加盟结构与区域经营颗粒度细节",
+        "完成promotion_review队列审批",
+        "明确persona边界稳定性"
+      ],
+      "rewrite_suggestion": {
+        "公司产品与服务概述": "母婴用品零售与母婴服务，覆盖门店零售、会员运营与线上渠道",
+        "商业模式概述": "以连锁门店和会员体系为核心，叠加直营网店与全渠道经营",
+        "admission_reason_summary": "母婴零售连锁网络和多门店经营特征明确，符合多门店连锁零售画像要求",
+        "validation_gap": "需补充直营/加盟结构与区域经营颗粒度细节，明确persona边界"
+      },
+      "risk_flags": [
+        "persona_overreach"
+      ]
+    },
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "track_assessment": {
+        "status": "uncertain",
+        "reason": "缺少官方高可信来源证据，无法确认主线是否成立"
+      },
+      "persona_assessment": {
+        "status": "uncertain",
+        "reason": "缺少官方高可信来源证据，无法确认画像是否匹配"
+      },
+      "minimum_fact_assessment": {
+        "status": "fail",
+        "reason": "缺少官方高可信来源，现有描述无有效证据支撑，最小事实不成立"
+      },
+      "maturity_assessment": {
+        "status": "downgrade",
+        "reason": "无有效证据支撑现有L4层级，存在明显高估风险",
+        "suggested_maturity": "待核验"
+      },
+      "confidence_assessment": {
+        "信息扎实度": "低",
+        "ICP匹配概率": "待核验"
+      },
+      "evidence_gaps": [
+        "补充官方/高可信公开来源证据，验证主体、产品、商业模式核心事实",
+        "补充中国经营主体、门店结构和商品分析切入证据",
+        "优化入池理由的非模板化描述",
+        "完成promotion_review队列审批",
+        "明确persona边界稳定性"
+      ],
+      "rewrite_suggestion": {
+        "公司产品与服务概述": "暂缺有效证据支撑，待补证",
+        "商业模式概述": "暂缺有效证据支撑，待补证",
+        "admission_reason_summary": "暂缺有效证据支撑，待补证",
+        "validation_gap": "缺少官方高可信来源，需补全核心事实证据"
+      },
+      "risk_flags": [
+        "generic_fact_risk",
+        "persona_overreach",
+        "track_boundary_risk",
+        "maturity_overrated",
+        "evidence_thin",
+        "official_source_missing"
+      ]
+    },
+    {
+      "account_id": "acc_eastroc",
+      "account_name": "东鹏饮料（集团）股份有限公司",
+      "track_assessment": {
+        "status": "keep",
+        "reason": "官网等证据确认其为多品类饮料品牌经营，符合零售消费主线定义"
+      },
+      "persona_assessment": {
+        "status": "keep",
+        "reason": "证据支撑多SKU、全渠道协同特征，符合高SKU品牌消费品画像，仅存在边界观察提醒"
+      },
+      "minimum_fact_assessment": {
+        "status": "pass",
+        "reason": "主体、多品类饮料产品、品牌分销商业模式均有官网等A类证据支撑，最小事实成立"
+      },
+      "maturity_assessment": {
+        "status": "keep",
+        "reason": "原层级L5为初始层级，现有证据支撑其可升级至L3，暂未发现高估",
+        "suggested_maturity": "L3"
+      },
+      "confidence_assessment": {
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高"
+      },
+      "evidence_gaps": [
+        "补充渠道结构、费用归因与多基地产销协同公开信息",
+        "完成promotion_review队列审批",
+        "明确persona边界稳定性"
+      ],
+      "rewrite_suggestion": {
+        "公司产品与服务概述": "覆盖东鹏特饮、电解质饮料、即饮咖啡、无糖茶等多品类饮料产品，已建立一物一码、五码关联的全渠道数字化链路",
+        "商业模式概述": "以品牌饮料经营为核心，依托全国渠道分销与终端动销体系扩张",
+        "admission_reason_summary": "拥有多品类饮料产品矩阵，全国渠道覆盖特征明确，符合高SKU品牌消费品画像要求",
+        "validation_gap": "需补充渠道结构、费用归因与多基地产销协同公开信息，明确persona边界"
+      },
+      "risk_flags": [
+        "persona_overreach"
+      ]
+    }
+  ],
+  "overall_findings": [
+    "本次校验5个样本中，4个（名创优品、三只松鼠、爱婴室、东鹏饮料）主线及画像核心特征有证据支撑，1个（泡泡玛特）缺少官方高可信来源，需重点补证",
+    "多数样本存在persona边界不稳定、缺少promotion_review审批的共性风险",
+    "3个正式候选样本（名创优品、爱婴室、东鹏饮料）最小事实成立，1个观察样本（三只松鼠）最小事实部分成立，1个观察样本（泡泡玛特）最小事实不成立",
+    "东鹏饮料现有证据已满足L3层级要求，可启动升级流程"
+  ]
+}

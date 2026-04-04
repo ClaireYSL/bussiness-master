@@ -1,0 +1,213 @@
+{
+    "task_id": "calibration_batch_5",
+    "samples": [
+        {
+            "account_id": "acc_inovance",
+            "account_name": "深圳市汇川技术股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "年报等官方证据确认多业务线全球布局，符合先进制造主线定义"
+            },
+            "persona_assessment": {
+                "status": "keep",
+                "reason": "证据支撑多业务线制造集团属性，仅存在边界观察预警"
+            },
+            "minimum_fact_assessment": {
+                "status": "pass",
+                "reason": "主体、产品服务、商业模式三项最小事实均有官方证据支撑"
+            },
+            "maturity_assessment": {
+                "status": "keep",
+                "reason": "现有证据支撑L1层级定位，无高估迹象",
+                "suggested_maturity": "L1"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "高",
+                "ICP匹配概率": "高"
+            },
+            "evidence_gaps": [
+                "补充多工厂颗粒度细节证据",
+                "补充渠道协同细节证据"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "工业自动化、驱动控制、新能源汽车电驱等产品，面向设备制造商/工业客户销售",
+                "商业模式概述": "研发、制造、销售一体化的技术型制造集团，多业务线全球布局",
+                "admission_reason_summary": "多业务线经营协同复杂度高，符合先进制造经营型BI需求，可作为L1母样本",
+                "validation_gap": "多工厂颗粒度、渠道协同细节待补充"
+            },
+            "risk_flags": [
+                "persona_overreach",
+                "evidence_thin"
+            ]
+        },
+        {
+            "account_id": "acc_sany",
+            "account_name": "三一重工股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "强核验记录确认多基地制造全球经营，符合先进制造主线定义"
+            },
+            "persona_assessment": {
+                "status": "keep",
+                "reason": "多基地制造集团属性有核验支撑，仅存在边界观察预警"
+            },
+            "minimum_fact_assessment": {
+                "status": "pass",
+                "reason": "主体、产品服务、商业模式三项最小事实均有核验记录支撑"
+            },
+            "maturity_assessment": {
+                "status": "keep",
+                "reason": "现有证据符合L2层级要求，无高估迹象",
+                "suggested_maturity": "L2"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "高",
+                "ICP匹配概率": "中高"
+            },
+            "evidence_gaps": [
+                "补充工厂布局细节证据",
+                "补充事业部颗粒度细节证据"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "工程机械研发、制造、销售业务，采用多工厂多事业部集团架构",
+                "商业模式概述": "集团型制造，依赖多基地协同+总部统一经营管理",
+                "admission_reason_summary": "多基地制造、全球经营协同复杂度高，可作为多工厂制造画像补充标尺",
+                "validation_gap": "工厂布局、事业部颗粒度细节待补充"
+            },
+            "risk_flags": [
+                "persona_overreach",
+                "evidence_thin"
+            ]
+        },
+        {
+            "account_id": "acc_amec",
+            "account_name": "中微半导体设备（上海）股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "官网、业绩说明会等证据支撑属于高端制造范畴，符合先进制造主线定义"
+            },
+            "persona_assessment": {
+                "status": "adjust",
+                "reason": "当前使用的persona未纳入本次校准标准画像库，需调整为符合定义的先进制造类标准画像"
+            },
+            "minimum_fact_assessment": {
+                "status": "partial",
+                "reason": "产品、商业模式基本有证据支撑，但入池理由偏模板化，经营协同细节待确认"
+            },
+            "maturity_assessment": {
+                "status": "uncertain",
+                "reason": "存在入池理由模板化、边界不稳定问题，暂无法确认层级是否高估",
+                "suggested_maturity": "待核验后确认"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "中高",
+                "ICP匹配概率": "中高"
+            },
+            "evidence_gaps": [
+                "补充官方源经营与系统类证据",
+                "补充多工厂/事业部协同细节证据",
+                "优化入池理由，避免模板化表述"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "半导体设备相关产品与解决方案，为集成电路和泛半导体行业提供高端设备与服务",
+                "商业模式概述": "技术驱动型制造，覆盖研发、制造、销售与项目交付全链路协同",
+                "admission_reason_summary": "高端半导体设备制造，研发投入高、产品线拓展快，经营协同复杂度高，适合作为技术型制造候选",
+                "validation_gap": "需补充官方源经营与系统类证据，确认组织协同复杂度"
+            },
+            "risk_flags": [
+                "generic_fact_risk",
+                "persona_overreach",
+                "evidence_thin",
+                "official_source_missing"
+            ]
+        },
+        {
+            "account_id": "acc_bozon",
+            "account_name": "博众精工科技股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "档案补强确认属于自动化装备制造范畴，符合先进制造主线定义"
+            },
+            "persona_assessment": {
+                "status": "adjust",
+                "reason": "当前使用的persona未纳入本次校准标准画像库，需调整为符合定义的先进制造类标准画像"
+            },
+            "minimum_fact_assessment": {
+                "status": "partial",
+                "reason": "产品、商业模式基本成立，但LTC链路与组织复杂度证据不足"
+            },
+            "maturity_assessment": {
+                "status": "keep",
+                "reason": "现有评估显示可上移至L2/L3，暂未发现L4层级被高估",
+                "suggested_maturity": "L4"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "中",
+                "ICP匹配概率": "中高"
+            },
+            "evidence_gaps": [
+                "补充LTC链路证据",
+                "补充组织复杂度细节证据"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "自动化装备与智能制造解决方案，服务消费电子、新能源等制造场景",
+                "商业模式概述": "主营非标自动化装备、产线解决方案交付，研产销全链路协同",
+                "admission_reason_summary": "装备制造业务客户协同复杂度高，符合技术型制造画像要求",
+                "validation_gap": "LTC链路、组织复杂度细节待补充"
+            },
+            "risk_flags": [
+                "persona_overreach",
+                "evidence_thin"
+            ]
+        },
+        {
+            "account_id": "acc_jereh",
+            "account_name": "烟台杰瑞石油服务集团股份有限公司",
+            "track_assessment": {
+                "status": "uncertain",
+                "reason": "产品服务、商业模式核心字段为空，仅有人工备注说明制造属性，证据不足"
+            },
+            "persona_assessment": {
+                "status": "uncertain",
+                "reason": "核心字段缺失，边界不稳定，无法确认是否符合多工厂制造集团画像"
+            },
+            "minimum_fact_assessment": {
+                "status": "fail",
+                "reason": "公司产品与服务概述、商业模式概述核心字段为空，关键事实严重不足"
+            },
+            "maturity_assessment": {
+                "status": "downgrade",
+                "reason": "核心字段缺失，不满足L5候选要求，成熟度被高估",
+                "suggested_maturity": "待补证后重新判定"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "中低",
+                "ICP匹配概率": "中"
+            },
+            "evidence_gaps": [
+                "补充公司产品与服务概述官方信息",
+                "补充商业模式概述官方信息",
+                "补充多基地布局、业务条线与全球经营证据"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "能源装备与油田工程服务相关产品（待补官方信息）",
+                "商业模式概述": "待补官方信息",
+                "admission_reason_summary": "暂按高端能源装备制造属性归入观察池，待补证后确认正式入池资格",
+                "validation_gap": "产品服务、商业模式、多基地布局、业务条线、全球经营等信息均待补充"
+            },
+            "risk_flags": [
+                "generic_fact_risk",
+                "track_boundary_risk",
+                "maturity_overrated",
+                "evidence_thin",
+                "official_source_missing"
+            ]
+        }
+    ],
+    "overall_findings": [
+        "本次校准5个样本均归属于先进制造主线，其中4个样本主线暂可保留，1个（杰瑞股份）因核心字段缺失需补证后再判定主线归属",
+        "2个样本（汇川技术、三一重工）使用标准persona暂可保留，2个样本（中微半导体、博众精工）使用非标准persona需调整，1个样本（杰瑞股份）画像无法判定",
+        "1个样本（杰瑞股份）核心字段缺失，最小事实不成立，上移流程被block",
+        "所有样本均存在边界不稳定、待补证点，需按优先级推进核验工作"
+    ]
+}

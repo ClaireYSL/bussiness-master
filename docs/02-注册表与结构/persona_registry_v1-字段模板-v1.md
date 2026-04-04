@@ -88,5 +88,6 @@ persona_id,persona_version,persona_name,track_id,status,definition,fit_criteria,
 ## 9. 与其他表的关系
 
 - `external_target_account_pool_v2.persona_tag` 应引用本表中的 `persona_id` 或 `persona_name`
+- `external_target_account_pool_v2.secondary_persona_tags` 应引用本表中的 `persona_id` 或 `persona_name`
 - `knowledge_asset_registry_v1.persona_ids` 应引用本表
 - 新行业接入前，至少要先在本表建立初始画像集

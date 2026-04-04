@@ -1,0 +1,703 @@
+{
+  "task_id": "calibration_batch_5",
+  "task_scope": "静态潜客池污染止血后的小样本校准初判",
+  "rules_summary": {
+    "frozen_content": [
+      "旧L3+客户档案页正文不得直接作为事实源",
+      "旧主表解释型长文本不得直接作为判断依据",
+      "旧重点公司note和专题包中未挂真实来源的描述不得直接作为事实源"
+    ],
+    "minimum_fields": [
+      "account_id",
+      "account_canonical_name",
+      "primary_track",
+      "persona_tag",
+      "公司产品与服务概述",
+      "商业模式概述",
+      "admission_reason_summary",
+      "validation_gap",
+      "信息扎实度",
+      "ICP匹配概率",
+      "静态潜客记录成熟度"
+    ],
+    "allowed_sources": [
+      "官网",
+      "年报/财报/招股书/IR",
+      "官方新闻",
+      "官方招聘页",
+      "交易所公告",
+      "权威公开资料"
+    ]
+  },
+  "track_definitions": [
+    {
+      "track_id": "retail_consumer",
+      "track_name": "零售消费",
+      "definition": "以品牌零售、连锁零售、消费品经营为主，存在总部到渠道/门店/商品经营协同复杂度。"
+    },
+    {
+      "track_id": "cross_border_ecommerce",
+      "track_name": "跨境电商",
+      "definition": "以品牌出海、多平台、多店铺、跨国经营或履约协同为主要结构特征。"
+    },
+    {
+      "track_id": "advanced_manufacturing",
+      "track_name": "先进制造",
+      "definition": "以多工厂、多事业部、研产销协同、经营驾驶舱或集团经营可视化需求为主要结构特征。"
+    }
+  ],
+  "persona_definitions": [
+    {
+      "persona_id": "retail_multi_store",
+      "persona_name": "多门店连锁零售",
+      "definition": "总部强管理、多门店、多区域、多层级经营复盘需求明显的连锁零售经营主体。"
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "persona_name": "高SKU品牌消费品",
+      "definition": "SKU多、上新快、渠道复杂、库存与商品经营联动明显的品牌消费品企业。"
+    },
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "persona_name": "多平台品牌出海型",
+      "definition": "多平台、多店铺、多国家经营，利润分析与供需协同复杂的品牌出海企业。"
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "persona_name": "多工厂离散制造集团",
+      "definition": "多工厂、多事业部、经营协同和LTC可视化需求明显的制造集团。"
+    }
+  ],
+  "knowledge_summary": [
+    {
+      "asset_cluster": "retail_high_sku_brand",
+      "signals": [
+        "商品/库存/补货联动复杂",
+        "渠道/动销/分货协同明显",
+        "品牌消费品属性强"
+      ]
+    },
+    {
+      "asset_cluster": "cbec_multi_platform_brand",
+      "signals": [
+        "多平台经营",
+        "跨国经营或履约复杂度",
+        "T+1利润分析和供应链协同需求明显"
+      ]
+    },
+    {
+      "asset_cluster": "mfg_multi_factory_group",
+      "signals": [
+        "多工厂或多基地",
+        "集团经营驾驶舱需求",
+        "事业部/产线协同复杂"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "account_id": "acc_anker",
+      "account_canonical_name": "安克创新科技股份有限公司",
+      "current_record": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "消费电子品牌出海，覆盖充电储能、智能设备及多品类产品矩阵。",
+        "商业模式概述": "品牌出海与多平台经营并行，依托跨境渠道和全球市场销售。",
+        "admission_reason_summary": "全球品牌出海和多平台经营特征稳定，可作为跨境品牌出海核心锚点。",
+        "validation_gap": "平台矩阵和区域经营颗粒度仍可补",
+        "信息扎实度": "高",
+        "ICP匹配概率": "高",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://www.anker.com.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安克创新",
+        "https://quote.eastmoney.com/unify/r/0.300866",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300866",
+        "安克官网可确认其全球消费电子品牌出海属性与全球市场覆盖，支撑其作为跨境品牌出海 `L1` 锚点。",
+        "安克创新科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "official_website",
+          "strength": "A",
+          "supports": [
+            "主线",
+            "画像",
+            "上移"
+          ],
+          "summary": "安克官网可确认其全球消费电子品牌出海属性与全球市场覆盖，支撑其作为跨境品牌出海 `L1` 锚点。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "安克创新科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "按品牌出海公司口径补强产品矩阵与经营模式，并切换到有效话术资产。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_anker",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "平台矩阵和区域经营颗粒度仍可补"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_anker",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_songmics",
+      "account_canonical_name": "致欧家居科技股份有限公司",
+      "current_record": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "家居家清类品牌出海，覆盖多平台和海外仓经营。",
+        "商业模式概述": "跨境品牌零售，依赖平台、供应链与海外仓协同。",
+        "admission_reason_summary": "家居出海链路长、平台和区域经营复杂，可作为跨境品牌出海补充标尺。",
+        "validation_gap": "海外仓与平台颗粒度仍可补",
+        "信息扎实度": "高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L2",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=%E8%87%B4%E6%AC%A7%E5%AE%B6%E5%B1%85%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/外部目标客户池-v1.0-第二批扩展候选池-v0.3-第二轮核验版.md",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=致欧家居科技股份有限公司",
+        "第二轮核验已确认致欧家居家居出海链路长、平台和区域经营复杂，支撑 `L2`。",
+        "致欧家居科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。",
+        "把致欧家居重新写回品牌出海家居公司的公司级事实，而不是停留在泛化跨境模板。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "画像",
+            "上移"
+          ],
+          "summary": "第二轮核验已确认致欧家居家居出海链路长、平台和区域经营复杂，支撑 `L2`。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "致欧家居科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "把致欧家居重新写回品牌出海家居公司的公司级事实，而不是停留在泛化跨境模板。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_songmics",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "海外仓与平台颗粒度仍可补"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_songmics",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_jihong",
+      "account_canonical_name": "厦门吉宏科技股份有限公司",
+      "current_record": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_supply_chain_complex",
+        "公司产品与服务概述": "跨境电商与包装印刷业务并行，覆盖品牌出海与包装解决方案。",
+        "商业模式概述": "跨境电商运营与制造服务双轮驱动。",
+        "admission_reason_summary": "跨境经营与供应链协同方向成立，客观上符合复杂跨境经营画像。",
+        "validation_gap": "已上移至 L3；后续继续补跨境业务占比、平台结构和供应链复杂度的更强官方 / 高可信证据。",
+        "信息扎实度": "中高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L3",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门吉宏科技股份有限公司",
+        "吉宏的跨境经营与包装印刷双轮驱动结构已经足以支撑其作为复杂跨境经营次级样本。",
+        "吉宏在投放、选品、履约与利润归因上的分析诉求明确，能够支撑利润改善和供应链协同类解释。",
+        "厦门吉宏科技股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "profile_observation",
+          "strength": "B",
+          "supports": [
+            "business_model"
+          ],
+          "summary": "吉宏的跨境经营与包装印刷双轮驱动结构已经足以支撑其作为复杂跨境经营次级样本。"
+        },
+        {
+          "evidence_type": "profile_observation",
+          "strength": "B",
+          "supports": [
+            "digital_signal"
+          ],
+          "summary": "吉宏在投放、选品、履约与利润归因上的分析诉求明确，能够支撑利润改善和供应链协同类解释。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "厦门吉宏科技股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "厦门吉宏科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "修正吉宏科技从泛化跨境模板回到跨境零售与营销服务企业的公司级事实。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_jihong",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "已上移至 L3；后续继续补跨境业务占比、平台结构和供应链复杂度的更强官方 / 高可信证据。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_jihong",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "account_canonical_name": "子不语集团有限公司",
+      "current_record": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_supply_chain_complex",
+        "公司产品与服务概述": "跨境时尚电商，覆盖服饰及生活方式品类的全球线上销售。",
+        "商业模式概述": "以跨平台运营和品牌化出海为核心，依赖选品、投放与供应链协同。",
+        "admission_reason_summary": "服饰跨境与多平台经营方向成立，可作为复杂跨境经营画像候选。",
+        "validation_gap": "主体、组织结构与经营复杂度证据仍需补。",
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L4",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md",
+        "https://www.hkexnews.hk/search/titlesearch.xhtml?lang=zh&search=子不语集团有限公司",
+        "子不语集团有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。",
+        "子不语集团有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。",
+        "子不语集团有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "子不语集团有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "子不语集团有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "子不语集团有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "把子不语收回到跨境时尚多平台电商公司的公司级事实。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_zibuyu",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "主体、组织结构与经营复杂度证据仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_zibuyu",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_canonical_name": "乐歌人体工学科技股份有限公司",
+      "current_record": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_brand_outbound",
+        "公司产品与服务概述": null,
+        "商业模式概述": null,
+        "admission_reason_summary": "人体工学家居与海外品牌经营属性强，符合品牌出海画像。",
+        "validation_gap": "海外平台结构、品牌矩阵与区域经营仍需补。",
+        "信息扎实度": "中低",
+        "ICP匹配概率": "中",
+        "静态潜客记录成熟度": "L5",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+        "第五批候选已明确乐歌人体工学产品出海与海外经营属性。",
+        "乐歌人体工学科技股份有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。",
+        "乐歌人体工学科技股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "主线",
+            "画像",
+            "入池"
+          ],
+          "summary": "第五批候选已明确乐歌人体工学产品出海与海外经营属性。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "乐歌人体工学科技股份有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "A",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "乐歌人体工学科技股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "乐歌人体工学科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "把乐歌收回到人体工学与健康办公品牌出海公司的公司级事实。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_loctek",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "boundary_review",
+          "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "海外平台结构、品牌矩阵与区域经营仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_loctek",
+          "decision": "block",
+          "blocking_issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+        }
+      }
+    }
+  ],
+  "source_boundary_check": {
+    "declared_source_tags": [
+      "abstract_knowledge",
+      "structured_main_record",
+      "structured_profile_record",
+      "evidence_summary"
+    ],
+    "frozen_input_detected": false
+  },
+  "local_validation_summary": [
+    {
+      "account_id": "acc_anker",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_songmics",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_jihong",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_loctek",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "block"
+    }
+  ]
+}

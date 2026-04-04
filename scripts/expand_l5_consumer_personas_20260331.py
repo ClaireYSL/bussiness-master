@@ -293,6 +293,7 @@ def build_main_row(candidate: Candidate) -> dict[str, str]:
         "industry_l2": candidate.board_name or meta["industry_l2_default"],
         "business_model": meta["business_model"],
         "persona_tag": candidate.persona_tag,
+        "secondary_persona_tags": "",
         "company_scale_band": "待补公开财报口径",
         "complexity_tag": meta["complexity_tag"],
         "primary_jtbd": meta["primary_jtbd"],
@@ -352,6 +353,7 @@ def append_profile_rows(candidates: list[Candidate], payloads: dict[str, dict[st
                 profile_row[key] = payload[key]
         profile_row.update(
             {
+                "secondary_persona_tags": "",
                 "management_persona_tags": "",
                 "static_maturity_level": "L5",
                 "archive_status": "有效",

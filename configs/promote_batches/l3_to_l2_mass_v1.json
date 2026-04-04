@@ -1,0 +1,9 @@
+{
+  "batch_id": "promote_batch_l3_to_l2_mass_v1",
+  "from_level": "L3",
+  "target_level": "L2",
+  "track": "",
+  "limit": 20,
+  "account_ids": [],
+  "output_file": "deliveries/promote_batch_l3_to_l2_mass_v1.json"
+}

@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import argparse
+import json
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,7 +15,22 @@ ROOT = WORKSPACE.parents[2]
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
-from shared.static_pool import evaluate_promotion_gate, normalize_review_status, render_promotion_gate_summary
+from shared.static_pool import (
+    apply_row_updates,
+    attach_account_ids,
+    append_semicolon_note,
+    evaluate_promotion_batch,
+    evaluate_promotion_gate,
+    ensure_evidence_row,
+    load_main_rows_with_fallback,
+    load_sheet_rows,
+    normalize_review_status,
+    prepend_gap_once,
+    render_promotion_gate_summary,
+    resolve_open_queue_rows,
+    update_main_promotion_core,
+    update_profile_promotion_core,
+)
 
 
 TODAY = "2026-03-31"
@@ -23,6 +40,7 @@ MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
 PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
 GOV_XLSX = VAULT / "治理与证据.xlsx"
 TEAM_INDEX_XLSX = VAULT / "L3以上客户档案索引-团队共享.xlsx"
+MAIN_SHARED_XLSX = VAULT / "内部运营-静态潜客池-共享版.xlsx"
 
 HOME_MD = VAULT / "潜客池-首页.md"
 TOTAL_MD = VAULT / "05-汇总与状态/01-总览/内部总览-静态潜客池-总池汇总.md"
@@ -32,6 +50,8 @@ L3_DIR = VAULT / "07-L3以上客户档案/02-L3档案"
 L12_DIR = VAULT / "07-L3以上客户档案/01-L1-L2档案"
 DOC_PATH = WORKSPACE / "docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v3.md"
 MEMORY_PATH = WORKSPACE / "memory/2026-03-31.md"
+BATCH_CONFIG = WORKSPACE / "configs/promote_batches/retail_l5_to_l3_v1.json"
+PREFLIGHT_OUTPUT = WORKSPACE / "deliveries/promote_batch_retail_l5_to_l3_v1_wrapper.json"
 
 
 PERSONA_META = {
@@ -178,6 +198,47 @@ class Candidate:
     track: str
 
 
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="Legacy wrapper for the retail L5->L3 promote batch.")
+    parser.add_argument("--report-only", action="store_true", help="Only run the shared preflight report.")
+    return parser
+
+
+def run_preflight_report() -> dict[str, object]:
+    config = json.loads(BATCH_CONFIG.read_text(encoding="utf-8"))
+    main_rows = load_main_rows_with_fallback(MAIN_XLSX, "accounts_main", MAIN_SHARED_XLSX, "全量主表")
+    _profile_headers, profile_rows = load_sheet_rows(PROFILE_XLSX, "account_profiles")
+    _queue_headers, queue_rows = load_sheet_rows(GOV_XLSX, "review_queue")
+    _evidence_headers, evidence_rows = load_sheet_rows(GOV_XLSX, "evidence_log")
+    main_rows = attach_account_ids(main_rows, profile_rows)
+    payload = {
+        "batch_id": str(config.get("batch_id") or PREFLIGHT_OUTPUT.stem),
+        "from_level": str(config.get("from_level") or "L5"),
+        "target_level": str(config.get("target_level") or "L3"),
+        "track": str(config.get("track") or "零售消费"),
+        "write_back": False,
+        "selection": {
+            "account_ids": list(config.get("account_ids") or []),
+            "limit": int(config.get("limit") or 5),
+        },
+    }
+    payload.update(
+        evaluate_promotion_batch(
+            main_rows,
+            profile_rows,
+            evidence_rows,
+            queue_rows,
+            account_ids=list(config.get("account_ids") or []),
+            from_level=str(config.get("from_level") or "L5"),
+            target_level=str(config.get("target_level") or "L3"),
+            track=str(config.get("track") or "零售消费"),
+            limit=int(config.get("limit") or 5),
+        )
+    )
+    PREFLIGHT_OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return payload
+
+
 def normalize_filename(name: str) -> str:
     return name.replace("/", "／").replace(":", "：")
 
@@ -263,6 +324,8 @@ def render_archive_page(profile: Dict[str, object], coverage: Dict[str, object])
     name = str(profile["account_canonical_name"])
     mgmt = mgmt_links(str(profile.get("management_persona_tags") or ""))
     persona_link = persona_wikilink(str(profile["persona_tag"]))
+    secondary_personas = str(profile.get("secondary_persona_tags") or "待补充")
+    knowledge_refs = str(profile.get("knowledge_asset_refs") or "待补充")
     refs = str(profile.get("primary_source_refs") or "").split("\n")
     refs = [x.strip() for x in refs if x and str(x).strip()]
     refs_lines = []
@@ -306,6 +369,7 @@ profile_status: {profile['profile_status']}
 ## 档案定位
 - 主线：[[../../01-主线/{profile['primary_track']}.md|{profile['primary_track']}]]
 - 业务形态画像：{persona_link}
+- 次级画像：{secondary_personas}
 - 经营诉求画像：{mgmt}
 - 信息扎实度：`{profile['信息扎实度']}`
 - ICP匹配概率：`{profile['ICP匹配概率']}`
@@ -313,6 +377,10 @@ profile_status: {profile['profile_status']}
 - 静态优先级：`{profile['static_priority']}`
 - 档案完整度：`{status_cn(str(profile['profile_status']))}`
 - 若需看使用说明：[[../../05-汇总与状态/04-状态与校验/潜客档案使用说明.md|潜客档案使用说明]]
+
+## 相关知识引用
+- 强相关知识资产：{knowledge_refs}
+- 主要切入话术：{str(profile.get('talk_track_refs') or '待补充')}
 
 ## 为什么进入当前层级
 - 入池理由摘要：{profile['admission_reason_summary']}
@@ -417,7 +485,23 @@ def render_l3_index(records: List[Dict[str, object]]) -> str:
     return "\n".join(lines).replace("../../07-L3以上客户档案/07-L3以上客户档案/", "../../07-L3以上客户档案/")
 
 
-def main() -> None:
+def main(report_only: bool = False) -> None:
+    preflight = run_preflight_report()
+    preflight_account_ids = {
+        str(item.get("account_id") or "")
+        for item in preflight.get("results", [])
+        if str(item.get("account_id") or "")
+    }
+    if report_only:
+        print(
+            {
+                "mode": "report_only",
+                "output_file": str(PREFLIGHT_OUTPUT),
+                "batch_summary": preflight["batch_summary"],
+            }
+        )
+        return
+
     main_wb = load_workbook(MAIN_XLSX)
     main_ws = main_wb["accounts_main"]
     summary_ws = main_wb["accounts_summary"]
@@ -493,6 +577,8 @@ def main() -> None:
 
     for r in range(2, main_ws.max_row + 1):
         account_id = str(main_ws.cell(r, main_idx["account_id"]).value or "")
+        if preflight_account_ids and account_id not in preflight_account_ids:
+            continue
         maturity = main_ws.cell(r, main_idx["静态潜客记录成熟度"]).value
         legacy = main_ws.cell(r, main_idx["legacy_customer_check_status"]).value
         review_status = normalize_review_status(str(main_ws.cell(r, main_idx["review_status"]).value or ""))
@@ -528,6 +614,8 @@ def main() -> None:
     if not candidates:
         for r in range(2, main_ws.max_row + 1):
             account_id = str(main_ws.cell(r, main_idx["account_id"]).value or "")
+            if preflight_account_ids and account_id not in preflight_account_ids:
+                continue
             source_note = str(main_ws.cell(r, main_idx["source_note"]).value or "")
             maturity = main_ws.cell(r, main_idx["静态潜客记录成熟度"]).value
             if (
@@ -562,17 +650,22 @@ def main() -> None:
         # main
         mr = main_rows_to_update[candidate.account_id]
         if main_ws.cell(mr, main_idx["静态潜客记录成熟度"]).value != "L3" or "L5到L3批量上移" not in str(main_ws.cell(mr, main_idx["source_note"]).value or ""):
-            main_ws.cell(mr, main_idx["信息扎实度"]).value = "中"
-            main_ws.cell(mr, main_idx["ICP匹配概率"]).value = "中"
-            main_ws.cell(mr, main_idx["静态潜客记录成熟度"]).value = "L3"
-            main_ws.cell(mr, main_idx["source_note"]).value = (
-                f"{main_ws.cell(mr, main_idx['source_note']).value}；{TODAY} L5到L3批量上移"
+            update_main_promotion_core(
+                main_ws,
+                main_idx,
+                mr,
+                maturity_level="L3",
+                source_note_suffix=f"{TODAY} L5到L3批量上移",
+                validation_gap=main_gap,
+                extra_updates={
+                    "信息扎实度": "中",
+                    "ICP匹配概率": "中",
+                    "last_verified_at": TODAY,
+                    "收入规模区间": "待补公开财报口径",
+                    "利润状态概述": "待补公开财报口径",
+                    "营收增长概述": "待补公开财报口径",
+                },
             )
-            main_ws.cell(mr, main_idx["validation_gap"]).value = main_gap
-            main_ws.cell(mr, main_idx["last_verified_at"]).value = TODAY
-            main_ws.cell(mr, main_idx["收入规模区间"]).value = "待补公开财报口径"
-            main_ws.cell(mr, main_idx["利润状态概述"]).value = "待补公开财报口径"
-            main_ws.cell(mr, main_idx["营收增长概述"]).value = "待补公开财报口径"
             for key, column in [
                 ("product", "公司产品与服务概述"),
                 ("model", "商业模式概述"),
@@ -593,16 +686,14 @@ def main() -> None:
         # profiles
         pr = profile_rows[candidate.account_id]
         updates = {
+            "secondary_persona_tags": "",
             "management_persona_tags": meta["mgmt"],
-            "static_maturity_level": "L3",
             "信息扎实度": "中",
             "ICP匹配概率": "中",
-            "静态潜客记录成熟度": "L3",
             "admission_reason_summary": f"{candidate.name} 具备{meta['label']}画像的典型消费品经营特征，已达到 L3 可读档案层最低门槛。",
             "current_business_problem": meta["problem"],
             "primary_jtbd": meta["jtbd1"],
             "secondary_jtbd": meta["jtbd2"],
-            "validation_gap": main_gap,
             "archive_status": "active",
             "公司产品与服务概述": meta["product"],
             "商业模式概述": meta["model"],
@@ -625,17 +716,23 @@ def main() -> None:
             "primary_source_refs": f"{candidate.board}\n{quote_url}",
             "official_source_count": 0,
             "high_confidence_source_count": 2,
-            "last_profiled_at": TODAY,
             "profile_owner": "Codex 结构化沉淀",
-            "profile_status": "standard_ready",
             "talk_track_refs": meta["track_talks"],
             "share_status": profiles_ws.cell(pr, p_idx["share_status"]).value or "未分享",
             "share_batch_id": profiles_ws.cell(pr, p_idx["share_batch_id"]).value,
             "share_last_marked_at": profiles_ws.cell(pr, p_idx["share_last_marked_at"]).value,
             "share_note": profiles_ws.cell(pr, p_idx["share_note"]).value or "当前未进入团队共享范围",
         }
-        for key, value in updates.items():
-            profiles_ws.cell(pr, p_idx[key]).value = value
+        update_profile_promotion_core(
+            profiles_ws,
+            p_idx,
+            pr,
+            maturity_level="L3",
+            profile_status="standard_ready",
+            validation_gap=main_gap,
+            last_profiled_at=TODAY,
+            extra_updates=updates,
+        )
 
         # coverage
         cr = coverage_rows[candidate.account_id]
@@ -650,8 +747,7 @@ def main() -> None:
             "missing_core_fields": "收入规模、利润状态、营收增长仍需回到财报/年报/IR 口径继续补齐。",
             "next_action": "继续补官网、年报、投资者关系材料和字段级 evidence，必要时再评估是否上移到 L2。",
         }
-        for key, value in coverage_updates.items():
-            coverage_ws.cell(cr, c_idx[key]).value = value
+        apply_row_updates(coverage_ws, c_idx, cr, coverage_updates)
 
         # field observations
         obs_ws.append(
@@ -704,37 +800,34 @@ def main() -> None:
             ]
         )
 
-        existing_ev = any(
-            str(evidence_ws.cell(r, e_idx["evidence_id"]).value or "") == f"ev_{candidate.account_id}_l3_promote_{TODAY.replace('-', '')}"
-            for r in range(2, evidence_ws.max_row + 1)
+        ensure_evidence_row(
+            evidence_ws,
+            e_idx,
+            f"ev_{candidate.account_id}_l3_promote_{TODAY.replace('-', '')}",
+            {
+                "evidence_id": f"ev_{candidate.account_id}_l3_promote_{TODAY.replace('-', '')}",
+                "account_id": candidate.account_id,
+                "evidence_type": "promotion_assessment",
+                "source_locator": quote_url,
+                "evidence_strength": "B",
+                "supports_fields": "主线,画像,层级,档案",
+                "summary": f"{candidate.name} 基于消费品新画像公开板块主体与上市主体公开行情页，已达到 L3 可读档案层最低门槛。",
+                "captured_by": "codex_llm",
+                "captured_at": TODAY,
+                "expires_at": "",
+                "target_field": "静态潜客记录成熟度",
+                "target_value": "L3",
+            },
         )
-        if not existing_ev:
-            evidence_ws.append(
-                [
-                    f"ev_{candidate.account_id}_l3_promote_{TODAY.replace('-', '')}",
-                    candidate.account_id,
-                    "promotion_assessment",
-                    quote_url,
-                    "B",
-                    "主线,画像,层级,档案",
-                    f"{candidate.name} 基于消费品新画像公开板块主体与上市主体公开行情页，已达到 L3 可读档案层最低门槛。",
-                    "codex_llm",
-                    TODAY,
-                    "",
-                    "静态潜客记录成熟度",
-                    "L3",
-                ]
-            )
 
-        if candidate.account_id in queue_rows:
-            qr = queue_rows[candidate.account_id]
-            queue_ws.cell(qr, q_idx["status"]).value = "resolved"
-            note = str(queue_ws.cell(qr, q_idx["note"]).value or "")
-            if "已完成 L5->L3 批量上移" not in note:
-                queue_ws.cell(qr, q_idx["note"]).value = (
-                    f"{note}；{TODAY} 已完成 L5->L3 批量上移，后续继续补官网、年报、IR。"
-                )
-            queue_ws.cell(qr, q_idx["resolved_at"]).value = TODAY
+        resolve_open_queue_rows(
+            queue_ws,
+            q_idx,
+            account_id=candidate.account_id,
+            queue_type="promotion_review",
+            resolved_at=TODAY,
+            note_suffix=f"{TODAY} 已完成 L5->L3 批量上移，后续继续补官网、年报、IR。",
+        )
 
         promoted.append(candidate)
 
@@ -991,4 +1084,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    args = build_parser().parse_args()
+    main(report_only=args.report_only)

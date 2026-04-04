@@ -1,0 +1,226 @@
+{
+  "batch_id": "promote_batch_retail_l5_to_l3_v1",
+  "from_level": "L5",
+  "target_level": "L3",
+  "track": "零售消费",
+  "write_back": false,
+  "selection": {
+    "account_ids": [],
+    "limit": 5
+  },
+  "batch_summary": {
+    "allow": 0,
+    "warn": 2,
+    "block": 3
+  },
+  "results": [
+    {
+      "account_id": "acc_sanquan",
+      "account_canonical_name": "三全食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+      "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_sanquan",
+        "decision": "block",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "公司产品与服务概述",
+            "message": "公司产品与服务概述 不能为空。"
+          },
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "商业模式概述",
+            "message": "商业模式概述 不能为空。"
+          }
+        ],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+      }
+    },
+    {
+      "account_id": "acc_eastroc",
+      "account_canonical_name": "东鹏饮料（集团）股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_consumer_supply_chain_v1,ka_mapping_retail_sample_cluster_v1",
+      "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_eastroc",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_bull",
+      "account_canonical_name": "公牛集团股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+      "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_bull",
+        "decision": "block",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "公司产品与服务概述",
+            "message": "公司产品与服务概述 不能为空。"
+          },
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "商业模式概述",
+            "message": "商业模式概述 不能为空。"
+          }
+        ],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+      }
+    },
+    {
+      "account_id": "acc_nongfuspring",
+      "account_canonical_name": "农夫山泉股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_consumer_supply_chain_v1,ka_mapping_retail_sample_cluster_v1",
+      "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_nongfuspring",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_qiaqia",
+      "account_canonical_name": "洽洽食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+      "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_qiaqia",
+        "decision": "block",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "公司产品与服务概述",
+            "message": "公司产品与服务概述 不能为空。"
+          },
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "商业模式概述",
+            "message": "商业模式概述 不能为空。"
+          }
+        ],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "verification",
+        "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "task_id": "calibration_batch_5",
+  "task_scope": "静态潜客池污染止血后的小样本校准初判",
+  "rules_summary": {
+    "frozen_content": [
+      "旧L3+客户档案页正文不得直接作为事实源",
+      "旧主表解释型长文本不得直接作为判断依据",
+      "旧重点公司note和专题包中未挂真实来源的描述不得直接作为事实源"
+    ],
+    "minimum_fields": [
+      "account_id",
+      "account_canonical_name",
+      "primary_track",
+      "persona_tag",
+      "公司产品与服务概述",
+      "商业模式概述",
+      "admission_reason_summary",
+      "validation_gap",
+      "信息扎实度",
+      "ICP匹配概率",
+      "静态潜客记录成熟度"
+    ],
+    "allowed_sources": [
+      "官网",
+      "年报/财报/招股书/IR",
+      "官方新闻",
+      "官方招聘页",
+      "交易所公告",
+      "权威公开资料"
+    ]
+  },
+  "track_definitions": [
+    {
+      "track_id": "retail_consumer",
+      "track_name": "零售消费",
+      "definition": "以品牌零售、连锁零售、消费品经营为主，存在总部到渠道/门店/商品经营协同复杂度。"
+    },
+    {
+      "track_id": "cross_border_ecommerce",
+      "track_name": "跨境电商",
+      "definition": "以品牌出海、多平台、多店铺、跨国经营或履约协同为主要结构特征。"
+    },
+    {
+      "track_id": "advanced_manufacturing",
+      "track_name": "先进制造",
+      "definition": "以多工厂、多事业部、研产销协同、经营驾驶舱或集团经营可视化需求为主要结构特征。"
+    }
+  ],
+  "persona_definitions": [
+    {
+      "persona_id": "retail_multi_store",
+      "persona_name": "多门店连锁零售",
+      "definition": "总部强管理、多门店、多区域、多层级经营复盘需求明显的连锁零售经营主体。"
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "persona_name": "高SKU品牌消费品",
+      "definition": "SKU多、上新快、渠道复杂、库存与商品经营联动明显的品牌消费品企业。"
+    },
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "persona_name": "多平台品牌出海型",
+      "definition": "多平台、多店铺、多国家经营，利润分析与供需协同复杂的品牌出海企业。"
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "persona_name": "多工厂离散制造集团",
+      "definition": "多工厂、多事业部、经营协同和LTC可视化需求明显的制造集团。"
+    }
+  ],
+  "knowledge_summary": [
+    {
+      "asset_cluster": "retail_high_sku_brand",
+      "signals": [
+        "商品/库存/补货联动复杂",
+        "渠道/动销/分货协同明显",
+        "品牌消费品属性强"
+      ]
+    },
+    {
+      "asset_cluster": "cbec_multi_platform_brand",
+      "signals": [
+        "多平台经营",
+        "跨国经营或履约复杂度",
+        "T+1利润分析和供应链协同需求明显"
+      ]
+    },
+    {
+      "asset_cluster": "mfg_multi_factory_group",
+      "signals": [
+        "多工厂或多基地",
+        "集团经营驾驶舱需求",
+        "事业部/产线协同复杂"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "account_id": "acc_inovance",
+      "account_canonical_name": "深圳市汇川技术股份有限公司",
+      "current_record": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "工业自动化、驱动控制、新能源汽车电驱等产品。",
+        "商业模式概述": "研发、制造、销售一体化的技术型制造集团。",
+        "admission_reason_summary": "多业务线和经营协同明显，具备稳定的先进制造经营型 BI 锚点价值。",
+        "validation_gap": "多工厂颗粒度和渠道协同仍可补",
+        "信息扎实度": "高",
+        "ICP匹配概率": "高",
+        "静态潜客记录成熟度": "L1",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223371383.PDF",
+        "https://www.inovance.com/",
+        "汇川技术年报可确认其多业务线与全球经营布局，支撑其作为先进制造经营型 BI `L1` 母样本。",
+        "深圳市汇川技术股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。",
+        "补强汇川的工业自动化产品线与面向设备制造商/工业客户的经营模式。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "annual_report",
+          "strength": "S",
+          "supports": [
+            "主线",
+            "画像",
+            "上移"
+          ],
+          "summary": "汇川技术年报可确认其多业务线与全球经营布局，支撑其作为先进制造经营型 BI `L1` 母样本。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "深圳市汇川技术股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "补强汇川的工业自动化产品线与面向设备制造商/工业客户的经营模式。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_inovance",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "多工厂颗粒度和渠道协同仍可补"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_inovance",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_sany",
+      "account_canonical_name": "三一重工股份有限公司",
+      "current_record": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "多工厂、多事业部的集团型制造业务。",
+        "商业模式概述": "集团型制造，依赖多基地协同和总部经营管理。",
+        "admission_reason_summary": "多基地制造和全球经营明显，可作为多工厂制造补充标尺。",
+        "validation_gap": "工厂布局与事业部颗粒度仍可补",
+        "信息扎实度": "高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L2",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=%E4%B8%89%E4%B8%80%E9%87%8D%E5%B7%A5%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/外部目标客户池-v1.0-第十至第十一批关键账户强核验-v0.1.md",
+        "https://quote.eastmoney.com/unify/r/1.600031",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600031",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三一重工股份有限公司",
+        "第十至第十一批强核验已确认三一重工多基地制造和全球经营。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "画像",
+            "上移"
+          ],
+          "summary": "第十至第十一批强核验已确认三一重工多基地制造和全球经营。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "三一重工股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "补强工程机械产品线与经营模式，并收紧为工程机械集团可理解档案。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_sany",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "工厂布局与事业部颗粒度仍可补"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_sany",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_amec",
+      "account_canonical_name": "中微半导体设备（上海）股份有限公司",
+      "current_record": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "半导体设备相关产品与解决方案。",
+        "商业模式概述": "技术驱动型制造，覆盖研发、制造、销售与项目交付协同。",
+        "admission_reason_summary": "高端半导体设备制造画像成立，适合作为技术型制造候选。",
+        "validation_gap": "已上移至 L3；静态背景快照已达高质量层复用标准，后续继续补更强官方源经营与系统类证据。",
+        "信息扎实度": "中高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L3",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md",
+        "https://www.amec-inc.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中微半导体设备（上海）股份有限公司",
+        "第六批候选已明确中微公司高端半导体设备制造属性。",
+        "先进制造上移专项 v1 第1轮 完成强核验，当前静态背景与画像匹配已达到 L4 标准。",
+        "官网明确公司为面向全球的微观加工高端设备公司，为集成电路和泛半导体行业提供高端设备与服务，支撑高技术制造判断。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "主线",
+            "画像",
+            "入池"
+          ],
+          "summary": "第六批候选已明确中微公司高端半导体设备制造属性。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "先进制造上移专项 v1 第1轮 完成强核验，当前静态背景与画像匹配已达到 L4 标准。"
+        },
+        {
+          "evidence_type": "official_profile",
+          "strength": "A",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "官网明确公司为面向全球的微观加工高端设备公司，为集成电路和泛半导体行业提供高端设备与服务，支撑高技术制造判断。"
+        },
+        {
+          "evidence_type": "official_news",
+          "strength": "A",
+          "supports": [
+            "event_signal"
+          ],
+          "summary": "官方业绩说明会披露先进封装与多设备布局扩展，支撑其产品线拓展、研发投入和经营协同复杂度判断。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "share_support",
+            "persona_support"
+          ],
+          "summary": "L4 到 L3 批量上移专项 v1 已完成，当前画像、背景快照与静态复用价值已达到高质量层标准。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_amec",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "generic_admission",
+              "severity": "warn",
+              "field_name": "admission_reason_summary",
+              "message": "入池理由仍偏画像模板。"
+            },
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象可入观察/待核验状态，需补强事实或来源后再视作正式候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "已上移至 L3；静态背景快照已达高质量层复用标准，后续继续补更强官方源经营与系统类证据。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_amec",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "generic_admission",
+              "severity": "warn",
+              "field_name": "admission_reason_summary",
+              "message": "入池理由仍偏画像模板。"
+            },
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_bozon",
+      "account_canonical_name": "博众精工科技股份有限公司",
+      "current_record": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "自动化装备与智能制造解决方案，服务消费电子和新能源等制造场景。",
+        "商业模式概述": "以非标自动化装备、产线解决方案和项目交付为主。",
+        "admission_reason_summary": "装备制造与复杂客户协同方向成立，可作为技术型制造画像候选。",
+        "validation_gap": "LTC 链路和组织复杂度证据仍需补。",
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L4",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=博众精工科技股份有限公司",
+        "博众精工科技股份有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。",
+        "博众精工科技股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。",
+        "博众精工科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "博众精工科技股份有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "博众精工科技股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "博众精工科技股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "把博众精工收回到自动化装备与智能产线交付公司的公司级事实。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_bozon",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "LTC 链路和组织复杂度证据仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_bozon",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_canonical_name": "烟台杰瑞石油服务集团股份有限公司",
+      "current_record": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": null,
+        "商业模式概述": null,
+        "admission_reason_summary": "高端装备与能源装备制造协同属性明显。",
+        "validation_gap": "多基地布局、业务条线与全球经营仍需补。",
+        "信息扎实度": "中低",
+        "ICP匹配概率": "中",
+        "静态潜客记录成熟度": "L5",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=烟台杰瑞石油服务集团股份有限公司",
+        "第十三批候选已明确杰瑞股份高端装备与能源装备制造协同属性。",
+        "烟台杰瑞石油服务集团股份有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。",
+        "烟台杰瑞石油服务集团股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "主线",
+            "画像",
+            "入池"
+          ],
+          "summary": "第十三批候选已明确杰瑞股份高端装备与能源装备制造协同属性。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "B",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "烟台杰瑞石油服务集团股份有限公司 在 2026-03-29 L3扩容专项 v1 中完成批量上移评估，当前静态经营复杂度、画像相邻度与档案完整度已支撑进入 L3。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "A",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "烟台杰瑞石油服务集团股份有限公司 在 2026-03-29 L2扩容专项 v1 中完成强核验式批量上移，当前信息扎实度、ICP匹配与档案完整度已支撑进入 L2。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "烟台杰瑞石油服务集团股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        },
+        {
+          "evidence_type": "archive_repair_batch",
+          "strength": "A",
+          "supports": [
+            "background_profile",
+            "persona_support",
+            "share_support"
+          ],
+          "summary": "把杰瑞股份收回到能源装备与油田工程服务公司的公司级事实。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_jereh",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "boundary_review",
+          "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "多基地布局、业务条线与全球经营仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_jereh",
+          "decision": "block",
+          "blocking_issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+        }
+      }
+    }
+  ],
+  "source_boundary_check": {
+    "declared_source_tags": [
+      "abstract_knowledge",
+      "structured_main_record",
+      "structured_profile_record",
+      "evidence_summary"
+    ],
+    "frozen_input_detected": false
+  },
+  "local_validation_summary": [
+    {
+      "account_id": "acc_inovance",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_sany",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_amec",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_bozon",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_jereh",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "block"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "batch_id": "promote_batch_retail_l5_to_l3_v1",
+  "from_level": "L5",
+  "target_level": "L3",
+  "track": "零售消费",
+  "limit": 5,
+  "account_ids": [],
+  "output_file": "deliveries/promote_batch_retail_l5_to_l3_v1.json"
+}

@@ -1,0 +1,216 @@
+{
+    "task_id": "calibration_batch_5",
+    "samples": [
+        {
+            "account_id": "acc_anker",
+            "account_name": "安克创新科技股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "官方网站等可信证据确认其为全球消费电子品牌出海企业，符合跨境电商主线定义"
+            },
+            "persona_assessment": {
+                "status": "keep",
+                "reason": "符合标准画像中多平台品牌出海型定义，有可信证据支撑"
+            },
+            "minimum_fact_assessment": {
+                "status": "pass",
+                "reason": "主体身份、产品服务、商业模式三项信息均有可信证据支撑"
+            },
+            "maturity_assessment": {
+                "status": "keep",
+                "reason": "现有证据充分支撑L1成熟度，无高估迹象",
+                "suggested_maturity": "L1"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "高",
+                "ICP匹配概率": "高"
+            },
+            "evidence_gaps": [
+                "补充平台矩阵和区域经营颗粒度的官方证据",
+                "补充开放的promotion_review队列项"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "消费电子品牌出海，覆盖充电储能、智能设备及多品类产品矩阵",
+                "商业模式概述": "品牌出海与多平台经营并行，依托跨境渠道和全球市场销售",
+                "admission_reason_summary": "全球品牌出海和多平台经营特征稳定，可作为跨境品牌出海核心锚点",
+                "validation_gap": "平台矩阵和区域经营颗粒度仍可补，待补promotion_review队列项"
+            },
+            "risk_flags": [
+                "persona_overreach"
+            ]
+        },
+        {
+            "account_id": "acc_songmics",
+            "account_name": "致欧家居科技股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "专项核验确认其为家居品牌出海企业，符合跨境电商主线定义"
+            },
+            "persona_assessment": {
+                "status": "keep",
+                "reason": "符合标准画像中多平台品牌出海型定义，有核验证据支撑"
+            },
+            "minimum_fact_assessment": {
+                "status": "pass",
+                "reason": "主体身份、产品服务、商业模式三项信息均有核验证据支撑"
+            },
+            "maturity_assessment": {
+                "status": "keep",
+                "reason": "现有证据支撑L2成熟度，无高估迹象",
+                "suggested_maturity": "L2"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "高",
+                "ICP匹配概率": "中高"
+            },
+            "evidence_gaps": [
+                "补充海外仓与平台颗粒度的官方证据",
+                "补充开放的promotion_review队列项"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "家居家清类品牌出海，覆盖多平台和海外仓经营",
+                "商业模式概述": "跨境品牌零售，依赖平台、供应链与海外仓协同",
+                "admission_reason_summary": "家居出海链路长、平台和区域经营复杂，可作为跨境品牌出海补充标尺",
+                "validation_gap": "海外仓与平台颗粒度仍可补，待补promotion_review队列项"
+            },
+            "risk_flags": [
+                "persona_overreach"
+            ]
+        },
+        {
+            "account_id": "acc_jihong",
+            "account_name": "厦门吉宏科技股份有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "专项核验确认其存在跨境经营业务，符合跨境电商主线定义"
+            },
+            "persona_assessment": {
+                "status": "adjust",
+                "reason": "原persona_tag未纳入标准画像体系，现有证据显示其更符合多平台品牌出海型画像特征"
+            },
+            "minimum_fact_assessment": {
+                "status": "partial",
+                "reason": "主体身份明确，但跨境业务占比、供应链复杂度等核心信息仍缺官方证据"
+            },
+            "maturity_assessment": {
+                "status": "downgrade",
+                "reason": "现有证据仅支撑L2成熟度，原L3层级被高估",
+                "suggested_maturity": "L2"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "中高",
+                "ICP匹配概率": "中高"
+            },
+            "evidence_gaps": [
+                "补充跨境业务占比的官方证据",
+                "补充平台结构的官方证据",
+                "补充供应链复杂度的官方证据",
+                "补充开放的promotion_review队列项"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "跨境电商与包装印刷业务并行，覆盖品牌出海与包装解决方案",
+                "商业模式概述": "跨境电商运营与制造服务双轮驱动",
+                "admission_reason_summary": "跨境经营与供应链协同方向成立，可作为复杂跨境经营次级样本",
+                "validation_gap": "需补跨境业务占比、平台结构和供应链复杂度的高可信官方证据，待补promotion_review队列项"
+            },
+            "risk_flags": [
+                "persona_overreach",
+                "maturity_overrated",
+                "evidence_thin"
+            ]
+        },
+        {
+            "account_id": "acc_zibuyu",
+            "account_name": "子不语集团有限公司",
+            "track_assessment": {
+                "status": "keep",
+                "reason": "专项核验确认其为跨境时尚电商，符合跨境电商主线定义"
+            },
+            "persona_assessment": {
+                "status": "adjust",
+                "reason": "原persona_tag未纳入标准画像体系，现有证据显示其更符合多平台品牌出海型画像特征"
+            },
+            "minimum_fact_assessment": {
+                "status": "partial",
+                "reason": "主体身份明确，但经营复杂度、组织结构等核心信息仍缺官方证据"
+            },
+            "maturity_assessment": {
+                "status": "downgrade",
+                "reason": "现有证据仅支撑L3成熟度，原L4层级被高估",
+                "suggested_maturity": "L3"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "中",
+                "ICP匹配概率": "中高"
+            },
+            "evidence_gaps": [
+                "补充主体资质的官方证据",
+                "补充组织结构的官方证据",
+                "补充经营复杂度的官方证据",
+                "补充开放的promotion_review队列项"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "跨境时尚电商，覆盖服饰及生活方式品类的全球线上销售",
+                "商业模式概述": "以跨平台运营和品牌化出海为核心，依赖选品、投放与供应链协同",
+                "admission_reason_summary": "服饰跨境与多平台经营方向成立，可作为复杂跨境经营画像候选",
+                "validation_gap": "需补主体、组织结构与经营复杂度官方证据，待补promotion_review队列项"
+            },
+            "risk_flags": [
+                "persona_overreach",
+                "maturity_overrated",
+                "evidence_thin"
+            ]
+        },
+        {
+            "account_id": "acc_loctek",
+            "account_name": "乐歌人体工学科技股份有限公司",
+            "track_assessment": {
+                "status": "uncertain",
+                "reason": "核心字段（产品服务、商业模式概述）缺失，仅手动笔记支撑主线，证据不足"
+            },
+            "persona_assessment": {
+                "status": "uncertain",
+                "reason": "核心字段缺失，原persona_tag未纳入标准画像体系，无法判定匹配性"
+            },
+            "minimum_fact_assessment": {
+                "status": "fail",
+                "reason": "核心必填字段（公司产品与服务概述、商业模式概述）为空，关键信息严重不足"
+            },
+            "maturity_assessment": {
+                "status": "downgrade",
+                "reason": "现有证据仅支撑L3成熟度，原L5层级被高估",
+                "suggested_maturity": "L3"
+            },
+            "confidence_assessment": {
+                "信息扎实度": "中低",
+                "ICP匹配概率": "中"
+            },
+            "evidence_gaps": [
+                "补充公司产品与服务概述的官方信息",
+                "补充商业模式概述的官方信息",
+                "补充海外平台结构的官方证据",
+                "补充品牌矩阵与区域经营的官方证据",
+                "补充开放的promotion_review队列项"
+            ],
+            "rewrite_suggestion": {
+                "公司产品与服务概述": "人体工学健康办公类产品品牌出海",
+                "商业模式概述": "依托跨境渠道开展人体工学产品全球品牌化经营",
+                "admission_reason_summary": "人体工学家居与海外品牌经营属性明确，可作为品牌出海观察候选",
+                "validation_gap": "需补产品服务、商业模式、海外平台结构、品牌矩阵与区域经营官方证据，待补promotion_review队列项"
+            },
+            "risk_flags": [
+                "generic_fact_risk",
+                "persona_overreach",
+                "maturity_overrated",
+                "evidence_thin",
+                "official_source_missing"
+            ]
+        }
+    ],
+    "overall_findings": [
+        "本次校准5家样本均归属跨境电商主线，其中2家（安克创新、致欧家居）主线、画像、成熟度均符合要求可保留",
+        "2家（吉宏科技、子不语）原画像标签不在标准体系内，且成熟度被高估，需调整画像并降级",
+        "1家（乐歌）核心必填字段缺失，最小事实不成立，成熟度高估严重，需优先补证",
+        "所有样本均存在画像边界不稳、缺失promotion_review队列项的共性风险"
+    ]
+}

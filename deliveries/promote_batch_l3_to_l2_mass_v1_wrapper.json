@@ -1,0 +1,730 @@
+{
+  "batch_id": "promote_batch_l3_to_l2_mass_v1",
+  "from_level": "L3",
+  "target_level": "L2",
+  "track": "",
+  "write_back": false,
+  "selection": {
+    "account_ids": [],
+    "limit": 20
+  },
+  "batch_summary": {
+    "allow": 0,
+    "warn": 20,
+    "block": 0
+  },
+  "results": [
+    {
+      "account_id": "acc_amec",
+      "account_canonical_name": "中微半导体设备（上海）股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_amec",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "generic_admission",
+            "severity": "warn",
+            "field_name": "admission_reason_summary",
+            "message": "入池理由仍偏画像模板。"
+          },
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_zhonglian",
+      "account_canonical_name": "中联重科股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_zhonglian",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_junsheng",
+      "account_canonical_name": "宁波均胜电子股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_junsheng",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_liugong",
+      "account_canonical_name": "广西柳工机械股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_liugong",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_xcmg",
+      "account_canonical_name": "徐工集团工程机械股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_xcmg",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_eve",
+      "account_canonical_name": "惠州亿纬锂能股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_eve",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_mingyang",
+      "account_canonical_name": "明阳智慧能源集团股份公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_mingyang",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_goertek",
+      "account_canonical_name": "歌尔股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_goertek",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_jingsheng",
+      "account_canonical_name": "浙江晶盛机电股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_jingsheng",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_haitian_prec",
+      "account_canonical_name": "海天精工股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_haitian_prec",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_hanscnc",
+      "account_canonical_name": "深圳市大族数控科技股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_ltc_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_hanscnc",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_envicool",
+      "account_canonical_name": "深圳市英维克科技股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_solution_group_coordination_mfg_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_envicool",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_everwin",
+      "account_canonical_name": "深圳市长盈精密技术股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_everwin",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_eefo",
+      "account_canonical_name": "深圳新易盛通信技术股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_eefo",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_goldwind",
+      "account_canonical_name": "金风科技股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_goldwind",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_leadtrend",
+      "account_canonical_name": "领益智造股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_leadtrend",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_zhending",
+      "account_canonical_name": "鹏鼎控股（深圳）股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_zhending",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_estun",
+      "account_canonical_name": "南京埃斯顿自动化股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_estun",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_topstar",
+      "account_canonical_name": "广东拓斯达科技股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_topstar",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "generic_admission",
+            "severity": "warn",
+            "field_name": "admission_reason_summary",
+            "message": "入池理由仍偏画像模板。"
+          },
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    },
+    {
+      "account_id": "acc_lead",
+      "account_canonical_name": "无锡先导智能装备股份有限公司",
+      "from_level": "L3",
+      "target_level": "L2",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1",
+      "promotion_gate": {
+        "account_id": "acc_lead",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+      }
+    }
+  ]
+}

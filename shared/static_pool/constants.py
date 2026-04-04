@@ -19,6 +19,25 @@ LEGACY_REVIEW_STATUS_MAP = {
 
 PROMOTION_DECISIONS = ("allow", "warn", "block")
 
+STANDARD_PERSONA_IDS = {
+    "retail_brand_beauty",
+    "retail_brand_maternal_pet",
+    "retail_fashion_group",
+    "retail_multi_store",
+    "retail_high_sku_brand",
+    "cbec_multi_platform_brand",
+    "cbec_platform_operator",
+    "mfg_multi_factory_group",
+    "mfg_rnd_sales_complex",
+}
+
+LEGACY_PERSONA_TAG_MAP = {
+    "cbec_brand_outbound": "cbec_multi_platform_brand",
+    "cbec_supply_chain_complex": "cbec_multi_platform_brand",
+    "retail_multi_store_chain": "retail_multi_store",
+    "retail_chain_fnb": "retail_multi_store",
+}
+
 RISK_FLAGS = {
     "generic_fact_risk",
     "persona_overreach",
@@ -26,6 +45,7 @@ RISK_FLAGS = {
     "maturity_overrated",
     "evidence_thin",
     "official_source_missing",
+    "nonstandard_persona",
 }
 
 PLACEHOLDER_VALUES = {
