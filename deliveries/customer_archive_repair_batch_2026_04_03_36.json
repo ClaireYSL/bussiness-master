@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_36",
+  "batch_title": "客户档案修复第36批",
+  "account_names": [
+    "中国稀土集团资源科技股份有限公司",
+    "中国长城科技集团股份有限公司",
+    "中源家居股份有限公司",
+    "中矿资源集团股份有限公司",
+    "中航机载系统股份有限公司",
+    "中航西安飞机工业集团股份有限公司",
+    "中顺洁柔纸业股份有限公司",
+    "云南锡业股份有限公司",
+    "仙乐健康科技股份有限公司",
+    "会稽山绍兴酒股份有限公司",
+    "倍加洁集团股份有限公司",
+    "兰州丽尚国潮实业集团股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "中国稀土集团资源科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中国稀土：中国稀土股份主要从事中重稀土原矿加工与稀土氧化物等商品的生产经营,以及稀土技术研发和咨询服务。",
+        "商业模式概述": "以中国稀土相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中国稀土：中国稀土股份主要从事中重稀土原矿加工与稀土氧化物等商品的生产经营,以及稀土技术研发和咨询服务。",
+        "商业模式长摘录": "公开资料可支撑其以中国稀土相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000831",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中国稀土集团资源科技股份有限公司"
+      ],
+      "repair_note": "把中国稀土集团资源科技收回到中国稀土：中国稀土股份主要从事中重稀土原矿加工与稀土氧化物等商品的生产经营,以及稀土技术研发和咨询服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中国长城科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中国长城：作为我国自主安全计算产业的引领者,中国长城曾研发出我国第一台具有自主知识产权的中文微型电脑、第一块电脑硬盘、第一款终端ASIC芯片、第一台显示器、第一台光纤转换器、第一台光笔图形显示终端等,是我国电脑、电源、高新电子、金融信息化、医疗信息化等领域系列国家和行业标准的起草单位之一。",
+        "商业模式概述": "以中国长城相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中国长城：作为我国自主安全计算产业的引领者,中国长城曾研发出我国第一台具有自主知识产权的中文微型电脑、第一块电脑硬盘、第一款终端ASIC芯片、第一台显示器、第一台光纤转换器、第一台光笔图形显示终端等,是我国电脑、电源、高新电子、金融信息化、医疗信息化等领域系列国家和行业标准的起草单位之一。",
+        "商业模式长摘录": "公开资料可支撑其以中国长城相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000066",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中国长城科技集团股份有限公司"
+      ],
+      "repair_note": "把中国长城科技集团收回到中国长城：作为我国自主安全计算产业的引领者,中国长城曾研发出我国第一台具有自主知识产权的中文微型电脑、第一块电脑硬盘、第一款终端ASIC芯片、第一台显示器、第一台光纤转换器、第一台光笔图形显示终端等,是我国电脑、电源、高新电子、金融信息化、医疗信息化等领域系列国家和行业标准的起草单位之一的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中源家居股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中源家居：面对复杂多变的全球市场环境,中源家居积极推进战略转型,以“韧性增长,智领未来”为发展主题,持续优化业务结构、提升品牌价值,加速向品牌家居新零售企业迈进。",
+        "商业模式概述": "以中源家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中源家居：面对复杂多变的全球市场环境,中源家居积极推进战略转型,以“韧性增长,智领未来”为发展主题,持续优化业务结构、提升品牌价值,加速向品牌家居新零售企业迈进。",
+        "商业模式长摘录": "公开资料可支撑其以中源家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603709",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中源家居股份有限公司"
+      ],
+      "repair_note": "把中源家居收回到中源家居：面对复杂多变的全球市场环境,中源家居积极推进战略转型,以“韧性增长,智领未来”为发展主题,持续优化业务结构、提升品牌价值,加速向品牌家居新零售企业迈进的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中矿资源集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中矿资源：公司在全球范围内从事锂矿的开采,锂盐的研发、生产和销售;铯铷矿的开采,铯铷盐的研发、生产和销售;地质勘查并获取优质锂、铯矿资源,保障原材料自给自足;获得矿权和勘查自有矿权、增加资源量/储量,实现价值转化;开展地质勘查技术服务,为业主提供专业服务。",
+        "商业模式概述": "以中矿资源相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中矿资源：公司在全球范围内从事锂矿的开采,锂盐的研发、生产和销售;铯铷矿的开采,铯铷盐的研发、生产和销售;地质勘查并获取优质锂、铯矿资源,保障原材料自给自足;获得矿权和勘查自有矿权、增加资源量/储量,实现价值转化;开展地质勘查技术服务,为业主提供专业服务。",
+        "商业模式长摘录": "公开资料可支撑其以中矿资源相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002738",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中矿资源集团股份有限公司"
+      ],
+      "repair_note": "把中矿资源集团收回到中矿资源：公司在全球范围内从事锂矿的开采,锂盐的研发、生产和销售;铯铷矿的开采,铯铷盐的研发、生产和销售;地质勘查并获取优质锂、铯矿资源,保障原材料自给自足;获得矿权和勘查自有矿权、增加资源量/储量,实现价值转化;开展地质勘查技术服务,为业主提供专业服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中航机载系统股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中航机载：中航机载系统股份有限公司提供飞行控制系统、雷达系统、光电探测系统、座舱显控系统、机载计算机与网络系统、火力控制系统、惯性导航系统、大气数据系统、综合数据管理系统、控制板与调光控制系统,为国内外众多航空主机厂所及其他军工产品平台提供配套系统级产品,具备国内领先的航空电子产品研发生产制造能力。",
+        "商业模式概述": "以中航机载相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中航机载：中航机载系统股份有限公司提供飞行控制系统、雷达系统、光电探测系统、座舱显控系统、机载计算机与网络系统、火力控制系统、惯性导航系统、大气数据系统、综合数据管理系统、控制板与调光控制系统,为国内外众多航空主机厂所及其他军工产品平台提供配套系统级产品,具备国内领先的航空电子产品研发生产制造能力。",
+        "商业模式长摘录": "公开资料可支撑其以中航机载相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600372",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中航机载系统股份有限公司"
+      ],
+      "repair_note": "把中航机载系统收回到中航机载：中航机载系统股份有限公司提供飞行控制系统、雷达系统、光电探测系统、座舱显控系统、机载计算机与网络系统、火力控制系统、惯性导航系统、大气数据系统、综合数据管理系统、控制板与调光控制系统,为国内外众多航空主机厂所及其他军工产品平台提供配套系统级产品,具备国内领先的航空电子产品研发生产制造能力的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中航西安飞机工业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中航西飞：中航西飞主要从事大中型飞机整机及航空零部件等航空产品的研制、批产、维修及服务,目前主要产品有大中型运输机、轰炸机、特种飞机等,同时还承担了ARJ21、C919、AG600等国内外大中型民用飞机机体部件设计、制造、配套与服务,与欧洲空中客车公司、美国波音公司以及中国商用飞机有限责任公司、中航通用飞机有限责任公司等国内外知名航空公司拥有长期而稳定的合作关系。",
+        "商业模式概述": "以中航西飞相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中航西飞：中航西飞主要从事大中型飞机整机及航空零部件等航空产品的研制、批产、维修及服务,目前主要产品有大中型运输机、轰炸机、特种飞机等,同时还承担了ARJ21、C919、AG600等国内外大中型民用飞机机体部件设计、制造、配套与服务,与欧洲空中客车公司、美国波音公司以及中国商用飞机有限责任公司、中航通用飞机有限责任公司等国内外知名航空公司拥有长期而稳定的合作关系。",
+        "商业模式长摘录": "公开资料可支撑其以中航西飞相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000768",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中航西安飞机工业集团股份有限公司"
+      ],
+      "repair_note": "把中航西安飞机工业集团收回到中航西飞：中航西飞主要从事大中型飞机整机及航空零部件等航空产品的研制、批产、维修及服务,目前主要产品有大中型运输机、轰炸机、特种飞机等,同时还承担了ARJ21、C919、AG600等国内外大中型民用飞机机体部件设计、制造、配套与服务,与欧洲空中客车公司、美国波音公司以及中国商用飞机有限责任公司、中航通用飞机有限责任公司等国内外知名航空公司拥有长期而稳定的合作关系的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中顺洁柔纸业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中顺洁柔：公司始终围绕着“产品要品牌,企业要品牌,做人更要品牌”的经营理念,将“只在乎你”的品牌理念践行到实处,持续为消费者提供健康、安全、环保、舒适、便捷的产品及服务,致力于成为“国民美好生活的陪伴者”。",
+        "商业模式概述": "以中顺洁柔相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中顺洁柔：公司始终围绕着“产品要品牌,企业要品牌,做人更要品牌”的经营理念,将“只在乎你”的品牌理念践行到实处,持续为消费者提供健康、安全、环保、舒适、便捷的产品及服务,致力于成为“国民美好生活的陪伴者”。",
+        "商业模式长摘录": "公开资料可支撑其以中顺洁柔相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002511",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中顺洁柔纸业股份有限公司"
+      ],
+      "repair_note": "把中顺洁柔纸业收回到中顺洁柔：公司始终围绕着“产品要品牌,企业要品牌,做人更要品牌”的经营理念,将“只在乎你”的品牌理念践行到实处,持续为消费者提供健康、安全、环保、舒适、便捷的产品及服务,致力于成为“国民美好生活的陪伴者”的公司级事实。"
+    },
+    {
+      "account_canonical_name": "云南锡业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "锡业股份：公司具有集锡、铟、锌、铜等有色金属资源探采、选冶、深加工以及新材料研发、贸易全产业链供应链一体化的产业格局,拥有完整的锡产业链,已形成锡冶炼8万吨/年、锡材4.1万吨/年、锡化工2.4万吨/年、阴极铜12.5万吨/年、锌冶炼10万吨/年、铟冶炼60吨/年的产能规模。",
+        "商业模式概述": "以锡业股份相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其锡业股份：公司具有集锡、铟、锌、铜等有色金属资源探采、选冶、深加工以及新材料研发、贸易全产业链供应链一体化的产业格局,拥有完整的锡产业链,已形成锡冶炼8万吨/年、锡材4.1万吨/年、锡化工2.4万吨/年、阴极铜12.5万吨/年、锌冶炼10万吨/年、铟冶炼60吨/年的产能规模。",
+        "商业模式长摘录": "公开资料可支撑其以锡业股份相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000960",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=云南锡业股份有限公司"
+      ],
+      "repair_note": "把云南锡业收回到锡业股份：公司具有集锡、铟、锌、铜等有色金属资源探采、选冶、深加工以及新材料研发、贸易全产业链供应链一体化的产业格局,拥有完整的锡产业链,已形成锡冶炼8万吨/年、锡材4.1万吨/年、锡化工2.4万吨/年、阴极铜12.5万吨/年、锌冶炼10万吨/年、铟冶炼60吨/年的产能规模的公司级事实。"
+    },
+    {
+      "account_canonical_name": "仙乐健康科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "仙乐健康：仙乐健康科技股份有限公司拥有近30年的专业经验,致力于持续创新开发,专注于高质量标准。",
+        "商业模式概述": "以仙乐健康相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其仙乐健康：仙乐健康科技股份有限公司拥有近30年的专业经验,致力于持续创新开发,专注于高质量标准。",
+        "商业模式长摘录": "公开资料可支撑其以仙乐健康相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300791",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=仙乐健康科技股份有限公司"
+      ],
+      "repair_note": "把仙乐健康科技收回到仙乐健康：仙乐健康科技股份有限公司拥有近30年的专业经验,致力于持续创新开发,专注于高质量标准的公司级事实。"
+    },
+    {
+      "account_canonical_name": "会稽山绍兴酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "会稽山经营范围涵盖许可项目:酒制品生产、调味品生产、食品生产、食品销售。",
+        "商业模式概述": "以会稽山相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其会稽山经营范围涵盖许可项目:酒制品生产、调味品生产、食品生产、食品销售。",
+        "商业模式长摘录": "公开资料可支撑其以会稽山相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601579",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=会稽山绍兴酒股份有限公司"
+      ],
+      "repair_note": "把会稽山绍兴酒收回到会稽山经营范围涵盖许可项目:酒制品生产、调味品生产、食品生产、食品销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "倍加洁集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "倍加洁：公司现有控股子公司5家,分别是:扬州倍加洁日化有限公司、扬州恒生精密模具有限公司、扬州美星口腔护理用品有限公司、倍加洁口腔护理用品宿迁有限公司及江苏明星牙刷有限公司。",
+        "商业模式概述": "以倍加洁相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其倍加洁：公司现有控股子公司5家,分别是:扬州倍加洁日化有限公司、扬州恒生精密模具有限公司、扬州美星口腔护理用品有限公司、倍加洁口腔护理用品宿迁有限公司及江苏明星牙刷有限公司。",
+        "商业模式长摘录": "公开资料可支撑其以倍加洁相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603059",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=倍加洁集团股份有限公司"
+      ],
+      "repair_note": "把倍加洁集团收回到倍加洁：公司现有控股子公司5家,分别是:扬州倍加洁日化有限公司、扬州恒生精密模具有限公司、扬州美星口腔护理用品有限公司、倍加洁口腔护理用品宿迁有限公司及江苏明星牙刷有限公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "兰州丽尚国潮实业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以丽尚国潮相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以丽尚国潮相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600738",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=兰州丽尚国潮实业集团股份有限公司"
+      ],
+      "repair_note": "把兰州丽尚国潮实业集团收回到公司级事实的公司级事实。"
+    }
+  ]
+}

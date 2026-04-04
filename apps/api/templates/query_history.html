@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}我的记录{% endblock %}
+{% block body %}
+<main class="dashboard-shell">
+  <aside class="sidebar">
+    <div>
+      <p class="eyebrow">查询历史</p>
+      <h1>{{ user_label }}</h1>
+      <p class="sidebar-copy">这里按批次查看你创建过的查询任务，以及每个公司项的状态和失败原因。</p>
+    </div>
+    <nav class="nav-list">
+      <a class="nav-item" href="/console">批量查询</a>
+      <a class="nav-item" href="/tungee/connect">探迹连接</a>
+      <a class="nav-item is-active" href="/history">我的记录</a>
+      {% if current_user.is_admin %}
+      <a class="nav-item" href="/admin">管理员后台</a>
+      {% endif %}
+    </nav>
+    <span class="ghost-btn" aria-disabled="true">已关闭系统登录</span>
+  </aside>
+  <section class="dashboard-main">
+    <header class="hero-card">
+      <div>
+        <p class="eyebrow">历史批次</p>
+        <h2>回看你提交过的每一批公司名单。</h2>
+      </div>
+      <button class="secondary-btn" id="refresh-history-button" type="button">刷新列表</button>
+    </header>
+
+    <article class="panel-card">
+      <div id="history-job-pagination" class="pagination-row"></div>
+      <div id="history-job-list" class="list-stack"></div>
+    </article>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script>
+  window.BUSSINESS_PAGE = "history";
+</script>
+{% endblock %}

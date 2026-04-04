@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_32",
+  "batch_title": "客户档案修复第32批",
+  "account_names": [
+    "菲林格尔家居科技股份有限公司",
+    "西大门新材料股份有限公司",
+    "西安奕斯伟材料科技股份有限公司",
+    "西麦食品股份有限公司",
+    "诺力智能装备股份有限公司",
+    "豪威集成电路(集团)股份有限公司",
+    "豪江智能科技股份有限公司",
+    "豪迈科技股份有限公司",
+    "贝仕达克股份有限公司",
+    "运达能源科技集团股份有限公司",
+    "迪阿股份有限公司",
+    "通达创智(厦门)股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "菲林格尔家居科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以菲林格尔相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以菲林格尔相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603226",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=菲林格尔家居科技股份有限公司"
+      ],
+      "repair_note": "把菲林格尔家居科技收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "西大门新材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "西大门：经过近三十年的开拓与发展,西大门立足卓越品质与诚信经营,逐步发展成为一个涵盖遮阳面料、遮阳成品、家居三大核心业务板块的综合型企业。",
+        "商业模式概述": "以西大门相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其西大门：经过近三十年的开拓与发展,西大门立足卓越品质与诚信经营,逐步发展成为一个涵盖遮阳面料、遮阳成品、家居三大核心业务板块的综合型企业。",
+        "商业模式长摘录": "公开资料可支撑其以西大门相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605155",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=西大门新材料股份有限公司"
+      ],
+      "repair_note": "把西大门新材料收回到西大门：经过近三十年的开拓与发展,西大门立足卓越品质与诚信经营,逐步发展成为一个涵盖遮阳面料、遮阳成品、家居三大核心业务板块的综合型企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "西安奕斯伟材料科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "西安奕材：西安奕斯伟材料科技股份有限公司(简称“奕斯伟材料”)是一家12英寸电子级硅片产品及服务提供商,主要从事12英寸硅单晶抛光片和外延片的研发、制造与销售。",
+        "商业模式概述": "以西安奕材相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其西安奕材：西安奕斯伟材料科技股份有限公司(简称“奕斯伟材料”)是一家12英寸电子级硅片产品及服务提供商,主要从事12英寸硅单晶抛光片和外延片的研发、制造与销售。",
+        "商业模式长摘录": "公开资料可支撑其以西安奕材相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688783",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=西安奕斯伟材料科技股份有限公司"
+      ],
+      "repair_note": "把西安奕斯伟材料科技收回到西安奕材：西安奕斯伟材料科技股份有限公司(简称“奕斯伟材料”)是一家12英寸电子级硅片产品及服务提供商,主要从事12英寸硅单晶抛光片和外延片的研发、制造与销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "西麦食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "西麦食品：桂林西麦食品股份有限公司,西麦品牌始于1994年。",
+        "商业模式概述": "以西麦食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其西麦食品：桂林西麦食品股份有限公司,西麦品牌始于1994年。",
+        "商业模式长摘录": "公开资料可支撑其以西麦食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002956",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=西麦食品股份有限公司"
+      ],
+      "repair_note": "把西麦食品收回到西麦食品：桂林西麦食品股份有限公司,西麦品牌始于1994年的公司级事实。"
+    },
+    {
+      "account_canonical_name": "诺力智能装备股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "诺力股份：Noblelift通过两个主要业务部门运营:物料搬运设备(MHE)和系统集成(SI),包括但不限于ASRS、输送系统、分练系统和AGV。",
+        "商业模式概述": "以诺力股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其诺力股份：Noblelift通过两个主要业务部门运营:物料搬运设备(MHE)和系统集成(SI),包括但不限于ASRS、输送系统、分练系统和AGV。",
+        "商业模式长摘录": "公开资料可支撑其以诺力股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603611",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=诺力智能装备股份有限公司"
+      ],
+      "repair_note": "把诺力智能装备收回到诺力股份：Noblelift通过两个主要业务部门运营:物料搬运设备(MHE)和系统集成(SI),包括但不限于ASRS、输送系统、分练系统和AGV的公司级事实。"
+    },
+    {
+      "account_canonical_name": "豪威集成电路(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "豪威集团：豪威集成电路(集团)股份有限公司(豪威集团,603501.SH)是全球排名前列的Fabless半导体设计公司。",
+        "商业模式概述": "以豪威集团相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其豪威集团：豪威集成电路(集团)股份有限公司(豪威集团,603501.SH)是全球排名前列的Fabless半导体设计公司。",
+        "商业模式长摘录": "公开资料可支撑其以豪威集团相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603501",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=豪威集成电路(集团)股份有限公司"
+      ],
+      "repair_note": "把豪威集成电路(集团)收回到豪威集团：豪威集成电路(集团)股份有限公司(豪威集团,603501.SH)是全球排名前列的Fabless半导体设计公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "豪江智能科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "豪江智能：豪江智能专业提供智慧家居、医养康复、智能办公、工业传动等领域的智能控制及驱动系统整体解决方案,依托多年技术积累和雄厚的研发实力,已成为国内领先、业界知名的智能控制及驱动系统整体解决方案服务商。",
+        "商业模式概述": "以豪江智能相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其豪江智能：豪江智能专业提供智慧家居、医养康复、智能办公、工业传动等领域的智能控制及驱动系统整体解决方案,依托多年技术积累和雄厚的研发实力,已成为国内领先、业界知名的智能控制及驱动系统整体解决方案服务商。",
+        "商业模式长摘录": "公开资料可支撑其以豪江智能相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301320",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=豪江智能科技股份有限公司"
+      ],
+      "repair_note": "把豪江智能科技收回到豪江智能：豪江智能专业提供智慧家居、医养康复、智能办公、工业传动等领域的智能控制及驱动系统整体解决方案,依托多年技术积累和雄厚的研发实力,已成为国内领先、业界知名的智能控制及驱动系统整体解决方案服务商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "豪迈科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以豪迈科技相关产品的生产、销售与服务为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以豪迈科技相关产品的生产、销售与服务为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002595",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=豪迈科技股份有限公司"
+      ],
+      "repair_note": "把豪迈科技收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "贝仕达克股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "贝仕达克：深圳贝仕达克技术股份有限公司成立于2010年,属国家高新技术企业,拥有多项发明与实用新型专利,公司主要研发生产和销售智能控制器及智能产品。",
+        "商业模式概述": "以贝仕达克相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其贝仕达克：深圳贝仕达克技术股份有限公司成立于2010年,属国家高新技术企业,拥有多项发明与实用新型专利,公司主要研发生产和销售智能控制器及智能产品。",
+        "商业模式长摘录": "公开资料可支撑其以贝仕达克相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300822",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=贝仕达克股份有限公司"
+      ],
+      "repair_note": "把贝仕达克收回到贝仕达克：深圳贝仕达克技术股份有限公司成立于2010年,属国家高新技术企业,拥有多项发明与实用新型专利,公司主要研发生产和销售智能控制器及智能产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "运达能源科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "运达股份：运达能源科技集团股份有限公司(运达股份,300772.SZ)是浙江省大型国有上市企业,在国内最早从事新能源技术研究与产品开发,是中国新能源事业的拓荒者、创新者和领军者,曾研制出我国第一台并网型风力发电机组,至今深耕新能源已有50多年历史,是国内领先的新能源装备制造企业和综合能源服务企业。",
+        "商业模式概述": "以运达股份相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其运达股份：运达能源科技集团股份有限公司(运达股份,300772.SZ)是浙江省大型国有上市企业,在国内最早从事新能源技术研究与产品开发,是中国新能源事业的拓荒者、创新者和领军者,曾研制出我国第一台并网型风力发电机组,至今深耕新能源已有50多年历史,是国内领先的新能源装备制造企业和综合能源服务企业。",
+        "商业模式长摘录": "公开资料可支撑其以运达股份相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300772",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=运达能源科技集团股份有限公司"
+      ],
+      "repair_note": "把运达能源科技集团收回到运达股份：运达能源科技集团股份有限公司(运达股份,300772.SZ)是浙江省大型国有上市企业,在国内最早从事新能源技术研究与产品开发,是中国新能源事业的拓荒者、创新者和领军者,曾研制出我国第一台并网型风力发电机组,至今深耕新能源已有50多年历史,是国内领先的新能源装备制造企业和综合能源服务企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "迪阿股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "迪阿股份：公司以“帮更多人表达爱,让爱情幸福长久”为使命,坚持“一生·唯一·真爱”的爱情观,以国际化的品牌运营为发展战略主线,完善的线上线下渠道网络为发展基础,强大的产业链资源整合能力为依托,聚集国内及国际优质的供应商、研发设计团队、检测机构等合作伙伴,建立领先的珠宝定制模式,充分塑造自身的竞争优势。",
+        "商业模式概述": "以迪阿股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其迪阿股份：公司以“帮更多人表达爱,让爱情幸福长久”为使命,坚持“一生·唯一·真爱”的爱情观,以国际化的品牌运营为发展战略主线,完善的线上线下渠道网络为发展基础,强大的产业链资源整合能力为依托,聚集国内及国际优质的供应商、研发设计团队、检测机构等合作伙伴,建立领先的珠宝定制模式,充分塑造自身的竞争优势。",
+        "商业模式长摘录": "公开资料可支撑其以迪阿股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301177",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=迪阿股份有限公司"
+      ],
+      "repair_note": "把迪阿收回到迪阿股份：公司以“帮更多人表达爱,让爱情幸福长久”为使命,坚持“一生·唯一·真爱”的爱情观,以国际化的品牌运营为发展战略主线,完善的线上线下渠道网络为发展基础,强大的产业链资源整合能力为依托,聚集国内及国际优质的供应商、研发设计团队、检测机构等合作伙伴,建立领先的珠宝定制模式,充分塑造自身的竞争优势的公司级事实。"
+    },
+    {
+      "account_canonical_name": "通达创智(厦门)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "通达创智：2012年,产品发展事业处确立了同心多元化的发展战略,深耕体育户外、拓展家居生活领域。",
+        "商业模式概述": "以通达创智相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其通达创智：2012年,产品发展事业处确立了同心多元化的发展战略,深耕体育户外、拓展家居生活领域。",
+        "商业模式长摘录": "公开资料可支撑其以通达创智相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001368",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=通达创智(厦门)股份有限公司"
+      ],
+      "repair_note": "把通达创智(厦门)收回到通达创智：2012年,产品发展事业处确立了同心多元化的发展战略,深耕体育户外、拓展家居生活领域的公司级事实。"
+    }
+  ]
+}

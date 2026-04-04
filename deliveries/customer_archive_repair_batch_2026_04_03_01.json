@@ -1,0 +1,353 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_01",
+  "batch_title": "客户档案修复第一批",
+  "account_names": [
+    "三一重工股份有限公司",
+    "上海联影医疗科技股份有限公司",
+    "安克创新科技股份有限公司",
+    "宁德时代新能源科技股份有限公司",
+    "佛山市海天调味食品股份有限公司",
+    "三只松鼠股份有限公司",
+    "上海晨光文具股份有限公司",
+    "孩子王儿童用品股份有限公司",
+    "深圳市汇川技术股份有限公司",
+    "立讯精密工业股份有限公司",
+    "赛维时代科技股份有限公司",
+    "周黑鸭国际控股有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "三一重工股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营混凝土机械、挖掘机械、起重机械、桩工机械、筑路机械等工程装备，并延伸至矿山、应急和港口相关装备领域。",
+        "商业模式概述": "以工程机械装备研发、制造、销售和服务为核心，通过直销、代理、租赁及国际化渠道服务基础设施建设、工程施工和产业客户。",
+        "主要竞品概述": "徐工机械、中联重科、柳工等工程机械集团。",
+        "相似客户线索": "徐工机械、中联重科、柳工"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公司公开资料和 F10 概况可支撑其主营混凝土机械、挖掘机械、起重机械、桩工机械、筑路机械等工程装备，并持续向矿山、应急和港口等装备领域延伸。",
+        "商业模式长摘录": "公开资料可支撑其以工程机械装备研发、制造、销售和服务为核心，结合直销、代理、租赁和国际化渠道经营。"
+      },
+      "source_types_add": [
+        "上市公司公开披露",
+        "东方财富F10公司概况"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三一重工股份有限公司",
+        "https://quote.eastmoney.com/unify/r/1.600031",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600031"
+      ],
+      "repair_note": "补强工程机械产品线与经营模式，并收紧为工程机械集团可理解档案。"
+    },
+    {
+      "account_canonical_name": "上海联影医疗科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营磁共振、CT、X线、分子影像、放射治疗及生命科学仪器等高端医疗装备，并提供联影云等配套解决方案。",
+        "商业模式概述": "以高端医疗装备自主研发、生产和销售为主，覆盖整机、核心部件、软件平台和云服务，面向医院和科研机构提供设备与整体解决方案。",
+        "核心客户客群": "各级医院、医学中心、科研院所及其他医疗服务机构。",
+        "主要竞品概述": "可比对象包括迈瑞医疗、万东医疗、东软医疗及国际影像和放疗设备厂商。",
+        "相似客户线索": "迈瑞医疗、中控技术、汇川技术"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_medical_device_channel_v1,ka_insight_medtech_complex_mfg_v1,ka_insight_mfg_operating_dashboard_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网和年报可支撑其主营磁共振、CT、X线、分子影像、放射治疗及生命科学仪器等高端医疗装备，并持续推进联影云等配套平台能力。",
+        "商业模式长摘录": "年报和官网可支撑其以高端医疗装备自主研发、生产和销售为主，同时覆盖核心部件、软件平台和云服务。 "
+      },
+      "source_types_add": [
+        "official_website",
+        "annual_report"
+      ],
+      "source_refs_add": [
+        "https://global.united-imaging.com/zh-cn/about-united-imaging",
+        "https://global.united-imaging.com/-/media/uih/pdf/investor/20250430-cn/united-imaging-healthcare-annual-report-for-2024.pdf"
+      ],
+      "repair_note": "保留联影既有厚事实，并统一为医疗装备公司级事实口径。"
+    },
+    {
+      "account_canonical_name": "安克创新科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营智能充电、智能影音、智能安防、智能清洁等消费电子与智能硬件产品，并运营 Anker、Eufy、Nebula、Soundcore 等品牌。",
+        "商业模式概述": "以自有品牌出海为核心，通过亚马逊等电商平台、独立站和零售渠道触达全球消费者，形成多品牌、多品类和多区域经营结构。",
+        "主要竞品概述": "绿联科技、倍思、品胜等消费电子与配件品牌出海企业。",
+        "相似客户线索": "绿联科技、道通科技、赛维时代"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网材料可支撑其围绕 Anker、Eufy、Nebula、Soundcore 等品牌经营智能充电、智能影音、智能安防和智能清洁等消费电子产品。",
+        "商业模式长摘录": "官网和公开披露可支撑其以自有品牌出海为核心，通过亚马逊等平台、独立站和零售渠道面向全球消费者经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露",
+        "东方财富F10公司概况"
+      ],
+      "source_refs_add": [
+        "https://www.anker.com.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安克创新",
+        "https://quote.eastmoney.com/unify/r/0.300866",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300866"
+      ],
+      "repair_note": "按品牌出海公司口径补强产品矩阵与经营模式，并切换到有效话术资产。"
+    },
+    {
+      "account_canonical_name": "宁德时代新能源科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营动力电池系统、储能系统及相关新能源解决方案，是全球化新能源制造企业。",
+        "商业模式概述": "以动力电池和储能系统研发、制造、销售为核心，通过多基地制造与集团协同服务车企、储能集成及全球新能源应用市场。",
+        "主要竞品概述": "比亚迪、中创新航、国轩高科等动力电池与储能厂商。",
+        "相似客户线索": "汇川技术、立讯精密、三一重工"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网可支撑其主营动力电池系统、储能系统和新能源相关解决方案，并将自身定位为全球领先的新能源创新科技公司。",
+        "商业模式长摘录": "官网可支撑其以动力电池和储能系统研发、制造、销售为核心，通过多基地制造和全球化经营服务新能源应用市场。"
+      },
+      "source_types_add": [
+        "official_website"
+      ],
+      "source_refs_add": [
+        "https://www.catl.com/"
+      ],
+      "repair_note": "统一宁德时代的新能源制造事实与集团协同解释层。"
+    },
+    {
+      "account_canonical_name": "佛山市海天调味食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营酱油、蚝油、调味酱、食醋、料酒及复合调味料等调味品，是全国化调味品品牌企业。",
+        "商业模式概述": "以调味品研发、生产和品牌销售为核心，通过经销、零售终端及线上线下渠道覆盖家庭与餐饮消费场景。",
+        "主要竞品概述": "李锦记、千禾味业、中炬高新等调味品品牌企业。",
+        "相似客户线索": "千禾味业、中炬高新、安琪酵母"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_haitian_fin_supply_v1,ka_case_wangxiaolu_growth_v1,ka_insight_consumer_supply_chain_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网材料可支撑其形成酱油、蚝油、调味酱、食醋、料酒和复合调味料等产品家族。",
+        "商业模式长摘录": "官网与公开披露可支撑其以调味品研发、生产和品牌销售为核心，并通过经销、零售终端和线上线下渠道覆盖家庭与餐饮场景。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露",
+        "东方财富F10公司概况"
+      ],
+      "source_refs_add": [
+        "https://www.haday.com/",
+        "https://quote.eastmoney.com/unify/r/1.603288",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603288"
+      ],
+      "repair_note": "把海天调回调味品品牌公司的公司级事实，不再让画像模板主导页面。"
+    },
+    {
+      "account_canonical_name": "三只松鼠股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营坚果、烘焙、肉制品、果干等休闲食品，并持续运营三只松鼠品牌和多品类零食矩阵。",
+        "商业模式概述": "以自有品牌休闲食品经营为核心，通过电商平台、短视频渠道、分销体系和线下门店触达消费者。",
+        "主要竞品概述": "良品铺子、来伊份、盐津铺子等休闲食品品牌企业。",
+        "相似客户线索": "良品铺子、来伊份、盐津铺子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_huaxizi_growth_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露和公司资料可支撑其围绕坚果、烘焙、肉制品、果干等休闲食品形成多品类零食矩阵。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌零食经营为核心，通过电商、内容渠道、分销体系和线下渠道面向消费者销售。"
+      },
+      "source_types_add": [
+        "上市公司公开披露",
+        "东方财富F10公司概况"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三只松鼠股份有限公司",
+        "https://quote.eastmoney.com/unify/r/0.300783",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300783"
+      ],
+      "repair_note": "补强休闲食品品牌事实和电商+分销经营模式。"
+    },
+    {
+      "account_canonical_name": "上海晨光文具股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营书写工具、学生文具、办公文具、文创及办公零售相关产品，并持续经营晨光等品牌矩阵。",
+        "商业模式概述": "以自有品牌文具产品经营为核心，覆盖传统分销、办公直销、线上渠道和零售大店业态。",
+        "主要竞品概述": "得力集团、齐心集团、广博股份等文具与办公用品企业。",
+        "相似客户线索": "得力、齐心、广博"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_hq_visibility_retail_v1,ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公司公开资料可支撑其主营书写工具、学生文具、办公文具及文创相关产品，并围绕晨光等品牌经营多品类矩阵。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌文具产品经营为核心，覆盖传统分销、办公直销、线上渠道和零售大店业态。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露",
+        "东方财富F10公司概况"
+      ],
+      "source_refs_add": [
+        "https://www.mgstationery.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海晨光文具股份有限公司"
+      ],
+      "repair_note": "从泛化零售模板切回晨光的文具品牌与渠道经营事实。"
+    },
+    {
+      "account_canonical_name": "孩子王儿童用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营母婴童商品、儿童成长服务及会员经营，覆盖商品零售、亲子服务和本地化门店经营。",
+        "商业模式概述": "以母婴童商品销售和育儿服务为核心，依托直营门店、会员体系、本地生活服务和线上渠道经营。",
+        "核心客户客群": "母婴家庭、儿童消费家庭、门店会员及本地服务消费人群。",
+        "主要竞品概述": "爱婴室、乐友孕婴童、贝贝熊等母婴零售网络。",
+        "相似客户线索": "爱婴室、名创优品、家家悦"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_chatbi_frontline_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "年报与官网可支撑其围绕母婴童商品零售、会员经营与儿童成长服务开展业务。",
+        "商业模式长摘录": "公开资料可支撑其以直营门店、会员体系、本地服务和线上渠道共同构成经营闭环。"
+      },
+      "source_types_add": [
+        "annual_report",
+        "official_website"
+      ],
+      "source_refs_add": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-03/1222991960.pdf",
+        "https://www.kidswant.com/"
+      ],
+      "repair_note": "强化孩子王的母婴零售+服务模式和门店会员经营特征。"
+    },
+    {
+      "account_canonical_name": "深圳市汇川技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工业自动化控制、通用变频伺服、PLC/HMI、新能源汽车电驱及轨交、电梯电气等产品。",
+        "商业模式概述": "以工业自动化与新能源汽车相关产品研发、制造、销售和服务为核心，面向设备制造商、工业企业和新能源汽车客户提供产品及解决方案。",
+        "主要竞品概述": "西门子、ABB、台达、施耐德等工业自动化与驱动控制厂商。",
+        "相似客户线索": "三一重工、上海联影医疗科技股份有限公司、中控技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "年报和官网可支撑其主营工业自动化控制、通用变频伺服、PLC/HMI、新能源汽车电驱及轨交、电梯电气等产品。",
+        "商业模式长摘录": "公开披露可支撑其以工业自动化与新能源汽车相关产品研发、制造、销售和服务为核心，服务设备制造商和工业客户。"
+      },
+      "source_types_add": [
+        "annual_report",
+        "official_website"
+      ],
+      "source_refs_add": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-29/1223371383.PDF",
+        "https://www.inovance.com/"
+      ],
+      "repair_note": "补强汇川的工业自动化产品线与面向设备制造商/工业客户的经营模式。"
+    },
+    {
+      "account_canonical_name": "立讯精密工业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营精密连接器、连接线、线束、声学模组、无线充电、精密结构件及消费电子、通信和汽车电子相关组件。",
+        "商业模式概述": "以精密制造和垂直整合能力为核心，向消费电子、通信与汽车客户提供零组件、模组和系统级制造服务。",
+        "主要竞品概述": "富士康、歌尔股份、鹏鼎控股等精密制造与电子零组件企业。",
+        "相似客户线索": "鹏鼎控股、东山精密制造股份有限公司、蓝思科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_case_mfg_group_dashboard_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网和公开披露可支撑其经营精密连接器、线束、声学模组、无线充电和精密结构件等产品，并服务消费电子、通信和汽车电子领域。",
+        "商业模式长摘录": "官网和公开资料可支撑其以精密制造和垂直整合能力为核心，向消费电子、通信和汽车客户提供零组件、模组和系统级制造服务。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.luxshare-ict.com/about/company-profile.html",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=立讯精密"
+      ],
+      "repair_note": "将立讯精密修回精密制造与垂直整合服务公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "赛维时代科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "围绕全球消费者需求运营服饰配饰、家居百货、运动户外等跨境品牌与商品矩阵。",
+        "商业模式概述": "以品牌孵化和跨境电商运营为核心，通过亚马逊等第三方平台及自营站点向海外消费者销售服饰、配饰和家居等产品。",
+        "主要竞品概述": "致欧家居、华凯易佰、傲基科技等跨境品牌卖家。",
+        "相似客户线索": "致欧家居、华凯易佰、傲基创新"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1,ka_case_wanguo_multiplatform_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开资料可支撑其围绕服饰配饰、家居百货、运动户外等跨境品类经营多品牌和商品矩阵。",
+        "商业模式长摘录": "公司公开资料可支撑其以品牌孵化和跨境电商运营为核心，通过亚马逊等第三方平台及自营站点面向海外消费者销售。"
+      },
+      "source_types_add": [
+        "上市公司公开披露",
+        "东方财富F10公司概况"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=赛维时代科技股份有限公司",
+        "https://quote.eastmoney.com/unify/r/0.301381",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301381"
+      ],
+      "repair_note": "补强赛维时代的跨境品牌矩阵与平台经营模式。"
+    },
+    {
+      "account_canonical_name": "周黑鸭国际控股有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营鸭脖、鸭锁骨、鸭掌鸭翅等卤味休闲食品及礼盒类产品。",
+        "商业模式概述": "以自有品牌卤味零售为核心，通过直营门店、特许经营、电商和即时零售渠道经营。",
+        "主要竞品概述": "绝味食品、煌上煌、紫燕食品等卤味品牌企业。",
+        "相似客户线索": "绝味食品、煌上煌、紫燕食品"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_chatbi_frontline_v1,ka_insight_chain_fnb_operating_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与投资者沟通材料可支撑其主营鸭脖、鸭锁骨、鸭掌鸭翅等卤味休闲食品及礼盒产品。",
+        "商业模式长摘录": "官网和投资者材料可支撑其以自有品牌卤味零售为核心，通过直营门店、特许经营、电商和即时零售渠道经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "investor_relations"
+      ],
+      "source_refs_add": [
+        "https://www.zhouheiya.cn/",
+        "https://www.zhouheiya.cn/dianzitongxun.html"
+      ],
+      "repair_note": "补强周黑鸭的卤味品类事实和直营+特许+电商经营模式。"
+    }
+  ]
+}

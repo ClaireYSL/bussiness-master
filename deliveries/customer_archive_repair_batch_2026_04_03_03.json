@@ -1,0 +1,350 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_03",
+  "batch_title": "客户档案修复第三批",
+  "account_names": [
+    "富士康工业互联网股份有限公司",
+    "领益智造股份有限公司",
+    "隆基绿能科技股份有限公司",
+    "阳光电源股份有限公司",
+    "西王食品股份有限公司",
+    "新希望乳业股份有限公司",
+    "广东芭薇生物科技股份有限公司",
+    "上海豫园旅游商城(集团)股份有限公司",
+    "北京首旅酒店(集团)股份有限公司",
+    "致欧家居科技股份有限公司",
+    "杭州壹网壹创科技股份有限公司",
+    "广州若羽臣科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "富士康工业互联网股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营云及网络通信设备、智能制造、工业互联网解决方案及相关精密制造服务，是全球化高端智能制造与工业互联网服务商。",
+        "商业模式概述": "以电子制造服务和工业互联网服务为核心，为全球品牌客户提供研发协同、制造交付、供应链协同与数字化解决方案。",
+        "核心客户客群": "全球消费电子品牌客户、云计算与网络通信设备客户及工业数字化升级客户。",
+        "主要竞品概述": "立讯精密、比亚迪电子及国内外大型电子制造服务企业。",
+        "相似客户线索": "立讯精密工业股份有限公司、领益智造股份有限公司、深圳市汇川技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网和公开披露可支撑其主营云及网络通信设备、智能制造、工业互联网解决方案及相关精密制造服务，是全球化高端智能制造与工业互联网服务商。",
+        "商业模式长摘录": "公开资料可支撑其以电子制造服务和工业互联网服务为核心，为全球品牌客户提供研发协同、制造交付、供应链协同与数字化解决方案。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.fii-foxconn.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=富士康工业互联网股份有限公司"
+      ],
+      "repair_note": "把工业富联从错误的零售/家居模板拉回到高端智能制造与工业互联网服务商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "领益智造股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营精密功能件、结构件、模组及相关制造配套产品，服务消费电子、汽车及新能源等产业链。",
+        "商业模式概述": "以精密制造产品研发、生产和销售为核心，为品牌客户和制造企业提供零部件、模组及配套制造服务。",
+        "核心客户客群": "消费电子品牌与代工厂客户、汽车及新能源产业链客户。",
+        "主要竞品概述": "立讯精密、东山精密、长盈精密等精密制造企业。",
+        "相似客户线索": "立讯精密工业股份有限公司、中航光电科技股份有限公司、深圳市道通科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_case_mfg_group_dashboard_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露和公司资料可支撑其主营精密功能件、结构件、模组及相关制造配套产品，服务消费电子、汽车及新能源等产业链。",
+        "商业模式长摘录": "公开资料可支撑其以精密制造产品研发、生产和销售为核心，为品牌客户和制造企业提供零部件、模组及配套制造服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=领益智造股份有限公司"
+      ],
+      "repair_note": "修正领益智造的产品与商业模式，使其回到精密制造与产业链配套服务的公司级表达。"
+    },
+    {
+      "account_canonical_name": "隆基绿能科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营单晶硅片、光伏电池组件、分布式能源解决方案及氢能相关装备，是光伏产业链核心企业。",
+        "商业模式概述": "以光伏材料、组件和能源解决方案研发、生产与销售为核心，面向电站投资方、工商业客户、渠道伙伴和海外能源市场提供产品与方案。",
+        "核心客户客群": "电站开发与投资客户、工商业分布式能源客户、渠道伙伴及海外能源市场客户。",
+        "主要竞品概述": "通威股份、晶科能源、天合光能等光伏产业链企业。",
+        "相似客户线索": "阳光电源股份有限公司、通威股份有限公司、宁德时代新能源科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其围绕单晶硅片、光伏电池组件、分布式能源解决方案及氢能相关装备开展业务，是光伏产业链核心企业。",
+        "商业模式长摘录": "公开资料可支撑其以光伏材料、组件和能源解决方案研发、生产与销售为核心，面向电站投资方、工商业客户、渠道伙伴和海外能源市场提供产品与方案。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.longi.com/cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=隆基绿能科技股份有限公司"
+      ],
+      "repair_note": "把隆基绿能从泛化工业制造模板收回到光伏材料、组件与能源解决方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "阳光电源股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营光伏逆变器、储能系统、风电变流器、充电设备及新能源相关解决方案。",
+        "商业模式概述": "以新能源设备与解决方案研发、制造和销售为核心，面向电站客户、工商业客户、渠道伙伴和海外市场提供产品与系统方案。",
+        "核心客户客群": "新能源电站客户、工商业能源客户、渠道伙伴及海外能源市场客户。",
+        "主要竞品概述": "上能电气、固德威、隆基绿能等新能源设备与解决方案企业。",
+        "相似客户线索": "隆基绿能科技股份有限公司、通威股份有限公司、宁德时代新能源科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营光伏逆变器、储能系统、风电变流器、充电设备及新能源相关解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以新能源设备与解决方案研发、制造和销售为核心，面向电站客户、工商业客户、渠道伙伴和海外市场提供产品与系统方案。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://cn.sungrowpower.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=阳光电源股份有限公司"
+      ],
+      "repair_note": "补强阳光电源的新能源设备产品线与面向电站、工商业和海外市场的经营模式。"
+    },
+    {
+      "account_canonical_name": "西王食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营玉米油等食用油产品及运动营养相关产品，是食品消费品企业。",
+        "商业模式概述": "以自有品牌食用油和相关营养产品经营为核心，通过经销、商超、电商和零售渠道覆盖消费市场。",
+        "核心客户客群": "家庭消费者、商超零售渠道、电商平台及经销网络。",
+        "主要竞品概述": "金龙鱼、道道全及其他食用油与营养食品品牌。",
+        "相似客户线索": "佛山市海天调味食品股份有限公司、新希望乳业股份有限公司、良品铺子股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_haitian_fin_supply_v1,ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1",
+        "talk_track_refs": "ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开资料可支撑其围绕玉米油等食用油产品及运动营养相关产品开展经营，是食品消费品企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌食用油和相关营养产品经营为核心，通过经销、商超、电商和零售渠道覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=西王食品股份有限公司"
+      ],
+      "repair_note": "修正西王食品从长段经营范围描述回到可读的食用油与营养消费品公司事实。"
+    },
+    {
+      "account_canonical_name": "新希望乳业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营低温鲜奶、酸奶、乳饮料等乳制品，并运营区域乳品品牌矩阵。",
+        "商业模式概述": "以区域乳品品牌经营为核心，依托生产加工、冷链配送、经销和零售渠道进行全渠道销售。",
+        "核心客户客群": "家庭消费者、商超与便利零售渠道、经销网络及鲜奶配送场景。",
+        "主要竞品概述": "光明乳业、三元股份、区域乳品品牌及综合乳制品企业。",
+        "相似客户线索": "西王食品股份有限公司、麦趣尔集团股份有限公司、良品铺子股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_haitian_fin_supply_v1,ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1",
+        "talk_track_refs": "ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营低温鲜奶、酸奶、乳饮料等乳制品，并运营区域乳品品牌矩阵。",
+        "商业模式长摘录": "公开资料可支撑其以区域乳品品牌经营为核心，依托生产加工、冷链配送、经销和零售渠道进行全渠道销售。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.newhopedairy.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新希望乳业股份有限公司"
+      ],
+      "repair_note": "把新乳业从经营范围拼贴修回区域乳品品牌经营与冷链渠道销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东芭薇生物科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营化妆品研发、生产、销售及检测服务，兼具化妆品品牌经营与 OEM/ODM 能力。",
+        "商业模式概述": "以化妆品研发生产为基础，同时承接品牌客户代工和品牌产品经营，覆盖研发、生产、检测与销售环节。",
+        "核心客户客群": "化妆品品牌方、新锐品牌、渠道品牌及消费品零售客户。",
+        "主要竞品概述": "贝泰妮、丸美股份及化妆品代工与品牌企业。",
+        "相似客户线索": "贝泰妮集团股份有限公司、上海家化联合股份有限公司、广州若羽臣科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_missface_retail_growth_v1,ka_insight_beauty_personalcare_brand_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营化妆品研发、生产、销售及检测服务，兼具化妆品品牌经营与 OEM/ODM 能力。",
+        "商业模式长摘录": "公开资料可支撑其以化妆品研发生产为基础，同时承接品牌客户代工和品牌产品经营，覆盖研发、生产、检测与销售环节。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.gzbawei.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东芭薇生物科技股份有限公司"
+      ],
+      "repair_note": "补强芭薇生物的化妆品研发生产、代工与品牌经营并行的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海豫园旅游商城(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "围绕珠宝时尚、餐饮食品、文化商业和老字号品牌等消费业务开展经营，是多品牌消费产业集团。",
+        "商业模式概述": "以产业运营和产业投资双轮驱动，通过多品牌零售、商业空间运营和消费产业投资管理经营。",
+        "核心客户客群": "珠宝与消费零售客群、商业综合体与文旅消费场景用户、多品牌零售终端客户。",
+        "主要竞品概述": "老凤祥、周大生及多品牌消费与商业运营集团。",
+        "相似客户线索": "周大生珠宝股份有限公司、北京首旅酒店(集团)股份有限公司、名创优品（广州）有限责任公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_jewelry_chain_ops_v1,ka_case_xianfeng_retail_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其围绕珠宝时尚、餐饮食品、文化商业和老字号品牌等消费业务开展经营，是多品牌消费产业集团。",
+        "商业模式长摘录": "公开资料可支撑其以产业运营和产业投资双轮驱动，通过多品牌零售、商业空间运营和消费产业投资管理经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.yuyuantm.com.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海豫园旅游商城(集团)股份有限公司"
+      ],
+      "repair_note": "把豫园股份从错误的食品零售模板拉回到多品牌消费产业集团和商业运营公司的公司级表达。"
+    },
+    {
+      "account_canonical_name": "北京首旅酒店(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营酒店运营与管理业务，拥有经济型、中高端和长租公寓等品牌矩阵。",
+        "商业模式概述": "以酒店品牌管理和酒店网络运营为核心，通过直营、加盟和管理输出方式覆盖全国住宿市场。",
+        "核心客户客群": "商务与旅游住宿客群、加盟业主及酒店运营合作伙伴。",
+        "主要竞品概述": "锦江酒店、华住集团及其他全国连锁酒店集团。",
+        "相似客户线索": "上海豫园旅游商城(集团)股份有限公司、名创优品（广州）有限责任公司、北京首旅酒店(集团)股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_frontline_action_loop,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1,ka_case_chatbi_frontline_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营酒店运营与管理业务，拥有经济型、中高端和长租公寓等品牌矩阵。",
+        "商业模式长摘录": "公开资料可支撑其以酒店品牌管理和酒店网络运营为核心，通过直营、加盟和管理输出方式覆盖全国住宿市场。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.btghotels.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=北京首旅酒店(集团)股份有限公司"
+      ],
+      "repair_note": "修正首旅酒店从餐饮模板回到连锁酒店品牌管理与网络运营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "致欧家居科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营家居家饰品牌出海业务，经营 SONGMICS、VASAGLE、FEANDREA 等品牌并覆盖家具、收纳和宠物家居品类。",
+        "商业模式概述": "以自有品牌跨境零售为核心，依托多平台运营、供应链协同和海外仓体系服务海外家庭消费市场。",
+        "核心客户客群": "海外家庭消费客群、平台电商用户及海外家居生活场景消费者。",
+        "主要竞品概述": "赛维时代、子不语及家居生活方式品牌出海企业。",
+        "相似客户线索": "赛维时代科技股份有限公司、子不语集团有限公司、深圳市道通科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_home_living_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其围绕 SONGMICS、VASAGLE、FEANDREA 等品牌经营家具、收纳和宠物家居等出海业务。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌跨境零售为核心，依托多平台运营、供应链协同和海外仓体系服务海外家庭消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=致欧家居科技股份有限公司"
+      ],
+      "repair_note": "把致欧家居重新写回品牌出海家居公司的公司级事实，而不是停留在泛化跨境模板。"
+    },
+    {
+      "account_canonical_name": "杭州壹网壹创科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营品牌电商服务、渠道运营和新消费品牌孵化，定位为电商全域服务商和品牌加速器。",
+        "商业模式概述": "以品牌电商代运营、渠道管理、内容营销和分销服务为核心，为消费品牌提供全域零售服务。",
+        "核心客户客群": "消费品牌客户、电商平台品牌商家及全域零售运营场景客户。",
+        "主要竞品概述": "若羽臣、丽人丽妆及品牌电商服务企业。",
+        "相似客户线索": "广州若羽臣科技股份有限公司、南极电商股份有限公司、致欧家居科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营品牌电商服务、渠道运营和新消费品牌孵化，定位为电商全域服务商和品牌加速器。",
+        "商业模式长摘录": "公开资料可支撑其以品牌电商代运营、渠道管理、内容营销和分销服务为核心，为消费品牌提供全域零售服务。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.topwinchance.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州壹网壹创科技股份有限公司"
+      ],
+      "repair_note": "把壹网壹创从泛化美妆/零售模板拉回品牌电商服务商和品牌加速器的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州若羽臣科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营品牌数字化管理、电商代运营、渠道分销及自有品牌业务，是消费品牌数字化管理公司。",
+        "商业模式概述": "以品牌代运营、分销管理和数字化营销服务为核心，同时布局自有品牌，服务消费品牌全域经营。",
+        "核心客户客群": "消费品牌客户、电商平台品牌商家及全域经营合作伙伴。",
+        "主要竞品概述": "壹网壹创、丽人丽妆及品牌数字化管理服务企业。",
+        "相似客户线索": "杭州壹网壹创科技股份有限公司、南极电商股份有限公司、致欧家居科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营品牌数字化管理、电商代运营、渠道分销及自有品牌业务，是消费品牌数字化管理公司。",
+        "商业模式长摘录": "公开资料可支撑其以品牌代运营、分销管理和数字化营销服务为核心，同时布局自有品牌，服务消费品牌全域经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.gzruoyuchen.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州若羽臣科技股份有限公司"
+      ],
+      "repair_note": "修正若羽臣的公司事实和经营模式，使其回到品牌数字化管理与电商服务商的可读状态。"
+    }
+  ]
+}

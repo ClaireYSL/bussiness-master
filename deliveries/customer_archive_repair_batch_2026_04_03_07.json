@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_07",
+  "batch_title": "客户档案修复第七批",
+  "account_names": [
+    "卧龙电气驱动集团股份有限公司",
+    "欣旺达电子股份有限公司",
+    "浙江三花智能控制股份有限公司",
+    "惠州亿纬锂能股份有限公司",
+    "家家悦集团股份有限公司",
+    "比音勒芬服饰股份有限公司",
+    "豪悦护理用品股份有限公司",
+    "稳健医疗用品股份有限公司",
+    "涛涛车业股份有限公司",
+    "嘉益股份有限公司",
+    "久祺股份有限公司",
+    "英派斯健康科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "卧龙电气驱动集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营电机、驱动控制、工业自动化及新能源动力相关产品，是电驱与工业控制装备企业。",
+        "商业模式概述": "以电机与驱动控制产品研发、制造、销售和服务为核心，面向工业、家电、新能源和交通运输等行业提供产品与解决方案。",
+        "核心客户客群": "工业设备客户、家电与消费电子客户、新能源动力客户及行业配套客户。",
+        "主要竞品概述": "汇川技术、麦格米特及电机驱动与工业控制平台企业。",
+        "相似客户线索": "深圳市汇川技术股份有限公司、深圳麦格米特电气股份有限公司、深圳市英威腾电气股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_operating_dashboard_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营电机、驱动控制、工业自动化及新能源动力相关产品，是电驱与工业控制装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以电机与驱动控制产品研发、制造、销售和服务为核心，面向工业、家电、新能源和交通运输等行业提供产品与解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=卧龙电气驱动集团股份有限公司"
+      ],
+      "repair_note": "把卧龙电驱收回到电驱与工业控制装备平台公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "欣旺达电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营消费电池、动力电池、储能电池及相关电池系统产品，是电池与能源解决方案企业。",
+        "商业模式概述": "以锂电池及电池系统研发、制造、销售和服务为核心，面向消费电子、新能源汽车、储能与工业客户提供产品与解决方案。",
+        "核心客户客群": "消费电子品牌客户、新能源汽车客户、储能客户及工业配套客户。",
+        "主要竞品概述": "宁德时代、亿纬锂能及电池与储能解决方案企业。",
+        "相似客户线索": "宁德时代新能源科技股份有限公司、惠州亿纬锂能股份有限公司、欣旺达动力科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营消费电池、动力电池、储能电池及相关电池系统产品，是电池与能源解决方案企业。",
+        "商业模式长摘录": "公开资料可支撑其以锂电池及电池系统研发、制造、销售和服务为核心，面向消费电子、新能源汽车、储能与工业客户提供产品与解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=欣旺达电子股份有限公司"
+      ],
+      "repair_note": "把欣旺达收回到锂电池与能源解决方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江三花智能控制股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营制冷控制元器件、汽车热管理部件及机电控制产品，是热管理与控制部件企业。",
+        "商业模式概述": "以热管理控制部件研发、制造和销售为核心，面向家电、汽车和工业客户提供零部件配套与系统方案。",
+        "核心客户客群": "家电品牌客户、汽车与新能源车客户、工业设备配套客户及全球零部件采购客户。",
+        "主要竞品概述": "盾安环境、拓普集团及热管理与控制部件企业。",
+        "相似客户线索": "宁波拓普集团股份有限公司、浙江盾安人工环境股份有限公司、惠州市德赛西威汽车电子股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营制冷控制元器件、汽车热管理部件及机电控制产品，是热管理与控制部件企业。",
+        "商业模式长摘录": "公开资料可支撑其以热管理控制部件研发、制造和销售为核心，面向家电、汽车和工业客户提供零部件配套与系统方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江三花智能控制股份有限公司"
+      ],
+      "repair_note": "把三花智控收回到热管理与控制部件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "惠州亿纬锂能股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂原电池、消费电池、动力电池和储能电池等产品，是电池与储能解决方案企业。",
+        "商业模式概述": "以电池产品研发、制造、销售和服务为核心，面向消费电子、储能、新能源汽车和工业客户提供电池及系统解决方案。",
+        "核心客户客群": "消费电子品牌客户、储能客户、新能源汽车客户及工业配套客户。",
+        "主要竞品概述": "宁德时代、欣旺达及锂电与储能解决方案企业。",
+        "相似客户线索": "宁德时代新能源科技股份有限公司、欣旺达电子股份有限公司、珠海冠宇电池股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂原电池、消费电池、动力电池和储能电池等产品，是电池与储能解决方案企业。",
+        "商业模式长摘录": "公开资料可支撑其以电池产品研发、制造、销售和服务为核心，面向消费电子、储能、新能源汽车和工业客户提供电池及系统解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=惠州亿纬锂能股份有限公司"
+      ],
+      "repair_note": "把亿纬锂能收回到电池与储能解决方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "家家悦集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营连锁超市、生鲜零售、社区商业和供应链配送等业务，是区域连锁商超企业。",
+        "商业模式概述": "以区域连锁商超运营为核心，通过门店网络、生鲜供应链和直营网点覆盖家庭消费与社区零售场景。",
+        "核心客户客群": "家庭消费客群、社区零售用户、门店会员及区域零售终端消费者。",
+        "主要竞品概述": "永辉超市、步步高及区域连锁商超企业。",
+        "相似客户线索": "永辉超市股份有限公司、深圳市农产品集团股份有限公司、名创优品（广州）有限责任公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_familymart_kpi_loop_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营连锁超市、生鲜零售、社区商业和供应链配送等业务，是区域连锁商超企业。",
+        "商业模式长摘录": "公开资料可支撑其以区域连锁商超运营为核心，通过门店网络、生鲜供应链和直营网点覆盖家庭消费与社区零售场景。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=家家悦集团股份有限公司"
+      ],
+      "repair_note": "把家家悦收回到区域连锁商超与社区零售公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "比音勒芬服饰股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营高端运动服饰、休闲服饰及相关服装配饰产品，是服饰品牌企业。",
+        "商业模式概述": "以自有服饰品牌经营为核心，通过直营网点、加盟网络、电商渠道和零售终端覆盖消费市场。",
+        "核心客户客群": "高端服饰消费客群、门店零售消费者、电商平台用户及加盟零售场景客户。",
+        "主要竞品概述": "比音勒芬同类高端运动休闲服饰品牌及服装零售企业。",
+        "相似客户线索": "波司登国际控股有限公司、地素时尚股份有限公司、海澜之家集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营高端运动服饰、休闲服饰及相关服装配饰产品，是服饰品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有服饰品牌经营为核心，通过直营网点、加盟网络、电商渠道和零售终端覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=比音勒芬服饰股份有限公司"
+      ],
+      "repair_note": "把比音勒芬收回到高端服饰品牌经营与零售网络公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "豪悦护理用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营婴儿卫生用品、成人失禁用品及女性卫生用品等护理产品，是个人护理用品企业。",
+        "商业模式概述": "以护理用品研发、制造和销售为核心，通过品牌客户合作、自有品牌和零售渠道覆盖个人护理消费市场。",
+        "核心客户客群": "个人护理消费客群、品牌合作客户、商超零售终端及电商平台用户。",
+        "主要竞品概述": "稳健医疗、百亚股份及个人护理用品企业。",
+        "相似客户线索": "稳健医疗用品股份有限公司、百亚股份有限公司、重庆登康口腔护理用品股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_missface_retail_growth_v1,ka_insight_beauty_personalcare_brand_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营婴儿卫生用品、成人失禁用品及女性卫生用品等护理产品，是个人护理用品企业。",
+        "商业模式长摘录": "公开资料可支撑其以护理用品研发、制造和销售为核心，通过品牌客户合作、自有品牌和零售渠道覆盖个人护理消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=豪悦护理用品股份有限公司"
+      ],
+      "repair_note": "把豪悦护理收回到个人护理用品研发制造与渠道经营公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "稳健医疗用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营医用耗材、健康生活消费品及相关棉类护理产品，是医疗与健康护理用品企业。",
+        "商业模式概述": "以医用耗材和健康护理用品研发、制造、品牌经营和销售为核心，通过医院渠道、零售终端、电商平台和经销网络覆盖市场。",
+        "核心客户客群": "医院与医疗机构客户、健康护理消费客群、零售终端消费者及电商平台用户。",
+        "主要竞品概述": "英科医疗、豪悦护理及医疗与健康护理用品企业。",
+        "相似客户线索": "英科医疗科技股份有限公司、豪悦护理用品股份有限公司、贝泰妮集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_medical_device_channel_v1,ka_insight_beauty_personalcare_brand_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营医用耗材、健康生活消费品及相关棉类护理产品，是医疗与健康护理用品企业。",
+        "商业模式长摘录": "公开资料可支撑其以医用耗材和健康护理用品研发、制造、品牌经营和销售为核心，通过医院渠道、零售终端、电商平台和经销网络覆盖市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=稳健医疗用品股份有限公司"
+      ],
+      "repair_note": "把稳健医疗收回到医用耗材与健康护理用品公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "涛涛车业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营全地形车、高尔夫车、电动自行车及相关户外出行产品，是动力与户外出行品牌企业。",
+        "商业模式概述": "以自有品牌动力与户外出行产品研发、制造和销售为核心，通过跨境电商、海外经销渠道和品牌零售服务全球市场。",
+        "核心客户客群": "海外户外出行消费客群、电商平台用户、海外经销渠道客户及品牌零售终端客户。",
+        "主要竞品概述": "春风动力、久祺股份及动力与户外出行品牌企业。",
+        "相似客户线索": "浙江春风动力股份有限公司、久祺股份有限公司、华宝新能科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_market_selection_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营全地形车、高尔夫车、电动自行车及相关户外出行产品，是动力与户外出行品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌动力与户外出行产品研发、制造和销售为核心，通过跨境电商、海外经销渠道和品牌零售服务全球市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=涛涛车业股份有限公司"
+      ],
+      "repair_note": "把涛涛车业收回到动力与户外出行品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "嘉益股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营不锈钢真空器皿、保温杯等饮水容器产品，是消费用品制造与品牌出海企业。",
+        "商业模式概述": "以饮水器皿产品研发、制造和销售为核心，通过海外品牌客户合作、自有品牌和跨境渠道覆盖全球消费市场。",
+        "核心客户客群": "海外消费品牌客户、跨境零售消费客群、电商平台用户及经销渠道客户。",
+        "主要竞品概述": "哈尔斯、开润股份及消费用品制造与品牌企业。",
+        "相似客户线索": "浙江哈尔斯真空器皿股份有限公司、开润股份有限公司、宁波家联科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_home_living_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营不锈钢真空器皿、保温杯等饮水容器产品，是消费用品制造与品牌出海企业。",
+        "商业模式长摘录": "公开资料可支撑其以饮水器皿产品研发、制造和销售为核心，通过海外品牌客户合作、自有品牌和跨境渠道覆盖全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=嘉益股份有限公司"
+      ],
+      "repair_note": "把嘉益股份收回到消费器皿制造与品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "久祺股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营自行车、助力车及相关骑行产品，是骑行出行产品制造与出海企业。",
+        "商业模式概述": "以骑行出行产品研发、制造和销售为核心，通过海外品牌客户合作、跨境渠道和零售网络覆盖全球消费市场。",
+        "核心客户客群": "海外骑行消费客群、品牌采购客户、电商平台用户及经销渠道客户。",
+        "主要竞品概述": "涛涛车业、春风动力及骑行出行产品制造与品牌企业。",
+        "相似客户线索": "涛涛车业股份有限公司、浙江春风动力股份有限公司、英派斯健康科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_market_selection_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营自行车、助力车及相关骑行产品，是骑行出行产品制造与出海企业。",
+        "商业模式长摘录": "公开资料可支撑其以骑行出行产品研发、制造和销售为核心，通过海外品牌客户合作、跨境渠道和零售网络覆盖全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=久祺股份有限公司"
+      ],
+      "repair_note": "把久祺股份收回到骑行出行产品制造与出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "英派斯健康科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营健身器材、康体设备及相关运动健康产品，是运动健康装备企业。",
+        "商业模式概述": "以健身器材和运动健康产品研发、制造和销售为核心，通过海外渠道、电商平台和品牌零售服务全球运动消费市场。",
+        "核心客户客群": "运动健康消费客群、海外渠道客户、电商平台用户及品牌零售终端客户。",
+        "主要竞品概述": "舒华体育、久祺股份及运动健康装备企业。",
+        "相似客户线索": "舒华体育股份有限公司、久祺股份有限公司、涛涛车业股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_market_selection_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营健身器材、康体设备及相关运动健康产品，是运动健康装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以健身器材和运动健康产品研发、制造和销售为核心，通过海外渠道、电商平台和品牌零售服务全球运动消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=英派斯健康科技股份有限公司"
+      ],
+      "repair_note": "把英派斯收回到运动健康装备与品牌出海公司的公司级事实。"
+    }
+  ]
+}

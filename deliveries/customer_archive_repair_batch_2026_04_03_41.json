@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_41",
+  "batch_title": "客户档案修复第41批",
+  "account_names": [
+    "山东玉马遮阳科技股份有限公司",
+    "山西杏花村汾酒厂股份有限公司",
+    "帝欧水华集团股份有限公司",
+    "广东东鹏控股股份有限公司",
+    "广东丸美生物技术股份有限公司",
+    "广东九联科技股份有限公司",
+    "广东佳隆食品股份有限公司",
+    "广东太力科技集团股份有限公司",
+    "广东好太太科技集团股份有限公司",
+    "广东广弘控股股份有限公司",
+    "广东德尔玛科技股份有限公司",
+    "广东燕塘乳业股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "山东玉马遮阳科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "玉马科技：山东玉马遮阳科技股份有限公司,是一家集高分子功能性遮阳新材料的研发、生产、销售及进出口贸易于一体的高新技术企业,公司下设驰骋进出口(潍坊)有限公司、山东玉马新能源科技有限公司、威特新材料(山东)有限公司、益可佳家纺用品(山东)有限公司、YUMAUSAINC五家全资子公司。",
+        "商业模式概述": "以玉马科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其玉马科技：山东玉马遮阳科技股份有限公司,是一家集高分子功能性遮阳新材料的研发、生产、销售及进出口贸易于一体的高新技术企业,公司下设驰骋进出口(潍坊)有限公司、山东玉马新能源科技有限公司、威特新材料(山东)有限公司、益可佳家纺用品(山东)有限公司、YUMAUSAINC五家全资子公司。",
+        "商业模式长摘录": "公开资料可支撑其以玉马科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300993",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山东玉马遮阳科技股份有限公司"
+      ],
+      "repair_note": "把山东玉马遮阳科技收回到玉马科技：山东玉马遮阳科技股份有限公司,是一家集高分子功能性遮阳新材料的研发、生产、销售及进出口贸易于一体的高新技术企业,公司下设驰骋进出口(潍坊)有限公司、山东玉马新能源科技有限公司、威特新材料(山东)有限公司、益可佳家纺用品(山东)有限公司、YUMAUSAINC五家全资子公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "山西杏花村汾酒厂股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以山西汾酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以山西汾酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600809",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山西杏花村汾酒厂股份有限公司"
+      ],
+      "repair_note": "把山西杏花村汾酒厂收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "帝欧水华集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "帝欧水华：帝欧水华集团股份有限公司创立于1994年,是一家专注生产高品质卫生洁具的企业,产品涵盖浴室柜、坐便器、淋浴器、淋浴房、浴缸、龙头等全卫精品,品牌享誉国内外。",
+        "商业模式概述": "以帝欧水华相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其帝欧水华：帝欧水华集团股份有限公司创立于1994年,是一家专注生产高品质卫生洁具的企业,产品涵盖浴室柜、坐便器、淋浴器、淋浴房、浴缸、龙头等全卫精品,品牌享誉国内外。",
+        "商业模式长摘录": "公开资料可支撑其以帝欧水华相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002798",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=帝欧水华集团股份有限公司"
+      ],
+      "repair_note": "把帝欧水华集团收回到帝欧水华：帝欧水华集团股份有限公司创立于1994年,是一家专注生产高品质卫生洁具的企业,产品涵盖浴室柜、坐便器、淋浴器、淋浴房、浴缸、龙头等全卫精品,品牌享誉国内外的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东东鹏控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "东鹏控股：拥有瓷砖、整装卫浴、生态新材、整体家居等业务,致力于向消费者提供舒适的空间解决方案、高品质的产品配置和人性化的真情服务。",
+        "商业模式概述": "以东鹏控股相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其东鹏控股：拥有瓷砖、整装卫浴、生态新材、整体家居等业务,致力于向消费者提供舒适的空间解决方案、高品质的产品配置和人性化的真情服务。",
+        "商业模式长摘录": "公开资料可支撑其以东鹏控股相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ003012",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东东鹏控股股份有限公司"
+      ],
+      "repair_note": "把广东东鹏控股收回到东鹏控股：拥有瓷砖、整装卫浴、生态新材、整体家居等业务,致力于向消费者提供舒适的空间解决方案、高品质的产品配置和人性化的真情服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东丸美生物技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "丸美生物：广东丸美生物技术股份有限公司自成立以来主要从事各类化妆品的研发、设计、生产、销售及服务,目前旗下拥有“丸美”、“春纪”和“恋火”三个品牌。",
+        "商业模式概述": "以丸美生物相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其丸美生物：广东丸美生物技术股份有限公司自成立以来主要从事各类化妆品的研发、设计、生产、销售及服务,目前旗下拥有“丸美”、“春纪”和“恋火”三个品牌。",
+        "商业模式长摘录": "公开资料可支撑其以丸美生物相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603983",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东丸美生物技术股份有限公司"
+      ],
+      "repair_note": "把广东丸美生物技术收回到丸美生物：广东丸美生物技术股份有限公司自成立以来主要从事各类化妆品的研发、设计、生产、销售及服务,目前旗下拥有“丸美”、“春纪”和“恋火”三个品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东九联科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "九联科技：公司主要面向运营商市场,主要产品包括智能网络机顶盒、DVB数字机顶盒、ONU智能家庭网关、融合型智能家庭网关、智能路由器、NB-IoT模块、LTE通信模块、25G前传光模块、智能摄像头、5G+8K商业显示设备、鸿蒙AI算力开发板、智能公交系统和智慧城市数据平台等。",
+        "商业模式概述": "以九联科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其九联科技：公司主要面向运营商市场,主要产品包括智能网络机顶盒、DVB数字机顶盒、ONU智能家庭网关、融合型智能家庭网关、智能路由器、NB-IoT模块、LTE通信模块、25G前传光模块、智能摄像头、5G+8K商业显示设备、鸿蒙AI算力开发板、智能公交系统和智慧城市数据平台等。",
+        "商业模式长摘录": "公开资料可支撑其以九联科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688609",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东九联科技股份有限公司"
+      ],
+      "repair_note": "把广东九联科技收回到九联科技：公司主要面向运营商市场,主要产品包括智能网络机顶盒、DVB数字机顶盒、ONU智能家庭网关、融合型智能家庭网关、智能路由器、NB-IoT模块、LTE通信模块、25G前传光模块、智能摄像头、5G+8K商业显示设备、鸿蒙AI算力开发板、智能公交系统和智慧城市数据平台等的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东佳隆食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "佳隆股份：广东佳隆食品股份有限公司是一家集食品科研开发、生产、销售为一体的民营股份制企业。",
+        "商业模式概述": "以佳隆股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其佳隆股份：广东佳隆食品股份有限公司是一家集食品科研开发、生产、销售为一体的民营股份制企业。",
+        "商业模式长摘录": "公开资料可支撑其以佳隆股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002495",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东佳隆食品股份有限公司"
+      ],
+      "repair_note": "把广东佳隆食品收回到佳隆股份：广东佳隆食品股份有限公司是一家集食品科研开发、生产、销售为一体的民营股份制企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东太力科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "太力科技：广东太力科技集团股份有限公司成立于2003年,是一家专注于新型复合材料研发、制造与应用的高新技术企业。",
+        "商业模式概述": "以太力科技相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其太力科技：广东太力科技集团股份有限公司成立于2003年,是一家专注于新型复合材料研发、制造与应用的高新技术企业。",
+        "商业模式长摘录": "公开资料可支撑其以太力科技相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301595",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东太力科技集团股份有限公司"
+      ],
+      "repair_note": "把广东太力科技集团收回到太力科技：广东太力科技集团股份有限公司成立于2003年,是一家专注于新型复合材料研发、制造与应用的高新技术企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东好太太科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "好太太：首先,自1999年至2005年,开创晾晒新品类,创建晾晒第一品牌。",
+        "商业模式概述": "以好太太相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其好太太：首先,自1999年至2005年,开创晾晒新品类,创建晾晒第一品牌。",
+        "商业模式长摘录": "公开资料可支撑其以好太太相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603848",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东好太太科技集团股份有限公司"
+      ],
+      "repair_note": "把广东好太太科技集团收回到好太太：首先,自1999年至2005年,开创晾晒新品类,创建晾晒第一品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东广弘控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "广弘控股：公司致力于构建从牧场到餐桌的食品全产业链,主业涵盖食品冷链服务、畜禽农牧养殖两大板块。",
+        "商业模式概述": "以广弘控股相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其广弘控股：公司致力于构建从牧场到餐桌的食品全产业链,主业涵盖食品冷链服务、畜禽农牧养殖两大板块。",
+        "商业模式长摘录": "公开资料可支撑其以广弘控股相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000529",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东广弘控股股份有限公司"
+      ],
+      "repair_note": "把广东广弘控股收回到广弘控股：公司致力于构建从牧场到餐桌的食品全产业链,主业涵盖食品冷链服务、畜禽农牧养殖两大板块的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东德尔玛科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "德尔玛：公司旗下运营品牌包括“德尔玛”、“飞利浦”等,主要产品类型包括家居环境类、水健康类、厨房类、个护健康类以及运动健康类。",
+        "商业模式概述": "以德尔玛相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其德尔玛：公司旗下运营品牌包括“德尔玛”、“飞利浦”等,主要产品类型包括家居环境类、水健康类、厨房类、个护健康类以及运动健康类。",
+        "商业模式长摘录": "公开资料可支撑其以德尔玛相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301332",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东德尔玛科技股份有限公司"
+      ],
+      "repair_note": "把广东德尔玛科技收回到德尔玛：公司旗下运营品牌包括“德尔玛”、“飞利浦”等,主要产品类型包括家居环境类、水健康类、厨房类、个护健康类以及运动健康类的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东燕塘乳业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "燕塘乳业：其中,广州开发区旗舰工厂具有“智能高效、节能环保、行业示范”突出优势,设有华南地区唯一的国家乳制品加工技术研发专业中心和博士后科研工作站,引领南方乳业发展。",
+        "商业模式概述": "以燕塘乳业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其燕塘乳业：其中,广州开发区旗舰工厂具有“智能高效、节能环保、行业示范”突出优势,设有华南地区唯一的国家乳制品加工技术研发专业中心和博士后科研工作站,引领南方乳业发展。",
+        "商业模式长摘录": "公开资料可支撑其以燕塘乳业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002732",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东燕塘乳业股份有限公司"
+      ],
+      "repair_note": "把广东燕塘乳业收回到燕塘乳业：其中,广州开发区旗舰工厂具有“智能高效、节能环保、行业示范”突出优势,设有华南地区唯一的国家乳制品加工技术研发专业中心和博士后科研工作站,引领南方乳业发展的公司级事实。"
+    }
+  ]
+}

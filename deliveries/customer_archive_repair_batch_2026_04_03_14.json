@@ -1,0 +1,338 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_14",
+  "batch_title": "客户档案修复第14批",
+  "account_names": [
+    "山东威达机械股份有限公司",
+    "山推工程机械股份有限公司",
+    "广东创世纪智能装备集团股份有限公司",
+    "应流机电股份有限公司",
+    "弘亚数控机械股份有限公司",
+    "怡合达自动化股份有限公司",
+    "拓荆科技股份有限公司",
+    "无锡信捷电气股份有限公司",
+    "杭叉集团股份有限公司",
+    "柏楚电子科技股份有限公司",
+    "武汉精测电子集团股份有限公司",
+    "深圳市七十迈数字科技有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "山东威达机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山东威达机械股份有限公司"
+      ],
+      "repair_note": "把山东威达机械收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "山推工程机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山推工程机械股份有限公司"
+      ],
+      "repair_note": "把山推工程机械收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东创世纪智能装备集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东创世纪智能装备集团股份有限公司"
+      ],
+      "repair_note": "把广东创世纪智能装备集团收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "应流机电股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=应流机电股份有限公司"
+      ],
+      "repair_note": "把应流机电收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "弘亚数控机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=弘亚数控机械股份有限公司"
+      ],
+      "repair_note": "把弘亚数控机械收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "怡合达自动化股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=怡合达自动化股份有限公司"
+      ],
+      "repair_note": "把怡合达自动化收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "拓荆科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "拓荆科技：拓荆科技股份有限公司成立于2010年4月,是国家高新技术企业,主要从事半导体专用设备的研发、生产、销售与技术服务。",
+        "商业模式概述": "以拓荆科技相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其拓荆科技：拓荆科技股份有限公司成立于2010年4月,是国家高新技术企业,主要从事半导体专用设备的研发、生产、销售与技术服务。",
+        "商业模式长摘录": "公开资料可支撑其以拓荆科技相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688072",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=拓荆科技股份有限公司"
+      ],
+      "repair_note": "把拓荆科技收回到拓荆科技：拓荆科技股份有限公司成立于2010年4月,是国家高新技术企业,主要从事半导体专用设备的研发、生产、销售与技术服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "无锡信捷电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=无锡信捷电气股份有限公司"
+      ],
+      "repair_note": "把无锡信捷电气收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "杭叉集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "杭叉集团：杭叉集团股份有限公司成立于1956年,是有着近70年发展历程,50年工业车辆研发技术沉淀的高端装备制造企业。",
+        "商业模式概述": "以杭叉集团相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其杭叉集团：杭叉集团股份有限公司成立于1956年,是有着近70年发展历程,50年工业车辆研发技术沉淀的高端装备制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以杭叉集团相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603298",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭叉集团股份有限公司"
+      ],
+      "repair_note": "把杭叉集团收回到杭叉集团：杭叉集团股份有限公司成立于1956年,是有着近70年发展历程,50年工业车辆研发技术沉淀的高端装备制造企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "柏楚电子科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "柏楚电子：公司自成立以来,坚持自主研发、创新创业、诚信务实的核心价值观,秉承专业、专注、专研的工作理念,深入了解客户诉求和意见,不断革新产品,以高新技术和高效管理创造经济效益,致力于成为为客户提供卓越服务,为中国先进制造产业革新,为股东创造丰厚回报的公司。",
+        "商业模式概述": "以柏楚电子相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其柏楚电子：公司自成立以来,坚持自主研发、创新创业、诚信务实的核心价值观,秉承专业、专注、专研的工作理念,深入了解客户诉求和意见,不断革新产品,以高新技术和高效管理创造经济效益,致力于成为为客户提供卓越服务,为中国先进制造产业革新,为股东创造丰厚回报的公司。",
+        "商业模式长摘录": "公开资料可支撑其以柏楚电子相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688188",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=柏楚电子科技股份有限公司"
+      ],
+      "repair_note": "把柏楚电子科技收回到柏楚电子：公司自成立以来,坚持自主研发、创新创业、诚信务实的核心价值观,秉承专业、专注、专研的工作理念,深入了解客户诉求和意见,不断革新产品,以高新技术和高效管理创造经济效益,致力于成为为客户提供卓越服务,为中国先进制造产业革新,为股东创造丰厚回报的公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "武汉精测电子集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=武汉精测电子集团股份有限公司"
+      ],
+      "repair_note": "把武汉精测电子集团收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市七十迈数字科技有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "乐其 SmallRig、安克创新及相关企业。",
+        "相似客户线索": "乐其 SmallRig、安克创新、致欧家居"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市七十迈数字科技有限公司"
+      ],
+      "repair_note": "把深圳市七十迈数字科技收回到公司级事实的公司级事实。"
+    }
+  ]
+}

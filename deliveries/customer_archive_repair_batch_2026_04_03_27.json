@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_27",
+  "batch_title": "客户档案修复第27批",
+  "account_names": [
+    "江西阳光乳业股份有限公司",
+    "汤臣倍健股份有限公司",
+    "沐曦集成电路(上海)股份有限公司",
+    "河北养元智汇饮品股份有限公司",
+    "河南双汇投资发展股份有限公司",
+    "河南神火煤电股份有限公司",
+    "洛阳栾川钼业集团股份有限公司",
+    "洽洽食品股份有限公司",
+    "浙江东日股份有限公司",
+    "浙江中国小商品城集团股份有限公司",
+    "浙江亿田智能厨电股份有限公司",
+    "浙江华友钴业股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "江西阳光乳业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "阳光乳业：江西阳光乳业股份有限公司始创于1956年,是一家集乳制品、乳饮料研发、生产、销售以及牧草种植、奶牛养殖于一体的专业化、高科技的全产业链现代化乳品企业,一、二、三产业高度融合,同步发展。",
+        "商业模式概述": "以阳光乳业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其阳光乳业：江西阳光乳业股份有限公司始创于1956年,是一家集乳制品、乳饮料研发、生产、销售以及牧草种植、奶牛养殖于一体的专业化、高科技的全产业链现代化乳品企业,一、二、三产业高度融合,同步发展。",
+        "商业模式长摘录": "公开资料可支撑其以阳光乳业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001318",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江西阳光乳业股份有限公司"
+      ],
+      "repair_note": "把江西阳光乳业收回到阳光乳业：江西阳光乳业股份有限公司始创于1956年,是一家集乳制品、乳饮料研发、生产、销售以及牧草种植、奶牛养殖于一体的专业化、高科技的全产业链现代化乳品企业,一、二、三产业高度融合,同步发展的公司级事实。"
+    },
+    {
+      "account_canonical_name": "汤臣倍健股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "汤臣倍健：2018年,汤臣倍健收购澳大利亚益生菌品牌Life-Space,同年5月,收购拜耳旗下具有80多年历史的儿童营养补充剂品牌Pentavite。",
+        "商业模式概述": "以汤臣倍健相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其汤臣倍健：2018年,汤臣倍健收购澳大利亚益生菌品牌Life-Space,同年5月,收购拜耳旗下具有80多年历史的儿童营养补充剂品牌Pentavite。",
+        "商业模式长摘录": "公开资料可支撑其以汤臣倍健相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300146",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=汤臣倍健股份有限公司"
+      ],
+      "repair_note": "把汤臣倍健收回到汤臣倍健：2018年,汤臣倍健收购澳大利亚益生菌品牌Life-Space,同年5月,收购拜耳旗下具有80多年历史的儿童营养补充剂品牌Pentavite的公司级事实。"
+    },
+    {
+      "account_canonical_name": "沐曦集成电路(上海)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "沐曦股份：沐曦集成电路(上海)股份有限公司,于2020年9月成立于上海,并在北京、南京、成都、杭州、深圳、武汉和长沙等地建立了全资子公司暨研发中心。",
+        "商业模式概述": "以沐曦股份相关产品与解决方案经营为核心，面向行业客户提供产品与服务。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其沐曦股份：沐曦集成电路(上海)股份有限公司,于2020年9月成立于上海,并在北京、南京、成都、杭州、深圳、武汉和长沙等地建立了全资子公司暨研发中心。",
+        "商业模式长摘录": "公开资料可支撑其以沐曦股份相关产品与解决方案经营为核心，面向行业客户提供产品与服务。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688802",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=沐曦集成电路(上海)股份有限公司"
+      ],
+      "repair_note": "把沐曦集成电路(上海)收回到沐曦股份：沐曦集成电路(上海)股份有限公司,于2020年9月成立于上海,并在北京、南京、成都、杭州、深圳、武汉和长沙等地建立了全资子公司暨研发中心的公司级事实。"
+    },
+    {
+      "account_canonical_name": "河北养元智汇饮品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "养元饮品：河北养元智汇饮品股份有限公司始建于1997年,是中国植物蛋白饮品龙头企业。",
+        "商业模式概述": "以养元饮品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其养元饮品：河北养元智汇饮品股份有限公司始建于1997年,是中国植物蛋白饮品龙头企业。",
+        "商业模式长摘录": "公开资料可支撑其以养元饮品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603156",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=河北养元智汇饮品股份有限公司"
+      ],
+      "repair_note": "把河北养元智汇饮品收回到养元饮品：河北养元智汇饮品股份有限公司始建于1997年,是中国植物蛋白饮品龙头企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "河南双汇投资发展股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "双汇发展：双汇在全国18个省(市)建有30个现代化肉类加工基地和配套产业,形成了饲料、养殖、屠宰、肉制品加工、调味品生产、新材料包装、冷链物流、商业外贸等完善的产业链,拥有100多万个销售终端,每天有1万多吨产品销往全国各地,在全国绝大部分省份均可实现朝发夕至。",
+        "商业模式概述": "以双汇发展相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其双汇发展：双汇在全国18个省(市)建有30个现代化肉类加工基地和配套产业,形成了饲料、养殖、屠宰、肉制品加工、调味品生产、新材料包装、冷链物流、商业外贸等完善的产业链,拥有100多万个销售终端,每天有1万多吨产品销往全国各地,在全国绝大部分省份均可实现朝发夕至。",
+        "商业模式长摘录": "公开资料可支撑其以双汇发展相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000895",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=河南双汇投资发展股份有限公司"
+      ],
+      "repair_note": "把河南双汇投资发展收回到双汇发展：双汇在全国18个省(市)建有30个现代化肉类加工基地和配套产业,形成了饲料、养殖、屠宰、肉制品加工、调味品生产、新材料包装、冷链物流、商业外贸等完善的产业链,拥有100多万个销售终端,每天有1万多吨产品销往全国各地,在全国绝大部分省份均可实现朝发夕至的公司级事实。"
+    },
+    {
+      "account_canonical_name": "河南神火煤电股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "神火股份：主要从事煤炭开采与洗选加工,电力生产与配送,氧化铝生产及电解铝冶炼,铝板带箔生产以及新型合金材料、高端储能材料研发与加工等。",
+        "商业模式概述": "以神火股份相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其神火股份：主要从事煤炭开采与洗选加工,电力生产与配送,氧化铝生产及电解铝冶炼,铝板带箔生产以及新型合金材料、高端储能材料研发与加工等。",
+        "商业模式长摘录": "公开资料可支撑其以神火股份相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000933",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=河南神火煤电股份有限公司"
+      ],
+      "repair_note": "把河南神火煤电收回到神火股份：主要从事煤炭开采与洗选加工,电力生产与配送,氧化铝生产及电解铝冶炼,铝板带箔生产以及新型合金材料、高端储能材料研发与加工等的公司级事实。"
+    },
+    {
+      "account_canonical_name": "洛阳栾川钼业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "洛阳钼业经营范围涵盖钨钼系列产品的采选、冶炼、深加工、钨钼系列产品。",
+        "商业模式概述": "以洛阳钼业相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其洛阳钼业经营范围涵盖钨钼系列产品的采选、冶炼、深加工、钨钼系列产品。",
+        "商业模式长摘录": "公开资料可支撑其以洛阳钼业相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603993",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=洛阳栾川钼业集团股份有限公司"
+      ],
+      "repair_note": "把洛阳栾川钼业集团收回到洛阳钼业经营范围涵盖钨钼系列产品的采选、冶炼、深加工、钨钼系列产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "洽洽食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "洽洽食品：洽洽食品股份有限公司(股份代码:002557)成立于2001年8月9日,主要生产坚果炒货类休闲食品。",
+        "商业模式概述": "以洽洽食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其洽洽食品：洽洽食品股份有限公司(股份代码:002557)成立于2001年8月9日,主要生产坚果炒货类休闲食品。",
+        "商业模式长摘录": "公开资料可支撑其以洽洽食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002557",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=洽洽食品股份有限公司"
+      ],
+      "repair_note": "把洽洽食品收回到洽洽食品：洽洽食品股份有限公司(股份代码:002557)成立于2001年8月9日,主要生产坚果炒货类休闲食品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江东日股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "浙江东日：公司业务以农产品批发平台运营为主业,覆盖市场建设与开发、市场管理、物流配送、食品生产和金融服务等相关产业。",
+        "商业模式概述": "以浙江东日相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其浙江东日：公司业务以农产品批发平台运营为主业,覆盖市场建设与开发、市场管理、物流配送、食品生产和金融服务等相关产业。",
+        "商业模式长摘录": "公开资料可支撑其以浙江东日相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600113",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江东日股份有限公司"
+      ],
+      "repair_note": "把浙江东日收回到浙江东日：公司业务以农产品批发平台运营为主业,覆盖市场建设与开发、市场管理、物流配送、食品生产和金融服务等相关产业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江中国小商品城集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "小商品城经营范围涵盖实业投资开发、投资管理、市场开发经营、市场配套服务。",
+        "商业模式概述": "以小商品城相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其小商品城经营范围涵盖实业投资开发、投资管理、市场开发经营、市场配套服务。",
+        "商业模式长摘录": "公开资料可支撑其以小商品城相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600415",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江中国小商品城集团股份有限公司"
+      ],
+      "repair_note": "把浙江中国小商品城集团收回到小商品城经营范围涵盖实业投资开发、投资管理、市场开发经营、市场配套服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江亿田智能厨电股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以亿田智能相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以亿田智能相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300911",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江亿田智能厨电股份有限公司"
+      ],
+      "repair_note": "把浙江亿田智能厨电收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江华友钴业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "华友钴业：浙江华友钴业股份有限公司(SH603799)成立于2002年,总部位于浙江桐乡,中国企业500强,是一家从事新能源锂电材料和钴新材料研发、制造的高新技术企业。",
+        "商业模式概述": "以华友钴业相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其华友钴业：浙江华友钴业股份有限公司(SH603799)成立于2002年,总部位于浙江桐乡,中国企业500强,是一家从事新能源锂电材料和钴新材料研发、制造的高新技术企业。",
+        "商业模式长摘录": "公开资料可支撑其以华友钴业相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603799",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江华友钴业股份有限公司"
+      ],
+      "repair_note": "把浙江华友钴业收回到华友钴业：浙江华友钴业股份有限公司(SH603799)成立于2002年,总部位于浙江桐乡,中国企业500强,是一家从事新能源锂电材料和钴新材料研发、制造的高新技术企业的公司级事实。"
+    }
+  ]
+}

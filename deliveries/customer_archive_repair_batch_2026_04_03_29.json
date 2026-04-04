@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_29",
+  "batch_title": "客户档案修复第29批",
+  "account_names": [
+    "湖北均瑶大健康饮品股份有限公司",
+    "湖南梦洁家纺股份有限公司",
+    "潍柴动力股份有限公司",
+    "澜起科技股份有限公司",
+    "澳柯玛股份有限公司",
+    "火星人厨具股份有限公司",
+    "爱美客技术发展股份有限公司",
+    "特变电工股份有限公司",
+    "玉马遮阳科技股份有限公司",
+    "王力安防科技股份有限公司",
+    "珠海格力电器股份有限公司",
+    "百大集团股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "湖北均瑶大健康饮品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "均瑶健康：湖北均瑶大健康饮品股份有限公司(605388.SH,简称“均瑶健康”)创立于1994年6月,前身为均瑶集团乳业股份有限公司,是一家以常温乳酸菌饮品为主体,以功能性益生菌为核心突破的大健康科技创新企业。",
+        "商业模式概述": "以均瑶健康相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其均瑶健康：湖北均瑶大健康饮品股份有限公司(605388.SH,简称“均瑶健康”)创立于1994年6月,前身为均瑶集团乳业股份有限公司,是一家以常温乳酸菌饮品为主体,以功能性益生菌为核心突破的大健康科技创新企业。",
+        "商业模式长摘录": "公开资料可支撑其以均瑶健康相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605388",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=湖北均瑶大健康饮品股份有限公司"
+      ],
+      "repair_note": "把湖北均瑶大健康饮品收回到均瑶健康：湖北均瑶大健康饮品股份有限公司(605388.SH,简称“均瑶健康”)创立于1994年6月,前身为均瑶集团乳业股份有限公司,是一家以常温乳酸菌饮品为主体,以功能性益生菌为核心突破的大健康科技创新企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "湖南梦洁家纺股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "梦洁股份：湖南梦洁家纺股份有限公司主要从事家纺产品的设计、制造、销售以及提供高品质的家居生活服务,拥有梦洁、寐、梦洁宝贝、梦洁床垫、平实美学、觅、Dreamcoco、Poeffen等在国内外家纺市场有重要影响力的自主品牌。",
+        "商业模式概述": "以梦洁股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其梦洁股份：湖南梦洁家纺股份有限公司主要从事家纺产品的设计、制造、销售以及提供高品质的家居生活服务,拥有梦洁、寐、梦洁宝贝、梦洁床垫、平实美学、觅、Dreamcoco、Poeffen等在国内外家纺市场有重要影响力的自主品牌。",
+        "商业模式长摘录": "公开资料可支撑其以梦洁股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002397",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=湖南梦洁家纺股份有限公司"
+      ],
+      "repair_note": "把湖南梦洁家纺收回到梦洁股份：湖南梦洁家纺股份有限公司主要从事家纺产品的设计、制造、销售以及提供高品质的家居生活服务,拥有梦洁、寐、梦洁宝贝、梦洁床垫、平实美学、觅、Dreamcoco、Poeffen等在国内外家纺市场有重要影响力的自主品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "潍柴动力股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "潍柴动力：拥有潍柴动力发动机、陕汽重卡、潍柴雷沃智慧农业、法士特变速器、汉德车桥、火炬火花塞以及德国凯傲、德国林德液压、美国德马泰克、美国PSI、法国博杜安、加拿大巴拉德等国内外知名品牌。",
+        "商业模式概述": "以潍柴动力相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其潍柴动力：拥有潍柴动力发动机、陕汽重卡、潍柴雷沃智慧农业、法士特变速器、汉德车桥、火炬火花塞以及德国凯傲、德国林德液压、美国德马泰克、美国PSI、法国博杜安、加拿大巴拉德等国内外知名品牌。",
+        "商业模式长摘录": "公开资料可支撑其以潍柴动力相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000338",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=潍柴动力股份有限公司"
+      ],
+      "repair_note": "把潍柴动力收回到潍柴动力：拥有潍柴动力发动机、陕汽重卡、潍柴雷沃智慧农业、法士特变速器、汉德车桥、火炬火花塞以及德国凯傲、德国林德液压、美国德马泰克、美国PSI、法国博杜安、加拿大巴拉德等国内外知名品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "澜起科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "澜起科技：澜起科技股份有限公司成立于2004年,是国际领先的数据处理及互连芯片设计公司,致力于为云计算和人工智能领域提供高性能、低功耗的芯片解决方案,目前公司拥有互连类芯片和津逮服务器平台两大产品线。",
+        "商业模式概述": "以澜起科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其澜起科技：澜起科技股份有限公司成立于2004年,是国际领先的数据处理及互连芯片设计公司,致力于为云计算和人工智能领域提供高性能、低功耗的芯片解决方案,目前公司拥有互连类芯片和津逮服务器平台两大产品线。",
+        "商业模式长摘录": "公开资料可支撑其以澜起科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688008",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=澜起科技股份有限公司"
+      ],
+      "repair_note": "把澜起科技收回到澜起科技：澜起科技股份有限公司成立于2004年,是国际领先的数据处理及互连芯片设计公司,致力于为云计算和人工智能领域提供高性能、低功耗的芯片解决方案,目前公司拥有互连类芯片和津逮服务器平台两大产品线的公司级事实。"
+    },
+    {
+      "account_canonical_name": "澳柯玛股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "澳柯玛：公司是中国500最具价值品牌,中国制造业500强企业、中国轻工业百强企业。",
+        "商业模式概述": "以澳柯玛相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其澳柯玛：公司是中国500最具价值品牌,中国制造业500强企业、中国轻工业百强企业。",
+        "商业模式长摘录": "公开资料可支撑其以澳柯玛相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600336",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=澳柯玛股份有限公司"
+      ],
+      "repair_note": "把澳柯玛收回到澳柯玛：公司是中国500最具价值品牌,中国制造业500强企业、中国轻工业百强企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "火星人厨具股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "火星人：火星人厨具股份有限公司是一家以高端集成厨电为核心业务,“让厨房生活更健康”为使命而进行产品研发和生产的高新技术企业,现打造集成灶、集成洗碗机、水槽洗碗机、集成水槽、热水器、集成家居等精良产品。",
+        "商业模式概述": "以火星人相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其火星人：火星人厨具股份有限公司是一家以高端集成厨电为核心业务,“让厨房生活更健康”为使命而进行产品研发和生产的高新技术企业,现打造集成灶、集成洗碗机、水槽洗碗机、集成水槽、热水器、集成家居等精良产品。",
+        "商业模式长摘录": "公开资料可支撑其以火星人相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300894",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=火星人厨具股份有限公司"
+      ],
+      "repair_note": "把火星人厨具收回到火星人：火星人厨具股份有限公司是一家以高端集成厨电为核心业务,“让厨房生活更健康”为使命而进行产品研发和生产的高新技术企业,现打造集成灶、集成洗碗机、水槽洗碗机、集成水槽、热水器、集成家居等精良产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "爱美客技术发展股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "爱美客：爱美客技术发展股份有限公司(以下简称爱美客)成立于2004年,公司立足于生物医用软组织修复材料的研发和转化,是国内生物医用软组织材料创新型的领先企业,已成功实现透明质酸钠填充剂系列产品及面部埋植线的产业化。",
+        "商业模式概述": "以爱美客相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其爱美客：爱美客技术发展股份有限公司(以下简称爱美客)成立于2004年,公司立足于生物医用软组织修复材料的研发和转化,是国内生物医用软组织材料创新型的领先企业,已成功实现透明质酸钠填充剂系列产品及面部埋植线的产业化。",
+        "商业模式长摘录": "公开资料可支撑其以爱美客相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300896",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=爱美客技术发展股份有限公司"
+      ],
+      "repair_note": "把爱美客技术发展收回到爱美客：爱美客技术发展股份有限公司(以下简称爱美客)成立于2004年,公司立足于生物医用软组织修复材料的研发和转化,是国内生物医用软组织材料创新型的领先企业,已成功实现透明质酸钠填充剂系列产品及面部埋植线的产业化的公司级事实。"
+    },
+    {
+      "account_canonical_name": "特变电工股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "特变电工：特变电工集团综合实力位居世界机械500强第228位、中国企业500强第247位、中国民营企业500强第93位、中国大企业创新100强排名第40位,连续多年上榜ENR全球百强工程承包商。",
+        "商业模式概述": "以特变电工相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其特变电工：特变电工集团综合实力位居世界机械500强第228位、中国企业500强第247位、中国民营企业500强第93位、中国大企业创新100强排名第40位,连续多年上榜ENR全球百强工程承包商。",
+        "商业模式长摘录": "公开资料可支撑其以特变电工相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600089",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=特变电工股份有限公司"
+      ],
+      "repair_note": "把特变电工收回到特变电工：特变电工集团综合实力位居世界机械500强第228位、中国企业500强第247位、中国民营企业500强第93位、中国大企业创新100强排名第40位,连续多年上榜ENR全球百强工程承包商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "玉马遮阳科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "玉马科技：山东玉马遮阳科技股份有限公司,是一家集高分子功能性遮阳新材料的研发、生产、销售及进出口贸易于一体的高新技术企业,公司下设驰骋进出口(潍坊)有限公司、山东玉马新能源科技有限公司、威特新材料(山东)有限公司、益可佳家纺用品(山东)有限公司、YUMAUSAINC五家全资子公司。",
+        "商业模式概述": "以玉马科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其玉马科技：山东玉马遮阳科技股份有限公司,是一家集高分子功能性遮阳新材料的研发、生产、销售及进出口贸易于一体的高新技术企业,公司下设驰骋进出口(潍坊)有限公司、山东玉马新能源科技有限公司、威特新材料(山东)有限公司、益可佳家纺用品(山东)有限公司、YUMAUSAINC五家全资子公司。",
+        "商业模式长摘录": "公开资料可支撑其以玉马科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300993",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=玉马遮阳科技股份有限公司"
+      ],
+      "repair_note": "把玉马遮阳科技收回到玉马科技：山东玉马遮阳科技股份有限公司,是一家集高分子功能性遮阳新材料的研发、生产、销售及进出口贸易于一体的高新技术企业,公司下设驰骋进出口(潍坊)有限公司、山东玉马新能源科技有限公司、威特新材料(山东)有限公司、益可佳家纺用品(山东)有限公司、YUMAUSAINC五家全资子公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "王力安防科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以王力安防相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以王力安防相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605268",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=王力安防科技股份有限公司"
+      ],
+      "repair_note": "把王力安防科技收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "珠海格力电器股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "格力电器：共有152个研究所、1411个实验室、1个院士工作站(电机与控制),拥有国家工程技术研究中心、国家级工业设计中心、国家认定企业技术中心、机器人工程技术研发中心各1个,同时成为国家通报咨询中心制冷设备研究评议基地、国家标准验证点(制冷设备节能)。",
+        "商业模式概述": "以格力电器相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其格力电器：共有152个研究所、1411个实验室、1个院士工作站(电机与控制),拥有国家工程技术研究中心、国家级工业设计中心、国家认定企业技术中心、机器人工程技术研发中心各1个,同时成为国家通报咨询中心制冷设备研究评议基地、国家标准验证点(制冷设备节能)。",
+        "商业模式长摘录": "公开资料可支撑其以格力电器相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000651",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=珠海格力电器股份有限公司"
+      ],
+      "repair_note": "把珠海格力电器收回到格力电器：共有152个研究所、1411个实验室、1个院士工作站(电机与控制),拥有国家工程技术研究中心、国家级工业设计中心、国家认定企业技术中心、机器人工程技术研发中心各1个,同时成为国家通报咨询中心制冷设备研究评议基地、国家标准验证点(制冷设备节能)的公司级事实。"
+    },
+    {
+      "account_canonical_name": "百大集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以百大集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以百大集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600865",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=百大集团股份有限公司"
+      ],
+      "repair_note": "把百大集团收回到公司级事实的公司级事实。"
+    }
+  ]
+}

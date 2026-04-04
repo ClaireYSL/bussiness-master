@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_35",
+  "batch_title": "客户档案修复第35批",
+  "account_names": [
+    "上海悦心健康集团股份有限公司",
+    "上海百润投资控股集团股份有限公司",
+    "上海益民商业集团股份有限公司",
+    "上海硅产业集团股份有限公司",
+    "上海金枫酒业股份有限公司",
+    "上海锦和商业经营管理(集团)股份有限公司",
+    "东芯半导体股份有限公司",
+    "中伟新材料股份有限公司",
+    "中信尼雅葡萄酒股份有限公司",
+    "中信科移动通信技术股份有限公司",
+    "中信金属股份有限公司",
+    "中国国际海运集装箱(集团)股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "上海悦心健康集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "悦心健康：公司自成立以来专注于建筑陶瓷的制造销售,构建自有研发、生产及销售配套体系。",
+        "商业模式概述": "以悦心健康相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其悦心健康：公司自成立以来专注于建筑陶瓷的制造销售,构建自有研发、生产及销售配套体系。",
+        "商业模式长摘录": "公开资料可支撑其以悦心健康相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002162",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海悦心健康集团股份有限公司"
+      ],
+      "repair_note": "把上海悦心健康集团收回到悦心健康：公司自成立以来专注于建筑陶瓷的制造销售,构建自有研发、生产及销售配套体系的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海百润投资控股集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "百润股份：公司发展战略是以产品和服务创新为核心,借助资本市场的创新平台,致力于发展成为一个综合性的食品及配料集团公司。",
+        "商业模式概述": "以百润股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其百润股份：公司发展战略是以产品和服务创新为核心,借助资本市场的创新平台,致力于发展成为一个综合性的食品及配料集团公司。",
+        "商业模式长摘录": "公开资料可支撑其以百润股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002568",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海百润投资控股集团股份有限公司"
+      ],
+      "repair_note": "把上海百润投资控股集团收回到百润股份：公司发展战略是以产品和服务创新为核心,借助资本市场的创新平台,致力于发展成为一个综合性的食品及配料集团公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海益民商业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "益民集团：品牌连锁:公司旗下现有古今内衣、天宝龙凤、星光摄影、上海床品公司等多个品牌从事商业批发零售业务,上述品牌在市场上具有良好口碑及品牌影响力。",
+        "商业模式概述": "以益民集团相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其益民集团：品牌连锁:公司旗下现有古今内衣、天宝龙凤、星光摄影、上海床品公司等多个品牌从事商业批发零售业务,上述品牌在市场上具有良好口碑及品牌影响力。",
+        "商业模式长摘录": "公开资料可支撑其以益民集团相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600824",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海益民商业集团股份有限公司"
+      ],
+      "repair_note": "把上海益民商业集团收回到益民集团：品牌连锁:公司旗下现有古今内衣、天宝龙凤、星光摄影、上海床品公司等多个品牌从事商业批发零售业务,上述品牌在市场上具有良好口碑及品牌影响力的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海硅产业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "沪硅产业：上海硅产业集团股份有限公司专注于半导体硅材料产业及其生态系统发展。",
+        "商业模式概述": "以沪硅产业相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其沪硅产业：上海硅产业集团股份有限公司专注于半导体硅材料产业及其生态系统发展。",
+        "商业模式长摘录": "公开资料可支撑其以沪硅产业相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688126",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海硅产业集团股份有限公司"
+      ],
+      "repair_note": "把上海硅产业集团收回到沪硅产业：上海硅产业集团股份有限公司专注于半导体硅材料产业及其生态系统发展的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海金枫酒业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "金枫酒业：上海金枫酒业股份有限公司是光明食品(集团)旗下酒业发展战略的重要承担者,是一家具有长三角跨区域布局的黄酒企业,拥有江、浙、沪三地多元酿造基地,拥有80余年历史和丰富酿造经验。",
+        "商业模式概述": "以金枫酒业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其金枫酒业：上海金枫酒业股份有限公司是光明食品(集团)旗下酒业发展战略的重要承担者,是一家具有长三角跨区域布局的黄酒企业,拥有江、浙、沪三地多元酿造基地,拥有80余年历史和丰富酿造经验。",
+        "商业模式长摘录": "公开资料可支撑其以金枫酒业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600616",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海金枫酒业股份有限公司"
+      ],
+      "repair_note": "把上海金枫酒业收回到金枫酒业：上海金枫酒业股份有限公司是光明食品(集团)旗下酒业发展战略的重要承担者,是一家具有长三角跨区域布局的黄酒企业,拥有江、浙、沪三地多元酿造基地,拥有80余年历史和丰富酿造经验的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海锦和商业经营管理(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "锦和商管：锦和商管通过对城市老旧物业、低效存量商用物业的重新市场定位、设计改造、招商运营管理提升物业价值,并在改善城市面貌的同时,挖掘建筑的历史文脉,推动文创产业的孵化发展。",
+        "商业模式概述": "以锦和商管相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其锦和商管：锦和商管通过对城市老旧物业、低效存量商用物业的重新市场定位、设计改造、招商运营管理提升物业价值,并在改善城市面貌的同时,挖掘建筑的历史文脉,推动文创产业的孵化发展。",
+        "商业模式长摘录": "公开资料可支撑其以锦和商管相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603682",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海锦和商业经营管理(集团)股份有限公司"
+      ],
+      "repair_note": "把上海锦和商业经营管理(集团)收回到锦和商管：锦和商管通过对城市老旧物业、低效存量商用物业的重新市场定位、设计改造、招商运营管理提升物业价值,并在改善城市面貌的同时,挖掘建筑的历史文脉,推动文创产业的孵化发展的公司级事实。"
+    },
+    {
+      "account_canonical_name": "东芯半导体股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "东芯股份：东芯半导体股份有限公司成立于2014年,总部位于上海,在深圳、南京、香港、韩国均设有分公司或子公司,矢志成为领先的存储芯片设计公司,服务全球客户。",
+        "商业模式概述": "以东芯股份相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其东芯股份：东芯半导体股份有限公司成立于2014年,总部位于上海,在深圳、南京、香港、韩国均设有分公司或子公司,矢志成为领先的存储芯片设计公司,服务全球客户。",
+        "商业模式长摘录": "公开资料可支撑其以东芯股份相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688110",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=东芯半导体股份有限公司"
+      ],
+      "repair_note": "把东芯半导体收回到东芯股份：东芯半导体股份有限公司成立于2014年,总部位于上海,在深圳、南京、香港、韩国均设有分公司或子公司,矢志成为领先的存储芯片设计公司,服务全球客户的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中伟新材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中伟股份：公司自主研发的新能源材料进入中国、欧美、日韩地区多家世界500强企业高端供应链,被广泛应用于3C、动力及储能领域。",
+        "商业模式概述": "以中伟股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中伟股份：公司自主研发的新能源材料进入中国、欧美、日韩地区多家世界500强企业高端供应链,被广泛应用于3C、动力及储能领域。",
+        "商业模式长摘录": "公开资料可支撑其以中伟股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300919",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中伟新材料股份有限公司"
+      ],
+      "repair_note": "把中伟新材料收回到中伟股份：公司自主研发的新能源材料进入中国、欧美、日韩地区多家世界500强企业高端供应链,被广泛应用于3C、动力及储能领域的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中信尼雅葡萄酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中信尼雅：公司以“倡导产地生态消费,引领品质生活”为企业理念,拥有新疆天山北麓和伊犁河谷两大得天独厚的原生态葡萄种植产区,并分别在玛纳斯、阜康、石河子、霍尔果斯及烟台设有五大生产厂,全套引进法国、意大利先进的葡萄酒酿造设备,拥有4个国家级科研平台,7个省级葡萄酒科研中心。",
+        "商业模式概述": "以中信尼雅相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中信尼雅：公司以“倡导产地生态消费,引领品质生活”为企业理念,拥有新疆天山北麓和伊犁河谷两大得天独厚的原生态葡萄种植产区,并分别在玛纳斯、阜康、石河子、霍尔果斯及烟台设有五大生产厂,全套引进法国、意大利先进的葡萄酒酿造设备,拥有4个国家级科研平台,7个省级葡萄酒科研中心。",
+        "商业模式长摘录": "公开资料可支撑其以中信尼雅相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600084",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中信尼雅葡萄酒股份有限公司"
+      ],
+      "repair_note": "把中信尼雅葡萄酒收回到中信尼雅：公司以“倡导产地生态消费,引领品质生活”为企业理念,拥有新疆天山北麓和伊犁河谷两大得天独厚的原生态葡萄种植产区,并分别在玛纳斯、阜康、石河子、霍尔果斯及烟台设有五大生产厂,全套引进法国、意大利先进的葡萄酒酿造设备,拥有4个国家级科研平台,7个省级葡萄酒科研中心的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中信科移动通信技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "信科移动：公司以“万物互联的无限沟通引擎”为企业发展理念,倡导“创新、市场、诚信、责任”的企业核心价值观,致力于为全球电信运营商和行业客户提供领先的移动通信技术、产品与解决方案。",
+        "商业模式概述": "以信科移动相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其信科移动：公司以“万物互联的无限沟通引擎”为企业发展理念,倡导“创新、市场、诚信、责任”的企业核心价值观,致力于为全球电信运营商和行业客户提供领先的移动通信技术、产品与解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以信科移动相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688387",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中信科移动通信技术股份有限公司"
+      ],
+      "repair_note": "把中信科移动通信技术收回到信科移动：公司以“万物互联的无限沟通引擎”为企业发展理念,倡导“创新、市场、诚信、责任”的企业核心价值观,致力于为全球电信运营商和行业客户提供领先的移动通信技术、产品与解决方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中信金属股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中信金属：中信集团按照“践行国家战略、助力民族复兴”的使命要求,以“打造卓越企业集团、铸就百年民族品牌”为发展愿景,深耕综合金融、先进智造、先进材料、新消费和新型城镇化五大业务板块,致力于成为践行国家战略的一面旗帜,国内领先、国际一流的科技型卓越企业集团。",
+        "商业模式概述": "以中信金属相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中信金属：中信集团按照“践行国家战略、助力民族复兴”的使命要求,以“打造卓越企业集团、铸就百年民族品牌”为发展愿景,深耕综合金融、先进智造、先进材料、新消费和新型城镇化五大业务板块,致力于成为践行国家战略的一面旗帜,国内领先、国际一流的科技型卓越企业集团。",
+        "商业模式长摘录": "公开资料可支撑其以中信金属相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601061",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中信金属股份有限公司"
+      ],
+      "repair_note": "把中信金属收回到中信金属：中信集团按照“践行国家战略、助力民族复兴”的使命要求,以“打造卓越企业集团、铸就百年民族品牌”为发展愿景,深耕综合金融、先进智造、先进材料、新消费和新型城镇化五大业务板块,致力于成为践行国家战略的一面旗帜,国内领先、国际一流的科技型卓越企业集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中国国际海运集装箱(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中集集团：公司致力于在如下主要业务领域:集装箱、道路运输车辆、能源化工及食品装备、海洋工程、物流服务、空港设备等,提供高品质与可信赖的装备和服务。",
+        "商业模式概述": "以中集集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中集集团：公司致力于在如下主要业务领域:集装箱、道路运输车辆、能源化工及食品装备、海洋工程、物流服务、空港设备等,提供高品质与可信赖的装备和服务。",
+        "商业模式长摘录": "公开资料可支撑其以中集集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000039",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中国国际海运集装箱(集团)股份有限公司"
+      ],
+      "repair_note": "把中国国际海运集装箱(集团)收回到中集集团：公司致力于在如下主要业务领域:集装箱、道路运输车辆、能源化工及食品装备、海洋工程、物流服务、空港设备等,提供高品质与可信赖的装备和服务的公司级事实。"
+    }
+  ]
+}

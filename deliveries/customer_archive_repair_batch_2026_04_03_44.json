@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_44",
+  "batch_title": "客户档案修复第44批",
+  "account_names": [
+    "杭州福斯特应用材料股份有限公司",
+    "杭州诺邦无纺股份有限公司",
+    "极米科技股份有限公司",
+    "柳州两面针股份有限公司",
+    "桂林西麦食品股份有限公司",
+    "武汉光迅科技股份有限公司",
+    "武汉金运激光股份有限公司",
+    "武汉高德红外股份有限公司",
+    "江山欧派门业股份有限公司",
+    "江苏今世缘酒业股份有限公司",
+    "江苏恒顺醋业股份有限公司",
+    "江苏泰慕士针纺科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "杭州福斯特应用材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "福斯特：杭州福斯特应用材料股份有限公司总部位于杭州市临安区,是一家专注于新材料研发、生产和销售的高新技术企业。",
+        "商业模式概述": "以福斯特相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其福斯特：杭州福斯特应用材料股份有限公司总部位于杭州市临安区,是一家专注于新材料研发、生产和销售的高新技术企业。",
+        "商业模式长摘录": "公开资料可支撑其以福斯特相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603806",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州福斯特应用材料股份有限公司"
+      ],
+      "repair_note": "把杭州福斯特应用材料收回到福斯特：杭州福斯特应用材料股份有限公司总部位于杭州市临安区,是一家专注于新材料研发、生产和销售的高新技术企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "杭州诺邦无纺股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "诺邦股份经营范围涵盖一般项目:产业用纺织制成品销售、产业用纺织制成品制造、第一类医疗器械销售、家用纺织制成品制造。",
+        "商业模式概述": "以诺邦股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其诺邦股份经营范围涵盖一般项目:产业用纺织制成品销售、产业用纺织制成品制造、第一类医疗器械销售、家用纺织制成品制造。",
+        "商业模式长摘录": "公开资料可支撑其以诺邦股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603238",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州诺邦无纺股份有限公司"
+      ],
+      "repair_note": "把杭州诺邦无纺收回到诺邦股份经营范围涵盖一般项目:产业用纺织制成品销售、产业用纺织制成品制造、第一类医疗器械销售、家用纺织制成品制造的公司级事实。"
+    },
+    {
+      "account_canonical_name": "极米科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "极米科技：极米科技股份有限公司于2013年在成都高新区创立,是一家专注于新型显示领域,重点打造智能投影和激光电视等创新产品,集设计、研发、制造、销售和服务于一身的高新科创企业。",
+        "商业模式概述": "以极米科技相关产品的设计、研发和销售为核心。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其极米科技：极米科技股份有限公司于2013年在成都高新区创立,是一家专注于新型显示领域,重点打造智能投影和激光电视等创新产品,集设计、研发、制造、销售和服务于一身的高新科创企业。",
+        "商业模式长摘录": "公开资料可支撑其以极米科技相关产品的设计、研发和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688696",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=极米科技股份有限公司"
+      ],
+      "repair_note": "把极米科技收回到极米科技：极米科技股份有限公司于2013年在成都高新区创立,是一家专注于新型显示领域,重点打造智能投影和激光电视等创新产品,集设计、研发、制造、销售和服务于一身的高新科创企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "柳州两面针股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "两面针：四十多年的发展,两面针已从一支牙膏逐渐发展成为拥有日化和医药两大产业板块的公司,是中药牙膏生产技术领先型企业,是中国口腔清洁护理用品工业协会副理事长单位、中草药牙膏分标委秘书处承担单位、《中药牙膏》团体标准牵头起草单位,是行业内首家通过ISO9001国际质量体系认证和首家获准设立博士后科研工作站的国家高新技术企业……1978年,第一支两面针中药牙膏诞生,开创中药牙膏之先河,并连续多年畅销全国;1995年,两面针牙膏获全国畅销国产商品“金桥奖”牙膏第一名,这是自1992年起两面针公司连续四年荣获“金桥奖”;1999年,“两面针”商标被国家工商行政管理局商标局认定为驰名商标,成为当时广西首家被认定为驰名商标的企业;2002年,“两面针中药牙膏”被评为中国名牌产品,同年,博士后科研工作站在两面针公司设立;2004年,两面针牙膏被认定为“国家质量标准示范产品”和“全国用户满意产品”;2005年,“两面针”牙膏被评为“中国最受公众喜爱的十大民族品牌”;2012年,两面针中药牙膏系列产品荣获“2000~2012年行业重大科技成果二等奖”,同年,两面针入选首批16所“全国中小学质量教育社会实践基地”之一;2013年,两面针消痛系列中药牙膏研制成功,填补了行业空白;2014年,两面针成为中国—东盟博览会行业合作伙伴,开启国际化道路;2016年,两面针公司被评为行业“特殊贡献单位”;2017年,两面针获得广西特产行销全国核心品牌,荣登“柳州老字号”、“广西老字号”榜单,并获得2016~2017年度“全国优秀企业文化成果奖”;2018年,出口的两面针护龈止血牙膏获美国FDA认证,公司获评“广西制造业企业50强”,两面针产品再次评为“广西名牌产品”;2019年,两面针公司通过美国FDA验厂;2020年,两面针公司荣获“广西高新技术企业百强”称号;2021年,两面针获新浪广西2020年度广西互联网营销先锋企业奖,并喜获两化融合管理体系评定证书。",
+        "商业模式概述": "以两面针相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其两面针：四十多年的发展,两面针已从一支牙膏逐渐发展成为拥有日化和医药两大产业板块的公司,是中药牙膏生产技术领先型企业,是中国口腔清洁护理用品工业协会副理事长单位、中草药牙膏分标委秘书处承担单位、《中药牙膏》团体标准牵头起草单位,是行业内首家通过ISO9001国际质量体系认证和首家获准设立博士后科研工作站的国家高新技术企业……1978年,第一支两面针中药牙膏诞生,开创中药牙膏之先河,并连续多年畅销全国;1995年,两面针牙膏获全国畅销国产商品“金桥奖”牙膏第一名,这是自1992年起两面针公司连续四年荣获“金桥奖”;1999年,“两面针”商标被国家工商行政管理局商标局认定为驰名商标,成为当时广西首家被认定为驰名商标的企业;2002年,“两面针中药牙膏”被评为中国名牌产品,同年,博士后科研工作站在两面针公司设立;2004年,两面针牙膏被认定为“国家质量标准示范产品”和“全国用户满意产品”;2005年,“两面针”牙膏被评为“中国最受公众喜爱的十大民族品牌”;2012年,两面针中药牙膏系列产品荣获“2000~2012年行业重大科技成果二等奖”,同年,两面针入选首批16所“全国中小学质量教育社会实践基地”之一;2013年,两面针消痛系列中药牙膏研制成功,填补了行业空白;2014年,两面针成为中国—东盟博览会行业合作伙伴,开启国际化道路;2016年,两面针公司被评为行业“特殊贡献单位”;2017年,两面针获得广西特产行销全国核心品牌,荣登“柳州老字号”、“广西老字号”榜单,并获得2016~2017年度“全国优秀企业文化成果奖”;2018年,出口的两面针护龈止血牙膏获美国FDA认证,公司获评“广西制造业企业50强”,两面针产品再次评为“广西名牌产品”;2019年,两面针公司通过美国FDA验厂;2020年,两面针公司荣获“广西高新技术企业百强”称号;2021年,两面针获新浪广西2020年度广西互联网营销先锋企业奖,并喜获两化融合管理体系评定证书。",
+        "商业模式长摘录": "公开资料可支撑其以两面针相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600249",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=柳州两面针股份有限公司"
+      ],
+      "repair_note": "把柳州两面针收回到两面针：四十多年的发展,两面针已从一支牙膏逐渐发展成为拥有日化和医药两大产业板块的公司,是中药牙膏生产技术领先型企业,是中国口腔清洁护理用品工业协会副理事长单位、中草药牙膏分标委秘书处承担单位、《中药牙膏》团体标准牵头起草单位,是行业内首家通过ISO9001国际质量体系认证和首家获准设立博士后科研工作站的国家高新技术企业……1978年,第一支两面针中药牙膏诞生,开创中药牙膏之先河,并连续多年畅销全国;1995年,两面针牙膏获全国畅销国产商品“金桥奖”牙膏第一名,这是自1992年起两面针公司连续四年荣获“金桥奖”;1999年,“两面针”商标被国家工商行政管理局商标局认定为驰名商标,成为当时广西首家被认定为驰名商标的企业;2002年,“两面针中药牙膏”被评为中国名牌产品,同年,博士后科研工作站在两面针公司设立;2004年,两面针牙膏被认定为“国家质量标准示范产品”和“全国用户满意产品”;2005年,“两面针”牙膏被评为“中国最受公众喜爱的十大民族品牌”;2012年,两面针中药牙膏系列产品荣获“2000~2012年行业重大科技成果二等奖”,同年,两面针入选首批16所“全国中小学质量教育社会实践基地”之一;2013年,两面针消痛系列中药牙膏研制成功,填补了行业空白;2014年,两面针成为中国—东盟博览会行业合作伙伴,开启国际化道路;2016年,两面针公司被评为行业“特殊贡献单位”;2017年,两面针获得广西特产行销全国核心品牌,荣登“柳州老字号”、“广西老字号”榜单,并获得2016~2017年度“全国优秀企业文化成果奖”;2018年,出口的两面针护龈止血牙膏获美国FDA认证,公司获评“广西制造业企业50强”,两面针产品再次评为“广西名牌产品”;2019年,两面针公司通过美国FDA验厂;2020年,两面针公司荣获“广西高新技术企业百强”称号;2021年,两面针获新浪广西2020年度广西互联网营销先锋企业奖,并喜获两化融合管理体系评定证书的公司级事实。"
+    },
+    {
+      "account_canonical_name": "桂林西麦食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "西麦食品：桂林西麦食品股份有限公司,西麦品牌始于1994年。",
+        "商业模式概述": "以西麦食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其西麦食品：桂林西麦食品股份有限公司,西麦品牌始于1994年。",
+        "商业模式长摘录": "公开资料可支撑其以西麦食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002956",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=桂林西麦食品股份有限公司"
+      ],
+      "repair_note": "把桂林西麦食品收回到西麦食品：桂林西麦食品股份有限公司,西麦品牌始于1994年的公司级事实。"
+    },
+    {
+      "account_canonical_name": "武汉光迅科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "光迅科技：武汉光迅科技股份有限公司(简称光迅科技)是光电器件、模块研发及产业化全球先行者;专注于光通信领域近50年,多项\"第一\"由此诞生,是\"国家认定企业技术中心\"\"国家技术创新示范企业\"\"光纤通信技术和网络国家重点实验室\",具备光电子芯片、器件、模块及子系统产品的战略研发和规模量产能力。",
+        "商业模式概述": "以光迅科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其光迅科技：武汉光迅科技股份有限公司(简称光迅科技)是光电器件、模块研发及产业化全球先行者;专注于光通信领域近50年,多项\"第一\"由此诞生,是\"国家认定企业技术中心\"\"国家技术创新示范企业\"\"光纤通信技术和网络国家重点实验室\",具备光电子芯片、器件、模块及子系统产品的战略研发和规模量产能力。",
+        "商业模式长摘录": "公开资料可支撑其以光迅科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002281",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=武汉光迅科技股份有限公司"
+      ],
+      "repair_note": "把武汉光迅科技收回到光迅科技：武汉光迅科技股份有限公司(简称光迅科技)是光电器件、模块研发及产业化全球先行者;专注于光通信领域近50年,多项\"第一\"由此诞生,是\"国家认定企业技术中心\"\"国家技术创新示范企业\"\"光纤通信技术和网络国家重点实验室\",具备光电子芯片、器件、模块及子系统产品的战略研发和规模量产能力的公司级事实。"
+    },
+    {
+      "account_canonical_name": "武汉金运激光股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "金运激光：以工业智能激光设备制造智能升级夯实业绩为盾,以商业智能IP衍生品运营发力抢占市场为矛,在数字经济、第三代互联网元宇宙的浪潮下,采用硬件+软件+内容+服务的经营策略,努力打造元宇宙“金运+”平台,专注服务于细分行业,致力成为元宇宙数字化技术应用引领者。",
+        "商业模式概述": "以金运激光相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其金运激光：以工业智能激光设备制造智能升级夯实业绩为盾,以商业智能IP衍生品运营发力抢占市场为矛,在数字经济、第三代互联网元宇宙的浪潮下,采用硬件+软件+内容+服务的经营策略,努力打造元宇宙“金运+”平台,专注服务于细分行业,致力成为元宇宙数字化技术应用引领者。",
+        "商业模式长摘录": "公开资料可支撑其以金运激光相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300220",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=武汉金运激光股份有限公司"
+      ],
+      "repair_note": "把武汉金运激光收回到金运激光：以工业智能激光设备制造智能升级夯实业绩为盾,以商业智能IP衍生品运营发力抢占市场为矛,在数字经济、第三代互联网元宇宙的浪潮下,采用硬件+软件+内容+服务的经营策略,努力打造元宇宙“金运+”平台,专注服务于细分行业,致力成为元宇宙数字化技术应用引领者的公司级事实。"
+    },
+    {
+      "account_canonical_name": "武汉高德红外股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "高德红外：武汉高德红外股份有限公司创立于1999年,是专业从事红外探测器芯片、红外热成像产品、综合光电系统及完整装备系统科研生产的民营上市公司。",
+        "商业模式概述": "以高德红外相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其高德红外：武汉高德红外股份有限公司创立于1999年,是专业从事红外探测器芯片、红外热成像产品、综合光电系统及完整装备系统科研生产的民营上市公司。",
+        "商业模式长摘录": "公开资料可支撑其以高德红外相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002414",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=武汉高德红外股份有限公司"
+      ],
+      "repair_note": "把武汉高德红外收回到高德红外：武汉高德红外股份有限公司创立于1999年,是专业从事红外探测器芯片、红外热成像产品、综合光电系统及完整装备系统科研生产的民营上市公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江山欧派门业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "江山欧派：欧派以“全球木门制造专家”为己任,自创立以来,专注于木门,专心于创新,成立了“木门研发中心”和“产学研基地”,十余年匠心打造木门、墙板、柜类、铝门、防火门、进户门等全屋定制核心产品,并逐步延伸至窗类、地板、家具等健康整装产品。",
+        "商业模式概述": "以江山欧派相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其江山欧派：欧派以“全球木门制造专家”为己任,自创立以来,专注于木门,专心于创新,成立了“木门研发中心”和“产学研基地”,十余年匠心打造木门、墙板、柜类、铝门、防火门、进户门等全屋定制核心产品,并逐步延伸至窗类、地板、家具等健康整装产品。",
+        "商业模式长摘录": "公开资料可支撑其以江山欧派相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603208",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江山欧派门业股份有限公司"
+      ],
+      "repair_note": "把江山欧派门业收回到江山欧派：欧派以“全球木门制造专家”为己任,自创立以来,专注于木门,专心于创新,成立了“木门研发中心”和“产学研基地”,十余年匠心打造木门、墙板、柜类、铝门、防火门、进户门等全屋定制核心产品,并逐步延伸至窗类、地板、家具等健康整装产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏今世缘酒业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "今世缘：拥有“国缘”“今世缘”“高沟”三大品牌。",
+        "商业模式概述": "以今世缘相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其今世缘：拥有“国缘”“今世缘”“高沟”三大品牌。",
+        "商业模式长摘录": "公开资料可支撑其以今世缘相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603369",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏今世缘酒业股份有限公司"
+      ],
+      "repair_note": "把江苏今世缘酒业收回到今世缘：拥有“国缘”“今世缘”“高沟”三大品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏恒顺醋业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "恒顺醋业经营范围涵盖生产销售食醋、酱油、酱菜、复合调味料。",
+        "商业模式概述": "以恒顺醋业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其恒顺醋业经营范围涵盖生产销售食醋、酱油、酱菜、复合调味料。",
+        "商业模式长摘录": "公开资料可支撑其以恒顺醋业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600305",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏恒顺醋业股份有限公司"
+      ],
+      "repair_note": "把江苏恒顺醋业收回到恒顺醋业经营范围涵盖生产销售食醋、酱油、酱菜、复合调味料的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏泰慕士针纺科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "泰慕士：公司引进美国、德国、法国、意大利、日本等国家先进技术设备,形成织造、漂染、裁剪、印花、绣花、成衣、水洗、后整一条龙生产体系。",
+        "商业模式概述": "以泰慕士相关产品的生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其泰慕士：公司引进美国、德国、法国、意大利、日本等国家先进技术设备,形成织造、漂染、裁剪、印花、绣花、成衣、水洗、后整一条龙生产体系。",
+        "商业模式长摘录": "公开资料可支撑其以泰慕士相关产品的生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001234",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏泰慕士针纺科技股份有限公司"
+      ],
+      "repair_note": "把江苏泰慕士针纺科技收回到泰慕士：公司引进美国、德国、法国、意大利、日本等国家先进技术设备,形成织造、漂染、裁剪、印花、绣花、成衣、水洗、后整一条龙生产体系的公司级事实。"
+    }
+  ]
+}

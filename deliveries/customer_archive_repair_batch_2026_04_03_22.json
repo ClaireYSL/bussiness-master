@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_22",
+  "batch_title": "客户档案修复第22批",
+  "account_names": [
+    "四川九洲电器股份有限公司",
+    "四川长虹电器股份有限公司",
+    "国电南瑞科技股份有限公司",
+    "大商股份有限公司",
+    "大连友谊(集团)股份有限公司",
+    "天齐锂业股份有限公司",
+    "奥普智能科技股份有限公司",
+    "安正时尚集团股份有限公司",
+    "安琪酵母股份有限公司",
+    "居然智家新零售集团股份有限公司",
+    "山东南山铝业股份有限公司",
+    "山东如意毛纺服装集团股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "四川九洲电器股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "四川九洲：着力为国内广电及电信运营商提供宽带网络解决方案、数字电视音视频系统解决方案、智慧城市及智能家居解决方案、物联网解决方案。",
+        "商业模式概述": "以四川九洲相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其四川九洲：着力为国内广电及电信运营商提供宽带网络解决方案、数字电视音视频系统解决方案、智慧城市及智能家居解决方案、物联网解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以四川九洲相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000801",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=四川九洲电器股份有限公司"
+      ],
+      "repair_note": "把四川九洲电器收回到四川九洲：着力为国内广电及电信运营商提供宽带网络解决方案、数字电视音视频系统解决方案、智慧城市及智能家居解决方案、物联网解决方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "四川长虹电器股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "四川长虹：历经数十年的发展,从彩电立业、兴业,到如今的信息电子相关多元拓展,已成为集智慧家居、核心器件研发与制造、ICT综合服务等业务为一体的全球化、综合型科技企业集团。",
+        "商业模式概述": "以四川长虹相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其四川长虹：历经数十年的发展,从彩电立业、兴业,到如今的信息电子相关多元拓展,已成为集智慧家居、核心器件研发与制造、ICT综合服务等业务为一体的全球化、综合型科技企业集团。",
+        "商业模式长摘录": "公开资料可支撑其以四川长虹相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600839",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=四川长虹电器股份有限公司"
+      ],
+      "repair_note": "把四川长虹电器收回到四川长虹：历经数十年的发展,从彩电立业、兴业,到如今的信息电子相关多元拓展,已成为集智慧家居、核心器件研发与制造、ICT综合服务等业务为一体的全球化、综合型科技企业集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "国电南瑞科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "国电南瑞：国电南瑞是我国能源电力及工业控制领域的领军企业,是国际领先的能源互联网技术整体解决方案提供商,是国务院国资委“科改示范企业”。",
+        "商业模式概述": "以国电南瑞相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其国电南瑞：国电南瑞是我国能源电力及工业控制领域的领军企业,是国际领先的能源互联网技术整体解决方案提供商,是国务院国资委“科改示范企业”。",
+        "商业模式长摘录": "公开资料可支撑其以国电南瑞相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600406",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=国电南瑞科技股份有限公司"
+      ],
+      "repair_note": "把国电南瑞科技收回到国电南瑞：国电南瑞是我国能源电力及工业控制领域的领军企业,是国际领先的能源互联网技术整体解决方案提供商,是国务院国资委“科改示范企业”的公司级事实。"
+    },
+    {
+      "account_canonical_name": "大商股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大商股份经营范围涵盖许可项目:食品销售、粮食加工食品生产、药品零售、餐饮服务。",
+        "商业模式概述": "以大商股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大商股份经营范围涵盖许可项目:食品销售、粮食加工食品生产、药品零售、餐饮服务。",
+        "商业模式长摘录": "公开资料可支撑其以大商股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600694",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=大商股份有限公司"
+      ],
+      "repair_note": "把大商收回到大商股份经营范围涵盖许可项目:食品销售、粮食加工食品生产、药品零售、餐饮服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "大连友谊(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以大连友谊相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以大连友谊相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000679",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=大连友谊(集团)股份有限公司"
+      ],
+      "repair_note": "把大连友谊(集团)收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "天齐锂业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天齐锂业：天齐锂业致力于在企业理念、管理团队、技术研发、产品品质、投融资、企业文化、ESG与可持续发展等层面,发挥开放与合作的价值,实现全球范围内的资源配置,坚持国际化的标准,依照国际规则运营,成为有全球影响力的全球能源变革推动者。",
+        "商业模式概述": "以天齐锂业相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天齐锂业：天齐锂业致力于在企业理念、管理团队、技术研发、产品品质、投融资、企业文化、ESG与可持续发展等层面,发挥开放与合作的价值,实现全球范围内的资源配置,坚持国际化的标准,依照国际规则运营,成为有全球影响力的全球能源变革推动者。",
+        "商业模式长摘录": "公开资料可支撑其以天齐锂业相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002466",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=天齐锂业股份有限公司"
+      ],
+      "repair_note": "把天齐锂业收回到天齐锂业：天齐锂业致力于在企业理念、管理团队、技术研发、产品品质、投融资、企业文化、ESG与可持续发展等层面,发挥开放与合作的价值,实现全球范围内的资源配置,坚持国际化的标准,依照国际规则运营,成为有全球影响力的全球能源变革推动者的公司级事实。"
+    },
+    {
+      "account_canonical_name": "奥普智能科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "奥普科技：1993年,为了自己的家人冬天洗澡不再寒冷,奥普家居的创始人动手制造了公司第一台浴霸。",
+        "商业模式概述": "以奥普科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其奥普科技：1993年,为了自己的家人冬天洗澡不再寒冷,奥普家居的创始人动手制造了公司第一台浴霸。",
+        "商业模式长摘录": "公开资料可支撑其以奥普科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603551",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=奥普智能科技股份有限公司"
+      ],
+      "repair_note": "把奥普智能科技收回到奥普科技：1993年,为了自己的家人冬天洗澡不再寒冷,奥普家居的创始人动手制造了公司第一台浴霸的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安正时尚集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "安正时尚：安正时尚集团股份有限公司是一家集研发、生产、品牌管理于一体的大型现代化品牌企业。",
+        "商业模式概述": "以安正时尚相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其安正时尚：安正时尚集团股份有限公司是一家集研发、生产、品牌管理于一体的大型现代化品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以安正时尚相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603839",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安正时尚集团股份有限公司"
+      ],
+      "repair_note": "把安正时尚集团收回到安正时尚：安正时尚集团股份有限公司是一家集研发、生产、品牌管理于一体的大型现代化品牌企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安琪酵母股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "安琪酵母：安琪酵母股份有限公司始创于1986年,主导产品酵母及深加工产品经过30多年的开发,已被广泛应用于烘焙与发酵面食、食品调味、酿造、人类营养健康、动物、植物、微生物营养等领域。",
+        "商业模式概述": "以安琪酵母相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其安琪酵母：安琪酵母股份有限公司始创于1986年,主导产品酵母及深加工产品经过30多年的开发,已被广泛应用于烘焙与发酵面食、食品调味、酿造、人类营养健康、动物、植物、微生物营养等领域。",
+        "商业模式长摘录": "公开资料可支撑其以安琪酵母相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600298",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安琪酵母股份有限公司"
+      ],
+      "repair_note": "把安琪酵母收回到安琪酵母：安琪酵母股份有限公司始创于1986年,主导产品酵母及深加工产品经过30多年的开发,已被广泛应用于烘焙与发酵面食、食品调味、酿造、人类营养健康、动物、植物、微生物营养等领域的公司级事实。"
+    },
+    {
+      "account_canonical_name": "居然智家新零售集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "居然智家：居然智家新零售集团股份有限公司成立于1999年,是以大家居为主业,以大消费为平台的大型商业连锁集团。",
+        "商业模式概述": "以居然智家相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其居然智家：居然智家新零售集团股份有限公司成立于1999年,是以大家居为主业,以大消费为平台的大型商业连锁集团。",
+        "商业模式长摘录": "公开资料可支撑其以居然智家相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000785",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=居然智家新零售集团股份有限公司"
+      ],
+      "repair_note": "把居然智家新零售集团收回到居然智家：居然智家新零售集团股份有限公司成立于1999年,是以大家居为主业,以大消费为平台的大型商业连锁集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "山东南山铝业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "南山铝业：公司始终坚持“创新驱动、高端制造、精深加工”的发展战略,终端产品广泛应用于航空、汽车、轨道交通、船舶、能源、石化、集装箱、工业型材、精品民用型材、高端系统门窗、容器罐、食品包装、电池箔、铝深加工等若干领域。",
+        "商业模式概述": "以南山铝业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其南山铝业：公司始终坚持“创新驱动、高端制造、精深加工”的发展战略,终端产品广泛应用于航空、汽车、轨道交通、船舶、能源、石化、集装箱、工业型材、精品民用型材、高端系统门窗、容器罐、食品包装、电池箔、铝深加工等若干领域。",
+        "商业模式长摘录": "公开资料可支撑其以南山铝业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600219",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山东南山铝业股份有限公司"
+      ],
+      "repair_note": "把山东南山铝业收回到南山铝业：公司始终坚持“创新驱动、高端制造、精深加工”的发展战略,终端产品广泛应用于航空、汽车、轨道交通、船舶、能源、石化、集装箱、工业型材、精品民用型材、高端系统门窗、容器罐、食品包装、电池箔、铝深加工等若干领域的公司级事实。"
+    },
+    {
+      "account_canonical_name": "山东如意毛纺服装集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "如意集团：现公司已经成为集精纺呢绒面料及服装的设计、生产、销售于一体的大型纺织服装集团。",
+        "商业模式概述": "以如意集团相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其如意集团：现公司已经成为集精纺呢绒面料及服装的设计、生产、销售于一体的大型纺织服装集团。",
+        "商业模式长摘录": "公开资料可支撑其以如意集团相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002193",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山东如意毛纺服装集团股份有限公司"
+      ],
+      "repair_note": "把山东如意毛纺服装集团收回到如意集团：现公司已经成为集精纺呢绒面料及服装的设计、生产、销售于一体的大型纺织服装集团的公司级事实。"
+    }
+  ]
+}

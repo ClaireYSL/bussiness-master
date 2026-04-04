@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_06",
+  "batch_title": "客户档案修复第六批",
+  "account_names": [
+    "中联重科股份有限公司",
+    "南京埃斯顿自动化股份有限公司",
+    "无锡先导智能装备股份有限公司",
+    "深圳麦格米特电气股份有限公司",
+    "居然之家新零售集团股份有限公司",
+    "元祖股份有限公司",
+    "贝泰妮集团股份有限公司",
+    "重庆登康口腔护理用品股份有限公司",
+    "北京石头世纪科技股份有限公司",
+    "科沃斯机器人股份有限公司",
+    "华利实业集团股份有限公司",
+    "浙江春风动力股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "中联重科股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工程机械、建筑起重机械、混凝土机械、高空作业机械及农业机械等装备产品，是大型高端装备制造企业。",
+        "商业模式概述": "以工程机械与高端装备研发、制造、销售和服务为核心，通过国内外直营网点、经销网络和售后体系覆盖建筑与工程施工市场。",
+        "核心客户客群": "工程施工企业、基础设施建设客户、设备租赁客户及海内外工程机械渠道客户。",
+        "主要竞品概述": "徐工集团、三一重工及大型工程机械装备企业。",
+        "相似客户线索": "三一重工股份有限公司、徐工集团工程机械股份有限公司、广西柳工机械股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_operating_dashboard_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工程机械、建筑起重机械、混凝土机械、高空作业机械及农业机械等装备产品，是大型高端装备制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以工程机械与高端装备研发、制造、销售和服务为核心，通过国内外直营网点、经销网络和售后体系覆盖建筑与工程施工市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中联重科股份有限公司"
+      ],
+      "repair_note": "把中联重科从泛化制造模板收回到工程机械和高端装备制造公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "南京埃斯顿自动化股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工业机器人、伺服系统、运动控制产品及自动化解决方案，是工业自动化与机器人企业。",
+        "商业模式概述": "以工业机器人本体、核心部件和自动化解决方案研发、制造、销售与服务为核心，面向汽车、锂电、3C和通用工业客户开展设备与产线业务。",
+        "核心客户客群": "汽车制造客户、锂电与3C制造客户、通用工业自动化客户及系统集成场景客户。",
+        "主要竞品概述": "汇川技术、拓斯达及工业机器人与自动化解决方案企业。",
+        "相似客户线索": "广东拓斯达科技股份有限公司、深圳市汇川技术股份有限公司、沈阳新松机器人自动化股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工业机器人、伺服系统、运动控制产品及自动化解决方案，是工业自动化与机器人企业。",
+        "商业模式长摘录": "公开资料可支撑其以工业机器人本体、核心部件和自动化解决方案研发、制造、销售与服务为核心，面向汽车、锂电、3C和通用工业客户开展设备与产线业务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=南京埃斯顿自动化股份有限公司"
+      ],
+      "repair_note": "把埃斯顿收回到工业机器人与自动化解决方案企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "无锡先导智能装备股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂电、光伏、3C 等领域的智能装备、自动化产线和相关解决方案，是新能源与先进制造装备企业。",
+        "商业模式概述": "以高端智能装备研发、制造、项目交付和全球服务为核心，面向锂电、光伏和先进制造客户提供单机设备与整线解决方案。",
+        "核心客户客群": "锂电制造客户、光伏制造客户、先进制造企业及全球产线建设客户。",
+        "主要竞品概述": "迈为股份、博众精工及新能源智能装备企业。",
+        "相似客户线索": "苏州迈为科技股份有限公司、博众精工科技股份有限公司、浙江晶盛机电股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_case_xtc_smart_mfg_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂电、光伏、3C 等领域的智能装备、自动化产线和相关解决方案，是新能源与先进制造装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以高端智能装备研发、制造、项目交付和全球服务为核心，面向锂电、光伏和先进制造客户提供单机设备与整线解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=无锡先导智能装备股份有限公司"
+      ],
+      "repair_note": "把先导智能收回到新能源智能装备与整线解决方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳麦格米特电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工业电源、驱动控制、智能家电电控、新能源与工业自动化相关产品，是电力电子与智能控制平台企业。",
+        "商业模式概述": "以电力电子与智能控制产品研发、制造和销售为核心，面向工业、新能源、智能设备与家电客户提供产品与方案服务。",
+        "核心客户客群": "工业设备客户、新能源客户、智能制造客户及行业 OEM 客户。",
+        "主要竞品概述": "汇川技术、英威腾及电力电子与工业控制平台企业。",
+        "相似客户线索": "深圳市汇川技术股份有限公司、深圳市英威腾电气股份有限公司、深圳市英维克科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工业电源、驱动控制、智能家电电控、新能源与工业自动化相关产品，是电力电子与智能控制平台企业。",
+        "商业模式长摘录": "公开资料可支撑其以电力电子与智能控制产品研发、制造和销售为核心，面向工业、新能源、智能设备与家电客户提供产品与方案服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳麦格米特电气股份有限公司"
+      ],
+      "repair_note": "把麦格米特收回到电力电子与智能控制平台公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "居然之家新零售集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营家居卖场运营、家居零售与相关新零售服务，是大型家居商业连锁企业。",
+        "商业模式概述": "以家居卖场运营和商户平台服务为核心，通过商场网络、品牌商户生态、零售服务和线上平台覆盖家居消费市场。",
+        "核心客户客群": "家居消费家庭、入驻家居品牌商户、卖场合作伙伴及线上家居零售用户。",
+        "主要竞品概述": "红星美凯龙、富森美及大型家居零售卖场企业。",
+        "相似客户线索": "红星美凯龙家居集团股份有限公司、富森美家居股份有限公司、顾家家居股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_familymart_kpi_loop_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营家居卖场运营、家居零售与相关新零售服务，是大型家居商业连锁企业。",
+        "商业模式长摘录": "公开资料可支撑其以家居卖场运营和商户平台服务为核心，通过商场网络、品牌商户生态、零售服务和线上平台覆盖家居消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=居然之家新零售集团股份有限公司"
+      ],
+      "repair_note": "把居然之家收回到家居商业连锁和平台型零售公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "元祖股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营烘焙食品、节令礼品和相关食品零售业务，是礼赠与烘焙品牌企业。",
+        "商业模式概述": "以烘焙食品研发、生产和品牌零售为核心，通过直营网点、加盟网络和节令礼赠场景覆盖消费市场。",
+        "核心客户客群": "家庭礼赠消费客群、节令礼品需求用户、门店零售消费者及直营网点场景用户。",
+        "主要竞品概述": "来伊份、桃李面包及烘焙礼赠品牌企业。",
+        "相似客户线索": "上海来伊份股份有限公司、桃李面包股份有限公司、良品铺子股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_familymart_kpi_loop_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营烘焙食品、节令礼品和相关食品零售业务，是礼赠与烘焙品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以烘焙食品研发、生产和品牌零售为核心，通过直营网点、加盟网络和节令礼赠场景覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=元祖股份有限公司"
+      ],
+      "repair_note": "把元祖收回到礼赠烘焙品牌与零售网络公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "贝泰妮集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营皮肤护理、美妆个护品牌产品及相关品牌经营业务，是美妆个护品牌企业。",
+        "商业模式概述": "以自有美妆个护品牌经营为核心，通过电商平台、线下零售、药房渠道和品牌运营服务覆盖消费市场。",
+        "核心客户客群": "敏感肌与护肤消费客群、电商平台用户、线下零售终端消费者及药房渠道用户。",
+        "主要竞品概述": "水羊集团、丸美股份及美妆个护品牌企业。",
+        "相似客户线索": "水羊集团股份有限公司、丸美生物技术股份有限公司、珀莱雅化妆品股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_missface_retail_growth_v1,ka_insight_beauty_personalcare_brand_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营皮肤护理、美妆个护品牌产品及相关品牌经营业务，是美妆个护品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有美妆个护品牌经营为核心，通过电商平台、线下零售、药房渠道和品牌运营服务覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=贝泰妮集团股份有限公司"
+      ],
+      "repair_note": "把贝泰妮从泛化美妆模板收回到皮肤护理和美妆品牌经营公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "重庆登康口腔护理用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营牙膏、牙刷、漱口水等口腔护理用品及相关品牌经营业务，是口腔护理消费品企业。",
+        "商业模式概述": "以口腔护理品牌研发、生产和销售为核心，通过商超零售、电商平台和经销网络覆盖家庭消费市场。",
+        "核心客户客群": "家庭口腔护理消费客群、商超零售终端用户、电商平台消费者及经销渠道客户。",
+        "主要竞品概述": "云南白药、两面针及口腔护理品牌企业。",
+        "相似客户线索": "云南白药集团股份有限公司、倍加洁集团股份有限公司、贝泰妮集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_missface_retail_growth_v1,ka_insight_beauty_personalcare_brand_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营牙膏、牙刷、漱口水等口腔护理用品及相关品牌经营业务，是口腔护理消费品企业。",
+        "商业模式长摘录": "公开资料可支撑其以口腔护理品牌研发、生产和销售为核心，通过商超零售、电商平台和经销网络覆盖家庭消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=重庆登康口腔护理用品股份有限公司"
+      ],
+      "repair_note": "把登康口腔收回到口腔护理品牌经营和渠道分发公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "北京石头世纪科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营扫地机器人、洗地机等智能清洁电器及相关智能家居产品，是智能清洁品牌企业。",
+        "商业模式概述": "以自有品牌智能清洁产品研发、生产和销售为核心，通过跨境电商、海外渠道和品牌零售服务全球消费市场。",
+        "核心客户客群": "海外智能家居消费客群、电商平台用户及海外零售渠道客户。",
+        "主要竞品概述": "科沃斯、追觅及智能清洁品牌企业。",
+        "相似客户线索": "科沃斯机器人股份有限公司、追觅创新科技（苏州）有限公司、安克创新科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_consumer_electronics_ops_v1,ka_insight_cbec_consumer_electronics_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营扫地机器人、洗地机等智能清洁电器及相关智能家居产品，是智能清洁品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌智能清洁产品研发、生产和销售为核心，通过跨境电商、海外渠道和品牌零售服务全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=北京石头世纪科技股份有限公司"
+      ],
+      "repair_note": "把石头科技收回到智能清洁品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "科沃斯机器人股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营服务机器人、扫地机器人、洗地机等智能清洁及高端智能电器产品，是智能家居品牌企业。",
+        "商业模式概述": "以自有品牌服务机器人和高端智能电器研发、生产和销售为核心，通过电商平台、海外渠道和零售网络覆盖全球消费市场。",
+        "核心客户客群": "家庭智能家居消费客群、电商平台用户、海外零售渠道客户及品牌零售终端用户。",
+        "主要竞品概述": "石头科技、追觅及服务机器人品牌企业。",
+        "相似客户线索": "北京石头世纪科技股份有限公司、追觅创新科技（苏州）有限公司、华宝新能科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_consumer_electronics_ops_v1,ka_insight_cbec_consumer_electronics_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营服务机器人、扫地机器人、洗地机等智能清洁及高端智能电器产品，是智能家居品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌服务机器人和高端智能电器研发、生产和销售为核心，通过电商平台、海外渠道和零售网络覆盖全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=科沃斯机器人股份有限公司"
+      ],
+      "repair_note": "把科沃斯收回到服务机器人与智能电器品牌公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "华利实业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营运动鞋、休闲鞋及相关鞋履产品研发制造与销售，是全球运动鞋制造企业。",
+        "商业模式概述": "以运动鞋研发、制造和供应链交付为核心，面向国际运动品牌客户提供产品开发、生产制造和规模化履约服务。",
+        "核心客户客群": "国际运动品牌客户、鞋履采购客户及全球鞋履供应链合作客户。",
+        "主要竞品概述": "申洲国际、裕元集团及鞋服制造与供应链企业。",
+        "相似客户线索": "申洲国际集团控股有限公司、华孚时尚股份有限公司、开润股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_supply_coordination_v1,ka_insight_cbec_finance_supply_chain_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营运动鞋、休闲鞋及相关鞋履产品研发制造与销售，是全球运动鞋制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以运动鞋研发、制造和供应链交付为核心，面向国际运动品牌客户提供产品开发、生产制造和规模化履约服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=华利实业集团股份有限公司"
+      ],
+      "repair_note": "把华利实业收回到全球鞋履制造与供应链履约公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江春风动力股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营全地形车、摩托车、后市场用品及相关动力运动产品，是动力运动品牌企业。",
+        "商业模式概述": "以动力运动产品研发、制造和品牌经营为核心，通过海外渠道、经销网络和品牌零售服务全球消费市场。",
+        "核心客户客群": "海外动力运动消费客群、经销渠道客户、品牌零售终端及赛事和休闲场景用户。",
+        "主要竞品概述": "涛涛车业、隆鑫通用及动力运动品牌企业。",
+        "相似客户线索": "涛涛车业股份有限公司、隆鑫通用动力股份有限公司、华宝新能科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_market_selection_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营全地形车、摩托车、后市场用品及相关动力运动产品，是动力运动品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以动力运动产品研发、制造和品牌经营为核心，通过海外渠道、经销网络和品牌零售服务全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江春风动力股份有限公司"
+      ],
+      "repair_note": "把春风动力收回到动力运动品牌出海公司的公司级事实。"
+    }
+  ]
+}

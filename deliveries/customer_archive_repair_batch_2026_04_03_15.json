@@ -1,0 +1,336 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_15",
+  "batch_title": "客户档案修复第15批",
+  "account_names": [
+    "山东威达机械股份有限公司",
+    "山推工程机械股份有限公司",
+    "广东创世纪智能装备集团股份有限公司",
+    "应流机电股份有限公司",
+    "弘亚数控机械股份有限公司",
+    "怡合达自动化股份有限公司",
+    "无锡信捷电气股份有限公司",
+    "武汉精测电子集团股份有限公司",
+    "深圳市七十迈数字科技有限公司",
+    "三柏硕健康科技股份有限公司",
+    "健盛集团股份有限公司",
+    "共创草坪股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "山东威达机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山东威达机械股份有限公司"
+      ],
+      "repair_note": "把山东威达机械收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "山推工程机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=山推工程机械股份有限公司"
+      ],
+      "repair_note": "把山推工程机械收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东创世纪智能装备集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东创世纪智能装备集团股份有限公司"
+      ],
+      "repair_note": "把广东创世纪智能装备集团收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "应流机电股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=应流机电股份有限公司"
+      ],
+      "repair_note": "把应流机电收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "弘亚数控机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=弘亚数控机械股份有限公司"
+      ],
+      "repair_note": "把弘亚数控机械收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "怡合达自动化股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=怡合达自动化股份有限公司"
+      ],
+      "repair_note": "把怡合达自动化收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "无锡信捷电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=无锡信捷电气股份有限公司"
+      ],
+      "repair_note": "把无锡信捷电气收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "武汉精测电子集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=武汉精测电子集团股份有限公司"
+      ],
+      "repair_note": "把武汉精测电子集团收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市七十迈数字科技有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "乐其 SmallRig、安克创新及相关企业。",
+        "相似客户线索": "乐其 SmallRig、安克创新、致欧家居"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市七十迈数字科技有限公司"
+      ],
+      "repair_note": "把深圳市七十迈数字科技收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "三柏硕健康科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "乐其 SmallRig、安克创新及相关企业。",
+        "相似客户线索": "乐其 SmallRig、安克创新、致欧家居"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三柏硕健康科技股份有限公司"
+      ],
+      "repair_note": "把三柏硕健康科技收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "健盛集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "健盛集团：30年专注于棉袜和针织无缝运动服饰的制造,我们理解尊重并满足客户的需求。",
+        "商业模式概述": "以健盛集团相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其健盛集团：30年专注于棉袜和针织无缝运动服饰的制造,我们理解尊重并满足客户的需求。",
+        "商业模式长摘录": "公开资料可支撑其以健盛集团相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603558",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=健盛集团股份有限公司"
+      ],
+      "repair_note": "把健盛集团收回到健盛集团：30年专注于棉袜和针织无缝运动服饰的制造,我们理解尊重并满足客户的需求的公司级事实。"
+    },
+    {
+      "account_canonical_name": "共创草坪股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "共创草坪：江苏共创人造草坪股份有限公司成立于2004年,公司运营中心位于江苏南京,分别位于淮安施河镇、淮安共创工业园以及越南西宁省福东工业园,海外销售公司位于英国伦敦,是一家专业从事人造草坪的研发、制造和销售,全球生产和销售规模最大的人造草坪企业。",
+        "商业模式概述": "以共创草坪相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其共创草坪：江苏共创人造草坪股份有限公司成立于2004年,公司运营中心位于江苏南京,分别位于淮安施河镇、淮安共创工业园以及越南西宁省福东工业园,海外销售公司位于英国伦敦,是一家专业从事人造草坪的研发、制造和销售,全球生产和销售规模最大的人造草坪企业。",
+        "商业模式长摘录": "公开资料可支撑其以共创草坪相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605099",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=共创草坪股份有限公司"
+      ],
+      "repair_note": "把共创草坪收回到共创草坪：江苏共创人造草坪股份有限公司成立于2004年,公司运营中心位于江苏南京,分别位于淮安施河镇、淮安共创工业园以及越南西宁省福东工业园,海外销售公司位于英国伦敦,是一家专业从事人造草坪的研发、制造和销售,全球生产和销售规模最大的人造草坪企业的公司级事实。"
+    }
+  ]
+}

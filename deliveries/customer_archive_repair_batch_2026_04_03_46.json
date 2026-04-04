@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_46",
+  "batch_title": "客户档案修复第46批",
+  "account_names": [
+    "浙江天振科技股份有限公司",
+    "浙江奥康鞋业股份有限公司",
+    "浙江明牌珠宝股份有限公司",
+    "浙江棒杰控股集团股份有限公司",
+    "浙江比依电器股份有限公司",
+    "浙江真爱美家股份有限公司",
+    "浙江红蜻蜓鞋业股份有限公司",
+    "浙江锦盛新材料股份有限公司",
+    "海信视像科技股份有限公司",
+    "海宁中国皮革城股份有限公司",
+    "海尔智家股份有限公司",
+    "润本生物技术股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "浙江天振科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天振股份：公司致力于建立世界一流的新型绿色环保地板等高科技新材料的研发和产业制造基地,为全球提供绿色环保装饰材料,为世界创造更多绿色空间。",
+        "商业模式概述": "以天振股份相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天振股份：公司致力于建立世界一流的新型绿色环保地板等高科技新材料的研发和产业制造基地,为全球提供绿色环保装饰材料,为世界创造更多绿色空间。",
+        "商业模式长摘录": "公开资料可支撑其以天振股份相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301356",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江天振科技股份有限公司"
+      ],
+      "repair_note": "把浙江天振科技收回到天振股份：公司致力于建立世界一流的新型绿色环保地板等高科技新材料的研发和产业制造基地,为全球提供绿色环保装饰材料,为世界创造更多绿色空间的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江奥康鞋业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "奥康国际：公司建立了行业第一所鞋类科技研究院、三大制造基地和上海华东运营中心,拥有奥康、康龙两个自有品牌,代理了美国运动鞋品牌SKECHERS(斯凯奇)和德国运动鞋品牌PUMA(彪马),并与国际体育用品零售巨头INTERSPORT(宜动体育)达成战略合作。",
+        "商业模式概述": "以奥康国际相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其奥康国际：公司建立了行业第一所鞋类科技研究院、三大制造基地和上海华东运营中心,拥有奥康、康龙两个自有品牌,代理了美国运动鞋品牌SKECHERS(斯凯奇)和德国运动鞋品牌PUMA(彪马),并与国际体育用品零售巨头INTERSPORT(宜动体育)达成战略合作。",
+        "商业模式长摘录": "公开资料可支撑其以奥康国际相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603001",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江奥康鞋业股份有限公司"
+      ],
+      "repair_note": "把浙江奥康鞋业收回到奥康国际：公司建立了行业第一所鞋类科技研究院、三大制造基地和上海华东运营中心,拥有奥康、康龙两个自有品牌,代理了美国运动鞋品牌SKECHERS(斯凯奇)和德国运动鞋品牌PUMA(彪马),并与国际体育用品零售巨头INTERSPORT(宜动体育)达成战略合作的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江明牌珠宝股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "明牌珠宝：秉承执着、创新的精神,集研发、设计、生产、销售、服务于一体,致力于成为中国消费者值得信赖的珠宝品牌。",
+        "商业模式概述": "以明牌珠宝相关产品或解决方案的研发、生产和销售为核心。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其明牌珠宝：秉承执着、创新的精神,集研发、设计、生产、销售、服务于一体,致力于成为中国消费者值得信赖的珠宝品牌。",
+        "商业模式长摘录": "公开资料可支撑其以明牌珠宝相关产品或解决方案的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002574",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江明牌珠宝股份有限公司"
+      ],
+      "repair_note": "把浙江明牌珠宝收回到明牌珠宝：秉承执着、创新的精神,集研发、设计、生产、销售、服务于一体,致力于成为中国消费者值得信赖的珠宝品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江棒杰控股集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "棒杰股份：浙江棒杰控股集团股份有限公司始建于1993年,是一家专业从事无缝服装设计、研发、织造和营销的现代化企业。",
+        "商业模式概述": "以棒杰股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其棒杰股份：浙江棒杰控股集团股份有限公司始建于1993年,是一家专业从事无缝服装设计、研发、织造和营销的现代化企业。",
+        "商业模式长摘录": "公开资料可支撑其以棒杰股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002634",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江棒杰控股集团股份有限公司"
+      ],
+      "repair_note": "把浙江棒杰控股集团收回到棒杰股份：浙江棒杰控股集团股份有限公司始建于1993年,是一家专业从事无缝服装设计、研发、织造和营销的现代化企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江比依电器股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "比依股份：公司创始于2001年,是一家主要从事加热类厨房电器产品的设计、制造和销售业务的高新技术企业。",
+        "商业模式概述": "以比依股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其比依股份：公司创始于2001年,是一家主要从事加热类厨房电器产品的设计、制造和销售业务的高新技术企业。",
+        "商业模式长摘录": "公开资料可支撑其以比依股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603215",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江比依电器股份有限公司"
+      ],
+      "repair_note": "把浙江比依电器收回到比依股份：公司创始于2001年,是一家主要从事加热类厨房电器产品的设计、制造和销售业务的高新技术企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江真爱美家股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "真爱美家：浙江真爱美家股份有限公司(以下简称真爱美家)坐落在浙江义乌,成立于2010年,名列毛毯行业前茅,致力于成为全球拉舍尔时尚毛毯专业设计制造的引领者。",
+        "商业模式概述": "以真爱美家相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其真爱美家：浙江真爱美家股份有限公司(以下简称真爱美家)坐落在浙江义乌,成立于2010年,名列毛毯行业前茅,致力于成为全球拉舍尔时尚毛毯专业设计制造的引领者。",
+        "商业模式长摘录": "公开资料可支撑其以真爱美家相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ003041",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江真爱美家股份有限公司"
+      ],
+      "repair_note": "把浙江真爱美家收回到真爱美家：浙江真爱美家股份有限公司(以下简称真爱美家)坐落在浙江义乌,成立于2010年,名列毛毯行业前茅,致力于成为全球拉舍尔时尚毛毯专业设计制造的引领者的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江红蜻蜓鞋业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "红蜻蜓：浙江红蜻蜓鞋业股份有限公司创始于1995年,是一家多品牌、多品类的时尚鞋履品牌运营商,覆盖全国大中城市,是中国鞋行业的领军品牌和企业。",
+        "商业模式概述": "以红蜻蜓相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其红蜻蜓：浙江红蜻蜓鞋业股份有限公司创始于1995年,是一家多品牌、多品类的时尚鞋履品牌运营商,覆盖全国大中城市,是中国鞋行业的领军品牌和企业。",
+        "商业模式长摘录": "公开资料可支撑其以红蜻蜓相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603116",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江红蜻蜓鞋业股份有限公司"
+      ],
+      "repair_note": "把浙江红蜻蜓鞋业收回到红蜻蜓：浙江红蜻蜓鞋业股份有限公司创始于1995年,是一家多品牌、多品类的时尚鞋履品牌运营商,覆盖全国大中城市,是中国鞋行业的领军品牌和企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江锦盛新材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "锦盛新材：浙江锦盛新材料股份有限公司成立于1998年,是一家集产品设计、模具制造、注塑、烫金、涂装、成品组装为一体的亚克力容器专业制造商。",
+        "商业模式概述": "以锦盛新材相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其锦盛新材：浙江锦盛新材料股份有限公司成立于1998年,是一家集产品设计、模具制造、注塑、烫金、涂装、成品组装为一体的亚克力容器专业制造商。",
+        "商业模式长摘录": "公开资料可支撑其以锦盛新材相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300849",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江锦盛新材料股份有限公司"
+      ],
+      "repair_note": "把浙江锦盛新材料收回到锦盛新材：浙江锦盛新材料股份有限公司成立于1998年,是一家集产品设计、模具制造、注塑、烫金、涂装、成品组装为一体的亚克力容器专业制造商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "海信视像科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "海信视像：公司在青岛、深圳、武汉、美国、欧洲等全球多个地方设立研发中心,拥有国家级多媒体重点实验室、国家级技术中心、业内领先的研发团队,构建起协同分工的研发体系,不断追求研发深度,提升产品的领先性与公司核心竞争力。",
+        "商业模式概述": "以海信视像相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其海信视像：公司在青岛、深圳、武汉、美国、欧洲等全球多个地方设立研发中心,拥有国家级多媒体重点实验室、国家级技术中心、业内领先的研发团队,构建起协同分工的研发体系,不断追求研发深度,提升产品的领先性与公司核心竞争力。",
+        "商业模式长摘录": "公开资料可支撑其以海信视像相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600060",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=海信视像科技股份有限公司"
+      ],
+      "repair_note": "把海信视像科技收回到海信视像：公司在青岛、深圳、武汉、美国、欧洲等全球多个地方设立研发中心,拥有国家级多媒体重点实验室、国家级技术中心、业内领先的研发团队,构建起协同分工的研发体系,不断追求研发深度,提升产品的领先性与公司核心竞争力的公司级事实。"
+    },
+    {
+      "account_canonical_name": "海宁中国皮革城股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "海宁皮城：牢记使命、不忘初心,在“红船精神”的指引下,公司始终致力于中国皮革业的服务工作,带领广大皮革终端产品制造商、原辅料供应商、皮革设计师、产品运营商,打造从设计研发到生产销售的全产业链服务平台和价值共享平台。",
+        "商业模式概述": "以海宁皮城相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "医院、医学中心、科研院所及医疗设备采购相关机构。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其海宁皮城：牢记使命、不忘初心,在“红船精神”的指引下,公司始终致力于中国皮革业的服务工作,带领广大皮革终端产品制造商、原辅料供应商、皮革设计师、产品运营商,打造从设计研发到生产销售的全产业链服务平台和价值共享平台。",
+        "商业模式长摘录": "公开资料可支撑其以海宁皮城相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002344",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=海宁中国皮革城股份有限公司"
+      ],
+      "repair_note": "把海宁中国皮革城收回到海宁皮城：牢记使命、不忘初心,在“红船精神”的指引下,公司始终致力于中国皮革业的服务工作,带领广大皮革终端产品制造商、原辅料供应商、皮革设计师、产品运营商,打造从设计研发到生产销售的全产业链服务平台和价值共享平台的公司级事实。"
+    },
+    {
+      "account_canonical_name": "海尔智家股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "海尔智家：海尔智家股份有限公司(原名:“青岛海尔”)是为全球用户定制美好生活解决方案的智慧家庭生态品牌商,总部位于中国青岛。",
+        "商业模式概述": "以海尔智家相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其海尔智家：海尔智家股份有限公司(原名:“青岛海尔”)是为全球用户定制美好生活解决方案的智慧家庭生态品牌商,总部位于中国青岛。",
+        "商业模式长摘录": "公开资料可支撑其以海尔智家相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600690",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=海尔智家股份有限公司"
+      ],
+      "repair_note": "把海尔智家收回到海尔智家：海尔智家股份有限公司(原名:“青岛海尔”)是为全球用户定制美好生活解决方案的智慧家庭生态品牌商,总部位于中国青岛的公司级事实。"
+    },
+    {
+      "account_canonical_name": "润本生物技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "润本股份：润本生物技术股份有限公司秉承“为消费者美好健康生活创造价值”的企业使命,深耕家居个人生活领域,坚持“大品牌、小品类”的研产销一体化战略,以新一代驱蚊产品切入消费者生活,不断发现消费者未被满足的需求与痛点,丰富品类,目前已形成驱蚊产品、婴童护理产品、精油产品三大核心产品系列。",
+        "商业模式概述": "以润本股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其润本股份：润本生物技术股份有限公司秉承“为消费者美好健康生活创造价值”的企业使命,深耕家居个人生活领域,坚持“大品牌、小品类”的研产销一体化战略,以新一代驱蚊产品切入消费者生活,不断发现消费者未被满足的需求与痛点,丰富品类,目前已形成驱蚊产品、婴童护理产品、精油产品三大核心产品系列。",
+        "商业模式长摘录": "公开资料可支撑其以润本股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603193",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=润本生物技术股份有限公司"
+      ],
+      "repair_note": "把润本生物技术收回到润本股份：润本生物技术股份有限公司秉承“为消费者美好健康生活创造价值”的企业使命,深耕家居个人生活领域,坚持“大品牌、小品类”的研产销一体化战略,以新一代驱蚊产品切入消费者生活,不断发现消费者未被满足的需求与痛点,丰富品类,目前已形成驱蚊产品、婴童护理产品、精油产品三大核心产品系列的公司级事实。"
+    }
+  ]
+}

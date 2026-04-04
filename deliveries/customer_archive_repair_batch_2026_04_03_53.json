@@ -1,0 +1,352 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_53",
+  "batch_title": "客户档案修复第53批",
+  "account_names": [
+    "中国铀业股份有限公司",
+    "内蒙古兴业银锡矿业股份有限公司",
+    "四川浪莎控股股份有限公司",
+    "宁波富达股份有限公司",
+    "宜宾五粮液股份有限公司",
+    "河北衡水老白干酒业股份有限公司",
+    "海伦钢琴股份有限公司",
+    "赤峰吉隆黄金矿业股份有限公司",
+    "锦泓时装集团股份有限公司",
+    "龙芯中科技术股份有限公司",
+    "内蒙古骑士乳业集团股份有限公司",
+    "北京康比特体育科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "中国铀业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中国铀业经营范围涵盖国外铀资源的勘探、勘察设计、工程建设的投资与管理、进出口业务。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中国铀业经营范围涵盖国外铀资源的勘探、勘察设计、工程建设的投资与管理、进出口业务。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001280",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中国铀业股份有限公司"
+      ],
+      "repair_note": "把中国铀业收回到中国铀业经营范围涵盖国外铀资源的勘探、勘察设计、工程建设的投资与管理、进出口业务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "内蒙古兴业银锡矿业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "兴业银锡经营范围涵盖矿产品和化工产品销售(需前置审批许可的项目除外)、金属及金属矿批发、矿山机械配件、轴承五金。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其兴业银锡经营范围涵盖矿产品和化工产品销售(需前置审批许可的项目除外)、金属及金属矿批发、矿山机械配件、轴承五金。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000426",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=内蒙古兴业银锡矿业股份有限公司"
+      ],
+      "repair_note": "把内蒙古兴业银锡矿业收回到兴业银锡经营范围涵盖矿产品和化工产品销售(需前置审批许可的项目除外)、金属及金属矿批发、矿山机械配件、轴承五金的公司级事实。"
+    },
+    {
+      "account_canonical_name": "四川浪莎控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "浪莎股份经营范围涵盖针织内衣、针织面料制造销售、货物进出口、技术进出口(法律。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其浪莎股份经营范围涵盖针织内衣、针织面料制造销售、货物进出口、技术进出口(法律。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600137",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=四川浪莎控股股份有限公司"
+      ],
+      "repair_note": "把四川浪莎控股收回到浪莎股份经营范围涵盖针织内衣、针织面料制造销售、货物进出口、技术进出口(法律的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波富达股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "宁波富达经营范围涵盖实业投资、自营和代理货物和技术的进出口、但国家限定经营或禁止进出口的货物和技术除外、计算机产品设计(具体以工商行政管理机关核准的经营范围为准)。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其宁波富达经营范围涵盖实业投资、自营和代理货物和技术的进出口、但国家限定经营或禁止进出口的货物和技术除外、计算机产品设计(具体以工商行政管理机关核准的经营范围为准)。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600724",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波富达股份有限公司"
+      ],
+      "repair_note": "把宁波富达收回到宁波富达经营范围涵盖实业投资、自营和代理货物和技术的进出口、但国家限定经营或禁止进出口的货物和技术除外、计算机产品设计(具体以工商行政管理机关核准的经营范围为准)的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宜宾五粮液股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "五粮液经营范围涵盖酒类产品及相关辅助产品(瓶盖、商标、标识及包装制品)的生产经营。。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其五粮液经营范围涵盖酒类产品及相关辅助产品(瓶盖、商标、标识及包装制品)的生产经营。。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000858",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宜宾五粮液股份有限公司"
+      ],
+      "repair_note": "把宜宾五粮液收回到五粮液经营范围涵盖酒类产品及相关辅助产品(瓶盖、商标、标识及包装制品)的生产经营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "河北衡水老白干酒业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "老白干酒经营范围涵盖白酒的生产、销售、配制酒的生产、销售。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其老白干酒经营范围涵盖白酒的生产、销售、配制酒的生产、销售。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600559",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=河北衡水老白干酒业股份有限公司"
+      ],
+      "repair_note": "把河北衡水老白干酒业收回到老白干酒经营范围涵盖白酒的生产、销售、配制酒的生产、销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "海伦钢琴股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "海伦钢琴：海伦钢琴先后投入巨资,进口了全数控高科技钢琴专用设备和生产线,并聘请了来自维也纳的传承了百年家族造琴技术经验的钢琴制作大师彼德·维莱茨基、美国钢琴工业研发设计大师乔治·弗兰克·爱默生、奥地利整音与调音权威大师兹拉科维奇·斯宾、日本钢琴专家江间茂等专家来公司长期指导组装、生产工艺,从而实现了现代高新科技与欧洲传统钢琴制造工艺的精湛结合。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其海伦钢琴：海伦钢琴先后投入巨资,进口了全数控高科技钢琴专用设备和生产线,并聘请了来自维也纳的传承了百年家族造琴技术经验的钢琴制作大师彼德·维莱茨基、美国钢琴工业研发设计大师乔治·弗兰克·爱默生、奥地利整音与调音权威大师兹拉科维奇·斯宾、日本钢琴专家江间茂等专家来公司长期指导组装、生产工艺,从而实现了现代高新科技与欧洲传统钢琴制造工艺的精湛结合。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300329",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=海伦钢琴股份有限公司"
+      ],
+      "repair_note": "把海伦钢琴收回到海伦钢琴：海伦钢琴先后投入巨资,进口了全数控高科技钢琴专用设备和生产线,并聘请了来自维也纳的传承了百年家族造琴技术经验的钢琴制作大师彼德·维莱茨基、美国钢琴工业研发设计大师乔治·弗兰克·爱默生、奥地利整音与调音权威大师兹拉科维奇·斯宾、日本钢琴专家江间茂等专家来公司长期指导组装、生产工艺,从而实现了现代高新科技与欧洲传统钢琴制造工艺的精湛结合的公司级事实。"
+    },
+    {
+      "account_canonical_name": "赤峰吉隆黄金矿业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "赤峰黄金经营范围涵盖有色金属采选、购销、对采矿业及其他国家允许投资的行业的投资与管理、货物或技术进出口。。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其赤峰黄金经营范围涵盖有色金属采选、购销、对采矿业及其他国家允许投资的行业的投资与管理、货物或技术进出口。。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600988",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=赤峰吉隆黄金矿业股份有限公司"
+      ],
+      "repair_note": "把赤峰吉隆黄金矿业收回到赤峰黄金经营范围涵盖有色金属采选、购销、对采矿业及其他国家允许投资的行业的投资与管理、货物或技术进出口的公司级事实。"
+    },
+    {
+      "account_canonical_name": "锦泓时装集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603518",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=锦泓时装集团股份有限公司"
+      ],
+      "repair_note": "把锦泓时装集团收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "龙芯中科技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "龙芯中科：龙芯中科技术股份有限公司,通用处理器是信息产业的基础部件,是电子设备的核心器件。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其龙芯中科：龙芯中科技术股份有限公司,通用处理器是信息产业的基础部件,是电子设备的核心器件。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688047",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=龙芯中科技术股份有限公司"
+      ],
+      "repair_note": "把龙芯中科技术收回到龙芯中科：龙芯中科技术股份有限公司,通用处理器是信息产业的基础部件,是电子设备的核心器件的公司级事实。"
+    },
+    {
+      "account_canonical_name": "内蒙古骑士乳业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "牧草、玉米和甜菜种植、奶牛集约化养殖和有机生鲜乳供销、乳制品及含乳饮料的生产与销售以及白砂糖及其副产品的生产与销售。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其牧草、玉米和甜菜种植、奶牛集约化养殖和有机生鲜乳供销、乳制品及含乳饮料的生产与销售以及白砂糖及其副产品的生产与销售。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=内蒙古骑士乳业集团股份有限公司"
+      ],
+      "repair_note": "把内蒙古骑士乳业集团收回到牧草、玉米和甜菜种植、奶牛集约化养殖和有机生鲜乳供销、乳制品及含乳饮料的生产与销售以及白砂糖及其副产品的生产与销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "北京康比特体育科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "运动营养、健康营养食品研发与制造、数字化体育科技服务。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其运动营养、健康营养食品研发与制造、数字化体育科技服务。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=北京康比特体育科技股份有限公司"
+      ],
+      "repair_note": "把北京康比特体育科技收回到运动营养、健康营养食品研发与制造、数字化体育科技服务的公司级事实。"
+    }
+  ]
+}

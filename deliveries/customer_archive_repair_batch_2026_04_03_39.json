@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_39",
+  "batch_title": "客户档案修复第39批",
+  "account_names": [
+    "吉林泉阳泉股份有限公司",
+    "喜临门健康睡眠科技股份公司",
+    "四川华丰科技股份有限公司",
+    "四川水井坊股份有限公司",
+    "国城矿业股份有限公司",
+    "国轩高科股份有限公司",
+    "地素时尚股份有限公司",
+    "大亚圣象家居股份有限公司",
+    "大族激光科技产业集团股份有限公司",
+    "大金重工股份有限公司",
+    "天创时尚股份有限公司",
+    "天虹数科商业股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "吉林泉阳泉股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "泉阳泉：泉阳泉坚持多元发展、不断壮大,现已拥有吉林森工集团泉阳泉饮品有限公司、苏州工业园区园林绿化工程有限公司、北京霍尔茨家居科技有限公司等11家专业分子公司,分布在吉林、江苏、北京、广东、上海等省市地区。",
+        "商业模式概述": "以泉阳泉相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其泉阳泉：泉阳泉坚持多元发展、不断壮大,现已拥有吉林森工集团泉阳泉饮品有限公司、苏州工业园区园林绿化工程有限公司、北京霍尔茨家居科技有限公司等11家专业分子公司,分布在吉林、江苏、北京、广东、上海等省市地区。",
+        "商业模式长摘录": "公开资料可支撑其以泉阳泉相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600189",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=吉林泉阳泉股份有限公司"
+      ],
+      "repair_note": "把吉林泉阳泉收回到泉阳泉：泉阳泉坚持多元发展、不断壮大,现已拥有吉林森工集团泉阳泉饮品有限公司、苏州工业园区园林绿化工程有限公司、北京霍尔茨家居科技有限公司等11家专业分子公司,分布在吉林、江苏、北京、广东、上海等省市地区的公司级事实。"
+    },
+    {
+      "account_canonical_name": "喜临门健康睡眠科技股份公司",
+      "fields": {
+        "公司产品与服务概述": "喜临门：主导并参与多项国家及行业标准制定,构建起覆盖材料科学、产品设计与智能制造的完整技术体系。",
+        "商业模式概述": "以喜临门相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其喜临门：主导并参与多项国家及行业标准制定,构建起覆盖材料科学、产品设计与智能制造的完整技术体系。",
+        "商业模式长摘录": "公开资料可支撑其以喜临门相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603008",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=喜临门健康睡眠科技股份公司"
+      ],
+      "repair_note": "把喜临门健康睡眠科技股份公司收回到喜临门：主导并参与多项国家及行业标准制定,构建起覆盖材料科学、产品设计与智能制造的完整技术体系的公司级事实。"
+    },
+    {
+      "account_canonical_name": "四川华丰科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "华丰科技：四川华丰科技股份有限公司,全球光电连接器及互连方案提供商。",
+        "商业模式概述": "以华丰科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其华丰科技：四川华丰科技股份有限公司,全球光电连接器及互连方案提供商。",
+        "商业模式长摘录": "公开资料可支撑其以华丰科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688629",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=四川华丰科技股份有限公司"
+      ],
+      "repair_note": "把四川华丰科技收回到华丰科技：四川华丰科技股份有限公司,全球光电连接器及互连方案提供商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "四川水井坊股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以水井坊相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以水井坊相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600779",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=四川水井坊股份有限公司"
+      ],
+      "repair_note": "把四川水井坊收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "国城矿业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "国城矿业经营范围涵盖许可项目:矿产资源(非煤矿山)开采、矿产资源勘查、金属与非金属矿产资源地质勘探、黄金及其制品进出口。",
+        "商业模式概述": "以国城矿业相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其国城矿业经营范围涵盖许可项目:矿产资源(非煤矿山)开采、矿产资源勘查、金属与非金属矿产资源地质勘探、黄金及其制品进出口。",
+        "商业模式长摘录": "公开资料可支撑其以国城矿业相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000688",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=国城矿业股份有限公司"
+      ],
+      "repair_note": "把国城矿业收回到国城矿业经营范围涵盖许可项目:矿产资源(非煤矿山)开采、矿产资源勘查、金属与非金属矿产资源地质勘探、黄金及其制品进出口的公司级事实。"
+    },
+    {
+      "account_canonical_name": "国轩高科股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "国轩高科：国轩高科股份有限公司创立于2006年,总部位于安徽合肥,是具有全球竞争力的新能源电池企业和绿色能源解决方案商。",
+        "商业模式概述": "以国轩高科相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其国轩高科：国轩高科股份有限公司创立于2006年,总部位于安徽合肥,是具有全球竞争力的新能源电池企业和绿色能源解决方案商。",
+        "商业模式长摘录": "公开资料可支撑其以国轩高科相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002074",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=国轩高科股份有限公司"
+      ],
+      "repair_note": "把国轩高科收回到国轩高科：国轩高科股份有限公司创立于2006年,总部位于安徽合肥,是具有全球竞争力的新能源电池企业和绿色能源解决方案商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "地素时尚股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "地素时尚：自成立以来,公司围绕中高端品牌定位,分别创立“DAZZLE”、“DIAMONDDAZZLE”、“d'zzit”和“RAZZLE”四个知名服装品牌,形成对时装领域深层次的诠释。",
+        "商业模式概述": "以地素时尚相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其地素时尚：自成立以来,公司围绕中高端品牌定位,分别创立“DAZZLE”、“DIAMONDDAZZLE”、“d'zzit”和“RAZZLE”四个知名服装品牌,形成对时装领域深层次的诠释。",
+        "商业模式长摘录": "公开资料可支撑其以地素时尚相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603587",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=地素时尚股份有限公司"
+      ],
+      "repair_note": "把地素时尚收回到地素时尚：自成立以来,公司围绕中高端品牌定位,分别创立“DAZZLE”、“DIAMONDDAZZLE”、“d'zzit”和“RAZZLE”四个知名服装品牌,形成对时装领域深层次的诠释的公司级事实。"
+    },
+    {
+      "account_canonical_name": "大亚圣象家居股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大亚圣象：大亚圣象家居股份有限公司创建于1999年,是我国人造板和地板行业龙头企业。",
+        "商业模式概述": "以大亚圣象相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大亚圣象：大亚圣象家居股份有限公司创建于1999年,是我国人造板和地板行业龙头企业。",
+        "商业模式长摘录": "公开资料可支撑其以大亚圣象相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000910",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=大亚圣象家居股份有限公司"
+      ],
+      "repair_note": "把大亚圣象家居收回到大亚圣象：大亚圣象家居股份有限公司创建于1999年,是我国人造板和地板行业龙头企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "大族激光科技产业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大族激光：大族激光致力于智能制造装备及其关键器件的研发、生产和销售,具备从基础器件、整机设备到工艺解决方案的垂直一体化优势,是全球领先的智能制造装备整体解决方案服务商。",
+        "商业模式概述": "以大族激光相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大族激光：大族激光致力于智能制造装备及其关键器件的研发、生产和销售,具备从基础器件、整机设备到工艺解决方案的垂直一体化优势,是全球领先的智能制造装备整体解决方案服务商。",
+        "商业模式长摘录": "公开资料可支撑其以大族激光相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002008",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=大族激光科技产业集团股份有限公司"
+      ],
+      "repair_note": "把大族激光科技产业集团收回到大族激光：大族激光致力于智能制造装备及其关键器件的研发、生产和销售,具备从基础器件、整机设备到工艺解决方案的垂直一体化优势,是全球领先的智能制造装备整体解决方案服务商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "大金重工股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大金重工：大金重工股份有限公司(以下简称:大金重工)是新能源领域一家全球化运营的上市公司,致力于为客户提供有竞争力、安全可信赖的产品,同时提供行业相关服务运营等系统化解决方案,总部位于中国北京。",
+        "商业模式概述": "以大金重工相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大金重工：大金重工股份有限公司(以下简称:大金重工)是新能源领域一家全球化运营的上市公司,致力于为客户提供有竞争力、安全可信赖的产品,同时提供行业相关服务运营等系统化解决方案,总部位于中国北京。",
+        "商业模式长摘录": "公开资料可支撑其以大金重工相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002487",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=大金重工股份有限公司"
+      ],
+      "repair_note": "把大金重工收回到大金重工：大金重工股份有限公司(以下简称:大金重工)是新能源领域一家全球化运营的上市公司,致力于为客户提供有竞争力、安全可信赖的产品,同时提供行业相关服务运营等系统化解决方案,总部位于中国北京的公司级事实。"
+    },
+    {
+      "account_canonical_name": "天创时尚股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "*ST天创：天创时尚股份有限公司专注于为消费者提供时尚、舒适、健康的鞋服产品和服务。",
+        "商业模式概述": "以*ST天创相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其*ST天创：天创时尚股份有限公司专注于为消费者提供时尚、舒适、健康的鞋服产品和服务。",
+        "商业模式长摘录": "公开资料可支撑其以*ST天创相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603608",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=天创时尚股份有限公司"
+      ],
+      "repair_note": "把天创时尚收回到*ST天创：天创时尚股份有限公司专注于为消费者提供时尚、舒适、健康的鞋服产品和服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "天虹数科商业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天虹股份：通过人本、科学的管理,专业、高效的运营,公司取得了卓越的业绩,已连续多年入围中国连锁百强企业,拥有全国领先的零售技术研发和运营能力。",
+        "商业模式概述": "以天虹股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天虹股份：通过人本、科学的管理,专业、高效的运营,公司取得了卓越的业绩,已连续多年入围中国连锁百强企业,拥有全国领先的零售技术研发和运营能力。",
+        "商业模式长摘录": "公开资料可支撑其以天虹股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002419",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=天虹数科商业股份有限公司"
+      ],
+      "repair_note": "把天虹数科商业收回到天虹股份：通过人本、科学的管理,专业、高效的运营,公司取得了卓越的业绩,已连续多年入围中国连锁百强企业,拥有全国领先的零售技术研发和运营能力的公司级事实。"
+    }
+  ]
+}

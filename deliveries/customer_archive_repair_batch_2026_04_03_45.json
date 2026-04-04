@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_45",
+  "batch_title": "客户档案修复第45批",
+  "account_names": [
+    "江苏洋河酒厂股份有限公司",
+    "江西国光商业连锁股份有限公司",
+    "江西艾芬达暖通科技股份有限公司",
+    "河南瑞贝卡发制品股份有限公司",
+    "泸州老窖股份有限公司",
+    "浙江中国轻纺城集团股份有限公司",
+    "浙江中胤时尚股份有限公司",
+    "浙江乔治白服饰股份有限公司",
+    "浙江华统肉制品股份有限公司",
+    "浙江古越龙山绍兴酒股份有限公司",
+    "浙江嘉欣丝绸股份有限公司",
+    "浙江大华技术股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "江苏洋河酒厂股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "洋河股份经营范围涵盖酒类的生产、销售、预包装食品的批发与零售、粮食收购。",
+        "商业模式概述": "以洋河股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其洋河股份经营范围涵盖酒类的生产、销售、预包装食品的批发与零售、粮食收购。",
+        "商业模式长摘录": "公开资料可支撑其以洋河股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002304",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏洋河酒厂股份有限公司"
+      ],
+      "repair_note": "把江苏洋河酒厂收回到洋河股份经营范围涵盖酒类的生产、销售、预包装食品的批发与零售、粮食收购的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江西国光商业连锁股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以国光连锁相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以国光连锁相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605188",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江西国光商业连锁股份有限公司"
+      ],
+      "repair_note": "把江西国光商业连锁收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江西艾芬达暖通科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "艾芬达：江西艾芬达暖通科技股份有限公司成立于2005年,是一家专业从事暖通家居产品研发、设计、生产和销售的高新技术企业,致力于为全球用户提供绿色、智能、低碳的家居解决方案,让全球家庭畅享健康舒适家居生活。",
+        "商业模式概述": "以艾芬达相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其艾芬达：江西艾芬达暖通科技股份有限公司成立于2005年,是一家专业从事暖通家居产品研发、设计、生产和销售的高新技术企业,致力于为全球用户提供绿色、智能、低碳的家居解决方案,让全球家庭畅享健康舒适家居生活。",
+        "商业模式长摘录": "公开资料可支撑其以艾芬达相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301575",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江西艾芬达暖通科技股份有限公司"
+      ],
+      "repair_note": "把江西艾芬达暖通科技收回到艾芬达：江西艾芬达暖通科技股份有限公司成立于2005年,是一家专业从事暖通家居产品研发、设计、生产和销售的高新技术企业,致力于为全球用户提供绿色、智能、低碳的家居解决方案,让全球家庭畅享健康舒适家居生活的公司级事实。"
+    },
+    {
+      "account_canonical_name": "河南瑞贝卡发制品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "瑞贝卡：二十年来,瑞贝卡公司严格遵守国家法律法规,认真贯彻落实科学发展观,坚持以人为本的管理理念,大力弘扬精诚、创新、发展的企业精神,积极实施人才、科技、品牌三大战略,充分利用行业优势,以市场为导向,以经济效益为中心,以创新、创造、实现客户梦想为使命,以技术进步和提高全员素质为动力,以产品结构调整和产品升级为主线,加大技术创新和产品创造力度,不断提高自主创新和自主研发能力,努力建设拥有自主知识产权和自主知名品牌的国际化企业集团。",
+        "商业模式概述": "以瑞贝卡相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其瑞贝卡：二十年来,瑞贝卡公司严格遵守国家法律法规,认真贯彻落实科学发展观,坚持以人为本的管理理念,大力弘扬精诚、创新、发展的企业精神,积极实施人才、科技、品牌三大战略,充分利用行业优势,以市场为导向,以经济效益为中心,以创新、创造、实现客户梦想为使命,以技术进步和提高全员素质为动力,以产品结构调整和产品升级为主线,加大技术创新和产品创造力度,不断提高自主创新和自主研发能力,努力建设拥有自主知识产权和自主知名品牌的国际化企业集团。",
+        "商业模式长摘录": "公开资料可支撑其以瑞贝卡相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600439",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=河南瑞贝卡发制品股份有限公司"
+      ],
+      "repair_note": "把河南瑞贝卡发制品收回到瑞贝卡：二十年来,瑞贝卡公司严格遵守国家法律法规,认真贯彻落实科学发展观,坚持以人为本的管理理念,大力弘扬精诚、创新、发展的企业精神,积极实施人才、科技、品牌三大战略,充分利用行业优势,以市场为导向,以经济效益为中心,以创新、创造、实现客户梦想为使命,以技术进步和提高全员素质为动力,以产品结构调整和产品升级为主线,加大技术创新和产品创造力度,不断提高自主创新和自主研发能力,努力建设拥有自主知识产权和自主知名品牌的国际化企业集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "泸州老窖股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "泸州老窖：泸州老窖是浓香技艺的开创者、浓香标准的制定者和浓香品牌的塑造者,被誉为“浓香鼻祖”。",
+        "商业模式概述": "以泸州老窖相关产品的生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其泸州老窖：泸州老窖是浓香技艺的开创者、浓香标准的制定者和浓香品牌的塑造者,被誉为“浓香鼻祖”。",
+        "商业模式长摘录": "公开资料可支撑其以泸州老窖相关产品的生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000568",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=泸州老窖股份有限公司"
+      ],
+      "repair_note": "把泸州老窖收回到泸州老窖：泸州老窖是浓香技艺的开创者、浓香标准的制定者和浓香品牌的塑造者,被誉为“浓香鼻祖”的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江中国轻纺城集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "轻纺城：近年来,公司锚定“国际纺都”新定位,围绕“市场、数字、投资”三大战略,践行“创新、担当、实干、高效”企业文化核心思想,加快“服务市场+壮大产业”一体化推进,做强品牌市场培育,加速出海贸易布局,优化产业投资生态,依托海量市场资源打造贸易服务新模式,持续点亮新业务增长点,积极转型纺织产业综合集成服务商,以全球纺织价值链核心枢纽为目标,推动纺织产业高质量发展。",
+        "商业模式概述": "以轻纺城相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其轻纺城：近年来,公司锚定“国际纺都”新定位,围绕“市场、数字、投资”三大战略,践行“创新、担当、实干、高效”企业文化核心思想,加快“服务市场+壮大产业”一体化推进,做强品牌市场培育,加速出海贸易布局,优化产业投资生态,依托海量市场资源打造贸易服务新模式,持续点亮新业务增长点,积极转型纺织产业综合集成服务商,以全球纺织价值链核心枢纽为目标,推动纺织产业高质量发展。",
+        "商业模式长摘录": "公开资料可支撑其以轻纺城相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600790",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江中国轻纺城集团股份有限公司"
+      ],
+      "repair_note": "把浙江中国轻纺城集团收回到轻纺城：近年来,公司锚定“国际纺都”新定位,围绕“市场、数字、投资”三大战略,践行“创新、担当、实干、高效”企业文化核心思想,加快“服务市场+壮大产业”一体化推进,做强品牌市场培育,加速出海贸易布局,优化产业投资生态,依托海量市场资源打造贸易服务新模式,持续点亮新业务增长点,积极转型纺织产业综合集成服务商,以全球纺织价值链核心枢纽为目标,推动纺织产业高质量发展的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江中胤时尚股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中胤时尚：浙江中胤时尚股份有限公司成立于2011年10月,是一家专注于制鞋产业设计,致力于引领时尚潮流的专业公司。",
+        "商业模式概述": "以中胤时尚相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中胤时尚：浙江中胤时尚股份有限公司成立于2011年10月,是一家专注于制鞋产业设计,致力于引领时尚潮流的专业公司。",
+        "商业模式长摘录": "公开资料可支撑其以中胤时尚相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300901",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江中胤时尚股份有限公司"
+      ],
+      "repair_note": "把浙江中胤时尚收回到中胤时尚：浙江中胤时尚股份有限公司成立于2011年10月,是一家专注于制鞋产业设计,致力于引领时尚潮流的专业公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江乔治白服饰股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "乔治白：浙江乔治白服饰股份有限公司成立于1995年,是一家集商务职业装、校服、休闲服等系列服装的研发、设计、生产、销售为一体的服饰公司,以B2B定制模式为主,服务于各企事业单位。",
+        "商业模式概述": "以乔治白相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其乔治白：浙江乔治白服饰股份有限公司成立于1995年,是一家集商务职业装、校服、休闲服等系列服装的研发、设计、生产、销售为一体的服饰公司,以B2B定制模式为主,服务于各企事业单位。",
+        "商业模式长摘录": "公开资料可支撑其以乔治白相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002687",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江乔治白服饰股份有限公司"
+      ],
+      "repair_note": "把浙江乔治白服饰收回到乔治白：浙江乔治白服饰股份有限公司成立于1995年,是一家集商务职业装、校服、休闲服等系列服装的研发、设计、生产、销售为一体的服饰公司,以B2B定制模式为主,服务于各企事业单位的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江华统肉制品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "华统股份：经过多年努力,公司已具备较强的市场竞争力和品牌知名度。",
+        "商业模式概述": "以华统股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其华统股份：经过多年努力,公司已具备较强的市场竞争力和品牌知名度。",
+        "商业模式长摘录": "公开资料可支撑其以华统股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002840",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江华统肉制品股份有限公司"
+      ],
+      "repair_note": "把浙江华统肉制品收回到华统股份：经过多年努力,公司已具备较强的市场竞争力和品牌知名度的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江古越龙山绍兴酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "古越龙山：旗下拥有古越龙山、沈永和、女儿红、状元红、鉴湖等五大黄酒知名品牌。",
+        "商业模式概述": "以古越龙山相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其古越龙山：旗下拥有古越龙山、沈永和、女儿红、状元红、鉴湖等五大黄酒知名品牌。",
+        "商业模式长摘录": "公开资料可支撑其以古越龙山相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600059",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江古越龙山绍兴酒股份有限公司"
+      ],
+      "repair_note": "把浙江古越龙山绍兴酒收回到古越龙山：旗下拥有古越龙山、沈永和、女儿红、状元红、鉴湖等五大黄酒知名品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江嘉欣丝绸股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "嘉欣丝绸：业务覆盖国际国内贸易、工业制造、品牌、行业供应链平台,以及房地产与教育等六大板块,拥有最完整的丝绸全产业链,是中国最大的丝绸产品研发与制造的企业之一。",
+        "商业模式概述": "以嘉欣丝绸相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其嘉欣丝绸：业务覆盖国际国内贸易、工业制造、品牌、行业供应链平台,以及房地产与教育等六大板块,拥有最完整的丝绸全产业链,是中国最大的丝绸产品研发与制造的企业之一。",
+        "商业模式长摘录": "公开资料可支撑其以嘉欣丝绸相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002404",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江嘉欣丝绸股份有限公司"
+      ],
+      "repair_note": "把浙江嘉欣丝绸收回到嘉欣丝绸：业务覆盖国际国内贸易、工业制造、品牌、行业供应链平台,以及房地产与教育等六大板块,拥有最完整的丝绸全产业链,是中国最大的丝绸产品研发与制造的企业之一的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江大华技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大华股份：浙江大华技术股份有限公司,是全球领先的以视频为核心的智慧物联解决方案提供商和运营服务商。",
+        "商业模式概述": "以大华股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大华股份：浙江大华技术股份有限公司,是全球领先的以视频为核心的智慧物联解决方案提供商和运营服务商。",
+        "商业模式长摘录": "公开资料可支撑其以大华股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002236",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江大华技术股份有限公司"
+      ],
+      "repair_note": "把浙江大华技术收回到大华股份：浙江大华技术股份有限公司,是全球领先的以视频为核心的智慧物联解决方案提供商和运营服务商的公司级事实。"
+    }
+  ]
+}

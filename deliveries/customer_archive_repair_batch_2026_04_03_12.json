@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_12",
+  "batch_title": "客户档案修复第十二批",
+  "account_names": [
+    "上海鸣志电器股份有限公司",
+    "中信重工机械股份有限公司",
+    "中密控股股份有限公司",
+    "中科飞测科技股份有限公司",
+    "云南恩捷新材料股份有限公司",
+    "五洲新春集团股份有限公司",
+    "先惠技术股份有限公司",
+    "兰剑智能科技股份有限公司",
+    "北京当升材料科技股份有限公司",
+    "华工科技产业股份有限公司",
+    "华海清科股份有限公司",
+    "厦门法拉电子股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "上海鸣志电器股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营步进电机、伺服系统、运动控制及驱动控制相关产品，是运动控制与工业自动化企业。",
+        "商业模式概述": "以运动控制产品研发、制造、销售和技术服务为核心，面向工业自动化、设备制造和机器人应用场景提供控制与驱动解决方案。",
+        "核心客户客群": "设备制造客户、工业自动化客户、机器人应用客户及运动控制产品采购场景客户。",
+        "主要竞品概述": "汇川技术、步科股份及运动控制与工业自动化企业。",
+        "相似客户线索": "深圳市汇川技术股份有限公司、上海步科自动化股份有限公司、上海新时达电气股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营步进电机、伺服系统、运动控制及驱动控制相关产品，是运动控制与工业自动化企业。",
+        "商业模式长摘录": "公开资料可支撑其以运动控制产品研发、制造、销售和技术服务为核心，面向工业自动化、设备制造和机器人应用场景提供控制与驱动解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海鸣志电器股份有限公司"
+      ],
+      "repair_note": "把鸣志电器收回到运动控制与工业自动化控制产品公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中信重工机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营矿山装备、重型机械、机器人及智能装备产品，是重型装备制造企业。",
+        "商业模式概述": "以重型装备研发、制造、销售和工程服务为核心，面向矿山、建材、冶金和工业项目场景提供大型装备与系统解决方案。",
+        "核心客户客群": "矿山客户、冶金与建材客户、工业项目客户及重型装备采购场景客户。",
+        "主要竞品概述": "中联重科、徐工机械及重型装备与工程机械企业。",
+        "相似客户线索": "徐工集团工程机械股份有限公司、中联重科股份有限公司、烟台杰瑞石油服务集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营矿山装备、重型机械、机器人及智能装备产品，是重型装备制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以重型装备研发、制造、销售和工程服务为核心，面向矿山、建材、冶金和工业项目场景提供大型装备与系统解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中信重工机械股份有限公司"
+      ],
+      "repair_note": "把中信重工收回到重型装备与工业项目解决方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中密控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营机械密封、干气密封及相关流体设备密封产品，是高端机械密封企业。",
+        "商业模式概述": "以机械密封产品研发、制造、销售和技术服务为核心，面向石化、电力、冶金和工业设备客户提供密封解决方案。",
+        "核心客户客群": "石化客户、电力客户、工业设备客户及机械密封采购和改造场景客户。",
+        "主要竞品概述": "天一科技、日机密封相关主体及高端机械密封企业。",
+        "相似客户线索": "烟台杰瑞石油服务集团股份有限公司、厦门法拉电子股份有限公司、华工科技产业股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营机械密封、干气密封及相关流体设备密封产品，是高端机械密封企业。",
+        "商业模式长摘录": "公开资料可支撑其以机械密封产品研发、制造、销售和技术服务为核心，面向石化、电力、冶金和工业设备客户提供密封解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中密控股股份有限公司"
+      ],
+      "repair_note": "把中密控股收回到高端机械密封与工业流体密封方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中科飞测科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营半导体检测和量测设备及相关软件系统，是高端检测装备企业。",
+        "商业模式概述": "以检测量测设备研发、制造、销售和技术服务为核心，面向半导体制造与工艺控制场景提供专用检测装备方案。",
+        "核心客户客群": "半导体制造客户、晶圆厂客户及高端检测设备采购场景客户。",
+        "主要竞品概述": "华海清科、精测电子及半导体检测装备企业。",
+        "相似客户线索": "华海清科股份有限公司、上海新阳半导体材料股份有限公司、北京当升材料科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营半导体检测和量测设备及相关软件系统，是高端检测装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以检测量测设备研发、制造、销售和技术服务为核心，面向半导体制造与工艺控制场景提供专用检测装备方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中科飞测科技股份有限公司"
+      ],
+      "repair_note": "把中科飞测收回到半导体检测与量测装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "云南恩捷新材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂电池隔膜、包装印刷及新材料相关产品，是新能源材料企业。",
+        "商业模式概述": "以新能源隔膜及新材料研发、生产、销售和服务为核心，面向动力电池、储能和新能源制造客户提供关键材料供应。",
+        "核心客户客群": "动力电池客户、储能电池客户及新能源材料采购场景客户。",
+        "主要竞品概述": "星源材质、当升材料及新能源材料企业。",
+        "相似客户线索": "深圳市星源材质科技股份有限公司、北京当升材料科技股份有限公司、厦门厦钨新能源材料股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂电池隔膜、包装印刷及新材料相关产品，是新能源材料企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源隔膜及新材料研发、生产、销售和服务为核心，面向动力电池、储能和新能源制造客户提供关键材料供应。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=云南恩捷新材料股份有限公司"
+      ],
+      "repair_note": "把恩捷股份收回到新能源隔膜与关键材料供应公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "五洲新春集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营轴承、精密零部件、汽车零件及相关工业基础件产品，是精密零部件制造企业。",
+        "商业模式概述": "以精密零部件研发、制造、销售和服务为核心，面向汽车、工业设备和高端制造客户提供基础件与配套零部件供应。",
+        "核心客户客群": "汽车零部件客户、工业设备客户及精密基础件采购场景客户。",
+        "主要竞品概述": "长盈精密、卧龙电驱及精密零部件制造企业。",
+        "相似客户线索": "深圳市长盈精密技术股份有限公司、卧龙电气驱动集团股份有限公司、上海鸣志电器股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营轴承、精密零部件、汽车零件及相关工业基础件产品，是精密零部件制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以精密零部件研发、制造、销售和服务为核心，面向汽车、工业设备和高端制造客户提供基础件与配套零部件供应。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=五洲新春集团股份有限公司"
+      ],
+      "repair_note": "把五洲新春收回到精密零部件与工业基础件供应公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "先惠技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营智能制造装备、自动化生产线及新能源装备相关产品，是智能装备企业。",
+        "商业模式概述": "以智能装备研发、制造、系统集成和交付服务为核心，面向新能源和先进制造客户提供自动化产线与装备方案。",
+        "核心客户客群": "新能源制造客户、先进制造客户及自动化产线采购和升级场景客户。",
+        "主要竞品概述": "先导智能、海目星及智能装备与自动化产线企业。",
+        "相似客户线索": "无锡先导智能装备股份有限公司、深圳市海目星激光科技集团股份有限公司、博众精工科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营智能制造装备、自动化生产线及新能源装备相关产品，是智能装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以智能装备研发、制造、系统集成和交付服务为核心，面向新能源和先进制造客户提供自动化产线与装备方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=先惠技术股份有限公司"
+      ],
+      "repair_note": "把先惠技术收回到智能装备与新能源自动化产线公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "兰剑智能科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营智能仓储物流系统、输送分拣设备及软件控制系统，是智能物流装备企业。",
+        "商业模式概述": "以智能物流装备和软件系统研发、集成、交付与服务为核心，面向制造、零售和仓储场景提供仓储自动化解决方案。",
+        "核心客户客群": "制造客户、零售与仓储客户及物流自动化建设场景客户。",
+        "主要竞品概述": "今天国际、音飞储存及智能仓储物流装备企业。",
+        "相似客户线索": "深圳市今天国际物流技术股份有限公司、南京音飞储存设备（集团）股份有限公司、先惠技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营智能仓储物流系统、输送分拣设备及软件控制系统，是智能物流装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以智能物流装备和软件系统研发、集成、交付与服务为核心，面向制造、零售和仓储场景提供仓储自动化解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=兰剑智能科技股份有限公司"
+      ],
+      "repair_note": "把兰剑智能收回到智能仓储物流装备与自动化软件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "北京当升材料科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂电正极材料及相关新材料产品，是新能源电池材料企业。",
+        "商业模式概述": "以新能源材料研发、生产、销售和技术服务为核心，面向动力电池、储能和新能源制造客户提供正极材料供应。",
+        "核心客户客群": "动力电池客户、储能电池客户及新能源材料采购场景客户。",
+        "主要竞品概述": "容百科技、恩捷股份及新能源电池材料企业。",
+        "相似客户线索": "宁波容百新能源科技股份有限公司、云南恩捷新材料股份有限公司、厦门厦钨新能源材料股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂电正极材料及相关新材料产品，是新能源电池材料企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源材料研发、生产、销售和技术服务为核心，面向动力电池、储能和新能源制造客户提供正极材料供应。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=北京当升材料科技股份有限公司"
+      ],
+      "repair_note": "把当升材料收回到新能源正极材料与关键材料供应公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "华工科技产业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营激光装备、光通信器件、传感器及相关高端制造产品，是高端制造科技企业。",
+        "商业模式概述": "以高端制造产品研发、制造、销售和服务为核心，面向智能制造、光通信和工业应用场景提供设备与器件解决方案。",
+        "核心客户客群": "智能制造客户、光通信客户、工业应用客户及高端器件采购场景客户。",
+        "主要竞品概述": "海目星、新易盛及激光与光通信相关企业。",
+        "相似客户线索": "深圳市海目星激光科技集团股份有限公司、深圳新易盛通信技术股份有限公司、上海新阳半导体材料股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营激光装备、光通信器件、传感器及相关高端制造产品，是高端制造科技企业。",
+        "商业模式长摘录": "公开资料可支撑其以高端制造产品研发、制造、销售和服务为核心，面向智能制造、光通信和工业应用场景提供设备与器件解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=华工科技产业股份有限公司"
+      ],
+      "repair_note": "把华工科技收回到激光、光通信与高端制造科技公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "华海清科股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营化学机械抛光设备及相关半导体装备产品，是半导体装备企业。",
+        "商业模式概述": "以半导体装备研发、制造、销售和技术服务为核心，面向晶圆制造和半导体工艺场景提供 CMP 装备解决方案。",
+        "核心客户客群": "晶圆制造客户、半导体工艺客户及高端装备采购场景客户。",
+        "主要竞品概述": "中科飞测、北方华创相关装备主体及半导体设备企业。",
+        "相似客户线索": "中科飞测科技股份有限公司、上海新阳半导体材料股份有限公司、北京当升材料科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营化学机械抛光设备及相关半导体装备产品，是半导体装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以半导体装备研发、制造、销售和技术服务为核心，面向晶圆制造和半导体工艺场景提供 CMP 装备解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=华海清科股份有限公司"
+      ],
+      "repair_note": "把华海清科收回到半导体 CMP 装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "厦门法拉电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营薄膜电容器及相关电子元器件产品，是电子元器件制造企业。",
+        "商业模式概述": "以电子元器件研发、制造、销售和服务为核心，面向工业控制、新能源、汽车电子等场景提供薄膜电容产品。",
+        "核心客户客群": "工业控制客户、新能源客户、汽车电子客户及电子元器件采购场景客户。",
+        "主要竞品概述": "江海股份、艾华集团及电子元器件制造企业。",
+        "相似客户线索": "南通江海电容器股份有限公司、湖南艾华集团股份有限公司、上海鸣志电器股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营薄膜电容器及相关电子元器件产品，是电子元器件制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以电子元器件研发、制造、销售和服务为核心，面向工业控制、新能源、汽车电子等场景提供薄膜电容产品。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门法拉电子股份有限公司"
+      ],
+      "repair_note": "把法拉电子收回到薄膜电容器与电子元器件制造公司的公司级事实。"
+    }
+  ]
+}

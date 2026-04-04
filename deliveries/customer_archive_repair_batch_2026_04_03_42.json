@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_42",
+  "batch_title": "客户档案修复第42批",
+  "account_names": [
+    "广东顶固集创家居股份有限公司",
+    "广东高乐股份有限公司",
+    "广州华立科技股份有限公司",
+    "广州珠江啤酒股份有限公司",
+    "广州珠江钢琴集团股份有限公司",
+    "广西新迅达科技集团股份公司",
+    "建霖家居股份有限公司",
+    "开能健康科技集团股份有限公司",
+    "张小泉股份有限公司",
+    "德尔未来科技控股集团股份有限公司",
+    "惠达卫浴股份有限公司",
+    "慕思健康睡眠股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "广东顶固集创家居股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "顶固集创：顶固秉承“让消费者享受美好的家居生活”的经营使命,和“顶固,让您放心”的企业宗旨,专注绿色、安全、环保、高品质的定制化家居产品。",
+        "商业模式概述": "以顶固集创相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其顶固集创：顶固秉承“让消费者享受美好的家居生活”的经营使命,和“顶固,让您放心”的企业宗旨,专注绿色、安全、环保、高品质的定制化家居产品。",
+        "商业模式长摘录": "公开资料可支撑其以顶固集创相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300749",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东顶固集创家居股份有限公司"
+      ],
+      "repair_note": "把广东顶固集创家居收回到顶固集创：顶固秉承“让消费者享受美好的家居生活”的经营使命,和“顶固,让您放心”的企业宗旨,专注绿色、安全、环保、高品质的定制化家居产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东高乐股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "高乐股份：公司集团总部位于广东普宁,在香港、深圳、上海、广州、天津、美国等地设置有分公司、子公司、研发中心、办事处等机构。",
+        "商业模式概述": "以高乐股份相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其高乐股份：公司集团总部位于广东普宁,在香港、深圳、上海、广州、天津、美国等地设置有分公司、子公司、研发中心、办事处等机构。",
+        "商业模式长摘录": "公开资料可支撑其以高乐股份相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002348",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东高乐股份有限公司"
+      ],
+      "repair_note": "把广东高乐收回到高乐股份：公司集团总部位于广东普宁,在香港、深圳、上海、广州、天津、美国等地设置有分公司、子公司、研发中心、办事处等机构的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州华立科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "华立科技：20余年来,华立科技凭借对游戏潮流的精准把握、先进的研发水平、优异的设计能力、优秀的品牌管理能力以及专业的营销经营体系,不仅成功奠定了国内行业领先地位,而且发展成为业务覆盖全球不同国家及地区的国际著名企业。",
+        "商业模式概述": "以华立科技相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其华立科技：20余年来,华立科技凭借对游戏潮流的精准把握、先进的研发水平、优异的设计能力、优秀的品牌管理能力以及专业的营销经营体系,不仅成功奠定了国内行业领先地位,而且发展成为业务覆盖全球不同国家及地区的国际著名企业。",
+        "商业模式长摘录": "公开资料可支撑其以华立科技相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301011",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州华立科技股份有限公司"
+      ],
+      "repair_note": "把广州华立科技收回到华立科技：20余年来,华立科技凭借对游戏潮流的精准把握、先进的研发水平、优异的设计能力、优秀的品牌管理能力以及专业的营销经营体系,不仅成功奠定了国内行业领先地位,而且发展成为业务覆盖全球不同国家及地区的国际著名企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州珠江啤酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "珠江啤酒：荣获全国文明单位、国家环境友好企业、广东省先进基层党组织等殊荣,品牌价值位列中国百强,品牌价值提升至188亿元,享有“南有珠江”美誉。",
+        "商业模式概述": "以珠江啤酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其珠江啤酒：荣获全国文明单位、国家环境友好企业、广东省先进基层党组织等殊荣,品牌价值位列中国百强,品牌价值提升至188亿元,享有“南有珠江”美誉。",
+        "商业模式长摘录": "公开资料可支撑其以珠江啤酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002461",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州珠江啤酒股份有限公司"
+      ],
+      "repair_note": "把广州珠江啤酒收回到珠江啤酒：荣获全国文明单位、国家环境友好企业、广东省先进基层党组织等殊荣,品牌价值位列中国百强,品牌价值提升至188亿元,享有“南有珠江”美誉的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州珠江钢琴集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "珠江钢琴：旗下专注于数码乐器制造的艾茉森公司始建于2008年,至今已研发出Amason、PearlriveravecKORG、Harpsichord等知名数码品牌,产品线覆盖数码钢琴、智能数码钢琴、MIDI键盘、电子鼓、电吉他、电吉他贝司音箱、数码钢琴集体课音乐教室、6+1儿童启蒙数字音乐教室、音乐教学系统、高级电子琴、效果器等,其中多款产品获得广东省高新技术产品、广东省名牌产品等荣誉称号,艾茉森公司也被相关部门认定为高新技术企业;近年来持续保持了较快的发展速度,产品产销量突破4万架,进入国内前列,并于2018年4月成为在新三板挂牌的数码乐器公司。",
+        "商业模式概述": "以珠江钢琴相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其珠江钢琴：旗下专注于数码乐器制造的艾茉森公司始建于2008年,至今已研发出Amason、PearlriveravecKORG、Harpsichord等知名数码品牌,产品线覆盖数码钢琴、智能数码钢琴、MIDI键盘、电子鼓、电吉他、电吉他贝司音箱、数码钢琴集体课音乐教室、6+1儿童启蒙数字音乐教室、音乐教学系统、高级电子琴、效果器等,其中多款产品获得广东省高新技术产品、广东省名牌产品等荣誉称号,艾茉森公司也被相关部门认定为高新技术企业;近年来持续保持了较快的发展速度,产品产销量突破4万架,进入国内前列,并于2018年4月成为在新三板挂牌的数码乐器公司。",
+        "商业模式长摘录": "公开资料可支撑其以珠江钢琴相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002678",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州珠江钢琴集团股份有限公司"
+      ],
+      "repair_note": "把广州珠江钢琴集团收回到珠江钢琴：旗下专注于数码乐器制造的艾茉森公司始建于2008年,至今已研发出Amason、PearlriveravecKORG、Harpsichord等知名数码品牌,产品线覆盖数码钢琴、智能数码钢琴、MIDI键盘、电子鼓、电吉他、电吉他贝司音箱、数码钢琴集体课音乐教室、6+1儿童启蒙数字音乐教室、音乐教学系统、高级电子琴、效果器等,其中多款产品获得广东省高新技术产品、广东省名牌产品等荣誉称号,艾茉森公司也被相关部门认定为高新技术企业;近年来持续保持了较快的发展速度,产品产销量突破4万架,进入国内前列,并于2018年4月成为在新三板挂牌的数码乐器公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广西新迅达科技集团股份公司",
+      "fields": {
+        "公司产品与服务概述": "新迅达：广西新迅达科技集团股份公司(以下简称“盛讯达”或“公司”)是一家集游戏研发、代理发行、平台运营、移动应用开发等业务为一体的国家级高新技术企业。",
+        "商业模式概述": "以新迅达相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "乐其 SmallRig、安克创新及相关企业。",
+        "相似客户线索": "乐其 SmallRig、安克创新、致欧家居"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_mapping_sea_tpdp_cases_v1,ka_case_douman_logistics_v1",
+        "talk_track_refs": "T+1利润分析、平台化经营治理、库存与供需协同"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其新迅达：广西新迅达科技集团股份公司(以下简称“盛讯达”或“公司”)是一家集游戏研发、代理发行、平台运营、移动应用开发等业务为一体的国家级高新技术企业。",
+        "商业模式长摘录": "公开资料可支撑其以新迅达相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300518",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广西新迅达科技集团股份公司"
+      ],
+      "repair_note": "把广西新迅达科技收回到新迅达：广西新迅达科技集团股份公司(以下简称“盛讯达”或“公司”)是一家集游戏研发、代理发行、平台运营、移动应用开发等业务为一体的国家级高新技术企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "建霖家居股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "建霖家居：厦门建霖健康家居股份有限公司秉持技术创新驱动发展经营战略,以“团队精实、稳健发展、顾客满意、永续经营”的核心价值观为指引,综合实力迈入新台阶,如今涵盖厨卫、净水、宜居空气、健康照护、综合等产业,形成厦门、宁波、漳州、台北等产业基地。",
+        "商业模式概述": "以建霖家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其建霖家居：厦门建霖健康家居股份有限公司秉持技术创新驱动发展经营战略,以“团队精实、稳健发展、顾客满意、永续经营”的核心价值观为指引,综合实力迈入新台阶,如今涵盖厨卫、净水、宜居空气、健康照护、综合等产业,形成厦门、宁波、漳州、台北等产业基地。",
+        "商业模式长摘录": "公开资料可支撑其以建霖家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603408",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=建霖家居股份有限公司"
+      ],
+      "repair_note": "把建霖家居收回到建霖家居：厦门建霖健康家居股份有限公司秉持技术创新驱动发展经营战略,以“团队精实、稳健发展、顾客满意、永续经营”的核心价值观为指引,综合实力迈入新台阶,如今涵盖厨卫、净水、宜居空气、健康照护、综合等产业,形成厦门、宁波、漳州、台北等产业基地的公司级事实。"
+    },
+    {
+      "account_canonical_name": "开能健康科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "开能健康：开能始终围绕着客户的核心价值为出发点打造产品和能力,专业研制全屋净软水设备、商用净饮水设备、反渗透RO机、纳滤机等系列整机产品,95%核心部件自主制造,是全球水处理产品供应的一站式解决方案提供商。",
+        "商业模式概述": "以开能健康相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其开能健康：开能始终围绕着客户的核心价值为出发点打造产品和能力,专业研制全屋净软水设备、商用净饮水设备、反渗透RO机、纳滤机等系列整机产品,95%核心部件自主制造,是全球水处理产品供应的一站式解决方案提供商。",
+        "商业模式长摘录": "公开资料可支撑其以开能健康相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300272",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=开能健康科技集团股份有限公司"
+      ],
+      "repair_note": "把开能健康科技集团收回到开能健康：开能始终围绕着客户的核心价值为出发点打造产品和能力,专业研制全屋净软水设备、商用净饮水设备、反渗透RO机、纳滤机等系列整机产品,95%核心部件自主制造,是全球水处理产品供应的一站式解决方案提供商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "张小泉股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "张小泉：张小泉股份有限公司是一家集设计、研发、生产、销售、服务于一体的现代生活五金用品企业,张小泉品牌始创于明崇祯元年(公元1628年),至今已有近400年历史。",
+        "商业模式概述": "以张小泉相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其张小泉：张小泉股份有限公司是一家集设计、研发、生产、销售、服务于一体的现代生活五金用品企业,张小泉品牌始创于明崇祯元年(公元1628年),至今已有近400年历史。",
+        "商业模式长摘录": "公开资料可支撑其以张小泉相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301055",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=张小泉股份有限公司"
+      ],
+      "repair_note": "把张小泉收回到张小泉：张小泉股份有限公司是一家集设计、研发、生产、销售、服务于一体的现代生活五金用品企业,张小泉品牌始创于明崇祯元年(公元1628年),至今已有近400年历史的公司级事实。"
+    },
+    {
+      "account_canonical_name": "德尔未来科技控股集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "德尔未来：德尔未来科技控股集团股份有限公司(深交所上市企业,股票代码002631)旗下地面铺装材料产业的核心,也是中国领先的地板品牌。",
+        "商业模式概述": "以德尔未来相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其德尔未来：德尔未来科技控股集团股份有限公司(深交所上市企业,股票代码002631)旗下地面铺装材料产业的核心,也是中国领先的地板品牌。",
+        "商业模式长摘录": "公开资料可支撑其以德尔未来相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002631",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=德尔未来科技控股集团股份有限公司"
+      ],
+      "repair_note": "把德尔未来科技控股集团收回到德尔未来：德尔未来科技控股集团股份有限公司(深交所上市企业,股票代码002631)旗下地面铺装材料产业的核心,也是中国领先的地板品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "惠达卫浴股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "惠达卫浴：惠达卫浴股份有限公司始创于1982年,以满足消费者对高品质卫浴家居产品的需求为主要目标,通过相关卫浴产品的设计、研发、生产和销售,为全球消费者提供一站式卫浴产品综合解决方案。",
+        "商业模式概述": "以惠达卫浴相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其惠达卫浴：惠达卫浴股份有限公司始创于1982年,以满足消费者对高品质卫浴家居产品的需求为主要目标,通过相关卫浴产品的设计、研发、生产和销售,为全球消费者提供一站式卫浴产品综合解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以惠达卫浴相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603385",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=惠达卫浴股份有限公司"
+      ],
+      "repair_note": "把惠达卫浴收回到惠达卫浴：惠达卫浴股份有限公司始创于1982年,以满足消费者对高品质卫浴家居产品的需求为主要目标,通过相关卫浴产品的设计、研发、生产和销售,为全球消费者提供一站式卫浴产品综合解决方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "慕思健康睡眠股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "慕思股份：慕思健康睡眠股份有限公司,慕思品牌创立于2004年,于2007年成立慕思健康睡眠股份有限公司(以下简称“慕思股份”),慕思股份是软体家具行业领先的集研发、设计、生产、销售和服务于一体的健康睡眠系统整体解决方案服务商。",
+        "商业模式概述": "以慕思股份相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其慕思股份：慕思健康睡眠股份有限公司,慕思品牌创立于2004年,于2007年成立慕思健康睡眠股份有限公司(以下简称“慕思股份”),慕思股份是软体家具行业领先的集研发、设计、生产、销售和服务于一体的健康睡眠系统整体解决方案服务商。",
+        "商业模式长摘录": "公开资料可支撑其以慕思股份相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001323",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=慕思健康睡眠股份有限公司"
+      ],
+      "repair_note": "把慕思健康睡眠收回到慕思股份：慕思健康睡眠股份有限公司,慕思品牌创立于2004年,于2007年成立慕思健康睡眠股份有限公司(以下简称“慕思股份”),慕思股份是软体家具行业领先的集研发、设计、生产、销售和服务于一体的健康睡眠系统整体解决方案服务商的公司级事实。"
+    }
+  ]
+}

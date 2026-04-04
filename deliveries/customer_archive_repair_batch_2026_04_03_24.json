@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_24",
+  "batch_title": "客户档案修复第24批",
+  "account_names": [
+    "广博集团股份有限公司",
+    "广州天赐高新材料股份有限公司",
+    "广州市广百股份有限公司",
+    "广州海鸥住宅工业股份有限公司",
+    "广西丰林木业集团股份有限公司",
+    "康佳集团股份有限公司",
+    "德昌股份有限公司",
+    "德艺文化创意集团股份有限公司",
+    "思源电气股份有限公司",
+    "恒勃控股股份有限公司",
+    "悍高集团股份有限公司",
+    "惠而浦(中国)股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "广博集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "广博股份：品牌改变格局。",
+        "商业模式概述": "以广博股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其广博股份：品牌改变格局。",
+        "商业模式长摘录": "公开资料可支撑其以广博股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002103",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广博集团股份有限公司"
+      ],
+      "repair_note": "把广博集团收回到广博股份：品牌改变格局的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州天赐高新材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以天赐材料相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以天赐材料相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002709",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州天赐高新材料股份有限公司"
+      ],
+      "repair_note": "把广州天赐高新材料收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州市广百股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "广百股份：“广百”品牌深耕零售市场30多年,中高端经营定位,以“深耕广州、扎根大湾区、面向全国”为战略规划布局,以零售主业连锁发展为核心,建立了广百百货、广百广场、广百电器、广百超市、广百黄金、广百荟等专业品牌组合;新大新品牌是百年老字号,“广百”品牌深融合传承与创新、国风与文旅,专注发展区域市场。",
+        "商业模式概述": "以广百股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其广百股份：“广百”品牌深耕零售市场30多年,中高端经营定位,以“深耕广州、扎根大湾区、面向全国”为战略规划布局,以零售主业连锁发展为核心,建立了广百百货、广百广场、广百电器、广百超市、广百黄金、广百荟等专业品牌组合;新大新品牌是百年老字号,“广百”品牌深融合传承与创新、国风与文旅,专注发展区域市场。",
+        "商业模式长摘录": "公开资料可支撑其以广百股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002187",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州市广百股份有限公司"
+      ],
+      "repair_note": "把广州市广百收回到广百股份：“广百”品牌深耕零售市场30多年,中高端经营定位,以“深耕广州、扎根大湾区、面向全国”为战略规划布局,以零售主业连锁发展为核心,建立了广百百货、广百广场、广百电器、广百超市、广百黄金、广百荟等专业品牌组合;新大新品牌是百年老字号,“广百”品牌深融合传承与创新、国风与文旅,专注发展区域市场的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广州海鸥住宅工业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "海鸥住工：受国家推广预制建筑政策的推动,以及积极开发定制一体化浴室解决方案新业务的战略背景下,公司于2018年1月完成更名,将原中文名称“广州海鸥浴室产品有限公司”更名为“广州海鸥住宅工业有限公司”。",
+        "商业模式概述": "以海鸥住工相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其海鸥住工：受国家推广预制建筑政策的推动,以及积极开发定制一体化浴室解决方案新业务的战略背景下,公司于2018年1月完成更名,将原中文名称“广州海鸥浴室产品有限公司”更名为“广州海鸥住宅工业有限公司”。",
+        "商业模式长摘录": "公开资料可支撑其以海鸥住工相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002084",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广州海鸥住宅工业股份有限公司"
+      ],
+      "repair_note": "把广州海鸥住宅工业收回到海鸥住工：受国家推广预制建筑政策的推动,以及积极开发定制一体化浴室解决方案新业务的战略背景下,公司于2018年1月完成更名,将原中文名称“广州海鸥浴室产品有限公司”更名为“广州海鸥住宅工业有限公司”的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广西丰林木业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "丰林集团：此外,还拥有化工厂1个,人工速生丰产林基地约20万亩,是国内具有较大规模、设备先进程度较高的林板一体化集团之一。",
+        "商业模式概述": "以丰林集团相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其丰林集团：此外,还拥有化工厂1个,人工速生丰产林基地约20万亩,是国内具有较大规模、设备先进程度较高的林板一体化集团之一。",
+        "商业模式长摘录": "公开资料可支撑其以丰林集团相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601996",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广西丰林木业集团股份有限公司"
+      ],
+      "repair_note": "把广西丰林木业集团收回到丰林集团：此外,还拥有化工厂1个,人工速生丰产林基地约20万亩,是国内具有较大规模、设备先进程度较高的林板一体化集团之一的公司级事实。"
+    },
+    {
+      "account_canonical_name": "康佳集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "深康佳A：康佳坚持以科技创新驱动经营发展,拥有诸多国家认定的高新技术企业,2019年获得国家科技进步奖,大力引建博士后与院士科研工作站,产品研发水平达到世界先进水平。",
+        "商业模式概述": "以深康佳A相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其深康佳A：康佳坚持以科技创新驱动经营发展,拥有诸多国家认定的高新技术企业,2019年获得国家科技进步奖,大力引建博士后与院士科研工作站,产品研发水平达到世界先进水平。",
+        "商业模式长摘录": "公开资料可支撑其以深康佳A相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000016",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=康佳集团股份有限公司"
+      ],
+      "repair_note": "把康佳集团收回到深康佳A：康佳坚持以科技创新驱动经营发展,拥有诸多国家认定的高新技术企业,2019年获得国家科技进步奖,大力引建博士后与院士科研工作站,产品研发水平达到世界先进水平的公司级事实。"
+    },
+    {
+      "account_canonical_name": "德昌股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "德昌股份：宁波德昌电机股份有限公司公司成立于2002年1月,专业从事电机、地毯清洗机、个人护理类电器及家庭健康护理电器的研发生产,产品主要面向欧美市场,通过UL、CE、CCC等认证,符合欧盟ROHS、REACH指令要求,是中国十大吸尘器出口企业、浙江省绿色工厂、浙江省隐形冠军培育企业、浙江省单项冠军培育企业、宁波市大优强企业、宁波市外贸实力效益企业,宁波市工业企业亩均效益领跑者综合20强。",
+        "商业模式概述": "以德昌股份相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其德昌股份：宁波德昌电机股份有限公司公司成立于2002年1月,专业从事电机、地毯清洗机、个人护理类电器及家庭健康护理电器的研发生产,产品主要面向欧美市场,通过UL、CE、CCC等认证,符合欧盟ROHS、REACH指令要求,是中国十大吸尘器出口企业、浙江省绿色工厂、浙江省隐形冠军培育企业、浙江省单项冠军培育企业、宁波市大优强企业、宁波市外贸实力效益企业,宁波市工业企业亩均效益领跑者综合20强。",
+        "商业模式长摘录": "公开资料可支撑其以德昌股份相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605555",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=德昌股份有限公司"
+      ],
+      "repair_note": "把德昌收回到德昌股份：宁波德昌电机股份有限公司公司成立于2002年1月,专业从事电机、地毯清洗机、个人护理类电器及家庭健康护理电器的研发生产,产品主要面向欧美市场,通过UL、CE、CCC等认证,符合欧盟ROHS、REACH指令要求,是中国十大吸尘器出口企业、浙江省绿色工厂、浙江省隐形冠军培育企业、浙江省单项冠军培育企业、宁波市大优强企业、宁波市外贸实力效益企业,宁波市工业企业亩均效益领跑者综合20强的公司级事实。"
+    },
+    {
+      "account_canonical_name": "德艺文化创意集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "德艺文创：自创立以来,德艺文创始终践行“着眼创新,注重品质”的核心价值观,专注全球创意家居,整合文创资源,不仅从技术层面狠抓产品的内在质量,更从艺术层面全力丰富产品的气质和内涵,从而实现产品与消费者之间的“柏拉图”式对话。",
+        "商业模式概述": "以德艺文创相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "母婴家庭、儿童消费家庭、门店会员及零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其德艺文创：自创立以来,德艺文创始终践行“着眼创新,注重品质”的核心价值观,专注全球创意家居,整合文创资源,不仅从技术层面狠抓产品的内在质量,更从艺术层面全力丰富产品的气质和内涵,从而实现产品与消费者之间的“柏拉图”式对话。",
+        "商业模式长摘录": "公开资料可支撑其以德艺文创相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300640",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=德艺文化创意集团股份有限公司"
+      ],
+      "repair_note": "把德艺文化创意集团收回到德艺文创：自创立以来,德艺文创始终践行“着眼创新,注重品质”的核心价值观,专注全球创意家居,整合文创资源,不仅从技术层面狠抓产品的内在质量,更从艺术层面全力丰富产品的气质和内涵,从而实现产品与消费者之间的“柏拉图”式对话的公司级事实。"
+    },
+    {
+      "account_canonical_name": "思源电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "思源电气：迄今集团已拥有十多个制造实体,分布于上海、如皋、常州、南京等地,产品覆盖超高压、高压开关设备、变压器、继电保护及自动化系统、无功补偿装置、测量监测装置、电力电子设备、汽车电子、超级电容等专业领域,为电力、新能源、冶金、轨交、石化、煤炭、港口、数据中心等多个行业提供专业技术与服务,为各类国内外重大工程提供优质的产品和可靠的技术保障。",
+        "商业模式概述": "以思源电气相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其思源电气：迄今集团已拥有十多个制造实体,分布于上海、如皋、常州、南京等地,产品覆盖超高压、高压开关设备、变压器、继电保护及自动化系统、无功补偿装置、测量监测装置、电力电子设备、汽车电子、超级电容等专业领域,为电力、新能源、冶金、轨交、石化、煤炭、港口、数据中心等多个行业提供专业技术与服务,为各类国内外重大工程提供优质的产品和可靠的技术保障。",
+        "商业模式长摘录": "公开资料可支撑其以思源电气相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002028",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=思源电气股份有限公司"
+      ],
+      "repair_note": "把思源电气收回到思源电气：迄今集团已拥有十多个制造实体,分布于上海、如皋、常州、南京等地,产品覆盖超高压、高压开关设备、变压器、继电保护及自动化系统、无功补偿装置、测量监测装置、电力电子设备、汽车电子、超级电容等专业领域,为电力、新能源、冶金、轨交、石化、煤炭、港口、数据中心等多个行业提供专业技术与服务,为各类国内外重大工程提供优质的产品和可靠的技术保障的公司级事实。"
+    },
+    {
+      "account_canonical_name": "恒勃控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "恒勃股份：恒勃控股股份有限公司成立于2005年,公司主要产品为内燃机进气系统及配件,具体包括汽车、摩托车、通用机械用进气系统及燃油蒸发控制系统和配件。",
+        "商业模式概述": "以恒勃股份相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其恒勃股份：恒勃控股股份有限公司成立于2005年,公司主要产品为内燃机进气系统及配件,具体包括汽车、摩托车、通用机械用进气系统及燃油蒸发控制系统和配件。",
+        "商业模式长摘录": "公开资料可支撑其以恒勃股份相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301225",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=恒勃控股股份有限公司"
+      ],
+      "repair_note": "把恒勃控股收回到恒勃股份：恒勃控股股份有限公司成立于2005年,公司主要产品为内燃机进气系统及配件,具体包括汽车、摩托车、通用机械用进气系统及燃油蒸发控制系统和配件的公司级事实。"
+    },
+    {
+      "account_canonical_name": "悍高集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "悍高集团：作为中国家居五金行业高端品牌,品牌知名度及销售规模在国内一直处于领跑地位。",
+        "商业模式概述": "以悍高集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其悍高集团：作为中国家居五金行业高端品牌,品牌知名度及销售规模在国内一直处于领跑地位。",
+        "商业模式长摘录": "公开资料可支撑其以悍高集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001221",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=悍高集团股份有限公司"
+      ],
+      "repair_note": "把悍高集团收回到悍高集团：作为中国家居五金行业高端品牌,品牌知名度及销售规模在国内一直处于领跑地位的公司级事实。"
+    },
+    {
+      "account_canonical_name": "惠而浦(中国)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "惠而浦：惠而浦(中国)股份有限公司,国际品牌惠而浦创立于1911年,以创新的功能、精湛的工艺在各个时代带动全球家电行业进化与突破。",
+        "商业模式概述": "以惠而浦相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其惠而浦：惠而浦(中国)股份有限公司,国际品牌惠而浦创立于1911年,以创新的功能、精湛的工艺在各个时代带动全球家电行业进化与突破。",
+        "商业模式长摘录": "公开资料可支撑其以惠而浦相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600983",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=惠而浦(中国)股份有限公司"
+      ],
+      "repair_note": "把惠而浦(中国)收回到惠而浦：惠而浦(中国)股份有限公司,国际品牌惠而浦创立于1911年,以创新的功能、精湛的工艺在各个时代带动全球家电行业进化与突破的公司级事实。"
+    }
+  ]
+}

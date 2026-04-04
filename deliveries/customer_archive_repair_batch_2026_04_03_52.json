@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_52",
+  "batch_title": "客户档案修复第52批",
+  "account_names": [
+    "金堆城钼业股份有限公司",
+    "金徽酒股份有限公司",
+    "铜陵洁雅生物科技股份有限公司",
+    "锐捷网络股份有限公司",
+    "长芯博创科技股份有限公司",
+    "长虹美菱股份有限公司",
+    "阿特斯阳光电力集团股份有限公司",
+    "青岛啤酒股份有限公司",
+    "青岛日辰食品股份有限公司",
+    "青岛金王应用化学股份有限公司",
+    "青海互助天佑德青稞酒股份有限公司",
+    "上海汇通能源股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "金堆城钼业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "金钼股份经营范围涵盖一般项目:有色金属铸造、常用有色金属冶炼、有色金属合金制造、稀有稀土金属冶炼。",
+        "商业模式概述": "以金钼股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其金钼股份经营范围涵盖一般项目:有色金属铸造、常用有色金属冶炼、有色金属合金制造、稀有稀土金属冶炼。",
+        "商业模式长摘录": "公开资料可支撑其以金钼股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601958",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=金堆城钼业股份有限公司"
+      ],
+      "repair_note": "把金堆城钼业收回到金钼股份经营范围涵盖一般项目:有色金属铸造、常用有色金属冶炼、有色金属合金制造、稀有稀土金属冶炼的公司级事实。"
+    },
+    {
+      "account_canonical_name": "金徽酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "金徽酒：金徽人以“酿造生态酒,传递正能量”为使命,秉持“老老实实做人,认认真真做事”的企业精神,遵循秦岭南麓的自然禀赋,践行生态酿造理念,坚守独特的“三低工法”,酝酿出金徽酒“绵甜润雅,饮后轻松”的独特风格,荣获国家绿色食品认证。",
+        "商业模式概述": "以金徽酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其金徽酒：金徽人以“酿造生态酒,传递正能量”为使命,秉持“老老实实做人,认认真真做事”的企业精神,遵循秦岭南麓的自然禀赋,践行生态酿造理念,坚守独特的“三低工法”,酝酿出金徽酒“绵甜润雅,饮后轻松”的独特风格,荣获国家绿色食品认证。",
+        "商业模式长摘录": "公开资料可支撑其以金徽酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603919",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=金徽酒股份有限公司"
+      ],
+      "repair_note": "把金徽酒收回到金徽酒：金徽人以“酿造生态酒,传递正能量”为使命,秉持“老老实实做人,认认真真做事”的企业精神,遵循秦岭南麓的自然禀赋,践行生态酿造理念,坚守独特的“三低工法”,酝酿出金徽酒“绵甜润雅,饮后轻松”的独特风格,荣获国家绿色食品认证的公司级事实。"
+    },
+    {
+      "account_canonical_name": "铜陵洁雅生物科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "洁雅股份：铜陵洁雅生物科技股份有限公司是一家专注于湿巾类产品研发、生产与销售的专业制造商。",
+        "商业模式概述": "以洁雅股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其洁雅股份：铜陵洁雅生物科技股份有限公司是一家专注于湿巾类产品研发、生产与销售的专业制造商。",
+        "商业模式长摘录": "公开资料可支撑其以洁雅股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301108",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=铜陵洁雅生物科技股份有限公司"
+      ],
+      "repair_note": "把铜陵洁雅生物科技收回到洁雅股份：铜陵洁雅生物科技股份有限公司是一家专注于湿巾类产品研发、生产与销售的专业制造商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "锐捷网络股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "锐捷网络：锐捷网络股份有限公司,成立于2003年,是行业领先的ICT基础设施及解决方案提供商。",
+        "商业模式概述": "以锐捷网络相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其锐捷网络：锐捷网络股份有限公司,成立于2003年,是行业领先的ICT基础设施及解决方案提供商。",
+        "商业模式长摘录": "公开资料可支撑其以锐捷网络相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301165",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=锐捷网络股份有限公司"
+      ],
+      "repair_note": "把锐捷网络收回到锐捷网络：锐捷网络股份有限公司,成立于2003年,是行业领先的ICT基础设施及解决方案提供商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "长芯博创科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "长芯博创：全球布局:长芯博创及旗下分子公司全球布局4处生产基地与5个研发中心,营销网络遍布嘉兴、上海、成都、武汉、深圳、北京、香港、台湾等国内城市,及英国、德国、美国、日本、韩国等国际市场,产品无缝服务于海内外客户。",
+        "商业模式概述": "以长芯博创相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其长芯博创：全球布局:长芯博创及旗下分子公司全球布局4处生产基地与5个研发中心,营销网络遍布嘉兴、上海、成都、武汉、深圳、北京、香港、台湾等国内城市,及英国、德国、美国、日本、韩国等国际市场,产品无缝服务于海内外客户。",
+        "商业模式长摘录": "公开资料可支撑其以长芯博创相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300548",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=长芯博创科技股份有限公司"
+      ],
+      "repair_note": "把长芯博创科技收回到长芯博创：全球布局:长芯博创及旗下分子公司全球布局4处生产基地与5个研发中心,营销网络遍布嘉兴、上海、成都、武汉、深圳、北京、香港、台湾等国内城市,及英国、德国、美国、日本、韩国等国际市场,产品无缝服务于海内外客户的公司级事实。"
+    },
+    {
+      "account_canonical_name": "长虹美菱股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "长虹美菱：长虹美菱股份有限公司诞生于1983年,是中国最早的家电制造商之一,40余年来,始终坚持“自主创新中国创造”,用更新鲜的技术、更新鲜的产品和更新鲜的服务,致力于为全球亿万家庭提供美好生活解决方案。",
+        "商业模式概述": "以长虹美菱相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其长虹美菱：长虹美菱股份有限公司诞生于1983年,是中国最早的家电制造商之一,40余年来,始终坚持“自主创新中国创造”,用更新鲜的技术、更新鲜的产品和更新鲜的服务,致力于为全球亿万家庭提供美好生活解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以长虹美菱相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000521",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=长虹美菱股份有限公司"
+      ],
+      "repair_note": "把长虹美菱收回到长虹美菱：长虹美菱股份有限公司诞生于1983年,是中国最早的家电制造商之一,40余年来,始终坚持“自主创新中国创造”,用更新鲜的技术、更新鲜的产品和更新鲜的服务,致力于为全球亿万家庭提供美好生活解决方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "阿特斯阳光电力集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "阿特斯：在过去的二十多年里,阿特斯已经成为太阳能和储能解决方案的全球领导者。",
+        "商业模式概述": "以阿特斯相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其阿特斯：在过去的二十多年里,阿特斯已经成为太阳能和储能解决方案的全球领导者。",
+        "商业模式长摘录": "公开资料可支撑其以阿特斯相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688472",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=阿特斯阳光电力集团股份有限公司"
+      ],
+      "repair_note": "把阿特斯阳光电力集团收回到阿特斯：在过去的二十多年里,阿特斯已经成为太阳能和储能解决方案的全球领导者的公司级事实。"
+    },
+    {
+      "account_canonical_name": "青岛啤酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "青岛啤酒：目前为世界第五大啤酒厂商,在国内拥有近60家啤酒生产企业,产品远销120个国家,是国际市场上最具知名度的中国品牌之一。",
+        "商业模式概述": "以青岛啤酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其青岛啤酒：目前为世界第五大啤酒厂商,在国内拥有近60家啤酒生产企业,产品远销120个国家,是国际市场上最具知名度的中国品牌之一。",
+        "商业模式长摘录": "公开资料可支撑其以青岛啤酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600600",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青岛啤酒股份有限公司"
+      ],
+      "repair_note": "把青岛啤酒收回到青岛啤酒：目前为世界第五大啤酒厂商,在国内拥有近60家啤酒生产企业,产品远销120个国家,是国际市场上最具知名度的中国品牌之一的公司级事实。"
+    },
+    {
+      "account_canonical_name": "青岛日辰食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "日辰股份：青岛日辰食品股份有限公司,是国内较早从事复合调味料生产的企业之一。",
+        "商业模式概述": "以日辰股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其日辰股份：青岛日辰食品股份有限公司,是国内较早从事复合调味料生产的企业之一。",
+        "商业模式长摘录": "公开资料可支撑其以日辰股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603755",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青岛日辰食品股份有限公司"
+      ],
+      "repair_note": "把青岛日辰食品收回到日辰股份：青岛日辰食品股份有限公司,是国内较早从事复合调味料生产的企业之一的公司级事实。"
+    },
+    {
+      "account_canonical_name": "青岛金王应用化学股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "青岛金王经营范围涵盖一般项目:日用化学产品制造、新材料技术研发、日用化学产品销售、技术服务。",
+        "商业模式概述": "以青岛金王相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其青岛金王经营范围涵盖一般项目:日用化学产品制造、新材料技术研发、日用化学产品销售、技术服务。",
+        "商业模式长摘录": "公开资料可支撑其以青岛金王相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002094",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青岛金王应用化学股份有限公司"
+      ],
+      "repair_note": "把青岛金王应用化学收回到青岛金王经营范围涵盖一般项目:日用化学产品制造、新材料技术研发、日用化学产品销售、技术服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "青海互助天佑德青稞酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以天佑德酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以天佑德酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002646",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青海互助天佑德青稞酒股份有限公司"
+      ],
+      "repair_note": "把青海互助天佑德青稞酒收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海汇通能源股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "汇通能源：上海汇通能源股份有限公司创建于1956年,是国内从事轻工机械研究和生产的大型一类企业。",
+        "商业模式概述": "待补官网/年报/IR口径",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其汇通能源：上海汇通能源股份有限公司创建于1956年,是国内从事轻工机械研究和生产的大型一类企业。",
+        "商业模式长摘录": "待补官网/年报/IR口径"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600605",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海汇通能源股份有限公司"
+      ],
+      "repair_note": "把上海汇通能源收回到汇通能源：上海汇通能源股份有限公司创建于1956年,是国内从事轻工机械研究和生产的大型一类企业的公司级事实。"
+    }
+  ]
+}

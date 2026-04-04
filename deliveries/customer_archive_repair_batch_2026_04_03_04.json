@@ -1,0 +1,346 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_04",
+  "batch_title": "客户档案修复第四批",
+  "account_names": [
+    "通威股份有限公司",
+    "天山铝业集团股份有限公司",
+    "长飞光纤光缆股份有限公司",
+    "软控股份有限公司",
+    "麦趣尔集团股份有限公司",
+    "香飘飘食品股份有限公司",
+    "顾家家居股份有限公司",
+    "金牌厨柜家居科技股份有限公司",
+    "青岛食品股份有限公司",
+    "南极电商股份有限公司",
+    "源飞宠物用品股份有限公司",
+    "青木科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "通威股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营高纯晶硅、太阳能电池及组件，同时经营饲料和水产养殖等农牧业务，是兼具光伏与农牧双主业的产业集团。",
+        "商业模式概述": "围绕光伏产业链和农牧业务双主业经营，通过制造销售、渠道合作及产业链协同服务新能源和农牧市场。",
+        "核心客户客群": "光伏产业链客户、渠道伙伴、农牧经销体系及养殖相关客户。",
+        "主要竞品概述": "隆基绿能、阳光电源及光伏产业链企业，农牧业务面向综合饲料与养殖企业。",
+        "相似客户线索": "隆基绿能科技股份有限公司、阳光电源股份有限公司、宁德时代新能源科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营高纯晶硅、太阳能电池及组件，同时经营饲料和水产养殖等农牧业务，是兼具光伏与农牧双主业的产业集团。",
+        "商业模式长摘录": "公开资料可支撑其围绕光伏产业链和农牧业务双主业经营，通过制造销售、渠道合作及产业链协同服务新能源和农牧市场。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.tongwei.com.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=通威股份有限公司"
+      ],
+      "repair_note": "修正通威股份从食品零售模板回到光伏+农牧双主业集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "天山铝业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营氧化铝、电解铝、高纯铝、铝箔及铝深加工产品，是具备一体化产业链优势的铝材料企业。",
+        "商业模式概述": "以铝产业链一体化制造和材料销售为核心，覆盖上游原材料、中游冶炼加工和下游铝材产品经营。",
+        "核心客户客群": "铝加工客户、新能源材料客户及工业材料采购客户。",
+        "主要竞品概述": "中国铝业、神火股份及综合铝材料制造企业。",
+        "相似客户线索": "通威股份有限公司、隆基绿能科技股份有限公司、阳光电源股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营氧化铝、电解铝、高纯铝、铝箔及铝深加工产品，是具备一体化产业链优势的铝材料企业。",
+        "商业模式长摘录": "公开资料可支撑其以铝产业链一体化制造和材料销售为核心，覆盖上游原材料、中游冶炼加工和下游铝材产品经营。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=天山铝业集团股份有限公司"
+      ],
+      "repair_note": "把天山铝业从错误的家居零售模板拉回到铝产业链一体化材料企业的公司级表达。"
+    },
+    {
+      "account_canonical_name": "长飞光纤光缆股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营光纤预制棒、光纤、光缆及相关通信和工业应用解决方案，是全球化光通信与线缆企业。",
+        "商业模式概述": "以光纤光缆产品研发、制造和销售为核心，同时提供系统集成、工程设计与综合解决方案服务。",
+        "核心客户客群": "通信运营商、设备厂商、工程集成客户及工业应用客户。",
+        "主要竞品概述": "中际旭创、亨通光电及光通信与线缆企业。",
+        "相似客户线索": "中际旭创股份有限公司、中航光电科技股份有限公司、长飞光纤光缆股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营光纤预制棒、光纤、光缆及相关通信和工业应用解决方案，是全球化光通信与线缆企业。",
+        "商业模式长摘录": "公开资料可支撑其以光纤光缆产品研发、制造和销售为核心，同时提供系统集成、工程设计与综合解决方案服务。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.yofc.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=长飞光纤光缆股份有限公司"
+      ],
+      "repair_note": "补强长飞光纤的光通信产品线和集成解决方案经营模式。"
+    },
+    {
+      "account_canonical_name": "软控股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营橡胶机械、轮胎智能制造装备、软件与自动化系统，并提供智能制造整体解决方案。",
+        "商业模式概述": "以工业装备、软件系统和工程服务为核心，面向橡胶与轮胎企业提供设备交付、系统集成和持续服务。",
+        "核心客户客群": "橡胶与轮胎制造企业、工业装备升级客户及智能制造项目客户。",
+        "主要竞品概述": "豪迈科技、赛腾股份及工业装备与自动化解决方案企业。",
+        "相似客户线索": "豪迈科技股份有限公司、苏州赛腾精密电子股份有限公司、海天精工股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营橡胶机械、轮胎智能制造装备、软件与自动化系统，并提供智能制造整体解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以工业装备、软件系统和工程服务为核心，面向橡胶与轮胎企业提供设备交付、系统集成和持续服务。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.mesnac.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=软控股份有限公司"
+      ],
+      "repair_note": "把软控股份从泛化制造模板拉回到轮胎与橡胶智能制造装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "麦趣尔集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营乳制品、烘焙食品及节日食品，并经营烘焙连锁门店和相关食品品牌业务。",
+        "商业模式概述": "以乳制品和烘焙食品生产销售为核心，同时依托烘焙门店、经销和零售渠道覆盖消费市场。",
+        "核心客户客群": "家庭消费客群、烘焙门店客流、经销和零售渠道客户。",
+        "主要竞品概述": "新希望乳业、青岛食品及区域乳品和烘焙食品企业。",
+        "相似客户线索": "新希望乳业股份有限公司、青岛食品股份有限公司、良品铺子股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1,ka_solution_haitian_fin_supply_v1",
+        "talk_track_refs": "ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营乳制品、烘焙食品及节日食品，并经营烘焙连锁门店和相关食品品牌业务。",
+        "商业模式长摘录": "公开资料可支撑其以乳制品和烘焙食品生产销售为核心，同时依托烘焙门店、经销和零售渠道覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=麦趣尔集团股份有限公司"
+      ],
+      "repair_note": "把麦趣尔从泛化食品制造模板拉回到乳制品+烘焙品牌经营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "香飘飘食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营冲泡奶茶、即饮饮料等食品饮料产品，是饮品品牌企业。",
+        "商业模式概述": "以自有品牌饮品研发、生产和销售为核心，通过经销、商超、电商和零售渠道覆盖消费市场。",
+        "核心客户客群": "家庭消费客群、商超与便利渠道、电商平台和经销网络。",
+        "主要竞品概述": "统一、康师傅及其他奶茶和饮料品牌企业。",
+        "相似客户线索": "新希望乳业股份有限公司、青岛食品股份有限公司、麦趣尔集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1,ka_solution_haitian_fin_supply_v1",
+        "talk_track_refs": "ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营冲泡奶茶、即饮饮料等食品饮料产品，是饮品品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌饮品研发、生产和销售为核心，通过经销、商超、电商和零售渠道覆盖消费市场。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.chinaxpp.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=香飘飘食品股份有限公司"
+      ],
+      "repair_note": "修正香飘飘从泛化食品制造模板回到饮品品牌经营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "顾家家居股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营沙发、床垫、定制家居及相关家居产品，是家居品牌企业。",
+        "商业模式概述": "以家居产品研发、制造、品牌零售和渠道销售为核心，通过经销门店、零售终端和电商渠道覆盖市场。",
+        "核心客户客群": "家庭家居消费客群、经销门店、零售终端及电商渠道客户。",
+        "主要竞品概述": "欧派家居、敏华控股及其他家居品牌企业。",
+        "相似客户线索": "金牌厨柜家居科技股份有限公司、雅戈尔时尚股份有限公司、名创优品（广州）有限责任公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1,ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营沙发、床垫、定制家居及相关家居产品，是家居品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以家居产品研发、制造、品牌零售和渠道销售为核心，通过经销门店、零售终端和电商渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.kukahome.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=顾家家居股份有限公司"
+      ],
+      "repair_note": "补强顾家家居的家居品牌产品线和门店/渠道经营模式。"
+    },
+    {
+      "account_canonical_name": "金牌厨柜家居科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营整体厨柜、衣柜、木门及整家定制相关产品，是整家定制家居企业。",
+        "商业模式概述": "以整家定制产品设计、制造、销售和安装服务为核心，通过经销网络、零售终端和工程渠道经营。",
+        "核心客户客群": "家装消费客群、经销门店、家居零售终端和工程渠道客户。",
+        "主要竞品概述": "欧派家居、顾家家居及定制家居品牌企业。",
+        "相似客户线索": "顾家家居股份有限公司、梦天家居集团股份有限公司、名创优品（广州）有限责任公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1,ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营整体厨柜、衣柜、木门及整家定制相关产品，是整家定制家居企业。",
+        "商业模式长摘录": "公开资料可支撑其以整家定制产品设计、制造、销售和安装服务为核心，通过经销网络、零售终端和工程渠道经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.goldenhome.cc/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=金牌厨柜家居科技股份有限公司"
+      ],
+      "repair_note": "把金牌家居收回到整家定制企业的产品与渠道经营事实。"
+    },
+    {
+      "account_canonical_name": "青岛食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营饼干、花生酱等休闲食品，是传统食品品牌企业。",
+        "商业模式概述": "以自有品牌休闲食品研发、生产和销售为核心，通过经销、商超、电商和零售渠道覆盖市场。",
+        "核心客户客群": "家庭消费客群、商超零售终端、电商平台和经销网络。",
+        "主要竞品概述": "良品铺子、三只松鼠及休闲食品品牌企业。",
+        "相似客户线索": "良品铺子股份有限公司、麦趣尔集团股份有限公司、西王食品股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1,ka_solution_haitian_fin_supply_v1",
+        "talk_track_refs": "ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营饼干、花生酱等休闲食品，是传统食品品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌休闲食品研发、生产和销售为核心，通过经销、商超、电商和零售渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.qdfood.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青岛食品股份有限公司"
+      ],
+      "repair_note": "修正青岛食品从泛化食品模板回到饼干和花生酱品牌经营的公司级表达。"
+    },
+    {
+      "account_canonical_name": "南极电商股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营品牌综合服务、品牌授权、电商渠道服务及相关营销业务，是品牌服务与授权运营企业。",
+        "商业模式概述": "以品牌授权和品牌服务为核心，同时开展渠道分销和电商相关服务，服务品牌和零售经营场景。",
+        "核心客户客群": "品牌合作方、授权商家、电商渠道客户及零售经营伙伴。",
+        "主要竞品概述": "壹网壹创、若羽臣及品牌服务与授权运营企业。",
+        "相似客户线索": "杭州壹网壹创科技股份有限公司、广州若羽臣科技股份有限公司、致欧家居科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营品牌综合服务、品牌授权、电商渠道服务及相关营销业务，是品牌服务与授权运营企业。",
+        "商业模式长摘录": "公开资料可支撑其以品牌授权和品牌服务为核心，同时开展渠道分销和电商相关服务，服务品牌和零售经营场景。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=南极电商股份有限公司"
+      ],
+      "repair_note": "把南极电商从食品零售模板修回品牌授权与品牌服务企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "源飞宠物用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营宠物牵引用具、宠物零食及相关宠物用品，是宠物用品出口和制造企业。",
+        "商业模式概述": "以宠物用品研发、制造和出口销售为核心，服务海外品牌、零售客户和宠物消费渠道。",
+        "核心客户客群": "海外宠物品牌客户、零售渠道客户及宠物消费用品场景客户。",
+        "主要竞品概述": "致欧家居、依依股份及宠物用品与家居消费品出海企业。",
+        "相似客户线索": "致欧家居科技股份有限公司、广州若羽臣科技股份有限公司、杭州壹网壹创科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_babycare_ops_v1,ka_insight_cbec_home_living_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营宠物牵引用具、宠物零食及相关宠物用品，是宠物用品出口和制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以宠物用品研发、制造和出口销售为核心，服务海外品牌、零售客户和宠物消费渠道。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=源飞宠物用品股份有限公司"
+      ],
+      "repair_note": "补强源飞宠物的宠物用品出口与制造经营模式，避免继续停留在泛化制造模板。"
+    },
+    {
+      "account_canonical_name": "青木科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营品牌零售服务、代运营、数字营销和技术服务，是品牌数字化零售服务企业。",
+        "商业模式概述": "以品牌代运营、数字营销和零售技术服务为核心，为品牌客户提供全域零售解决方案。",
+        "核心客户客群": "品牌客户、电商平台商家及全域零售运营合作伙伴。",
+        "主要竞品概述": "壹网壹创、若羽臣及品牌数字零售服务企业。",
+        "相似客户线索": "杭州壹网壹创科技股份有限公司、广州若羽臣科技股份有限公司、南极电商股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营品牌零售服务、代运营、数字营销和技术服务，是品牌数字化零售服务企业。",
+        "商业模式长摘录": "公开资料可支撑其以品牌代运营、数字营销和零售技术服务为核心，为品牌客户提供全域零售解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青木科技股份有限公司"
+      ],
+      "repair_note": "把青木科技从错误的工业制造模板修回品牌数字零售服务公司的公司级事实。"
+    }
+  ]
+}

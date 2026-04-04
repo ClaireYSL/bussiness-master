@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_40",
+  "batch_title": "客户档案修复第40批",
+  "account_names": [
+    "天音通信控股股份有限公司",
+    "威海百合生物技术股份有限公司",
+    "威龙葡萄酒股份有限公司",
+    "宁波中百股份有限公司",
+    "宁波太平鸟时尚服饰股份有限公司",
+    "宁波富佳实业股份有限公司",
+    "安徽华业香料股份有限公司",
+    "安徽口子酒业股份有限公司",
+    "安徽古井贡酒股份有限公司",
+    "安徽德力日用玻璃股份有限公司",
+    "安徽迎驾贡酒股份有限公司",
+    "富岭科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "天音通信控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天音控股：智能终端销售服务,我们与众多知名品牌建立了长期稳定的合作关系,为消费者提供丰富的产品选择和优质的服务体验;彩票业务,我们积极响应国家政策,推动彩票行业的健康发展;移动互联网和移动转售业务,我们紧跟时代潮流,不断创新业务模式,满足用户多样化的需求。",
+        "商业模式概述": "以天音控股相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天音控股：智能终端销售服务,我们与众多知名品牌建立了长期稳定的合作关系,为消费者提供丰富的产品选择和优质的服务体验;彩票业务,我们积极响应国家政策,推动彩票行业的健康发展;移动互联网和移动转售业务,我们紧跟时代潮流,不断创新业务模式,满足用户多样化的需求。",
+        "商业模式长摘录": "公开资料可支撑其以天音控股相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000829",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=天音通信控股股份有限公司"
+      ],
+      "repair_note": "把天音通信控股收回到天音控股：智能终端销售服务,我们与众多知名品牌建立了长期稳定的合作关系,为消费者提供丰富的产品选择和优质的服务体验;彩票业务,我们积极响应国家政策,推动彩票行业的健康发展;移动互联网和移动转售业务,我们紧跟时代潮流,不断创新业务模式,满足用户多样化的需求的公司级事实。"
+    },
+    {
+      "account_canonical_name": "威海百合生物技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "百合股份：威海百合生物技术股份有限公司(下简称“百合股份”)成立于2005年11月,专业从事营养保健食品和特膳食品的研发、生产和销售。",
+        "商业模式概述": "以百合股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其百合股份：威海百合生物技术股份有限公司(下简称“百合股份”)成立于2005年11月,专业从事营养保健食品和特膳食品的研发、生产和销售。",
+        "商业模式长摘录": "公开资料可支撑其以百合股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603102",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=威海百合生物技术股份有限公司"
+      ],
+      "repair_note": "把威海百合生物技术收回到百合股份：威海百合生物技术股份有限公司(下简称“百合股份”)成立于2005年11月,专业从事营养保健食品和特膳食品的研发、生产和销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "威龙葡萄酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "威龙股份：同时,威龙国际大师团队,将旧世界传统工艺与新世界创新技术不断融合优化,引进德国、意大利、美国等国家的先进酿酒设备,充分保证每滴威龙葡萄酒的臻美品质。",
+        "商业模式概述": "以威龙股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其威龙股份：同时,威龙国际大师团队,将旧世界传统工艺与新世界创新技术不断融合优化,引进德国、意大利、美国等国家的先进酿酒设备,充分保证每滴威龙葡萄酒的臻美品质。",
+        "商业模式长摘录": "公开资料可支撑其以威龙股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603779",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=威龙葡萄酒股份有限公司"
+      ],
+      "repair_note": "把威龙葡萄酒收回到威龙股份：同时,威龙国际大师团队,将旧世界传统工艺与新世界创新技术不断融合优化,引进德国、意大利、美国等国家的先进酿酒设备,充分保证每滴威龙葡萄酒的臻美品质的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波中百股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "宁波中百：公司的经营范围:经依法登记,公司的经营范围:黄金、珠宝饰品、针纺织品、服装、化妆品、箱包、鞋帽、眼镜(除隐形眼镜)、日用品、工艺品、玩具、文化、体育用品及器材、机械设备、五金交电、家用电器、电子产品、通讯器材、建筑装璜材料、家具的批发、零售及网上销售;自营和代理各类货物和技术的进出口(但国家限定经营或禁止进出口的货物和技术除外);服装加工;钟表眼镜修理;物业服务;房地产开发、实业项目投资;本公司房屋租赁、室内停车服务。",
+        "商业模式概述": "以宁波中百相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其宁波中百：公司的经营范围:经依法登记,公司的经营范围:黄金、珠宝饰品、针纺织品、服装、化妆品、箱包、鞋帽、眼镜(除隐形眼镜)、日用品、工艺品、玩具、文化、体育用品及器材、机械设备、五金交电、家用电器、电子产品、通讯器材、建筑装璜材料、家具的批发、零售及网上销售;自营和代理各类货物和技术的进出口(但国家限定经营或禁止进出口的货物和技术除外);服装加工;钟表眼镜修理;物业服务;房地产开发、实业项目投资;本公司房屋租赁、室内停车服务。",
+        "商业模式长摘录": "公开资料可支撑其以宁波中百相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600857",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波中百股份有限公司"
+      ],
+      "repair_note": "把宁波中百收回到宁波中百：公司的经营范围:经依法登记,公司的经营范围:黄金、珠宝饰品、针纺织品、服装、化妆品、箱包、鞋帽、眼镜(除隐形眼镜)、日用品、工艺品、玩具、文化、体育用品及器材、机械设备、五金交电、家用电器、电子产品、通讯器材、建筑装璜材料、家具的批发、零售及网上销售;自营和代理各类货物和技术的进出口(但国家限定经营或禁止进出口的货物和技术除外);服装加工;钟表眼镜修理;物业服务;房地产开发、实业项目投资;本公司房屋租赁、室内停车服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波太平鸟时尚服饰股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "太平鸟：宁波太平鸟时尚服饰股份有限公司(简称:太平鸟服饰)是以顾客为中心的时尚品牌零售公司,隶属于国内领先的综合产业集团--太平鸟集团。",
+        "商业模式概述": "以太平鸟相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其太平鸟：宁波太平鸟时尚服饰股份有限公司(简称:太平鸟服饰)是以顾客为中心的时尚品牌零售公司,隶属于国内领先的综合产业集团--太平鸟集团。",
+        "商业模式长摘录": "公开资料可支撑其以太平鸟相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603877",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波太平鸟时尚服饰股份有限公司"
+      ],
+      "repair_note": "把宁波太平鸟时尚服饰收回到太平鸟：宁波太平鸟时尚服饰股份有限公司(简称:太平鸟服饰)是以顾客为中心的时尚品牌零售公司,隶属于国内领先的综合产业集团--太平鸟集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波富佳实业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "富佳股份：公司专业生产真空吸尘器和智能家电产品,是浙江省大型骨干外向型真空吸尘器制造商,是国家高新技术企业,具有完善规范的设计、生产管理体系,拥有国际先进技术水平的大规模真空吸尘器和智能家电的生产能力。",
+        "商业模式概述": "以富佳股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其富佳股份：公司专业生产真空吸尘器和智能家电产品,是浙江省大型骨干外向型真空吸尘器制造商,是国家高新技术企业,具有完善规范的设计、生产管理体系,拥有国际先进技术水平的大规模真空吸尘器和智能家电的生产能力。",
+        "商业模式长摘录": "公开资料可支撑其以富佳股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603219",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波富佳实业股份有限公司"
+      ],
+      "repair_note": "把宁波富佳实业收回到富佳股份：公司专业生产真空吸尘器和智能家电产品,是浙江省大型骨干外向型真空吸尘器制造商,是国家高新技术企业,具有完善规范的设计、生产管理体系,拥有国际先进技术水平的大规模真空吸尘器和智能家电的生产能力的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽华业香料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "华业香料：安徽华业香料股份有限公司自2002年7月成立以来,一直致力于内酯系列合成香料的研发、生产与销售。",
+        "商业模式概述": "以华业香料相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其华业香料：安徽华业香料股份有限公司自2002年7月成立以来,一直致力于内酯系列合成香料的研发、生产与销售。",
+        "商业模式长摘录": "公开资料可支撑其以华业香料相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300886",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽华业香料股份有限公司"
+      ],
+      "repair_note": "把安徽华业香料收回到华业香料：安徽华业香料股份有限公司自2002年7月成立以来,一直致力于内酯系列合成香料的研发、生产与销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽口子酒业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "口子窖经营范围涵盖生产、制造和销售白酒及玻璃制品。(以上涉及行政许可经营的凭许可证经营)。",
+        "商业模式概述": "以口子窖相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其口子窖经营范围涵盖生产、制造和销售白酒及玻璃制品。(以上涉及行政许可经营的凭许可证经营)。",
+        "商业模式长摘录": "公开资料可支撑其以口子窖相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603589",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽口子酒业股份有限公司"
+      ],
+      "repair_note": "把安徽口子酒业收回到口子窖经营范围涵盖生产、制造和销售白酒及玻璃制品(以上涉及行政许可经营的凭许可证经营)的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽古井贡酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "古井贡酒经营范围涵盖粮食收购(凭许可证经营)、生产白酒、酿酒设备、包装材料。",
+        "商业模式概述": "以古井贡酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其古井贡酒经营范围涵盖粮食收购(凭许可证经营)、生产白酒、酿酒设备、包装材料。",
+        "商业模式长摘录": "公开资料可支撑其以古井贡酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000596",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽古井贡酒股份有限公司"
+      ],
+      "repair_note": "把安徽古井贡酒收回到古井贡酒经营范围涵盖粮食收购(凭许可证经营)、生产白酒、酿酒设备、包装材料的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽德力日用玻璃股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "德力股份：安徽德力日用玻璃股份有限公司始创于1996年,是一家专业从事各类玻璃产品研发、制造的集团公司,玻璃产品类别覆盖:家用玻璃、太阳能玻璃、包装玻璃、光学玻璃、耐热家电玻璃、水晶玻璃。",
+        "商业模式概述": "以德力股份相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其德力股份：安徽德力日用玻璃股份有限公司始创于1996年,是一家专业从事各类玻璃产品研发、制造的集团公司,玻璃产品类别覆盖:家用玻璃、太阳能玻璃、包装玻璃、光学玻璃、耐热家电玻璃、水晶玻璃。",
+        "商业模式长摘录": "公开资料可支撑其以德力股份相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002571",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽德力日用玻璃股份有限公司"
+      ],
+      "repair_note": "把安徽德力日用玻璃收回到德力股份：安徽德力日用玻璃股份有限公司始创于1996年,是一家专业从事各类玻璃产品研发、制造的集团公司,玻璃产品类别覆盖:家用玻璃、太阳能玻璃、包装玻璃、光学玻璃、耐热家电玻璃、水晶玻璃的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽迎驾贡酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "迎驾贡酒：迎驾品牌源自公元前106年,汉武帝南巡至今霍山一带,官民到城西槽坊村附近的水陆码头(今迎驾厂)恭迎圣驾,选一民间绝色美女捧美酒敬献武帝,武帝饮后大悦,“迎驾贡酒”和“迎驾”品牌由此得名,传承至今已2100多年。",
+        "商业模式概述": "以迎驾贡酒相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其迎驾贡酒：迎驾品牌源自公元前106年,汉武帝南巡至今霍山一带,官民到城西槽坊村附近的水陆码头(今迎驾厂)恭迎圣驾,选一民间绝色美女捧美酒敬献武帝,武帝饮后大悦,“迎驾贡酒”和“迎驾”品牌由此得名,传承至今已2100多年。",
+        "商业模式长摘录": "公开资料可支撑其以迎驾贡酒相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603198",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽迎驾贡酒股份有限公司"
+      ],
+      "repair_note": "把安徽迎驾贡酒收回到迎驾贡酒：迎驾品牌源自公元前106年,汉武帝南巡至今霍山一带,官民到城西槽坊村附近的水陆码头(今迎驾厂)恭迎圣驾,选一民间绝色美女捧美酒敬献武帝,武帝饮后大悦,“迎驾贡酒”和“迎驾”品牌由此得名,传承至今已2100多年的公司级事实。"
+    },
+    {
+      "account_canonical_name": "富岭科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "富岭股份：富岭科技股份有限公司富岭科技股份有限公司(以下简称公司)注册资金44199万元,是一家专业生产环保餐饮具,并一站式为客户提供食品包材解决方案的企业。",
+        "商业模式概述": "以富岭股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其富岭股份：富岭科技股份有限公司富岭科技股份有限公司(以下简称公司)注册资金44199万元,是一家专业生产环保餐饮具,并一站式为客户提供食品包材解决方案的企业。",
+        "商业模式长摘录": "公开资料可支撑其以富岭股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001356",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=富岭科技股份有限公司"
+      ],
+      "repair_note": "把富岭科技收回到富岭股份：富岭科技股份有限公司富岭科技股份有限公司(以下简称公司)注册资金44199万元,是一家专业生产环保餐饮具,并一站式为客户提供食品包材解决方案的企业的公司级事实。"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_25",
+  "batch_title": "客户档案修复第25批",
+  "account_names": [
+    "成都富森美家居股份有限公司",
+    "摩尔线程智能科技(北京)股份有限公司",
+    "新疆友好(集团)股份有限公司",
+    "新疆天润乳业股份有限公司",
+    "新疆汇嘉时代百货股份有限公司",
+    "新疆西部牧业股份有限公司",
+    "无锡商业大厦大东方股份有限公司",
+    "晶科能源股份有限公司",
+    "曙光信息产业股份有限公司",
+    "曲美家居集团股份有限公司",
+    "杭州天元宠物用品股份有限公司",
+    "杭州海康威视数字技术股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "成都富森美家居股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "富森美：成都富森美家居股份有限公司(以下简称“富森美”)始创于2000年12月7日,为专业致力于大型商业卖场规划、投资、建设和运营,装饰设计与施工,产业投资,现代金融等以产业运营为特征的现代企业。",
+        "商业模式概述": "以富森美相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其富森美：成都富森美家居股份有限公司(以下简称“富森美”)始创于2000年12月7日,为专业致力于大型商业卖场规划、投资、建设和运营,装饰设计与施工,产业投资,现代金融等以产业运营为特征的现代企业。",
+        "商业模式长摘录": "公开资料可支撑其以富森美相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002818",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=成都富森美家居股份有限公司"
+      ],
+      "repair_note": "把成都富森美家居收回到富森美：成都富森美家居股份有限公司(以下简称“富森美”)始创于2000年12月7日,为专业致力于大型商业卖场规划、投资、建设和运营,装饰设计与施工,产业投资,现代金融等以产业运营为特征的现代企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "摩尔线程智能科技(北京)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "摩尔线程：摩尔线程智能科技(北京)股份有限公司成立于2020年6月,以全功能GPU为核心,致力于向全球提供加速计算的基础设施和一站式解决方案,为各行各业的数智化转型提供强大的AI计算支持。",
+        "商业模式概述": "以摩尔线程相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其摩尔线程：摩尔线程智能科技(北京)股份有限公司成立于2020年6月,以全功能GPU为核心,致力于向全球提供加速计算的基础设施和一站式解决方案,为各行各业的数智化转型提供强大的AI计算支持。",
+        "商业模式长摘录": "公开资料可支撑其以摩尔线程相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688795",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=摩尔线程智能科技(北京)股份有限公司"
+      ],
+      "repair_note": "把摩尔线程智能科技(北京)收回到摩尔线程：摩尔线程智能科技(北京)股份有限公司成立于2020年6月,以全功能GPU为核心,致力于向全球提供加速计算的基础设施和一站式解决方案,为各行各业的数智化转型提供强大的AI计算支持的公司级事实。"
+    },
+    {
+      "account_canonical_name": "新疆友好(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "友好集团经营范围涵盖许可项目:食品销售、家禽屠宰、药品零售、烟草制品零售。",
+        "商业模式概述": "以友好集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其友好集团经营范围涵盖许可项目:食品销售、家禽屠宰、药品零售、烟草制品零售。",
+        "商业模式长摘录": "公开资料可支撑其以友好集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600778",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新疆友好(集团)股份有限公司"
+      ],
+      "repair_note": "把新疆友好(集团)收回到友好集团经营范围涵盖许可项目:食品销售、家禽屠宰、药品零售、烟草制品零售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "新疆天润乳业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天润乳业：公司拥有天润、盖瑞、佳丽、新农等品牌,秉持创新发展理念,确立了“领先低温、做强常温、突破乳饮”的产品发展思路,形成了纯牛奶、乳饮、特色酸奶等系列产品,品种达100余个。",
+        "商业模式概述": "以天润乳业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天润乳业：公司拥有天润、盖瑞、佳丽、新农等品牌,秉持创新发展理念,确立了“领先低温、做强常温、突破乳饮”的产品发展思路,形成了纯牛奶、乳饮、特色酸奶等系列产品,品种达100余个。",
+        "商业模式长摘录": "公开资料可支撑其以天润乳业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600419",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新疆天润乳业股份有限公司"
+      ],
+      "repair_note": "把新疆天润乳业收回到天润乳业：公司拥有天润、盖瑞、佳丽、新农等品牌,秉持创新发展理念,确立了“领先低温、做强常温、突破乳饮”的产品发展思路,形成了纯牛奶、乳饮、特色酸奶等系列产品,品种达100余个的公司级事实。"
+    },
+    {
+      "account_canonical_name": "新疆汇嘉时代百货股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "汇嘉时代经营范围涵盖烟酒零售(限分支机构凭有效许可证经营)、肉食分割、生产经营主食、图书。",
+        "商业模式概述": "以汇嘉时代相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其汇嘉时代经营范围涵盖烟酒零售(限分支机构凭有效许可证经营)、肉食分割、生产经营主食、图书。",
+        "商业模式长摘录": "公开资料可支撑其以汇嘉时代相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603101",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新疆汇嘉时代百货股份有限公司"
+      ],
+      "repair_note": "把新疆汇嘉时代百货收回到汇嘉时代经营范围涵盖烟酒零售(限分支机构凭有效许可证经营)、肉食分割、生产经营主食、图书的公司级事实。"
+    },
+    {
+      "account_canonical_name": "新疆西部牧业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "西部牧业：新疆西部牧业股份有限公司(以下简称西部牧业)总部位于新疆石河子市国家经济技术开发区,是集牲畜饲养、畜产品加工销售、饲料生产、畜牧技术服务和乳制品加工销售于一体的农业产业化国家重点龙头企业。",
+        "商业模式概述": "以西部牧业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其西部牧业：新疆西部牧业股份有限公司(以下简称西部牧业)总部位于新疆石河子市国家经济技术开发区,是集牲畜饲养、畜产品加工销售、饲料生产、畜牧技术服务和乳制品加工销售于一体的农业产业化国家重点龙头企业。",
+        "商业模式长摘录": "公开资料可支撑其以西部牧业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300106",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新疆西部牧业股份有限公司"
+      ],
+      "repair_note": "把新疆西部牧业收回到西部牧业：新疆西部牧业股份有限公司(以下简称西部牧业)总部位于新疆石河子市国家经济技术开发区,是集牲畜饲养、畜产品加工销售、饲料生产、畜牧技术服务和乳制品加工销售于一体的农业产业化国家重点龙头企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "无锡商业大厦大东方股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大东方：大东方股份自创立以来,由最早的单体传统百货店,发展成为集现代百货零售(大东方百货、百业超市、湖北东方美邻),中华老字号“三凤桥”品牌经营(三凤桥食品),医疗健康(均瑶儿科、雅恩健康、沭阳中兴医院)三个消费及服务领域业务板块的集团型企业。",
+        "商业模式概述": "以大东方相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大东方：大东方股份自创立以来,由最早的单体传统百货店,发展成为集现代百货零售(大东方百货、百业超市、湖北东方美邻),中华老字号“三凤桥”品牌经营(三凤桥食品),医疗健康(均瑶儿科、雅恩健康、沭阳中兴医院)三个消费及服务领域业务板块的集团型企业。",
+        "商业模式长摘录": "公开资料可支撑其以大东方相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600327",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=无锡商业大厦大东方股份有限公司"
+      ],
+      "repair_note": "把无锡商业大厦大东方收回到大东方：大东方股份自创立以来,由最早的单体传统百货店,发展成为集现代百货零售(大东方百货、百业超市、湖北东方美邻),中华老字号“三凤桥”品牌经营(三凤桥食品),医疗健康(均瑶儿科、雅恩健康、沭阳中兴医院)三个消费及服务领域业务板块的集团型企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "晶科能源股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "晶科能源：秉承“改变能源结果,科创智能未来”的使命,公司战略性布局光伏产业链核心环节,聚焦光伏产品一体化研发制造和清洁能源整体解决方案,销量领跑全球主流光伏市场。",
+        "商业模式概述": "以晶科能源相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其晶科能源：秉承“改变能源结果,科创智能未来”的使命,公司战略性布局光伏产业链核心环节,聚焦光伏产品一体化研发制造和清洁能源整体解决方案,销量领跑全球主流光伏市场。",
+        "商业模式长摘录": "公开资料可支撑其以晶科能源相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688223",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=晶科能源股份有限公司"
+      ],
+      "repair_note": "把晶科能源收回到晶科能源：秉承“改变能源结果,科创智能未来”的使命,公司战略性布局光伏产业链核心环节,聚焦光伏产品一体化研发制造和清洁能源整体解决方案,销量领跑全球主流光伏市场的公司级事实。"
+    },
+    {
+      "account_canonical_name": "曙光信息产业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中科曙光：曙光信息产业股份有限公司(以下简称“中科曙光”)作为我国核心信息基础设施领军企业,为中国及全球用户提供创新、高效、可靠的IT产品、解决方案及服务。",
+        "商业模式概述": "以中科曙光相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中科曙光：曙光信息产业股份有限公司(以下简称“中科曙光”)作为我国核心信息基础设施领军企业,为中国及全球用户提供创新、高效、可靠的IT产品、解决方案及服务。",
+        "商业模式长摘录": "公开资料可支撑其以中科曙光相关工程机械产品的研发、生产和销售为核心，覆盖直销、租赁或经销体系。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603019",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=曙光信息产业股份有限公司"
+      ],
+      "repair_note": "把曙光信息产业收回到中科曙光：曙光信息产业股份有限公司(以下简称“中科曙光”)作为我国核心信息基础设施领军企业,为中国及全球用户提供创新、高效、可靠的IT产品、解决方案及服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "曲美家居集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "曲美家居：曲美家居集团股份有限公司成立于1993年,是集设计、生产、销售、服务于一体的大型规范化国际家居集团。",
+        "商业模式概述": "以曲美家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其曲美家居：曲美家居集团股份有限公司成立于1993年,是集设计、生产、销售、服务于一体的大型规范化国际家居集团。",
+        "商业模式长摘录": "公开资料可支撑其以曲美家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603818",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=曲美家居集团股份有限公司"
+      ],
+      "repair_note": "把曲美家居集团收回到曲美家居：曲美家居集团股份有限公司成立于1993年,是集设计、生产、销售、服务于一体的大型规范化国际家居集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "杭州天元宠物用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天元宠物：杭州天元宠物用品股份有限公司(以下简称“天元宠物”)成立于2003年,总部位于人间天堂-杭州,是一家专注于宠物用品的设计开发、生产、销售的综合性企业,产品包括宠物窝垫、猫爬架、宠物玩具、宠物服饰、电子智能宠物用品以及宠物食品等多系列、全品类宠物产品。",
+        "商业模式概述": "以天元宠物相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天元宠物：杭州天元宠物用品股份有限公司(以下简称“天元宠物”)成立于2003年,总部位于人间天堂-杭州,是一家专注于宠物用品的设计开发、生产、销售的综合性企业,产品包括宠物窝垫、猫爬架、宠物玩具、宠物服饰、电子智能宠物用品以及宠物食品等多系列、全品类宠物产品。",
+        "商业模式长摘录": "公开资料可支撑其以天元宠物相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301335",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州天元宠物用品股份有限公司"
+      ],
+      "repair_note": "把杭州天元宠物用品收回到天元宠物：杭州天元宠物用品股份有限公司(以下简称“天元宠物”)成立于2003年,总部位于人间天堂-杭州,是一家专注于宠物用品的设计开发、生产、销售的综合性企业,产品包括宠物窝垫、猫爬架、宠物玩具、宠物服饰、电子智能宠物用品以及宠物食品等多系列、全品类宠物产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "杭州海康威视数字技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "海康威视经营范围涵盖许可项目:Ⅱ、Ⅲ类射线装置生产、Ⅱ、Ⅲ类射线装置销售。",
+        "商业模式概述": "以海康威视相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其海康威视经营范围涵盖许可项目:Ⅱ、Ⅲ类射线装置生产、Ⅱ、Ⅲ类射线装置销售。",
+        "商业模式长摘录": "公开资料可支撑其以海康威视相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002415",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州海康威视数字技术股份有限公司"
+      ],
+      "repair_note": "把杭州海康威视数字技术收回到海康威视经营范围涵盖许可项目:Ⅱ、Ⅲ类射线装置生产、Ⅱ、Ⅲ类射线装置销售的公司级事实。"
+    }
+  ]
+}

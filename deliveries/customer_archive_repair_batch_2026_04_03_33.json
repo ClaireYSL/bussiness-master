@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_33",
+  "batch_title": "客户档案修复第33批",
+  "account_names": [
+    "郑州千味央厨食品股份有限公司",
+    "重庆市涪陵榨菜集团股份有限公司",
+    "金字火腿股份有限公司",
+    "铜陵有色金属集团股份有限公司",
+    "银川新华百货商业集团股份有限公司",
+    "银座集团股份有限公司",
+    "长沙通程控股股份有限公司",
+    "际华集团股份有限公司",
+    "陕西源杰半导体科技股份有限公司",
+    "雅戈尔时尚股份有限公司",
+    "青岛酷特智能股份有限公司",
+    "飞亚达精密科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "郑州千味央厨食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "千味央厨：千味央厨以创新引领发展,严选优质食材,严控食品安全,确保每一餐都可安心享用。",
+        "商业模式概述": "以千味央厨相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_laiyifen_replenishment_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其千味央厨：千味央厨以创新引领发展,严选优质食材,严控食品安全,确保每一餐都可安心享用。",
+        "商业模式长摘录": "公开资料可支撑其以千味央厨相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001215",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=郑州千味央厨食品股份有限公司"
+      ],
+      "repair_note": "把郑州千味央厨食品收回到千味央厨：千味央厨以创新引领发展,严选优质食材,严控食品安全,确保每一餐都可安心享用的公司级事实。"
+    },
+    {
+      "account_canonical_name": "重庆市涪陵榨菜集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "涪陵榨菜：重庆市涪陵榨菜集团股份有限公司是一家以榨菜为根本,立足于佐餐开味菜领域的国有控股食品加工企业,专注于榨菜、下饭菜、调味菜、榨菜酱等佐餐开味菜产品的研发、生产和销售。",
+        "商业模式概述": "以涪陵榨菜相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其涪陵榨菜：重庆市涪陵榨菜集团股份有限公司是一家以榨菜为根本,立足于佐餐开味菜领域的国有控股食品加工企业,专注于榨菜、下饭菜、调味菜、榨菜酱等佐餐开味菜产品的研发、生产和销售。",
+        "商业模式长摘录": "公开资料可支撑其以涪陵榨菜相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002507",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=重庆市涪陵榨菜集团股份有限公司"
+      ],
+      "repair_note": "把重庆市涪陵榨菜集团收回到涪陵榨菜：重庆市涪陵榨菜集团股份有限公司是一家以榨菜为根本,立足于佐餐开味菜领域的国有控股食品加工企业,专注于榨菜、下饭菜、调味菜、榨菜酱等佐餐开味菜产品的研发、生产和销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "金字火腿股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以金字火腿相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以金字火腿相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002515",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=金字火腿股份有限公司"
+      ],
+      "repair_note": "把金字火腿收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "铜陵有色金属集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "铜陵有色经营范围涵盖一般项目:选矿、矿物洗选加工、金属矿石销售、常用有色金属冶炼。",
+        "商业模式概述": "以铜陵有色相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其铜陵有色经营范围涵盖一般项目:选矿、矿物洗选加工、金属矿石销售、常用有色金属冶炼。",
+        "商业模式长摘录": "公开资料可支撑其以铜陵有色相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000630",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=铜陵有色金属集团股份有限公司"
+      ],
+      "repair_note": "把铜陵有色金属集团收回到铜陵有色经营范围涵盖一般项目:选矿、矿物洗选加工、金属矿石销售、常用有色金属冶炼的公司级事实。"
+    },
+    {
+      "account_canonical_name": "银川新华百货商业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "新华百货经营范围涵盖许可项目:食品销售、小餐饮、小食杂、食品小作坊经营。",
+        "商业模式概述": "以新华百货相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其新华百货经营范围涵盖许可项目:食品销售、小餐饮、小食杂、食品小作坊经营。",
+        "商业模式长摘录": "公开资料可支撑其以新华百货相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600785",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=银川新华百货商业集团股份有限公司"
+      ],
+      "repair_note": "把银川新华百货商业集团收回到新华百货经营范围涵盖许可项目:食品销售、小餐饮、小食杂、食品小作坊经营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "银座集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "银座股份：先后获评“中国十佳商业品牌”“全国电子商务示范企业”“全国零售业创新提升案例”等荣誉称号。",
+        "商业模式概述": "以银座股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其银座股份：先后获评“中国十佳商业品牌”“全国电子商务示范企业”“全国零售业创新提升案例”等荣誉称号。",
+        "商业模式长摘录": "公开资料可支撑其以银座股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600858",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=银座集团股份有限公司"
+      ],
+      "repair_note": "把银座集团收回到银座股份：先后获评“中国十佳商业品牌”“全国电子商务示范企业”“全国零售业创新提升案例”等荣誉称号的公司级事实。"
+    },
+    {
+      "account_canonical_name": "长沙通程控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "通程控股：其中商业零售经营业态涵盖百货、电器连锁、名品折扣店、生活超市以及线上专业平台,是区域性综合功能齐全的大型商业集团,其经营模式包括联销、经销、自有品牌销售、物业租赁等;酒店业已经形成了以商务型、会务型为代表的组合丰富的酒店板块,其经营模式为酒店自营及管理输出;综合投资领域,公司依托典当业为基础,目前已形成了集合商业保理公司、寄卖公司、投资公司等多业态、分层次的综合投资产业。",
+        "商业模式概述": "以通程控股相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其通程控股：其中商业零售经营业态涵盖百货、电器连锁、名品折扣店、生活超市以及线上专业平台,是区域性综合功能齐全的大型商业集团,其经营模式包括联销、经销、自有品牌销售、物业租赁等;酒店业已经形成了以商务型、会务型为代表的组合丰富的酒店板块,其经营模式为酒店自营及管理输出;综合投资领域,公司依托典当业为基础,目前已形成了集合商业保理公司、寄卖公司、投资公司等多业态、分层次的综合投资产业。",
+        "商业模式长摘录": "公开资料可支撑其以通程控股相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000419",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=长沙通程控股股份有限公司"
+      ],
+      "repair_note": "把长沙通程控股收回到通程控股：其中商业零售经营业态涵盖百货、电器连锁、名品折扣店、生活超市以及线上专业平台,是区域性综合功能齐全的大型商业集团,其经营模式包括联销、经销、自有品牌销售、物业租赁等;酒店业已经形成了以商务型、会务型为代表的组合丰富的酒店板块,其经营模式为酒店自营及管理输出;综合投资领域,公司依托典当业为基础,目前已形成了集合商业保理公司、寄卖公司、投资公司等多业态、分层次的综合投资产业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "际华集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "际华集团经营范围涵盖对所属企业资产及资本的经营管理、服装鞋帽、轻纺印染、制革装具。",
+        "商业模式概述": "以际华集团相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其际华集团经营范围涵盖对所属企业资产及资本的经营管理、服装鞋帽、轻纺印染、制革装具。",
+        "商业模式长摘录": "公开资料可支撑其以际华集团相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601718",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=际华集团股份有限公司"
+      ],
+      "repair_note": "把际华集团收回到际华集团经营范围涵盖对所属企业资产及资本的经营管理、服装鞋帽、轻纺印染、制革装具的公司级事实。"
+    },
+    {
+      "account_canonical_name": "陕西源杰半导体科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "源杰科技：陕西源杰半导体科技股份有限公司成立于2013年1月28日,专注于进行高速的半导体芯片的研发、设计和生产,是一家从半导体晶体生长,晶圆工艺,芯片测试与封装全部开发完毕,并形成工业化规模生产的高科技企业。",
+        "商业模式概述": "以源杰科技相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其源杰科技：陕西源杰半导体科技股份有限公司成立于2013年1月28日,专注于进行高速的半导体芯片的研发、设计和生产,是一家从半导体晶体生长,晶圆工艺,芯片测试与封装全部开发完毕,并形成工业化规模生产的高科技企业。",
+        "商业模式长摘录": "公开资料可支撑其以源杰科技相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688498",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=陕西源杰半导体科技股份有限公司"
+      ],
+      "repair_note": "把陕西源杰半导体科技收回到源杰科技：陕西源杰半导体科技股份有限公司成立于2013年1月28日,专注于进行高速的半导体芯片的研发、设计和生产,是一家从半导体晶体生长,晶圆工艺,芯片测试与封装全部开发完毕,并形成工业化规模生产的高科技企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "雅戈尔时尚股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "雅戈尔：下设时尚品牌、商业(新)零售、国际贸易、产业投资四大板块。",
+        "商业模式概述": "以雅戈尔相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其雅戈尔：下设时尚品牌、商业(新)零售、国际贸易、产业投资四大板块。",
+        "商业模式长摘录": "公开资料可支撑其以雅戈尔相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600177",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=雅戈尔时尚股份有限公司"
+      ],
+      "repair_note": "把雅戈尔时尚收回到雅戈尔：下设时尚品牌、商业(新)零售、国际贸易、产业投资四大板块的公司级事实。"
+    },
+    {
+      "account_canonical_name": "青岛酷特智能股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "酷特智能：酷特智能以打造C2M产业互联网平台生态为战略,以C2M产业互联网研究院为核心,以3000余人的服装工厂为实验室,用十余年的实践探索,形成了C2M产业互联网的核心能力,即智能制造,个性化定制解决方案和数字化治理体系。",
+        "商业模式概述": "以酷特智能相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其酷特智能：酷特智能以打造C2M产业互联网平台生态为战略,以C2M产业互联网研究院为核心,以3000余人的服装工厂为实验室,用十余年的实践探索,形成了C2M产业互联网的核心能力,即智能制造,个性化定制解决方案和数字化治理体系。",
+        "商业模式长摘录": "公开资料可支撑其以酷特智能相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300840",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=青岛酷特智能股份有限公司"
+      ],
+      "repair_note": "把青岛酷特智能收回到酷特智能：酷特智能以打造C2M产业互联网平台生态为战略,以C2M产业互联网研究院为核心,以3000余人的服装工厂为实验室,用十余年的实践探索,形成了C2M产业互联网的核心能力,即智能制造,个性化定制解决方案和数字化治理体系的公司级事实。"
+    },
+    {
+      "account_canonical_name": "飞亚达精密科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "飞亚达：公司始终坚持品牌战略与创新驱动,以精密制造技术深耕钟表行业,逐步构建了以“自有品牌腕表研发、设计、制造、销售、服务”与“世界名表零售”并举的两大核心业务体系。",
+        "商业模式概述": "以飞亚达相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其飞亚达：公司始终坚持品牌战略与创新驱动,以精密制造技术深耕钟表行业,逐步构建了以“自有品牌腕表研发、设计、制造、销售、服务”与“世界名表零售”并举的两大核心业务体系。",
+        "商业模式长摘录": "公开资料可支撑其以飞亚达相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000026",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=飞亚达精密科技股份有限公司"
+      ],
+      "repair_note": "把飞亚达精密科技收回到飞亚达：公司始终坚持品牌战略与创新驱动,以精密制造技术深耕钟表行业,逐步构建了以“自有品牌腕表研发、设计、制造、销售、服务”与“世界名表零售”并举的两大核心业务体系的公司级事实。"
+    }
+  ]
+}

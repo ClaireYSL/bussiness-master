@@ -1,0 +1,329 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_11",
+  "batch_title": "客户档案修复第十一批",
+  "account_names": [
+    "鹏鼎控股（深圳）股份有限公司",
+    "博众精工科技股份有限公司",
+    "厦门厦钨新能源材料股份有限公司",
+    "江苏联赢激光股份有限公司",
+    "梦天家居集团股份有限公司",
+    "深圳市韶音科技有限公司",
+    "深圳市大疆创新科技有限公司",
+    "烟台杰瑞石油服务集团股份有限公司",
+    "上海克来机电自动化工程股份有限公司",
+    "上海新时达电气股份有限公司",
+    "上海新阳半导体材料股份有限公司",
+    "上海步科自动化股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "鹏鼎控股（深圳）股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营印制电路板及相关电子互连产品，是电子电路板制造企业。",
+        "商业模式概述": "以印制电路板研发、制造、销售与服务为核心，面向消费电子、通信和计算设备客户提供规模化电子互连制造配套。",
+        "核心客户客群": "消费电子品牌客户、通信设备客户、计算设备客户及电子电路板采购场景客户。",
+        "主要竞品概述": "深南电路、沪电股份及印制电路板制造企业。",
+        "相似客户线索": "深南电路股份有限公司、沪士电子股份有限公司、东山精密制造股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营印制电路板及相关电子互连产品，是电子电路板制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以印制电路板研发、制造、销售与服务为核心，面向消费电子、通信和计算设备客户提供规模化电子互连制造配套。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=鹏鼎控股（深圳）股份有限公司"
+      ],
+      "repair_note": "把鹏鼎控股收回到电子电路板规模化制造配套公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "博众精工科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营自动化装备、智能生产线和精密工装设备，是智能制造装备企业。",
+        "商业模式概述": "以自动化装备研发、制造、系统集成和交付服务为核心，面向消费电子、新能源和先进制造客户提供专机及产线方案。",
+        "核心客户客群": "消费电子制造客户、新能源制造客户及自动化产线采购与升级场景客户。",
+        "主要竞品概述": "拓斯达、克来机电及自动化装备企业。",
+        "相似客户线索": "广东拓斯达科技股份有限公司、上海克来机电自动化工程股份有限公司、深圳市海目星激光科技集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营自动化装备、智能生产线和精密工装设备，是智能制造装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以自动化装备研发、制造、系统集成和交付服务为核心，面向消费电子、新能源和先进制造客户提供专机及产线方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=博众精工科技股份有限公司"
+      ],
+      "repair_note": "把博众精工收回到自动化装备与智能产线交付公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "厦门厦钨新能源材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂离子电池正极材料及相关新能源材料产品，是新能源电池材料企业。",
+        "商业模式概述": "以新能源材料研发、生产、销售和技术服务为核心，面向动力电池、储能电池和新能源制造客户提供关键材料供应。",
+        "核心客户客群": "动力电池客户、储能电池客户及新能源材料采购场景客户。",
+        "主要竞品概述": "当升科技、容百科技及锂电正极材料企业。",
+        "相似客户线索": "北京当升材料科技股份有限公司、宁波容百新能源科技股份有限公司、厦门钨业股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂离子电池正极材料及相关新能源材料产品，是新能源电池材料企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源材料研发、生产、销售和技术服务为核心，面向动力电池、储能电池和新能源制造客户提供关键材料供应。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门厦钨新能源材料股份有限公司"
+      ],
+      "repair_note": "把厦钨新能源收回到新能源电池材料与关键材料供应公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏联赢激光股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营激光焊接设备、自动化成套装备及相关智能制造设备，是激光与自动化装备企业。",
+        "商业模式概述": "以激光焊接与自动化装备研发、制造、销售和系统交付为核心，面向新能源和先进制造客户提供专机设备与产线方案。",
+        "核心客户客群": "新能源制造客户、先进制造客户及激光焊接设备采购和产线升级场景客户。",
+        "主要竞品概述": "海目星、先导智能及激光自动化装备企业。",
+        "相似客户线索": "深圳市海目星激光科技集团股份有限公司、无锡先导智能装备股份有限公司、广东拓斯达科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营激光焊接设备、自动化成套装备及相关智能制造设备，是激光与自动化装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以激光焊接与自动化装备研发、制造、销售和系统交付为核心，面向新能源和先进制造客户提供专机设备与产线方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏联赢激光股份有限公司"
+      ],
+      "repair_note": "把联赢激光收回到激光焊接与自动化产线公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "梦天家居集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营木门、墙板、柜类及定制家居产品，是家居与定制家居企业。",
+        "商业模式概述": "以家居产品研发、制造、品牌经营和销售服务为核心，通过经销网络、零售终端和整家定制场景覆盖家居消费市场。",
+        "核心客户客群": "家居消费客群、经销门店、整家定制场景客户及零售终端消费者。",
+        "主要竞品概述": "欧派家居、顾家家居及定制家居品牌企业。",
+        "相似客户线索": "欧派家居集团股份有限公司、顾家家居股份有限公司、匠心家居股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_qimiaoyigou_supply_chain_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营木门、墙板、柜类及定制家居产品，是家居与定制家居企业。",
+        "商业模式长摘录": "公开资料可支撑其以家居产品研发、制造、品牌经营和销售服务为核心，通过经销网络、零售终端和整家定制场景覆盖家居消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=梦天家居集团股份有限公司"
+      ],
+      "repair_note": "把梦天家居收回到定制家居品牌与经销零售网络公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市韶音科技有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营开放式耳机、运动音频设备及相关智能硬件产品，是消费电子音频品牌企业。",
+        "商业模式概述": "以消费电子产品研发、品牌经营和全球销售为核心，通过海外电商平台、零售渠道和品牌网络覆盖运动与音频消费市场。",
+        "核心客户客群": "运动音频消费客群、海外电商消费者、零售渠道客户及全球消费电子场景用户。",
+        "主要竞品概述": "Anker 声学相关品牌、Jabra、骨传导与开放式耳机品牌企业。",
+        "相似客户线索": "安克创新科技股份有限公司、深圳市绿联科技股份有限公司、深圳市大疆创新科技有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开信息可支撑其主营开放式耳机、运动音频设备及相关智能硬件产品，是消费电子音频品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以消费电子产品研发、品牌经营和全球销售为核心，通过海外电商平台、零售渠道和品牌网络覆盖运动与音频消费市场。"
+      },
+      "source_types_add": [
+        "官网"
+      ],
+      "source_refs_add": [
+        "https://www.shokz.com/"
+      ],
+      "repair_note": "把韶音收回到开放式耳机与全球品牌经营公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市大疆创新科技有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营无人机、影像系统、手持影像设备及相关智能硬件产品，是智能影像与无人机企业。",
+        "商业模式概述": "以智能硬件研发、品牌经营和全球销售为核心，通过全球零售渠道、经销网络和线上平台覆盖消费级与行业级影像市场。",
+        "核心客户客群": "消费级影像用户、行业级无人机客户、全球零售渠道客户及线上平台消费者。",
+        "主要竞品概述": "GoPro、Autel Robotics 及无人机与智能影像品牌企业。",
+        "相似客户线索": "影石创新科技股份有限公司、安克创新科技股份有限公司、深圳市韶音科技有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开信息可支撑其主营无人机、影像系统、手持影像设备及相关智能硬件产品，是智能影像与无人机企业。",
+        "商业模式长摘录": "公开资料可支撑其以智能硬件研发、品牌经营和全球销售为核心，通过全球零售渠道、经销网络和线上平台覆盖消费级与行业级影像市场。"
+      },
+      "source_types_add": [
+        "官网"
+      ],
+      "source_refs_add": [
+        "https://www.dji.com/"
+      ],
+      "repair_note": "把大疆创新收回到智能影像与无人机全球品牌公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "烟台杰瑞石油服务集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营油气装备、压裂设备、环保设备及油田工程技术服务，是能源装备企业。",
+        "商业模式概述": "以油气装备研发、制造、销售和工程技术服务为核心，面向能源开发、油田服务和工业项目场景提供装备与解决方案。",
+        "核心客户客群": "能源开发客户、油田服务客户、工业项目客户及能源装备采购场景客户。",
+        "主要竞品概述": "中海油服、石化机械及能源装备与油服企业。",
+        "相似客户线索": "中海油田服务股份有限公司、石化油服相关主体、明阳智慧能源集团股份公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营油气装备、压裂设备、环保设备及油田工程技术服务，是能源装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以油气装备研发、制造、销售和工程技术服务为核心，面向能源开发、油田服务和工业项目场景提供装备与解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=烟台杰瑞石油服务集团股份有限公司"
+      ],
+      "repair_note": "把杰瑞股份收回到能源装备与油田工程服务公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海克来机电自动化工程股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营柔性自动化装备、工业机器人工作站和智能制造系统，是自动化装备企业。",
+        "商业模式概述": "以自动化装备研发、系统集成、制造与交付服务为核心，面向汽车零部件和工业制造客户提供柔性产线解决方案。",
+        "核心客户客群": "汽车零部件客户、工业制造客户及自动化产线采购与升级场景客户。",
+        "主要竞品概述": "拓斯达、博众精工及自动化装备企业。",
+        "相似客户线索": "广东拓斯达科技股份有限公司、博众精工科技股份有限公司、上海新时达电气股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营柔性自动化装备、工业机器人工作站和智能制造系统，是自动化装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以自动化装备研发、系统集成、制造与交付服务为核心，面向汽车零部件和工业制造客户提供柔性产线解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海克来机电自动化工程股份有限公司"
+      ],
+      "repair_note": "把克来机电收回到柔性自动化产线与系统集成公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海新时达电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营电梯控制系统、工业控制与机器人相关产品，是工业自动化与控制企业。",
+        "商业模式概述": "以工业控制产品研发、制造、销售和服务为核心，面向电梯、工业自动化和机器人应用场景提供控制系统与解决方案。",
+        "核心客户客群": "电梯制造客户、工业自动化客户、机器人应用客户及控制系统采购场景客户。",
+        "主要竞品概述": "汇川技术、步科股份及工业控制与自动化企业。",
+        "相似客户线索": "深圳市汇川技术股份有限公司、上海步科自动化股份有限公司、广东拓斯达科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营电梯控制系统、工业控制与机器人相关产品，是工业自动化与控制企业。",
+        "商业模式长摘录": "公开资料可支撑其以工业控制产品研发、制造、销售和服务为核心，面向电梯、工业自动化和机器人应用场景提供控制系统与解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海新时达电气股份有限公司"
+      ],
+      "repair_note": "把新时达收回到工业控制与电梯控制系统公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海新阳半导体材料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营半导体工艺材料、电镀液及相关电子化学品，是半导体材料企业。",
+        "商业模式概述": "以半导体材料研发、生产、销售和技术服务为核心，面向芯片制造和电子材料应用客户提供工艺材料解决方案。",
+        "核心客户客群": "芯片制造客户、电子材料应用客户及半导体材料采购场景客户。",
+        "主要竞品概述": "雅克科技、江化微及半导体材料企业。",
+        "相似客户线索": "江苏雅克科技股份有限公司、江阴江化微电子材料股份有限公司、厦门厦钨新能源材料股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营半导体工艺材料、电镀液及相关电子化学品，是半导体材料企业。",
+        "商业模式长摘录": "公开资料可支撑其以半导体材料研发、生产、销售和技术服务为核心，面向芯片制造和电子材料应用客户提供工艺材料解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海新阳半导体材料股份有限公司"
+      ],
+      "repair_note": "把上海新阳收回到半导体电子化学品与工艺材料公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海步科自动化股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营人机界面、伺服系统、可编程控制及运动控制相关产品，是工业自动化控制企业。",
+        "商业模式概述": "以自动化控制产品研发、制造、销售和技术服务为核心，面向设备制造和工业自动化客户提供控制与运动解决方案。",
+        "核心客户客群": "设备制造客户、工业自动化客户及控制产品采购和集成应用场景客户。",
+        "主要竞品概述": "汇川技术、新时达及工业控制企业。",
+        "相似客户线索": "深圳市汇川技术股份有限公司、上海新时达电气股份有限公司、广东拓斯达科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营人机界面、伺服系统、可编程控制及运动控制相关产品，是工业自动化控制企业。",
+        "商业模式长摘录": "公开资料可支撑其以自动化控制产品研发、制造、销售和技术服务为核心，面向设备制造和工业自动化客户提供控制与运动解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海步科自动化股份有限公司"
+      ],
+      "repair_note": "把步科股份收回到工业自动化控制与运动控制产品公司的公司级事实。"
+    }
+  ]
+}

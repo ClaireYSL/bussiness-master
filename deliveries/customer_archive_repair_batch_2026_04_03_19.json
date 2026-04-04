@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_19",
+  "batch_title": "客户档案修复第19批",
+  "account_names": [
+    "深圳市农产品集团股份有限公司",
+    "三全食品股份有限公司",
+    "上海九百股份有限公司",
+    "上海徐家汇商城股份有限公司",
+    "上海新世界股份有限公司",
+    "上海璞泰来新能源科技集团股份有限公司",
+    "上海璞源化学材料集团股份有限公司",
+    "上海电气集团股份有限公司",
+    "上海百联集团股份有限公司",
+    "上海美特斯邦威服饰股份有限公司",
+    "上海锦江国际酒店股份有限公司",
+    "上海龙头(集团)股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "深圳市农产品集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "农产品：积极探索农产品从种植“最初一公里”到消费终端“最后一公里”交易流通的标准化、数字化,通过建设供港标准“深农农场”,组建农产品智慧流通工业设计研究院研发推广标准转运箱、智慧农机等,发起农产品供应链标准化、数字化攻坚。",
+        "商业模式概述": "以农产品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其农产品：积极探索农产品从种植“最初一公里”到消费终端“最后一公里”交易流通的标准化、数字化,通过建设供港标准“深农农场”,组建农产品智慧流通工业设计研究院研发推广标准转运箱、智慧农机等,发起农产品供应链标准化、数字化攻坚。",
+        "商业模式长摘录": "公开资料可支撑其以农产品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000061",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市农产品集团股份有限公司"
+      ],
+      "repair_note": "把深圳市农产品集团收回到农产品：积极探索农产品从种植“最初一公里”到消费终端“最后一公里”交易流通的标准化、数字化,通过建设供港标准“深农农场”,组建农产品智慧流通工业设计研究院研发推广标准转运箱、智慧农机等,发起农产品供应链标准化、数字化攻坚的公司级事实。"
+    },
+    {
+      "account_canonical_name": "三全食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "三全食品：公司研发中心是行业中在研究食品、营养和检验检测领域处于领先地位的研发机构,设有行业首家“国家认定企业技术中心”和“博士后科研工作站”,不断创新技术,为消费者提供高品质的产品和服务。",
+        "商业模式概述": "以三全食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其三全食品：公司研发中心是行业中在研究食品、营养和检验检测领域处于领先地位的研发机构,设有行业首家“国家认定企业技术中心”和“博士后科研工作站”,不断创新技术,为消费者提供高品质的产品和服务。",
+        "商业模式长摘录": "公开资料可支撑其以三全食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002216",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三全食品股份有限公司"
+      ],
+      "repair_note": "把三全食品收回到三全食品：公司研发中心是行业中在研究食品、营养和检验检测领域处于领先地位的研发机构,设有行业首家“国家认定企业技术中心”和“博士后科研工作站”,不断创新技术,为消费者提供高品质的产品和服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海九百股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "上海九百经营范围涵盖百货、针纺织品、五金交电、文教用品。",
+        "商业模式概述": "以上海九百相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其上海九百经营范围涵盖百货、针纺织品、五金交电、文教用品。",
+        "商业模式长摘录": "公开资料可支撑其以上海九百相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600838",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海九百股份有限公司"
+      ],
+      "repair_note": "把上海九百收回到上海九百经营范围涵盖百货、针纺织品、五金交电、文教用品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海徐家汇商城股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "徐家汇：上海徐家汇商城股份有限公司拥有“汇金百货”、“上海六百”、“汇联商厦”、“汇金奥莱”和“汇金超市”等零售品牌,其中,“上海六百”为中华老字号。",
+        "商业模式概述": "以徐家汇相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其徐家汇：上海徐家汇商城股份有限公司拥有“汇金百货”、“上海六百”、“汇联商厦”、“汇金奥莱”和“汇金超市”等零售品牌,其中,“上海六百”为中华老字号。",
+        "商业模式长摘录": "公开资料可支撑其以徐家汇相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002561",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海徐家汇商城股份有限公司"
+      ],
+      "repair_note": "把上海徐家汇商城收回到徐家汇：上海徐家汇商城股份有限公司拥有“汇金百货”、“上海六百”、“汇联商厦”、“汇金奥莱”和“汇金超市”等零售品牌,其中,“上海六百”为中华老字号的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海新世界股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "新世界经营范围涵盖许可项目:药品零售、理发服务、生活美容服务、烟草制品零售。",
+        "商业模式概述": "以新世界相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其新世界经营范围涵盖许可项目:药品零售、理发服务、生活美容服务、烟草制品零售。",
+        "商业模式长摘录": "公开资料可支撑其以新世界相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600628",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海新世界股份有限公司"
+      ],
+      "repair_note": "把上海新世界收回到新世界经营范围涵盖许可项目:药品零售、理发服务、生活美容服务、烟草制品零售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海璞泰来新能源科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "璞泰来：致力于成为全球领先的新能源电池关键材料及自动化设备的综合解决方案提供商。",
+        "商业模式概述": "以璞泰来相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其璞泰来：致力于成为全球领先的新能源电池关键材料及自动化设备的综合解决方案提供商。",
+        "商业模式长摘录": "公开资料可支撑其以璞泰来相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603659",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海璞泰来新能源科技集团股份有限公司"
+      ],
+      "repair_note": "把上海璞泰来新能源科技集团收回到璞泰来：致力于成为全球领先的新能源电池关键材料及自动化设备的综合解决方案提供商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海璞源化学材料集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "璞源材料：由一间服装企业,到有态度的生活方式品牌再到文化创生型生态组织,我们在不断成长壮大中清晰锚定了自己的责任与价值;对自身全球化国际化战略的驱动,对多品牌、精品化以及市场领先战略的驱动,对激励人才发展为战略核心的驱动。",
+        "商业模式概述": "以璞源材料相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其璞源材料：由一间服装企业,到有态度的生活方式品牌再到文化创生型生态组织,我们在不断成长壮大中清晰锚定了自己的责任与价值;对自身全球化国际化战略的驱动,对多品牌、精品化以及市场领先战略的驱动,对激励人才发展为战略核心的驱动。",
+        "商业模式长摘录": "公开资料可支撑其以璞源材料相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603196",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海璞源化学材料集团股份有限公司"
+      ],
+      "repair_note": "把上海璞源化学材料集团收回到璞源材料：由一间服装企业,到有态度的生活方式品牌再到文化创生型生态组织,我们在不断成长壮大中清晰锚定了自己的责任与价值;对自身全球化国际化战略的驱动,对多品牌、精品化以及市场领先战略的驱动,对激励人才发展为战略核心的驱动的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海电气集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "上海电气：上海电气集团股份有限公司是全球领先的工业级绿色智能系统解决方案提供商,始终坚持“服务国家战略、发展新质生产力、实现高质量发展”的战略方向,专注于能源、工业两大主战场,从能源的生产与传输,到智能化的工业生产与自动化系统,再到“海陆空网油”全产业链,让科技创新有为,赋能千行百业,为人类美好生活创造绿色可持续价值。",
+        "商业模式概述": "以上海电气相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "医院、医学中心、科研院所及医疗设备采购相关机构。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其上海电气：上海电气集团股份有限公司是全球领先的工业级绿色智能系统解决方案提供商,始终坚持“服务国家战略、发展新质生产力、实现高质量发展”的战略方向,专注于能源、工业两大主战场,从能源的生产与传输,到智能化的工业生产与自动化系统,再到“海陆空网油”全产业链,让科技创新有为,赋能千行百业,为人类美好生活创造绿色可持续价值。",
+        "商业模式长摘录": "公开资料可支撑其以上海电气相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601727",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海电气集团股份有限公司"
+      ],
+      "repair_note": "把上海电气集团收回到上海电气：上海电气集团股份有限公司是全球领先的工业级绿色智能系统解决方案提供商,始终坚持“服务国家战略、发展新质生产力、实现高质量发展”的战略方向,专注于能源、工业两大主战场,从能源的生产与传输,到智能化的工业生产与自动化系统,再到“海陆空网油”全产业链,让科技创新有为,赋能千行百业,为人类美好生活创造绿色可持续价值的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海百联集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "百联股份经营范围涵盖综合百货、装潢装饰材料、服装针纺织品、五金交电。",
+        "商业模式概述": "以百联股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其百联股份经营范围涵盖综合百货、装潢装饰材料、服装针纺织品、五金交电。",
+        "商业模式长摘录": "公开资料可支撑其以百联股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600827",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海百联集团股份有限公司"
+      ],
+      "repair_note": "把上海百联集团收回到百联股份经营范围涵盖综合百货、装潢装饰材料、服装针纺织品、五金交电的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海美特斯邦威服饰股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "美邦服饰：目前公司旗下拥有“Metersbonwe”和“ME&CITY”两大时尚休闲品牌;“米喜迪”和“MooMoo”两大童装品牌,慢生活体验品牌“褀”以及独立电子商务平台“邦购网”。",
+        "商业模式概述": "以美邦服饰相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其美邦服饰：目前公司旗下拥有“Metersbonwe”和“ME&CITY”两大时尚休闲品牌;“米喜迪”和“MooMoo”两大童装品牌,慢生活体验品牌“褀”以及独立电子商务平台“邦购网”。",
+        "商业模式长摘录": "公开资料可支撑其以美邦服饰相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002269",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海美特斯邦威服饰股份有限公司"
+      ],
+      "repair_note": "把上海美特斯邦威服饰收回到美邦服饰：目前公司旗下拥有“Metersbonwe”和“ME&CITY”两大时尚休闲品牌;“米喜迪”和“MooMoo”两大童装品牌,慢生活体验品牌“褀”以及独立电子商务平台“邦购网”的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海锦江国际酒店股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "锦江酒店：锦江品牌的历史渊源可追溯至1935年创立的锦江茶室。",
+        "商业模式概述": "以锦江酒店相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "老乡鸡、奈雪的茶及相关企业。",
+        "相似客户线索": "老娘舅、奈雪、蜜雪冰城等相邻样本。"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_frontline_action_loop,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mixue_bi_warehouse_v1,ka_solution_happybee_bi_warehouse_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其锦江酒店：锦江品牌的历史渊源可追溯至1935年创立的锦江茶室。",
+        "商业模式长摘录": "公开资料可支撑其以锦江酒店相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600754",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海锦江国际酒店股份有限公司"
+      ],
+      "repair_note": "把上海锦江国际酒店收回到锦江酒店：锦江品牌的历史渊源可追溯至1935年创立的锦江茶室的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海龙头(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "龙头股份：公司拥有在国内市场享有盛誉的“三枪”、“菊花”、“海螺”、“民光”、“凤凰”、“钟牌414”和“皇后”等知名品牌,“三枪”、“海螺”连年获中国名牌、中国驰名商标称号,“民光”、“菊花”、“凤凰”、“钟牌414”等品牌连年获得上海市名牌、上海市著名商标称号;在世界品牌实验室公布的2021年中国最具价值品牌排行榜中,“三枪”的品牌价值为63.28亿元人民币。",
+        "商业模式概述": "以龙头股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其龙头股份：公司拥有在国内市场享有盛誉的“三枪”、“菊花”、“海螺”、“民光”、“凤凰”、“钟牌414”和“皇后”等知名品牌,“三枪”、“海螺”连年获中国名牌、中国驰名商标称号,“民光”、“菊花”、“凤凰”、“钟牌414”等品牌连年获得上海市名牌、上海市著名商标称号;在世界品牌实验室公布的2021年中国最具价值品牌排行榜中,“三枪”的品牌价值为63.28亿元人民币。",
+        "商业模式长摘录": "公开资料可支撑其以龙头股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600630",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海龙头(集团)股份有限公司"
+      ],
+      "repair_note": "把上海龙头(集团)收回到龙头股份：公司拥有在国内市场享有盛誉的“三枪”、“菊花”、“海螺”、“民光”、“凤凰”、“钟牌414”和“皇后”等知名品牌,“三枪”、“海螺”连年获中国名牌、中国驰名商标称号,“民光”、“菊花”、“凤凰”、“钟牌414”等品牌连年获得上海市名牌、上海市著名商标称号;在世界品牌实验室公布的2021年中国最具价值品牌排行榜中,“三枪”的品牌价值为63.28亿元人民币的公司级事实。"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_49",
+  "batch_title": "客户档案修复第49批",
+  "account_names": [
+    "瑞芯微电子股份有限公司",
+    "甘肃国芳工贸(集团)股份有限公司",
+    "甘肃莫高实业发展股份有限公司",
+    "白银有色集团股份有限公司",
+    "皇氏集团股份有限公司",
+    "盛美半导体设备(上海)股份有限公司",
+    "福建七匹狼实业股份有限公司",
+    "福建东百集团股份有限公司",
+    "福建省燕京惠泉啤酒股份有限公司",
+    "福建青松股份有限公司",
+    "科大国盾量子技术股份有限公司",
+    "箭牌家居集团股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "瑞芯微电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "瑞芯微：瑞芯微拥有一支以系统级芯片、模拟电路芯片设计和算法研究为特长的研发团队,在处理器和数模混合芯片设计、多媒体处理、影像算法、系统软件开发上具有丰富的经验和技术储备。",
+        "商业模式概述": "以瑞芯微相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其瑞芯微：瑞芯微拥有一支以系统级芯片、模拟电路芯片设计和算法研究为特长的研发团队,在处理器和数模混合芯片设计、多媒体处理、影像算法、系统软件开发上具有丰富的经验和技术储备。",
+        "商业模式长摘录": "公开资料可支撑其以瑞芯微相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603893",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=瑞芯微电子股份有限公司"
+      ],
+      "repair_note": "把瑞芯微电子收回到瑞芯微：瑞芯微拥有一支以系统级芯片、模拟电路芯片设计和算法研究为特长的研发团队,在处理器和数模混合芯片设计、多媒体处理、影像算法、系统软件开发上具有丰富的经验和技术储备的公司级事实。"
+    },
+    {
+      "account_canonical_name": "甘肃国芳工贸(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "国芳集团：公司经过多年培育形成了“国芳百货”、“国芳综超”、“国芳电器”三个商业零售品牌。",
+        "商业模式概述": "以国芳集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其国芳集团：公司经过多年培育形成了“国芳百货”、“国芳综超”、“国芳电器”三个商业零售品牌。",
+        "商业模式长摘录": "公开资料可支撑其以国芳集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601086",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=甘肃国芳工贸(集团)股份有限公司"
+      ],
+      "repair_note": "把甘肃国芳工贸(集团)收回到国芳集团：公司经过多年培育形成了“国芳百货”、“国芳综超”、“国芳电器”三个商业零售品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "甘肃莫高实业发展股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "莫高股份经营范围涵盖莫高系列葡萄酒类生产、批发(含电子商务、互联网平台销售)、葡萄原料。",
+        "商业模式概述": "以莫高股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其莫高股份经营范围涵盖莫高系列葡萄酒类生产、批发(含电子商务、互联网平台销售)、葡萄原料。",
+        "商业模式长摘录": "公开资料可支撑其以莫高股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600543",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=甘肃莫高实业发展股份有限公司"
+      ],
+      "repair_note": "把甘肃莫高实业发展收回到莫高股份经营范围涵盖莫高系列葡萄酒类生产、批发(含电子商务、互联网平台销售)、葡萄原料的公司级事实。"
+    },
+    {
+      "account_canonical_name": "白银有色集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "白银有色经营范围涵盖许可项目:爆破作业、危险化学品经营、非煤矿山矿产资源开采、矿产资源勘查。",
+        "商业模式概述": "以白银有色相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其白银有色经营范围涵盖许可项目:爆破作业、危险化学品经营、非煤矿山矿产资源开采、矿产资源勘查。",
+        "商业模式长摘录": "公开资料可支撑其以白银有色相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601212",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=白银有色集团股份有限公司"
+      ],
+      "repair_note": "把白银有色集团收回到白银有色经营范围涵盖许可项目:爆破作业、危险化学品经营、非煤矿山矿产资源开采、矿产资源勘查的公司级事实。"
+    },
+    {
+      "account_canonical_name": "皇氏集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "皇氏集团：二十多年来,皇氏集团立足广西、深耕大西南,已成长为我国水牛奶产业规模最大、技术实力最强的龙头企业,是“农业产业化国家重点龙头企业”、“中国奶业20强(D20)企业”、“中国500最具价值品牌”。",
+        "商业模式概述": "以皇氏集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其皇氏集团：二十多年来,皇氏集团立足广西、深耕大西南,已成长为我国水牛奶产业规模最大、技术实力最强的龙头企业,是“农业产业化国家重点龙头企业”、“中国奶业20强(D20)企业”、“中国500最具价值品牌”。",
+        "商业模式长摘录": "公开资料可支撑其以皇氏集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002329",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=皇氏集团股份有限公司"
+      ],
+      "repair_note": "把皇氏集团收回到皇氏集团：二十多年来,皇氏集团立足广西、深耕大西南,已成长为我国水牛奶产业规模最大、技术实力最强的龙头企业,是“农业产业化国家重点龙头企业”、“中国奶业20强(D20)企业”、“中国500最具价值品牌”的公司级事实。"
+    },
+    {
+      "account_canonical_name": "盛美半导体设备(上海)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "盛美上海：盛美半导体设备(上海)股份有限公司(以下简称“盛美上海”)成立于2005年,是上海市政府科教兴市项目重点引进的集成电路装备企业,是具备世界先进技术的半导体设备制造商。",
+        "商业模式概述": "以盛美上海相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其盛美上海：盛美半导体设备(上海)股份有限公司(以下简称“盛美上海”)成立于2005年,是上海市政府科教兴市项目重点引进的集成电路装备企业,是具备世界先进技术的半导体设备制造商。",
+        "商业模式长摘录": "公开资料可支撑其以盛美上海相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688082",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=盛美半导体设备(上海)股份有限公司"
+      ],
+      "repair_note": "把盛美半导体设备(上海)收回到盛美上海：盛美半导体设备(上海)股份有限公司(以下简称“盛美上海”)成立于2005年,是上海市政府科教兴市项目重点引进的集成电路装备企业,是具备世界先进技术的半导体设备制造商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "福建七匹狼实业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "七匹狼：除经营自主品牌“七匹狼”男装、针纺、皮具、箱包、童装、高级成衣定制外;还收购了全球顶级时尚品牌“KARLLAGERFELD”:通过入股现代传播数码业务,逐步完善在时尚产业的布局。",
+        "商业模式概述": "以七匹狼相关母婴、宠物或耐用品经营为核心，覆盖电商、零售终端与经销渠道。",
+        "核心客户客群": "母婴家庭、儿童消费家庭、门店会员及零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其七匹狼：除经营自主品牌“七匹狼”男装、针纺、皮具、箱包、童装、高级成衣定制外;还收购了全球顶级时尚品牌“KARLLAGERFELD”:通过入股现代传播数码业务,逐步完善在时尚产业的布局。",
+        "商业模式长摘录": "公开资料可支撑其以七匹狼相关母婴、宠物或耐用品经营为核心，覆盖电商、零售终端与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002029",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=福建七匹狼实业股份有限公司"
+      ],
+      "repair_note": "把福建七匹狼实业收回到七匹狼：除经营自主品牌“七匹狼”男装、针纺、皮具、箱包、童装、高级成衣定制外;还收购了全球顶级时尚品牌“KARLLAGERFELD”:通过入股现代传播数码业务,逐步完善在时尚产业的布局的公司级事实。"
+    },
+    {
+      "account_canonical_name": "福建东百集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "东百集团：在商业零售领域,东百集团历经60多年发展,已成为享誉八闽的商业品牌,是中国东南、西北区域的龙头商业企业。",
+        "商业模式概述": "以东百集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其东百集团：在商业零售领域,东百集团历经60多年发展,已成为享誉八闽的商业品牌,是中国东南、西北区域的龙头商业企业。",
+        "商业模式长摘录": "公开资料可支撑其以东百集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600693",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=福建东百集团股份有限公司"
+      ],
+      "repair_note": "把福建东百集团收回到东百集团：在商业零售领域,东百集团历经60多年发展,已成为享誉八闽的商业品牌,是中国东南、西北区域的龙头商业企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "福建省燕京惠泉啤酒股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "惠泉啤酒：公司现拥有惠安本埠、福建福鼎、江西抚州三个啤酒生产基地,总生产规模设计年产能力80万吨,现实际产能55万吨啤酒,是地方举足轻重的支柱企业和纳税大户。",
+        "商业模式概述": "以惠泉啤酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其惠泉啤酒：公司现拥有惠安本埠、福建福鼎、江西抚州三个啤酒生产基地,总生产规模设计年产能力80万吨,现实际产能55万吨啤酒,是地方举足轻重的支柱企业和纳税大户。",
+        "商业模式长摘录": "公开资料可支撑其以惠泉啤酒相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600573",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=福建省燕京惠泉啤酒股份有限公司"
+      ],
+      "repair_note": "把福建省燕京惠泉啤酒收回到惠泉啤酒：公司现拥有惠安本埠、福建福鼎、江西抚州三个啤酒生产基地,总生产规模设计年产能力80万吨,现实际产能55万吨啤酒,是地方举足轻重的支柱企业和纳税大户的公司级事实。"
+    },
+    {
+      "account_canonical_name": "福建青松股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "青松股份经营范围涵盖一般项目:以自有资金从事投资活动、化妆品批发、化妆品零售、消毒剂销售(不含危险化学品)。",
+        "商业模式概述": "以青松股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "母婴家庭、儿童消费家庭、门店会员及零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其青松股份经营范围涵盖一般项目:以自有资金从事投资活动、化妆品批发、化妆品零售、消毒剂销售(不含危险化学品)。",
+        "商业模式长摘录": "公开资料可支撑其以青松股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300132",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=福建青松股份有限公司"
+      ],
+      "repair_note": "把福建青松收回到青松股份经营范围涵盖一般项目:以自有资金从事投资活动、化妆品批发、化妆品零售、消毒剂销售(不含危险化学品)的公司级事实。"
+    },
+    {
+      "account_canonical_name": "科大国盾量子技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "国盾量子：公司主要从事量子通信、量子计算、量子精密测量产品的研发、生产、销售并提供相关技术服务,是中国量子信息产业化的开拓者、实践者和引领者。",
+        "商业模式概述": "以国盾量子相关产品或解决方案的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其国盾量子：公司主要从事量子通信、量子计算、量子精密测量产品的研发、生产、销售并提供相关技术服务,是中国量子信息产业化的开拓者、实践者和引领者。",
+        "商业模式长摘录": "公开资料可支撑其以国盾量子相关产品或解决方案的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688027",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=科大国盾量子技术股份有限公司"
+      ],
+      "repair_note": "把科大国盾量子技术收回到国盾量子：公司主要从事量子通信、量子计算、量子精密测量产品的研发、生产、销售并提供相关技术服务,是中国量子信息产业化的开拓者、实践者和引领者的公司级事实。"
+    },
+    {
+      "account_canonical_name": "箭牌家居集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "箭牌家居：箭牌家居集团股份有限公司(曾用名乐华家居集团)总部位于广东佛山。",
+        "商业模式概述": "以箭牌家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其箭牌家居：箭牌家居集团股份有限公司(曾用名乐华家居集团)总部位于广东佛山。",
+        "商业模式长摘录": "公开资料可支撑其以箭牌家居相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ001322",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=箭牌家居集团股份有限公司"
+      ],
+      "repair_note": "把箭牌家居集团收回到箭牌家居：箭牌家居集团股份有限公司(曾用名乐华家居集团)总部位于广东佛山的公司级事实。"
+    }
+  ]
+}

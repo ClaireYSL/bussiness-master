@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_09",
+  "batch_title": "客户档案修复第九批",
+  "account_names": [
+    "东山精密制造股份有限公司",
+    "歌尔股份有限公司",
+    "金风科技股份有限公司",
+    "广东新宝电器股份有限公司",
+    "宁波德业科技股份有限公司",
+    "乐歌人体工学科技股份有限公司",
+    "依依股份有限公司",
+    "华瓷股份有限公司",
+    "双枪科技股份有限公司",
+    "麒盛科技股份有限公司",
+    "英科医疗科技股份有限公司",
+    "深圳齐心集团股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "东山精密制造股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营电子电路、精密制造、通信设备和新能源相关精密组件产品，是精密制造与电子零部件企业。",
+        "商业模式概述": "以精密电子制造和零部件研发、生产、销售与服务为核心，面向消费电子、通信和新能源客户提供规模化制造配套服务。",
+        "核心客户客群": "消费电子品牌客户、通信设备客户、新能源客户及全球电子零部件采购客户。",
+        "主要竞品概述": "立讯精密、歌尔股份及电子精密制造企业。",
+        "相似客户线索": "立讯精密工业股份有限公司、歌尔股份有限公司、蓝思科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营电子电路、精密制造、通信设备和新能源相关精密组件产品，是精密制造与电子零部件企业。",
+        "商业模式长摘录": "公开资料可支撑其以精密电子制造和零部件研发、生产、销售与服务为核心，面向消费电子、通信和新能源客户提供规模化制造配套服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=东山精密制造股份有限公司"
+      ],
+      "repair_note": "把东山精密收回到电子精密制造与零部件平台公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "歌尔股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营声学、光学、微电子器件、精密零组件和智能硬件产品，是消费电子精密制造企业。",
+        "商业模式概述": "以消费电子精密零组件和智能硬件研发、制造与交付为核心，面向全球消费电子品牌客户提供规模化制造配套服务。",
+        "核心客户客群": "消费电子品牌客户、智能硬件客户、声学与光学器件采购客户及全球终端品牌合作客户。",
+        "主要竞品概述": "立讯精密、蓝思科技及消费电子精密制造企业。",
+        "相似客户线索": "立讯精密工业股份有限公司、蓝思科技股份有限公司、东山精密制造股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营声学、光学、微电子器件、精密零组件和智能硬件产品，是消费电子精密制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以消费电子精密零组件和智能硬件研发、制造与交付为核心，面向全球消费电子品牌客户提供规模化制造配套服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=歌尔股份有限公司"
+      ],
+      "repair_note": "把歌尔收回到消费电子精密制造与智能硬件平台公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "金风科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营风力发电机组、风电服务及新能源相关解决方案，是风电装备与新能源服务企业。",
+        "商业模式概述": "以风电装备研发、制造、销售、运维服务和新能源项目解决方案为核心，面向风电开发、能源投资和新能源建设客户提供产品与服务。",
+        "核心客户客群": "风电开发客户、能源投资客户、新能源项目客户及大型装备采购客户。",
+        "主要竞品概述": "明阳智慧能源、电气风电及风电装备企业。",
+        "相似客户线索": "明阳智慧能源集团股份公司、运达能源科技集团股份有限公司、电气风电集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_operating_dashboard_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营风力发电机组、风电服务及新能源相关解决方案，是风电装备与新能源服务企业。",
+        "商业模式长摘录": "公开资料可支撑其以风电装备研发、制造、销售、运维服务和新能源项目解决方案为核心，面向风电开发、能源投资和新能源建设客户提供产品与服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=金风科技股份有限公司"
+      ],
+      "repair_note": "把金风科技收回到风电装备与新能源服务公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广东新宝电器股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营厨房小家电、家居电器和相关智能家电产品，是小家电制造企业。",
+        "商业模式概述": "以小家电产品研发、制造、销售和全球供应链交付为核心，面向品牌客户和消费市场提供 OEM/ODM 与品牌经营服务。",
+        "核心客户客群": "家电品牌客户、海外零售渠道客户、电商平台用户及家居电器消费客群。",
+        "主要竞品概述": "德昌股份、富佳股份及小家电制造企业。",
+        "相似客户线索": "宁波富佳实业股份有限公司、德昌股份有限公司、浙江哈尔斯真空器皿股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_fila_supply_chain_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营厨房小家电、家居电器和相关智能家电产品，是小家电制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以小家电产品研发、制造、销售和全球供应链交付为核心，面向品牌客户和消费市场提供 OEM/ODM 与品牌经营服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东新宝电器股份有限公司"
+      ],
+      "repair_note": "把新宝电器收回到小家电制造与全球交付公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波德业科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营逆变器、除湿机、热交换器及相关新能源和环境电器产品，是新能源与环境电器企业。",
+        "商业模式概述": "以新能源逆变器和环境电器产品研发、制造、销售与服务为核心，面向全球渠道客户和消费市场提供产品与解决方案。",
+        "核心客户客群": "新能源渠道客户、海外经销渠道客户、环境电器消费客群及全球零售终端用户。",
+        "主要竞品概述": "阳光电源、锦浪科技及新能源逆变器与环境电器企业。",
+        "相似客户线索": "阳光电源股份有限公司、锦浪科技股份有限公司、华宝新能科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营逆变器、除湿机、热交换器及相关新能源和环境电器产品，是新能源与环境电器企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源逆变器和环境电器产品研发、制造、销售与服务为核心，面向全球渠道客户和消费市场提供产品与解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波德业科技股份有限公司"
+      ],
+      "repair_note": "把德业科技收回到新能源逆变器与环境电器公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "乐歌人体工学科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营人体工学工作站、升降桌、智能家居办公产品及相关健康办公设备，是人体工学与家居办公品牌企业。",
+        "商业模式概述": "以人体工学与健康办公产品研发、制造、品牌经营和跨境销售为核心，通过海外电商、零售渠道和品牌网络覆盖全球市场。",
+        "核心客户客群": "海外办公与家居消费客群、电商平台用户、零售渠道客户及企业采购场景用户。",
+        "主要竞品概述": "麒盛科技、匠心家居及人体工学与家居办公品牌企业。",
+        "相似客户线索": "麒盛科技股份有限公司、匠心家居股份有限公司、久祺股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_home_living_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营人体工学工作站、升降桌、智能家居办公产品及相关健康办公设备，是人体工学与家居办公品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以人体工学与健康办公产品研发、制造、品牌经营和跨境销售为核心，通过海外电商、零售渠道和品牌网络覆盖全球市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司"
+      ],
+      "repair_note": "把乐歌收回到人体工学与健康办公品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "依依股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营宠物卫生护理用品、个人卫生护理用品及相关无纺布产品，是卫生护理用品企业。",
+        "商业模式概述": "以卫生护理用品研发、制造和销售为核心，通过海外品牌客户合作、自有产品和跨境渠道覆盖全球护理消费市场。",
+        "核心客户客群": "宠物护理消费客群、个人卫生护理消费客群、海外品牌客户及跨境零售渠道客户。",
+        "主要竞品概述": "豪悦护理、稳健医疗及卫生护理用品企业。",
+        "相似客户线索": "豪悦护理用品股份有限公司、稳健医疗用品股份有限公司、英科医疗科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_insight_beauty_personalcare_brand_v1,ka_solution_cbec_supply_coordination_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营宠物卫生护理用品、个人卫生护理用品及相关无纺布产品，是卫生护理用品企业。",
+        "商业模式长摘录": "公开资料可支撑其以卫生护理用品研发、制造和销售为核心，通过海外品牌客户合作、自有产品和跨境渠道覆盖全球护理消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=依依股份有限公司"
+      ],
+      "repair_note": "把依依股份收回到卫生护理用品制造与跨境渠道公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "华瓷股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营日用陶瓷、礼品瓷及相关家居陶瓷产品，是日用陶瓷制造与品牌企业。",
+        "商业模式概述": "以陶瓷产品研发、制造、品牌经营和销售为核心，通过海外市场、品牌客户合作和零售渠道覆盖全球家居消费场景。",
+        "核心客户客群": "全球家居消费客群、海外品牌客户、礼品渠道客户及零售终端消费者。",
+        "主要竞品概述": "嘉益股份、双枪科技及家居日用品制造与品牌企业。",
+        "相似客户线索": "嘉益股份有限公司、双枪科技股份有限公司、匠心家居股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_home_living_outbound_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营日用陶瓷、礼品瓷及相关家居陶瓷产品，是日用陶瓷制造与品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以陶瓷产品研发、制造、品牌经营和销售为核心，通过海外市场、品牌客户合作和零售渠道覆盖全球家居消费场景。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=华瓷股份有限公司"
+      ],
+      "repair_note": "把华瓷股份收回到日用陶瓷制造与品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "双枪科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营竹木餐厨具、家居用品及相关日用消费品，是家居日用品制造与品牌企业。",
+        "商业模式概述": "以家居日用品研发、制造、品牌经营和销售为核心，通过国内外零售渠道、电商平台和品牌客户合作覆盖消费市场。",
+        "核心客户客群": "家居消费客群、零售渠道客户、电商平台用户及品牌合作客户。",
+        "主要竞品概述": "华瓷股份、嘉益股份及家居日用品制造与品牌企业。",
+        "相似客户线索": "华瓷股份有限公司、嘉益股份有限公司、匠心家居股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_supply_coordination_v1,ka_insight_cbec_finance_supply_chain_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营竹木餐厨具、家居用品及相关日用消费品，是家居日用品制造与品牌企业。",
+        "商业模式长摘录": "公开资料可支撑其以家居日用品研发、制造、品牌经营和销售为核心，通过国内外零售渠道、电商平台和品牌客户合作覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=双枪科技股份有限公司"
+      ],
+      "repair_note": "把双枪科技收回到家居日用品制造与品牌经营公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "麒盛科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营智能床、电动床及相关智能家居睡眠产品，是智能睡眠家居企业。",
+        "商业模式概述": "以智能睡眠家居产品研发、制造、品牌经营和销售为核心，通过海外零售渠道、品牌客户合作和跨境市场覆盖全球消费场景。",
+        "核心客户客群": "全球家居消费客群、海外零售渠道客户、品牌合作客户及睡眠场景终端用户。",
+        "主要竞品概述": "乐歌、匠心家居及智能家居品牌企业。",
+        "相似客户线索": "乐歌人体工学科技股份有限公司、匠心家居股份有限公司、华瓷股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_home_living_outbound_v1,ka_solution_cbec_supply_coordination_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营智能床、电动床及相关智能家居睡眠产品，是智能睡眠家居企业。",
+        "商业模式长摘录": "公开资料可支撑其以智能睡眠家居产品研发、制造、品牌经营和销售为核心，通过海外零售渠道、品牌客户合作和跨境市场覆盖全球消费场景。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=麒盛科技股份有限公司"
+      ],
+      "repair_note": "把麒盛科技收回到智能睡眠家居与品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "英科医疗科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营一次性医疗耗材、康复护理产品及相关医疗健康用品，是医疗耗材与健康护理企业。",
+        "商业模式概述": "以医疗耗材和健康护理用品研发、制造、销售和全球渠道交付为核心，面向医疗机构、品牌客户和零售市场提供产品与服务。",
+        "核心客户客群": "医疗机构客户、健康护理消费客群、海外渠道客户及品牌合作客户。",
+        "主要竞品概述": "稳健医疗、豪悦护理及医疗耗材与健康护理用品企业。",
+        "相似客户线索": "稳健医疗用品股份有限公司、豪悦护理用品股份有限公司、依依股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_medical_device_channel_v1,ka_solution_cbec_supply_coordination_v1,ka_insight_cbec_finance_supply_chain_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营一次性医疗耗材、康复护理产品及相关医疗健康用品，是医疗耗材与健康护理企业。",
+        "商业模式长摘录": "公开资料可支撑其以医疗耗材和健康护理用品研发、制造、销售和全球渠道交付为核心，面向医疗机构、品牌客户和零售市场提供产品与服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=英科医疗科技股份有限公司"
+      ],
+      "repair_note": "把英科医疗收回到医疗耗材与健康护理全球交付公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳齐心集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营办公物资、企业服务平台及相关软硬件产品与服务，是企业服务与办公用品平台企业。",
+        "商业模式概述": "以办公物资供应和企业服务平台运营为核心，通过硬件、软件和服务一体化方案面向企业客户提供综合服务。",
+        "核心客户客群": "企业采购客户、政企机构客户、办公服务场景客户及平台型企业服务用户。",
+        "主要竞品概述": "晨光股份、得力集团及企业服务与办公用品平台企业。",
+        "相似客户线索": "上海晨光文具股份有限公司、得力集团办公服务样本、焦点科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_supply_coordination_v1,ka_insight_cbec_jtbd_v1,ka_insight_cbec_finance_supply_chain_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营办公物资、企业服务平台及相关软硬件产品与服务，是企业服务与办公用品平台企业。",
+        "商业模式长摘录": "公开资料可支撑其以办公物资供应和企业服务平台运营为核心，通过硬件、软件和服务一体化方案面向企业客户提供综合服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳齐心集团股份有限公司"
+      ],
+      "repair_note": "把齐心集团收回到企业服务平台与办公用品解决方案公司的公司级事实。"
+    }
+  ]
+}

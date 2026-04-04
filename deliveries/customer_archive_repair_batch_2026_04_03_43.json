@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_43",
+  "batch_title": "客户档案修复第43批",
+  "account_names": [
+    "成都彩虹电器(集团)股份有限公司",
+    "成都趣睡科技股份有限公司",
+    "扬州金泉旅游用品股份有限公司",
+    "技源集团股份有限公司",
+    "文峰大世界连锁发展股份有限公司",
+    "新疆伊力特实业股份有限公司",
+    "新疆大全新能源股份有限公司",
+    "日出东方控股股份有限公司",
+    "日禾戎美股份有限公司",
+    "明月镜片股份有限公司",
+    "曼卡龙珠宝股份有限公司",
+    "杭州可靠护理用品股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "成都彩虹电器(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以彩虹集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以彩虹集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ003023",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=成都彩虹电器(集团)股份有限公司"
+      ],
+      "repair_note": "把成都彩虹电器(集团)收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "成都趣睡科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "趣睡科技：成都趣睡科技股份有限公司是一家专注于自有品牌科技创新家居产品的互联网零售公司。",
+        "商业模式概述": "以趣睡科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其趣睡科技：成都趣睡科技股份有限公司是一家专注于自有品牌科技创新家居产品的互联网零售公司。",
+        "商业模式长摘录": "公开资料可支撑其以趣睡科技相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301336",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=成都趣睡科技股份有限公司"
+      ],
+      "repair_note": "把成都趣睡科技收回到趣睡科技：成都趣睡科技股份有限公司是一家专注于自有品牌科技创新家居产品的互联网零售公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "扬州金泉旅游用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "扬州金泉：我们从事户外装备制造业已有20多年的历史,主要以OEM和ODM生产方式经营多个国际著名户外品牌。",
+        "商业模式概述": "以扬州金泉相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其扬州金泉：我们从事户外装备制造业已有20多年的历史,主要以OEM和ODM生产方式经营多个国际著名户外品牌。",
+        "商业模式长摘录": "公开资料可支撑其以扬州金泉相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603307",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=扬州金泉旅游用品股份有限公司"
+      ],
+      "repair_note": "把扬州金泉旅游用品收回到扬州金泉：我们从事户外装备制造业已有20多年的历史,主要以OEM和ODM生产方式经营多个国际著名户外品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "技源集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "技源集团：技源集团股份有限公司是一家专业从事膳食营养补充产品研发创新及产业化的国际化企业集团。",
+        "商业模式概述": "以技源集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其技源集团：技源集团股份有限公司是一家专业从事膳食营养补充产品研发创新及产业化的国际化企业集团。",
+        "商业模式长摘录": "公开资料可支撑其以技源集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603262",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=技源集团股份有限公司"
+      ],
+      "repair_note": "把技源集团收回到技源集团：技源集团股份有限公司是一家专业从事膳食营养补充产品研发创新及产业化的国际化企业集团的公司级事实。"
+    },
+    {
+      "account_canonical_name": "文峰大世界连锁发展股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "文峰股份：截至目前,公司拥有以“文峰大世界”为品牌的百货商场9家,以“文峰广场”为品牌的购物中心7家,以“文峰千家惠”为品牌的精品超市11家,以“文峰电器”为品牌的电器终端10家,以“文峰好邻”为品牌的便利店50家,以“文峰超市”为品牌的加盟店500家。",
+        "商业模式概述": "以文峰股份相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其文峰股份：截至目前,公司拥有以“文峰大世界”为品牌的百货商场9家,以“文峰广场”为品牌的购物中心7家,以“文峰千家惠”为品牌的精品超市11家,以“文峰电器”为品牌的电器终端10家,以“文峰好邻”为品牌的便利店50家,以“文峰超市”为品牌的加盟店500家。",
+        "商业模式长摘录": "公开资料可支撑其以文峰股份相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH601010",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=文峰大世界连锁发展股份有限公司"
+      ],
+      "repair_note": "把文峰大世界连锁发展收回到文峰股份：截至目前,公司拥有以“文峰大世界”为品牌的百货商场9家,以“文峰广场”为品牌的购物中心7家,以“文峰千家惠”为品牌的精品超市11家,以“文峰电器”为品牌的电器终端10家,以“文峰好邻”为品牌的便利店50家,以“文峰超市”为品牌的加盟店500家的公司级事实。"
+    },
+    {
+      "account_canonical_name": "新疆伊力特实业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "伊力特经营范围涵盖白酒生产研发及销售、火力发电及供应(限所属分支机构经营)、热力生产和供应(限所属分支机构经营)、水的生产。",
+        "商业模式概述": "以伊力特相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其伊力特经营范围涵盖白酒生产研发及销售、火力发电及供应(限所属分支机构经营)、热力生产和供应(限所属分支机构经营)、水的生产。",
+        "商业模式长摘录": "公开资料可支撑其以伊力特相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600197",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新疆伊力特实业股份有限公司"
+      ],
+      "repair_note": "把新疆伊力特实业收回到伊力特经营范围涵盖白酒生产研发及销售、火力发电及供应(限所属分支机构经营)、热力生产和供应(限所属分支机构经营)、水的生产的公司级事实。"
+    },
+    {
+      "account_canonical_name": "新疆大全新能源股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "大全能源：自成立以来,公司紧紧围绕国家新能源战略规划,以绿色低碳、循环发展为经营理念,依托持续的研发投入和技术创新,结合低成本能源优势以及地处硅产业基地集群优势,采用成熟、稳定的改良西门子法加冷氢化生产工艺,通过多年的技术攻关和产业化建设,实现了通过数字化、智能化生产装置和闭环式运行工艺制备高质量、低能耗、低成本的高纯多晶硅产品。",
+        "商业模式概述": "以大全能源相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其大全能源：自成立以来,公司紧紧围绕国家新能源战略规划,以绿色低碳、循环发展为经营理念,依托持续的研发投入和技术创新,结合低成本能源优势以及地处硅产业基地集群优势,采用成熟、稳定的改良西门子法加冷氢化生产工艺,通过多年的技术攻关和产业化建设,实现了通过数字化、智能化生产装置和闭环式运行工艺制备高质量、低能耗、低成本的高纯多晶硅产品。",
+        "商业模式长摘录": "公开资料可支撑其以大全能源相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688303",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=新疆大全新能源股份有限公司"
+      ],
+      "repair_note": "把新疆大全新能源收回到大全能源：自成立以来,公司紧紧围绕国家新能源战略规划,以绿色低碳、循环发展为经营理念,依托持续的研发投入和技术创新,结合低成本能源优势以及地处硅产业基地集群优势,采用成熟、稳定的改良西门子法加冷氢化生产工艺,通过多年的技术攻关和产业化建设,实现了通过数字化、智能化生产装置和闭环式运行工艺制备高质量、低能耗、低成本的高纯多晶硅产品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "日出东方控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "日出东方：集团旗下有“太阳雨”“四季沐歌”“帅康”“日出东方电力科技”“日出东方储能科技”“西藏日出东方”等行业品牌和公司,有连云港、余姚、顺德、洛阳、西藏等产业基地,累计为全球3500万家庭和20000+工程客户提供清洁能源和健康家居解决方案。",
+        "商业模式概述": "以日出东方相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其日出东方：集团旗下有“太阳雨”“四季沐歌”“帅康”“日出东方电力科技”“日出东方储能科技”“西藏日出东方”等行业品牌和公司,有连云港、余姚、顺德、洛阳、西藏等产业基地,累计为全球3500万家庭和20000+工程客户提供清洁能源和健康家居解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以日出东方相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603366",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=日出东方控股股份有限公司"
+      ],
+      "repair_note": "把日出东方控股收回到日出东方：集团旗下有“太阳雨”“四季沐歌”“帅康”“日出东方电力科技”“日出东方储能科技”“西藏日出东方”等行业品牌和公司,有连云港、余姚、顺德、洛阳、西藏等产业基地,累计为全球3500万家庭和20000+工程客户提供清洁能源和健康家居解决方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "日禾戎美股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "戎美股份：日禾戎美股份有限公司RUMERE品牌女装业务经营始于2006年,创始人为温迪女士。",
+        "商业模式概述": "以戎美股份相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其戎美股份：日禾戎美股份有限公司RUMERE品牌女装业务经营始于2006年,创始人为温迪女士。",
+        "商业模式长摘录": "公开资料可支撑其以戎美股份相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301088",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=日禾戎美股份有限公司"
+      ],
+      "repair_note": "把日禾戎美收回到戎美股份：日禾戎美股份有限公司RUMERE品牌女装业务经营始于2006年,创始人为温迪女士的公司级事实。"
+    },
+    {
+      "account_canonical_name": "明月镜片股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "明月镜片：明月镜片股份有限公司2002年成立于上海,是中国镜片领导品牌,技术先进,全国销量领先,由著名演员陈道明和青年演员刘昊然倾情代言。",
+        "商业模式概述": "以明月镜片相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其明月镜片：明月镜片股份有限公司2002年成立于上海,是中国镜片领导品牌,技术先进,全国销量领先,由著名演员陈道明和青年演员刘昊然倾情代言。",
+        "商业模式长摘录": "公开资料可支撑其以明月镜片相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301101",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=明月镜片股份有限公司"
+      ],
+      "repair_note": "把明月镜片收回到明月镜片：明月镜片股份有限公司2002年成立于上海,是中国镜片领导品牌,技术先进,全国销量领先,由著名演员陈道明和青年演员刘昊然倾情代言的公司级事实。"
+    },
+    {
+      "account_canonical_name": "曼卡龙珠宝股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以曼卡龙相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以曼卡龙相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300945",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=曼卡龙珠宝股份有限公司"
+      ],
+      "repair_note": "把曼卡龙珠宝收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "杭州可靠护理用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "可靠股份：杭州可靠护理用品股份有限公司(以下称“可靠股份”)成立于2001年,是一家专注于一次性卫生用品设计、研发、生产和销售的高新技术企业,产品涵盖婴儿护理用品、成人失禁用品和宠物卫生用品等,拥有可靠、吸收宝等多个知名品牌。",
+        "商业模式概述": "以可靠股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其可靠股份：杭州可靠护理用品股份有限公司(以下称“可靠股份”)成立于2001年,是一家专注于一次性卫生用品设计、研发、生产和销售的高新技术企业,产品涵盖婴儿护理用品、成人失禁用品和宠物卫生用品等,拥有可靠、吸收宝等多个知名品牌。",
+        "商业模式长摘录": "公开资料可支撑其以可靠股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301009",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州可靠护理用品股份有限公司"
+      ],
+      "repair_note": "把杭州可靠护理用品收回到可靠股份：杭州可靠护理用品股份有限公司(以下称“可靠股份”)成立于2001年,是一家专注于一次性卫生用品设计、研发、生产和销售的高新技术企业,产品涵盖婴儿护理用品、成人失禁用品和宠物卫生用品等,拥有可靠、吸收宝等多个知名品牌的公司级事实。"
+    }
+  ]
+}

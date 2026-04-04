@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_26",
+  "batch_title": "客户档案修复第26批",
+  "account_names": [
+    "杭州解百集团股份有限公司",
+    "杭州长川科技股份有限公司",
+    "欧派家居集团股份有限公司",
+    "武商集团股份有限公司",
+    "江苏中天科技股份有限公司",
+    "江苏亨通光电股份有限公司",
+    "江苏康力源体育科技股份有限公司",
+    "江苏红豆实业股份有限公司",
+    "江苏金陵体育器材股份有限公司",
+    "江苏长电科技股份有限公司",
+    "江西赣锋锂业集团股份有限公司",
+    "江西铜业股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "杭州解百集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "杭州解百经营范围涵盖日用百货销售、针纺织品销售、日用品销售、工艺美术品及收藏品零售(象牙及其制品除外)。",
+        "商业模式概述": "以杭州解百相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其杭州解百经营范围涵盖日用百货销售、针纺织品销售、日用品销售、工艺美术品及收藏品零售(象牙及其制品除外)。",
+        "商业模式长摘录": "公开资料可支撑其以杭州解百相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600814",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州解百集团股份有限公司"
+      ],
+      "repair_note": "把杭州解百集团收回到杭州解百经营范围涵盖日用百货销售、针纺织品销售、日用品销售、工艺美术品及收藏品零售(象牙及其制品除外)的公司级事实。"
+    },
+    {
+      "account_canonical_name": "杭州长川科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "长川科技：目前,在日本、上海、北京、成都、哈尔滨、苏州、内江、长沙、合肥等地设有分支机构,并先后并购新加坡AOI设备制造商STI、日本SATO公司半导体事业部和马来西亚测试设备制造商EXIS。",
+        "商业模式概述": "以长川科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其长川科技：目前,在日本、上海、北京、成都、哈尔滨、苏州、内江、长沙、合肥等地设有分支机构,并先后并购新加坡AOI设备制造商STI、日本SATO公司半导体事业部和马来西亚测试设备制造商EXIS。",
+        "商业模式长摘录": "公开资料可支撑其以长川科技相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300604",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=杭州长川科技股份有限公司"
+      ],
+      "repair_note": "把杭州长川科技收回到长川科技：目前,在日本、上海、北京、成都、哈尔滨、苏州、内江、长沙、合肥等地设有分支机构,并先后并购新加坡AOI设备制造商STI、日本SATO公司半导体事业部和马来西亚测试设备制造商EXIS的公司级事实。"
+    },
+    {
+      "account_canonical_name": "欧派家居集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "欧派家居：欧派家居集团以整体橱柜为起点,业务领域延伸到衣柜、整家定制、木门、卫浴、软装、厨电、金属门窗、装甲门、家具配套、整装大家居等,形成多元化产业格局,树立了整体橱柜、衣柜双王牌品类矩阵,是国内集研发、制造、销售为一体的多业务板块合力发展的综合型现代整体家居一体化服务供应商。",
+        "商业模式概述": "以欧派家居相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其欧派家居：欧派家居集团以整体橱柜为起点,业务领域延伸到衣柜、整家定制、木门、卫浴、软装、厨电、金属门窗、装甲门、家具配套、整装大家居等,形成多元化产业格局,树立了整体橱柜、衣柜双王牌品类矩阵,是国内集研发、制造、销售为一体的多业务板块合力发展的综合型现代整体家居一体化服务供应商。",
+        "商业模式长摘录": "公开资料可支撑其以欧派家居相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603833",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=欧派家居集团股份有限公司"
+      ],
+      "repair_note": "把欧派家居集团收回到欧派家居：欧派家居集团以整体橱柜为起点,业务领域延伸到衣柜、整家定制、木门、卫浴、软装、厨电、金属门窗、装甲门、家具配套、整装大家居等,形成多元化产业格局,树立了整体橱柜、衣柜双王牌品类矩阵,是国内集研发、制造、销售为一体的多业务板块合力发展的综合型现代整体家居一体化服务供应商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "武商集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "武商集团经营范围涵盖日用品批发、五金产品零售、家具销售、家具零配件销售。",
+        "商业模式概述": "以武商集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其武商集团经营范围涵盖日用品批发、五金产品零售、家具销售、家具零配件销售。",
+        "商业模式长摘录": "公开资料可支撑其以武商集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000501",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=武商集团股份有限公司"
+      ],
+      "repair_note": "把武商集团收回到武商集团经营范围涵盖日用品批发、五金产品零售、家具销售、家具零配件销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏中天科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中天科技：江苏中天科技股份有限公司1992年起步于光纤通信,2002年迈入智能电网,2011年布局新能源,2020年产品出口160个国家和地区,业务实现“一带一路”全覆盖。",
+        "商业模式概述": "以中天科技相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中天科技：江苏中天科技股份有限公司1992年起步于光纤通信,2002年迈入智能电网,2011年布局新能源,2020年产品出口160个国家和地区,业务实现“一带一路”全覆盖。",
+        "商业模式长摘录": "公开资料可支撑其以中天科技相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600522",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏中天科技股份有限公司"
+      ],
+      "repair_note": "把江苏中天科技收回到中天科技：江苏中天科技股份有限公司1992年起步于光纤通信,2002年迈入智能电网,2011年布局新能源,2020年产品出口160个国家和地区,业务实现“一带一路”全覆盖的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏亨通光电股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "亨通光电经营范围涵盖光纤光缆、电力电缆、特种通信线缆、光纤预制棒。",
+        "商业模式概述": "以亨通光电相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其亨通光电经营范围涵盖光纤光缆、电力电缆、特种通信线缆、光纤预制棒。",
+        "商业模式长摘录": "公开资料可支撑其以亨通光电相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600487",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏亨通光电股份有限公司"
+      ],
+      "repair_note": "把江苏亨通光电收回到亨通光电经营范围涵盖光纤光缆、电力电缆、特种通信线缆、光纤预制棒的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏康力源体育科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "康力源：匠心筑梦创新不辍驰骋国内,公司推行多品牌战略,依托“康力源”、”JXfitness\"\"WINNOW\"等品牌,实现全渠道覆盖,拥有良好的市场美誉度,拓展国际.公司和AdidasReebokOctaneNautilus等国际品牌以及CostcoDick'sSam's等零售巨头保持长期战略合作,通过亚马逊、沃尔玛等跨境电商平台自主销售产品,直达欧美消费者,为40多个国家和地区的客户提供产品和服务。",
+        "商业模式概述": "以康力源相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其康力源：匠心筑梦创新不辍驰骋国内,公司推行多品牌战略,依托“康力源”、”JXfitness\"\"WINNOW\"等品牌,实现全渠道覆盖,拥有良好的市场美誉度,拓展国际.公司和AdidasReebokOctaneNautilus等国际品牌以及CostcoDick'sSam's等零售巨头保持长期战略合作,通过亚马逊、沃尔玛等跨境电商平台自主销售产品,直达欧美消费者,为40多个国家和地区的客户提供产品和服务。",
+        "商业模式长摘录": "公开资料可支撑其以康力源相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301287",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏康力源体育科技股份有限公司"
+      ],
+      "repair_note": "把江苏康力源体育科技收回到康力源：匠心筑梦创新不辍驰骋国内,公司推行多品牌战略,依托“康力源”、”JXfitness\"\"WINNOW\"等品牌,实现全渠道覆盖,拥有良好的市场美誉度,拓展国际.公司和AdidasReebokOctaneNautilus等国际品牌以及CostcoDick'sSam's等零售巨头保持长期战略合作,通过亚马逊、沃尔玛等跨境电商平台自主销售产品,直达欧美消费者,为40多个国家和地区的客户提供产品和服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏红豆实业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以红豆股份相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以红豆股份相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600400",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏红豆实业股份有限公司"
+      ],
+      "repair_note": "把江苏红豆实业收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏金陵体育器材股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "金陵体育经营范围涵盖体育器材、健身器材、体育场馆座椅、看台。",
+        "商业模式概述": "以金陵体育相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其金陵体育经营范围涵盖体育器材、健身器材、体育场馆座椅、看台。",
+        "商业模式长摘录": "公开资料可支撑其以金陵体育相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300651",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏金陵体育器材股份有限公司"
+      ],
+      "repair_note": "把江苏金陵体育器材收回到金陵体育经营范围涵盖体育器材、健身器材、体育场馆座椅、看台的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江苏长电科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "长电科技：江苏长电科技股份有限公司是全球领先的集成电路制造与技术服务提供商,向全球半导体客户提供全方位、一站式芯片成品制造解决方案,涵盖微系统集成、设计仿真、晶圆中测、芯片及器件封装、成品测试、产品认证以及全球直运等服务。",
+        "商业模式概述": "以长电科技相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其长电科技：江苏长电科技股份有限公司是全球领先的集成电路制造与技术服务提供商,向全球半导体客户提供全方位、一站式芯片成品制造解决方案,涵盖微系统集成、设计仿真、晶圆中测、芯片及器件封装、成品测试、产品认证以及全球直运等服务。",
+        "商业模式长摘录": "公开资料可支撑其以长电科技相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600584",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江苏长电科技股份有限公司"
+      ],
+      "repair_note": "把江苏长电科技收回到长电科技：江苏长电科技股份有限公司是全球领先的集成电路制造与技术服务提供商,向全球半导体客户提供全方位、一站式芯片成品制造解决方案,涵盖微系统集成、设计仿真、晶圆中测、芯片及器件封装、成品测试、产品认证以及全球直运等服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江西赣锋锂业集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "赣锋锂业：集团锂矿资源遍及全球,同时拥有“卤水提锂”、“矿石提锂”和“回收提锂”产业化技术;锂化合物、金属锂产能充足,在海内外设有多处生产基地;拥有完整的电池制造及回收技术,为电池生产商及电动汽车生产商提供可持续的增值解决方案。",
+        "商业模式概述": "以赣锋锂业相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其赣锋锂业：集团锂矿资源遍及全球,同时拥有“卤水提锂”、“矿石提锂”和“回收提锂”产业化技术;锂化合物、金属锂产能充足,在海内外设有多处生产基地;拥有完整的电池制造及回收技术,为电池生产商及电动汽车生产商提供可持续的增值解决方案。",
+        "商业模式长摘录": "公开资料可支撑其以赣锋锂业相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002460",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江西赣锋锂业集团股份有限公司"
+      ],
+      "repair_note": "把江西赣锋锂业集团收回到赣锋锂业：集团锂矿资源遍及全球,同时拥有“卤水提锂”、“矿石提锂”和“回收提锂”产业化技术;锂化合物、金属锂产能充足,在海内外设有多处生产基地;拥有完整的电池制造及回收技术,为电池生产商及电动汽车生产商提供可持续的增值解决方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "江西铜业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "江西铜业经营范围涵盖有色金属、稀贵金属采、选、冶炼。",
+        "商业模式概述": "以江西铜业相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其江西铜业经营范围涵盖有色金属、稀贵金属采、选、冶炼。",
+        "商业模式长摘录": "公开资料可支撑其以江西铜业相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600362",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=江西铜业股份有限公司"
+      ],
+      "repair_note": "把江西铜业收回到江西铜业经营范围涵盖有色金属、稀贵金属采、选、冶炼的公司级事实。"
+    }
+  ]
+}

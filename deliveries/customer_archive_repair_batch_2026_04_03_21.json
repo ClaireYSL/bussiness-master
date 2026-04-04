@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_21",
+  "batch_title": "客户档案修复第21批",
+  "account_names": [
+    "华虹半导体有限公司",
+    "南京中央商场(集团)股份有限公司",
+    "南宁百货大楼股份有限公司",
+    "南方黑芝麻集团股份有限公司",
+    "博士眼镜连锁股份有限公司",
+    "厦门松霖科技股份有限公司",
+    "厦门钨业股份有限公司",
+    "合肥恒鑫生活科技股份有限公司",
+    "合肥百货大楼集团股份有限公司",
+    "哈尔滨敷尔佳科技股份有限公司",
+    "哈尔滨森鹰窗业股份有限公司",
+    "哈森商贸(中国)股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "华虹半导体有限公司",
+      "fields": {
+        "公司产品与服务概述": "华虹公司：本公司专注于嵌入式/独立式非易失性存储器、功率器件、模拟与电源管理和逻辑与射频等特色工艺技术的持续创新,有力支持新能源汽车、绿色能源、物联网等新兴领域应用,其卓越的质量管理体系亦满足汽车电子芯片生产的严苛要求。",
+        "商业模式概述": "以华虹公司相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其华虹公司：本公司专注于嵌入式/独立式非易失性存储器、功率器件、模拟与电源管理和逻辑与射频等特色工艺技术的持续创新,有力支持新能源汽车、绿色能源、物联网等新兴领域应用,其卓越的质量管理体系亦满足汽车电子芯片生产的严苛要求。",
+        "商业模式长摘录": "公开资料可支撑其以华虹公司相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688347",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=华虹半导体有限公司"
+      ],
+      "repair_note": "把华虹半导体收回到华虹公司：本公司专注于嵌入式/独立式非易失性存储器、功率器件、模拟与电源管理和逻辑与射频等特色工艺技术的持续创新,有力支持新能源汽车、绿色能源、物联网等新兴领域应用,其卓越的质量管理体系亦满足汽车电子芯片生产的严苛要求的公司级事实。"
+    },
+    {
+      "account_canonical_name": "南京中央商场(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "中央商场经营范围涵盖日用百货、食品、卷烟、雪茄烟零售。",
+        "商业模式概述": "以中央商场相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其中央商场经营范围涵盖日用百货、食品、卷烟、雪茄烟零售。",
+        "商业模式长摘录": "公开资料可支撑其以中央商场相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600280",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=南京中央商场(集团)股份有限公司"
+      ],
+      "repair_note": "把南京中央商场(集团)收回到中央商场经营范围涵盖日用百货、食品、卷烟、雪茄烟零售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "南宁百货大楼股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "南宁百货：主要经营业态为百货、家电、超市、电子商务、汽车,在南宁、贺州等地拥有多家直营门店,经营面积近25万平方米,综合实力位列广西商业龙头,荣获“2019年广西企业100强”、“2019广西服务企业50强”称号及商超零售行业“年度影响力品牌”及“放心消费口碑品牌”两项大奖。",
+        "商业模式概述": "以南宁百货相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其南宁百货：主要经营业态为百货、家电、超市、电子商务、汽车,在南宁、贺州等地拥有多家直营门店,经营面积近25万平方米,综合实力位列广西商业龙头,荣获“2019年广西企业100强”、“2019广西服务企业50强”称号及商超零售行业“年度影响力品牌”及“放心消费口碑品牌”两项大奖。",
+        "商业模式长摘录": "公开资料可支撑其以南宁百货相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600712",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=南宁百货大楼股份有限公司"
+      ],
+      "repair_note": "把南宁百货大楼收回到南宁百货：主要经营业态为百货、家电、超市、电子商务、汽车,在南宁、贺州等地拥有多家直营门店,经营面积近25万平方米,综合实力位列广西商业龙头,荣获“2019年广西企业100强”、“2019广西服务企业50强”称号及商超零售行业“年度影响力品牌”及“放心消费口碑品牌”两项大奖的公司级事实。"
+    },
+    {
+      "account_canonical_name": "南方黑芝麻集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "黑芝麻：南方黑芝麻集团股份有限公司(以下简称公司)始创于1984年,是一家以黑芝麻产业为主业、集黑芝麻食疗食养健康产品研发、生产、销售为一体的大型民营企业集团,是国家首批农业产业化龙头企业。",
+        "商业模式概述": "以黑芝麻相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其黑芝麻：南方黑芝麻集团股份有限公司(以下简称公司)始创于1984年,是一家以黑芝麻产业为主业、集黑芝麻食疗食养健康产品研发、生产、销售为一体的大型民营企业集团,是国家首批农业产业化龙头企业。",
+        "商业模式长摘录": "公开资料可支撑其以黑芝麻相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000716",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=南方黑芝麻集团股份有限公司"
+      ],
+      "repair_note": "把南方黑芝麻集团收回到黑芝麻：南方黑芝麻集团股份有限公司(以下简称公司)始创于1984年,是一家以黑芝麻产业为主业、集黑芝麻食疗食养健康产品研发、生产、销售为一体的大型民营企业集团,是国家首批农业产业化龙头企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "博士眼镜连锁股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "博士眼镜：始终秉承“您的视力保护专家”的品牌愿景,主张专业配镜与时尚潮流相结合,致力于创造更美、更清晰的“视”界。",
+        "商业模式概述": "以博士眼镜相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其博士眼镜：始终秉承“您的视力保护专家”的品牌愿景,主张专业配镜与时尚潮流相结合,致力于创造更美、更清晰的“视”界。",
+        "商业模式长摘录": "公开资料可支撑其以博士眼镜相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300622",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=博士眼镜连锁股份有限公司"
+      ],
+      "repair_note": "把博士眼镜连锁收回到博士眼镜：始终秉承“您的视力保护专家”的品牌愿景,主张专业配镜与时尚潮流相结合,致力于创造更美、更清晰的“视”界的公司级事实。"
+    },
+    {
+      "account_canonical_name": "厦门松霖科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "松霖科技：厦门松霖科技股份有限公司成立于2004年,是一家致力于机器人、大健康软硬件、智能厨卫等产品的研发与制造,以技术创新、工业设计、精密制造作为各类别产品的底层共享平台,且以服务于全球客户为目标的创新型公司。",
+        "商业模式概述": "以松霖科技相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其松霖科技：厦门松霖科技股份有限公司成立于2004年,是一家致力于机器人、大健康软硬件、智能厨卫等产品的研发与制造,以技术创新、工业设计、精密制造作为各类别产品的底层共享平台,且以服务于全球客户为目标的创新型公司。",
+        "商业模式长摘录": "公开资料可支撑其以松霖科技相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603992",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门松霖科技股份有限公司"
+      ],
+      "repair_note": "把厦门松霖科技收回到松霖科技：厦门松霖科技股份有限公司成立于2004年,是一家致力于机器人、大健康软硬件、智能厨卫等产品的研发与制造,以技术创新、工业设计、精密制造作为各类别产品的底层共享平台,且以服务于全球客户为目标的创新型公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "厦门钨业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "厦门钨业：建立了包括稀土开采、治炼、应用和研发的完整体系,树立了以深加工带动产业发展的稀土开发模式之典范;培育了包括三元材料、钴酸锂,磷酸铁锂,锰酸锂等主流锂离子正极材料的研发和大规模制造能力,成为锂电正极材料领域的一流供应商。",
+        "商业模式概述": "以厦门钨业相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其厦门钨业：建立了包括稀土开采、治炼、应用和研发的完整体系,树立了以深加工带动产业发展的稀土开发模式之典范;培育了包括三元材料、钴酸锂,磷酸铁锂,锰酸锂等主流锂离子正极材料的研发和大规模制造能力,成为锂电正极材料领域的一流供应商。",
+        "商业模式长摘录": "公开资料可支撑其以厦门钨业相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600549",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门钨业股份有限公司"
+      ],
+      "repair_note": "把厦门钨业收回到厦门钨业：建立了包括稀土开采、治炼、应用和研发的完整体系,树立了以深加工带动产业发展的稀土开发模式之典范;培育了包括三元材料、钴酸锂,磷酸铁锂,锰酸锂等主流锂离子正极材料的研发和大规模制造能力,成为锂电正极材料领域的一流供应商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "合肥恒鑫生活科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "恒鑫生活：公司产品主要是以PLA(聚乳酸)、PHA(聚羟基脂肪酸酯)等生物基材料为原料的可生物降解餐饮具,为典型的环保、减碳产品,完全契合国家“可循环、易回收、可降解”的政策导向;产品覆盖快餐、饮品等餐饮品类,以及大型企业或机构、民用航空、家庭日用消费等多元场景,销售网络覆盖亚洲、北美洲、大洋洲、欧洲等多个国家和地区。",
+        "商业模式概述": "以恒鑫生活相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其恒鑫生活：公司产品主要是以PLA(聚乳酸)、PHA(聚羟基脂肪酸酯)等生物基材料为原料的可生物降解餐饮具,为典型的环保、减碳产品,完全契合国家“可循环、易回收、可降解”的政策导向;产品覆盖快餐、饮品等餐饮品类,以及大型企业或机构、民用航空、家庭日用消费等多元场景,销售网络覆盖亚洲、北美洲、大洋洲、欧洲等多个国家和地区。",
+        "商业模式长摘录": "公开资料可支撑其以恒鑫生活相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301501",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=合肥恒鑫生活科技股份有限公司"
+      ],
+      "repair_note": "把合肥恒鑫生活科技收回到恒鑫生活：公司产品主要是以PLA(聚乳酸)、PHA(聚羟基脂肪酸酯)等生物基材料为原料的可生物降解餐饮具,为典型的环保、减碳产品,完全契合国家“可循环、易回收、可降解”的政策导向;产品覆盖快餐、饮品等餐饮品类,以及大型企业或机构、民用航空、家庭日用消费等多元场景,销售网络覆盖亚洲、北美洲、大洋洲、欧洲等多个国家和地区的公司级事实。"
+    },
+    {
+      "account_canonical_name": "合肥百货大楼集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "合百集团：目前合肥百大集团产业覆盖零售业及农产品流通两大主业,旗下共有子公司51家,参股公司9家,拥有24家百货购物中心、25家百大电器门店、21家百大易购跨境直销中心、199家合家福超市、5个大型农产品批发市场、2家加工配送中心、33家标准化菜市场等300余家连锁经营网点,品牌分销代理覆盖8000多个商店,连锁及批发分销机构遍布安徽14个地市。",
+        "商业模式概述": "以合百集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其合百集团：目前合肥百大集团产业覆盖零售业及农产品流通两大主业,旗下共有子公司51家,参股公司9家,拥有24家百货购物中心、25家百大电器门店、21家百大易购跨境直销中心、199家合家福超市、5个大型农产品批发市场、2家加工配送中心、33家标准化菜市场等300余家连锁经营网点,品牌分销代理覆盖8000多个商店,连锁及批发分销机构遍布安徽14个地市。",
+        "商业模式长摘录": "公开资料可支撑其以合百集团相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000417",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=合肥百货大楼集团股份有限公司"
+      ],
+      "repair_note": "把合肥百货大楼集团收回到合百集团：目前合肥百大集团产业覆盖零售业及农产品流通两大主业,旗下共有子公司51家,参股公司9家,拥有24家百货购物中心、25家百大电器门店、21家百大易购跨境直销中心、199家合家福超市、5个大型农产品批发市场、2家加工配送中心、33家标准化菜市场等300余家连锁经营网点,品牌分销代理覆盖8000多个商店,连锁及批发分销机构遍布安徽14个地市的公司级事实。"
+    },
+    {
+      "account_canonical_name": "哈尔滨敷尔佳科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "敷尔佳：哈尔滨敷尔佳科技股份有限公司成立于2017年,是一家具有广泛市场认知度和品牌影响力,从事专业皮肤护理产品研发、生产和销售的公司。",
+        "商业模式概述": "以敷尔佳相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其敷尔佳：哈尔滨敷尔佳科技股份有限公司成立于2017年,是一家具有广泛市场认知度和品牌影响力,从事专业皮肤护理产品研发、生产和销售的公司。",
+        "商业模式长摘录": "公开资料可支撑其以敷尔佳相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301371",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=哈尔滨敷尔佳科技股份有限公司"
+      ],
+      "repair_note": "把哈尔滨敷尔佳科技收回到敷尔佳：哈尔滨敷尔佳科技股份有限公司成立于2017年,是一家具有广泛市场认知度和品牌影响力,从事专业皮肤护理产品研发、生产和销售的公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "哈尔滨森鹰窗业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "森鹰窗业：哈尔滨森鹰窗业股份有限公司创始于1998年,率先将德系木窗系统引入中国并提出“铝包木窗”概念,致力于高效节能铝包木窗产品的研发、设计、制造与销售,秉持“有爱有温度”的核心价值观,推动铝包木窗成为门窗行业的新趋势和国家建筑节能政策推荐用窗。",
+        "商业模式概述": "以森鹰窗业相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "工程施工客户、设备租赁及经销体系、基础设施建设相关客户。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其森鹰窗业：哈尔滨森鹰窗业股份有限公司创始于1998年,率先将德系木窗系统引入中国并提出“铝包木窗”概念,致力于高效节能铝包木窗产品的研发、设计、制造与销售,秉持“有爱有温度”的核心价值观,推动铝包木窗成为门窗行业的新趋势和国家建筑节能政策推荐用窗。",
+        "商业模式长摘录": "公开资料可支撑其以森鹰窗业相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301227",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=哈尔滨森鹰窗业股份有限公司"
+      ],
+      "repair_note": "把哈尔滨森鹰窗业收回到森鹰窗业：哈尔滨森鹰窗业股份有限公司创始于1998年,率先将德系木窗系统引入中国并提出“铝包木窗”概念,致力于高效节能铝包木窗产品的研发、设计、制造与销售,秉持“有爱有温度”的核心价值观,推动铝包木窗成为门窗行业的新趋势和国家建筑节能政策推荐用窗的公司级事实。"
+    },
+    {
+      "account_canonical_name": "哈森商贸(中国)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "哈森股份：公司主要从事中高端皮鞋的品牌运营﹑产品设计和销售。",
+        "商业模式概述": "以哈森股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其哈森股份：公司主要从事中高端皮鞋的品牌运营﹑产品设计和销售。",
+        "商业模式长摘录": "公开资料可支撑其以哈森股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603958",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=哈森商贸(中国)股份有限公司"
+      ],
+      "repair_note": "把哈森商贸(中国)收回到哈森股份：公司主要从事中高端皮鞋的品牌运营﹑产品设计和销售的公司级事实。"
+    }
+  ]
+}

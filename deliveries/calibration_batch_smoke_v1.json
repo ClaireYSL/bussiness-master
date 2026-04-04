@@ -1,0 +1,522 @@
+{
+  "task_id": "calibration_batch_3",
+  "task_scope": "静态潜客池污染止血后的小样本校准初判",
+  "rules_summary": {
+    "frozen_content": [
+      "旧L3+客户档案页正文不得直接作为事实源",
+      "旧主表解释型长文本不得直接作为判断依据",
+      "旧重点公司note和专题包中未挂真实来源的描述不得直接作为事实源"
+    ],
+    "minimum_fields": [
+      "account_id",
+      "account_canonical_name",
+      "primary_track",
+      "persona_tag",
+      "公司产品与服务概述",
+      "商业模式概述",
+      "admission_reason_summary",
+      "validation_gap",
+      "信息扎实度",
+      "ICP匹配概率",
+      "静态潜客记录成熟度"
+    ],
+    "allowed_sources": [
+      "官网",
+      "年报/财报/招股书/IR",
+      "官方新闻",
+      "官方招聘页",
+      "交易所公告",
+      "权威公开资料"
+    ]
+  },
+  "track_definitions": [
+    {
+      "track_id": "retail_consumer",
+      "track_name": "零售消费",
+      "definition": "以品牌零售、连锁零售、消费品经营为主，存在总部到渠道/门店/商品经营协同复杂度。"
+    },
+    {
+      "track_id": "cross_border_ecommerce",
+      "track_name": "跨境电商",
+      "definition": "以品牌出海、多平台、多店铺、跨国经营或履约协同为主要结构特征。"
+    },
+    {
+      "track_id": "advanced_manufacturing",
+      "track_name": "先进制造",
+      "definition": "以多工厂、多事业部、研产销协同、经营驾驶舱或集团经营可视化需求为主要结构特征。"
+    }
+  ],
+  "persona_definitions": [
+    {
+      "persona_id": "retail_multi_store",
+      "persona_name": "多门店连锁零售",
+      "definition": "总部强管理、多门店、多区域、多层级经营复盘需求明显的连锁零售经营主体。"
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "persona_name": "高SKU品牌消费品",
+      "definition": "SKU多、上新快、渠道复杂、库存与商品经营联动明显的品牌消费品企业。"
+    },
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "persona_name": "多平台品牌出海型",
+      "definition": "多平台、多店铺、多国家经营，利润分析与供需协同复杂的品牌出海企业。"
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "persona_name": "多工厂离散制造集团",
+      "definition": "多工厂、多事业部、经营协同和LTC可视化需求明显的制造集团。"
+    }
+  ],
+  "knowledge_summary": [
+    {
+      "asset_cluster": "retail_high_sku_brand",
+      "signals": [
+        "商品/库存/补货联动复杂",
+        "渠道/动销/分货协同明显",
+        "品牌消费品属性强"
+      ]
+    },
+    {
+      "asset_cluster": "cbec_multi_platform_brand",
+      "signals": [
+        "多平台经营",
+        "跨国经营或履约复杂度",
+        "T+1利润分析和供应链协同需求明显"
+      ]
+    },
+    {
+      "asset_cluster": "mfg_multi_factory_group",
+      "signals": [
+        "多工厂或多基地",
+        "集团经营驾驶舱需求",
+        "事业部/产线协同复杂"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "account_id": "acc_sanquan",
+      "account_canonical_name": "三全食品股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": null,
+        "商业模式概述": null,
+        "admission_reason_summary": "速冻食品品牌属性强，商品与渠道分析空间明确。",
+        "validation_gap": "渠道结构、库存协同与品牌矩阵仍需补。",
+        "信息扎实度": "中低",
+        "ICP匹配概率": "中",
+        "静态潜客记录成熟度": "L5",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [
+        "https://quote.eastmoney.com/concept/sz002216.html",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md",
+        "https://quote.eastmoney.com/unify/r/0.002216",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002216",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三全食品股份有限公司",
+        "第十三批候选已明确三全食品速冻食品品牌属性。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "主线",
+            "画像",
+            "入池"
+          ],
+          "summary": "第十三批候选已明确三全食品速冻食品品牌属性。"
+        },
+        {
+          "evidence_type": null,
+          "strength": null,
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "本轮L5到L3扩容专项已确认该账户达到标准就绪层级。"
+        },
+        {
+          "evidence_type": "field_support",
+          "strength": "高可信",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "已对 三全食品股份有限公司 完成 L3 全量补强；当前产品/行业/经营复杂度判断已收束到可继续补证层。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "高可信",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "已满足 L3->L2 批量上移门槛：信息扎实度中高、ICP中高及以上、官方源>=1、高可信源>=2、档案完整度达到可升级水平。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "三全食品股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_sanquan",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "boundary_review",
+          "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "渠道结构、库存协同与品牌矩阵仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_sanquan",
+          "decision": "block",
+          "blocking_issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_eastroc",
+      "account_canonical_name": "东鹏饮料（集团）股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "覆盖东鹏特饮、电解质饮料、即饮咖啡、无糖茶等多品类饮料产品。",
+        "商业模式概述": "以品牌饮料经营为核心，依托全国渠道分销与终端动销体系扩张。",
+        "admission_reason_summary": "能量饮料与多品类饮料矩阵、全国渠道覆盖和一物一码数字链路公开特征明确，符合高 SKU 品牌消费品画像。",
+        "validation_gap": "渠道结构、费用归因与多基地产销协同公开信息仍可继续补。",
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L5",
+        "review_status": "pending_review",
+        "candidate_type": "formal_candidate"
+      },
+      "public_source_summary": [
+        "https://quote.eastmoney.com/concept/sh605499.html",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md",
+        "https://quote.eastmoney.com/unify/r/1.605499",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH605499",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=东鹏饮料（集团）股份有限公司",
+        "官网介绍披露东鹏饮料已形成能量饮料、电解质饮料、无糖茶、咖啡等产品矩阵。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "official_site",
+          "strength": "A",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "官网介绍披露东鹏饮料已形成能量饮料、电解质饮料、无糖茶、咖啡等产品矩阵。"
+        },
+        {
+          "evidence_type": "official_site",
+          "strength": "A",
+          "supports": [
+            "digital_signal"
+          ],
+          "summary": "官网介绍披露公司形成一物一码、五码关联的全渠道数字化高速链路。"
+        },
+        {
+          "evidence_type": null,
+          "strength": null,
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "本轮L5到L3扩容专项已确认该账户达到标准就绪层级。"
+        },
+        {
+          "evidence_type": "field_support",
+          "strength": "高可信",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "已对 东鹏饮料（集团）股份有限公司 完成 L3 全量补强；当前产品/行业/经营复杂度判断已收束到可继续补证层。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "高可信",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "已满足 L3->L2 批量上移门槛：信息扎实度中高、ICP中高及以上、官方源>=1、高可信源>=2、档案完整度达到可升级水平。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_eastroc",
+          "candidate_type": "formal_candidate",
+          "review_status": "active",
+          "is_formal_l5_candidate": true,
+          "issues": [],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "verification",
+          "summary": "当前对象满足正式 L5 候选的最小可信字段集。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "渠道结构、费用归因与多基地产销协同公开信息仍可继续补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_eastroc",
+          "decision": "warn",
+          "blocking_issues": [],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      }
+    },
+    {
+      "account_id": "acc_bull",
+      "account_canonical_name": "公牛集团股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": null,
+        "商业模式概述": null,
+        "admission_reason_summary": "消费电子与家居电工品牌属性强，商品与渠道分析空间明确。",
+        "validation_gap": "渠道结构、品牌矩阵与库存协同仍需补。",
+        "信息扎实度": "中低",
+        "ICP匹配概率": "中",
+        "静态潜客记录成熟度": "L5",
+        "review_status": "pending_review",
+        "candidate_type": "observation"
+      },
+      "public_source_summary": [
+        "https://quote.eastmoney.com/concept/sh603195.html",
+        "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md",
+        "https://quote.eastmoney.com/unify/r/1.603195",
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603195",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=公牛集团股份有限公司",
+        "第十六批候选已明确公牛集团消费电子与家居电工品牌属性。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "manual_note",
+          "strength": "B",
+          "supports": [
+            "主线",
+            "画像",
+            "入池"
+          ],
+          "summary": "第十六批候选已明确公牛集团消费电子与家居电工品牌属性。"
+        },
+        {
+          "evidence_type": null,
+          "strength": null,
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "本轮L5到L3扩容专项已确认该账户达到标准就绪层级。"
+        },
+        {
+          "evidence_type": "field_support",
+          "strength": "高可信",
+          "supports": [
+            "background_profile"
+          ],
+          "summary": "已对 公牛集团股份有限公司 完成 L3 全量补强；当前产品/行业/经营复杂度判断已收束到可继续补证层。"
+        },
+        {
+          "evidence_type": "promotion_assessment",
+          "strength": "高可信",
+          "supports": [
+            "persona_support"
+          ],
+          "summary": "已满足 L3->L2 批量上移门槛：信息扎实度中高、ICP中高及以上、官方源>=1、高可信源>=2、档案完整度达到可升级水平。"
+        },
+        {
+          "evidence_type": "quality_reinforcement",
+          "strength": "B",
+          "supports": [
+            "background_profile",
+            "share_support"
+          ],
+          "summary": "公牛集团股份有限公司 已完成一轮 L3+ 档案字段补强与纠错，统一回收到可读档案层口径。"
+        }
+      ],
+      "local_validation": {
+        "l5_candidate": {
+          "account_id": "acc_bull",
+          "candidate_type": "observation",
+          "review_status": "pending_review",
+          "is_formal_l5_candidate": false,
+          "issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warnings": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            }
+          ],
+          "required_queue_type": "boundary_review",
+          "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。",
+          "normalized_fields": {
+            "review_status": "pending_review",
+            "validation_gap": "渠道结构、品牌矩阵与库存协同仍需补。"
+          }
+        },
+        "promotion_gate": {
+          "account_id": "acc_bull",
+          "decision": "block",
+          "blocking_issues": [
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "公司产品与服务概述",
+              "message": "公司产品与服务概述 不能为空。"
+            },
+            {
+              "code": "missing_field",
+              "severity": "block",
+              "field_name": "商业模式概述",
+              "message": "商业模式概述 不能为空。"
+            }
+          ],
+          "warning_issues": [
+            {
+              "code": "persona_boundary_unstable",
+              "severity": "warn",
+              "field_name": "review_status",
+              "message": "当前仍处于观察/边界状态。"
+            },
+            {
+              "code": "promotion_review_missing",
+              "severity": "warn",
+              "field_name": "review_queue",
+              "message": "当前没有开放的 promotion_review 队列项。"
+            }
+          ],
+          "suggested_review_status": "pending_review",
+          "suggested_queue_type": "promotion_review",
+          "summary": "关键判断点仍未收敛，程序不建议推进上移。"
+        }
+      }
+    }
+  ],
+  "source_boundary_check": {
+    "declared_source_tags": [
+      "abstract_knowledge",
+      "structured_main_record",
+      "structured_profile_record",
+      "evidence_summary"
+    ],
+    "frozen_input_detected": false
+  },
+  "local_validation_summary": [
+    {
+      "account_id": "acc_sanquan",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "block"
+    },
+    {
+      "account_id": "acc_eastroc",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "promotion_decision": "warn"
+    },
+    {
+      "account_id": "acc_bull",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "promotion_decision": "block"
+    }
+  ]
+}

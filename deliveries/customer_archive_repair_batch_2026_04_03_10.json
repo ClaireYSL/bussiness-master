@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_10",
+  "batch_title": "客户档案修复第十批",
+  "account_names": [
+    "广东拓斯达科技股份有限公司",
+    "广西柳工机械股份有限公司",
+    "徐工集团工程机械股份有限公司",
+    "明阳智慧能源集团股份公司",
+    "浙江晶盛机电股份有限公司",
+    "浙江杭可科技股份有限公司",
+    "深圳市大族数控科技股份有限公司",
+    "深圳市海目星激光科技集团股份有限公司",
+    "深圳市英维克科技股份有限公司",
+    "深圳市长盈精密技术股份有限公司",
+    "深圳新易盛通信技术股份有限公司",
+    "苏州迈为科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "广东拓斯达科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工业机器人、注塑自动化、数控机床及自动化产线解决方案，是工业自动化装备企业。",
+        "商业模式概述": "以工业自动化装备研发、制造、集成和销售服务为核心，面向制造企业提供设备单机、产线集成与自动化升级方案。",
+        "核心客户客群": "制造企业客户、自动化改造项目客户及工业装备采购与系统集成场景客户。",
+        "主要竞品概述": "埃斯顿、汇川技术及工业自动化与机器人装备企业。",
+        "相似客户线索": "南京埃斯顿自动化股份有限公司、深圳市汇川技术股份有限公司、沈阳新松机器人自动化股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工业机器人、注塑自动化、数控机床及自动化产线解决方案，是工业自动化装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以工业自动化装备研发、制造、集成和销售服务为核心，面向制造企业提供设备单机、产线集成与自动化升级方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广东拓斯达科技股份有限公司"
+      ],
+      "repair_note": "把拓斯达收回到工业自动化装备与产线集成公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "广西柳工机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营装载机、挖掘机、起重机、路面机械及矿山施工设备，是工程机械制造企业。",
+        "商业模式概述": "以工程机械研发、制造、销售和服务为核心，通过国内外经销网络、行业客户直销与工程项目场景覆盖基础设施和施工市场。",
+        "核心客户客群": "工程施工客户、矿山与基础设施客户、经销体系客户及工程设备采购场景客户。",
+        "主要竞品概述": "徐工机械、中联重科及工程机械制造企业。",
+        "相似客户线索": "徐工集团工程机械股份有限公司、中联重科股份有限公司、三一重工股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营装载机、挖掘机、起重机、路面机械及矿山施工设备，是工程机械制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以工程机械研发、制造、销售和服务为核心，通过国内外经销网络、行业客户直销与工程项目场景覆盖基础设施和施工市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=广西柳工机械股份有限公司"
+      ],
+      "repair_note": "把柳工收回到工程机械制造与经销服务网络公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "徐工集团工程机械股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工程起重机械、土方机械、矿业机械、道路机械和高空作业平台等工程装备，是大型工程机械制造企业。",
+        "商业模式概述": "以工程装备研发、制造、销售与全生命周期服务为核心，通过国内外经销网络、行业客户直销和工程项目交付覆盖全球施工设备市场。",
+        "核心客户客群": "基础设施施工客户、矿山与工业客户、海外经销渠道及工程设备采购场景客户。",
+        "主要竞品概述": "三一重工、中联重科及大型工程机械企业。",
+        "相似客户线索": "三一重工股份有限公司、中联重科股份有限公司、广西柳工机械股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工程起重机械、土方机械、矿业机械、道路机械和高空作业平台等工程装备，是大型工程机械制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以工程装备研发、制造、销售与全生命周期服务为核心，通过国内外经销网络、行业客户直销和工程项目交付覆盖全球施工设备市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=徐工集团工程机械股份有限公司"
+      ],
+      "repair_note": "把徐工收回到大型工程机械集团与全球施工设备服务公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "明阳智慧能源集团股份公司",
+      "fields": {
+        "公司产品与服务概述": "主营风力发电机组、海上风电装备、风电场开发运营及新能源相关设备，是风电与新能源装备企业。",
+        "商业模式概述": "以新能源装备研发、制造、销售和风电场开发运营为核心，面向能源投资、发电运营和新能源项目建设场景提供设备与解决方案。",
+        "核心客户客群": "能源投资与发电运营客户、新能源项目建设客户及风电设备采购场景客户。",
+        "主要竞品概述": "金风科技、运达股份及风电整机与新能源装备企业。",
+        "相似客户线索": "金风科技股份有限公司、运达能源科技集团股份有限公司、通威股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营风力发电机组、海上风电装备、风电场开发运营及新能源相关设备，是风电与新能源装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源装备研发、制造、销售和风电场开发运营为核心，面向能源投资、发电运营和新能源项目建设场景提供设备与解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=明阳智慧能源集团股份公司"
+      ],
+      "repair_note": "把明阳智慧能源收回到风电整机与新能源项目公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江晶盛机电股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营晶体生长设备、半导体材料设备、光伏与蓝宝石材料相关装备，是半导体与光伏高端装备企业。",
+        "商业模式概述": "以高端装备研发、制造、销售和技术服务为核心，面向半导体、光伏和新材料产业客户提供专用设备与工艺解决方案。",
+        "核心客户客群": "半导体制造客户、光伏材料客户、新材料产业客户及高端装备采购场景客户。",
+        "主要竞品概述": "晶科设备、迈为股份及半导体光伏装备企业。",
+        "相似客户线索": "苏州迈为科技股份有限公司、浙江杭可科技股份有限公司、深圳新易盛通信技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营晶体生长设备、半导体材料设备、光伏与蓝宝石材料相关装备，是半导体与光伏高端装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以高端装备研发、制造、销售和技术服务为核心，面向半导体、光伏和新材料产业客户提供专用设备与工艺解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江晶盛机电股份有限公司"
+      ],
+      "repair_note": "把晶盛机电收回到半导体与光伏高端装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "浙江杭可科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂电池后处理系统、充放电检测设备和储能相关测试装备，是新能源电池装备企业。",
+        "商业模式概述": "以新能源电池后处理装备研发、制造、销售与服务为核心，面向动力电池、储能电池和新能源制造客户提供产线设备方案。",
+        "核心客户客群": "动力电池制造客户、储能电池客户及新能源产线设备采购场景客户。",
+        "主要竞品概述": "先导智能、迈为股份及新能源装备企业。",
+        "相似客户线索": "无锡先导智能装备股份有限公司、苏州迈为科技股份有限公司、浙江晶盛机电股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂电池后处理系统、充放电检测设备和储能相关测试装备，是新能源电池装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源电池后处理装备研发、制造、销售与服务为核心，面向动力电池、储能电池和新能源制造客户提供产线设备方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=浙江杭可科技股份有限公司"
+      ],
+      "repair_note": "把杭可科技收回到新能源电池后处理装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市大族数控科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营 PCB 专用数控钻孔、成型、检测及配套自动化设备，是电子制造专用装备企业。",
+        "商业模式概述": "以 PCB 专用装备研发、制造、销售和技术服务为核心，面向电子电路板制造客户提供专机设备与产线自动化方案。",
+        "核心客户客群": "PCB 制造客户、电子制造工厂及产线设备采购和自动化升级场景客户。",
+        "主要竞品概述": "海目星、大族激光相关专用设备主体及电子制造装备企业。",
+        "相似客户线索": "深圳市海目星激光科技集团股份有限公司、广东拓斯达科技股份有限公司、深圳市长盈精密技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营 PCB 专用数控钻孔、成型、检测及配套自动化设备，是电子制造专用装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以 PCB 专用装备研发、制造、销售和技术服务为核心，面向电子电路板制造客户提供专机设备与产线自动化方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市大族数控科技股份有限公司"
+      ],
+      "repair_note": "把大族数控收回到 PCB 专用设备与电子制造装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市海目星激光科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营激光及自动化装备，覆盖动力电池、光伏、消费电子等行业应用，是激光装备企业。",
+        "商业模式概述": "以激光与自动化装备研发、制造、销售和交付为核心，面向新能源、消费电子和工业制造客户提供专机与产线解决方案。",
+        "核心客户客群": "新能源制造客户、消费电子制造客户及工业装备采购与产线升级场景客户。",
+        "主要竞品概述": "先导智能、大族数控及激光与自动化装备企业。",
+        "相似客户线索": "深圳市大族数控科技股份有限公司、无锡先导智能装备股份有限公司、广东拓斯达科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营激光及自动化装备，覆盖动力电池、光伏、消费电子等行业应用，是激光装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以激光与自动化装备研发、制造、销售和交付为核心，面向新能源、消费电子和工业制造客户提供专机与产线解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市海目星激光科技集团股份有限公司"
+      ],
+      "repair_note": "把海目星收回到激光与自动化装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市英维克科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营机房与数据中心温控、储能温控、通信与工业热管理产品，是精密温控与热管理设备企业。",
+        "商业模式概述": "以热管理设备研发、制造、销售和服务为核心，面向数据中心、通信、储能和工业设备客户提供温控系统与配套方案。",
+        "核心客户客群": "数据中心客户、通信设备客户、储能系统客户及工业热管理采购场景客户。",
+        "主要竞品概述": "申菱环境、佳力图及精密温控与热管理企业。",
+        "相似客户线索": "申菱环境科技股份有限公司、南京佳力图机房环境技术股份有限公司、深圳市长盈精密技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营机房与数据中心温控、储能温控、通信与工业热管理产品，是精密温控与热管理设备企业。",
+        "商业模式长摘录": "公开资料可支撑其以热管理设备研发、制造、销售和服务为核心，面向数据中心、通信、储能和工业设备客户提供温控系统与配套方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市英维克科技股份有限公司"
+      ],
+      "repair_note": "把英维克收回到精密温控与热管理设备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市长盈精密技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营精密电子结构件、连接器、新能源零组件及智能制造相关产品，是精密制造企业。",
+        "商业模式概述": "以精密零组件研发、制造、销售和配套服务为核心，面向消费电子、新能源和工业客户提供规模化制造配套与零部件交付。",
+        "核心客户客群": "消费电子品牌客户、新能源客户、工业设备客户及精密零部件采购场景客户。",
+        "主要竞品概述": "立讯精密、歌尔股份及消费电子精密制造企业。",
+        "相似客户线索": "立讯精密工业股份有限公司、歌尔股份有限公司、东山精密制造股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营精密电子结构件、连接器、新能源零组件及智能制造相关产品，是精密制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以精密零组件研发、制造、销售和配套服务为核心，面向消费电子、新能源和工业客户提供规模化制造配套与零部件交付。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市长盈精密技术股份有限公司"
+      ],
+      "repair_note": "把长盈精密收回到精密零组件与规模化制造配套公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳新易盛通信技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营光模块、光器件及高速光通信相关产品，是光通信器件企业。",
+        "商业模式概述": "以光通信器件研发、制造、销售和技术服务为核心，面向通信设备、数据中心和网络基础设施客户提供高速光连接产品。",
+        "核心客户客群": "通信设备客户、数据中心客户、云与网络基础设施客户及光模块采购场景客户。",
+        "主要竞品概述": "中际旭创、天孚通信及光模块与光通信器件企业。",
+        "相似客户线索": "中际旭创股份有限公司、苏州天孚光通信股份有限公司、浙江晶盛机电股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营光模块、光器件及高速光通信相关产品，是光通信器件企业。",
+        "商业模式长摘录": "公开资料可支撑其以光通信器件研发、制造、销售和技术服务为核心，面向通信设备、数据中心和网络基础设施客户提供高速光连接产品。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳新易盛通信技术股份有限公司"
+      ],
+      "repair_note": "把新易盛收回到高速光通信器件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州迈为科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营光伏电池设备、显示面板设备和高端智能装备，是高端装备制造企业。",
+        "商业模式概述": "以高端装备研发、制造、销售和技术服务为核心，面向光伏、显示和先进制造客户提供专用设备与产线解决方案。",
+        "核心客户客群": "光伏制造客户、显示面板客户、先进制造客户及高端装备采购场景客户。",
+        "主要竞品概述": "晶盛机电、先导智能及高端装备企业。",
+        "相似客户线索": "浙江晶盛机电股份有限公司、无锡先导智能装备股份有限公司、浙江杭可科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营光伏电池设备、显示面板设备和高端智能装备，是高端装备制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以高端装备研发、制造、销售和技术服务为核心，面向光伏、显示和先进制造客户提供专用设备与产线解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州迈为科技股份有限公司"
+      ],
+      "repair_note": "把迈为科技收回到光伏与高端智能装备公司的公司级事实。"
+    }
+  ]
+}

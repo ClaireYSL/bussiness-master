@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_31",
+  "batch_title": "客户档案修复第31批",
+  "account_names": [
+    "芯原微电子(上海)股份有限公司",
+    "苏州伟创电气科技股份有限公司",
+    "苏州天孚光通信股份有限公司",
+    "苏州斯莱克精密设备股份有限公司",
+    "苏州瑞可达连接系统股份有限公司",
+    "苏州盛科通信股份有限公司",
+    "苏州赛腾精密电子股份有限公司",
+    "英杰电气股份有限公司",
+    "英科再生资源股份有限公司",
+    "英联股份有限公司",
+    "茶花现代家居用品股份有限公司",
+    "莲花控股股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "芯原微电子(上海)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "芯原股份：基于自有的IP,公司已拥有丰富的面向人工智能(AI)应用的软硬件芯片定制平台解决方案,涵盖如智能手表、AR/VR眼镜等始终在线(Always-on)的轻量化空间计算设备,AIPC、AI手机、智慧汽车、机器人等高效率端侧计算设备,以及数据中心/服务器等高性能云侧计算设备。",
+        "商业模式概述": "以芯原股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其芯原股份：基于自有的IP,公司已拥有丰富的面向人工智能(AI)应用的软硬件芯片定制平台解决方案,涵盖如智能手表、AR/VR眼镜等始终在线(Always-on)的轻量化空间计算设备,AIPC、AI手机、智慧汽车、机器人等高效率端侧计算设备,以及数据中心/服务器等高性能云侧计算设备。",
+        "商业模式长摘录": "公开资料可支撑其以芯原股份相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688521",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=芯原微电子(上海)股份有限公司"
+      ],
+      "repair_note": "把芯原微电子(上海)收回到芯原股份：基于自有的IP,公司已拥有丰富的面向人工智能(AI)应用的软硬件芯片定制平台解决方案,涵盖如智能手表、AR/VR眼镜等始终在线(Always-on)的轻量化空间计算设备,AIPC、AI手机、智慧汽车、机器人等高效率端侧计算设备,以及数据中心/服务器等高性能云侧计算设备的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州伟创电气科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "伟创电气：公司以“成为全球智慧工业和绿色能源解决方案的一流企业”为愿景,在苏州设立研发中心和生产基地,分别在深圳、西安设立研发中心,并在海外设立了全资子公司,目前业务遍及多个国家和地区,持续为全球客户提供有竞争力、安全可信赖的产品和服务。",
+        "商业模式概述": "以伟创电气相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其伟创电气：公司以“成为全球智慧工业和绿色能源解决方案的一流企业”为愿景,在苏州设立研发中心和生产基地,分别在深圳、西安设立研发中心,并在海外设立了全资子公司,目前业务遍及多个国家和地区,持续为全球客户提供有竞争力、安全可信赖的产品和服务。",
+        "商业模式长摘录": "公开资料可支撑其以伟创电气相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688698",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州伟创电气科技股份有限公司"
+      ],
+      "repair_note": "把苏州伟创电气科技收回到伟创电气：公司以“成为全球智慧工业和绿色能源解决方案的一流企业”为愿景,在苏州设立研发中心和生产基地,分别在深圳、西安设立研发中心,并在海外设立了全资子公司,目前业务遍及多个国家和地区,持续为全球客户提供有竞争力、安全可信赖的产品和服务的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州天孚光通信股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天孚通信：苏州天孚光通信股份有限公司是业界领先的光器件整体解决方案提供商和光电先进封装制造服务商,致力于高速光器件的研发、生产和销售。",
+        "商业模式概述": "以天孚通信相关产品或解决方案的研发、生产和销售为核心。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天孚通信：苏州天孚光通信股份有限公司是业界领先的光器件整体解决方案提供商和光电先进封装制造服务商,致力于高速光器件的研发、生产和销售。",
+        "商业模式长摘录": "公开资料可支撑其以天孚通信相关产品或解决方案的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300394",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州天孚光通信股份有限公司"
+      ],
+      "repair_note": "把苏州天孚光通信收回到天孚通信：苏州天孚光通信股份有限公司是业界领先的光器件整体解决方案提供商和光电先进封装制造服务商,致力于高速光器件的研发、生产和销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州斯莱克精密设备股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "斯莱克：公司定位于面向全球市场的高端专用成套设备的设计制造,为金属包装行业客户提供高端装备以及整体解决方案,主要从事成套高速易拉盖、易拉罐生产设备、图像检测等各类系统的研发、设计、生产、装配调试及相关精密模具、零备件的研发、加工制造。",
+        "商业模式概述": "以斯莱克相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其斯莱克：公司定位于面向全球市场的高端专用成套设备的设计制造,为金属包装行业客户提供高端装备以及整体解决方案,主要从事成套高速易拉盖、易拉罐生产设备、图像检测等各类系统的研发、设计、生产、装配调试及相关精密模具、零备件的研发、加工制造。",
+        "商业模式长摘录": "公开资料可支撑其以斯莱克相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300382",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州斯莱克精密设备股份有限公司"
+      ],
+      "repair_note": "把苏州斯莱克精密设备收回到斯莱克：公司定位于面向全球市场的高端专用成套设备的设计制造,为金属包装行业客户提供高端装备以及整体解决方案,主要从事成套高速易拉盖、易拉罐生产设备、图像检测等各类系统的研发、设计、生产、装配调试及相关精密模具、零备件的研发、加工制造的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州瑞可达连接系统股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "瑞可达：主要产品分为连接器类、线缆组件类、系统模块类等,广泛应用于数据通信、新能源汽车、储能/清洁能源、工业控制、医疗设备、轨道交通装备等领域。",
+        "商业模式概述": "以瑞可达相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "医院、医学中心、科研院所及医疗设备采购相关机构。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其瑞可达：主要产品分为连接器类、线缆组件类、系统模块类等,广泛应用于数据通信、新能源汽车、储能/清洁能源、工业控制、医疗设备、轨道交通装备等领域。",
+        "商业模式长摘录": "公开资料可支撑其以瑞可达相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688800",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州瑞可达连接系统股份有限公司"
+      ],
+      "repair_note": "把苏州瑞可达连接系统收回到瑞可达：主要产品分为连接器类、线缆组件类、系统模块类等,广泛应用于数据通信、新能源汽车、储能/清洁能源、工业控制、医疗设备、轨道交通装备等领域的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州盛科通信股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以盛科通信相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以盛科通信相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688702",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州盛科通信股份有限公司"
+      ],
+      "repair_note": "把苏州盛科通信收回到公司级事实的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州赛腾精密电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "赛腾股份：赛腾致力于为客户提供自动化解决方案,集非标自动化领域研发方案设计、精密加工、组装调试、安装培训和服务支持于一体。",
+        "商业模式概述": "以赛腾股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其赛腾股份：赛腾致力于为客户提供自动化解决方案,集非标自动化领域研发方案设计、精密加工、组装调试、安装培训和服务支持于一体。",
+        "商业模式长摘录": "公开资料可支撑其以赛腾股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603283",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州赛腾精密电子股份有限公司"
+      ],
+      "repair_note": "把苏州赛腾精密电子收回到赛腾股份：赛腾致力于为客户提供自动化解决方案,集非标自动化领域研发方案设计、精密加工、组装调试、安装培训和服务支持于一体的公司级事实。"
+    },
+    {
+      "account_canonical_name": "英杰电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "英杰电气：二十多年来,公司始终以自主研发、持续创新为核心,专注于以功率控制电源、特种电源为代表的工业电源设备的研发制造,产品广泛应用于石油、化工、冶金、机械、建材等传统行业以及光伏、核电、半导体、环保等新兴行业。",
+        "商业模式概述": "以英杰电气相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其英杰电气：二十多年来,公司始终以自主研发、持续创新为核心,专注于以功率控制电源、特种电源为代表的工业电源设备的研发制造,产品广泛应用于石油、化工、冶金、机械、建材等传统行业以及光伏、核电、半导体、环保等新兴行业。",
+        "商业模式长摘录": "公开资料可支撑其以英杰电气相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300820",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=英杰电气股份有限公司"
+      ],
+      "repair_note": "把英杰电气收回到英杰电气：二十多年来,公司始终以自主研发、持续创新为核心,专注于以功率控制电源、特种电源为代表的工业电源设备的研发制造,产品广泛应用于石油、化工、冶金、机械、建材等传统行业以及光伏、核电、半导体、环保等新兴行业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "英科再生资源股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "英科再生：公司自主研发设计的GreenMax泡沫减容增密回收设备,可将PS泡沫塑料体积迅速缩小至原来的1/50,帮助境内外80多个国家的1000余个回收点大幅度提高回收效率,降低运转成本。",
+        "商业模式概述": "以英科再生相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其英科再生：公司自主研发设计的GreenMax泡沫减容增密回收设备,可将PS泡沫塑料体积迅速缩小至原来的1/50,帮助境内外80多个国家的1000余个回收点大幅度提高回收效率,降低运转成本。",
+        "商业模式长摘录": "公开资料可支撑其以英科再生相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688087",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=英科再生资源股份有限公司"
+      ],
+      "repair_note": "把英科再生资源收回到英科再生：公司自主研发设计的GreenMax泡沫减容增密回收设备,可将PS泡沫塑料体积迅速缩小至原来的1/50,帮助境内外80多个国家的1000余个回收点大幅度提高回收效率,降低运转成本的公司级事实。"
+    },
+    {
+      "account_canonical_name": "英联股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "英联股份：公司现已形成覆盖食品(含干粉)、饮料、日化用品等多应用领域,通过核心技术的研发、制造技术的革新、优质设备的引进、管理水平的提升、服务细节的优化,打造“工业4.0”智能化的生产基地,向全球客户提供一站式、全品类易开盖,现已成为雀巢、亨氏、可口可乐、百事可乐、百威啤酒、美赞臣、王老吉、伊利、蒙牛等国内外知名品牌的供应商。",
+        "商业模式概述": "以英联股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "赛维时代、华凯易佰及相关企业。",
+        "相似客户线索": "赛维时代、华凯易佰、正浩 EcoFlow"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其英联股份：公司现已形成覆盖食品(含干粉)、饮料、日化用品等多应用领域,通过核心技术的研发、制造技术的革新、优质设备的引进、管理水平的提升、服务细节的优化,打造“工业4.0”智能化的生产基地,向全球客户提供一站式、全品类易开盖,现已成为雀巢、亨氏、可口可乐、百事可乐、百威啤酒、美赞臣、王老吉、伊利、蒙牛等国内外知名品牌的供应商。",
+        "商业模式长摘录": "公开资料可支撑其以英联股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002846",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=英联股份有限公司"
+      ],
+      "repair_note": "把英联收回到英联股份：公司现已形成覆盖食品(含干粉)、饮料、日化用品等多应用领域,通过核心技术的研发、制造技术的革新、优质设备的引进、管理水平的提升、服务细节的优化,打造“工业4.0”智能化的生产基地,向全球客户提供一站式、全品类易开盖,现已成为雀巢、亨氏、可口可乐、百事可乐、百威啤酒、美赞臣、王老吉、伊利、蒙牛等国内外知名品牌的供应商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "茶花现代家居用品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "茶花股份：茶花现代家居用品股份有限公司成立于1997年,专业从事家居用品的设计、开发、生产和销售。",
+        "商业模式概述": "以茶花股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其茶花股份：茶花现代家居用品股份有限公司成立于1997年,专业从事家居用品的设计、开发、生产和销售。",
+        "商业模式长摘录": "公开资料可支撑其以茶花股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603615",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=茶花现代家居用品股份有限公司"
+      ],
+      "repair_note": "把茶花现代家居用品收回到茶花股份：茶花现代家居用品股份有限公司成立于1997年,专业从事家居用品的设计、开发、生产和销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "莲花控股股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "莲花控股：公司是国务院重点扶持发展的520家企业之一,被农业部等8部委认定为全国第一批151家农业产业化国家重点龙头企业,被国家工商行政管理总局确定为全国首批41家国家商标战略实施示范企业,在中国食品行业率先获得ISO9001国际质量体系认证,首家通过HACCP体系认证,被中国名牌战略推进委员会审定为首批“中国名牌”,被中国绿色食品发展中心认定为“绿色食品”,“莲花”商标被国家工商行政管理总局认定为“中国驰名商标”,顺利通过国家环境管理体系认证。",
+        "商业模式概述": "以莲花控股相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其莲花控股：公司是国务院重点扶持发展的520家企业之一,被农业部等8部委认定为全国第一批151家农业产业化国家重点龙头企业,被国家工商行政管理总局确定为全国首批41家国家商标战略实施示范企业,在中国食品行业率先获得ISO9001国际质量体系认证,首家通过HACCP体系认证,被中国名牌战略推进委员会审定为首批“中国名牌”,被中国绿色食品发展中心认定为“绿色食品”,“莲花”商标被国家工商行政管理总局认定为“中国驰名商标”,顺利通过国家环境管理体系认证。",
+        "商业模式长摘录": "公开资料可支撑其以莲花控股相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600186",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=莲花控股股份有限公司"
+      ],
+      "repair_note": "把莲花控股收回到莲花控股：公司是国务院重点扶持发展的520家企业之一,被农业部等8部委认定为全国第一批151家农业产业化国家重点龙头企业,被国家工商行政管理总局确定为全国首批41家国家商标战略实施示范企业,在中国食品行业率先获得ISO9001国际质量体系认证,首家通过HACCP体系认证,被中国名牌战略推进委员会审定为首批“中国名牌”,被中国绿色食品发展中心认定为“绿色食品”,“莲花”商标被国家工商行政管理总局认定为“中国驰名商标”,顺利通过国家环境管理体系认证的公司级事实。"
+    }
+  ]
+}

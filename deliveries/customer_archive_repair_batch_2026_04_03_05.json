@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_05",
+  "batch_title": "客户档案修复第五批",
+  "account_names": [
+    "中控技术股份有限公司",
+    "宁波拓普集团股份有限公司",
+    "惠州市德赛西威汽车电子股份有限公司",
+    "株洲中车时代电气股份有限公司",
+    "水羊集团股份有限公司",
+    "永辉超市股份有限公司",
+    "上海爱婴室商务服务股份有限公司",
+    "中炬高新技术实业（集团）股份有限公司",
+    "华宝新能科技股份有限公司",
+    "厦门吉宏科技股份有限公司",
+    "焦点科技股份有限公司",
+    "开润股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "中控技术股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工业自动化控制系统、工业软件及智能制造解决方案，是流程工业自动化与工业软件企业。",
+        "商业模式概述": "以工业自动化控制系统和工业软件研发、交付与服务为核心，面向流程工业客户提供系统集成、软件平台和运维服务。",
+        "核心客户客群": "流程工业企业、工业数字化升级客户及大型制造业客户。",
+        "主要竞品概述": "和利时、宝信软件及工业自动化与工业软件企业。",
+        "相似客户线索": "深圳市汇川技术股份有限公司、沈阳新松机器人自动化股份有限公司、中控技术股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工业自动化控制系统、工业软件及智能制造解决方案，是流程工业自动化与工业软件企业。",
+        "商业模式长摘录": "公开资料可支撑其以工业自动化控制系统和工业软件研发、交付与服务为核心，面向流程工业客户提供系统集成、软件平台和运维服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中控技术股份有限公司"
+      ],
+      "repair_note": "把中控技术从泛化制造模板收回到流程工业自动化与工业软件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波拓普集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营汽车 NVH、内外饰、底盘系统、热管理等汽车零部件产品，是汽车零部件平台企业。",
+        "商业模式概述": "以汽车零部件研发、制造和销售为核心，面向整车厂和新能源车客户提供平台化零部件配套服务。",
+        "核心客户客群": "整车厂客户、新能源汽车客户及汽车产业链配套客户。",
+        "主要竞品概述": "宁波均胜电子、芜湖伯特利及汽车零部件平台企业。",
+        "相似客户线索": "惠州市德赛西威汽车电子股份有限公司、芜湖伯特利汽车安全系统股份有限公司、宁波均胜电子股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_case_mfg_group_dashboard_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营汽车 NVH、内外饰、底盘系统、热管理等汽车零部件产品，是汽车零部件平台企业。",
+        "商业模式长摘录": "公开资料可支撑其以汽车零部件研发、制造和销售为核心，面向整车厂和新能源车客户提供平台化零部件配套服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波拓普集团股份有限公司"
+      ],
+      "repair_note": "修正拓普集团的业务模式，使其回到汽车零部件平台企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "惠州市德赛西威汽车电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营智能座舱、智能驾驶、网联服务平台等汽车电子产品与解决方案，是汽车电子企业。",
+        "商业模式概述": "以汽车电子产品研发、制造和销售为核心，面向整车厂提供智能座舱、智能驾驶和网联化解决方案。",
+        "核心客户客群": "整车厂客户、新能源汽车品牌及汽车电子配套客户。",
+        "主要竞品概述": "均胜电子、中控技术及汽车电子与智能驾驶企业。",
+        "相似客户线索": "宁波拓普集团股份有限公司、宁波均胜电子股份有限公司、芜湖伯特利汽车安全系统股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_case_mfg_group_dashboard_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营智能座舱、智能驾驶、网联服务平台等汽车电子产品与解决方案，是汽车电子企业。",
+        "商业模式长摘录": "公开资料可支撑其以汽车电子产品研发、制造和销售为核心，面向整车厂提供智能座舱、智能驾驶和网联化解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=惠州市德赛西威汽车电子股份有限公司"
+      ],
+      "repair_note": "补强德赛西威的汽车电子产品线与整车厂导向的经营模式。"
+    },
+    {
+      "account_canonical_name": "株洲中车时代电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营轨道交通电气装备、功率半导体、新能源汽车电驱系统及工业变流产品。",
+        "商业模式概述": "以高端电气装备和功率电子产品研发、制造和销售为核心，面向轨交、新能源汽车和工业客户提供设备与系统解决方案。",
+        "核心客户客群": "轨道交通客户、新能源汽车客户及工业电气装备客户。",
+        "主要竞品概述": "中控技术、阳光电源及高端电气装备企业。",
+        "相似客户线索": "中控技术股份有限公司、阳光电源股份有限公司、宁德时代新能源科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_solution_group_coordination_mfg_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营轨道交通电气装备、功率半导体、新能源汽车电驱系统及工业变流产品。",
+        "商业模式长摘录": "公开资料可支撑其以高端电气装备和功率电子产品研发、制造和销售为核心，面向轨交、新能源汽车和工业客户提供设备与系统解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=株洲中车时代电气股份有限公司"
+      ],
+      "repair_note": "修正中车时代电气从泛化制造模板回到轨交与功率电子装备企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "水羊集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营美妆个护品牌经营、品牌管理及相关电商和渠道服务，是美妆消费品企业。",
+        "商业模式概述": "以美妆品牌经营和全渠道零售为核心，同时开展品牌孵化、渠道运营和数字化营销服务。",
+        "核心客户客群": "美妆个护消费客群、电商平台用户及品牌渠道合作伙伴。",
+        "主要竞品概述": "贝泰妮、丸美股份及美妆品牌经营企业。",
+        "相似客户线索": "贝泰妮集团股份有限公司、广东芭薇生物科技股份有限公司、广州若羽臣科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_missface_retail_growth_v1,ka_insight_beauty_personalcare_brand_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营美妆个护品牌经营、品牌管理及相关电商和渠道服务，是美妆消费品企业。",
+        "商业模式长摘录": "公开资料可支撑其以美妆品牌经营和全渠道零售为核心，同时开展品牌孵化、渠道运营和数字化营销服务。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=水羊集团股份有限公司"
+      ],
+      "repair_note": "把水羊集团收回到美妆品牌经营与全渠道零售公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "永辉超市股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营商超零售、生鲜供应链和线上到家等零售业务，是全国性连锁商超企业。",
+        "商业模式概述": "以连锁商超运营为核心，通过门店网络、生鲜供应链、直营网点和线上到家服务覆盖消费市场。",
+        "核心客户客群": "家庭消费客群、社区零售场景用户及门店会员用户。",
+        "主要竞品概述": "家家悦、深圳市农产品集团及区域连锁商超企业。",
+        "相似客户线索": "家家悦集团股份有限公司、深圳市农产品集团股份有限公司、名创优品（广州）有限责任公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_familymart_kpi_loop_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营商超零售、生鲜供应链和线上到家等零售业务，是全国性连锁商超企业。",
+        "商业模式长摘录": "公开资料可支撑其以连锁商超运营为核心，通过门店网络、生鲜供应链、直营网点和线上到家服务覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=永辉超市股份有限公司"
+      ],
+      "repair_note": "修正永辉超市从泛化食品流通模板回到连锁商超与生鲜供应链运营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "上海爱婴室商务服务股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营母婴商品零售、母婴服务及相关品牌经营，是母婴连锁零售企业。",
+        "商业模式概述": "以母婴商品零售和服务为核心，通过门店网络、电商渠道和会员运营服务家庭消费客群。",
+        "核心客户客群": "母婴家庭消费客群、门店会员及线上零售用户。",
+        "主要竞品概述": "孩子王、名创优品及母婴零售企业。",
+        "相似客户线索": "孩子王儿童用品股份有限公司、名创优品（广州）有限责任公司、家家悦集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_babycare_ops_v1,ka_case_chatbi_frontline_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营母婴商品零售、母婴服务及相关品牌经营，是母婴连锁零售企业。",
+        "商业模式长摘录": "公开资料可支撑其以母婴商品零售和服务为核心，通过门店网络、电商渠道和会员运营服务家庭消费客群。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=上海爱婴室商务服务股份有限公司"
+      ],
+      "repair_note": "把爱婴室收回到母婴连锁零售与会员服务公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "中炬高新技术实业（集团）股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营调味品品牌经营等食品业务，是调味品消费品企业。",
+        "商业模式概述": "以调味品品牌研发、生产和销售为核心，通过经销、商超、电商和餐饮渠道覆盖消费市场。",
+        "核心客户客群": "家庭消费客群、餐饮渠道、商超零售终端及经销网络。",
+        "主要竞品概述": "佛山市海天调味食品股份有限公司、涪陵榨菜及调味品品牌企业。",
+        "相似客户线索": "佛山市海天调味食品股份有限公司、西王食品股份有限公司、盐津铺子食品股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_haitian_fin_supply_v1,ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1",
+        "talk_track_refs": "ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_hq_visibility_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营调味品品牌经营等食品业务，是调味品消费品企业。",
+        "商业模式长摘录": "公开资料可支撑其以调味品品牌研发、生产和销售为核心，通过经销、商超、电商和餐饮渠道覆盖消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中炬高新技术实业（集团）股份有限公司"
+      ],
+      "repair_note": "把中炬高新从泛化范围描述修回调味品品牌经营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "华宝新能科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营便携储能、太阳能板及相关户外能源产品，运营 Jackery 等品牌出海业务。",
+        "商业模式概述": "以自有品牌户外能源产品经营为核心，依托跨境电商、海外渠道和品牌零售服务全球消费市场。",
+        "核心客户客群": "海外户外与家庭能源消费客群、电商平台用户及海外零售渠道客户。",
+        "主要竞品概述": "深圳市正浩创新科技股份有限公司、安克创新及便携储能品牌企业。",
+        "相似客户线索": "安克创新科技股份有限公司、深圳市正浩创新科技股份有限公司、致欧家居科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_cbec_consumer_electronics_ops_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营便携储能、太阳能板及相关户外能源产品，运营 Jackery 等品牌出海业务。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌户外能源产品经营为核心，依托跨境电商、海外渠道和品牌零售服务全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=华宝新能科技股份有限公司"
+      ],
+      "repair_note": "把华宝新能收回到便携储能品牌出海公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "厦门吉宏科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营跨境电商业务、品牌营销及包装相关业务，是跨境零售与营销服务企业。",
+        "商业模式概述": "以跨境电商和品牌营销服务为核心，同时经营包装相关业务，通过电商平台和数字营销服务海外市场。",
+        "核心客户客群": "跨境消费客群、品牌客户及海外电商渠道用户。",
+        "主要竞品概述": "华凯易佰、开润股份及跨境零售与品牌服务企业。",
+        "相似客户线索": "华凯易佰科技股份有限公司、开润股份有限公司、焦点科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营跨境电商业务、品牌营销及包装相关业务，是跨境零售与营销服务企业。",
+        "商业模式长摘录": "公开资料可支撑其以跨境电商和品牌营销服务为核心，同时经营包装相关业务，通过电商平台和数字营销服务海外市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门吉宏科技股份有限公司"
+      ],
+      "repair_note": "修正吉宏科技从泛化跨境模板回到跨境零售与营销服务企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "焦点科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营外贸 B2B 平台、企业服务及数字贸易服务，是数字贸易平台企业。",
+        "商业模式概述": "以数字贸易平台会员服务、营销服务和企业服务为核心，服务外贸企业和跨境贸易经营场景。",
+        "核心客户客群": "外贸企业客户、跨境贸易商家及企业服务场景客户。",
+        "主要竞品概述": "国联股份及数字贸易平台与企业服务企业。",
+        "相似客户线索": "国联股份、华凯易佰科技股份有限公司、开润股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营外贸 B2B 平台、企业服务及数字贸易服务，是数字贸易平台企业。",
+        "商业模式长摘录": "公开资料可支撑其以数字贸易平台会员服务、营销服务和企业服务为核心，服务外贸企业和跨境贸易经营场景。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=焦点科技股份有限公司"
+      ],
+      "repair_note": "把焦点科技从错误的工业/医疗模板收回到数字贸易平台企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "开润股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营箱包、服饰及出行用品制造与品牌经营，覆盖代工和自有品牌业务。",
+        "商业模式概述": "以出行用品制造和品牌经营为核心，同时开展代工制造与自有品牌销售，服务全球消费市场。",
+        "核心客户客群": "品牌客户、海外消费客群及零售渠道客户。",
+        "主要竞品概述": "华利实业、久祺股份及出行用品与消费品制造企业。",
+        "相似客户线索": "华利实业集团股份有限公司、厦门吉宏科技股份有限公司、华宝新能科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营箱包、服饰及出行用品制造与品牌经营，覆盖代工和自有品牌业务。",
+        "商业模式长摘录": "公开资料可支撑其以出行用品制造和品牌经营为核心，同时开展代工制造与自有品牌销售，服务全球消费市场。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=开润股份有限公司"
+      ],
+      "repair_note": "补强开润股份的出行用品制造与品牌经营并行模式，避免继续停留在泛化模板。"
+    }
+  ]
+}

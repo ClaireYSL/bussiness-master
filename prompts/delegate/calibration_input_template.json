@@ -1,0 +1,165 @@
+{
+  "task_id": "calibration_batch_demo_v1",
+  "task_scope": "静态潜客池污染止血后的小样本校准初判",
+  "rules_summary": {
+    "frozen_content": [
+      "旧L3+客户档案页正文不得直接作为事实源",
+      "旧主表解释型长文本不得直接作为判断依据",
+      "旧重点公司note和专题包中未挂真实来源的描述不得直接作为事实源"
+    ],
+    "minimum_fields": [
+      "account_id",
+      "account_canonical_name",
+      "primary_track",
+      "persona_tag",
+      "公司产品与服务概述",
+      "商业模式概述",
+      "admission_reason_summary",
+      "validation_gap",
+      "信息扎实度",
+      "ICP匹配概率",
+      "静态潜客记录成熟度"
+    ],
+    "allowed_sources": [
+      "官网",
+      "年报/财报/招股书/IR",
+      "官方新闻",
+      "官方招聘页",
+      "交易所公告",
+      "权威公开资料"
+    ]
+  },
+  "track_definitions": [
+    {
+      "track_id": "retail_consumer",
+      "track_name": "零售消费",
+      "definition": "以品牌零售、连锁零售、消费品经营为主，存在总部到渠道/门店/商品经营协同复杂度。"
+    },
+    {
+      "track_id": "cross_border_ecommerce",
+      "track_name": "跨境电商",
+      "definition": "以品牌出海、多平台、多店铺、跨国经营或履约协同为主要结构特征。"
+    },
+    {
+      "track_id": "advanced_manufacturing",
+      "track_name": "先进制造",
+      "definition": "以多工厂、多事业部、研产销协同、经营驾驶舱或集团经营可视化需求为主要结构特征。"
+    }
+  ],
+  "persona_definitions": [
+    {
+      "persona_id": "retail_multi_store",
+      "persona_name": "多门店连锁零售",
+      "definition": "总部强管理、多门店、多区域、多层级经营复盘需求明显的连锁零售经营主体。"
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "persona_name": "高SKU品牌消费品",
+      "definition": "SKU多、上新快、渠道复杂、库存与商品经营联动明显的品牌消费品企业。"
+    },
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "persona_name": "多平台品牌出海型",
+      "definition": "多平台、多店铺、多国家经营，利润分析与供需协同复杂的品牌出海企业。"
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "persona_name": "多工厂离散制造集团",
+      "definition": "多工厂、多事业部、经营协同和LTC可视化需求明显的制造集团。"
+    }
+  ],
+  "knowledge_summary": [
+    {
+      "asset_cluster": "retail_high_sku_brand",
+      "signals": [
+        "商品/库存/补货联动复杂",
+        "渠道/动销/分货协同明显",
+        "品牌消费品属性强"
+      ]
+    },
+    {
+      "asset_cluster": "cbec_multi_platform_brand",
+      "signals": [
+        "多平台经营",
+        "跨国经营或履约复杂度",
+        "T+1利润分析和供应链协同需求明显"
+      ]
+    },
+    {
+      "asset_cluster": "mfg_multi_factory_group",
+      "signals": [
+        "多工厂或多基地",
+        "集团经营驾驶舱需求",
+        "事业部/产线协同复杂"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "account_id": "acc_demo_1",
+      "account_canonical_name": "示例公司A股份有限公司",
+      "current_record": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "主营护肤和彩妆产品，并通过线上线下渠道销售。",
+        "商业模式概述": "以品牌经营和全渠道销售为主。",
+        "admission_reason_summary": "该公司属于高SKU品牌消费品画像，与现有美妆品牌样本相邻。",
+        "validation_gap": "待确认直营网/经销比例、库存协同复杂度。",
+        "信息扎实度": "中",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L3"
+      },
+      "public_source_summary": [
+        "官网显示公司拥有多个护肤和彩妆品牌，并覆盖天猫、抖音及线下门店渠道。",
+        "年报摘要显示其以品牌运营和销售渠道管理为核心，存在新品上市和渠道投放管理。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "official_website",
+          "strength": "A",
+          "supports": ["主线", "画像", "产品服务"],
+          "summary": "官网可确认品牌消费品属性和多渠道经营。"
+        },
+        {
+          "evidence_type": "annual_report",
+          "strength": "S",
+          "supports": ["商业模式", "渠道结构"],
+          "summary": "年报摘要可确认品牌运营和渠道销售结构。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_demo_2",
+      "account_canonical_name": "示例公司B科技股份有限公司",
+      "current_record": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "从事自动化设备研发、生产和销售。",
+        "商业模式概述": "技术驱动型制造，覆盖研发、制造与销售协同。",
+        "admission_reason_summary": "该公司属于多工厂离散制造集团画像，可作为先进制造候选。",
+        "validation_gap": "待确认是否存在多工厂/多事业部协同。",
+        "信息扎实度": "中高",
+        "ICP匹配概率": "中高",
+        "静态潜客记录成熟度": "L2"
+      },
+      "public_source_summary": [
+        "官网可确认主营自动化设备。",
+        "公开资料仅提到多个产品线，未明确多工厂或集团协同结构。"
+      ],
+      "evidence_summary": [
+        {
+          "evidence_type": "official_website",
+          "strength": "A",
+          "supports": ["产品服务"],
+          "summary": "官网可确认自动化设备业务。"
+        },
+        {
+          "evidence_type": "media_interview",
+          "strength": "B",
+          "supports": ["产品线"],
+          "summary": "公开采访提到产品线较多，但未明确经营协同结构。"
+        }
+      ]
+    }
+  ]
+}

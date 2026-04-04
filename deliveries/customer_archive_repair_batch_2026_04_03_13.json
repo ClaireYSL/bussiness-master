@@ -1,0 +1,332 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_13",
+  "batch_title": "客户档案修复第十三批",
+  "account_names": [
+    "合肥巨一科技股份有限公司",
+    "哈尔滨博实自动化股份有限公司",
+    "国机精工集团股份有限公司",
+    "埃夫特智能装备股份有限公司",
+    "大连华锐重工集团股份有限公司",
+    "奥普特科技股份有限公司",
+    "宁波中大力德智能传动股份有限公司",
+    "宁波容百新能源科技股份有限公司",
+    "宁波旭升集团股份有限公司",
+    "宁波继峰汽车零部件股份有限公司",
+    "安徽中鼎密封件股份有限公司",
+    "安徽合力股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "合肥巨一科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营智能装备、新能源汽车电驱动系统及自动化生产线相关产品，是智能装备与新能源系统企业。",
+        "商业模式概述": "以智能装备研发、制造、系统集成和交付服务为核心，面向新能源汽车和先进制造客户提供自动化产线与电驱动系统解决方案。",
+        "核心客户客群": "新能源汽车制造客户、先进制造客户及自动化产线采购和升级场景客户。",
+        "主要竞品概述": "先惠技术、博众精工及智能装备与自动化产线企业。",
+        "相似客户线索": "先惠技术股份有限公司、博众精工科技股份有限公司、无锡先导智能装备股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营智能装备、新能源汽车电驱动系统及自动化生产线相关产品，是智能装备与新能源系统企业。",
+        "商业模式长摘录": "公开资料可支撑其以智能装备研发、制造、系统集成和交付服务为核心，面向新能源汽车和先进制造客户提供自动化产线与电驱动系统解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=合肥巨一科技股份有限公司"
+      ],
+      "repair_note": "把巨一科技收回到智能装备与新能源汽车电驱系统公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "哈尔滨博实自动化股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营自动化成套装备、机器人及智能工厂相关系统，是自动化装备企业。",
+        "商业模式概述": "以自动化装备研发、制造、系统集成和交付服务为核心，面向石化、化工和工业制造客户提供自动化生产解决方案。",
+        "核心客户客群": "石化化工客户、工业制造客户及自动化装备采购和项目交付场景客户。",
+        "主要竞品概述": "拓斯达、博众精工及自动化装备企业。",
+        "相似客户线索": "广东拓斯达科技股份有限公司、博众精工科技股份有限公司、上海克来机电自动化工程股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营自动化成套装备、机器人及智能工厂相关系统，是自动化装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以自动化装备研发、制造、系统集成和交付服务为核心，面向石化、化工和工业制造客户提供自动化生产解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=哈尔滨博实自动化股份有限公司"
+      ],
+      "repair_note": "把博实自动化收回到自动化成套装备与工业项目交付公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "国机精工集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营轴承、磨料磨具、超硬材料及精密功能材料产品，是精密材料与部件企业。",
+        "商业模式概述": "以精密材料与零部件研发、制造、销售和服务为核心，面向高端制造、工业装备和材料应用场景提供功能材料与关键部件。",
+        "核心客户客群": "高端制造客户、工业装备客户及精密材料与关键部件采购场景客户。",
+        "主要竞品概述": "五洲新春、中密控股及精密材料与部件制造企业。",
+        "相似客户线索": "五洲新春集团股份有限公司、中密控股股份有限公司、宁波中大力德智能传动股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营轴承、磨料磨具、超硬材料及精密功能材料产品，是精密材料与部件企业。",
+        "商业模式长摘录": "公开资料可支撑其以精密材料与零部件研发、制造、销售和服务为核心，面向高端制造、工业装备和材料应用场景提供功能材料与关键部件。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=国机精工集团股份有限公司"
+      ],
+      "repair_note": "把国机精工收回到精密功能材料与关键部件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "埃夫特智能装备股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营工业机器人、智能制造装备及系统集成产品，是工业机器人与智能装备企业。",
+        "商业模式概述": "以工业机器人和智能制造装备研发、制造、销售及集成服务为核心，面向汽车及工业制造客户提供机器人应用和产线解决方案。",
+        "核心客户客群": "汽车制造客户、工业制造客户及机器人装备采购和产线升级场景客户。",
+        "主要竞品概述": "新松机器人、拓斯达及工业机器人与智能装备企业。",
+        "相似客户线索": "沈阳新松机器人自动化股份有限公司、广东拓斯达科技股份有限公司、博众精工科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营工业机器人、智能制造装备及系统集成产品，是工业机器人与智能装备企业。",
+        "商业模式长摘录": "公开资料可支撑其以工业机器人和智能制造装备研发、制造、销售及集成服务为核心，面向汽车及工业制造客户提供机器人应用和产线解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=埃夫特智能装备股份有限公司"
+      ],
+      "repair_note": "把埃夫特收回到工业机器人与智能制造装备公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "大连华锐重工集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营港口机械、起重设备、冶金矿山机械及大型重型装备，是重工装备制造企业。",
+        "商业模式概述": "以重型装备研发、制造、销售和工程服务为核心，面向港口、冶金、矿山和工业项目场景提供大型装备与系统解决方案。",
+        "核心客户客群": "港口客户、冶金矿山客户、工业项目客户及重型装备采购场景客户。",
+        "主要竞品概述": "中信重工、徐工机械及重工装备企业。",
+        "相似客户线索": "中信重工机械股份有限公司、徐工集团工程机械股份有限公司、安徽合力股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营港口机械、起重设备、冶金矿山机械及大型重型装备，是重工装备制造企业。",
+        "商业模式长摘录": "公开资料可支撑其以重型装备研发、制造、销售和工程服务为核心，面向港口、冶金、矿山和工业项目场景提供大型装备与系统解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=大连华锐重工集团股份有限公司"
+      ],
+      "repair_note": "把大连重工收回到港口与重型装备工程公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "奥普特科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营机器视觉光源、工业相机、视觉算法及相关检测产品，是机器视觉企业。",
+        "商业模式概述": "以机器视觉产品研发、制造、销售和技术服务为核心，面向电子、新能源和先进制造客户提供视觉检测解决方案。",
+        "核心客户客群": "电子制造客户、新能源制造客户及机器视觉检测采购和自动化升级场景客户。",
+        "主要竞品概述": "海康机器人、凌云光及机器视觉企业。",
+        "相似客户线索": "凌云光技术股份有限公司、中科飞测科技股份有限公司、华工科技产业股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营机器视觉光源、工业相机、视觉算法及相关检测产品，是机器视觉企业。",
+        "商业模式长摘录": "公开资料可支撑其以机器视觉产品研发、制造、销售和技术服务为核心，面向电子、新能源和先进制造客户提供视觉检测解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=奥普特科技股份有限公司"
+      ],
+      "repair_note": "把奥普特收回到机器视觉检测与工业视觉方案公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波中大力德智能传动股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营减速器、电机驱动和智能传动相关产品，是智能传动部件企业。",
+        "商业模式概述": "以智能传动产品研发、制造、销售和服务为核心，面向机器人、自动化设备和工业制造客户提供传动与控制部件解决方案。",
+        "核心客户客群": "机器人客户、自动化设备客户及传动控制部件采购场景客户。",
+        "主要竞品概述": "鸣志电器、步科股份及智能传动与运动控制企业。",
+        "相似客户线索": "上海鸣志电器股份有限公司、上海步科自动化股份有限公司、国机精工集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营减速器、电机驱动和智能传动相关产品，是智能传动部件企业。",
+        "商业模式长摘录": "公开资料可支撑其以智能传动产品研发、制造、销售和服务为核心，面向机器人、自动化设备和工业制造客户提供传动与控制部件解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波中大力德智能传动股份有限公司"
+      ],
+      "repair_note": "把中大力德收回到智能传动与减速器控制部件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波容百新能源科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营锂电正极材料及相关新能源材料产品，是新能源电池材料企业。",
+        "商业模式概述": "以新能源材料研发、生产、销售和技术服务为核心，面向动力电池、储能和新能源制造客户提供正极材料供应。",
+        "核心客户客群": "动力电池客户、储能电池客户及新能源材料采购场景客户。",
+        "主要竞品概述": "当升材料、恩捷股份及新能源电池材料企业。",
+        "相似客户线索": "北京当升材料科技股份有限公司、云南恩捷新材料股份有限公司、厦门厦钨新能源材料股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_xtc_smart_mfg_v1,ka_insight_mfg_ltc_coordination_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营锂电正极材料及相关新能源材料产品，是新能源电池材料企业。",
+        "商业模式长摘录": "公开资料可支撑其以新能源材料研发、生产、销售和技术服务为核心，面向动力电池、储能和新能源制造客户提供正极材料供应。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波容百新能源科技股份有限公司"
+      ],
+      "repair_note": "把容百科技收回到新能源正极材料与关键材料供应公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波旭升集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营铝合金精密压铸件、汽车零部件及相关结构件产品，是精密压铸零部件企业。",
+        "商业模式概述": "以精密零部件研发、制造、销售和服务为核心，面向新能源汽车和汽车制造客户提供铝合金结构件与配套零部件供应。",
+        "核心客户客群": "新能源汽车客户、汽车制造客户及铝合金结构件采购场景客户。",
+        "主要竞品概述": "继峰股份、中鼎股份及汽车零部件制造企业。",
+        "相似客户线索": "宁波继峰汽车零部件股份有限公司、安徽中鼎密封件股份有限公司、五洲新春集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营铝合金精密压铸件、汽车零部件及相关结构件产品，是精密压铸零部件企业。",
+        "商业模式长摘录": "公开资料可支撑其以精密零部件研发、制造、销售和服务为核心，面向新能源汽车和汽车制造客户提供铝合金结构件与配套零部件供应。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波旭升集团股份有限公司"
+      ],
+      "repair_note": "把旭升集团收回到新能源汽车铝合金零部件公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "宁波继峰汽车零部件股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营汽车座椅、内饰系统及汽车零部件产品，是汽车零部件企业。",
+        "商业模式概述": "以汽车零部件研发、制造、销售和服务为核心，面向全球汽车制造客户提供座椅与内饰系统配套方案。",
+        "核心客户客群": "汽车制造客户、全球整车厂客户及汽车内饰零部件采购场景客户。",
+        "主要竞品概述": "中鼎股份、旭升集团及汽车零部件制造企业。",
+        "相似客户线索": "安徽中鼎密封件股份有限公司、宁波旭升集团股份有限公司、五洲新春集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营汽车座椅、内饰系统及汽车零部件产品，是汽车零部件企业。",
+        "商业模式长摘录": "公开资料可支撑其以汽车零部件研发、制造、销售和服务为核心，面向全球汽车制造客户提供座椅与内饰系统配套方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=宁波继峰汽车零部件股份有限公司"
+      ],
+      "repair_note": "把继峰股份收回到汽车座椅与内饰系统配套公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽中鼎密封件股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营密封件、橡胶制品及汽车零部件相关产品，是汽车零部件与密封件企业。",
+        "商业模式概述": "以汽车零部件研发、制造、销售和服务为核心，面向全球汽车制造客户提供密封、减震与底盘相关配套产品。",
+        "核心客户客群": "全球整车厂客户、汽车零部件客户及密封减震产品采购场景客户。",
+        "主要竞品概述": "继峰股份、旭升集团及汽车零部件制造企业。",
+        "相似客户线索": "宁波继峰汽车零部件股份有限公司、宁波旭升集团股份有限公司、五洲新春集团股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营密封件、橡胶制品及汽车零部件相关产品，是汽车零部件与密封件企业。",
+        "商业模式长摘录": "公开资料可支撑其以汽车零部件研发、制造、销售和服务为核心，面向全球汽车制造客户提供密封、减震与底盘相关配套产品。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽中鼎密封件股份有限公司"
+      ],
+      "repair_note": "把中鼎股份收回到汽车密封与减震零部件配套公司的公司级事实。"
+    },
+    {
+      "account_canonical_name": "安徽合力股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营叉车、工业车辆及相关物流装备产品，是工业车辆企业。",
+        "商业模式概述": "以工业车辆研发、制造、销售和服务为核心，面向制造、仓储和物流场景提供叉车与物流装备解决方案。",
+        "核心客户客群": "制造客户、仓储物流客户及工业车辆采购和运营场景客户。",
+        "主要竞品概述": "杭叉集团、大连重工相关工业车辆主体及物流装备企业。",
+        "相似客户线索": "杭叉集团股份有限公司、大连华锐重工集团股份有限公司、兰剑智能科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_solution_group_coordination_mfg_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营叉车、工业车辆及相关物流装备产品，是工业车辆企业。",
+        "商业模式长摘录": "公开资料可支撑其以工业车辆研发、制造、销售和服务为核心，面向制造、仓储和物流场景提供叉车与物流装备解决方案。"
+      },
+      "source_types_add": [
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=安徽合力股份有限公司"
+      ],
+      "repair_note": "把安徽合力收回到工业车辆与物流装备公司的公司级事实。"
+    }
+  ]
+}

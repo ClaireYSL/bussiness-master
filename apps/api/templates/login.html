@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}系统登录{% endblock %}
+{% block body_class %}auth-shell{% endblock %}
+{% block body %}
+<main class="auth-layout">
+  <section class="auth-panel auth-panel--brand">
+    <p class="eyebrow">探迹批量查询控制台</p>
+    <h1>把探迹查询、AI 详研和后台记录收进一个工作台。</h1>
+    <p class="auth-copy">
+      这一版先聚焦内部控制台：登录系统、绑定自己的探迹会话、批量提交公司名、查看查询历史和管理员审计记录。
+    </p>
+    <div class="auth-badges">
+      <span>每人独立会话</span>
+      <span>1 天续用</span>
+      <span>不保存探迹密码</span>
+    </div>
+  </section>
+  <section class="auth-panel auth-panel--form">
+    <div class="panel-card">
+      <p class="eyebrow">系统登录</p>
+      <h2>先登录内部控制台</h2>
+      <form id="login-form" class="stack-form">
+        <label>
+          <span>用户名</span>
+          <input name="username" type="text" placeholder="例如：admin" required />
+        </label>
+        <label>
+          <span>密码</span>
+          <input name="password" type="password" placeholder="请输入密码" required />
+        </label>
+        <button type="submit" class="primary-btn">进入控制台</button>
+        <p id="login-message" class="form-message"></p>
+      </form>
+    </div>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script>
+  window.BUSSINESS_PAGE = "login";
+</script>
+{% endblock %}

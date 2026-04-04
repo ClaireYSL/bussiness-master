@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_50",
+  "batch_title": "客户档案修复第50批",
+  "account_names": [
+    "紫光国芯微电子股份有限公司",
+    "紫燕食品集团股份有限公司",
+    "维维食品饮料股份有限公司",
+    "罗博特科智能科技股份有限公司",
+    "美新科技股份有限公司",
+    "舍得酒业股份有限公司",
+    "芯联集成电路制造股份有限公司",
+    "苏州天华新能源科技股份有限公司",
+    "苏州欧圣电气股份有限公司",
+    "苏州汇川联合动力系统股份有限公司",
+    "茂业商业股份有限公司",
+    "莱克电气股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "紫光国芯微电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "紫光国微：在新紫光集团具有全球竞争力的智能科技产业布局下,紫光国微积极践行新紫光“志高行远、创造价值”的价值观,聚焦特种集成电路、智能安全芯片两大主业,并涵盖石英晶体频率器件、功率半导体等重要业务,以芯片、系统解决方案赋能千行百业,产品深度布局移动通信、金融、政务、汽车、工业、物联网等领域,为数字经济高质量发展提供坚实的基础支撑。",
+        "商业模式概述": "以紫光国微相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其紫光国微：在新紫光集团具有全球竞争力的智能科技产业布局下,紫光国微积极践行新紫光“志高行远、创造价值”的价值观,聚焦特种集成电路、智能安全芯片两大主业,并涵盖石英晶体频率器件、功率半导体等重要业务,以芯片、系统解决方案赋能千行百业,产品深度布局移动通信、金融、政务、汽车、工业、物联网等领域,为数字经济高质量发展提供坚实的基础支撑。",
+        "商业模式长摘录": "公开资料可支撑其以紫光国微相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002049",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=紫光国芯微电子股份有限公司"
+      ],
+      "repair_note": "把紫光国芯微电子收回到紫光国微：在新紫光集团具有全球竞争力的智能科技产业布局下,紫光国微积极践行新紫光“志高行远、创造价值”的价值观,聚焦特种集成电路、智能安全芯片两大主业,并涵盖石英晶体频率器件、功率半导体等重要业务,以芯片、系统解决方案赋能千行百业,产品深度布局移动通信、金融、政务、汽车、工业、物联网等领域,为数字经济高质量发展提供坚实的基础支撑的公司级事实。"
+    },
+    {
+      "account_canonical_name": "紫燕食品集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "紫燕食品：紫燕食品集团股份有限公司是一家全国性的熟食连锁企业,发源于四川,发展于江苏,现总部位于上海。",
+        "商业模式概述": "以紫燕食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其紫燕食品：紫燕食品集团股份有限公司是一家全国性的熟食连锁企业,发源于四川,发展于江苏,现总部位于上海。",
+        "商业模式长摘录": "公开资料可支撑其以紫燕食品相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603057",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=紫燕食品集团股份有限公司"
+      ],
+      "repair_note": "把紫燕食品集团收回到紫燕食品：紫燕食品集团股份有限公司是一家全国性的熟食连锁企业,发源于四川,发展于江苏,现总部位于上海的公司级事实。"
+    },
+    {
+      "account_canonical_name": "维维食品饮料股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "维维股份：维维总部设立在徐州,2008年在徐州张集镇开工建设维维粮油食品物流产业园,产业园总投资40亿元,包括食品饮料加工、大型粮油仓储加工贸易、城市中央厨房、物流集散等产业项目,粮食仓储能力100万吨。",
+        "商业模式概述": "以维维股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其维维股份：维维总部设立在徐州,2008年在徐州张集镇开工建设维维粮油食品物流产业园,产业园总投资40亿元,包括食品饮料加工、大型粮油仓储加工贸易、城市中央厨房、物流集散等产业项目,粮食仓储能力100万吨。",
+        "商业模式长摘录": "公开资料可支撑其以维维股份相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600300",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=维维食品饮料股份有限公司"
+      ],
+      "repair_note": "把维维食品饮料收回到维维股份：维维总部设立在徐州,2008年在徐州张集镇开工建设维维粮油食品物流产业园,产业园总投资40亿元,包括食品饮料加工、大型粮油仓储加工贸易、城市中央厨房、物流集散等产业项目,粮食仓储能力100万吨的公司级事实。"
+    },
+    {
+      "account_canonical_name": "罗博特科智能科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "罗博特科：我们为客户提供更柔性、更智能、更高效的高端自动化装备及制造执行系统软件。",
+        "商业模式概述": "以罗博特科相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "零跑汽车、汇川技术及相关企业。",
+        "相似客户线索": "零跑汽车、汇川技术、立讯精密"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其罗博特科：我们为客户提供更柔性、更智能、更高效的高端自动化装备及制造执行系统软件。",
+        "商业模式长摘录": "公开资料可支撑其以罗博特科相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300757",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=罗博特科智能科技股份有限公司"
+      ],
+      "repair_note": "把罗博特科智能科技收回到罗博特科：我们为客户提供更柔性、更智能、更高效的高端自动化装备及制造执行系统软件的公司级事实。"
+    },
+    {
+      "account_canonical_name": "美新科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "美新科技：美新科技股份有限公司自2004年成立以来,始终专注于新型环保塑木型材的研发,经过多年的技术积累和自主创新,成功在配方设计、共挤成型、安装技术等方面形成了多项核心技术,使塑木产品更耐候、更耐磨、更美观,具有抗划痕、抗静电、耐污渍、不易开裂、不易霉变等技术特点。",
+        "商业模式概述": "以美新科技相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其美新科技：美新科技股份有限公司自2004年成立以来,始终专注于新型环保塑木型材的研发,经过多年的技术积累和自主创新,成功在配方设计、共挤成型、安装技术等方面形成了多项核心技术,使塑木产品更耐候、更耐磨、更美观,具有抗划痕、抗静电、耐污渍、不易开裂、不易霉变等技术特点。",
+        "商业模式长摘录": "公开资料可支撑其以美新科技相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301588",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=美新科技股份有限公司"
+      ],
+      "repair_note": "把美新科技收回到美新科技：美新科技股份有限公司自2004年成立以来,始终专注于新型环保塑木型材的研发,经过多年的技术积累和自主创新,成功在配方设计、共挤成型、安装技术等方面形成了多项核心技术,使塑木产品更耐候、更耐磨、更美观,具有抗划痕、抗静电、耐污渍、不易开裂、不易霉变等技术特点的公司级事实。"
+    },
+    {
+      "account_canonical_name": "舍得酒业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "舍得酒业：舍得酒业股份有限公司,中国文化的传播者生态酿酒的先行者之一作为川酒“六朵金花”之一,舍得酒业是白酒行业第三家全国质量奖获得者和第三家上市公司,拥有“沱牌”、“舍得”两个白酒品牌,“舍得”诠释了胸怀天下的中国智慧。",
+        "商业模式概述": "以舍得酒业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_case_mixue_bi_warehouse_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其舍得酒业：舍得酒业股份有限公司,中国文化的传播者生态酿酒的先行者之一作为川酒“六朵金花”之一,舍得酒业是白酒行业第三家全国质量奖获得者和第三家上市公司,拥有“沱牌”、“舍得”两个白酒品牌,“舍得”诠释了胸怀天下的中国智慧。",
+        "商业模式长摘录": "公开资料可支撑其以舍得酒业相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600702",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=舍得酒业股份有限公司"
+      ],
+      "repair_note": "把舍得酒业收回到舍得酒业：舍得酒业股份有限公司,中国文化的传播者生态酿酒的先行者之一作为川酒“六朵金花”之一,舍得酒业是白酒行业第三家全国质量奖获得者和第三家上市公司,拥有“沱牌”、“舍得”两个白酒品牌,“舍得”诠释了胸怀天下的中国智慧的公司级事实。"
+    },
+    {
+      "account_canonical_name": "芯联集成电路制造股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "芯联集成：芯联集成主要从事MEMS、IGBT、MOSFET、模拟IC、MCU的研发、生产、销售,为汽车、新能源、工控、家电等领域提供一站式芯片系统代工方案。",
+        "商业模式概述": "以芯联集成相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其芯联集成：芯联集成主要从事MEMS、IGBT、MOSFET、模拟IC、MCU的研发、生产、销售,为汽车、新能源、工控、家电等领域提供一站式芯片系统代工方案。",
+        "商业模式长摘录": "公开资料可支撑其以芯联集成相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688469",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=芯联集成电路制造股份有限公司"
+      ],
+      "repair_note": "把芯联集成电路制造收回到芯联集成：芯联集成主要从事MEMS、IGBT、MOSFET、模拟IC、MCU的研发、生产、销售,为汽车、新能源、工控、家电等领域提供一站式芯片系统代工方案的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州天华新能源科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "天华新能：天华新能坚持创新驱动发展战略,聚合各类型创新资源,不断加强自主创新,持续激发成长新动能公司拥有独立的研究院,下设产品研发、材料研发、方案研究室和产品实验室等各部门通过企业自主开发、校企合作和与科研机构进行产学研合作等多种模式进行产品研发及技术升级立足当下,瞄准未来,加速开展前瞻技术攻关和成果转化,持续构建创新能力。",
+        "商业模式概述": "以天华新能相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "医院、医学中心、科研院所及医疗设备采购相关机构。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其天华新能：天华新能坚持创新驱动发展战略,聚合各类型创新资源,不断加强自主创新,持续激发成长新动能公司拥有独立的研究院,下设产品研发、材料研发、方案研究室和产品实验室等各部门通过企业自主开发、校企合作和与科研机构进行产学研合作等多种模式进行产品研发及技术升级立足当下,瞄准未来,加速开展前瞻技术攻关和成果转化,持续构建创新能力。",
+        "商业模式长摘录": "公开资料可支撑其以天华新能相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300390",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州天华新能源科技股份有限公司"
+      ],
+      "repair_note": "把苏州天华新能源科技收回到天华新能：天华新能坚持创新驱动发展战略,聚合各类型创新资源,不断加强自主创新,持续激发成长新动能公司拥有独立的研究院,下设产品研发、材料研发、方案研究室和产品实验室等各部门通过企业自主开发、校企合作和与科研机构进行产学研合作等多种模式进行产品研发及技术升级立足当下,瞄准未来,加速开展前瞻技术攻关和成果转化,持续构建创新能力的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州欧圣电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "欧圣电气：目前公司已成长为国内综合优势领先的空气动力设备和清洁设备制造商,公司主要产品为小型空压机、干湿两用吸尘器、工业风扇以及其他创新型清洁设备和空气动力设备,同时公司在中国老龄化不断加速的背景下,立足超静音电机和空气动力学等核心技术,在产品上创新研发了大小便智能护理机器人,目前已取得中国、日本、美国、欧盟等认证,开始批量化生产销售。",
+        "商业模式概述": "以欧圣电气相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "个人及家庭护理消费者、商超零售、电商平台与经销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其欧圣电气：目前公司已成长为国内综合优势领先的空气动力设备和清洁设备制造商,公司主要产品为小型空压机、干湿两用吸尘器、工业风扇以及其他创新型清洁设备和空气动力设备,同时公司在中国老龄化不断加速的背景下,立足超静音电机和空气动力学等核心技术,在产品上创新研发了大小便智能护理机器人,目前已取得中国、日本、美国、欧盟等认证,开始批量化生产销售。",
+        "商业模式长摘录": "公开资料可支撑其以欧圣电气相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301187",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州欧圣电气股份有限公司"
+      ],
+      "repair_note": "把苏州欧圣电气收回到欧圣电气：目前公司已成长为国内综合优势领先的空气动力设备和清洁设备制造商,公司主要产品为小型空压机、干湿两用吸尘器、工业风扇以及其他创新型清洁设备和空气动力设备,同时公司在中国老龄化不断加速的背景下,立足超静音电机和空气动力学等核心技术,在产品上创新研发了大小便智能护理机器人,目前已取得中国、日本、美国、欧盟等认证,开始批量化生产销售的公司级事实。"
+    },
+    {
+      "account_canonical_name": "苏州汇川联合动力系统股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "联合动力经营范围涵盖新能源汽车动力总成系统、电机控制器、电机、减速机。",
+        "商业模式概述": "以联合动力相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其联合动力经营范围涵盖新能源汽车动力总成系统、电机控制器、电机、减速机。",
+        "商业模式长摘录": "公开资料可支撑其以联合动力相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ301656",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=苏州汇川联合动力系统股份有限公司"
+      ],
+      "repair_note": "把苏州汇川联合动力系统收回到联合动力经营范围涵盖新能源汽车动力总成系统、电机控制器、电机、减速机的公司级事实。"
+    },
+    {
+      "account_canonical_name": "茂业商业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "茂业商业：其中商业零售为公司主业,经营业态包括百货商场、超市、购物中心、奥特莱斯;公司实行茂业天地、茂业百货、仁和春天、人民商场、维多利等多品牌运营模式。",
+        "商业模式概述": "以茂业商业相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其茂业商业：其中商业零售为公司主业,经营业态包括百货商场、超市、购物中心、奥特莱斯;公司实行茂业天地、茂业百货、仁和春天、人民商场、维多利等多品牌运营模式。",
+        "商业模式长摘录": "公开资料可支撑其以茂业商业相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH600828",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=茂业商业股份有限公司"
+      ],
+      "repair_note": "把茂业商业收回到茂业商业：其中商业零售为公司主业,经营业态包括百货商场、超市、购物中心、奥特莱斯;公司实行茂业天地、茂业百货、仁和春天、人民商场、维多利等多品牌运营模式的公司级事实。"
+    },
+    {
+      "account_canonical_name": "莱克电气股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "待补官网/年报/IR口径",
+        "商业模式概述": "以莱克电气相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "待补官网/年报/IR口径",
+        "商业模式长摘录": "公开资料可支撑其以莱克电气相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603355",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=莱克电气股份有限公司"
+      ],
+      "repair_note": "把莱克电气收回到公司级事实的公司级事实。"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_02",
+  "batch_title": "客户档案修复第二批",
+  "account_names": [
+    "深圳迈瑞生物医疗电子股份有限公司",
+    "中航光电科技股份有限公司",
+    "中际旭创股份有限公司",
+    "北方华创科技集团股份有限公司",
+    "中微半导体设备（上海）股份有限公司",
+    "名创优品（广州）有限责任公司",
+    "周大生珠宝股份有限公司",
+    "良品铺子股份有限公司",
+    "四川百茶百道实业股份有限公司",
+    "绝味食品股份有限公司",
+    "深圳市道通科技股份有限公司",
+    "深圳市正浩创新科技股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "深圳迈瑞生物医疗电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营生命信息与支持、体外诊断、医学影像等医疗设备与解决方案，是全球化医疗器械企业。",
+        "商业模式概述": "以医疗设备自主研发、生产、销售和服务为核心，面向全球医院、实验室及医疗机构提供产品与整体解决方案。",
+        "核心客户客群": "医院、检验实验室、医学中心及其他医疗服务机构。",
+        "主要竞品概述": "联影医疗、万东医疗及国内外综合医疗设备厂商。",
+        "相似客户线索": "上海联影医疗科技股份有限公司、迈瑞医疗、德赛西威"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_medical_device_channel_v1,ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "年报与官网材料可支撑其主营生命信息与支持、体外诊断、医学影像等医疗设备与解决方案，并在全球范围内拓展医院与专业医疗机构客户。",
+        "商业模式长摘录": "公开披露可支撑其以医疗设备自主研发、生产、销售和服务为核心，面向全球医院、实验室及医疗机构提供产品与整体解决方案。"
+      },
+      "source_types_add": [
+        "official_website",
+        "annual_report"
+      ],
+      "source_refs_add": [
+        "https://www.mindray.com/cn",
+        "https://www.mindray.com/content/dam/xpace/zh/investor-relations/financialinformation/2024/mindray-2024-yearly-report-cn.pdf"
+      ],
+      "repair_note": "把迈瑞统一收回到全球医疗器械公司的公司级事实与可理解经营模式。"
+    },
+    {
+      "account_canonical_name": "中航光电科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营光、电、流体连接器及相关系统解决方案，覆盖防务、航空航天、通信、新能源汽车等领域。",
+        "商业模式概述": "以连接器及系统解决方案研发、制造和销售为核心，服务军工、通信、汽车及高端制造客户。",
+        "核心客户客群": "军工与航空航天客户、通信设备客户、新能源汽车及高端制造客户。",
+        "主要竞品概述": "电连技术、瑞可达及国内外高端连接器企业。",
+        "相似客户线索": "中际旭创股份有限公司、深圳市汇川技术股份有限公司、芜湖伯特利汽车安全系统股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_auto_electronics_coordination_v1,ka_case_mfg_group_dashboard_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开资料可支撑其主营光、电、流体连接器及相关系统解决方案，覆盖防务、航空航天、通信、新能源汽车等领域。",
+        "商业模式长摘录": "官网与公开披露可支撑其以连接器及系统解决方案研发、制造和销售为核心，服务军工、通信、汽车及高端制造客户。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.jonhon.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中航光电科技股份有限公司"
+      ],
+      "repair_note": "补强中航光电的连接器产品线、行业覆盖和服务客户结构。"
+    },
+    {
+      "account_canonical_name": "中际旭创股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营高速光模块与光通信解决方案，是高端光通信收发模块供应商。",
+        "商业模式概述": "以高速光模块研发、设计、封装、测试和销售为核心，服务云数据中心、通信设备和光通信产业客户。",
+        "核心客户客群": "云计算与数据中心客户、通信设备厂商及光通信产业链客户。",
+        "主要竞品概述": "新易盛、光迅科技及高速光模块厂商。",
+        "相似客户线索": "中航光电科技股份有限公司、北方华创科技集团股份有限公司、中微半导体设备（上海）股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公司公开资料和 F10 概况可支撑其主营高速光模块与光通信解决方案，是高端光通信收发模块供应商。",
+        "商业模式长摘录": "公开资料可支撑其以高速光模块研发、设计、封装、测试和销售为核心，服务云数据中心、通信设备和光通信产业客户。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.innolight.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中际旭创股份有限公司"
+      ],
+      "repair_note": "把中际旭创从泛化制造模板拉回光模块供应商的公司级事实。"
+    },
+    {
+      "account_canonical_name": "北方华创科技集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营半导体基础产品、电子元器件、真空装备及锂电装备等产品，为半导体、新能源和新材料领域提供装备与解决方案。",
+        "商业模式概述": "以高端装备研发、制造和销售为核心，面向半导体、新能源和新材料产业客户提供设备与解决方案。",
+        "核心客户客群": "半导体制造企业、新能源和新材料产业客户及高端制造客户。",
+        "主要竞品概述": "中微公司、拓荆科技、盛美上海等半导体装备企业。",
+        "相似客户线索": "中微半导体设备（上海）股份有限公司、北方华创科技集团股份有限公司、中际旭创股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开资料可支撑其主营半导体装备、真空装备、锂电装备及精密元器件业务，并面向半导体、新能源和新材料领域提供装备与解决方案。",
+        "商业模式长摘录": "官网与公开披露可支撑其以高端装备研发、制造和销售为核心，面向半导体、新能源和新材料产业客户经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.naura.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=北方华创科技集团股份有限公司"
+      ],
+      "repair_note": "补强北方华创的装备产品线和面向半导体产业客户的经营口径。"
+    },
+    {
+      "account_canonical_name": "中微半导体设备（上海）股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营刻蚀设备、薄膜设备等半导体关键装备，并提供相关工艺解决方案。",
+        "商业模式概述": "以半导体关键装备研发、制造和销售为核心，面向晶圆厂及泛半导体客户提供设备与工艺解决方案。",
+        "核心客户客群": "晶圆制造企业、半导体制造客户及泛半导体产业链客户。",
+        "主要竞品概述": "北方华创、拓荆科技及国内外半导体装备企业。",
+        "相似客户线索": "北方华创科技集团股份有限公司、中际旭创股份有限公司、中航光电科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_mfg_group_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_insight_auto_electronics_coordination_v1",
+        "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开资料可支撑其主营刻蚀设备、薄膜设备等半导体关键装备，并为半导体客户提供相关工艺解决方案。",
+        "商业模式长摘录": "官网和公开披露可支撑其以半导体关键装备研发、制造和销售为核心，面向晶圆厂及泛半导体客户经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.amec-inc.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=中微半导体设备（上海）股份有限公司"
+      ],
+      "repair_note": "把中微公司收回到半导体设备公司的公司级事实和客户结构。"
+    },
+    {
+      "account_canonical_name": "名创优品（广州）有限责任公司",
+      "fields": {
+        "公司产品与服务概述": "主营家居、文创、美妆个护、玩具等生活方式零售商品，并以集合店方式经营多品类商品矩阵。",
+        "商业模式概述": "以自有品牌生活方式零售为核心，依托直营网点、海外门店网络和线上渠道进行标准化运营。",
+        "核心客户客群": "大众生活消费客群、线下门店消费者及全球零售渠道终端用户。",
+        "主要竞品概述": "KK 集团、九木杂物社及生活方式集合店品牌。",
+        "相似客户线索": "孩子王儿童用品股份有限公司、博士眼镜连锁股份有限公司、来伊份"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_chatbi_frontline_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与投资者材料可支撑其围绕家居、文创、美妆个护、玩具等多品类经营生活方式零售商品矩阵。",
+        "商业模式长摘录": "官网与投资者材料可支撑其以生活方式集合店经营为核心，依托直营网点、海外门店网络和线上渠道进行标准化运营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "investor_relations"
+      ],
+      "source_refs_add": [
+        "https://www.miniso.cn/",
+        "https://ir.miniso.com/2025-03-21-MINISO-Group-Announces-December-Quarter-and-Full-Year-of-2024-Unaudited-Financial-Results"
+      ],
+      "repair_note": "补强名创优品的集合店品类结构与全球门店经营模式。"
+    },
+    {
+      "account_canonical_name": "周大生珠宝股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营黄金珠宝、钻石镶嵌、素金及其他珠宝首饰产品，并运营珠宝零售品牌网络。",
+        "商业模式概述": "以珠宝品牌零售为核心，通过直营网点与加盟网络覆盖全国门店和消费终端。",
+        "核心客户客群": "珠宝首饰消费人群、加盟门店及区域零售终端。",
+        "主要竞品概述": "老凤祥、周大福、潮宏基等珠宝零售品牌。",
+        "相似客户线索": "老凤祥股份有限公司、潮宏基、上海豫园旅游商城(集团)股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_chatbi_frontline_v1,ka_insight_retail_operating_platform_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其主营黄金珠宝、钻石镶嵌、素金及其他珠宝首饰产品，并经营珠宝零售品牌网络。",
+        "商业模式长摘录": "公开资料可支撑其以珠宝品牌零售为核心，通过直营网点与加盟网络覆盖全国门店和消费终端。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.chowtaiseng.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=周大生珠宝股份有限公司"
+      ],
+      "repair_note": "把周大生从泛化珠宝零售模板切回可读的品牌+加盟经营事实。"
+    },
+    {
+      "account_canonical_name": "良品铺子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营坚果炒货、肉类零食、糕点糖果等休闲食品，并经营多品类零食品牌矩阵。",
+        "商业模式概述": "以自有品牌休闲食品经营为核心，覆盖直营网点、电商平台和全渠道零售经营。",
+        "核心客户客群": "大众休闲食品消费人群、会员用户及线上线下零售终端。",
+        "主要竞品概述": "三只松鼠、来伊份、盐津铺子等休闲食品品牌。",
+        "相似客户线索": "三只松鼠股份有限公司、盐津铺子食品股份有限公司、周黑鸭国际控股有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_wangxiaolu_growth_v1,ka_insight_retail_operating_platform_v1,ka_case_chatbi_frontline_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "官网与公开披露可支撑其围绕坚果炒货、肉类零食、糕点糖果等休闲食品经营多品类零食品牌矩阵。",
+        "商业模式长摘录": "公开资料可支撑其以自有品牌休闲食品经营为核心，覆盖直营网点、电商平台和全渠道零售经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.517lppz.com/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=良品铺子股份有限公司"
+      ],
+      "repair_note": "补强良品铺子的零食品类矩阵和全渠道品牌经营事实。"
+    },
+    {
+      "account_canonical_name": "四川百茶百道实业股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营现制茶饮相关产品，并围绕茶饮门店经营、供应链和品牌体系开展业务。",
+        "商业模式概述": "以加盟网络为主，总部负责品牌、供应链、选址、培训和运营支持，推动门店体系扩张。",
+        "核心客户客群": "现制茶饮消费人群、加盟门店及本地生活消费场景。",
+        "主要竞品概述": "奈雪的茶、茶百道、古茗等全国化新式茶饮品牌。",
+        "相似客户线索": "周黑鸭国际控股有限公司、老娘舅、奈雪"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_chatbi_frontline_v1,ka_insight_chain_fnb_operating_v1,ka_solution_frontline_loop_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "招股书材料可支撑其围绕现制茶饮产品、门店经营、供应链和品牌体系开展业务。",
+        "商业模式长摘录": "招股书材料可支撑其以加盟网络为主，总部负责品牌、供应链、选址、培训和运营支持。"
+      },
+      "source_types_add": [
+        "official_prospectus"
+      ],
+      "source_refs_add": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0422/2024042202136_c.pdf"
+      ],
+      "repair_note": "补强百茶百道的加盟茶饮品牌模式和总部支持链路。"
+    },
+    {
+      "account_canonical_name": "绝味食品股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营鸭脖、鸭掌、鸭翅等卤味休闲食品，并经营全国化卤味品牌门店网络。",
+        "商业模式概述": "以加盟网络和供应链管理为核心，通过门店体系、电商和零售渠道经营卤味休闲食品。",
+        "核心客户客群": "大众休闲食品消费人群、加盟门店及社区零售消费场景。",
+        "主要竞品概述": "周黑鸭、煌上煌、紫燕食品等卤味品牌企业。",
+        "相似客户线索": "周黑鸭国际控股有限公司、煌上煌、紫燕食品"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_case_chatbi_frontline_v1,ka_insight_chain_fnb_operating_v1,ka_solution_frontline_loop_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其主营鸭脖、鸭掌、鸭翅等卤味休闲食品，并经营全国化卤味品牌门店网络。",
+        "商业模式长摘录": "公开资料可支撑其以加盟网络和供应链管理为核心，通过门店体系、电商和零售渠道经营卤味休闲食品。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.juewei.cn/",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=绝味食品股份有限公司"
+      ],
+      "repair_note": "补强绝味的卤味品类事实和加盟+供应链经营模式。"
+    },
+    {
+      "account_canonical_name": "深圳市道通科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营汽车智能诊断、TPMS、ADAS 校准、充电桩与数字能源等产品，是技术型出海设备企业。",
+        "商业模式概述": "以技术产品研发、品牌出海和全球渠道经营为核心，覆盖汽车后市场设备、数字能源及相关全球销售网络。",
+        "核心客户客群": "汽车后市场专业用户、海外经销渠道、维修机构及能源设备客户。",
+        "主要竞品概述": "元征科技、博世汽车后市场及数字能源相关出海设备企业。",
+        "相似客户线索": "深圳市正浩创新科技股份有限公司、安克创新科技股份有限公司、赛维时代科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1,ka_insight_cbec_jtbd_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "年报与官网材料可支撑其主营汽车智能诊断、TPMS、ADAS 校准、充电桩与数字能源等产品，属于技术型出海设备企业。",
+        "商业模式长摘录": "官网和年报可支撑其以技术产品研发、品牌出海和全球渠道经营为核心，覆盖汽车后市场设备、数字能源及相关全球销售网络。"
+      },
+      "source_types_add": [
+        "official_website",
+        "annual_report"
+      ],
+      "source_refs_add": [
+        "https://www.autel.com/cn/",
+        "https://big5.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-03-29/688208_20250329_XJAN.pdf"
+      ],
+      "repair_note": "补强道通科技的汽车后市场产品线与全球渠道经营结构。"
+    },
+    {
+      "account_canonical_name": "深圳市正浩创新科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "主营便携储能、电源配件及家庭清洁能源相关产品，是新能源消费电子品牌出海企业。",
+        "商业模式概述": "以自有品牌出海为核心，通过电商平台、独立站和海外零售渠道面向全球家庭与户外能源消费市场经营。",
+        "核心客户客群": "海外家庭能源消费人群、户外用户及全球零售渠道终端客户。",
+        "主要竞品概述": "安克创新、Jackery 等便携储能与新能源消费电子品牌。",
+        "相似客户线索": "安克创新科技股份有限公司、致欧家居科技股份有限公司、深圳市道通科技股份有限公司"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_insight_cbec_abm_v1",
+        "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开资料可支撑其主营便携储能、电源配件及家庭清洁能源相关产品，属于新能源消费电子品牌出海企业。",
+        "商业模式长摘录": "官网与公开资料可支撑其以自有品牌出海为核心，通过电商平台、独立站和海外零售渠道面向全球家庭与户外能源消费市场经营。"
+      },
+      "source_types_add": [
+        "official_website",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://www.ecoflow.com/cn",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市正浩创新科技股份有限公司"
+      ],
+      "repair_note": "补强正浩的便携储能产品线和自有品牌全球渠道经营事实。"
+    }
+  ]
+}

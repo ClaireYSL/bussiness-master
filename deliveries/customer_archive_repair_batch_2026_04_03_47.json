@@ -1,0 +1,356 @@
+{
+  "batch_id": "archive_repair_2026_04_batch_47",
+  "batch_title": "客户档案修复第47批",
+  "account_names": [
+    "深圳中华自行车(集团)股份有限公司",
+    "深圳市倍轻松科技股份有限公司",
+    "深圳市全新好股份有限公司",
+    "深圳市力合科创股份有限公司",
+    "深圳市北鼎晶辉科技股份有限公司",
+    "深圳市同洲电子股份有限公司",
+    "深圳市爱施德股份有限公司",
+    "深圳歌力思服饰股份有限公司",
+    "深圳汇洁集团股份有限公司",
+    "深圳赛格股份有限公司",
+    "深圳赫美集团股份有限公司",
+    "湖北菲利华石英玻璃股份有限公司"
+  ],
+  "accounts": [
+    {
+      "account_canonical_name": "深圳中华自行车(集团)股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "深中华A经营范围涵盖研发生产自行车、电动自行车、电动摩托车、摩托车。",
+        "商业模式概述": "以深中华A相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其深中华A经营范围涵盖研发生产自行车、电动自行车、电动摩托车、摩托车。",
+        "商业模式长摘录": "公开资料可支撑其以深中华A相关医疗设备或解决方案经营为核心，面向医疗机构和专业客户。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000017",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳中华自行车(集团)股份有限公司"
+      ],
+      "repair_note": "把深圳中华自行车(集团)收回到深中华A经营范围涵盖研发生产自行车、电动自行车、电动摩托车、摩托车的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市倍轻松科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "倍轻松：深圳市倍轻松科技股份有限公司自2000年起专注研发符合人体工学的最优智能科学按摩方式,开创多个行业革新产品、数百项专利技术,将“针砭灸音”的中医理念与智能科技融合,模拟人手按摩相关穴位,按摩、拿捏、揉压、热敷,从力度、角度、手法,创造更舒适的按摩体验。",
+        "商业模式概述": "以倍轻松相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "自然堂、丝芙兰中国及相关企业。",
+        "相似客户线索": "自然堂、丝芙兰中国、花西子"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_frontline_action_loop",
+        "knowledge_asset_refs": "ka_insight_beauty_personalcare_brand_v1,ka_narrative_sephora_distribution_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1,ka_talktrack_frontline_loop_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其倍轻松：深圳市倍轻松科技股份有限公司自2000年起专注研发符合人体工学的最优智能科学按摩方式,开创多个行业革新产品、数百项专利技术,将“针砭灸音”的中医理念与智能科技融合,模拟人手按摩相关穴位,按摩、拿捏、揉压、热敷,从力度、角度、手法,创造更舒适的按摩体验。",
+        "商业模式长摘录": "公开资料可支撑其以倍轻松相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH688793",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市倍轻松科技股份有限公司"
+      ],
+      "repair_note": "把深圳市倍轻松科技收回到倍轻松：深圳市倍轻松科技股份有限公司自2000年起专注研发符合人体工学的最优智能科学按摩方式,开创多个行业革新产品、数百项专利技术,将“针砭灸音”的中医理念与智能科技融合,模拟人手按摩相关穴位,按摩、拿捏、揉压、热敷,从力度、角度、手法,创造更舒适的按摩体验的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市全新好股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "全新好经营范围涵盖投资兴办实业(具体项目另行申报)、国内商业、物资供销业(不含专营、专控。",
+        "商业模式概述": "以全新好相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "海外终端消费者、电商平台用户、海外零售及分销渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其全新好经营范围涵盖投资兴办实业(具体项目另行申报)、国内商业、物资供销业(不含专营、专控。",
+        "商业模式长摘录": "公开资料可支撑其以全新好相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000007",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市全新好股份有限公司"
+      ],
+      "repair_note": "把深圳市全新好收回到全新好经营范围涵盖投资兴办实业(具体项目另行申报)、国内商业、物资供销业(不含专营、专控的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市力合科创股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "力合科创经营范围涵盖高新技术企业创新基地的投资、建设、运营管理及物业服务、高新技术企业的科技服务(含技术开发。",
+        "商业模式概述": "以力合科创相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "自然堂、君乐宝及相关企业。",
+        "相似客户线索": "自然堂、君乐宝、王小卤"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_profit_improvement,mgmt_inventory_supply_coordination,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其力合科创经营范围涵盖高新技术企业创新基地的投资、建设、运营管理及物业服务、高新技术企业的科技服务(含技术开发。",
+        "商业模式长摘录": "公开资料可支撑其以力合科创相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002243",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市力合科创股份有限公司"
+      ],
+      "repair_note": "把深圳市力合科创收回到力合科创经营范围涵盖高新技术企业创新基地的投资、建设、运营管理及物业服务、高新技术企业的科技服务(含技术开发的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市北鼎晶辉科技股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "北鼎股份：公司立足改善型饮食需求,围绕用户饮食场景构建实用生活美学,努力为全球消费者提供兼具卓越美感、功能与品质的产品和负责任、有温度的服务,致力于成为具有国际竞争力的生活方式品牌。",
+        "商业模式概述": "以北鼎股份相关工业产品或设备的研发、生产和销售为核心。",
+        "核心客户客群": "待补官网/年报/IR口径",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其北鼎股份：公司立足改善型饮食需求,围绕用户饮食场景构建实用生活美学,努力为全球消费者提供兼具卓越美感、功能与品质的产品和负责任、有温度的服务,致力于成为具有国际竞争力的生活方式品牌。",
+        "商业模式长摘录": "公开资料可支撑其以北鼎股份相关工业产品或设备的研发、生产和销售为核心。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300824",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市北鼎晶辉科技股份有限公司"
+      ],
+      "repair_note": "把深圳市北鼎晶辉科技收回到北鼎股份：公司立足改善型饮食需求,围绕用户饮食场景构建实用生活美学,努力为全球消费者提供兼具卓越美感、功能与品质的产品和负责任、有温度的服务,致力于成为具有国际竞争力的生活方式品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市同洲电子股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "同洲电子：深圳市同洲电子股份有限公司(下文简称“同洲电子”、“公司”)成立于1994年,是专注于为全球用户提供领先的智慧家庭产品与服务的高新技术企业。",
+        "商业模式概述": "以同洲电子相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "babycare、吉家宠物及相关企业。",
+        "相似客户线索": "babycare、吉家宠物、秋田满满"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_inventory_supply_coordination,mgmt_profit_improvement",
+        "knowledge_asset_refs": "ka_case_jijia_pet_fullchain_v1,ka_case_qiutianmanman_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其同洲电子：深圳市同洲电子股份有限公司(下文简称“同洲电子”、“公司”)成立于1994年,是专注于为全球用户提供领先的智慧家庭产品与服务的高新技术企业。",
+        "商业模式长摘录": "公开资料可支撑其以同洲电子相关跨境产品经营为核心，覆盖海外平台、站点与履约渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002052",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市同洲电子股份有限公司"
+      ],
+      "repair_note": "把深圳市同洲电子收回到同洲电子：深圳市同洲电子股份有限公司(下文简称“同洲电子”、“公司”)成立于1994年,是专注于为全球用户提供领先的智慧家庭产品与服务的高新技术企业的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳市爱施德股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "爱施德：自成立以来,公司始终秉持以优质的服务为消费者、品牌商和零售商等上下游客户创造价值,坚持运营效率、行业地位、品牌合作和服务价值领先,树立了良好的口碑和声誉。",
+        "商业模式概述": "以爱施德相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其爱施德：自成立以来,公司始终秉持以优质的服务为消费者、品牌商和零售商等上下游客户创造价值,坚持运营效率、行业地位、品牌合作和服务价值领先,树立了良好的口碑和声誉。",
+        "商业模式长摘录": "公开资料可支撑其以爱施德相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002416",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳市爱施德股份有限公司"
+      ],
+      "repair_note": "把深圳市爱施德收回到爱施德：自成立以来,公司始终秉持以优质的服务为消费者、品牌商和零售商等上下游客户创造价值,坚持运营效率、行业地位、品牌合作和服务价值领先,树立了良好的口碑和声誉的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳歌力思服饰股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "歌力思：深圳歌力思服饰股份有限公司作为多品牌时尚集团,自成立以来一直专注于高端时装品牌的发展运营。",
+        "商业模式概述": "以歌力思相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其歌力思：深圳歌力思服饰股份有限公司作为多品牌时尚集团,自成立以来一直专注于高端时装品牌的发展运营。",
+        "商业模式长摘录": "公开资料可支撑其以歌力思相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SH603808",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳歌力思服饰股份有限公司"
+      ],
+      "repair_note": "把深圳歌力思服饰收回到歌力思：深圳歌力思服饰股份有限公司作为多品牌时尚集团,自成立以来一直专注于高端时装品牌的发展运营的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳汇洁集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "汇洁股份：公司目前拥有“曼妮芬”、“伊维斯”、“兰卓丽”、“桑扶兰”、“乔百仕”、“加一尚品”、“秘密武器”、“MW1”总计八个品牌,产品覆盖女士、男士、儿童、家居、运动、功能、保暖衣、泳装、美妆及护肤品。",
+        "商业模式概述": "以汇洁股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。",
+        "核心客户客群": "终端消费者、电商平台、零售终端与经销渠道。",
+        "主要竞品概述": "地素、Fila及相关企业。",
+        "相似客户线索": "地素、Fila、GAP"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_profit_improvement,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_dazzle_member_lifecycle_v1,ka_case_apparel_multi_brand_ops_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_profit_governance_cbec_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其汇洁股份：公司目前拥有“曼妮芬”、“伊维斯”、“兰卓丽”、“桑扶兰”、“乔百仕”、“加一尚品”、“秘密武器”、“MW1”总计八个品牌,产品覆盖女士、男士、儿童、家居、运动、功能、保暖衣、泳装、美妆及护肤品。",
+        "商业模式长摘录": "公开资料可支撑其以汇洁股份相关美妆个护产品经营为核心，覆盖电商、零售终端或经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002763",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳汇洁集团股份有限公司"
+      ],
+      "repair_note": "把深圳汇洁集团收回到汇洁股份：公司目前拥有“曼妮芬”、“伊维斯”、“兰卓丽”、“桑扶兰”、“乔百仕”、“加一尚品”、“秘密武器”、“MW1”总计八个品牌,产品覆盖女士、男士、儿童、家居、运动、功能、保暖衣、泳装、美妆及护肤品的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳赛格股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "深赛格：赛格电子市场创办于1988年,是中国电子市场经营模式的创办者和业内著名品牌。",
+        "商业模式概述": "以深赛格相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。",
+        "核心客户客群": "家庭消费者、餐饮客户、经销商和零售渠道。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_group_coordination",
+        "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+        "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其深赛格：赛格电子市场创办于1988年,是中国电子市场经营模式的创办者和业内著名品牌。",
+        "商业模式长摘录": "公开资料可支撑其以深赛格相关食品或调味品的生产和销售为核心，通过经销、零售或餐饮渠道覆盖市场。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ000058",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳赛格股份有限公司"
+      ],
+      "repair_note": "把深圳赛格收回到深赛格：赛格电子市场创办于1988年,是中国电子市场经营模式的创办者和业内著名品牌的公司级事实。"
+    },
+    {
+      "account_canonical_name": "深圳赫美集团股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "赫美集团：赫美集团定位于“国际品牌运营的服务商”,致力于服务中国年轻一代品质生活,打造消费者高品质生活方式平台。",
+        "商业模式概述": "以赫美集团相关零售网络经营为核心，依赖总部、区域与门店协同。",
+        "核心客户客群": "终端消费者、门店会员、零售终端及区域门店网络。",
+        "主要竞品概述": "鲜丰水果、来伊份及相关企业。",
+        "相似客户线索": "鲜丰水果、来伊份、博士眼镜"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_hq_operating_visibility,mgmt_frontline_action_loop,mgmt_inventory_supply_coordination",
+        "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+        "talk_track_refs": "ka_talktrack_hq_visibility_retail_v1,ka_talktrack_frontline_loop_retail_v1,ka_talktrack_inventory_replenishment_retail_v1"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其赫美集团：赫美集团定位于“国际品牌运营的服务商”,致力于服务中国年轻一代品质生活,打造消费者高品质生活方式平台。",
+        "商业模式长摘录": "公开资料可支撑其以赫美集团相关零售网络经营为核心，依赖总部、区域与门店协同。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ002356",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=深圳赫美集团股份有限公司"
+      ],
+      "repair_note": "把深圳赫美集团收回到赫美集团：赫美集团定位于“国际品牌运营的服务商”,致力于服务中国年轻一代品质生活,打造消费者高品质生活方式平台的公司级事实。"
+    },
+    {
+      "account_canonical_name": "湖北菲利华石英玻璃股份有限公司",
+      "fields": {
+        "公司产品与服务概述": "菲利华：公司主要从事高性能石英玻璃、石英纤维及复合材料的研发生产,主要服务于半导体、光通讯、光伏太阳能、高端光学及航空航天等高新技术领域。",
+        "商业模式概述": "以菲利华相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。",
+        "核心客户客群": "家庭消费者、家居零售门店、电商平台与经销渠道。",
+        "主要竞品概述": "迈瑞医疗、联影医疗及相关企业。",
+        "相似客户线索": "迈瑞医疗、联影医疗、中航光电"
+      },
+      "matching": {
+        "management_persona_tags": "mgmt_group_coordination,mgmt_profit_improvement,mgmt_hq_operating_visibility",
+        "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+        "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化"
+      },
+      "excerpts": {
+        "产品与服务长摘录": "公开披露可支撑其菲利华：公司主要从事高性能石英玻璃、石英纤维及复合材料的研发生产,主要服务于半导体、光通讯、光伏太阳能、高端光学及航空航天等高新技术领域。",
+        "商业模式长摘录": "公开资料可支撑其以菲利华相关家居产品经营为核心，覆盖零售门店、电商平台与经销渠道。"
+      },
+      "source_types_add": [
+        "东方财富F10公司概况",
+        "上市公司公开披露"
+      ],
+      "source_refs_add": [
+        "https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=web&code=SZ300395",
+        "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=湖北菲利华石英玻璃股份有限公司"
+      ],
+      "repair_note": "把湖北菲利华石英玻璃收回到菲利华：公司主要从事高性能石英玻璃、石英纤维及复合材料的研发生产,主要服务于半导体、光通讯、光伏太阳能、高端光学及航空航天等高新技术领域的公司级事实。"
+    }
+  ]
+}
