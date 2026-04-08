@@ -13,7 +13,7 @@
 补充：
 
 - 关于 `知识库 / 画像 / 潜客 / 潜客池 / 潜客档案` 五层关系的正式定义，请先看
-  [知识库画像潜客池档案关系总说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/知识库画像潜客池档案关系总说明-v1.md)
+  [知识库画像潜客池档案关系总说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/知识库画像潜客池档案关系总说明-v1.md)
 
 ---
 
@@ -21,19 +21,19 @@
 
 以下文档应被视为当前规则层的主干：
 
-- [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
-- [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
-- [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
-- [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
-- [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
-- [promote通用化改造方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/promote%E9%80%9A%E7%94%A8%E5%8C%96%E6%94%B9%E9%80%A0%E6%96%B9%E6%A1%88-v1.md)
-- [promote批次配置模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/promote%E6%89%B9%E6%AC%A1%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF-v1.md)
-- [enrich执行入口说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/enrich%E6%89%A7%E8%A1%8C%E5%85%A5%E5%8F%A3%E8%AF%B4%E6%98%8E-v1.md)
-- [expand-provider路由说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/expand-provider%E8%B7%AF%E7%94%B1%E8%AF%B4%E6%98%8E-v1.md)
-- [已知存量客户与签约主体排除规则-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/已知存量客户与签约主体排除规则-v1.md)
-- [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
-- [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
-- [静态潜客池-持续扩展最小机制-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-持续扩展最小机制-v1.0.md)
+- [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
+- [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
+- [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
+- [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
+- [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
+- [promote通用化改造方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote%E9%80%9A%E7%94%A8%E5%8C%96%E6%94%B9%E9%80%A0%E6%96%B9%E6%A1%88-v1.md)
+- [promote批次配置模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote%E6%89%B9%E6%AC%A1%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF-v1.md)
+- [enrich执行入口说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/enrich%E6%89%A7%E8%A1%8C%E5%85%A5%E5%8F%A3%E8%AF%B4%E6%98%8E-v1.md)
+- [expand-provider路由说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/expand-provider%E8%B7%AF%E7%94%B1%E8%AF%B4%E6%98%8E-v1.md)
+- [已知存量客户与签约主体排除规则-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/已知存量客户与签约主体排除规则-v1.md)
+- [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
+- [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
+- [静态潜客池-持续扩展最小机制-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-持续扩展最小机制-v1.0.md)
 
 这组文档共同回答：
 
@@ -49,10 +49,10 @@
 
 以下文档更偏“具体动作怎么做”：
 
-- [用户提供名单时的L5校验与分流规则-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/用户提供名单时的L5校验与分流规则-v1.md)
-- [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5%E5%85%A5%E6%B1%A0%E6%A8%A1%E6%9D%BF-v1.0.md)
-- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-%E5%8E%BB%E9%87%8D%E6%B2%BB%E7%90%86%E8%A7%84%E5%88%99-v1.0.md)
-- [共享版 Excel 字段口径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/%E5%85%B1%E4%BA%AB%E7%89%88%20Excel%20%E5%AD%97%E6%AE%B5%E5%8F%A3%E5%BE%84%E8%AF%B4%E6%98%8E-v1.md)
+- [用户提供名单时的L5校验与分流规则-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/用户提供名单时的L5校验与分流规则-v1.md)
+- [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5%E5%85%A5%E6%B1%A0%E6%A8%A1%E6%9D%BF-v1.0.md)
+- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-%E5%8E%BB%E9%87%8D%E6%B2%BB%E7%90%86%E8%A7%84%E5%88%99-v1.0.md)
+- [共享版 Excel 字段口径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/%E5%85%B1%E4%BA%AB%E7%89%88%20Excel%20%E5%AD%97%E6%AE%B5%E5%8F%A3%E5%BE%84%E8%AF%B4%E6%98%8E-v1.md)
 
 这组文档适合在明确主线之后使用。
 
@@ -64,11 +64,11 @@
 
 以下文档有价值，但更适合作为支撑性专题机制使用：
 
-- [客户档案体系重构与逐客户修复机制-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/客户档案体系重构与逐客户修复机制-v1.md)
-- [团队共享层最小化设计-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/团队共享层最小化设计-v1.md)
-- [外部LLM委派边界与最小接入说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/外部LLM委派边界与最小接入说明-v1.md)
-- [静态潜客池-使用层增强方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-使用层增强方案-v1.md)
-- [静态潜客池-治理层增强方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-治理层增强方案-v1.md)
+- [客户档案体系重构与逐客户修复机制-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/客户档案体系重构与逐客户修复机制-v1.md)
+- [团队共享层最小化设计-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/团队共享层最小化设计-v1.md)
+- [外部LLM委派边界与最小接入说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/外部LLM委派边界与最小接入说明-v1.md)
+- [静态潜客池-使用层增强方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-使用层增强方案-v1.md)
+- [静态潜客池-治理层增强方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-治理层增强方案-v1.md)
 
 这组文档回答的是：
 
@@ -85,22 +85,22 @@
 
 ### 路径 A：恢复项目执行
 
-1. [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
-2. [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
-3. [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
-4. [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
+1. [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
+2. [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
+3. [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
+4. [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
 
 ### 路径 B：恢复知识学习链路
 
-1. [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
-2. [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
-3. [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
+1. [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
+2. [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
+3. [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
 
 ### 路径 C：执行具体扩池动作
 
-1. [用户提供名单时的L5校验与分流规则-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/用户提供名单时的L5校验与分流规则-v1.md)
-2. [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5%E5%85%A5%E6%B1%A0%E6%A8%A1%E6%9D%BF-v1.0.md)
-3. [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-%E5%8E%BB%E9%87%8D%E6%B2%BB%E7%90%86%E8%A7%84%E5%88%99-v1.0.md)
+1. [用户提供名单时的L5校验与分流规则-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/用户提供名单时的L5校验与分流规则-v1.md)
+2. [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5%E5%85%A5%E6%B1%A0%E6%A8%A1%E6%9D%BF-v1.0.md)
+3. [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-%E5%8E%BB%E9%87%8D%E6%B2%BB%E7%90%86%E8%A7%84%E5%88%99-v1.0.md)
 
 ---
 
@@ -108,7 +108,7 @@
 
 后续默认按下面顺序判断优先级：
 
-1. 先看总入口 [README-静态潜客池.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/README-%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E6%B1%A0.md)
+1. 先看总入口 [README-静态潜客池.md](/Users/clairaipartner/Codex/bussiness-master/docs/README-%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E6%B1%A0.md)
 2. 再回到本目录的“核心机制”
 3. 只有遇到具体动作时，再看“执行性规则”
 4. 只有涉及档案、共享、外部委派等专题时，再看“支撑专题”
@@ -122,13 +122,13 @@
 ### `static-pool-expand`
 
 - 规则主入口：
-  - [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
-  - [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5%E5%85%A5%E6%B1%A0%E6%A8%A1%E6%9D%BF-v1.0.md)
+  - [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
+  - [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5%E5%85%A5%E6%B1%A0%E6%A8%A1%E6%9D%BF-v1.0.md)
 - 当前调用规则：
   - 先按主线 / 主画像分流
   - 再判断是否存在匹配的专题脚本入口
 - 当前已落地脚本入口：
-  - [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
+  - [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
 - 当前成熟度：
   - `零售消费 / 部分消费品画像`：已有稳定专题脚本入口
   - `跨境电商 / 先进制造`：当前仍以规则驱动为主，尚无稳定扩池脚本入口
@@ -136,23 +136,23 @@
 ### `static-pool-promote`
 
 - 规则主入口：
-  - [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
-  - [promote通用化改造方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/promote%E9%80%9A%E7%94%A8%E5%8C%96%E6%94%B9%E9%80%A0%E6%96%B9%E6%A1%88-v1.md)
-  - [promote批次配置模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/promote%E6%89%B9%E6%AC%A1%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF-v1.md)
+  - [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
+  - [promote通用化改造方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote%E9%80%9A%E7%94%A8%E5%8C%96%E6%94%B9%E9%80%A0%E6%96%B9%E6%A1%88-v1.md)
+  - [promote批次配置模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote%E6%89%B9%E6%AC%A1%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF-v1.md)
 - 当前默认脚本入口：
-  - [promote_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_static_pool.py)
-  - [configs/promote_batches](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/configs/promote_batches)
+  - [promote_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/promote_static_pool.py)
+  - [configs/promote_batches](/Users/clairaipartner/Codex/bussiness-master/configs/promote_batches)
 - 历史 wrapper：
-  - [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l5_to_l3_consumer_20260331.py)
-  - [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l3_to_l2_mass_20260331.py)
+  - [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l5_to_l3_consumer_20260331.py)
+  - [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l3_to_l2_mass_20260331.py)
 - 当前成熟度：
   - 已进入“通用脚本入口 + 批次配置 + 历史 wrapper”阶段
 
 ### `static-pool-cleanup`
 
 - 规则主入口：
-  - [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-%E5%8E%BB%E9%87%8D%E6%B2%BB%E7%90%86%E8%A7%84%E5%88%99-v1.0.md)
-  - [静态潜客池-治理层增强方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-%E6%B2%BB%E7%90%86%E5%B1%82%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%A1%88-v1.md)
+  - [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-%E5%8E%BB%E9%87%8D%E6%B2%BB%E7%90%86%E8%A7%84%E5%88%99-v1.0.md)
+  - [静态潜客池-治理层增强方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-%E6%B2%BB%E7%90%86%E5%B1%82%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%A1%88-v1.md)
 - 当前脚本状态：
   - 仅有少量辅助脚本
   - 尚无统一 cleanup 主引擎
@@ -160,8 +160,8 @@
 ### `static-pool-share`
 
 - 规则主入口：
-  - [团队共享层最小化设计-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/团队共享层最小化设计-v1.md)
-  - [静态潜客池-使用层增强方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-%E4%BD%BF%E7%94%A8%E5%B1%82%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%A1%88-v1.md)
+  - [团队共享层最小化设计-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/团队共享层最小化设计-v1.md)
+  - [静态潜客池-使用层增强方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-%E4%BD%BF%E7%94%A8%E5%B1%82%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%A1%88-v1.md)
 - 当前脚本状态：
   - 仍以规则和载体选择为主
   - 尚无统一 share 主引擎

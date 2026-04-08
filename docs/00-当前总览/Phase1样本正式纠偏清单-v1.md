@@ -6,7 +6,7 @@
 
 结构化结果文件：
 
-- [phase1_rectification_package_v1.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/phase1_rectification_package_v1.json)
+- [phase1_rectification_package_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_rectification_package_v1.json)
 
 ---
 

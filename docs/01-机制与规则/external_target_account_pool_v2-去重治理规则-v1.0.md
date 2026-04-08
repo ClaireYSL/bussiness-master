@@ -120,6 +120,6 @@
 
 ## 11. 关联文档
 
-- [external_target_account_pool_v2-重复主体清单-v0.1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/external_target_account_pool_v2-重复主体清单-v0.1.md)
-- [account_alias_registry_v1-字段模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-字段模板-v1.md)
-- [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
+- [external_target_account_pool_v2-重复主体清单-v0.1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/external_target_account_pool_v2-重复主体清单-v0.1.md)
+- [account_alias_registry_v1-字段模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-字段模板-v1.md)
+- [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)

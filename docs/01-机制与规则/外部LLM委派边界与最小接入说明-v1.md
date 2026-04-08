@@ -40,7 +40,7 @@
 
 当前最小脚本：
 
-- [llm_delegate.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/llm_delegate.py)
+- [llm_delegate.py](/Users/clairaipartner/Codex/bussiness-master/scripts/llm_delegate.py)
 
 环境变量：
 
@@ -76,9 +76,9 @@
 
 提示词与输入模板：
 
-- [calibration_system.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/prompts/delegate/calibration_system.md)
-- [calibration_user.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/prompts/delegate/calibration_user.md)
-- [calibration_input_template.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/prompts/delegate/calibration_input_template.json)
+- [calibration_system.md](/Users/clairaipartner/Codex/bussiness-master/prompts/delegate/calibration_system.md)
+- [calibration_user.md](/Users/clairaipartner/Codex/bussiness-master/prompts/delegate/calibration_user.md)
+- [calibration_input_template.json](/Users/clairaipartner/Codex/bussiness-master/prompts/delegate/calibration_input_template.json)
 
 示例命令：
 

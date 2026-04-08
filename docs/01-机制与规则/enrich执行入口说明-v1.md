@@ -12,8 +12,8 @@
 
 ## 当前脚本入口
 
-- [enrich_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/enrich_static_pool.py)
-- [enrich_engine.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/shared/static_pool/enrich_engine.py)
+- [enrich_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/enrich_static_pool.py)
+- [enrich_engine.py](/Users/clairaipartner/Codex/bussiness-master/shared/static_pool/enrich_engine.py)
 
 ## enrich 输入
 

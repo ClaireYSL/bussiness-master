@@ -13,8 +13,8 @@
 
 任何新账户正式进入 `L5` 前，必须按以下顺序检查：
 
-1. 查询 [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
-2. 查询 [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
+1. 查询 [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
+2. 查询 [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
 3. 对照老客映射与合作主体映射，做老客排除
 4. 明确主线
 5. 明确主画像
@@ -145,8 +145,8 @@
 
 ## 8. 关联文档
 
-- [external_target_account_pool_v2-字段模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-字段模板-v1.md)
-- [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
-- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-去重治理规则-v1.0.md)
-- [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
-- [静态潜客池-持续扩展最小机制-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-持续扩展最小机制-v1.0.md)
+- [external_target_account_pool_v2-字段模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-字段模板-v1.md)
+- [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
+- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-去重治理规则-v1.0.md)
+- [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
+- [静态潜客池-持续扩展最小机制-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-持续扩展最小机制-v1.0.md)

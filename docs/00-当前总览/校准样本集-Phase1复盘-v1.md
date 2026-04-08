@@ -10,9 +10,9 @@
 
 对应结果文件：
 
-- [calibration_batch_phase1_retail_v1.delegate.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/calibration_batch_phase1_retail_v1.delegate.json)
-- [calibration_batch_phase1_cbec_v1.delegate.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/calibration_batch_phase1_cbec_v1.delegate.json)
-- [calibration_batch_phase1_mfg_v1.delegate.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/calibration_batch_phase1_mfg_v1.delegate.json)
+- [calibration_batch_phase1_retail_v1.delegate.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/calibration_batch_phase1_retail_v1.delegate.json)
+- [calibration_batch_phase1_cbec_v1.delegate.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/calibration_batch_phase1_cbec_v1.delegate.json)
+- [calibration_batch_phase1_mfg_v1.delegate.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/calibration_batch_phase1_mfg_v1.delegate.json)
 
 ---
 

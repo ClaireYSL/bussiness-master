@@ -11,8 +11,8 @@ from openpyxl import load_workbook
 
 
 TODAY = "2026-03-31"
-ROOT = Path("/Users/clairaipartner")
-WORKSPACE = ROOT / ".openclaw/workspace-main/bussiness-master"
+ROOT = Path.home()
+WORKSPACE = Path(__file__).resolve().parents[2]
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 
 MAIN_XLSX = VAULT / "静态潜客主表.xlsx"

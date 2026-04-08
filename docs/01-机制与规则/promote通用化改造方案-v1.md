@@ -10,8 +10,8 @@
 
 当前仓库里像：
 
-- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l5_to_l3_consumer_20260331.py)
-- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l3_to_l2_mass_20260331.py)
+- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l5_to_l3_consumer_20260331.py)
+- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l3_to_l2_mass_20260331.py)
 
 这类脚本，应该被理解为：
 
@@ -241,7 +241,7 @@
 
 例如：
 
-- `scripts/promote_l5_to_l3_consumer_20260331.py`
+- `scripts/legacy/promote_l5_to_l3_consumer_20260331.py`
 
 它只做：
 
@@ -264,13 +264,13 @@
 
 当前已落地：
 
-- 新增 [promote_engine.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/shared/static_pool/promote_engine.py)，抽出主表 / 档案 / evidence / queue 的通用读取、候选选择与批次闸门评估能力
-- 新增 [promote_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_static_pool.py)，作为通用 promote 的只读评估入口，可直接输出结构化批次结果包
-- 新增 [promote批次配置模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/promote批次配置模板-v1.md) 以及 `configs/promote_batches/*.json` 示例配置，让批次定义开始脱离历史脚本文件名
+- 新增 [promote_engine.py](/Users/clairaipartner/Codex/bussiness-master/shared/static_pool/promote_engine.py)，抽出主表 / 档案 / evidence / queue 的通用读取、候选选择与批次闸门评估能力
+- 新增 [promote_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/promote_static_pool.py)，作为通用 promote 的只读评估入口，可直接输出结构化批次结果包
+- 新增 [promote批次配置模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote批次配置模板-v1.md) 以及 `configs/promote_batches/*.json` 示例配置，让批次定义开始脱离历史脚本文件名
 
 当前示例结果：
 
-- [promote_batch_retail_l5_to_l3_v1.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/promote_batch_retail_l5_to_l3_v1.json)
+- [promote_batch_retail_l5_to_l3_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/promote_batch_retail_l5_to_l3_v1.json)
 
 ### 第二阶段
 
@@ -282,15 +282,15 @@
 
 当前已落地：
 
-- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l5_to_l3_consumer_20260331.py) 已支持 `--report-only`，会先调用通用 preflight 入口并输出 [promote_batch_retail_l5_to_l3_v1_wrapper.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/promote_batch_retail_l5_to_l3_v1_wrapper.json)
-- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l3_to_l2_mass_20260331.py) 已支持 `--report-only`，会先调用通用 preflight 入口并输出 [promote_batch_l3_to_l2_mass_v1_wrapper.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/promote_batch_l3_to_l2_mass_v1_wrapper.json)
+- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l5_to_l3_consumer_20260331.py) 已支持 `--report-only`，会先调用通用 preflight 入口并输出 [promote_batch_retail_l5_to_l3_v1_wrapper.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/promote_batch_retail_l5_to_l3_v1_wrapper.json)
+- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l3_to_l2_mass_20260331.py) 已支持 `--report-only`，会先调用通用 preflight 入口并输出 [promote_batch_l3_to_l2_mass_v1_wrapper.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/promote_batch_l3_to_l2_mass_v1_wrapper.json)
 
 说明：
 
 - 当前这两支脚本还保留历史专项写回逻辑
 - 但在“只读评估”入口上已经不再各自维护独立实现
 - 默认主流程也已优先消费通用 preflight 选出来的账户集合，不再自己再做一轮完整候选发现
-- 已新增 [promotion_writeback.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/shared/static_pool/promotion_writeback.py)，将 `source_note` 追加、`validation_gap` 前缀、promotion evidence 去重补写、`promotion_review` 队列关闭等共享写回骨架抽到统一位置
+- 已新增 [promotion_writeback.py](/Users/clairaipartner/Codex/bussiness-master/shared/static_pool/promotion_writeback.py)，将 `source_note` 追加、`validation_gap` 前缀、promotion evidence 去重补写、`promotion_review` 队列关闭等共享写回骨架抽到统一位置
 - 该共享层现已进一步覆盖：主表核心升层写回、档案核心状态写回、coverage 核心状态写回；历史脚本里剩余的差异主要集中在消费品专项文案、观察记录、档案渲染等真正的专题逻辑
 - 这意味着当前 `promote` 线已经在“评估入口 + 公共写回骨架”两层完成统一，剩余差异主要集中在各专项脚本自己的业务字段更新
 - 这意味着它们已经从“完全独立脚本”进入“半 wrapper 化”状态

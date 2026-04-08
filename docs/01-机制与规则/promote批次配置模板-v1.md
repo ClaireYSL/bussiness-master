@@ -6,7 +6,7 @@
 
 对应入口脚本：
 
-- [promote_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_static_pool.py)
+- [promote_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/promote_static_pool.py)
 
 ---
 
@@ -47,8 +47,8 @@
 
 当前仓库已提供两个示例配置：
 
-- [retail_l5_to_l3_v1.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/configs/promote_batches/retail_l5_to_l3_v1.json)
-- [l3_to_l2_mass_v1.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/configs/promote_batches/l3_to_l2_mass_v1.json)
+- [retail_l5_to_l3_v1.json](/Users/clairaipartner/Codex/bussiness-master/configs/promote_batches/retail_l5_to_l3_v1.json)
+- [l3_to_l2_mass_v1.json](/Users/clairaipartner/Codex/bussiness-master/configs/promote_batches/l3_to_l2_mass_v1.json)
 
 ---
 

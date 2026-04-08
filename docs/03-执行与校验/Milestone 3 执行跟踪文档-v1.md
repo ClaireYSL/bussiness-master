@@ -56,8 +56,8 @@
 完成标志：
 
 1. 已形成：
-   - [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
-   - [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
+   - [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
+   - [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
 2. 已把路径和边界回挂到 `static-pool-expand`
 
 ## Phase 2：L1-L3 全量补厚，L4 最小补齐

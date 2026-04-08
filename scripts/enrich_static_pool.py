@@ -10,7 +10,7 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 WORKSPACE = Path(__file__).resolve().parents[1]
-ROOT = WORKSPACE.parents[2]
+ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 

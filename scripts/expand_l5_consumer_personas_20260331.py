@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import argparse
+import json
 from collections import Counter
 from dataclasses import dataclass
 from datetime import date
@@ -22,6 +24,7 @@ TARGET_NEW_L5 = 220
 
 POOL_DIR = Path("/Users/clairaipartner/Documents/Obsidian-Codex/潜客池")
 MAIN_WB = POOL_DIR / "静态潜客主表.xlsx"
+MAIN_SHARED_WB = POOL_DIR / "内部运营-静态潜客池-共享版.xlsx"
 PROFILE_WB = POOL_DIR / "潜客档案库.xlsx"
 GOV_WB = POOL_DIR / "治理与证据.xlsx"
 HOME_MD = POOL_DIR / "潜客池-首页.md"
@@ -174,6 +177,8 @@ PERSONA_META = {
     },
 }
 
+SUPPORTED_PERSONA_IDS = sorted(PERSONA_META.keys())
+
 
 def normalize_name(value: str | None) -> str:
     if not value:
@@ -227,8 +232,14 @@ def gather_candidates(board_persona_pairs: list[tuple[str, str]], board_codes: d
 
 
 def load_existing_sets():
-    main_wb = load_workbook(MAIN_WB)
-    main_ws = main_wb[main_wb.sheetnames[0]]
+    write_target = "main"
+    try:
+        main_wb = load_workbook(MAIN_WB)
+        main_ws = main_wb[main_wb.sheetnames[0]]
+    except Exception:
+        main_wb = load_workbook(MAIN_SHARED_WB)
+        main_ws = main_wb["全量主表"]
+        write_target = "shared"
     rows = list(main_ws.iter_rows(values_only=True))
     header = rows[0]
     idx = {key: i for i, key in enumerate(header)}
@@ -237,11 +248,15 @@ def load_existing_sets():
     current_norms = set()
     current_ids = set()
     for row in rows[1:]:
-        account_id = row[idx["account_id"]]
-        name = row[idx["account_canonical_name"]]
-        brand = row[idx["brand_name"]]
-        if account_id:
-            current_ids.add(str(account_id))
+        if "account_id" in idx:
+            account_id = row[idx["account_id"]]
+            name = row[idx["account_canonical_name"]]
+            brand = row[idx["brand_name"]]
+            if account_id:
+                current_ids.add(str(account_id))
+        else:
+            name = row[idx["公司主体"]]
+            brand = row[idx["品牌名"]]
         for value in [name, brand]:
             if value:
                 current_names.add(str(value).strip())
@@ -267,7 +282,7 @@ def load_existing_sets():
             alias_names.add(str(value).strip())
             alias_norms.add(normalize_name(value))
 
-    return main_wb, main_ws, idx, current_ids, current_names, current_norms, legacy_names, legacy_norms, alias_names, alias_norms
+    return main_wb, main_ws, idx, current_ids, current_names, current_norms, legacy_names, legacy_norms, alias_names, alias_norms, write_target
 
 
 def filter_new_candidates(candidates: list[Candidate], current_norms: set[str], legacy_norms: set[str], alias_norms: set[str]) -> list[Candidate]:
@@ -333,7 +348,28 @@ def build_main_row(candidate: Candidate) -> dict[str, str]:
 def append_main_rows(main_ws, header_idx: dict[str, int], payloads: list[dict[str, str]]) -> None:
     headers = list(header_idx.keys())
     for payload in payloads:
-        row = [payload.get(col, "") for col in headers]
+        row = []
+        for col in headers:
+            if col == "公司主体":
+                row.append(payload.get("account_canonical_name", ""))
+            elif col == "品牌名":
+                row.append(payload.get("brand_name", ""))
+            elif col == "主线":
+                row.append(payload.get("primary_track", ""))
+            elif col == "业务形态画像":
+                row.append(payload.get("persona_tag", ""))
+            elif col == "管理诉求画像":
+                row.append("")
+            elif col == "一话入池理由":
+                row.append(payload.get("admission_reason_summary", ""))
+            elif col == "主要知识资产引用":
+                row.append(payload.get("knowledge_asset_refs", ""))
+            elif col == "主要切入话术引用":
+                row.append(payload.get("talk_track_refs", ""))
+            elif col == "待验证项":
+                row.append(payload.get("validation_gap", ""))
+            else:
+                row.append(payload.get(col, ""))
         main_ws.append(row)
 
 
@@ -536,8 +572,12 @@ def append_memory(candidates: list[Candidate], counts: dict[str, int]) -> None:
 
 
 def compute_counts() -> dict[str, int]:
-    wb = load_workbook(MAIN_WB, data_only=True)
-    ws = wb[wb.sheetnames[0]]
+    try:
+        wb = load_workbook(MAIN_WB, data_only=True)
+        ws = wb[wb.sheetnames[0]]
+    except Exception:
+        wb = load_workbook(MAIN_SHARED_WB, data_only=True)
+        ws = wb["全量主表"]
     rows = list(ws.iter_rows(values_only=True))
     idx = {key: i for i, key in enumerate(rows[0])}
     maturity = Counter(str(row[idx["静态潜客记录成熟度"]]).strip() for row in rows[1:] if row[idx["静态潜客记录成熟度"]])
@@ -553,7 +593,36 @@ def compute_counts() -> dict[str, int]:
     }
 
 
-def main() -> None:
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="Retail consumer expand provider for L5 candidate discovery.")
+    parser.add_argument("--persona-id", action="append", default=[], help="Optional persona_id filter. Can be repeated.")
+    parser.add_argument("--limit", type=int, default=TARGET_NEW_L5, help="Maximum number of candidates to select.")
+    parser.add_argument("--output-file", help="Optional JSON result package output path.")
+    parser.add_argument("--report-only", action="store_true", help="Only build the provider result package without workbook write-back.")
+    return parser
+
+
+def filter_board_persona_pairs(persona_ids: list[str]) -> list[tuple[str, str]]:
+    wanted = {item.strip() for item in persona_ids if item.strip()}
+    if not wanted:
+        return BOARD_PERSONA
+    unsupported = sorted(wanted - set(SUPPORTED_PERSONA_IDS))
+    if unsupported:
+        raise RuntimeError(f"不支持的消费品 persona_id: {', '.join(unsupported)}")
+    return [item for item in BOARD_PERSONA if item[1] in wanted]
+
+
+def run_expand_provider(
+    *,
+    persona_ids: list[str] | None = None,
+    limit: int = TARGET_NEW_L5,
+    report_only: bool = False,
+    output_file: str | None = None,
+) -> dict[str, object]:
+    if limit <= 0:
+        raise RuntimeError("limit 必须大于 0")
+
+    board_persona_pairs = filter_board_persona_pairs(persona_ids or [])
     board_codes = load_board_codes()
     (
         main_wb,
@@ -566,14 +635,15 @@ def main() -> None:
         legacy_norms,
         _alias_names,
         alias_norms,
+        write_target,
     ) = load_existing_sets()
 
-    all_candidates = gather_candidates(BOARD_PERSONA, board_codes)
+    all_candidates = gather_candidates(board_persona_pairs, board_codes)
     filtered = filter_new_candidates(all_candidates, current_norms, legacy_norms, alias_norms)
-    if len(filtered) < TARGET_NEW_L5:
-        raise RuntimeError(f"消费品板块净新增候选不足 {TARGET_NEW_L5}，当前仅 {len(filtered)}")
+    if len(filtered) < limit:
+        raise RuntimeError(f"消费品板块净新增候选不足 {limit}，当前仅 {len(filtered)}")
 
-    selected = filtered[:TARGET_NEW_L5]
+    selected = filtered[:limit]
     new_ids = {f'acc_l5_{candidate.code}' for candidate in selected}
     if new_ids & current_ids:
         raise RuntimeError("发现 account_id 冲突，停止写入")
@@ -597,16 +667,18 @@ def main() -> None:
         validation_by_code[candidate.code] = validation
         payloads.append(payload)
 
-    append_main_rows(main_ws, idx, payloads)
-    main_wb.save(MAIN_WB)
-    append_profile_rows(selected, payload_map)
-    append_gov_rows(selected, validation_by_code)
+    counts_after_write = None
+    if not report_only:
+        append_main_rows(main_ws, idx, payloads)
+        main_wb.save(MAIN_WB if write_target == "main" else MAIN_SHARED_WB)
+        append_profile_rows(selected, payload_map)
+        append_gov_rows(selected, validation_by_code)
 
-    counts = compute_counts()
-    for path in [HOME_MD, TOTAL_MD, MILESTONE_MD]:
-        replace_counts(path, counts)
-    write_exec_doc_v2(selected, counts, validation_by_code)
-    append_memory(selected, counts)
+        counts_after_write = compute_counts()
+        for path in [HOME_MD, TOTAL_MD, MILESTONE_MD]:
+            replace_counts(path, counts_after_write)
+        write_exec_doc_v2(selected, counts_after_write, validation_by_code)
+        append_memory(selected, counts_after_write)
 
     persona_counter = Counter(candidate.persona_tag for candidate in selected)
     candidate_type_counter = Counter(validation_by_code[candidate.code].candidate_type for candidate in selected)
@@ -615,16 +687,50 @@ def main() -> None:
         validation = validation_by_code[candidate.code]
         for issue in validation.issues + validation.warnings:
             issue_counter[issue.code] += 1
-    print(
-        {
+
+    result = {
+        "provider": "retail_consumer_board_scan",
+        "track": "零售消费",
+        "write_target": write_target,
+        "selected_persona_ids": sorted({candidate.persona_tag for candidate in selected}),
+        "report_only": report_only,
+        "summary": {
             "new_l5": len(selected),
-            "counts": counts,
             "persona_counter": dict(persona_counter),
             "candidate_type_counter": dict(candidate_type_counter),
             "issue_counter": dict(issue_counter),
-            "sample_names": [candidate.name for candidate in selected[:20]],
-        }
+        },
+        "counts_after_write": counts_after_write,
+        "sample_names": [candidate.name for candidate in selected[:20]],
+        "results": [
+            {
+                "account_id": payload_map[candidate.code]["account_id"],
+                "account_canonical_name": candidate.name,
+                "persona_tag": candidate.persona_tag,
+                "board_name": candidate.board_name,
+                "board_code": candidate.board_code,
+                "candidate_type": validation_by_code[candidate.code].candidate_type,
+                "review_status": validation_by_code[candidate.code].review_status,
+                "required_queue_type": validation_by_code[candidate.code].required_queue_type,
+                "summary": validation_by_code[candidate.code].summary,
+            }
+            for candidate in selected
+        ],
+    }
+    if output_file:
+        Path(output_file).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    return result
+
+
+def main() -> None:
+    args = build_parser().parse_args()
+    result = run_expand_provider(
+        persona_ids=args.persona_id,
+        limit=args.limit,
+        report_only=args.report_only,
+        output_file=args.output_file,
     )
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

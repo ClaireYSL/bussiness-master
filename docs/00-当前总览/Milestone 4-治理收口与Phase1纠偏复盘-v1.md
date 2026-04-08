@@ -21,7 +21,7 @@
 
 已完成：
 
-1. `L4/L5` 二次分流规则已正式写入 [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
+1. `L4/L5` 二次分流规则已正式写入 [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
 2. 主画像 / 次级画像 / 强相关知识资产引用的结构口径已固定
 3. 标准 persona 集合与 legacy persona alias 已进入共享校验层
 
@@ -40,13 +40,13 @@
    - `secondary_persona_tags`
    - `knowledge_asset_refs`
    - `talk_track_refs`
-4. 新增 [build_phase1_rectification_package.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/build_phase1_rectification_package.py)，用于生成本轮正式纠偏结果包
+4. 新增 [build_phase1_rectification_package.py](/Users/clairaipartner/Codex/bussiness-master/scripts/build_phase1_rectification_package.py)，用于生成本轮正式纠偏结果包
 
 ### 2.3 样本层
 
 已完成：
 
-- `15/15` 样本正式纠偏结果已生成到 [phase1_rectification_package_v1.json](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/deliveries/phase1_rectification_package_v1.json)
+- `15/15` 样本正式纠偏结果已生成到 [phase1_rectification_package_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_rectification_package_v1.json)
 
 横向结果：
 
@@ -69,7 +69,7 @@
 
 参考文档：
 
-- [learning_queue与Phase1样本关联复核-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/learning_queue%E4%B8%8EPhase1%E6%A0%B7%E6%9C%AC%E5%85%B3%E8%81%94%E5%A4%8D%E6%A0%B8-v1.md)
+- [learning_queue与Phase1样本关联复核-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/learning_queue%E4%B8%8EPhase1%E6%A0%B7%E6%9C%AC%E5%85%B3%E8%81%94%E5%A4%8D%E6%A0%B8-v1.md)
 
 ---
 

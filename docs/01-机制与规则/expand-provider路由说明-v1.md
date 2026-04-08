@@ -6,14 +6,14 @@
 
 ## 当前脚本入口
 
-- [expand_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/expand_static_pool.py)
+- [expand_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/expand_static_pool.py)
 
 ## 当前 provider 状态
 
 ### 已有专题 provider
 
 - 零售消费 / 部分消费品画像
-  - [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
+  - [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
 
 ### 暂无稳定 provider
 

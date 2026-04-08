@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}后台验证{% endblock %}
+{% block body %}
+<main class="dashboard-shell">
+  <section class="dashboard-main dashboard-main--single dashboard-main--compact">
+    <article class="panel-card panel-card--compact" style="max-width: 520px; margin: 48px auto 0;">
+      <p class="eyebrow">后台访问验证</p>
+      <h3 class="section-title">请输入后台访问密码</h3>
+      <form id="admin-gate-form" class="stack-form">
+        <label>
+          <span>访问密码</span>
+          <input name="password" type="password" placeholder="请输入后台访问密码" required />
+        </label>
+        <div class="button-row">
+          <button type="submit" class="primary-btn">进入后台</button>
+        </div>
+        <p id="admin-gate-message" class="form-message"></p>
+      </form>
+    </article>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script>
+  window.BUSSINESS_PAGE = "admin-gate";
+</script>
+{% endblock %}

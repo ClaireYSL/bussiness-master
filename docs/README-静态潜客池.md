@@ -21,7 +21,7 @@
 
 当前关于“知识库 / 画像 / 潜客 / 潜客池 / 潜客档案”五层关系的权威说明，统一见：
 
-- [知识库画像潜客池档案关系总说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/知识库画像潜客池档案关系总说明-v1.md)
+- [知识库画像潜客池档案关系总说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/知识库画像潜客池档案关系总说明-v1.md)
 
 不要再把系统理解成：
 
@@ -43,25 +43,25 @@
 
 先看：
 
-- [静态潜客池-主线恢复版总说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/静态潜客池-主线恢复版总说明-v1.md)
-- [静态潜客池-污染止血与可信底座重建方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/静态潜客池-污染止血与可信底座重建方案-v1.md)
-- [静态潜客池整体设计与运行机制汇报-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/静态潜客池整体设计与运行机制汇报-v1.md)
+- [静态潜客池-主线恢复版总说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-主线恢复版总说明-v1.md)
+- [静态潜客池-污染止血与可信底座重建方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-污染止血与可信底座重建方案-v1.md)
+- [静态潜客池整体设计与运行机制汇报-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池整体设计与运行机制汇报-v1.md)
 
 ### 2.2 如果你想先看当前规则
 
 先看：
 
-- [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
-- [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
-- [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
-- [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
+- [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
+- [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
+- [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
+- [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
 
 ### 2.3 如果你想先看结构与执行
 
 先看：
 
-- [README.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/README.md)
-- [README.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/README.md)
+- [README.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/README.md)
+- [README.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/README.md)
 
 ---
 
@@ -103,28 +103,28 @@
 
 ### 4.1 现行入口层
 
-- [00-当前总览](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览)
+- [00-当前总览](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览)
   - 看当前主线、阶段状态、素材总览、治理建议
 
 ### 4.2 现行制度层
 
-- [01-机制与规则](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则)
+- [01-机制与规则](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则)
   - 看当前有效规则、边界、L5 入池、上移、冻结、知识接入
 
 ### 4.3 现行结构层
 
-- [02-注册表与结构](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构)
+- [02-注册表与结构](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构)
   - 现在默认只保留字段模板和结构定义
 
 ### 4.4 现行执行索引层
 
-- [03-执行与校验](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验)
+- [03-执行与校验](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验)
   - 现在只保留当前索引和少量仍复用专题
 
 ### 4.5 研究与归档层
 
-- [04-研究与方法](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/04-研究与方法)
-- [archive](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/archive)
+- [04-研究与方法](/Users/clairaipartner/Codex/bussiness-master/docs/04-研究与方法)
+- [archive](/Users/clairaipartner/Codex/bussiness-master/docs/archive)
 
 归档不代表没价值，只代表：
 
@@ -137,22 +137,22 @@
 
 ### 路径 A：想快速建立全局理解
 
-1. [静态潜客池-主线恢复版总说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/静态潜客池-主线恢复版总说明-v1.md)
-2. [静态潜客池-污染止血与可信底座重建方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/静态潜客池-污染止血与可信底座重建方案-v1.md)
-3. [静态潜客池-Milestone状态总览-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/静态潜客池-Milestone状态总览-v1.0.md)
+1. [静态潜客池-主线恢复版总说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-主线恢复版总说明-v1.md)
+2. [静态潜客池-污染止血与可信底座重建方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-污染止血与可信底座重建方案-v1.md)
+3. [静态潜客池-Milestone状态总览-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-Milestone状态总览-v1.0.md)
 
 ### 路径 B：想恢复日常执行
 
-1. [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
-2. [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
-3. [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
-4. [Milestone 3 执行跟踪文档-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/Milestone%203%20执行跟踪文档-v1.md)
+1. [静态潜客池-冻结口径与可信最小字段集规范-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-冻结口径与可信最小字段集规范-v1.md)
+2. [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
+3. [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
+4. [Milestone 3 执行跟踪文档-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/Milestone%203%20执行跟踪文档-v1.md)
 
 ### 路径 C：想看知识学习链路
 
-1. [知识库原素材位置与学习进展总览-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/知识库原素材位置与学习进展总览-v1.md)
-2. [新原素材根目录使用说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/新原素材根目录使用说明-v1.md)
-3. [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
+1. [知识库原素材位置与学习进展总览-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/知识库原素材位置与学习进展总览-v1.md)
+2. [新原素材根目录使用说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/新原素材根目录使用说明-v1.md)
+3. [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
 
 ---
 
@@ -179,7 +179,7 @@
 
 当前已落地脚本入口：
 
-- [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
+- [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
 
 当前成熟度：
 
@@ -200,13 +200,18 @@
 
 当前默认脚本入口：
 
-- 通用入口：[promote_static_pool.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_static_pool.py)
-- 批次配置：[configs/promote_batches](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/configs/promote_batches)
+- 通用入口：[promote_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/promote_static_pool.py)
+- 批次配置：[configs/promote_batches](/Users/clairaipartner/Codex/bussiness-master/configs/promote_batches)
 
 历史 wrapper：
 
-- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l5_to_l3_consumer_20260331.py)
-- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/scripts/promote_l3_to_l2_mass_20260331.py)
+- [promote_l5_to_l3_consumer_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l5_to_l3_consumer_20260331.py)
+- [promote_l3_to_l2_mass_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/legacy/promote_l3_to_l2_mass_20260331.py)
+
+说明：
+
+- 这两支脚本已经降级到 `scripts/legacy/`
+- 当前默认 promote 主入口仍然是通用脚本，不应再从 wrapper 开始读
 
 ### 6.3 `static-pool-cleanup`
 

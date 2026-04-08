@@ -1,0 +1,156 @@
+{
+  "provider": "retail_consumer_board_scan",
+  "track": "零售消费",
+  "write_target": "shared",
+  "selected_persona_ids": [
+    "retail_multi_store"
+  ],
+  "report_only": false,
+  "summary": {
+    "new_l5": 10,
+    "persona_counter": {
+      "retail_multi_store": 10
+    },
+    "candidate_type_counter": {
+      "observation": 10
+    },
+    "issue_counter": {
+      "official_source_missing": 10,
+      "generic_admission": 10,
+      "persona_boundary_unstable": 10
+    }
+  },
+  "counts_after_write": {
+    "total": 365,
+    "L1": 8,
+    "L2": 35,
+    "L3": 40,
+    "L4": 4,
+    "L5": 275,
+    "L3_plus": 83
+  },
+  "sample_names": [
+    "博士眼镜",
+    "爱施德",
+    "天音控股",
+    "吉峰科技",
+    "华远控股",
+    "新华百货",
+    "小商品城",
+    "供销大集",
+    "德必集团",
+    "全新好"
+  ],
+  "results": [
+    {
+      "account_id": "acc_l5_300622",
+      "account_canonical_name": "博士眼镜",
+      "persona_tag": "retail_multi_store",
+      "board_name": "专业连锁Ⅱ",
+      "board_code": "BK1270",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "account_canonical_name": "爱施德",
+      "persona_tag": "retail_multi_store",
+      "board_name": "专业连锁Ⅱ",
+      "board_code": "BK1270",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "account_canonical_name": "天音控股",
+      "persona_tag": "retail_multi_store",
+      "board_name": "专业连锁Ⅱ",
+      "board_code": "BK1270",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "account_canonical_name": "吉峰科技",
+      "persona_tag": "retail_multi_store",
+      "board_name": "专业连锁Ⅱ",
+      "board_code": "BK1270",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_600743",
+      "account_canonical_name": "华远控股",
+      "persona_tag": "retail_multi_store",
+      "board_name": "一般零售",
+      "board_code": "BK0482",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_600785",
+      "account_canonical_name": "新华百货",
+      "persona_tag": "retail_multi_store",
+      "board_name": "一般零售",
+      "board_code": "BK0482",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_600415",
+      "account_canonical_name": "小商品城",
+      "persona_tag": "retail_multi_store",
+      "board_name": "一般零售",
+      "board_code": "BK0482",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_000564",
+      "account_canonical_name": "供销大集",
+      "persona_tag": "retail_multi_store",
+      "board_name": "一般零售",
+      "board_code": "BK0482",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_300947",
+      "account_canonical_name": "德必集团",
+      "persona_tag": "retail_multi_store",
+      "board_name": "一般零售",
+      "board_code": "BK0482",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "account_canonical_name": "全新好",
+      "persona_tag": "retail_multi_store",
+      "board_name": "一般零售",
+      "board_code": "BK0482",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "summary": "当前对象只满足观察/边界对象条件，不能视为正式 L5 候选。"
+    }
+  ]
+}

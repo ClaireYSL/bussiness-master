@@ -13,8 +13,8 @@ from zipfile import BadZipFile
 from openpyxl import load_workbook
 
 
-ROOT = Path("/Users/clairaipartner")
-WORKSPACE = ROOT / ".openclaw/workspace-main/bussiness-master"
+ROOT = Path.home()
+WORKSPACE = Path(__file__).resolve().parents[2]
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 
 PROFILE_XLSX = VAULT / "潜客档案库.xlsx"

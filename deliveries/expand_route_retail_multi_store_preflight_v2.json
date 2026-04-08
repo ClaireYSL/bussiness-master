@@ -1,0 +1,31 @@
+{
+  "batch_id": "expand_route_retail_multi_store_preflight_v2",
+  "track": "零售消费",
+  "track_id": "retail_consumer",
+  "persona_id": "retail_multi_store",
+  "candidate_source": "",
+  "report_only": true,
+  "write_back": false,
+  "routing": {
+    "supported_provider": true,
+    "provider_script": "/Users/clairaipartner/Codex/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py",
+    "active_personas_for_track": [
+      "fnb_chain_beverage_coffee",
+      "fnb_chain_standardized",
+      "retail_brand_beauty",
+      "retail_brand_maternal_pet",
+      "retail_chain_fnb",
+      "retail_fashion_group",
+      "retail_high_sku_brand",
+      "retail_multi_store"
+    ],
+    "mode": "provider_script"
+  },
+  "candidate_list": [],
+  "formal_candidate_count": 0,
+  "observation_count": 0,
+  "unsupported_provider": false,
+  "provider_executed": false,
+  "provider_result": null,
+  "next_step": "当前可接专题 provider：/Users/clairaipartner/Codex/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py。如需真实扩池，使用 `--write-back` 进入统一 expand 执行。"
+}

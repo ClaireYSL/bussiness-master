@@ -10,8 +10,8 @@ from openpyxl import load_workbook
 
 
 TODAY = "2026-03-31"
-ROOT = Path("/Users/clairaipartner")
-WORKSPACE = ROOT / ".openclaw/workspace-main/bussiness-master"
+ROOT = Path.home()
+WORKSPACE = Path(__file__).resolve().parents[2]
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))

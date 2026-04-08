@@ -13,7 +13,7 @@
 
 ## 2. 当前结论
 
-截至 [external_target_account_pool_v2-首版真实内容-v0.15.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/archive/external_target_account_pool_v2/external_target_account_pool_v2-首版真实内容-v0.15.md)，当前结构化主表共发现 `13` 组重复主体。
+截至 [external_target_account_pool_v2-首版真实内容-v0.15.md](/Users/clairaipartner/Codex/bussiness-master/docs/archive/external_target_account_pool_v2/external_target_account_pool_v2-首版真实内容-v0.15.md)，当前结构化主表共发现 `13` 组重复主体。
 
 原始结构化覆盖量：`373`  
 去重后的唯一主体数：`360`
@@ -51,5 +51,5 @@
 
 ## 5. 关联文档
 
-- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-去重治理规则-v1.0.md)
-- [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
+- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-去重治理规则-v1.0.md)
+- [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)

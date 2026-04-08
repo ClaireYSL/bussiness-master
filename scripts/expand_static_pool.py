@@ -8,9 +8,11 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 WORKSPACE = Path(__file__).resolve().parents[1]
-ROOT = WORKSPACE.parents[2]
+ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
+
+from scripts.expand_l5_consumer_personas_20260331 import run_expand_provider
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 TRACK_PERSONA_XLSX = VAULT / "主线与画像注册表.xlsx"
@@ -37,9 +39,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--persona-id", help="Optional primary persona to route.")
     parser.add_argument("--candidate-source", default="", help="Optional source description for this batch.")
     parser.add_argument("--account-list-file", help="Optional candidate list file for rule-driven fallback.")
+    parser.add_argument("--limit", type=int, default=20, help="Maximum number of candidates to return or execute for this batch.")
     parser.add_argument("--output-file", required=True, help="Where to write the expand routing result package.")
     parser.add_argument("--report-only", action="store_true", help="Only build routing report.")
-    parser.add_argument("--write-back", action="store_true", help="Reserved for future provider execution.")
+    parser.add_argument("--write-back", action="store_true", help="Execute the matched provider when available.")
     return parser
 
 
@@ -75,6 +78,19 @@ def load_candidate_list(path: str | None) -> list[str]:
     return [line.strip() for line in payload.splitlines() if line.strip()]
 
 
+def execute_provider(persona_id: str, limit: int, report_only: bool, output_file: str) -> dict[str, object]:
+    if persona_id not in SUPPORTED_PERSONA_PROVIDERS:
+        raise RuntimeError(f"当前 persona `{persona_id}` 没有可执行 provider。")
+    if SUPPORTED_PERSONA_PROVIDERS[persona_id] != str(RETAIL_PROVIDER):
+        raise RuntimeError(f"当前 provider `{SUPPORTED_PERSONA_PROVIDERS[persona_id]}` 还未接入统一 expand 执行。")
+    return run_expand_provider(
+        persona_ids=[persona_id],
+        limit=limit,
+        report_only=report_only,
+        output_file=output_file,
+    )
+
+
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
@@ -86,6 +102,8 @@ def main() -> int:
     provider = SUPPORTED_PERSONA_PROVIDERS.get(persona_id, "")
     candidates = load_candidate_list(args.account_list_file)
     supported = bool(provider)
+    provider_executed = False
+    provider_result: dict[str, object] | None = None
 
     payload = {
         "batch_id": Path(args.output_file).stem,
@@ -94,7 +112,7 @@ def main() -> int:
         "persona_id": persona_id,
         "candidate_source": args.candidate_source,
         "report_only": args.report_only or not supported,
-        "write_back": False,
+        "write_back": bool(args.write_back and supported and not args.report_only),
         "routing": {
             "supported_provider": supported,
             "provider_script": provider,
@@ -105,16 +123,46 @@ def main() -> int:
         "formal_candidate_count": 0,
         "observation_count": 0,
         "unsupported_provider": not supported,
+        "provider_executed": False,
+        "provider_result": None,
         "next_step": "",
     }
     if supported:
-        payload["next_step"] = f"当前可接专题 provider：{provider}。如需真实扩池，下一步调用该脚本或后续 provider 封装。"
+        if args.report_only or not args.write_back:
+            payload["next_step"] = f"当前可接专题 provider：{provider}。如需真实扩池，使用 `--write-back` 进入统一 expand 执行。"
+        else:
+            provider_result = execute_provider(
+                persona_id=persona_id,
+                limit=args.limit,
+                report_only=False,
+                output_file=args.output_file,
+            )
+            provider_executed = True
+            payload["provider_executed"] = True
+            payload["provider_result"] = provider_result
+            summary = provider_result.get("summary") or {}
+            candidate_counter = summary.get("candidate_type_counter") or {}
+            payload["formal_candidate_count"] = int(candidate_counter.get("formal_candidate", 0))
+            payload["observation_count"] = int(candidate_counter.get("observation", 0))
+            payload["next_step"] = "已通过统一 expand 入口执行匹配 provider，并产出 provider 结果包。"
     else:
         payload["next_step"] = "当前无匹配专题脚本，进入规则驱动模式：先补最小事实、最小 evidence，再交 enrich/promote 链路处理。"
 
-    output_path = Path(args.output_file)
-    output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"output_file": str(output_path), "routing": payload["routing"], "candidate_count": len(candidates)}, ensure_ascii=False, indent=2))
+    if not provider_executed:
+        output_path = Path(args.output_file)
+        output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(
+        json.dumps(
+            {
+                "output_file": args.output_file,
+                "routing": payload["routing"],
+                "candidate_count": len(candidates),
+                "provider_executed": payload["provider_executed"],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
     return 0
 
 

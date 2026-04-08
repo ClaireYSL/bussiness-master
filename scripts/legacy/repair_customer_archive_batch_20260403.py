@@ -12,8 +12,8 @@ from zipfile import BadZipFile
 
 from openpyxl import load_workbook
 
-WORKSPACE = Path(__file__).resolve().parents[1]
-ROOT = WORKSPACE.parents[2]
+WORKSPACE = Path(__file__).resolve().parents[2]
+ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
@@ -27,11 +27,11 @@ TEAM_INDEX_XLSX = VAULT / "L3以上客户档案索引-团队共享.xlsx"
 L3_INDEX_MD = VAULT / "05-汇总与状态/01-总览/L3以上客户档案索引.md"
 
 NORMALIZE_SCRIPT = WORKSPACE / "scripts/normalize_customer_fact_fields_20260402.py"
-RENDER_SCRIPT = WORKSPACE / "scripts/reinforce_l3plus_quality_20260331.py"
-CHECK_SCRIPT = WORKSPACE / "scripts/check_customer_archive_quality_20260402.py"
+RENDER_SCRIPT = WORKSPACE / "scripts/legacy/reinforce_l3plus_quality_20260331.py"
+CHECK_SCRIPT = WORKSPACE / "scripts/legacy/check_customer_archive_quality_20260402.py"
 MEMORY_PATH = WORKSPACE / "memory/2026-04-03.md"
 
-DEFAULT_BATCH_FILE = WORKSPACE / "deliveries/customer_archive_repair_batch_2026_04_03_01.json"
+DEFAULT_BATCH_FILE = WORKSPACE / "deliveries/archive/customer_archive_repair_batches/customer_archive_repair_batch_2026_04_03_01.json"
 
 FACT_PLACEHOLDER = "待补官网/年报/IR口径"
 EVENT_PLACEHOLDER = "待补更强官方披露"

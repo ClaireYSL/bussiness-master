@@ -156,7 +156,7 @@
 - `persona_tag` 只允许填写 1 个主画像
 - `secondary_persona_tags` 用于记录次级画像、边界画像或辅助解释画像，可多值
 - 一个潜客可以命中多个画像，但主表判断、默认入池理由和默认上移判断都必须以 `persona_tag` 为主
-- 任何新增画像都必须先注册到 [persona_registry_v1-字段模板-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/persona_registry_v1-字段模板-v1.md)，不允许在账户表里临时发明画像
+- 任何新增画像都必须先注册到 [persona_registry_v1-字段模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/persona_registry_v1-字段模板-v1.md)，不允许在账户表里临时发明画像
 
 ### `knowledge_asset_refs`
 
@@ -191,7 +191,7 @@ account_id,account_canonical_name,brand_name,group_name,primary_track,industry_l
 
 ## 9. 与 v1.0 旧主表模板的关系
 
-- 本表是 [外部目标客户池-v1.0-静态潜客池主表模板.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/archive/外部目标客户池-v1.0/外部目标客户池-v1.0-静态潜客池主表模板.md) 的升级版
+- 本表是 [外部目标客户池-v1.0-静态潜客池主表模板.md](/Users/clairaipartner/Codex/bussiness-master/docs/archive/外部目标客户池-v1.0/外部目标客户池-v1.0-静态潜客池主表模板.md) 的升级版
 - 升级点主要是：
   - 增加了 `account_id`
   - 增加了治理字段

@@ -13,7 +13,7 @@
 ### 事实源
 
 - Excel 是唯一事实源
-- 当前事实口径以 [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md) 为准
+- 当前事实口径以 [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md) 为准
 - 当前判断字段统一为：
   - `信息扎实度`
   - `ICP匹配概率`
@@ -168,4 +168,4 @@ Obsidian 不给全量公司建 note，只给重点公司建 note。
 - Obsidian：工作台与阅读入口  
   [潜客池-首页.md](/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客池-首页.md)
 - repo docs：制度、结构、执行与归档入口  
-  [README-静态潜客池.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/README-静态潜客池.md)
+  [README-静态潜客池.md](/Users/clairaipartner/Codex/bussiness-master/docs/README-静态潜客池.md)

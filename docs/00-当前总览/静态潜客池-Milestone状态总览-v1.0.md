@@ -49,9 +49,9 @@
 
 核心文档：
 
-- [external_target_account_pool_v2-重复主体清单-v0.1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/external_target_account_pool_v2-重复主体清单-v0.1.md)
-- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-去重治理规则-v1.0.md)
-- [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
+- [external_target_account_pool_v2-重复主体清单-v0.1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/external_target_account_pool_v2-重复主体清单-v0.1.md)
+- [external_target_account_pool_v2-去重治理规则-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-去重治理规则-v1.0.md)
+- [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
 - [潜客池工作台首页](/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客池-首页.md)
 
 ### Milestone 2：静态池持续扩展最小版
@@ -85,9 +85,9 @@
 
 核心文档：
 
-- [静态潜客池-持续扩展最小机制-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客池-持续扩展最小机制-v1.0.md)
-- [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5入池模板-v1.0.md)
-- [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
+- [静态潜客池-持续扩展最小机制-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客池-持续扩展最小机制-v1.0.md)
+- [external_target_account_pool_v2-L5入池模板-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/external_target_account_pool_v2-L5入池模板-v1.0.md)
+- [account_alias_registry_v1-首版真实内容-v0.1.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/account_alias_registry_v1-首版真实内容-v0.1.md)
 
 ### Milestone 3：L1-L4 静态信息可靠度增强
 
@@ -152,25 +152,25 @@
 
 核心文档：
 
-- [Milestone 4-治理收口与Phase1纠偏复盘-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/Milestone%204-%E6%B2%BB%E7%90%86%E6%94%B6%E5%8F%A3%E4%B8%8EPhase1%E7%BA%A0%E5%81%8F%E5%A4%8D%E7%9B%98-v1.md)
-- [Phase1样本正式纠偏清单-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/Phase1%E6%A0%B7%E6%9C%AC%E6%AD%A3%E5%BC%8F%E7%BA%A0%E5%81%8F%E6%B8%85%E5%8D%95-v1.md)
-- [learning_queue与Phase1样本关联复核-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/00-当前总览/learning_queue%E4%B8%8EPhase1%E6%A0%B7%E6%9C%AC%E5%85%B3%E8%81%94%E5%A4%8D%E6%A0%B8-v1.md)
-- [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
+- [Milestone 4-治理收口与Phase1纠偏复盘-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/Milestone%204-%E6%B2%BB%E7%90%86%E6%94%B6%E5%8F%A3%E4%B8%8EPhase1%E7%BA%A0%E5%81%8F%E5%A4%8D%E7%9B%98-v1.md)
+- [Phase1样本正式纠偏清单-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/Phase1%E6%A0%B7%E6%9C%AC%E6%AD%A3%E5%BC%8F%E7%BA%A0%E5%81%8F%E6%B8%85%E5%8D%95-v1.md)
+- [learning_queue与Phase1样本关联复核-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/learning_queue%E4%B8%8EPhase1%E6%A0%B7%E6%9C%AC%E5%85%B3%E8%81%94%E5%A4%8D%E6%A0%B8-v1.md)
+- [L4L5二次分流与画像收紧方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L4L5%E4%BA%8C%E6%AC%A1%E5%88%86%E6%B5%81%E4%B8%8E%E7%94%BB%E5%83%8F%E6%94%B6%E7%B4%A7%E6%96%B9%E6%A1%88-v1.md)
 
 核心文档：
 
-- [Milestone 3 执行跟踪文档-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/Milestone%203%20执行跟踪文档-v1.md)
-- [L1-L4 背景 enrich 覆盖清单-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/L1-L4%20背景%20enrich%20覆盖清单-v1.md)
-- [静态潜客池-先进制造上移专项-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-先进制造上移专项-v1.md)
-- [静态潜客池-L2扩容专项-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md)
-- [静态潜客池-L2扩容专项-v2.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v2.md)
-- [静态潜客池-L5到L3扩容专项-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v1.md)
-- [静态潜客池-档案层驱动上移试运行-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-档案层驱动上移试运行-v1.md)
-- [潜客档案质量校准-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/潜客档案质量校准-v1.md)
-- [共享版 Excel 字段口径说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/共享版%20Excel%20字段口径说明-v1.md)
-- [三条主线专题包校验记录-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/三条主线专题包校验记录-v1.md)
-- [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
-- [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
+- [Milestone 3 执行跟踪文档-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/Milestone%203%20执行跟踪文档-v1.md)
+- [L1-L4 背景 enrich 覆盖清单-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/L1-L4%20背景%20enrich%20覆盖清单-v1.md)
+- [静态潜客池-先进制造上移专项-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/静态潜客池-先进制造上移专项-v1.md)
+- [静态潜客池-L2扩容专项-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v1.md)
+- [静态潜客池-L2扩容专项-v2.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/静态潜客池-L2扩容专项-v2.md)
+- [静态潜客池-L5到L3扩容专项-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v1.md)
+- [静态潜客池-档案层驱动上移试运行-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/静态潜客池-档案层驱动上移试运行-v1.md)
+- [潜客档案质量校准-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/潜客档案质量校准-v1.md)
+- [共享版 Excel 字段口径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/共享版%20Excel%20字段口径说明-v1.md)
+- [三条主线专题包校验记录-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/03-执行与校验/三条主线专题包校验记录-v1.md)
+- [静态潜客信息收集路径与方法设计-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息收集路径与方法设计-v1.md)
+- [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)
 
 ## 3. 当前仍保留的边界主体
 
@@ -185,7 +185,7 @@
 
 1. 历史 `v0.x / v1.0 / v1.1` 汇总文档只作为过程记录
 2. 当前静态池事实口径以：
-   - [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
+   - [external_target_account_pool_v2-清洗后事实主表-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/02-注册表与结构/external_target_account_pool_v2-清洗后事实主表-v1.0.md)
    - [潜客池工作台首页](/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客池-首页.md)
    为准
 3. 后续继续扩池时，必须优先复用：
