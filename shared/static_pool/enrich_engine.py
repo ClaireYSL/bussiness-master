@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 from .constants import LEGACY_PERSONA_TAG_MAP, STANDARD_PERSONA_IDS
 from .models import EnrichResult, KnowledgeMatch, ValidationIssue
 from .promote_engine import attach_account_ids, load_main_rows_with_fallback, load_sheet_rows
-from .validators import normalize_persona_tag, normalize_secondary_persona_tags
+from .validators import classify_l5_candidate, evaluate_minimum_fact_set, normalize_persona_tag, normalize_secondary_persona_tags
 
 ROOT = Path("/Users/clairaipartner")
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
@@ -326,12 +326,21 @@ def evaluate_enrich_readiness(*, candidate_type: str, minimum_fact_status: str, 
     return True
 
 
+def _derive_minimum_fact_status(main_row: dict[str, Any]) -> str:
+    issues = evaluate_minimum_fact_set(main_row)
+    if any(item.severity == "block" for item in issues):
+        return "fail"
+    if issues:
+        return "partial"
+    return "pass"
+
+
 def build_enrich_results(
     *,
     account_ids: list[str] | None = None,
     rectification_path: Path | None = None,
 ) -> list[EnrichResult]:
-    main_rows, profile_rows, _review_rows, _evidence_rows = load_state()
+    main_rows, profile_rows, _review_rows, evidence_rows = load_state()
     active_personas = load_active_personas()
     assets = load_knowledge_assets()
     learning_queue = load_learning_queue()
@@ -340,6 +349,7 @@ def build_enrich_results(
     profile_by_id = _build_lookup(profile_rows, "account_id")
     profile_by_name = _build_lookup(profile_rows, "account_canonical_name")
     main_by_id = _build_lookup(main_rows, "account_id")
+    evidence_by_account = _build_grouped_lookup(evidence_rows, "account_id")
 
     wanted = set(account_ids or rectification_map.keys())
     if not wanted:
@@ -385,15 +395,52 @@ def build_enrich_results(
         rect = (rectification or {}).get("rectification", {})
         rewrite = rect.get("rewrite_suggestion") or {}
         risk_flags = rect.get("risk_flags") or []
-        minimum_fact_status = _clean(rect.get("minimum_fact_decision")) or "unknown"
-        official_source_status = "missing" if "official_source_missing" in risk_flags else "available"
-        candidate_type = _clean(rect.get("final_candidate_type")) or "observation"
-        review_status = _clean(rect.get("final_review_status")) or ("active" if candidate_type == "formal_candidate" else "pending_review")
-        required_queue_type = _clean(rect.get("required_queue_type")) or ("verification" if candidate_type == "formal_candidate" else "boundary_review")
         suggested_maturity = _clean(rect.get("suggested_maturity")) or current_level
         validation_gap = _clean(rewrite.get("validation_gap") or rect.get("rectification_action") or profile_row.get("validation_gap") or main_row.get("validation_gap"))
-        issues = persona_issues
-        warnings = secondary_issues
+        account_evidence = evidence_by_account.get(account_id, [])
+        evidence_official_count = sum(
+            1
+            for row in account_evidence
+            if _clean(row.get("evidence_strength") or row.get("strength")).upper() in {"A", "S"}
+            or any(token in _clean(row.get("source_locator")).lower() for token in ("官网", "year", "annual", "ir", "investor", "cninfo", "公告"))
+            or any(token in _clean(row.get("source_type")).lower() for token in ("official", "annual", "ir", "website"))
+        )
+        profile_official_count = 0
+        try:
+            profile_official_count = int(profile_row.get("official_source_count") or 0)
+        except Exception:
+            profile_official_count = 0
+        official_source_status = "available" if max(profile_official_count, evidence_official_count) >= 1 else "missing"
+
+        enriched_main_row = {
+            "account_id": account_id,
+            "account_canonical_name": account_name or _clean(profile_row.get("account_canonical_name")),
+            "primary_track": track_name,
+            "persona_tag": primary_persona,
+            "secondary_persona_tags": ",".join(secondary_personas),
+            "公司产品与服务概述": _clean(main_row.get("公司产品与服务概述") or profile_row.get("公司产品与服务概述")),
+            "商业模式概述": _clean(main_row.get("商业模式概述") or profile_row.get("商业模式概述")),
+            "admission_reason_summary": _clean(
+                rewrite.get("admission_reason_summary")
+                or main_row.get("admission_reason_summary")
+                or main_row.get("一话入池理由")
+                or profile_row.get("admission_reason_summary")
+            ),
+            "validation_gap": validation_gap,
+            "review_status": _clean(
+                profile_row.get("profile_status")
+                or main_row.get("review_status")
+                or rect.get("final_review_status")
+                or ("active" if primary_persona else "pending_review")
+            ),
+        }
+        minimum_fact_status = _derive_minimum_fact_status(enriched_main_row)
+        live_validation = classify_l5_candidate(enriched_main_row, account_evidence)
+        candidate_type = live_validation.candidate_type
+        review_status = live_validation.review_status
+        required_queue_type = live_validation.required_queue_type
+        issues = [*persona_issues, *live_validation.issues]
+        warnings = [*secondary_issues, *live_validation.warnings]
         ready = evaluate_enrich_readiness(
             candidate_type=candidate_type,
             minimum_fact_status=minimum_fact_status,

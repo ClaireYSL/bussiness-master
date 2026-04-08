@@ -1,0 +1,281 @@
+{
+  "batch_id": "milestone2_cross_track_rectification_fact_patch_v1",
+  "accounts": [
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "primary_source_types": "official_website",
+      "primary_source_refs": "https://www.popmart.com/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "潮流玩具、手办、MEGA 收藏玩具及相关 IP 衍生商品经营。",
+        "商业模式概述": "以自有及合作 IP 开发为核心，通过线上线下零售、会员运营和商品销售开展潮流消费品经营。",
+        "核心客户客群": "潮流玩具消费者、会员用户及线下零售消费场景。",
+        "产品与服务长摘录": "官网当前展示 POP MART 以潮流玩具和 IP 商品为核心，覆盖盲盒、手办、MEGA 收藏玩具等品类。",
+        "商业模式长摘录": "官网对外呈现的是围绕 IP 商品开发、零售和会员经营的消费品业务，而不是单一渠道批发模式。",
+        "客户客群长摘录": "现阶段可先确认其主要面向终端消费人群和零售消费场景；更细的门店结构和区域经营颗粒度仍待继续补充。",
+        "validation_gap": "已补官网主证据；仍需补中国经营主体、门店结构、区域经营和更细 persona 边界证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "潮流玩具、手办、MEGA 收藏玩具及相关 IP 衍生商品经营。",
+        "商业模式概述": "以自有及合作 IP 开发为核心，通过线上线下零售、会员运营和商品销售开展潮流消费品经营。",
+        "核心客户客群": "潮流玩具消费者、会员用户及线下零售消费场景。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_popmart_m2_fact_product_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "潮流玩具、手办、MEGA 收藏玩具及相关 IP 衍生商品经营。",
+          "source_locator": "https://www.popmart.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "background_profile",
+          "summary": "官网可支撑其以潮流玩具和 IP 商品经营为核心。"
+        },
+        {
+          "evidence_id": "ev_acc_popmart_m2_fact_model_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "商业模式概述",
+          "field_value": "以自有及合作 IP 开发为核心，通过线上线下零售、会员运营和商品销售开展潮流消费品经营。",
+          "source_locator": "https://www.popmart.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "business_model",
+          "summary": "官网当前可支撑其围绕 IP 商品开发、零售和会员经营开展业务。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "account_name": "三只松鼠股份有限公司",
+      "primary_source_types": "cninfo,official_website",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三只松鼠股份有限公司",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "坚果、烘焙、肉制品、果干等多品类休闲食品经营。",
+        "商业模式概述": "以品牌零食研发、供应链协同和线上线下全渠道经营为核心开展多 SKU 消费品业务。",
+        "核心客户客群": "家庭消费人群、线上零售用户及线下零售渠道消费者。",
+        "产品与服务长摘录": "结合上市公司公开披露，可稳定确认其经营范围覆盖坚果、果干、肉制品、烘焙等多品类休闲食品。",
+        "商业模式长摘录": "现阶段可稳定确认其属于多 SKU 品牌零食经营主体，依赖商品、供应链和多渠道协同开展业务。",
+        "客户客群长摘录": "其客户链路至少覆盖线上零售消费、家庭零食消费和线下零售渠道场景。",
+        "validation_gap": "已补官方披露入口；仍需补渠道结构、库存协同和更细组织颗粒度证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "坚果、烘焙、肉制品、果干等多品类休闲食品经营。",
+        "商业模式概述": "以品牌零食研发、供应链协同和线上线下全渠道经营为核心开展多 SKU 消费品业务。",
+        "核心客户客群": "家庭消费人群、线上零售用户及线下零售渠道消费者。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_threesquirrels_m2_fact_product_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "坚果、烘焙、肉制品、果干等多品类休闲食品经营。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三只松鼠股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "background_profile",
+          "summary": "上市公司官方披露可支撑其多品类休闲食品品牌经营定位。"
+        },
+        {
+          "evidence_id": "ev_acc_threesquirrels_m2_fact_model_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "商业模式概述",
+          "field_value": "以品牌零食研发、供应链协同和线上线下全渠道经营为核心开展多 SKU 消费品业务。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=三只松鼠股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "business_model",
+          "summary": "上市公司官方披露可支撑其品牌零食和全渠道经营属性。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "primary_source_types": "cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "人体工学升降桌、升降台及健康办公类产品品牌出海经营。",
+        "商业模式概述": "依托跨境渠道开展人体工学产品的品牌化、全球化经营，并覆盖海外市场销售。",
+        "核心客户客群": "海外家庭办公消费人群、海外零售消费场景及跨境平台用户。",
+        "产品与服务长摘录": "现阶段可保守确认其主营人体工学与健康办公类产品，并以品牌出海方式面向海外市场经营。",
+        "商业模式长摘录": "当前可稳定确认其经营不止于单一出口订单，而是围绕跨境渠道开展品牌化和全球化销售。",
+        "客户客群长摘录": "其客户链路至少覆盖海外终端消费者和跨境平台消费场景；更细的平台结构仍待继续补充。",
+        "validation_gap": "已补官方披露入口；仍需补平台结构、区域经营、品牌矩阵和供应链复杂度证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "人体工学升降桌、升降台及健康办公类产品品牌出海经营。",
+        "商业模式概述": "依托跨境渠道开展人体工学产品的品牌化、全球化经营，并覆盖海外市场销售。",
+        "核心客户客群": "海外家庭办公消费人群、海外零售消费场景及跨境平台用户。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_loctek_m2_fact_product_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "人体工学升降桌、升降台及健康办公类产品品牌出海经营。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "background_profile",
+          "summary": "上市公司官方披露入口可支撑其人体工学产品和品牌出海属性。"
+        },
+        {
+          "evidence_id": "ev_acc_loctek_m2_fact_model_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "商业模式概述",
+          "field_value": "依托跨境渠道开展人体工学产品的品牌化、全球化经营，并覆盖海外市场销售。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "business_model",
+          "summary": "上市公司官方披露入口可支撑其跨境渠道和全球经营属性。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_jihong",
+      "account_name": "厦门吉宏科技股份有限公司",
+      "primary_source_types": "cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门吉宏科技股份有限公司",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "跨境电商业务与包装印刷解决方案并行经营。",
+        "商业模式概述": "以跨境电商运营与制造服务双轮驱动，覆盖品牌出海、包装生产和供应链协同。",
+        "核心客户客群": "海外终端消费场景、跨境渠道消费者及包装解决方案客户。",
+        "产品与服务长摘录": "现阶段可稳定确认其同时覆盖跨境电商经营和包装印刷相关业务，不宜再简化成单一跨境卖家。",
+        "商业模式长摘录": "其经营核心可概括为跨境电商运营与制造服务并行，具备供应链和履约协同特征。",
+        "客户客群长摘录": "客户链路至少覆盖海外终端消费和包装服务场景；更细的业务占比仍待继续补充。",
+        "validation_gap": "已补官方披露入口；仍需补跨境业务占比、平台结构和供应链复杂度的更细官方证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "跨境电商业务与包装印刷解决方案并行经营。",
+        "商业模式概述": "以跨境电商运营与制造服务双轮驱动，覆盖品牌出海、包装生产和供应链协同。",
+        "核心客户客群": "海外终端消费场景、跨境渠道消费者及包装解决方案客户。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_jihong_m2_fact_product_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "跨境电商业务与包装印刷解决方案并行经营。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门吉宏科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "background_profile",
+          "summary": "上市公司官方披露入口可支撑其跨境经营与包装制造双轮驱动属性。"
+        },
+        {
+          "evidence_id": "ev_acc_jihong_m2_fact_model_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "商业模式概述",
+          "field_value": "以跨境电商运营与制造服务双轮驱动，覆盖品牌出海、包装生产和供应链协同。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=厦门吉宏科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "business_model",
+          "summary": "上市公司官方披露入口可支撑其跨境运营与制造服务并行的商业模式。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "primary_source_types": "cninfo,official_website",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=烟台杰瑞石油服务集团股份有限公司\nhttps://www.jereh.com/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 2,
+      "profile_fields": {
+        "公司产品与服务概述": "油气装备、油田工程技术服务及相关高端装备经营。",
+        "商业模式概述": "以能源装备研发制造与工程技术服务为核心，覆盖产品交付、工程服务和全球项目经营。",
+        "核心客户客群": "油气开发企业、能源工程场景客户及相关工业客户。",
+        "产品与服务长摘录": "官网和上市公司公开披露可支撑其覆盖油气装备、工程技术服务及相关高端装备业务。",
+        "商业模式长摘录": "现阶段可稳定确认其并非单一设备销售，而是围绕能源装备与工程服务开展复合经营。",
+        "客户客群长摘录": "其客户链路至少覆盖油气开发和能源工程场景；更细的全球区域和业务条线颗粒度仍待继续补充。",
+        "validation_gap": "已补官网和官方披露入口；仍需补多基地布局、业务条线、全球经营和 persona 边界证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "油气装备、油田工程技术服务及相关高端装备经营。",
+        "商业模式概述": "以能源装备研发制造与工程技术服务为核心，覆盖产品交付、工程服务和全球项目经营。",
+        "核心客户客群": "油气开发企业、能源工程场景客户及相关工业客户。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_jereh_m2_fact_product_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "油气装备、油田工程技术服务及相关高端装备经营。",
+          "source_locator": "https://www.jereh.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "background_profile",
+          "summary": "官网可支撑其能源装备和工程技术服务经营定位。"
+        },
+        {
+          "evidence_id": "ev_acc_jereh_m2_fact_model_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "商业模式概述",
+          "field_value": "以能源装备研发制造与工程技术服务为核心，覆盖产品交付、工程服务和全球项目经营。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=烟台杰瑞石油服务集团股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "business_model",
+          "summary": "官网和上市公司公开披露可支撑其装备制造与工程服务并行模式。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_bozon",
+      "account_name": "博众精工科技股份有限公司",
+      "primary_source_types": "cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=博众精工科技股份有限公司",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "自动化装备、智能产线和制造解决方案经营，服务消费电子、新能源等制造场景。",
+        "商业模式概述": "以非标自动化装备和产线解决方案交付为核心，覆盖研产销协同和项目型制造交付。",
+        "核心客户客群": "消费电子、新能源及其他自动化制造场景客户。",
+        "产品与服务长摘录": "现阶段可稳定确认其属于自动化装备和智能制造解决方案经营主体，面向多类制造场景交付。",
+        "商业模式长摘录": "其经营核心是非标自动化装备与产线解决方案交付，而不是单一标准品销售。",
+        "客户客群长摘录": "客户链路至少覆盖消费电子、新能源等需要自动化产线和装备协同的制造场景。",
+        "validation_gap": "已补官方披露入口；仍需补 LTC 链路、组织复杂度和更细交付颗粒度证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "自动化装备、智能产线和制造解决方案经营，服务消费电子、新能源等制造场景。",
+        "商业模式概述": "以非标自动化装备和产线解决方案交付为核心，覆盖研产销协同和项目型制造交付。",
+        "核心客户客群": "消费电子、新能源及其他自动化制造场景客户。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_bozon_m2_fact_product_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "自动化装备、智能产线和制造解决方案经营，服务消费电子、新能源等制造场景。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=博众精工科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "background_profile",
+          "summary": "上市公司官方披露入口可支撑其自动化装备和智能产线经营定位。"
+        },
+        {
+          "evidence_id": "ev_acc_bozon_m2_fact_model_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "商业模式概述",
+          "field_value": "以非标自动化装备和产线解决方案交付为核心，覆盖研产销协同和项目型制造交付。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=博众精工科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "business_model",
+          "summary": "上市公司官方披露入口可支撑其非标自动化和项目交付属性。"
+        }
+      ]
+    }
+  ]
+}

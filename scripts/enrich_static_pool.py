@@ -25,12 +25,13 @@ DEFAULT_RECTIFICATION = WORKSPACE / "deliveries/phase1_rectification_package_v1.
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Static pool enrich entry for fact strengthening and knowledge attachment.")
+    parser.add_argument("--config-file", help="Optional JSON batch config file.")
     parser.add_argument("--account-id", action="append", default=[], help="Single account_id to enrich. Can be repeated.")
     parser.add_argument("--batch-file", help="Optional JSON or newline-delimited file containing account_ids.")
     parser.add_argument("--track", help="Optional track filter, for example 零售消费.")
     parser.add_argument("--from-level", help="Optional current level filter, for example L4.")
     parser.add_argument("--rectification-file", default=str(DEFAULT_RECTIFICATION), help="Optional rectification package JSON.")
-    parser.add_argument("--output-file", required=True, help="Where to write the enrich result package.")
+    parser.add_argument("--output-file", help="Where to write the enrich result package.")
     parser.add_argument("--report-only", action="store_true", help="Only build enrich results, do not write back.")
     parser.add_argument("--write-back", action="store_true", help="Write enrich results back for selected accounts.")
     return parser
@@ -257,20 +258,40 @@ def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
 
-    account_ids = list(dict.fromkeys([*args.account_id, *load_account_ids(args.batch_file)]))
-    rectification_path = Path(args.rectification_file) if args.rectification_file else None
+    config: dict[str, object] = {}
+    if args.config_file:
+        config = json.loads(Path(args.config_file).read_text(encoding="utf-8"))
+    config_output = config.get("output") or {}
+
+    account_ids = list(
+        dict.fromkeys(
+            [
+                *args.account_id,
+                *load_account_ids(args.batch_file),
+                *[str(item).strip() for item in config.get("account_ids") or [] if str(item).strip()],
+            ]
+        )
+    )
+    rectification_file = args.rectification_file or str(config.get("rectification_file") or "")
+    rectification_path = Path(rectification_file) if rectification_file else None
     results = [dataclass_to_dict(item) for item in build_enrich_results(account_ids=account_ids or None, rectification_path=rectification_path)]
-    if args.track:
-        results = [item for item in results if _clean(item.get("primary_track")) == _clean(args.track)]
-    if args.from_level:
-        results = [item for item in results if _clean(item.get("current_level")) == _clean(args.from_level)]
+    track = args.track or str(config.get("track") or "")
+    from_level = args.from_level or str(config.get("from_level") or "")
+    output_file = args.output_file or str(config_output.get("enrich_file") or "")
+    if not output_file:
+        raise SystemExit("missing output file: provide --output-file or config.output.enrich_file")
+    if track:
+        results = [item for item in results if _clean(item.get("primary_track")) == _clean(track)]
+    if from_level:
+        results = [item for item in results if _clean(item.get("current_level")) == _clean(from_level)]
     payload = {
-        "batch_id": Path(args.output_file).stem,
+        "batch_id": str(config.get("batch_id") or Path(output_file).stem),
+        "goal": str(config.get("goal") or ""),
         "rectification_file": str(rectification_path) if rectification_path else "",
         "selection": {
             "account_ids": account_ids,
-            "track": args.track or "",
-            "from_level": args.from_level or "",
+            "track": track,
+            "from_level": from_level,
         },
         "summary": {
             "result_count": len(results),
@@ -284,7 +305,7 @@ def main() -> int:
     else:
         payload["write_back"] = {"enabled": False}
 
-    output_path = Path(args.output_file)
+    output_path = Path(output_file)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"output_file": str(output_path), "summary": payload["summary"], "write_back": payload["write_back"]}, ensure_ascii=False, indent=2))
     return 0

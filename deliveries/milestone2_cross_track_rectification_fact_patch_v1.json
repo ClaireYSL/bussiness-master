@@ -1,0 +1,12 @@
+{
+  "batch_id": "milestone2_cross_track_rectification_fact_patch_v1",
+  "backups": {
+    "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.milestone2_fact_patch_backup_20260408_223752.xlsx",
+    "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.milestone2_fact_patch_backup_20260408_223752.xlsx",
+    "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.milestone2_fact_patch_backup_20260408_223752.xlsx"
+  },
+  "profile_updates": 6,
+  "main_shared_updates": 6,
+  "evidence_rows_created": 12,
+  "account_count": 6
+}

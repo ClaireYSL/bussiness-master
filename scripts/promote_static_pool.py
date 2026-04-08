@@ -29,7 +29,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--target-level", help="Target level for this batch, for example L3.")
     parser.add_argument("--track", help="Track filter, for example 零售消费.")
     parser.add_argument("--limit", type=int, default=20, help="Maximum number of accounts to include.")
-    parser.add_argument("--output-file", required=True, help="Where to write the promotion evaluation report.")
+    parser.add_argument("--output-file", help="Where to write the promotion evaluation report.")
     return parser
 
 
@@ -120,6 +120,7 @@ def main() -> int:
     config: dict[str, object] = {}
     if args.config_file:
         config = json.loads(Path(args.config_file).read_text(encoding="utf-8"))
+    config_output = config.get("output") or {}
     enrich_payload = load_enrich_payload(args.enrich_result_file)
     enrich_results = list(enrich_payload.get("results") or [])
 
@@ -135,13 +136,16 @@ def main() -> int:
         _clean(item.get("account_id")) for item in enrich_results if _clean(item.get("account_id"))
     ]
     from_level = args.from_level or str(config.get("from_level") or "")
-    target_level = args.target_level or str(config.get("target_level") or "")
+    target_level = args.target_level or str(config.get("promote_target_level") or config.get("target_level") or "")
     track = args.track or str(config.get("track") or "")
     limit = args.limit if args.limit != 20 or not config.get("limit") else int(config.get("limit") or 20)
-    output_file = args.output_file or str(config.get("output_file") or "")
+    output_file = args.output_file or str(config_output.get("promote_file") or config.get("output_file") or "")
+    if not output_file:
+        raise SystemExit("missing output file: provide --output-file or config.output.promote_file")
 
     payload = {
         "batch_id": str(config.get("batch_id") or Path(output_file).stem),
+        "goal": str(config.get("goal") or ""),
         "from_level": from_level,
         "target_level": target_level,
         "track": track,

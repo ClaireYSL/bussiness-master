@@ -1,0 +1,65 @@
+{
+  "batch_id": "milestone2_cross_track_rectification_v1",
+  "goal": "Milestone 2：跨主线 6 家真实纠偏批次，压实 enrich -> promote 闭环",
+  "track": "",
+  "from_level": "",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": true,
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；无法补足时保留 official_source_missing。",
+  "rectification_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_rectification_package_v1.json",
+  "baseline_enrich_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_enrich_package_v1.json",
+  "baseline_promote_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_promote_from_enrich_v1.json",
+  "fact_patch_file": "/Users/clairaipartner/Codex/bussiness-master/configs/enrich_batches/milestone2_cross_track_rectification_facts_v1.json",
+  "output": {
+    "enrich_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_enrich_v1.json",
+    "promote_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_promote_v1.json",
+    "summary_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_summary_v1.json"
+  },
+  "account_ids": [
+    "acc_popmart",
+    "acc_threesquirrels",
+    "acc_loctek",
+    "acc_jihong",
+    "acc_jereh",
+    "acc_bozon"
+  ],
+  "accounts": {
+    "acc_popmart": {
+      "track": "零售消费",
+      "role": "observation",
+      "expected_track": "零售消费",
+      "expected_persona_behavior": "继续保留 observation；若官方源与商业模式已补齐，可允许 minimum_fact_status 从 fail 提升到 partial。"
+    },
+    "acc_threesquirrels": {
+      "track": "零售消费",
+      "role": "control",
+      "expected_track": "零售消费",
+      "expected_persona_behavior": "保留 retail_high_sku_brand，并尽量把 warn 收敛到 allow。"
+    },
+    "acc_loctek": {
+      "track": "跨境电商",
+      "role": "observation",
+      "expected_track": "跨境电商",
+      "expected_persona_behavior": "继续保留 observation；若官方源补齐，至少要让 minimum_fact_status 脱离 fail。"
+    },
+    "acc_jihong": {
+      "track": "跨境电商",
+      "role": "control",
+      "expected_track": "跨境电商",
+      "expected_persona_behavior": "保留 cbec_multi_platform_brand，并尽量把 warn 收敛到 allow。"
+    },
+    "acc_jereh": {
+      "track": "先进制造",
+      "role": "observation",
+      "expected_track": "先进制造",
+      "expected_persona_behavior": "继续保留 observation；若官方源补齐，至少要让 minimum_fact_status 脱离 fail。"
+    },
+    "acc_bozon": {
+      "track": "先进制造",
+      "role": "control",
+      "expected_track": "先进制造",
+      "expected_persona_behavior": "保留 mfg_rnd_sales_complex，并尽量把 warn 收敛到 allow。"
+    }
+  }
+}

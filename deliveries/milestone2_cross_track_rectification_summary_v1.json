@@ -1,0 +1,231 @@
+{
+  "batch_id": "milestone2_cross_track_rectification_v1",
+  "goal": "Milestone 2：跨主线 6 家真实纠偏批次，压实 enrich -> promote 闭环",
+  "summary": {
+    "account_count": 6,
+    "observation_kept": 3,
+    "observation_promoted_to_formal": 0,
+    "control_to_allow": 0,
+    "control_kept_warn": 3,
+    "control_downgraded": 0,
+    "official_source_repaired": 3,
+    "persona_resolved": 0
+  },
+  "enrich_summary": {
+    "result_count": 6,
+    "ready_for_promote": 3,
+    "observation": 3
+  },
+  "promote_summary": {
+    "allow": 0,
+    "warn": 3,
+    "block": 3
+  },
+  "write_back": {
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.enrich_backup_20260408_223828.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260408_223828.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.enrich_backup_20260408_223828.xlsx"
+    },
+    "profile_updates": 6,
+    "main_shared_updates": 6,
+    "queue_items_created": 0,
+    "evidence_items_created": 0
+  },
+  "items": [
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "track": "零售消费",
+      "role": "observation",
+      "before_candidate_type": "observation",
+      "after_candidate_type": "observation",
+      "before_minimum_fact_status": "fail",
+      "after_minimum_fact_status": "fail",
+      "before_promote_decision": "block",
+      "after_promote_decision": "block",
+      "official_source_repaired": true,
+      "persona_resolved": false,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "缺少官方高可信来源，需补全核心事实证据",
+        "persona_tag 不能为空。",
+        "画像未明确。",
+        "当前仍处于观察/边界状态。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "",
+      "after_secondary_persona_tags": [
+        "retail_fashion_group"
+      ],
+      "after_review_status": "pending_review",
+      "after_required_queue_type": "boundary_review",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "enrich_summary": "北京泡泡玛特文化创意有限公司 enrich 完成：主画像=待定，次级画像=1，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "account_name": "三只松鼠股份有限公司",
+      "track": "零售消费",
+      "role": "control",
+      "before_candidate_type": "formal_candidate",
+      "after_candidate_type": "formal_candidate",
+      "before_minimum_fact_status": "partial",
+      "after_minimum_fact_status": "pass",
+      "before_promote_decision": "warn",
+      "after_promote_decision": "warn",
+      "official_source_repaired": false,
+      "persona_resolved": false,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "需补充渠道与库存颗粒度细节，优化产品与服务描述，明确persona边界",
+        "产品与服务字段仍偏模板句。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "retail_high_sku_brand",
+      "after_secondary_persona_tags": [],
+      "after_review_status": "active",
+      "after_required_queue_type": "verification",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "enrich_summary": "三只松鼠股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "track": "跨境电商",
+      "role": "observation",
+      "before_candidate_type": "observation",
+      "after_candidate_type": "observation",
+      "before_minimum_fact_status": "fail",
+      "after_minimum_fact_status": "fail",
+      "before_promote_decision": "block",
+      "after_promote_decision": "block",
+      "official_source_repaired": true,
+      "persona_resolved": false,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "需补产品服务、商业模式、海外平台结构、品牌矩阵与区域经营官方证据，待补promotion_review队列项",
+        "persona_tag 不能为空。",
+        "画像未明确。",
+        "当前仍处于观察/边界状态。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "",
+      "after_secondary_persona_tags": [
+        "cbec_multi_platform_brand"
+      ],
+      "after_review_status": "pending_review",
+      "after_required_queue_type": "boundary_review",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "enrich_summary": "乐歌人体工学科技股份有限公司 enrich 完成：主画像=待定，次级画像=1，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_jihong",
+      "account_name": "厦门吉宏科技股份有限公司",
+      "track": "跨境电商",
+      "role": "control",
+      "before_candidate_type": "formal_candidate",
+      "after_candidate_type": "formal_candidate",
+      "before_minimum_fact_status": "partial",
+      "after_minimum_fact_status": "pass",
+      "before_promote_decision": "warn",
+      "after_promote_decision": "warn",
+      "official_source_repaired": false,
+      "persona_resolved": false,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "需补跨境业务占比、平台结构和供应链复杂度的高可信官方证据，待补promotion_review队列项",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "cbec_multi_platform_brand",
+      "after_secondary_persona_tags": [
+        "cbec_platform_operator"
+      ],
+      "after_review_status": "active",
+      "after_required_queue_type": "verification",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "enrich_summary": "厦门吉宏科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=1，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "track": "先进制造",
+      "role": "observation",
+      "before_candidate_type": "observation",
+      "after_candidate_type": "observation",
+      "before_minimum_fact_status": "fail",
+      "after_minimum_fact_status": "fail",
+      "before_promote_decision": "block",
+      "after_promote_decision": "block",
+      "official_source_repaired": true,
+      "persona_resolved": false,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "产品服务、商业模式、多基地布局、业务条线、全球经营等信息均待补充",
+        "persona_tag 不能为空。",
+        "画像未明确。",
+        "当前仍处于观察/边界状态。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "",
+      "after_secondary_persona_tags": [
+        "mfg_multi_factory_group"
+      ],
+      "after_review_status": "pending_review",
+      "after_required_queue_type": "boundary_review",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "enrich_summary": "烟台杰瑞石油服务集团股份有限公司 enrich 完成：主画像=待定，次级画像=1，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_bozon",
+      "account_name": "博众精工科技股份有限公司",
+      "track": "先进制造",
+      "role": "control",
+      "before_candidate_type": "formal_candidate",
+      "after_candidate_type": "formal_candidate",
+      "before_minimum_fact_status": "partial",
+      "after_minimum_fact_status": "pass",
+      "before_promote_decision": "warn",
+      "after_promote_decision": "warn",
+      "official_source_repaired": false,
+      "persona_resolved": false,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "LTC链路、组织复杂度细节待补充",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "mfg_rnd_sales_complex",
+      "after_secondary_persona_tags": [
+        "mfg_multi_factory_group"
+      ],
+      "after_review_status": "active",
+      "after_required_queue_type": "verification",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "enrich_summary": "博众精工科技股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=1，知识资产=5，可进入 promote=True。"
+    }
+  ]
+}

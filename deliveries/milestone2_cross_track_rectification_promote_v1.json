@@ -1,0 +1,297 @@
+{
+  "batch_id": "milestone2_cross_track_rectification_v1",
+  "goal": "Milestone 2：跨主线 6 家真实纠偏批次，压实 enrich -> promote 闭环",
+  "from_level": "",
+  "target_level": "L3",
+  "track": "",
+  "write_back": false,
+  "enrich_result_file": "deliveries/milestone2_cross_track_rectification_enrich_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_popmart",
+      "acc_threesquirrels",
+      "acc_loctek",
+      "acc_jihong",
+      "acc_jereh",
+      "acc_bozon"
+    ],
+    "limit": 20
+  },
+  "batch_summary": {
+    "allow": 0,
+    "warn": 3,
+    "block": 3
+  },
+  "results": [
+    {
+      "account_id": "acc_bozon",
+      "account_canonical_name": "博众精工科技股份有限公司",
+      "from_level": "L4",
+      "target_level": "L3",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": "mfg_multi_factory_group",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_case_robotics_automation_ops_v1,ka_case_shoufan_custom_mfg_v1,ka_insight_equipment_globalization_pattern_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1,ka_narrative_xiguachuangke_aibi_v1",
+      "promotion_gate": {
+        "account_id": "acc_bozon",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_rnd_sales_complex",
+        "normalized_secondary_persona_tags": [
+          "mfg_multi_factory_group"
+        ],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_canonical_name": "烟台杰瑞石油服务集团股份有限公司",
+      "from_level": "待补证后重新判定",
+      "target_level": "L3",
+      "primary_track": "先进制造",
+      "persona_tag": null,
+      "secondary_persona_tags": "mfg_multi_factory_group",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1,ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1",
+      "talk_track_refs": "ka_talktrack_group_coordination_mfg_v1,ka_narrative_xiguachuangke_aibi_v1",
+      "promotion_gate": {
+        "account_id": "acc_jereh",
+        "decision": "block",
+        "normalized_persona_tag": "",
+        "normalized_secondary_persona_tags": [
+          "mfg_multi_factory_group"
+        ],
+        "blocking_issues": [
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "persona_tag",
+            "message": "persona_tag 不能为空。"
+          },
+          {
+            "code": "persona_missing",
+            "severity": "block",
+            "field_name": "persona_tag",
+            "message": "画像未明确。"
+          }
+        ],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点仍未收敛，程序不建议推进上移。",
+        "enrich_candidate_type": "observation",
+        "enrich_ready_for_promote": false,
+        "enrich_minimum_fact_status": "fail"
+      }
+    },
+    {
+      "account_id": "acc_jihong",
+      "account_canonical_name": "厦门吉宏科技股份有限公司",
+      "from_level": "L2",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "cbec_platform_operator",
+      "knowledge_asset_refs": "ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1,ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1",
+      "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1",
+      "promotion_gate": {
+        "account_id": "acc_jihong",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [
+          "cbec_platform_operator"
+        ],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_canonical_name": "乐歌人体工学科技股份有限公司",
+      "from_level": "L3",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": null,
+      "secondary_persona_tags": "cbec_multi_platform_brand",
+      "knowledge_asset_refs": "ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1,ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1",
+      "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1",
+      "promotion_gate": {
+        "account_id": "acc_loctek",
+        "decision": "block",
+        "normalized_persona_tag": "",
+        "normalized_secondary_persona_tags": [
+          "cbec_multi_platform_brand"
+        ],
+        "blocking_issues": [
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "persona_tag",
+            "message": "persona_tag 不能为空。"
+          },
+          {
+            "code": "persona_missing",
+            "severity": "block",
+            "field_name": "persona_tag",
+            "message": "画像未明确。"
+          }
+        ],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点仍未收敛，程序不建议推进上移。",
+        "enrich_candidate_type": "observation",
+        "enrich_ready_for_promote": false,
+        "enrich_minimum_fact_status": "fail"
+      }
+    },
+    {
+      "account_id": "acc_threesquirrels",
+      "account_canonical_name": "三只松鼠股份有限公司",
+      "from_level": "L2",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1,ka_case_naturehall_ai_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_talktrack_hq_visibility_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_threesquirrels",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "generic_product",
+            "severity": "warn",
+            "field_name": "公司产品与服务概述",
+            "message": "产品与服务字段仍偏模板句。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_popmart",
+      "account_canonical_name": "北京泡泡玛特文化创意有限公司",
+      "from_level": "待核验",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": null,
+      "secondary_persona_tags": "retail_fashion_group",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1,ka_case_xianfeng_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_narrative_naturehall_gpt_v1",
+      "promotion_gate": {
+        "account_id": "acc_popmart",
+        "decision": "block",
+        "normalized_persona_tag": "",
+        "normalized_secondary_persona_tags": [
+          "retail_fashion_group"
+        ],
+        "blocking_issues": [
+          {
+            "code": "missing_field",
+            "severity": "block",
+            "field_name": "persona_tag",
+            "message": "persona_tag 不能为空。"
+          },
+          {
+            "code": "persona_missing",
+            "severity": "block",
+            "field_name": "persona_tag",
+            "message": "画像未明确。"
+          }
+        ],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          },
+          {
+            "code": "promotion_review_missing",
+            "severity": "warn",
+            "field_name": "review_queue",
+            "message": "当前没有开放的 promotion_review 队列项。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点仍未收敛，程序不建议推进上移。",
+        "enrich_candidate_type": "observation",
+        "enrich_ready_for_promote": false,
+        "enrich_minimum_fact_status": "fail"
+      }
+    }
+  ],
+  "enrich_summary": {
+    "result_count": 6,
+    "ready_for_promote": 3,
+    "observation": 3
+  }
+}
