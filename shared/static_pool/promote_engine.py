@@ -48,6 +48,8 @@ def load_main_rows_with_fallback(
     shared_path: Path,
     shared_sheet: str,
 ) -> list[dict[str, object]]:
+    # Legacy helper for archived scripts and one-off recovery tasks.
+    # Current execution-layer entrypoints should read the primary main table directly.
     try:
         return load_main_rows(main_path, main_sheet)
     except Exception:

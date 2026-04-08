@@ -12,11 +12,16 @@
 
 - 面向同事的阅读层
 - 不是新的事实源
-- 来源于静态潜客主表的派生视图
+- 来源于 [静态潜客主表.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx) `accounts_main` 的派生镜像
 
 ---
 
 ## 一、共享版的定位
+
+当前主从关系固定为：
+
+1. 主事实源：[静态潜客主表.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx) 的 `accounts_main`
+2. 共享镜像：[内部运营-静态潜客池-共享版.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.xlsx)
 
 共享版回答的是：
 

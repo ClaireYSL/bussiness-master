@@ -19,10 +19,10 @@ from shared.static_pool import (
     should_allow_frozen_text_as_input,
     to_jsonable,
 )
+from shared.static_pool import load_main_rows as load_primary_main_rows
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
-MAIN_SHARED_XLSX = VAULT / "内部运营-静态潜客池-共享版.xlsx"
 PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
 GOV_XLSX = VAULT / "治理与证据.xlsx"
 TEMPLATE_PATH = WORKSPACE / "prompts/delegate/calibration_input_template.json"
@@ -52,34 +52,7 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 def load_main_rows() -> list[dict[str, object]]:
-    try:
-        _headers, rows = load_sheet_rows(MAIN_XLSX, "accounts_main")
-        return rows
-    except Exception:
-        _headers, rows = load_sheet_rows(MAIN_SHARED_XLSX, "全量主表")
-        normalized_rows = []
-        for row in rows:
-            canonical_name = row.get("公司主体")
-            normalized_rows.append(
-                {
-                    "account_id": "",
-                    "account_canonical_name": canonical_name,
-                    "primary_track": row.get("主线"),
-                    "persona_tag": row.get("业务形态画像"),
-                    "secondary_persona_tags": row.get("辅助画像标签") or row.get("次级画像"),
-                    "公司产品与服务概述": row.get("公司产品与服务概述"),
-                    "商业模式概述": row.get("商业模式概述"),
-                    "admission_reason_summary": row.get("一话入池理由"),
-                    "validation_gap": row.get("待验证项"),
-                    "信息扎实度": row.get("信息扎实度"),
-                    "ICP匹配概率": row.get("ICP匹配概率"),
-                    "静态潜客记录成熟度": row.get("静态潜客记录成熟度"),
-                    "review_status": "pending_review",
-                    "knowledge_asset_refs": row.get("主要知识资产引用"),
-                    "talk_track_refs": row.get("主要切入话术引用"),
-                }
-            )
-        return normalized_rows
+    return load_primary_main_rows(MAIN_XLSX, "accounts_main")
 
 def filter_accounts(main_rows: list[dict[str, object]], args: argparse.Namespace) -> list[dict[str, object]]:
     if args.account_id:
