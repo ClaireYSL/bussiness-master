@@ -181,6 +181,11 @@
 
 - [expand_l5_consumer_personas_20260331.py](/Users/clairaipartner/Codex/bussiness-master/scripts/expand_l5_consumer_personas_20260331.py)
 
+结果包策略：
+
+- 未显式指定 `--output-file` 时，默认输出到 `/tmp/codex-static-pool-runs/`
+- 只有 milestone / 专项验收批次才应显式落 repo 结果包
+
 当前成熟度：
 
 - `零售消费 / 部分消费品画像`：已有专题脚本入口
@@ -202,6 +207,11 @@
 
 - 通用入口：[promote_static_pool.py](/Users/clairaipartner/Codex/bussiness-master/scripts/promote_static_pool.py)
 - 批次配置：[configs/promote_batches](/Users/clairaipartner/Codex/bussiness-master/configs/promote_batches)
+
+结果包策略：
+
+- 日常执行默认不往 repo 顶层落 JSON
+- 需要保留批次证据时，再显式指定 `--output-file`
 
 历史 wrapper：
 

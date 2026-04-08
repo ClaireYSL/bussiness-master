@@ -4,6 +4,7 @@ import argparse
 import json
 import shutil
 import sys
+import tempfile
 from datetime import datetime
 from pathlib import Path
 
@@ -51,6 +52,14 @@ def load_account_ids(path: str | None) -> list[str]:
         values = json.loads(payload)
         return [str(item).strip() for item in values if str(item).strip()]
     return [line.strip() for line in payload.splitlines() if line.strip()]
+
+
+def resolve_output_file(path: str | None, batch_hint: str) -> Path:
+    if path:
+        return Path(path)
+    base = Path(tempfile.gettempdir()) / "codex-static-pool-runs"
+    base.mkdir(parents=True, exist_ok=True)
+    return base / f"{batch_hint}.json"
 
 
 def backup_once(path: Path) -> str:
@@ -278,14 +287,13 @@ def main() -> int:
     track = args.track or str(config.get("track") or "")
     from_level = args.from_level or str(config.get("from_level") or "")
     output_file = args.output_file or str(config_output.get("enrich_file") or "")
-    if not output_file:
-        raise SystemExit("missing output file: provide --output-file or config.output.enrich_file")
+    output_path = resolve_output_file(output_file or None, str(config.get("batch_id") or "enrich_static_pool_run"))
     if track:
         results = [item for item in results if _clean(item.get("primary_track")) == _clean(track)]
     if from_level:
         results = [item for item in results if _clean(item.get("current_level")) == _clean(from_level)]
     payload = {
-        "batch_id": str(config.get("batch_id") or Path(output_file).stem),
+        "batch_id": str(config.get("batch_id") or output_path.stem),
         "goal": str(config.get("goal") or ""),
         "rectification_file": str(rectification_path) if rectification_path else "",
         "selection": {
@@ -305,7 +313,6 @@ def main() -> int:
     else:
         payload["write_back"] = {"enabled": False}
 
-    output_path = Path(output_file)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"output_file": str(output_path), "summary": payload["summary"], "write_back": payload["write_back"]}, ensure_ascii=False, indent=2))
     return 0

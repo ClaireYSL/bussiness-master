@@ -30,6 +30,11 @@
 
 ## enrich 输出
 
+默认策略：
+
+- 未显式指定 `--output-file` 时，结果默认写到 `/tmp/codex-static-pool-runs/`
+- 只有 milestone / 专项验收批次，才应显式落 repo 结果包
+
 每个对象至少输出：
 
 - `persona_tag`

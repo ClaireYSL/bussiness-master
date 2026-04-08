@@ -8,6 +8,7 @@ from datetime import date
 from pathlib import Path
 import re
 import sys
+import tempfile
 
 import akshare as ak
 from openpyxl import load_workbook
@@ -619,6 +620,10 @@ def run_expand_provider(
     report_only: bool = False,
     output_file: str | None = None,
 ) -> dict[str, object]:
+    if not output_file:
+        output_path = Path(tempfile.gettempdir()) / "codex-static-pool-runs" / "expand_provider_retail_consumer.json"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_file = str(output_path)
     if limit <= 0:
         raise RuntimeError("limit 必须大于 0")
 

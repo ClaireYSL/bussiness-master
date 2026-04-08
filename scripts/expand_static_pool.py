@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 from openpyxl import load_workbook
@@ -40,7 +41,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--candidate-source", default="", help="Optional source description for this batch.")
     parser.add_argument("--account-list-file", help="Optional candidate list file for rule-driven fallback.")
     parser.add_argument("--limit", type=int, default=20, help="Maximum number of candidates to return or execute for this batch.")
-    parser.add_argument("--output-file", required=True, help="Where to write the expand routing result package.")
+    parser.add_argument("--output-file", help="Where to write the expand routing result package. Omit to write under /tmp.")
     parser.add_argument("--report-only", action="store_true", help="Only build routing report.")
     parser.add_argument("--write-back", action="store_true", help="Execute the matched provider when available.")
     return parser
@@ -78,6 +79,14 @@ def load_candidate_list(path: str | None) -> list[str]:
     return [line.strip() for line in payload.splitlines() if line.strip()]
 
 
+def resolve_output_file(path: str | None, batch_hint: str) -> Path:
+    if path:
+        return Path(path)
+    base = Path(tempfile.gettempdir()) / "codex-static-pool-runs"
+    base.mkdir(parents=True, exist_ok=True)
+    return base / f"{batch_hint}.json"
+
+
 def execute_provider(persona_id: str, limit: int, report_only: bool, output_file: str) -> dict[str, object]:
     if persona_id not in SUPPORTED_PERSONA_PROVIDERS:
         raise RuntimeError(f"当前 persona `{persona_id}` 没有可执行 provider。")
@@ -105,8 +114,9 @@ def main() -> int:
     provider_executed = False
     provider_result: dict[str, object] | None = None
 
+    output_path = resolve_output_file(args.output_file, f"expand_route_{track_id or 'unknown'}_{persona_id or 'unknown'}")
     payload = {
-        "batch_id": Path(args.output_file).stem,
+        "batch_id": output_path.stem,
         "track": args.track,
         "track_id": track_id,
         "persona_id": persona_id,
@@ -135,7 +145,7 @@ def main() -> int:
                 persona_id=persona_id,
                 limit=args.limit,
                 report_only=False,
-                output_file=args.output_file,
+                output_file=str(output_path),
             )
             provider_executed = True
             payload["provider_executed"] = True
@@ -149,12 +159,11 @@ def main() -> int:
         payload["next_step"] = "当前无匹配专题脚本，进入规则驱动模式：先补最小事实、最小 evidence，再交 enrich/promote 链路处理。"
 
     if not provider_executed:
-        output_path = Path(args.output_file)
         output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
         json.dumps(
             {
-                "output_file": args.output_file,
+                "output_file": str(output_path),
                 "routing": payload["routing"],
                 "candidate_count": len(candidates),
                 "provider_executed": payload["provider_executed"],

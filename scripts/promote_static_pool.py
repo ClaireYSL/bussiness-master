@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 WORKSPACE = Path(__file__).resolve().parents[1]
@@ -45,6 +46,14 @@ def load_enrich_payload(path: str | None) -> dict[str, object]:
     if not path:
         return {}
     return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+def resolve_output_file(path: str | None, batch_hint: str) -> Path:
+    if path:
+        return Path(path)
+    base = Path(tempfile.gettempdir()) / "codex-static-pool-runs"
+    base.mkdir(parents=True, exist_ok=True)
+    return base / f"{batch_hint}.json"
 
 
 def overlay_enrich_results(
@@ -140,11 +149,10 @@ def main() -> int:
     track = args.track or str(config.get("track") or "")
     limit = args.limit if args.limit != 20 or not config.get("limit") else int(config.get("limit") or 20)
     output_file = args.output_file or str(config_output.get("promote_file") or config.get("output_file") or "")
-    if not output_file:
-        raise SystemExit("missing output file: provide --output-file or config.output.promote_file")
+    output_path = resolve_output_file(output_file or None, str(config.get("batch_id") or "promote_static_pool_run"))
 
     payload = {
-        "batch_id": str(config.get("batch_id") or Path(output_file).stem),
+        "batch_id": str(config.get("batch_id") or output_path.stem),
         "goal": str(config.get("goal") or ""),
         "from_level": from_level,
         "target_level": target_level,
@@ -177,7 +185,6 @@ def main() -> int:
             "observation": sum(1 for item in enrich_results if item.get("candidate_type") == "observation"),
         }
 
-    output_path = Path(output_file)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
         json.dumps(

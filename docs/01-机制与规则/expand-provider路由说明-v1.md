@@ -34,6 +34,7 @@
 - 输出 `provider_script`
 - 输出 `provider_script` 模式
 - 不再把脚本误路由到其他主线
+- 未显式指定 `--output-file` 时，默认只写到 `/tmp/codex-static-pool-runs/`
 
 如果没有 provider：
 

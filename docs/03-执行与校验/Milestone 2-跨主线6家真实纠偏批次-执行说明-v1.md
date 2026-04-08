@@ -29,11 +29,11 @@
 
 本轮固定配置：
 
-- [configs/enrich_batches/milestone2_cross_track_rectification_v1.json](/Users/clairaipartner/Codex/bussiness-master/configs/enrich_batches/milestone2_cross_track_rectification_v1.json)
+- [milestone2_cross_track_rectification_v1.json](/Users/clairaipartner/Codex/bussiness-master/configs/archive/enrich_batches/milestone2_cross_track_rectification_v1.json)
 
 事实补强包：
 
-- [configs/enrich_batches/milestone2_cross_track_rectification_facts_v1.json](/Users/clairaipartner/Codex/bussiness-master/configs/enrich_batches/milestone2_cross_track_rectification_facts_v1.json)
+- [milestone2_cross_track_rectification_facts_v1.json](/Users/clairaipartner/Codex/bussiness-master/configs/archive/enrich_batches/milestone2_cross_track_rectification_facts_v1.json)
 
 执行入口仍只使用：
 
@@ -58,19 +58,19 @@
 
 事实补强结果：
 
-- [deliveries/milestone2_cross_track_rectification_fact_patch_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_fact_patch_v1.json)
+- [milestone2_cross_track_rectification_fact_patch_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2/milestone2_cross_track_rectification_fact_patch_v1.json)
 
 enrich 结果：
 
-- [deliveries/milestone2_cross_track_rectification_enrich_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_enrich_v1.json)
+- [milestone2_cross_track_rectification_enrich_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2/milestone2_cross_track_rectification_enrich_v1.json)
 
 promote 结果：
 
-- [deliveries/milestone2_cross_track_rectification_promote_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_promote_v1.json)
+- [milestone2_cross_track_rectification_promote_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2/milestone2_cross_track_rectification_promote_v1.json)
 
 总汇总：
 
-- [deliveries/milestone2_cross_track_rectification_summary_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/milestone2_cross_track_rectification_summary_v1.json)
+- [milestone2_cross_track_rectification_summary_v1.json](/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2/milestone2_cross_track_rectification_summary_v1.json)
 
 ## 本轮摘要
 
