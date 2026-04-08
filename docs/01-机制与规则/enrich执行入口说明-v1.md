@@ -69,8 +69,17 @@
 `--write-back` 仅用于小样本定向回写，目前写到：
 
 1. [潜客档案库.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E6%BD%9C%E5%AE%A2%E6%A1%A3%E6%A1%88%E5%BA%93.xlsx) 的 `account_profiles`
-2. [内部运营-静态潜客池-共享版.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E5%86%85%E9%83%A8%E8%BF%90%E8%90%A5-%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E6%B1%A0-%E5%85%B1%E4%BA%AB%E7%89%88.xlsx) 的 `全量主表`
-3. [治理与证据.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E6%B2%BB%E7%90%86%E4%B8%8E%E8%AF%81%E6%8D%AE.xlsx) 的 `review_queue` 与 `evidence_log`
+2. [静态潜客主表.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E4%B8%BB%E8%A1%A8.xlsx) 的 `accounts_main`
+3. [内部运营-静态潜客池-共享版.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E5%86%85%E9%83%A8%E8%BF%90%E8%90%A5-%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E6%B1%A0-%E5%85%B1%E4%BA%AB%E7%89%88.xlsx) 的 `全量主表` 镜像
+4. [治理与证据.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E6%B2%BB%E7%90%86%E4%B8%8E%E8%AF%81%E6%8D%AE.xlsx) 的 `review_queue` 与 `evidence_log`
+
+## 当前事实源口径
+
+现行执行层默认口径已经恢复为：
+
+1. [静态潜客主表.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E4%B8%BB%E8%A1%A8.xlsx) 的 `accounts_main` 是主事实表
+2. [内部运营-静态潜客池-共享版.xlsx](/Users/clairaipartner/Documents/Obsidian-Codex/%E6%BD%9C%E5%AE%A2%E6%B1%A0/%E5%86%85%E9%83%A8%E8%BF%90%E8%90%A5-%E9%9D%99%E6%80%81%E6%BD%9C%E5%AE%A2%E6%B1%A0-%E5%85%B1%E4%BA%AB%E7%89%88.xlsx) 仅作为共享镜像与阅读层
+3. 现行 `enrich / promote` 不再默认 fallback 到共享版读取
 
 ## 与 promote 的关系
 

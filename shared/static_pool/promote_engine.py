@@ -16,6 +16,11 @@ def load_sheet_rows(path: Path, sheet_name: str) -> tuple[list[str], list[dict[s
     return headers, rows
 
 
+def load_main_rows(path: Path, sheet_name: str) -> list[dict[str, object]]:
+    _headers, rows = load_sheet_rows(path, sheet_name)
+    return rows
+
+
 def attach_account_ids(
     main_rows: list[dict[str, object]],
     profile_rows: list[dict[str, object]],
@@ -44,8 +49,7 @@ def load_main_rows_with_fallback(
     shared_sheet: str,
 ) -> list[dict[str, object]]:
     try:
-        _headers, rows = load_sheet_rows(main_path, main_sheet)
-        return rows
+        return load_main_rows(main_path, main_sheet)
     except Exception:
         _headers, rows = load_sheet_rows(shared_path, shared_sheet)
         normalized_rows = []

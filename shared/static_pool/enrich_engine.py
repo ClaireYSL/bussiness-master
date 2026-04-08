@@ -8,7 +8,7 @@ from openpyxl import load_workbook
 
 from .constants import LEGACY_PERSONA_TAG_MAP, STANDARD_PERSONA_IDS
 from .models import EnrichResult, KnowledgeMatch, ValidationIssue
-from .promote_engine import attach_account_ids, load_main_rows_with_fallback, load_sheet_rows
+from .promote_engine import attach_account_ids, load_main_rows, load_sheet_rows
 from .validators import classify_l5_candidate, evaluate_minimum_fact_set, normalize_persona_tag, normalize_secondary_persona_tags
 
 ROOT = Path("/Users/clairaipartner")
@@ -95,7 +95,7 @@ def load_learning_queue() -> list[dict[str, Any]]:
 
 
 def load_state() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    main_rows = load_main_rows_with_fallback(MAIN_XLSX, "accounts_main", MAIN_SHARED_XLSX, "全量主表")
+    main_rows = load_main_rows(MAIN_XLSX, "accounts_main")
     _profile_headers, profile_rows = load_sheet_rows(PROFILE_XLSX, "account_profiles")
     _queue_headers, queue_rows = load_sheet_rows(GOV_XLSX, "review_queue")
     _evidence_headers, evidence_rows = load_sheet_rows(GOV_XLSX, "evidence_log")

@@ -37,6 +37,7 @@ from .promote_engine import (
     build_grouped_lookup,
     build_lookup,
     evaluate_promotion_batch,
+    load_main_rows,
     load_main_rows_with_fallback,
     load_sheet_rows,
     select_main_rows,
@@ -49,6 +50,7 @@ from .promotion_writeback import (
     resolve_open_queue_rows,
     update_main_promotion_core,
     update_profile_promotion_core,
+    write_back_promotion_results,
 )
 from .validators import (
     classify_l5_candidate,
@@ -97,6 +99,7 @@ __all__ = [
     "load_active_personas",
     "load_knowledge_assets",
     "load_learning_queue",
+    "load_main_rows",
     "load_main_rows_with_fallback",
     "load_rectification_results",
     "load_state",
@@ -114,4 +117,5 @@ __all__ = [
     "to_jsonable",
     "update_main_promotion_core",
     "update_profile_promotion_core",
+    "write_back_promotion_results",
 ]

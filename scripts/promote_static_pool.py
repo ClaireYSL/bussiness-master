@@ -11,8 +11,8 @@ ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
-from shared.static_pool import attach_account_ids, evaluate_promotion_batch, load_sheet_rows
-from shared.static_pool import load_main_rows_with_fallback
+from shared.static_pool import attach_account_ids, evaluate_promotion_batch, load_main_rows, load_sheet_rows
+from shared.static_pool import write_back_promotion_results
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
@@ -31,11 +31,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--track", help="Track filter, for example 零售消费.")
     parser.add_argument("--limit", type=int, default=20, help="Maximum number of accounts to include.")
     parser.add_argument("--output-file", help="Where to write the promotion evaluation report.")
+    parser.add_argument("--report-only", action="store_true", help="Only build the promotion report, do not write back.")
+    parser.add_argument("--write-back", action="store_true", help="Write allow results back to the shared fact layer.")
     return parser
 
 
-def load_main_rows() -> list[dict[str, object]]:
-    return load_main_rows_with_fallback(MAIN_XLSX, "accounts_main", MAIN_SHARED_XLSX, "全量主表")
+def load_primary_main_rows() -> list[dict[str, object]]:
+    return load_main_rows(MAIN_XLSX, "accounts_main")
 
 
 def _clean(value: object) -> str:
@@ -130,10 +132,11 @@ def main() -> int:
     if args.config_file:
         config = json.loads(Path(args.config_file).read_text(encoding="utf-8"))
     config_output = config.get("output") or {}
-    enrich_payload = load_enrich_payload(args.enrich_result_file)
+    enrich_result_file = args.enrich_result_file or str(config.get("enrich_result_file") or "")
+    enrich_payload = load_enrich_payload(enrich_result_file or None)
     enrich_results = list(enrich_payload.get("results") or [])
 
-    main_rows = load_main_rows()
+    main_rows = load_primary_main_rows()
     _profile_headers, profile_rows = load_sheet_rows(PROFILE_XLSX, "account_profiles")
     _queue_headers, queue_rows = load_sheet_rows(GOV_XLSX, "review_queue")
     _evidence_headers, evidence_rows = load_sheet_rows(GOV_XLSX, "evidence_log")
@@ -157,8 +160,8 @@ def main() -> int:
         "from_level": from_level,
         "target_level": target_level,
         "track": track,
-        "write_back": False,
-        "enrich_result_file": args.enrich_result_file or "",
+        "write_back": {"enabled": False},
+        "enrich_result_file": enrich_result_file,
         "selection": {
             "account_ids": account_ids,
             "limit": limit,
@@ -184,6 +187,15 @@ def main() -> int:
             "ready_for_promote": sum(1 for item in enrich_results if item.get("enrich_ready_for_promote")),
             "observation": sum(1 for item in enrich_results if item.get("candidate_type") == "observation"),
         }
+    if (args.write_back or bool(config.get("write_back"))) and not args.report_only:
+        payload["write_back"] = write_back_promotion_results(
+            payload["results"],
+            batch_id=payload["batch_id"],
+            profile_xlsx=PROFILE_XLSX,
+            main_xlsx=MAIN_XLSX,
+            main_shared_xlsx=MAIN_SHARED_XLSX,
+            gov_xlsx=GOV_XLSX,
+        )
 
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(

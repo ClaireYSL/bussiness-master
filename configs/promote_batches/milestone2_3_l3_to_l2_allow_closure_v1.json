@@ -1,0 +1,13 @@
+{
+  "batch_id": "milestone2_3_l3_to_l2_allow_closure_v1",
+  "goal": "Milestone 2.3：allow样本真实L3到L2升层写回",
+  "account_ids": [
+    "acc_loctek",
+    "acc_jereh"
+  ],
+  "from_level": "L3",
+  "target_level": "L2",
+  "enrich_result_file": "deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_enrich_v1.json",
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone2_3/milestone2_3_l3_to_l2_allow_closure_promote_v1.json"
+}

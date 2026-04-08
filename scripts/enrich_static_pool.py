@@ -19,6 +19,7 @@ from shared.static_pool import build_enrich_results, dataclass_to_dict
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
+MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
 MAIN_SHARED_XLSX = VAULT / "内部运营-静态潜客池-共享版.xlsx"
 GOV_XLSX = VAULT / "治理与证据.xlsx"
 DEFAULT_RECTIFICATION = WORKSPACE / "deliveries/phase1_rectification_package_v1.json"
@@ -183,6 +184,7 @@ def ensure_evidence_item(ws, header_index: dict[str, int], result: dict[str, obj
 def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
     backups = {
         "profile": backup_once(PROFILE_XLSX),
+        "main": backup_once(MAIN_XLSX),
         "main_shared": backup_once(MAIN_SHARED_XLSX),
         "governance": backup_once(GOV_XLSX),
     }
@@ -193,9 +195,13 @@ def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
     profile_headers, profile_rows = build_row_index(profile_ws, "account_id")
     profile_headers["secondary_persona_tags"] = profile_secondary_col
 
-    main_wb = load_workbook(MAIN_SHARED_XLSX)
-    main_ws = main_wb["全量主表"]
-    main_headers, main_rows = build_row_index(main_ws, "公司主体")
+    main_wb = load_workbook(MAIN_XLSX)
+    main_ws = main_wb["accounts_main"]
+    main_headers, main_rows = build_row_index(main_ws, "account_canonical_name")
+
+    shared_wb = load_workbook(MAIN_SHARED_XLSX)
+    shared_ws = shared_wb["全量主表"]
+    shared_headers, shared_rows = build_row_index(shared_ws, "公司主体")
 
     gov_wb = load_workbook(GOV_XLSX)
     queue_ws = gov_wb["review_queue"]
@@ -205,6 +211,7 @@ def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
 
     profile_updates = 0
     main_updates = 0
+    shared_updates = 0
     queue_created = 0
     evidence_created = 0
 
@@ -227,16 +234,16 @@ def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
 
         if account_name in main_rows:
             row = main_rows[account_name]
-            set_if_header(main_ws, main_headers, row, "主线", result.get("primary_track"))
-            set_if_header(main_ws, main_headers, row, "业务形态画像", result.get("persona_tag"))
+            set_if_header(main_ws, main_headers, row, "primary_track", result.get("primary_track"))
+            set_if_header(main_ws, main_headers, row, "persona_tag", result.get("persona_tag"))
             set_if_header(main_ws, main_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
-            set_if_header(main_ws, main_headers, row, "主要知识资产引用", ",".join(result.get("knowledge_asset_refs") or []))
-            set_if_header(main_ws, main_headers, row, "主要切入话术引用", ",".join(result.get("talk_track_refs") or []))
-            set_if_header(main_ws, main_headers, row, "待验证项", result.get("validation_gap"))
+            set_if_header(main_ws, main_headers, row, "knowledge_asset_refs", ",".join(result.get("knowledge_asset_refs") or []))
+            set_if_header(main_ws, main_headers, row, "talk_track_refs", ",".join(result.get("talk_track_refs") or []))
+            set_if_header(main_ws, main_headers, row, "validation_gap", result.get("validation_gap"))
             rewrite = result.get("rewrite_suggestion") or {}
             if isinstance(rewrite, dict):
                 if rewrite.get("admission_reason_summary"):
-                    set_if_header(main_ws, main_headers, row, "一话入池理由", rewrite["admission_reason_summary"])
+                    set_if_header(main_ws, main_headers, row, "admission_reason_summary", rewrite["admission_reason_summary"])
                 if rewrite.get("公司产品与服务概述"):
                     set_if_header(main_ws, main_headers, row, "公司产品与服务概述", rewrite["公司产品与服务概述"])
                 if rewrite.get("商业模式概述"):
@@ -245,6 +252,26 @@ def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
                     set_if_header(main_ws, main_headers, row, "核心客户客群", rewrite["核心客户客群"])
             main_updates += 1
 
+        if account_name in shared_rows:
+            row = shared_rows[account_name]
+            set_if_header(shared_ws, shared_headers, row, "主线", result.get("primary_track"))
+            set_if_header(shared_ws, shared_headers, row, "业务形态画像", result.get("persona_tag"))
+            set_if_header(shared_ws, shared_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
+            set_if_header(shared_ws, shared_headers, row, "主要知识资产引用", ",".join(result.get("knowledge_asset_refs") or []))
+            set_if_header(shared_ws, shared_headers, row, "主要切入话术引用", ",".join(result.get("talk_track_refs") or []))
+            set_if_header(shared_ws, shared_headers, row, "待验证项", result.get("validation_gap"))
+            rewrite = result.get("rewrite_suggestion") or {}
+            if isinstance(rewrite, dict):
+                if rewrite.get("admission_reason_summary"):
+                    set_if_header(shared_ws, shared_headers, row, "一话入池理由", rewrite["admission_reason_summary"])
+                if rewrite.get("公司产品与服务概述"):
+                    set_if_header(shared_ws, shared_headers, row, "公司产品与服务概述", rewrite["公司产品与服务概述"])
+                if rewrite.get("商业模式概述"):
+                    set_if_header(shared_ws, shared_headers, row, "商业模式概述", rewrite["商业模式概述"])
+                if rewrite.get("核心客户客群"):
+                    set_if_header(shared_ws, shared_headers, row, "核心客户客群", rewrite["核心客户客群"])
+            shared_updates += 1
+
         note = f"{result.get('summary')} | required_queue_type={result.get('required_queue_type')}"
         if ensure_review_queue_item(queue_ws, queue_headers, account_id, _clean(result["required_queue_type"]), note):
             queue_created += 1
@@ -252,12 +279,14 @@ def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
             evidence_created += 1
 
     profile_wb.save(PROFILE_XLSX)
-    main_wb.save(MAIN_SHARED_XLSX)
+    main_wb.save(MAIN_XLSX)
+    shared_wb.save(MAIN_SHARED_XLSX)
     gov_wb.save(GOV_XLSX)
     return {
         "backups": backups,
         "profile_updates": profile_updates,
-        "main_shared_updates": main_updates,
+        "main_updates": main_updates,
+        "main_shared_updates": shared_updates,
         "queue_items_created": queue_created,
         "evidence_items_created": evidence_created,
     }
