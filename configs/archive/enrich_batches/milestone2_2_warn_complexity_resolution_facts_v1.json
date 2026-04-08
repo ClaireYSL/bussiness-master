@@ -1,0 +1,65 @@
+{
+  "batch_id": "milestone2_2_warn_complexity_resolution_fact_patch_v1",
+  "accounts": [
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "profile_fields": {
+        "validation_gap": "已补主画像与零售经营结构；后续继续补区域经营和门店网络细表，但当前已具备进入 promotion_review 的复杂度基础。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_popmart_m22_complexity_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "complexity_resolution",
+          "field_value": "线下门店、机器人商店、会员经营和线上渠道并存，可支撑其零售经营复杂度。",
+          "source_locator": "https://www.popmart.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "complexity_resolution",
+          "summary": "门店网络与多渠道零售结构已足以支撑进入 promotion_review。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "profile_fields": {
+        "validation_gap": "已补主画像与品牌出海经营结构；后续继续补平台结构和区域经营细表，但当前已具备进入 promotion_review 的复杂度基础。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_loctek_m22_complexity_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "complexity_resolution",
+          "field_value": "品牌出海、全球销售和多平台经营结构已成立，可支撑其跨境经营复杂度。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "complexity_resolution",
+          "summary": "多平台和全球经营属性已足以支撑进入 promotion_review。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "profile_fields": {
+        "validation_gap": "已补主画像与集团协同经营结构；后续继续补多基地和业务条线细表，但当前已具备进入 promotion_review 的复杂度基础。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_jereh_m22_complexity_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "complexity_resolution",
+          "field_value": "能源装备制造、工程服务和全球项目经营并存，可支撑其制造集团复杂度。",
+          "source_locator": "https://www.jereh.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "complexity_resolution",
+          "summary": "多业务协同与全球项目经营结构已足以支撑进入 promotion_review。"
+        }
+      ]
+    }
+  ]
+}

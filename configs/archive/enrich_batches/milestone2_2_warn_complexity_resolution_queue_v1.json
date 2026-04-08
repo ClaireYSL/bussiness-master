@@ -1,0 +1,29 @@
+{
+  "batch_id": "milestone2_2_warn_complexity_resolution_queue_v1",
+  "accounts": [
+    {
+      "account_id": "acc_popmart",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 2.2：主画像已收敛，门店网络与零售经营复杂度已具备进入 promotion_review 的最小条件。"
+    },
+    {
+      "account_id": "acc_loctek",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 2.2：主画像已收敛，品牌出海与多平台经营复杂度已具备进入 promotion_review 的最小条件。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 2.2：主画像已收敛，制造集团与全球项目经营复杂度已具备进入 promotion_review 的最小条件。"
+    }
+  ]
+}

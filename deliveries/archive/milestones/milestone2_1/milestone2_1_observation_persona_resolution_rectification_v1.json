@@ -1,0 +1,59 @@
+{
+  "batch_id": "milestone2_1_observation_persona_resolution_rectification_v1",
+  "goal": "Milestone 2.1：3个 observation 主画像收敛专项",
+  "results": [
+    {
+      "account_id": "acc_popmart",
+      "rectification": {
+        "suggested_primary_persona": "retail_fashion_group",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "主画像收敛到 retail_fashion_group，后续继续补门店网络和组织结构颗粒度。",
+        "rewrite_suggestion": {
+          "admission_reason_summary": "IP 商品零售、线下门店与会员经营结构已较清楚，主画像收敛到潮流时尚零售集团相邻的 retail_fashion_group。",
+          "validation_gap": "主画像已收敛；后续继续补区域经营、门店组织结构和更细零售网络颗粒度。"
+        },
+        "risk_flags": [
+          "track_boundary_risk"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_loctek",
+      "rectification": {
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L3",
+        "rectification_action": "主画像收敛到 cbec_multi_platform_brand，后续继续补平台结构和区域经营颗粒度。",
+        "rewrite_suggestion": {
+          "admission_reason_summary": "人体工学产品品牌出海、海外市场销售和多平台跨境经营属性已成立，主画像收敛到 cbec_multi_platform_brand。",
+          "validation_gap": "主画像已收敛；后续继续补平台结构、区域经营和品牌矩阵颗粒度。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_jereh",
+      "rectification": {
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L3",
+        "rectification_action": "主画像收敛到 mfg_multi_factory_group，后续继续补多基地布局和全球经营颗粒度。",
+        "rewrite_suggestion": {
+          "admission_reason_summary": "能源装备制造、工程服务和全球项目经营结构已较清楚，主画像收敛到 mfg_multi_factory_group。",
+          "validation_gap": "主画像已收敛；后续继续补多基地布局、全球经营和更细业务条线颗粒度。"
+        },
+        "risk_flags": []
+      }
+    }
+  ]
+}

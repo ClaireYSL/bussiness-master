@@ -1,0 +1,45 @@
+{
+  "batch_id": "milestone2_2_warn_complexity_resolution_v1",
+  "goal": "Milestone 2.2：3个warn样本复杂度补证专项",
+  "track": "",
+  "from_level": "",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": true,
+  "source_policy": "延续 Milestone 2.1 的事实口径；本轮重点是复杂度颗粒度补证和 promotion_review 开队列。",
+  "rectification_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_rectification_v1.json",
+  "baseline_enrich_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_enrich_v1.json",
+  "baseline_promote_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_promote_v1.json",
+  "fact_patch_file": "/Users/clairaipartner/Codex/bussiness-master/configs/archive/enrich_batches/milestone2_2_warn_complexity_resolution_facts_v1.json",
+  "queue_patch_file": "/Users/clairaipartner/Codex/bussiness-master/configs/archive/enrich_batches/milestone2_2_warn_complexity_resolution_queue_v1.json",
+  "output": {
+    "enrich_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_2/milestone2_2_warn_complexity_resolution_enrich_v1.json",
+    "promote_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_2/milestone2_2_warn_complexity_resolution_promote_v1.json",
+    "summary_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_2/milestone2_2_warn_complexity_resolution_summary_v1.json"
+  },
+  "account_ids": [
+    "acc_popmart",
+    "acc_loctek",
+    "acc_jereh"
+  ],
+  "accounts": {
+    "acc_popmart": {
+      "track": "零售消费",
+      "role": "warn_control",
+      "expected_track": "零售消费",
+      "expected_persona_behavior": "保持 retail_fashion_group；目标是 L4 warn -> L4 allow。"
+    },
+    "acc_loctek": {
+      "track": "跨境电商",
+      "role": "warn_control",
+      "expected_track": "跨境电商",
+      "expected_persona_behavior": "保持 cbec_multi_platform_brand；目标是 L3 warn -> L3 allow。"
+    },
+    "acc_jereh": {
+      "track": "先进制造",
+      "role": "warn_control",
+      "expected_track": "先进制造",
+      "expected_persona_behavior": "保持 mfg_multi_factory_group；目标是 L3 warn -> L3 allow。"
+    }
+  }
+}

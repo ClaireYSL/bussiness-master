@@ -31,7 +31,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--batch-file", help="Optional JSON or newline-delimited file containing account_ids.")
     parser.add_argument("--track", help="Optional track filter, for example 零售消费.")
     parser.add_argument("--from-level", help="Optional current level filter, for example L4.")
-    parser.add_argument("--rectification-file", default=str(DEFAULT_RECTIFICATION), help="Optional rectification package JSON.")
+    parser.add_argument("--rectification-file", help="Optional rectification package JSON.")
     parser.add_argument("--output-file", help="Where to write the enrich result package.")
     parser.add_argument("--report-only", action="store_true", help="Only build enrich results, do not write back.")
     parser.add_argument("--write-back", action="store_true", help="Write enrich results back for selected accounts.")
@@ -281,7 +281,7 @@ def main() -> int:
             ]
         )
     )
-    rectification_file = args.rectification_file or str(config.get("rectification_file") or "")
+    rectification_file = args.rectification_file or str(config.get("rectification_file") or str(DEFAULT_RECTIFICATION))
     rectification_path = Path(rectification_file) if rectification_file else None
     results = [dataclass_to_dict(item) for item in build_enrich_results(account_ids=account_ids or None, rectification_path=rectification_path)]
     track = args.track or str(config.get("track") or "")

@@ -428,9 +428,9 @@ def build_enrich_results(
             ),
             "validation_gap": validation_gap,
             "review_status": _clean(
-                profile_row.get("profile_status")
+                rect.get("final_review_status")
+                or profile_row.get("profile_status")
                 or main_row.get("review_status")
-                or rect.get("final_review_status")
                 or ("active" if primary_persona else "pending_review")
             ),
         }

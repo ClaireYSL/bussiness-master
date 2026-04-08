@@ -1,0 +1,110 @@
+{
+  "batch_id": "milestone2_1_observation_persona_resolution_fact_patch_v1",
+  "accounts": [
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "primary_source_types": "official_website",
+      "primary_source_refs": "https://www.popmart.com/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "潮流玩具、手办、MEGA 收藏玩具及相关 IP 衍生商品经营。",
+        "商业模式概述": "以 IP 商品开发和商品零售为核心，通过线下门店、机器人商店、会员体系和线上渠道开展消费品经营。",
+        "核心客户客群": "潮流玩具消费者、会员用户及线下零售消费场景。",
+        "产品与服务长摘录": "官网展示 POP MART 以潮流玩具和 IP 商品为核心，覆盖盲盒、手办、MEGA 收藏玩具等品类。",
+        "商业模式长摘录": "官网对外呈现其围绕 IP 商品开发、线下门店、机器人商店和会员运营开展零售经营，而不是单一品牌授权业务。",
+        "客户客群长摘录": "现阶段可确认其主要面向终端消费人群和零售消费场景，并依赖直营网点与会员体系进行运营。",
+        "validation_gap": "主画像已可收敛到 retail_fashion_group；后续仍需补区域经营、门店组织结构和更细零售网络颗粒度证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "潮流玩具、手办、MEGA 收藏玩具及相关 IP 衍生商品经营。",
+        "商业模式概述": "以 IP 商品开发和商品零售为核心，通过线下门店、机器人商店、会员体系和线上渠道开展消费品经营。",
+        "核心客户客群": "潮流玩具消费者、会员用户及线下零售消费场景。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_popmart_m21_persona_channel_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "persona_resolution",
+          "field_value": "官网显示其围绕线下门店、机器人商店、会员和线上渠道进行 IP 商品零售经营。",
+          "source_locator": "https://www.popmart.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_resolution",
+          "summary": "官网经营结构更接近时尚消费品/潮流零售集团，而非单纯高 SKU 食饮或多业态零售。 "
+        }
+      ]
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "primary_source_types": "cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "公司产品与服务概述": "人体工学升降桌、升降台及健康办公类产品品牌出海经营。",
+        "商业模式概述": "依托跨境渠道开展人体工学产品的品牌化和全球化经营，覆盖海外零售市场与多平台销售。",
+        "核心客户客群": "海外家庭办公消费人群、海外零售消费场景及跨境平台用户。",
+        "产品与服务长摘录": "现阶段可保守确认其主营人体工学与健康办公类产品，并以品牌出海方式面向海外市场经营。",
+        "商业模式长摘录": "当前可稳定确认其经营围绕海外市场、多平台销售和品牌化出海展开，而不是单一 OEM 或单渠道出口。",
+        "客户客群长摘录": "其客户链路至少覆盖海外终端消费者和跨境平台消费场景；主画像可收敛到品牌出海型跨境经营主体。",
+        "validation_gap": "主画像已可收敛到 cbec_multi_platform_brand；后续仍需补平台结构、区域经营和品牌矩阵的更细官方证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "人体工学升降桌、升降台及健康办公类产品品牌出海经营。",
+        "商业模式概述": "依托跨境渠道开展人体工学产品的品牌化和全球化经营，覆盖海外零售市场与多平台销售。",
+        "核心客户客群": "海外家庭办公消费人群、海外零售消费场景及跨境平台用户。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_loctek_m21_persona_platform_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "persona_resolution",
+          "field_value": "上市公司官方披露入口可支撑其围绕品牌出海、多平台销售和全球经营展开业务。",
+          "source_locator": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=乐歌人体工学科技股份有限公司",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_resolution",
+          "summary": "主画像可收敛到 cbec_multi_platform_brand，而不是继续保持待定。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "primary_source_types": "cninfo,official_website",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/fulltextSearch?notautosubmit=&keyWord=烟台杰瑞石油服务集团股份有限公司\nhttps://www.jereh.com/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 2,
+      "profile_fields": {
+        "公司产品与服务概述": "油气装备、油田工程技术服务及相关高端装备经营。",
+        "商业模式概述": "以能源装备研发制造与工程技术服务为核心，覆盖产品交付、工程服务和全球项目经营。",
+        "核心客户客群": "油气开发企业、能源工程场景客户及相关工业客户。",
+        "产品与服务长摘录": "官网和上市公司公开披露可支撑其覆盖油气装备、工程技术服务及相关高端装备业务。",
+        "商业模式长摘录": "现阶段可稳定确认其并非单一设备销售，而是围绕能源装备与工程服务开展复合经营，并具有制造集团协同特征。",
+        "客户客群长摘录": "其客户链路至少覆盖油气开发和能源工程场景；主画像可收敛到多基地/多业务条线制造集团。",
+        "validation_gap": "主画像已可收敛到 mfg_multi_factory_group；后续仍需补多基地布局、全球经营和更细业务条线颗粒度证据。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "油气装备、油田工程技术服务及相关高端装备经营。",
+        "商业模式概述": "以能源装备研发制造与工程技术服务为核心，覆盖产品交付、工程服务和全球项目经营。",
+        "核心客户客群": "油气开发企业、能源工程场景客户及相关工业客户。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_acc_jereh_m21_persona_group_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "persona_resolution",
+          "field_value": "官网和上市公司公开披露可支撑其围绕能源装备制造、工程服务和全球项目经营开展集团式协同。",
+          "source_locator": "https://www.jereh.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_resolution",
+          "summary": "主画像可收敛到 mfg_multi_factory_group，而不是继续保持待定。"
+        }
+      ]
+    }
+  ]
+}

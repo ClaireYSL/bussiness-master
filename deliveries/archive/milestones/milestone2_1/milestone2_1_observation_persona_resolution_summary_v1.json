@@ -1,0 +1,124 @@
+{
+  "batch_id": "milestone2_1_observation_persona_resolution_v1",
+  "goal": "Milestone 2.1：3个 observation 主画像收敛专项",
+  "summary": {
+    "account_count": 3,
+    "observation_kept": 0,
+    "observation_promoted_to_formal": 3,
+    "control_to_allow": 0,
+    "control_kept_warn": 0,
+    "control_downgraded": 0,
+    "official_source_repaired": 0,
+    "persona_resolved": 3
+  },
+  "enrich_summary": {
+    "result_count": 3,
+    "ready_for_promote": 3,
+    "observation": 0
+  },
+  "promote_summary": {
+    "allow": 0,
+    "warn": 3,
+    "block": 0
+  },
+  "write_back": {
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.enrich_backup_20260408_230024.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260408_230024.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.enrich_backup_20260408_230024.xlsx"
+    },
+    "profile_updates": 3,
+    "main_shared_updates": 3,
+    "queue_items_created": 1,
+    "evidence_items_created": 0
+  },
+  "items": [
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "track": "零售消费",
+      "role": "observation",
+      "before_candidate_type": "observation",
+      "after_candidate_type": "formal_candidate",
+      "before_minimum_fact_status": "fail",
+      "after_minimum_fact_status": "pass",
+      "before_promote_decision": "block",
+      "after_promote_decision": "warn",
+      "official_source_repaired": false,
+      "persona_resolved": true,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "主画像已收敛；后续继续补区域经营、门店组织结构和更细零售网络颗粒度。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "retail_fashion_group",
+      "after_secondary_persona_tags": [],
+      "after_review_status": "active",
+      "after_required_queue_type": "verification",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "enrich_summary": "北京泡泡玛特文化创意有限公司 enrich 完成：主画像=retail_fashion_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "track": "跨境电商",
+      "role": "observation",
+      "before_candidate_type": "observation",
+      "after_candidate_type": "formal_candidate",
+      "before_minimum_fact_status": "fail",
+      "after_minimum_fact_status": "pass",
+      "before_promote_decision": "block",
+      "after_promote_decision": "warn",
+      "official_source_repaired": false,
+      "persona_resolved": true,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "主画像已收敛；后续继续补平台结构、区域经营和品牌矩阵颗粒度。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "cbec_multi_platform_brand",
+      "after_secondary_persona_tags": [],
+      "after_review_status": "active",
+      "after_required_queue_type": "verification",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "enrich_summary": "乐歌人体工学科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "track": "先进制造",
+      "role": "observation",
+      "before_candidate_type": "observation",
+      "after_candidate_type": "formal_candidate",
+      "before_minimum_fact_status": "fail",
+      "after_minimum_fact_status": "pass",
+      "before_promote_decision": "block",
+      "after_promote_decision": "warn",
+      "official_source_repaired": false,
+      "persona_resolved": true,
+      "writeback_targets": [
+        "潜客档案库.xlsx",
+        "内部运营-静态潜客池-共享版.xlsx",
+        "治理与证据.xlsx"
+      ],
+      "remaining_gaps": [
+        "主画像已收敛；后续继续补多基地布局、全球经营和更细业务条线颗粒度。",
+        "当前没有开放的 promotion_review 队列项。"
+      ],
+      "after_persona_tag": "mfg_multi_factory_group",
+      "after_secondary_persona_tags": [],
+      "after_review_status": "active",
+      "after_required_queue_type": "verification",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "enrich_summary": "烟台杰瑞石油服务集团股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    }
+  ]
+}

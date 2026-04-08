@@ -1,0 +1,44 @@
+{
+  "batch_id": "milestone2_1_observation_persona_resolution_v1",
+  "goal": "Milestone 2.1：3个 observation 主画像收敛专项",
+  "track": "",
+  "from_level": "",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": true,
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；本轮重点是主画像收敛，不以升层为目标。",
+  "rectification_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_rectification_v1.json",
+  "baseline_enrich_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2/milestone2_cross_track_rectification_enrich_v1.json",
+  "baseline_promote_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2/milestone2_cross_track_rectification_promote_v1.json",
+  "fact_patch_file": "/Users/clairaipartner/Codex/bussiness-master/configs/archive/enrich_batches/milestone2_1_observation_persona_resolution_facts_v1.json",
+  "output": {
+    "enrich_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_enrich_v1.json",
+    "promote_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_promote_v1.json",
+    "summary_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_summary_v1.json"
+  },
+  "account_ids": [
+    "acc_popmart",
+    "acc_loctek",
+    "acc_jereh"
+  ],
+  "accounts": {
+    "acc_popmart": {
+      "track": "零售消费",
+      "role": "observation",
+      "expected_track": "零售消费",
+      "expected_persona_behavior": "主画像收敛到 retail_fashion_group；若仍需 observation，应给出门店网络和组织结构不足等更具体阻塞原因。"
+    },
+    "acc_loctek": {
+      "track": "跨境电商",
+      "role": "observation",
+      "expected_track": "跨境电商",
+      "expected_persona_behavior": "主画像收敛到 cbec_multi_platform_brand；若仍需 observation，应给出平台结构和区域经营证据不足等更具体阻塞原因。"
+    },
+    "acc_jereh": {
+      "track": "先进制造",
+      "role": "observation",
+      "expected_track": "先进制造",
+      "expected_persona_behavior": "主画像收敛到 mfg_multi_factory_group；若仍需 observation，应给出多基地和业务条线证据不足等更具体阻塞原因。"
+    }
+  }
+}
