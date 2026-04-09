@@ -1,0 +1,106 @@
+{
+  "batch_id": "milestone2_3_l3_to_l2_allow_closure_v1",
+  "goal": "Milestone 2.3：allow样本真实L3到L2升层写回",
+  "from_level": "L3",
+  "target_level": "L2",
+  "selection": {
+    "account_ids": [
+      "acc_loctek",
+      "acc_jereh"
+    ],
+    "limit": 20
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone2_3_l3_to_l2_allow_closure_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone2_3/milestone2_3_l3_to_l2_allow_closure_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 2,
+    "allow": 2,
+    "warn": 0,
+    "block": 0,
+    "writeback_promoted": 2,
+    "writeback_skipped": 0,
+    "target_level_reached": 2,
+    "level_changed": 2,
+    "queue_resolved": 2,
+    "evidence_created": 2
+  },
+  "write_back": {
+    "enabled": true,
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.promote_backup_20260408_232101.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.promote_backup_20260408_232101.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.promote_backup_20260408_232101.xlsx"
+    },
+    "promoted": 2,
+    "skipped": 0,
+    "profile_updates": 2,
+    "main_shared_updates": 2,
+    "coverage_updates": 2,
+    "evidence_created": 2,
+    "promotion_review_resolved": 2,
+    "samples": [
+      {
+        "account_id": "acc_jereh",
+        "account_canonical_name": "烟台杰瑞石油服务集团股份有限公司",
+        "from_level": "L3",
+        "target_level": "L2"
+      },
+      {
+        "account_id": "acc_loctek",
+        "account_canonical_name": "乐歌人体工学科技股份有限公司",
+        "from_level": "L3",
+        "target_level": "L2"
+      }
+    ]
+  },
+  "items": [
+    {
+      "account_id": "acc_jereh",
+      "account_name": "烟台杰瑞石油服务集团股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L2",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "high_quality_ready",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。已补主画像与集团协同经营结构；后续继续补多基地和业务条线细表，但当前已具备进入 promotion_review 的复杂度基础。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_loctek",
+      "account_name": "乐歌人体工学科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L2",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "high_quality_ready",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。已补主画像与品牌出海经营结构；后续继续补平台结构和区域经营细表，但当前已具备进入 promotion_review 的复杂度基础。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    }
+  ]
+}

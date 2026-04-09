@@ -11,7 +11,14 @@ ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
-from shared.static_pool import attach_account_ids, evaluate_promotion_batch, load_main_rows, load_sheet_rows
+from shared.static_pool import (
+    attach_account_ids,
+    build_promote_summary_payload,
+    evaluate_promotion_batch,
+    load_main_rows,
+    load_sheet_rows,
+    render_promote_review_markdown,
+)
 from shared.static_pool import write_back_promotion_results
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
@@ -56,6 +63,12 @@ def resolve_output_file(path: str | None, batch_hint: str) -> Path:
     base = Path(tempfile.gettempdir()) / "codex-static-pool-runs"
     base.mkdir(parents=True, exist_ok=True)
     return base / f"{batch_hint}.json"
+
+
+def optional_output_path(path: str | None) -> Path | None:
+    if not path:
+        return None
+    return Path(path)
 
 
 def overlay_enrich_results(
@@ -152,6 +165,8 @@ def main() -> int:
     track = args.track or str(config.get("track") or "")
     limit = args.limit if args.limit != 20 or not config.get("limit") else int(config.get("limit") or 20)
     output_file = args.output_file or str(config_output.get("promote_file") or config.get("output_file") or "")
+    summary_file = str(config_output.get("summary_file") or config.get("summary_file") or "")
+    review_file = str(config_output.get("review_file") or config.get("review_file") or "")
     output_path = resolve_output_file(output_file or None, str(config.get("batch_id") or "promote_static_pool_run"))
 
     payload = {
@@ -198,12 +213,35 @@ def main() -> int:
         )
 
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    summary_path = optional_output_path(summary_file)
+    if summary_path:
+        summary_path.parent.mkdir(parents=True, exist_ok=True)
+        summary_payload = build_promote_summary_payload(
+            config,
+            payload,
+            config_path=str(args.config_file or ""),
+            promote_result_path=str(output_path),
+        )
+        summary_path.write_text(json.dumps(summary_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    review_path = optional_output_path(review_file)
+    if review_path:
+        review_path.parent.mkdir(parents=True, exist_ok=True)
+        if not summary_path:
+            summary_payload = build_promote_summary_payload(
+                config,
+                payload,
+                config_path=str(args.config_file or ""),
+                promote_result_path=str(output_path),
+            )
+        review_path.write_text(render_promote_review_markdown(summary_payload), encoding="utf-8")
     print(
         json.dumps(
             {
                 "output_file": str(output_path),
                 "result_count": len(payload["results"]),
                 "batch_summary": payload["batch_summary"],
+                "summary_file": str(summary_path) if summary_path else "",
+                "review_file": str(review_path) if review_path else "",
             },
             ensure_ascii=False,
             indent=2,

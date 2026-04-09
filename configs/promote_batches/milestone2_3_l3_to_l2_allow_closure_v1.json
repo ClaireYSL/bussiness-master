@@ -9,5 +9,7 @@
   "target_level": "L2",
   "enrich_result_file": "deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_enrich_v1.json",
   "write_back": true,
-  "output_file": "deliveries/archive/milestones/milestone2_3/milestone2_3_l3_to_l2_allow_closure_promote_v1.json"
+  "output_file": "deliveries/archive/milestones/milestone2_3/milestone2_3_l3_to_l2_allow_closure_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone2_3/milestone2_3_l3_to_l2_allow_closure_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 2.3-L3到L2真实升层批次-复盘-v1.md"
 }

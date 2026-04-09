@@ -1,0 +1,78 @@
+{
+  "batch_id": "milestone2_4_popmart_l4_to_l3_allow_closure_v1",
+  "goal": "Milestone 2.4：acc_popmart 真实 L4 到 L3 升层写回",
+  "from_level": "L4",
+  "target_level": "L3",
+  "selection": {
+    "account_ids": [
+      "acc_popmart"
+    ],
+    "limit": 20
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone2_4_popmart_l4_to_l3_allow_closure_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone2_4/milestone2_4_popmart_l4_to_l3_allow_closure_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 1,
+    "allow": 1,
+    "warn": 0,
+    "block": 0,
+    "writeback_promoted": 1,
+    "writeback_skipped": 0,
+    "target_level_reached": 1,
+    "level_changed": 1,
+    "queue_resolved": 1,
+    "evidence_created": 1
+  },
+  "write_back": {
+    "enabled": true,
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.promote_backup_20260408_234331.xlsx",
+      "main": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.promote_backup_20260408_234331.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.promote_backup_20260408_234331.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.promote_backup_20260408_234331.xlsx"
+    },
+    "promoted": 1,
+    "skipped": 0,
+    "profile_updates": 1,
+    "main_updates": 1,
+    "main_shared_updates": 1,
+    "coverage_updates": 1,
+    "evidence_created": 1,
+    "promotion_review_resolved": 1,
+    "samples": [
+      {
+        "account_id": "acc_popmart",
+        "account_canonical_name": "北京泡泡玛特文化创意有限公司",
+        "from_level": "L4",
+        "target_level": "L3"
+      }
+    ]
+  },
+  "items": [
+    {
+      "account_id": "acc_popmart",
+      "account_name": "北京泡泡玛特文化创意有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_fashion_group",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补主画像与零售经营结构；后续继续补区域经营和门店网络细表，但当前已具备进入 promotion_review 的复杂度基础。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    }
+  ]
+}

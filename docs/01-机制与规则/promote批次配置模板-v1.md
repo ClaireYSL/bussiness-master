@@ -15,12 +15,16 @@
 ```json
 {
   "batch_id": "promote_batch_retail_l5_to_l3_v1",
+  "goal": "本轮 promote 的业务目标",
   "from_level": "L5",
   "target_level": "L3",
   "track": "零售消费",
   "limit": 5,
   "account_ids": [],
-  "output_file": "deliveries/promote_batch_retail_l5_to_l3_v1.json"
+  "write_back": false,
+  "output_file": "deliveries/promote_batch_retail_l5_to_l3_v1.json",
+  "summary_file": "deliveries/promote_batch_retail_l5_to_l3_v1_summary.json",
+  "review_file": "docs/03-执行与校验/promote_batch_retail_l5_to_l3_v1-复盘.md"
 }
 ```
 
@@ -38,8 +42,14 @@
   - 最多评估多少个对象
 - `account_ids`
   - 若给定，则优先按显式名单评估
+- `write_back`
+  - 是否在 `allow` 后执行真实升层写回
 - `output_file`
-  - 结果输出位置
+  - promote 结果包输出位置
+- `summary_file`
+  - promote summary JSON 输出位置
+- `review_file`
+  - promote 复盘 Markdown 输出位置
 
 ---
 
@@ -56,4 +66,4 @@
 
 一句话总结：
 
-- 后续 `promote` 不应继续把批次定义写死在脚本文件名里，而应逐步转成“通用入口 + 批次配置”。
+- 后续 `promote` 不应继续把批次定义写死在脚本文件名里，而应逐步转成“通用入口 + 批次配置 + 统一 summary/review 产物”。

@@ -52,6 +52,7 @@ from .promotion_writeback import (
     update_profile_promotion_core,
     write_back_promotion_results,
 )
+from .promotion_reporting import build_promote_summary_payload, render_promote_review_markdown
 from .validators import (
     classify_l5_candidate,
     evaluate_minimum_fact_set,
@@ -83,6 +84,7 @@ __all__ = [
     "attach_account_ids",
     "apply_row_updates",
     "append_semicolon_note",
+    "build_promote_summary_payload",
     "build_grouped_lookup",
     "build_enrich_results",
     "build_lookup",
@@ -110,6 +112,7 @@ __all__ = [
     "normalize_secondary_persona_tags",
     "prepend_gap_once",
     "render_promotion_gate_summary",
+    "render_promote_review_markdown",
     "render_validation_summary",
     "resolve_open_queue_rows",
     "select_main_rows",
