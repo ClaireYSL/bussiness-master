@@ -263,7 +263,8 @@ def write_back_promotion_results(
             existing_profile_status = profile_ws.cell(profile_row_num, profile_headers["profile_status"]).value
         profile_status = _profile_status_for_target(target_level, existing_profile_status)
         profile_gap = _validation_gap_for_target(target_level, profile_ws.cell(profile_row_num, profile_headers["validation_gap"]).value)
-        main_gap = _validation_gap_for_target(target_level, main_ws.cell(main_row_num, main_headers["待验证项"]).value)
+        main_gap_header = "validation_gap" if "validation_gap" in main_headers else "待验证项"
+        main_gap = _validation_gap_for_target(target_level, main_ws.cell(main_row_num, main_headers[main_gap_header]).value)
 
         update_profile_promotion_core(
             profile_ws,

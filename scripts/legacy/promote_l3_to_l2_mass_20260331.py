@@ -55,6 +55,7 @@ def run_preflight_report() -> dict[str, object]:
     from shared.static_pool import attach_account_ids, evaluate_promotion_batch, load_main_rows_with_fallback, load_sheet_rows
 
     config = json.loads(BATCH_CONFIG.read_text(encoding="utf-8"))
+    # Legacy wrapper only: this historical batch keeps the old fallback behavior for archive replay.
     main_rows = load_main_rows_with_fallback(MAIN_XLSX, "accounts_main", MAIN_SHARED_XLSX, "全量主表")
     _profile_headers, profile_rows = load_sheet_rows(PROFILE_XLSX, "account_profiles")
     _queue_headers, queue_rows = load_sheet_rows(GOV_XLSX, "review_queue")

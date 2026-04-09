@@ -1,0 +1,12 @@
+{
+  "batch_id": "milestone2_4_popmart_l4_to_l3_allow_closure_v1",
+  "goal": "Milestone 2.4：acc_popmart 真实 L4 到 L3 升层写回",
+  "account_ids": [
+    "acc_popmart"
+  ],
+  "from_level": "L4",
+  "target_level": "L3",
+  "enrich_result_file": "deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_enrich_v1.json",
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone2_4/milestone2_4_popmart_l4_to_l3_allow_closure_promote_v1.json"
+}

@@ -1,0 +1,76 @@
+{
+  "batch_id": "milestone2_4_popmart_l4_to_l3_allow_closure_v1",
+  "goal": "Milestone 2.4：acc_popmart 真实 L4 到 L3 升层写回",
+  "from_level": "L4",
+  "target_level": "L3",
+  "track": "",
+  "write_back": {
+    "enabled": true,
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.promote_backup_20260408_234331.xlsx",
+      "main": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.promote_backup_20260408_234331.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.promote_backup_20260408_234331.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.promote_backup_20260408_234331.xlsx"
+    },
+    "promoted": 1,
+    "skipped": 0,
+    "profile_updates": 1,
+    "main_updates": 1,
+    "main_shared_updates": 1,
+    "coverage_updates": 1,
+    "evidence_created": 1,
+    "promotion_review_resolved": 1,
+    "samples": [
+      {
+        "account_id": "acc_popmart",
+        "account_canonical_name": "北京泡泡玛特文化创意有限公司",
+        "from_level": "L4",
+        "target_level": "L3"
+      }
+    ]
+  },
+  "enrich_result_file": "deliveries/archive/milestones/milestone2_1/milestone2_1_observation_persona_resolution_enrich_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_popmart"
+    ],
+    "limit": 20
+  },
+  "batch_summary": {
+    "allow": 1,
+    "warn": 0,
+    "block": 0
+  },
+  "results": [
+    {
+      "account_id": "acc_popmart",
+      "account_canonical_name": "北京泡泡玛特文化创意有限公司",
+      "from_level": "L4",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_fashion_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1,ka_case_xianfeng_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_narrative_naturehall_gpt_v1",
+      "promotion_gate": {
+        "account_id": "acc_popmart",
+        "decision": "allow",
+        "normalized_persona_tag": "retail_fashion_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    }
+  ],
+  "enrich_summary": {
+    "result_count": 3,
+    "ready_for_promote": 3,
+    "observation": 0
+  }
+}

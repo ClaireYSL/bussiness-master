@@ -53,6 +53,8 @@ MEMORY_PATH = WORKSPACE / "memory/2026-03-31.md"
 BATCH_CONFIG = WORKSPACE / "configs/promote_batches/retail_l5_to_l3_v1.json"
 PREFLIGHT_OUTPUT = WORKSPACE / "deliveries/promote_batch_retail_l5_to_l3_v1_wrapper.json"
 
+# Legacy wrapper only: archive replay may still read through the shared-workbook fallback.
+
 
 PERSONA_META = {
     "cbec_multi_platform_brand": {
