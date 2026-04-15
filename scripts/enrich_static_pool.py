@@ -15,7 +15,12 @@ ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
-from shared.static_pool import build_enrich_results, dataclass_to_dict
+from shared.static_pool import (
+    build_enrich_results,
+    build_enrich_summary_payload,
+    dataclass_to_dict,
+    render_enrich_review_markdown,
+)
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
 PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
@@ -61,6 +66,12 @@ def resolve_output_file(path: str | None, batch_hint: str) -> Path:
     base = Path(tempfile.gettempdir()) / "codex-static-pool-runs"
     base.mkdir(parents=True, exist_ok=True)
     return base / f"{batch_hint}.json"
+
+
+def optional_output_path(path: str | None) -> Path | None:
+    if not path:
+        return None
+    return Path(path)
 
 
 def backup_once(path: Path) -> str:
@@ -316,6 +327,8 @@ def main() -> int:
     track = args.track or str(config.get("track") or "")
     from_level = args.from_level or str(config.get("from_level") or "")
     output_file = args.output_file or str(config_output.get("enrich_file") or "")
+    summary_file = str(config_output.get("summary_file") or config.get("summary_file") or "")
+    review_file = str(config_output.get("review_file") or config.get("review_file") or "")
     output_path = resolve_output_file(output_file or None, str(config.get("batch_id") or "enrich_static_pool_run"))
     if track:
         results = [item for item in results if _clean(item.get("primary_track")) == _clean(track)]
@@ -343,7 +356,41 @@ def main() -> int:
         payload["write_back"] = {"enabled": False}
 
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"output_file": str(output_path), "summary": payload["summary"], "write_back": payload["write_back"]}, ensure_ascii=False, indent=2))
+    summary_path = optional_output_path(summary_file)
+    summary_payload = None
+    if summary_path:
+        summary_path.parent.mkdir(parents=True, exist_ok=True)
+        summary_payload = build_enrich_summary_payload(
+            config,
+            payload,
+            config_path=str(args.config_file or ""),
+            enrich_result_path=str(output_path),
+        )
+        summary_path.write_text(json.dumps(summary_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    review_path = optional_output_path(review_file)
+    if review_path:
+        review_path.parent.mkdir(parents=True, exist_ok=True)
+        if summary_payload is None:
+            summary_payload = build_enrich_summary_payload(
+                config,
+                payload,
+                config_path=str(args.config_file or ""),
+                enrich_result_path=str(output_path),
+            )
+        review_path.write_text(render_enrich_review_markdown(summary_payload), encoding="utf-8")
+    print(
+        json.dumps(
+            {
+                "output_file": str(output_path),
+                "summary": payload["summary"],
+                "write_back": payload["write_back"],
+                "summary_file": str(summary_path) if summary_path else "",
+                "review_file": str(review_path) if review_path else "",
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
     return 0
 
 

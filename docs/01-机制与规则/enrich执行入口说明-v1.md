@@ -35,6 +35,17 @@
 - 未显式指定 `--output-file` 时，结果默认写到 `/tmp/codex-static-pool-runs/`
 - 只有 milestone / 专项验收批次，才应显式落 repo 结果包
 
+当前推荐的统一产物链：
+
+1. `enrich result`（必需）
+2. `enrich summary`（推荐）
+3. `enrich review`（推荐）
+
+当批次配置中提供以下字段时，统一入口会自动生成：
+
+- `output.summary_file`
+- `output.review_file`
+
 每个对象至少输出：
 
 - `persona_tag`

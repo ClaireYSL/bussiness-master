@@ -31,6 +31,7 @@ from .enrich_engine import (
     load_state,
     match_related_knowledge_assets,
 )
+from .enrich_reporting import build_enrich_summary_payload, render_enrich_review_markdown
 from .reporting import render_promotion_gate_summary, render_validation_summary, to_jsonable
 from .promote_engine import (
     attach_account_ids,
@@ -84,6 +85,7 @@ __all__ = [
     "attach_account_ids",
     "apply_row_updates",
     "append_semicolon_note",
+    "build_enrich_summary_payload",
     "build_promote_summary_payload",
     "build_grouped_lookup",
     "build_enrich_results",
@@ -113,6 +115,7 @@ __all__ = [
     "prepend_gap_once",
     "render_promotion_gate_summary",
     "render_promote_review_markdown",
+    "render_enrich_review_markdown",
     "render_validation_summary",
     "resolve_open_queue_rows",
     "select_main_rows",
