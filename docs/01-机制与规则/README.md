@@ -29,6 +29,7 @@
 - [promote通用化改造方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote%E9%80%9A%E7%94%A8%E5%8C%96%E6%94%B9%E9%80%A0%E6%96%B9%E6%A1%88-v1.md)
 - [promote批次配置模板-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/promote%E6%89%B9%E6%AC%A1%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF-v1.md)
 - [enrich执行入口说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/enrich%E6%89%A7%E8%A1%8C%E5%85%A5%E5%8F%A3%E8%AF%B4%E6%98%8E-v1.md)
+- [execution批次编排说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/execution%E6%89%B9%E6%AC%A1%E7%BC%96%E6%8E%92%E8%AF%B4%E6%98%8E-v1.md)
 - [expand-provider路由说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/expand-provider%E8%B7%AF%E7%94%B1%E8%AF%B4%E6%98%8E-v1.md)
 - [已知存量客户与签约主体排除规则-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/已知存量客户与签约主体排除规则-v1.md)
 - [静态潜客信息与动态机会信息边界说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/静态潜客信息与动态机会信息边界说明-v1.md)

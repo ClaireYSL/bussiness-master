@@ -55,6 +55,7 @@
 - [知识库持续学习与素材接入机制-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/知识库持续学习与素材接入机制-v1.md)
 - [L5 候选来源与入池路径说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/L5%20候选来源与入池路径说明-v1.md)
 - [static-pool-promote-上移选项与单轮定义-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/static-pool-promote-上移选项与单轮定义-v1.md)
+- [execution批次编排说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/01-机制与规则/execution%E6%89%B9%E6%AC%A1%E7%BC%96%E6%8E%92%E8%AF%B4%E6%98%8E-v1.md)
 
 ### 2.3 如果你想先看结构与执行
 

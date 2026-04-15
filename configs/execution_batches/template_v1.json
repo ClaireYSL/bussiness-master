@@ -1,0 +1,22 @@
+{
+  "batch_id": "execution_batch_template_v1",
+  "goal": "execution 批次模板：enrich -> promote -> run summary/review",
+  "mode": "report_only",
+  "enrich": {
+    "config_file": "configs/archive/enrich_batches/milestone2_1_observation_persona_resolution_v1.json",
+    "output_file": "deliveries/archive/milestones/template/execution_template_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/template/execution_template_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/execution_template_enrich_复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone2_4_popmart_l4_to_l3_allow_closure_v1.json",
+    "output_file": "deliveries/archive/milestones/template/execution_template_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/template/execution_template_promote_summary_v1.json",
+    "review_file": "docs/03-执行与校验/execution_template_promote_复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/template/execution_template_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/execution_template_run_复盘-v1.md"
+  }
+}
