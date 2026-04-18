@@ -1,0 +1,269 @@
+{
+  "batch_id": "milestone5_execution_batch_v1",
+  "goal": "Milestone 5：执行层批次产品化 + 跨主线24家升层闭环",
+  "from_level": "",
+  "target_level": "",
+  "selection": {
+    "account_ids": [
+      "acc_junsheng",
+      "acc_zhonglian",
+      "acc_cn_300592",
+      "acc_klg",
+      "acc_ays",
+      "acc_chabaidao",
+      "acc_boci",
+      "acc_boshi",
+      "acc_bozon",
+      "acc_donlim",
+      "acc_uwlaser",
+      "acc_xtcnew",
+      "acc_70mai",
+      "acc_impulse",
+      "acc_jeep_bike",
+      "acc_jiayi",
+      "acc_petstar",
+      "acc_sunsbike",
+      "acc_l5_000007",
+      "acc_l5_000829",
+      "acc_l5_002416",
+      "acc_l5_300022",
+      "acc_l5_300622",
+      "acc_nongfuspring"
+    ],
+    "limit": 24
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone5_execution_promote_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone5/milestone5_execution_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 7,
+    "allow": 7,
+    "warn": 0,
+    "block": 0,
+    "writeback_promoted": 7,
+    "writeback_skipped": 0,
+    "target_level_reached": 7,
+    "level_changed": 7,
+    "queue_resolved": 0,
+    "evidence_created": 7
+  },
+  "write_back": {
+    "enabled": true,
+    "promoted": 7,
+    "skipped": 0,
+    "profile_updates": 7,
+    "main_updates": 7,
+    "main_shared_updates": 7,
+    "coverage_updates": 7,
+    "evidence_created": 7,
+    "promotion_review_resolved": 0,
+    "samples": [
+      {
+        "account_id": "acc_70mai",
+        "account_canonical_name": "深圳市七十迈数字科技有限公司",
+        "from_level": "L4",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_sunsbike",
+        "account_canonical_name": "三柏硕健康科技股份有限公司",
+        "from_level": "L4",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_l5_300622",
+        "account_canonical_name": "博士眼镜",
+        "from_level": "L4",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_l5_002416",
+        "account_canonical_name": "爱施德",
+        "from_level": "L4",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_l5_000829",
+        "account_canonical_name": "天音控股",
+        "from_level": "L4",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_l5_300022",
+        "account_canonical_name": "吉峰科技",
+        "from_level": "L4",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_l5_000007",
+        "account_canonical_name": "全新好",
+        "from_level": "L4",
+        "target_level": "L3"
+      }
+    ]
+  },
+  "items": [
+    {
+      "account_id": "acc_70mai",
+      "account_name": "深圳市七十迈数字科技有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营颗粒度与平台结构细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "account_name": "三柏硕健康科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营颗粒度与平台结构细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "account_name": "博士眼镜",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营和门店网络细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "account_name": "爱施德",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营和渠道结构细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "account_name": "天音控股",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营和渠道结构细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "account_name": "吉峰科技",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营和渠道结构细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "account_name": "全新好",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L4",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已完成最小事实补齐；后续补区域经营和渠道结构细表。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    }
+  ]
+}

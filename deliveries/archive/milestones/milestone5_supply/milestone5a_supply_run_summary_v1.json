@@ -1,0 +1,169 @@
+{
+  "batch_id": "milestone5a_supply_batch_v1",
+  "goal": "Milestone 5A：补齐L4供给（14家）",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-15T16:19:24.253697+00:00",
+  "finished_at": "2026-04-15T16:19:34.627282+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_70mai",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_boci",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_boshi",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_impulse",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_nongfuspring",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_petstar",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "target_level": "L4"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone5a_supply_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-enrich复盘-v1.md",
+    "result_count": 7,
+    "write_back": {
+      "backups": {
+        "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.enrich_backup_20260416_001925.xlsx",
+        "main": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.enrich_backup_20260416_001925.xlsx",
+        "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260416_001925.xlsx",
+        "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.enrich_backup_20260416_001925.xlsx"
+      },
+      "profile_updates": 7,
+      "main_updates": 7,
+      "main_shared_updates": 7,
+      "queue_items_created": 2,
+      "evidence_items_created": 0
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone5a_supply_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-promote复盘-v1.md",
+    "result_count": 7,
+    "write_back": {
+      "enabled": true,
+      "promoted": 7,
+      "skipped": 0,
+      "profile_updates": 7,
+      "main_updates": 7,
+      "main_shared_updates": 7,
+      "coverage_updates": 7,
+      "evidence_created": 7,
+      "promotion_review_resolved": 0,
+      "samples": [
+        {
+          "account_id": "acc_70mai",
+          "account_canonical_name": "深圳市七十迈数字科技有限公司",
+          "from_level": "L5",
+          "target_level": "L4"
+        },
+        {
+          "account_id": "acc_sunsbike",
+          "account_canonical_name": "三柏硕健康科技股份有限公司",
+          "from_level": "L5",
+          "target_level": "L4"
+        },
+        {
+          "account_id": "acc_l5_300622",
+          "account_canonical_name": "博士眼镜",
+          "from_level": "L5",
+          "target_level": "L4"
+        },
+        {
+          "account_id": "acc_l5_002416",
+          "account_canonical_name": "爱施德",
+          "from_level": "L5",
+          "target_level": "L4"
+        },
+        {
+          "account_id": "acc_l5_000829",
+          "account_canonical_name": "天音控股",
+          "from_level": "L5",
+          "target_level": "L4"
+        },
+        {
+          "account_id": "acc_l5_300022",
+          "account_canonical_name": "吉峰科技",
+          "from_level": "L5",
+          "target_level": "L4"
+        },
+        {
+          "account_id": "acc_l5_000007",
+          "account_canonical_name": "全新好",
+          "from_level": "L5",
+          "target_level": "L4"
+        }
+      ]
+    },
+    "batch_summary": {
+      "allow": 7,
+      "warn": 0,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 7,
+    "warn": 0,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": true
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-执行复盘-v1.md"
+}

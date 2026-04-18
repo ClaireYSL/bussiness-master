@@ -1,0 +1,229 @@
+{
+  "batch_id": "milestone5a_supply_enrich_v1",
+  "goal": "Milestone 5A：L5到L4供给补齐 enrich",
+  "rectification_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_rectification_package_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_70mai",
+      "acc_boci",
+      "acc_boshi",
+      "acc_impulse",
+      "acc_jeep_bike",
+      "acc_jiayi",
+      "acc_l5_000007",
+      "acc_l5_000829",
+      "acc_l5_002416",
+      "acc_l5_300022",
+      "acc_l5_300622",
+      "acc_nongfuspring",
+      "acc_petstar",
+      "acc_sunsbike"
+    ],
+    "track": "",
+    "from_level": "L5"
+  },
+  "source_files": {
+    "config_file": "/var/folders/_j/wk1k46ks6rl2yljqhcy1mmxm0000gn/T/codex-static-pool-runs/milestone5a_supply_enrich_v1_enrich_run_config.json",
+    "enrich_result_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_enrich_v1.json"
+  },
+  "summary": {
+    "account_count": 7,
+    "ready_for_promote": 0,
+    "observation": 7,
+    "formal_candidate": 0,
+    "minimum_fact_pass": 0,
+    "minimum_fact_partial": 5,
+    "minimum_fact_fail": 2,
+    "official_source_available": 7,
+    "official_source_missing": 0,
+    "queue_items_created": 2,
+    "evidence_items_created": 0
+  },
+  "write_back": {
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.enrich_backup_20260416_001925.xlsx",
+      "main": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.enrich_backup_20260416_001925.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260416_001925.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.enrich_backup_20260416_001925.xlsx"
+    },
+    "profile_updates": 7,
+    "main_updates": 7,
+    "main_shared_updates": 7,
+    "queue_items_created": 2,
+    "evidence_items_created": 0
+  },
+  "items": [
+    {
+      "account_id": "acc_70mai",
+      "account_name": "深圳市七十迈数字科技有限公司",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "minimum_fact_status": "fail",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 1,
+      "issue_messages": [
+        "公司产品与服务概述 仍是占位值。",
+        "商业模式概述 仍是占位值。"
+      ],
+      "warning_messages": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "深圳市七十迈数字科技有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "account_name": "全新好",
+      "track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 3,
+      "issue_messages": [],
+      "warning_messages": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "全新好 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "account_name": "天音控股",
+      "track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 3,
+      "issue_messages": [],
+      "warning_messages": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "天音控股 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "account_name": "爱施德",
+      "track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 3,
+      "issue_messages": [],
+      "warning_messages": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "爱施德 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "account_name": "吉峰科技",
+      "track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 3,
+      "issue_messages": [],
+      "warning_messages": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "吉峰科技 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "account_name": "博士眼镜",
+      "track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 3,
+      "issue_messages": [],
+      "warning_messages": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "博士眼镜 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "account_name": "三柏硕健康科技股份有限公司",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "minimum_fact_status": "fail",
+      "official_source_status": "available",
+      "enrich_ready_for_promote": false,
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "knowledge_asset_count": 5,
+      "talk_track_count": 1,
+      "issue_messages": [
+        "公司产品与服务概述 仍是占位值。",
+        "商业模式概述 仍是占位值。"
+      ],
+      "warning_messages": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "summary": "三柏硕健康科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=False。"
+    }
+  ]
+}

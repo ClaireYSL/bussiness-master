@@ -1,0 +1,180 @@
+{
+  "batch_id": "milestone5a_supply_candidates_v1",
+  "generated_at": "2026-04-15T14:40:00+00:00",
+  "goal": "Milestone 5A：补齐L4供给（14家）",
+  "selection_summary": {
+    "required_total": 14,
+    "picked_total": 14,
+    "shortage_count": 0
+  },
+  "accounts": [
+    {
+      "account_id": "acc_nongfuspring",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L5->L4 补齐候选；当前为 warn，可优先补队列与颗粒度证据"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L5->L4 补齐候选；当前为 warn，可优先补队列与颗粒度证据"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L5->L4 补齐候选；当前为 warn，可优先补队列与颗粒度证据"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L5->L4 补齐候选；当前为 warn，可优先补队列与颗粒度证据"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L5->L4 补齐候选；当前为 warn，可优先补队列与颗粒度证据"
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L5->L4 补齐候选；当前为 warn，可优先补队列与颗粒度证据"
+    },
+    {
+      "account_id": "acc_70mai",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_impulse",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_petstar",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_boci",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "先进制造 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    },
+    {
+      "account_id": "acc_boshi",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L4",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "先进制造 L5->L4 补齐候选；block 原因集中在 missing_field，便于定向补证"
+    }
+  ]
+}

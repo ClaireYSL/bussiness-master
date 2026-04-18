@@ -1,0 +1,61 @@
+{
+  "batch_id": "milestone5_execution_promote_v1",
+  "goal": "Milestone 5：24家样本 promote 批次",
+  "from_level": "L3",
+  "target_level": "L2",
+  "track": "",
+  "write_back": {
+    "enabled": true,
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.promote_backup_20260418_193913.xlsx",
+      "main": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.promote_backup_20260418_193913.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.promote_backup_20260418_193913.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.promote_backup_20260418_193913.xlsx"
+    },
+    "promoted": 0,
+    "skipped": 0,
+    "profile_updates": 0,
+    "main_updates": 0,
+    "main_shared_updates": 0,
+    "coverage_updates": 0,
+    "evidence_created": 0,
+    "promotion_review_resolved": 0,
+    "samples": []
+  },
+  "enrich_result_file": "deliveries/archive/milestones/milestone5/milestone5_execution_enrich_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_junsheng",
+      "acc_zhonglian",
+      "acc_cn_300592",
+      "acc_klg",
+      "acc_ays",
+      "acc_chabaidao"
+    ],
+    "limit": 20
+  },
+  "batch_summary": {
+    "allow": 0,
+    "warn": 0,
+    "block": 0
+  },
+  "results": [],
+  "enrich_summary": {
+    "result_count": 24,
+    "ready_for_promote": 24,
+    "observation": 0
+  },
+  "patch_summary": {
+    "fact_patch_file": "configs/execution_batches/milestone5_execution_facts_v1.json",
+    "queue_patch_file": "",
+    "profile_updates": 2,
+    "evidence_rows_added": 2,
+    "queue_rows_added": 6,
+    "main_coverage": {
+      "requested": 6,
+      "existing": 6,
+      "added_from_shared": 0,
+      "still_missing": 0
+    }
+  }
+}

@@ -418,8 +418,16 @@ def build_enrich_results(
             "primary_track": track_name,
             "persona_tag": primary_persona,
             "secondary_persona_tags": ",".join(secondary_personas),
-            "公司产品与服务概述": _clean(main_row.get("公司产品与服务概述") or profile_row.get("公司产品与服务概述")),
-            "商业模式概述": _clean(main_row.get("商业模式概述") or profile_row.get("商业模式概述")),
+            "公司产品与服务概述": _clean(
+                rewrite.get("公司产品与服务概述")
+                or main_row.get("公司产品与服务概述")
+                or profile_row.get("公司产品与服务概述")
+            ),
+            "商业模式概述": _clean(
+                rewrite.get("商业模式概述")
+                or main_row.get("商业模式概述")
+                or profile_row.get("商业模式概述")
+            ),
             "admission_reason_summary": _clean(
                 rewrite.get("admission_reason_summary")
                 or main_row.get("admission_reason_summary")

@@ -1,0 +1,117 @@
+{
+  "batch_id": "milestone5a_supply_queue_v1",
+  "accounts": [
+    {
+      "account_id": "acc_nongfuspring",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_70mai",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_impulse",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_petstar",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_boci",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    },
+    {
+      "account_id": "acc_boshi",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 5A.1：基础事实补齐后进入 promotion_review。"
+    }
+  ]
+}

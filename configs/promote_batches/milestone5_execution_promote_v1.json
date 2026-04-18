@@ -1,0 +1,13 @@
+{
+  "batch_id": "milestone5_execution_promote_v1",
+  "goal": "Milestone 5：24家样本 promote 批次",
+  "account_ids": [],
+  "from_level": "",
+  "target_level": "",
+  "fact_patch_file": "configs/execution_batches/milestone5_execution_facts_v1.json",
+  "auto_open_promotion_review_for_selected": true,
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone5/milestone5_execution_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone5/milestone5_execution_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 5-24家执行批次-promote复盘-v1.md"
+}

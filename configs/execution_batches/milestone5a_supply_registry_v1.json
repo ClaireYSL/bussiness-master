@@ -1,0 +1,56 @@
+{
+  "milestone_id": "milestone5a_supply",
+  "batch_id": "milestone5a_supply_batch_v1",
+  "goal": "Milestone 5A：补齐L4供给（14家）",
+  "timebox": {
+    "plan": "3-5天",
+    "phase_a": "report_only 验证",
+    "phase_b": "write_back 写回"
+  },
+  "accounts": [],
+  "track_mix": {
+    "tracks": [
+      "零售消费",
+      "跨境电商",
+      "先进制造"
+    ],
+    "per_track_total": {
+      "零售消费": 6,
+      "跨境电商": 6,
+      "先进制造": 2
+    }
+  },
+  "promotion_mix": {
+    "routes": [
+      {
+        "from_level": "L5",
+        "target_level": "L4",
+        "per_track": 0
+      }
+    ]
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": true
+  },
+  "candidate_file": "configs/execution_batches/milestone5a_supply_candidates_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone5a_supply_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone5a_supply_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-promote复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-执行复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_report_baseline_v1.json"
+  }
+}

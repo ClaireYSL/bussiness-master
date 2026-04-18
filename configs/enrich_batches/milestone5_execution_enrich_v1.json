@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone5_execution_enrich_v1",
+  "goal": "Milestone 5：24家样本 enrich 批次",
+  "track": "",
+  "from_level": "",
+  "target_level": "",
+  "promote_target_level": "",
+  "write_back": true,
+  "rectification_file": "configs/execution_batches/milestone5_execution_enrich_rectification_v1.json",
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；不以低可信来源补位。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone5/milestone5_execution_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone5/milestone5_execution_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 5-24家执行批次-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

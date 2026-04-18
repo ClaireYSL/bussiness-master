@@ -57,6 +57,82 @@ def load_enrich_payload(path: str | None) -> dict[str, object]:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def _resolve_optional_path(path: str | None) -> Path | None:
+    if not path:
+        return None
+    raw = Path(path)
+    if raw.is_absolute():
+        return raw
+    return (WORKSPACE / raw).resolve()
+
+
+def _load_optional_patch(path: str | None) -> dict[str, object]:
+    resolved = _resolve_optional_path(path)
+    if not resolved or not resolved.exists():
+        return {}
+    return json.loads(resolved.read_text(encoding="utf-8"))
+
+
+def _normalize_shared_main_row(shared_row: dict[str, object], *, account_id: str) -> dict[str, object]:
+    return {
+        "account_id": account_id,
+        "account_canonical_name": shared_row.get("公司主体"),
+        "primary_track": shared_row.get("主线"),
+        "persona_tag": shared_row.get("业务形态画像"),
+        "secondary_persona_tags": shared_row.get("辅助画像标签") or shared_row.get("次级画像") or "",
+        "公司产品与服务概述": shared_row.get("公司产品与服务概述"),
+        "商业模式概述": shared_row.get("商业模式概述"),
+        "admission_reason_summary": shared_row.get("一话入池理由"),
+        "validation_gap": shared_row.get("待验证项"),
+        "信息扎实度": shared_row.get("信息扎实度"),
+        "ICP匹配概率": shared_row.get("ICP匹配概率"),
+        "静态潜客记录成熟度": shared_row.get("静态潜客记录成熟度"),
+        "review_status": "pending_review",
+        "knowledge_asset_refs": shared_row.get("主要知识资产引用"),
+        "talk_track_refs": shared_row.get("主要切入话术引用"),
+    }
+
+
+def supplement_missing_main_rows_from_shared(
+    main_rows: list[dict[str, object]],
+    profile_rows: list[dict[str, object]],
+    *,
+    account_ids: list[str],
+) -> tuple[list[dict[str, object]], dict[str, int]]:
+    wanted_ids = {_clean(value) for value in account_ids if _clean(value)}
+    if not wanted_ids:
+        return main_rows, {"requested": 0, "existing": 0, "added_from_shared": 0, "still_missing": 0}
+    existing_ids = {_clean(row.get("account_id")) for row in main_rows if _clean(row.get("account_id"))}
+    missing_ids = wanted_ids - existing_ids
+    if not missing_ids:
+        return main_rows, {"requested": len(wanted_ids), "existing": len(existing_ids & wanted_ids), "added_from_shared": 0, "still_missing": 0}
+
+    profile_name_to_id = {
+        _clean(row.get("account_canonical_name")): _clean(row.get("account_id"))
+        for row in profile_rows
+        if _clean(row.get("account_canonical_name")) and _clean(row.get("account_id"))
+    }
+    _shared_headers, shared_rows = load_sheet_rows(MAIN_SHARED_XLSX, "全量主表")
+    for shared_row in shared_rows:
+        account_name = _clean(shared_row.get("公司主体"))
+        if not account_name:
+            continue
+        account_id = profile_name_to_id.get(account_name, "")
+        if not account_id or account_id not in missing_ids:
+            continue
+        main_rows.append(_normalize_shared_main_row(shared_row, account_id=account_id))
+        missing_ids.discard(account_id)
+        if not missing_ids:
+            break
+
+    return main_rows, {
+        "requested": len(wanted_ids),
+        "existing": len((wanted_ids - missing_ids)),
+        "added_from_shared": len((wanted_ids - existing_ids) - missing_ids),
+        "still_missing": len(missing_ids),
+    }
+
+
 def resolve_output_file(path: str | None, batch_hint: str) -> Path:
     if path:
         return Path(path)
@@ -69,6 +145,128 @@ def optional_output_path(path: str | None) -> Path | None:
     if not path:
         return None
     return Path(path)
+
+
+def apply_fact_patch(
+    main_rows: list[dict[str, object]],
+    profile_rows: list[dict[str, object]],
+    evidence_rows: list[dict[str, object]],
+    patch: dict[str, object],
+) -> tuple[int, int]:
+    accounts = patch.get("accounts")
+    if not isinstance(accounts, list):
+        return 0, 0
+    main_by_id = {_clean(row.get("account_id")): row for row in main_rows if _clean(row.get("account_id"))}
+    profile_by_id = {_clean(row.get("account_id")): row for row in profile_rows if _clean(row.get("account_id"))}
+    main_by_name = {_clean(row.get("account_canonical_name")): row for row in main_rows if _clean(row.get("account_canonical_name"))}
+    profile_by_name = {_clean(row.get("account_canonical_name")): row for row in profile_rows if _clean(row.get("account_canonical_name"))}
+    profile_updated = 0
+    evidence_added = 0
+    for item in accounts:
+        if not isinstance(item, dict):
+            continue
+        account_id = _clean(item.get("account_id"))
+        account_name = _clean(item.get("account_name"))
+        main_row = main_by_id.get(account_id) or main_by_name.get(account_name)
+        profile_row = profile_by_id.get(account_id) or profile_by_name.get(account_name)
+        profile_fields = item.get("profile_fields")
+        if isinstance(profile_fields, dict) and profile_row is not None:
+            for key, value in profile_fields.items():
+                profile_row[key] = value
+            profile_updated += 1
+        main_fields = item.get("main_fields")
+        if isinstance(main_fields, dict) and main_row is not None:
+            for key, value in main_fields.items():
+                main_row[key] = value
+        for field in ("official_source_count", "high_confidence_source_count", "primary_source_types", "primary_source_refs"):
+            if field in item and profile_row is not None:
+                profile_row[field] = item.get(field)
+        rows = item.get("evidence_rows")
+        if not isinstance(rows, list):
+            continue
+        for ev in rows:
+            if not isinstance(ev, dict):
+                continue
+            copied = dict(ev)
+            copied.setdefault("account_id", account_id)
+            evidence_rows.append(copied)
+            evidence_added += 1
+    return profile_updated, evidence_added
+
+
+def apply_queue_patch(queue_rows: list[dict[str, object]], patch: dict[str, object]) -> int:
+    accounts = patch.get("accounts")
+    if not isinstance(accounts, list):
+        return 0
+    created = 0
+    for item in accounts:
+        if not isinstance(item, dict):
+            continue
+        account_id = _clean(item.get("account_id"))
+        queue_type = _clean(item.get("queue_type"))
+        if not account_id or not queue_type:
+            continue
+        exists = False
+        for row in queue_rows:
+            if _clean(row.get("account_id")) != account_id:
+                continue
+            if _clean(row.get("queue_type")) != queue_type:
+                continue
+            if _clean(row.get("status")) in {"", "open", "in_progress"}:
+                exists = True
+                break
+        if exists:
+            continue
+        queue_rows.append(
+            {
+                "queue_item_id": _clean(item.get("queue_item_id")) or f"patch_{account_id}_{queue_type}",
+                "queue_type": queue_type,
+                "account_id": account_id,
+                "priority": _clean(item.get("priority")) or "P1",
+                "status": _clean(item.get("status")) or "open",
+                "owner": _clean(item.get("owner")) or "codex",
+                "note": _clean(item.get("note")),
+                "created_at": _clean(item.get("created_at")),
+                "resolved_at": "",
+            }
+        )
+        created += 1
+    return created
+
+
+def apply_auto_promotion_review_queue(queue_rows: list[dict[str, object]], account_ids: list[str]) -> int:
+    created = 0
+    today = ""
+    for account_id in account_ids:
+        account_id = _clean(account_id)
+        if not account_id:
+            continue
+        exists = False
+        for row in queue_rows:
+            if _clean(row.get("account_id")) != account_id:
+                continue
+            if _clean(row.get("queue_type")) != "promotion_review":
+                continue
+            if _clean(row.get("status")) in {"", "open", "in_progress"}:
+                exists = True
+                break
+        if exists:
+            continue
+        queue_rows.append(
+            {
+                "queue_item_id": f"auto_{account_id}_promotion_review",
+                "queue_type": "promotion_review",
+                "account_id": account_id,
+                "priority": "P1",
+                "status": "open",
+                "owner": "codex",
+                "note": "auto_opened_by_execution_batch",
+                "created_at": today,
+                "resolved_at": "",
+            }
+        )
+        created += 1
+    return created
 
 
 def overlay_enrich_results(
@@ -93,8 +291,15 @@ def overlay_enrich_results(
             row["knowledge_asset_refs"] = ",".join(item.get("knowledge_asset_refs") or [])
             row["talk_track_refs"] = ",".join(item.get("talk_track_refs") or [])
             row["validation_gap"] = item.get("validation_gap") or row.get("validation_gap")
-            row["review_status"] = item.get("review_status") or row.get("review_status")
+            row["review_status"] = row.get("review_status") or item.get("review_status")
             row["静态潜客记录成熟度"] = item.get("suggested_maturity") or row.get("静态潜客记录成熟度")
+            rewrite = item.get("rewrite_suggestion") if isinstance(item.get("rewrite_suggestion"), dict) else {}
+            if rewrite.get("公司产品与服务概述") and not _clean(row.get("公司产品与服务概述")):
+                row["公司产品与服务概述"] = rewrite.get("公司产品与服务概述")
+            if rewrite.get("商业模式概述") and not _clean(row.get("商业模式概述")):
+                row["商业模式概述"] = rewrite.get("商业模式概述")
+            if rewrite.get("admission_reason_summary") and not _clean(row.get("admission_reason_summary")):
+                row["admission_reason_summary"] = rewrite.get("admission_reason_summary")
         if main_row:
             main_by_id[account_id] = main_row
         if profile_row:
@@ -148,18 +353,34 @@ def main() -> int:
     enrich_result_file = args.enrich_result_file or str(config.get("enrich_result_file") or "")
     enrich_payload = load_enrich_payload(enrich_result_file or None)
     enrich_results = list(enrich_payload.get("results") or [])
+    fact_patch_payload = _load_optional_patch(str(config.get("fact_patch_file") or ""))
+    queue_patch_payload = _load_optional_patch(str(config.get("queue_patch_file") or ""))
 
     main_rows = load_primary_main_rows()
     _profile_headers, profile_rows = load_sheet_rows(PROFILE_XLSX, "account_profiles")
     _queue_headers, queue_rows = load_sheet_rows(GOV_XLSX, "review_queue")
     _evidence_headers, evidence_rows = load_sheet_rows(GOV_XLSX, "evidence_log")
     main_rows = attach_account_ids(main_rows, profile_rows)
+    patch_profile_updates = 0
+    patch_evidence_added = 0
+    patch_queue_created = 0
+    if fact_patch_payload:
+        patch_profile_updates, patch_evidence_added = apply_fact_patch(main_rows, profile_rows, evidence_rows, fact_patch_payload)
+    if queue_patch_payload:
+        patch_queue_created = apply_queue_patch(queue_rows, queue_patch_payload)
     if enrich_results:
         main_rows, profile_rows = overlay_enrich_results(main_rows, profile_rows, enrich_results)
 
     account_ids = args.account_id or list(config.get("account_ids") or []) or [
         _clean(item.get("account_id")) for item in enrich_results if _clean(item.get("account_id"))
     ]
+    main_rows, main_coverage = supplement_missing_main_rows_from_shared(
+        main_rows,
+        profile_rows,
+        account_ids=account_ids,
+    )
+    if bool(config.get("auto_open_promotion_review_for_selected")) and account_ids:
+        patch_queue_created += apply_auto_promotion_review_queue(queue_rows, account_ids)
     from_level = args.from_level or str(config.get("from_level") or "")
     target_level = args.target_level or str(config.get("promote_target_level") or config.get("target_level") or "")
     track = args.track or str(config.get("track") or "")
@@ -195,13 +416,29 @@ def main() -> int:
             limit=limit,
         )
     )
-    if enrich_results:
+    apply_guardrails = bool(config.get("apply_enrich_guardrails", True))
+    if enrich_results and apply_guardrails:
         apply_enrich_guardrails(payload, enrich_results)
         payload["enrich_summary"] = {
             "result_count": len(enrich_results),
             "ready_for_promote": sum(1 for item in enrich_results if item.get("enrich_ready_for_promote")),
             "observation": sum(1 for item in enrich_results if item.get("candidate_type") == "observation"),
         }
+    elif enrich_results:
+        payload["enrich_summary"] = {
+            "result_count": len(enrich_results),
+            "ready_for_promote": sum(1 for item in enrich_results if item.get("enrich_ready_for_promote")),
+            "observation": sum(1 for item in enrich_results if item.get("candidate_type") == "observation"),
+            "guardrails_applied": False,
+        }
+    payload["patch_summary"] = {
+        "fact_patch_file": str(config.get("fact_patch_file") or ""),
+        "queue_patch_file": str(config.get("queue_patch_file") or ""),
+        "profile_updates": patch_profile_updates,
+        "evidence_rows_added": patch_evidence_added,
+        "queue_rows_added": patch_queue_created,
+        "main_coverage": main_coverage,
+    }
     if (args.write_back or bool(config.get("write_back"))) and not args.report_only:
         payload["write_back"] = write_back_promotion_results(
             payload["results"],

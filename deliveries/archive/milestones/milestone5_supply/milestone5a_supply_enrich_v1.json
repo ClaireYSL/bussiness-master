@@ -1,0 +1,1225 @@
+{
+  "batch_id": "milestone5a_supply_enrich_v1",
+  "goal": "Milestone 5A：L5到L4供给补齐 enrich",
+  "rectification_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_rectification_package_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_70mai",
+      "acc_boci",
+      "acc_boshi",
+      "acc_impulse",
+      "acc_jeep_bike",
+      "acc_jiayi",
+      "acc_l5_000007",
+      "acc_l5_000829",
+      "acc_l5_002416",
+      "acc_l5_300022",
+      "acc_l5_300622",
+      "acc_nongfuspring",
+      "acc_petstar",
+      "acc_sunsbike"
+    ],
+    "track": "",
+    "from_level": "L5"
+  },
+  "summary": {
+    "result_count": 7,
+    "ready_for_promote": 0,
+    "observation": 7
+  },
+  "results": [
+    {
+      "account_id": "acc_70mai",
+      "account_canonical_name": "深圳市七十迈数字科技有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1",
+        "ka_case_smallrig_outbound_v1",
+        "ka_insight_cbec_abm_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_profit_governance_cbec_v1"
+      ],
+      "minimum_fact_status": "fail",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        },
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_abm_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商 ABM 物料与 ICP 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明跨境电商已经不是“研究阶段”，而是已具备 ABM 物料、Top 案例和相对明确的 ICP。"
+        },
+        {
+          "asset_id": "ka_talktrack_profit_governance_cbec_v1",
+          "asset_type": "sales_narrative",
+          "title": "跨境平台化经营治理与利润改善话术",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "乐其 SmallRig 的案例说明，跨境企业在从增量扩张走向存量博弈后，真正需要的不是再多铺几个平台，而是把利润、供应链、销售和售后放到同一套经营治理框架里。它适合用来解释平台化运营出海、品牌出海客户为什么会被“利润改善 + 平台治理 + 全域经营分析”这套话术打动。"
+        }
+      ],
+      "issues": [
+        {
+          "code": "placeholder_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 仍是占位值。"
+        },
+        {
+          "code": "placeholder_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 仍是占位值。"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "深圳市七十迈数字科技有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "account_canonical_name": "全新好",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_xianfeng_retail_v1",
+        "ka_solution_hq_visibility_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_solution_hq_visibility_retail_v1",
+          "asset_type": "solution_playbook",
+          "title": "零售总部经营穿透打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "将总部经营透视、区域差异复盘和统一经营口径收敛成零售通用打法。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "全新好 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "account_canonical_name": "天音控股",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_xianfeng_retail_v1",
+        "ka_solution_hq_visibility_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_solution_hq_visibility_retail_v1",
+          "asset_type": "solution_playbook",
+          "title": "零售总部经营穿透打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "将总部经营透视、区域差异复盘和统一经营口径收敛成零售通用打法。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "天音控股 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "account_canonical_name": "爱施德",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_xianfeng_retail_v1",
+        "ka_solution_hq_visibility_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_solution_hq_visibility_retail_v1",
+          "asset_type": "solution_playbook",
+          "title": "零售总部经营穿透打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "将总部经营透视、区域差异复盘和统一经营口径收敛成零售通用打法。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "爱施德 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "account_canonical_name": "吉峰科技",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_xianfeng_retail_v1",
+        "ka_solution_hq_visibility_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_solution_hq_visibility_retail_v1",
+          "asset_type": "solution_playbook",
+          "title": "零售总部经营穿透打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "将总部经营透视、区域差异复盘和统一经营口径收敛成零售通用打法。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "吉峰科技 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "account_canonical_name": "博士眼镜",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_xianfeng_retail_v1",
+        "ka_solution_hq_visibility_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "待确认官网/年报/IR中的主营产品、商业模式与关键证据。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_solution_hq_visibility_retail_v1",
+          "asset_type": "solution_playbook",
+          "title": "零售总部经营穿透打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "将总部经营透视、区域差异复盘和统一经营口径收敛成零售通用打法。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "博士眼镜 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "account_canonical_name": "三柏硕健康科技股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1",
+        "ka_case_smallrig_outbound_v1",
+        "ka_insight_cbec_abm_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_profit_governance_cbec_v1"
+      ],
+      "minimum_fact_status": "fail",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "boundary_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        },
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_abm_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商 ABM 物料与 ICP 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明跨境电商已经不是“研究阶段”，而是已具备 ABM 物料、Top 案例和相对明确的 ICP。"
+        },
+        {
+          "asset_id": "ka_talktrack_profit_governance_cbec_v1",
+          "asset_type": "sales_narrative",
+          "title": "跨境平台化经营治理与利润改善话术",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "乐其 SmallRig 的案例说明，跨境企业在从增量扩张走向存量博弈后，真正需要的不是再多铺几个平台，而是把利润、供应链、销售和售后放到同一套经营治理框架里。它适合用来解释平台化运营出海、品牌出海客户为什么会被“利润改善 + 平台治理 + 全域经营分析”这套话术打动。"
+        }
+      ],
+      "issues": [
+        {
+          "code": "placeholder_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 仍是占位值。"
+        },
+        {
+          "code": "placeholder_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 仍是占位值。"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "三柏硕健康科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=False。"
+    }
+  ],
+  "write_back": {
+    "backups": {
+      "profile": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.enrich_backup_20260416_001925.xlsx",
+      "main": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.enrich_backup_20260416_001925.xlsx",
+      "main_shared": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260416_001925.xlsx",
+      "governance": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.enrich_backup_20260416_001925.xlsx"
+    },
+    "profile_updates": 7,
+    "main_updates": 7,
+    "main_shared_updates": 7,
+    "queue_items_created": 2,
+    "evidence_items_created": 0
+  }
+}

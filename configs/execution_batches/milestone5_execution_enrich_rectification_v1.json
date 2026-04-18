@@ -1,0 +1,139 @@
+{
+  "batch_id": "milestone5_execution_enrich_rectification_v1",
+  "goal": "Milestone 5B.2：7家enrich_not_ready收敛补丁",
+  "results": [
+    {
+      "account_id": "acc_70mai",
+      "rectification": {
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "智能车载与消费电子产品的跨境品牌经营。",
+          "商业模式概述": "以多平台跨境销售与品牌化运营协同推进海外经营。",
+          "admission_reason_summary": "跨境品牌经营特征成立，经营链路可直接进入L4补齐。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营颗粒度与平台结构细表。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "rectification": {
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "运动器械与相关消费产品跨境经营。",
+          "商业模式概述": "以产品开发和跨境渠道销售协同为核心的海外经营模式。",
+          "admission_reason_summary": "跨境消费产品与渠道协同链路明确，具备补证价值。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营颗粒度与平台结构细表。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "rectification": {
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "眼镜零售及相关消费服务经营。",
+          "商业模式概述": "以线下门店与会员运营协同为核心的零售服务模式。",
+          "admission_reason_summary": "多门店零售属性明确，具备持续上移补证价值。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营和门店网络细表。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "rectification": {
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "消费电子与渠道服务相关产品经营，覆盖品牌运营和终端渠道场景。",
+          "商业模式概述": "以品牌运营和渠道网络协同驱动的消费业务经营模式。",
+          "admission_reason_summary": "消费业务与渠道网络并存，经营链路已具备进入L4补齐条件。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营和渠道结构细表。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "rectification": {
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "消费电子与渠道零售相关产品经营。",
+          "商业模式概述": "以渠道分销与零售运营协同为核心的消费品经营模式。",
+          "admission_reason_summary": "渠道与零售协同属性明显，具备经营复盘潜力。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营和渠道结构细表。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "rectification": {
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "农业与消费流通相关产品及服务经营。",
+          "商业模式概述": "以产品经营与渠道网络协同推进的零售服务模式。",
+          "admission_reason_summary": "具备区域经营与渠道协同特征，后续可继续补证。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营和渠道结构细表。"
+        },
+        "risk_flags": []
+      }
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "rectification": {
+        "suggested_primary_persona": "retail_multi_store",
+        "suggested_secondary_persona_tags": [],
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "required_queue_type": "verification",
+        "suggested_maturity": "L4",
+        "rectification_action": "补齐最小事实并从 observation 收敛为 formal_candidate。",
+        "rewrite_suggestion": {
+          "公司产品与服务概述": "零售与消费相关业务经营，覆盖线下与渠道协同场景。",
+          "商业模式概述": "以渠道经营和消费业务协同推进的品牌零售经营模式。",
+          "admission_reason_summary": "消费零售经营主体属性成立，具备持续补证价值。",
+          "validation_gap": "已完成最小事实补齐；后续补区域经营和渠道结构细表。"
+        },
+        "risk_flags": []
+      }
+    }
+  ]
+}

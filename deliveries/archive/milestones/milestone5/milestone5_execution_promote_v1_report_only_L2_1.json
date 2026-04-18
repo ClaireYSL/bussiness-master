@@ -1,0 +1,46 @@
+{
+  "batch_id": "milestone5_execution_promote_v1",
+  "goal": "Milestone 5：24家样本 promote 批次",
+  "from_level": "L3",
+  "target_level": "L2",
+  "track": "",
+  "write_back": {
+    "enabled": false
+  },
+  "enrich_result_file": "deliveries/archive/milestones/milestone5/milestone5_execution_enrich_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_junsheng",
+      "acc_zhonglian",
+      "acc_cn_300592",
+      "acc_klg",
+      "acc_ays",
+      "acc_chabaidao"
+    ],
+    "limit": 20
+  },
+  "batch_summary": {
+    "allow": 0,
+    "warn": 0,
+    "block": 0
+  },
+  "results": [],
+  "enrich_summary": {
+    "result_count": 24,
+    "ready_for_promote": 24,
+    "observation": 0
+  },
+  "patch_summary": {
+    "fact_patch_file": "configs/execution_batches/milestone5_execution_facts_v1.json",
+    "queue_patch_file": "",
+    "profile_updates": 2,
+    "evidence_rows_added": 2,
+    "queue_rows_added": 6,
+    "main_coverage": {
+      "requested": 6,
+      "existing": 6,
+      "added_from_shared": 0,
+      "still_missing": 0
+    }
+  }
+}

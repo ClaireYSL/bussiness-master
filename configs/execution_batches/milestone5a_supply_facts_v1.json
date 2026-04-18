@@ -1,0 +1,404 @@
+{
+  "batch_id": "milestone5a_supply_facts_v1",
+  "accounts": [
+    {
+      "account_id": "acc_nongfuspring",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补渠道结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "包装饮用水与饮料产品经营，覆盖多品类消费场景。",
+        "商业模式概述": "以品牌产品研发与全国渠道分销协同为核心的消费品经营模式。",
+        "admission_reason_summary": "品牌消费品经营属性明确，具备跨区域经营复盘价值。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_nongfuspring_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补渠道结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "零售与消费相关业务经营，覆盖线下与渠道协同场景。",
+        "商业模式概述": "以渠道经营和消费业务协同推进的品牌零售经营模式。",
+        "admission_reason_summary": "消费零售经营主体属性成立，具备持续补证价值。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_l5_000007_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补渠道结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "消费电子与渠道零售相关产品经营。",
+        "商业模式概述": "以渠道分销与零售运营协同为核心的消费品经营模式。",
+        "admission_reason_summary": "渠道与零售协同属性明显，具备经营复盘潜力。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_l5_000829_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补渠道结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "消费电子与渠道服务相关产品经营，覆盖品牌运营和终端渠道场景。",
+        "商业模式概述": "以品牌运营和渠道网络协同驱动的消费业务经营模式。",
+        "admission_reason_summary": "消费业务与渠道网络并存，经营链路已具备进入L4补齐条件。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_l5_002416_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补渠道结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "农业与消费流通相关产品及服务经营。",
+        "商业模式概述": "以产品经营与渠道网络协同推进的零售服务模式。",
+        "admission_reason_summary": "具备区域经营与渠道协同特征，后续可继续补证。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_l5_300022_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补渠道结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "眼镜零售及相关消费服务经营。",
+        "商业模式概述": "以线下门店与会员运营协同为核心的零售服务模式。",
+        "admission_reason_summary": "多门店零售属性明确，具备持续上移补证价值。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_l5_300622_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_70mai",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补平台结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "智能车载与消费电子产品的跨境品牌经营。",
+        "商业模式概述": "以多平台跨境销售与品牌化运营协同推进海外经营。",
+        "admission_reason_summary": "跨境品牌经营特征成立，经营链路可直接进入L4补齐。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_70mai_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_impulse",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补平台结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "运动健康产品及相关跨境渠道经营。",
+        "商业模式概述": "以产品研发与多渠道跨境销售协同驱动品牌经营。",
+        "admission_reason_summary": "跨境渠道与品牌运营链路明确，可进入后续补证。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_impulse_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补平台结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "骑行相关产品及跨境渠道经营。",
+        "商业模式概述": "以产品供给与海外渠道销售协同推进跨境经营。",
+        "admission_reason_summary": "产品与跨境渠道协同特征明确，具备上移补证基础。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_jeep_bike_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_jiayi",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补平台结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "保温杯壶等消费品的跨境品牌经营。",
+        "商业模式概述": "以产品开发和多平台跨境销售协同驱动海外经营。",
+        "admission_reason_summary": "跨境消费品经营特征成立，适合进入L4补齐链路。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_jiayi_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_petstar",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补平台结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "宠物用品及相关跨境消费产品经营。",
+        "商业模式概述": "以产品供应与跨境电商渠道协同推进海外销售。",
+        "admission_reason_summary": "宠物消费与跨境渠道属性成立，可作为补齐候选。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_petstar_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补平台结构与区域经营颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "运动器械与相关消费产品跨境经营。",
+        "商业模式概述": "以产品开发和跨境渠道销售协同为核心的海外经营模式。",
+        "admission_reason_summary": "跨境消费产品与渠道协同链路明确，具备补证价值。",
+        "review_status": "active"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_sunsbike_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_boci",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补多基地与业务条线颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "工业自动化控制与制造软件相关产品经营。",
+        "商业模式概述": "以工业控制产品与解决方案交付协同推进制造业客户经营。",
+        "admission_reason_summary": "制造业解决方案属性明确，适合进入L4供给补齐。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_boci_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_boshi",
+      "primary_source_types": "official_disclosure",
+      "primary_source_refs": "https://www.cninfo.com.cn/",
+      "official_source_count": 1,
+      "high_confidence_source_count": 1,
+      "profile_fields": {
+        "validation_gap": "已补基础产品与商业模式字段；后续补多基地与业务条线颗粒度。"
+      },
+      "main_fields": {
+        "公司产品与服务概述": "自动化装备与智能制造解决方案经营。",
+        "商业模式概述": "以装备研发制造与项目型交付协同推进制造客户服务。",
+        "admission_reason_summary": "制造装备与解决方案交付特征明确，可进入后续上移链路。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m5a_acc_boshi_fact_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "基础事实补齐",
+          "field_value": "产品与商业模式字段已补齐。",
+          "source_locator": "https://www.cninfo.com.cn/",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "minimum_fact",
+          "summary": "Milestone 5A：基础事实字段补齐。"
+        }
+      ]
+    }
+  ]
+}

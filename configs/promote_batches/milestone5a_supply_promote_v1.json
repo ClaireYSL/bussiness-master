@@ -1,0 +1,14 @@
+{
+  "batch_id": "milestone5a_supply_promote_v1",
+  "goal": "Milestone 5A：L5到L4供给补齐 promote",
+  "account_ids": [],
+  "from_level": "L5",
+  "target_level": "L4",
+  "fact_patch_file": "configs/execution_batches/milestone5a_supply_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone5a_supply_queue_v1.json",
+  "apply_enrich_guardrails": false,
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 5A-L5到L4供给补齐-promote复盘-v1.md"
+}

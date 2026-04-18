@@ -1,0 +1,241 @@
+{
+  "batch_id": "milestone5a_supply_batch_v1",
+  "goal": "Milestone 5A：补齐L4供给（14家）",
+  "selection": {
+    "account_ids": [
+      "acc_nongfuspring",
+      "acc_l5_000007",
+      "acc_l5_000829",
+      "acc_l5_002416",
+      "acc_l5_300022",
+      "acc_l5_300622",
+      "acc_70mai",
+      "acc_impulse",
+      "acc_jeep_bike",
+      "acc_jiayi",
+      "acc_petstar",
+      "acc_sunsbike",
+      "acc_boci",
+      "acc_boshi"
+    ],
+    "limit": 14
+  },
+  "enrich_result_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_enrich_v1.json",
+  "result_count": 7,
+  "batch_summary": {
+    "allow": 7,
+    "warn": 0,
+    "block": 0
+  },
+  "results": [
+    {
+      "account_id": "acc_70mai",
+      "account_canonical_name": "深圳市七十迈数字科技有限公司",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1,ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1",
+      "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1",
+      "promotion_gate": {
+        "account_id": "acc_70mai",
+        "decision": "allow",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "account_canonical_name": "三柏硕健康科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1,ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1",
+      "talk_track_refs": "ka_talktrack_profit_governance_cbec_v1",
+      "promotion_gate": {
+        "account_id": "acc_sunsbike",
+        "decision": "allow",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "account_canonical_name": "博士眼镜",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_l5_300622",
+        "decision": "allow",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "account_canonical_name": "爱施德",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_l5_002416",
+        "decision": "allow",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "account_canonical_name": "天音控股",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_l5_000829",
+        "decision": "allow",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "account_canonical_name": "吉峰科技",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_l5_300022",
+        "decision": "allow",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "account_canonical_name": "全新好",
+      "from_level": "L5",
+      "target_level": "L4",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_xianfeng_retail_v1,ka_solution_hq_visibility_retail_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_l5_000007",
+        "decision": "allow",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [],
+        "suggested_review_status": "active",
+        "suggested_queue_type": "promotion_review",
+        "summary": "关键判断点已收敛，可作为本轮建议推进对象。"
+      }
+    }
+  ],
+  "write_back": {
+    "enabled": true,
+    "promoted": 7,
+    "skipped": 0,
+    "profile_updates": 7,
+    "main_updates": 7,
+    "main_shared_updates": 7,
+    "coverage_updates": 7,
+    "evidence_created": 7,
+    "promotion_review_resolved": 0,
+    "samples": [
+      {
+        "account_id": "acc_70mai",
+        "account_canonical_name": "深圳市七十迈数字科技有限公司",
+        "from_level": "L5",
+        "target_level": "L4"
+      },
+      {
+        "account_id": "acc_sunsbike",
+        "account_canonical_name": "三柏硕健康科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L4"
+      },
+      {
+        "account_id": "acc_l5_300622",
+        "account_canonical_name": "博士眼镜",
+        "from_level": "L5",
+        "target_level": "L4"
+      },
+      {
+        "account_id": "acc_l5_002416",
+        "account_canonical_name": "爱施德",
+        "from_level": "L5",
+        "target_level": "L4"
+      },
+      {
+        "account_id": "acc_l5_000829",
+        "account_canonical_name": "天音控股",
+        "from_level": "L5",
+        "target_level": "L4"
+      },
+      {
+        "account_id": "acc_l5_300022",
+        "account_canonical_name": "吉峰科技",
+        "from_level": "L5",
+        "target_level": "L4"
+      },
+      {
+        "account_id": "acc_l5_000007",
+        "account_canonical_name": "全新好",
+        "from_level": "L5",
+        "target_level": "L4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "batch_id": "milestone5a_supply_batch_v1",
+  "goal": "Milestone 5A：补齐L4供给（14家）",
+  "phase": "report_only",
+  "generated_at": "2026-04-15T16:18:36.456757+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_70mai",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_boci",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_boshi",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_impulse",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_000007",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_000829",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_002416",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_300022",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_l5_300622",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_nongfuspring",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_petstar",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "target_level": "L4"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_run_summary_v1.json"
+}
