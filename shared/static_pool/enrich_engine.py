@@ -8,17 +8,17 @@ from openpyxl import load_workbook
 
 from .constants import LEGACY_PERSONA_TAG_MAP, STANDARD_PERSONA_IDS
 from .models import EnrichResult, KnowledgeMatch, ValidationIssue
+from .pathing import resolve_static_pool_paths
 from .promote_engine import attach_account_ids, load_main_rows, load_sheet_rows
 from .validators import classify_l5_candidate, evaluate_minimum_fact_set, normalize_persona_tag, normalize_secondary_persona_tags
 
-ROOT = Path("/Users/clairaipartner")
-VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
-MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
-MAIN_SHARED_XLSX = VAULT / "内部运营-静态潜客池-共享版.xlsx"
-PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
-GOV_XLSX = VAULT / "治理与证据.xlsx"
-TRACK_PERSONA_XLSX = VAULT / "主线与画像注册表.xlsx"
-KNOWLEDGE_XLSX = VAULT / "知识资产注册表.xlsx"
+POOL_PATHS = resolve_static_pool_paths()
+MAIN_XLSX = POOL_PATHS["main"]
+MAIN_SHARED_XLSX = POOL_PATHS["main_shared"]
+PROFILE_XLSX = POOL_PATHS["profile"]
+GOV_XLSX = POOL_PATHS["governance"]
+TRACK_PERSONA_XLSX = POOL_PATHS["track_persona"]
+KNOWLEDGE_XLSX = POOL_PATHS["knowledge_registry"]
 
 TRACK_ID_TO_NAME = {
     "retail_consumer": "零售消费",

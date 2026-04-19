@@ -11,7 +11,6 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 WORKSPACE = Path(__file__).resolve().parents[1]
-ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
@@ -23,13 +22,14 @@ from shared.static_pool import (
     workbook_write_lock,
     check_workbook_integrity,
     WorkbookLockError,
+    resolve_static_pool_paths,
 )
 
-VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
-PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
-MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
-MAIN_SHARED_XLSX = VAULT / "内部运营-静态潜客池-共享版.xlsx"
-GOV_XLSX = VAULT / "治理与证据.xlsx"
+POOL_PATHS = resolve_static_pool_paths()
+PROFILE_XLSX = POOL_PATHS["profile"]
+MAIN_XLSX = POOL_PATHS["main"]
+MAIN_SHARED_XLSX = POOL_PATHS["main_shared"]
+GOV_XLSX = POOL_PATHS["governance"]
 DEFAULT_RECTIFICATION = WORKSPACE / "deliveries/phase1_rectification_package_v1.json"
 
 

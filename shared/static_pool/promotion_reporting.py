@@ -1,15 +1,16 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 from typing import Any
 
 from openpyxl import load_workbook
 
-VAULT = Path.home() / "Documents/Obsidian-Codex/潜客池"
-PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
-MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
-GOV_XLSX = VAULT / "治理与证据.xlsx"
+from .pathing import resolve_static_pool_paths
+
+POOL_PATHS = resolve_static_pool_paths()
+PROFILE_XLSX = POOL_PATHS["profile"]
+MAIN_XLSX = POOL_PATHS["main"]
+GOV_XLSX = POOL_PATHS["governance"]
 
 
 def _clean(value: object) -> str:

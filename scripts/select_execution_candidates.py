@@ -13,7 +13,13 @@ WORKSPACE = Path(__file__).resolve().parents[1]
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
-from shared.static_pool import attach_account_ids, evaluate_promotion_batch, load_main_rows, load_sheet_rows
+from shared.static_pool import (
+    attach_account_ids,
+    evaluate_promotion_batch,
+    load_main_rows,
+    load_sheet_rows,
+    resolve_static_pool_paths,
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -82,13 +88,13 @@ def _pick_group(
 
 
 def _default_source_paths() -> dict[str, str]:
-    vault = Path.home() / "Documents/Obsidian-Codex/潜客池"
+    pool = resolve_static_pool_paths()
     return {
-        "main_file": str(vault / "静态潜客主表.xlsx"),
+        "main_file": str(pool["main"]),
         "main_sheet": "accounts_main",
-        "profile_file": str(vault / "潜客档案库.xlsx"),
+        "profile_file": str(pool["profile"]),
         "profile_sheet": "account_profiles",
-        "governance_file": str(vault / "治理与证据.xlsx"),
+        "governance_file": str(pool["governance"]),
         "queue_sheet": "review_queue",
         "evidence_sheet": "evidence_log",
     }

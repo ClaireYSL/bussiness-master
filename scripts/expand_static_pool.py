@@ -9,14 +9,14 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 WORKSPACE = Path(__file__).resolve().parents[1]
-ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
 from scripts.expand_l5_consumer_personas_20260331 import run_expand_provider
+from shared.static_pool import resolve_static_pool_paths
 
-VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
-TRACK_PERSONA_XLSX = VAULT / "主线与画像注册表.xlsx"
+POOL_PATHS = resolve_static_pool_paths()
+TRACK_PERSONA_XLSX = POOL_PATHS["track_persona"]
 RETAIL_PROVIDER = WORKSPACE / "scripts/expand_l5_consumer_personas_20260331.py"
 
 SUPPORTED_PERSONA_PROVIDERS = {

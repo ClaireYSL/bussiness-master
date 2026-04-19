@@ -7,7 +7,6 @@ import tempfile
 from pathlib import Path
 
 WORKSPACE = Path(__file__).resolve().parents[1]
-ROOT = Path.home()
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
@@ -19,14 +18,15 @@ from shared.static_pool import (
     load_sheet_rows,
     render_promote_review_markdown,
     WorkbookLockError,
+    resolve_static_pool_paths,
 )
 from shared.static_pool import write_back_promotion_results
 
-VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
-MAIN_XLSX = VAULT / "静态潜客主表.xlsx"
-MAIN_SHARED_XLSX = VAULT / "内部运营-静态潜客池-共享版.xlsx"
-PROFILE_XLSX = VAULT / "潜客档案库.xlsx"
-GOV_XLSX = VAULT / "治理与证据.xlsx"
+POOL_PATHS = resolve_static_pool_paths()
+MAIN_XLSX = POOL_PATHS["main"]
+MAIN_SHARED_XLSX = POOL_PATHS["main_shared"]
+PROFILE_XLSX = POOL_PATHS["profile"]
+GOV_XLSX = POOL_PATHS["governance"]
 
 
 def build_parser() -> argparse.ArgumentParser:

@@ -17,13 +17,13 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from shared.static_pool import classify_l5_candidate, render_validation_summary
+from shared.static_pool import classify_l5_candidate, render_validation_summary, resolve_static_pool_paths
 
 
 TODAY = "2026-03-31"
 TARGET_NEW_L5 = 220
 
-POOL_DIR = Path("/Users/clairaipartner/Documents/Obsidian-Codex/潜客池")
+POOL_DIR = resolve_static_pool_paths()["root"]
 MAIN_WB = POOL_DIR / "静态潜客主表.xlsx"
 MAIN_SHARED_WB = POOL_DIR / "内部运营-静态潜客池-共享版.xlsx"
 PROFILE_WB = POOL_DIR / "潜客档案库.xlsx"

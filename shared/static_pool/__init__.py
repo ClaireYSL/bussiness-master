@@ -66,6 +66,7 @@ from .validators import (
     should_allow_frozen_text_as_input,
 )
 from .workbook_guard import check_workbook_integrity, workbook_write_lock, WorkbookLockError
+from .pathing import get_static_pool_root, resolve_static_pool_paths
 
 __all__ = [
     "CandidateRecord",
@@ -128,4 +129,6 @@ __all__ = [
     "check_workbook_integrity",
     "workbook_write_lock",
     "WorkbookLockError",
+    "get_static_pool_root",
+    "resolve_static_pool_paths",
 ]
