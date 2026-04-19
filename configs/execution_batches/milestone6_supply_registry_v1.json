@@ -1,0 +1,69 @@
+{
+  "milestone_id": "milestone6_supply",
+  "batch_id": "milestone6_supply_batch_v1",
+  "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）",
+  "timebox": {
+    "plan": "双阶段执行",
+    "phase_a": "report_only 验证",
+    "phase_b": "write_back 写回"
+  },
+  "accounts": [],
+  "track_mix": {
+    "tracks": [
+      "零售消费",
+      "跨境电商",
+      "先进制造"
+    ],
+    "per_track_total": 2
+  },
+  "promotion_mix": {
+    "routes": [
+      {
+        "from_level": "L5",
+        "target_level": "L4",
+        "per_track": 2
+      }
+    ]
+  },
+  "mode_policy": {
+    "default_phase": "both",
+    "require_report_baseline": true,
+    "write_back_after_report_only": true
+  },
+  "artifacts": {
+    "candidate_file": "configs/execution_batches/milestone6_supply_candidates_v1.json",
+    "enrich_result_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_promote_v1.json",
+    "promote_summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_summary_v1.json",
+    "run_summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_run_summary_v1.json",
+    "run_review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-复盘-v1.md"
+  },
+  "candidate_file": "configs/execution_batches/milestone6_supply_candidates_v1.json",
+  "source_paths": {
+    "main_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+    "main_sheet": "accounts_main",
+    "profile_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+    "profile_sheet": "account_profiles",
+    "governance_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+    "queue_sheet": "review_queue",
+    "evidence_sheet": "evidence_log"
+  },
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone6_supply_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone6_supply_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-promote复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_report_baseline_v1.json"
+  }
+}

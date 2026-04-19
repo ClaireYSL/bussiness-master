@@ -7,6 +7,8 @@ from typing import Any
 
 from openpyxl import load_workbook
 
+from .workbook_guard import check_workbook_integrity, workbook_write_lock
+
 
 def append_semicolon_note(existing: object, addition: str) -> str:
     current = str(existing or "").strip().strip("；")
@@ -203,167 +205,174 @@ def write_back_promotion_results(
     main_xlsx: Path,
     main_shared_xlsx: Path,
     gov_xlsx: Path,
+    lock_timeout_seconds: float = 0.0,
 ) -> dict[str, object]:
-    backups = {
-        "profile": backup_once(profile_xlsx, "promote_backup"),
-        "main": backup_once(main_xlsx, "promote_backup"),
-        "main_shared": backup_once(main_shared_xlsx, "promote_backup"),
-        "governance": backup_once(gov_xlsx, "promote_backup"),
-    }
+    with workbook_write_lock(timeout_seconds=lock_timeout_seconds) as lock_meta:
+        backups = {
+            "profile": backup_once(profile_xlsx, "promote_backup"),
+            "main": backup_once(main_xlsx, "promote_backup"),
+            "main_shared": backup_once(main_shared_xlsx, "promote_backup"),
+            "governance": backup_once(gov_xlsx, "promote_backup"),
+        }
 
-    profile_wb = load_workbook(profile_xlsx)
-    profile_ws = profile_wb["account_profiles"]
-    coverage_ws = profile_wb["profile_coverage"]
-    profile_headers, profile_rows = build_row_index(profile_ws, "account_id")
-    coverage_headers, coverage_rows = build_row_index(coverage_ws, "account_id")
+        profile_wb = load_workbook(profile_xlsx)
+        profile_ws = profile_wb["account_profiles"]
+        coverage_ws = profile_wb["profile_coverage"]
+        profile_headers, profile_rows = build_row_index(profile_ws, "account_id")
+        coverage_headers, coverage_rows = build_row_index(coverage_ws, "account_id")
 
-    main_wb = load_workbook(main_xlsx)
-    main_ws = main_wb["accounts_main"]
-    main_headers, main_rows = build_row_index(main_ws, "account_canonical_name")
+        main_wb = load_workbook(main_xlsx)
+        main_ws = main_wb["accounts_main"]
+        main_headers, main_rows = build_row_index(main_ws, "account_canonical_name")
 
-    shared_wb = load_workbook(main_shared_xlsx)
-    shared_ws = shared_wb["全量主表"]
-    shared_headers, shared_rows = build_row_index(shared_ws, "公司主体")
+        shared_wb = load_workbook(main_shared_xlsx)
+        shared_ws = shared_wb["全量主表"]
+        shared_headers, shared_rows = build_row_index(shared_ws, "公司主体")
 
-    gov_wb = load_workbook(gov_xlsx)
-    queue_ws = gov_wb["review_queue"]
-    evidence_ws = gov_wb["evidence_log"]
-    queue_headers = build_header_index(queue_ws)
-    evidence_headers = build_header_index(evidence_ws)
+        gov_wb = load_workbook(gov_xlsx)
+        queue_ws = gov_wb["review_queue"]
+        evidence_ws = gov_wb["evidence_log"]
+        queue_headers = build_header_index(queue_ws)
+        evidence_headers = build_header_index(evidence_ws)
 
-    promoted = 0
-    skipped = 0
-    queue_resolved = 0
-    evidence_created = 0
-    profile_updates = 0
-    main_updates = 0
-    shared_updates = 0
-    coverage_updates = 0
-    samples: list[dict[str, object]] = []
-    today = datetime.now().strftime("%Y-%m-%d")
+        promoted = 0
+        skipped = 0
+        queue_resolved = 0
+        evidence_created = 0
+        profile_updates = 0
+        main_updates = 0
+        shared_updates = 0
+        coverage_updates = 0
+        samples: list[dict[str, object]] = []
+        today = datetime.now().strftime("%Y-%m-%d")
 
-    for item in results:
-        gate = item.get("promotion_gate") or {}
-        decision = str(gate.get("decision") or "").strip()
-        account_id = str(item.get("account_id") or "").strip()
-        account_name = str(item.get("account_canonical_name") or "").strip()
-        target_level = str(item.get("target_level") or "").strip()
-        if decision != "allow" or not account_id or not account_name or not target_level:
-            skipped += 1
-            continue
+        for item in results:
+            gate = item.get("promotion_gate") or {}
+            decision = str(gate.get("decision") or "").strip()
+            account_id = str(item.get("account_id") or "").strip()
+            account_name = str(item.get("account_canonical_name") or "").strip()
+            target_level = str(item.get("target_level") or "").strip()
+            if decision != "allow" or not account_id or not account_name or not target_level:
+                skipped += 1
+                continue
 
-        profile_row_num = profile_rows.get(account_id)
-        main_row_num = main_rows.get(account_name)
-        if profile_row_num is None or main_row_num is None:
-            skipped += 1
-            continue
+            profile_row_num = profile_rows.get(account_id)
+            main_row_num = main_rows.get(account_name)
+            if profile_row_num is None or main_row_num is None:
+                skipped += 1
+                continue
 
-        existing_profile_status = ""
-        if "profile_status" in profile_headers:
-            existing_profile_status = profile_ws.cell(profile_row_num, profile_headers["profile_status"]).value
-        profile_status = _profile_status_for_target(target_level, existing_profile_status)
-        profile_gap = _validation_gap_for_target(target_level, profile_ws.cell(profile_row_num, profile_headers["validation_gap"]).value)
-        main_gap_header = "validation_gap" if "validation_gap" in main_headers else "待验证项"
-        main_gap = _validation_gap_for_target(target_level, main_ws.cell(main_row_num, main_headers[main_gap_header]).value)
+            existing_profile_status = ""
+            if "profile_status" in profile_headers:
+                existing_profile_status = profile_ws.cell(profile_row_num, profile_headers["profile_status"]).value
+            profile_status = _profile_status_for_target(target_level, existing_profile_status)
+            profile_gap = _validation_gap_for_target(target_level, profile_ws.cell(profile_row_num, profile_headers["validation_gap"]).value)
+            main_gap_header = "validation_gap" if "validation_gap" in main_headers else "待验证项"
+            main_gap = _validation_gap_for_target(target_level, main_ws.cell(main_row_num, main_headers[main_gap_header]).value)
 
-        update_profile_promotion_core(
-            profile_ws,
-            profile_headers,
-            profile_row_num,
-            maturity_level=target_level,
-            profile_status=profile_status,
-            validation_gap=profile_gap,
-            last_profiled_at=today,
-        )
-        profile_updates += 1
-
-        update_main_promotion_core(
-            main_ws,
-            main_headers,
-            main_row_num,
-            maturity_level=target_level,
-            source_note_suffix=f"{today} {batch_id} 升层写回",
-            validation_gap=main_gap,
-        )
-        main_updates += 1
-
-        shared_row_num = shared_rows.get(account_name)
-        if shared_row_num is not None:
-            update_main_promotion_core(
-                shared_ws,
-                shared_headers,
-                shared_row_num,
+            update_profile_promotion_core(
+                profile_ws,
+                profile_headers,
+                profile_row_num,
                 maturity_level=target_level,
+                profile_status=profile_status,
+                validation_gap=profile_gap,
+                last_profiled_at=today,
+            )
+            profile_updates += 1
+
+            update_main_promotion_core(
+                main_ws,
+                main_headers,
+                main_row_num,
+                maturity_level=target_level,
+                source_note_suffix=f"{today} {batch_id} 升层写回",
                 validation_gap=main_gap,
             )
-            shared_updates += 1
+            main_updates += 1
 
-        coverage_row_num = coverage_rows.get(account_id)
-        if coverage_row_num is not None:
-            apply_row_updates(
-                coverage_ws,
-                coverage_headers,
-                coverage_row_num,
-                _coverage_updates_for_target(target_level),
+            shared_row_num = shared_rows.get(account_name)
+            if shared_row_num is not None:
+                update_main_promotion_core(
+                    shared_ws,
+                    shared_headers,
+                    shared_row_num,
+                    maturity_level=target_level,
+                    validation_gap=main_gap,
+                )
+                shared_updates += 1
+
+            coverage_row_num = coverage_rows.get(account_id)
+            if coverage_row_num is not None:
+                apply_row_updates(
+                    coverage_ws,
+                    coverage_headers,
+                    coverage_row_num,
+                    _coverage_updates_for_target(target_level),
+                )
+                coverage_updates += 1
+
+            evidence_id = f"ev_{account_id}_{batch_id}_{target_level}"
+            if ensure_evidence_row(
+                evidence_ws,
+                evidence_headers,
+                evidence_id,
+                {
+                    "evidence_id": evidence_id,
+                    "account_id": account_id,
+                    "evidence_type": "promotion_assessment",
+                    "source_locator": f"internal://promotion/{batch_id}",
+                    "evidence_strength": "A",
+                    "supports_dimension": "promotion_writeback",
+                    "summary": f"{account_name} 已在 {batch_id} 中完成升层写回，当前层级调整为 {target_level}。",
+                    "checked_by": "codex",
+                    "checked_at": today,
+                    "related_asset_ids": "",
+                    "field_name": "静态潜客记录成熟度",
+                    "field_value": target_level,
+                },
+            ):
+                evidence_created += 1
+
+            queue_resolved += resolve_open_queue_rows(
+                queue_ws,
+                queue_headers,
+                account_id=account_id,
+                queue_type="promotion_review",
+                resolved_at=today,
+                note_suffix=f"{today} 已完成升层写回，当前层级={target_level}。",
             )
-            coverage_updates += 1
 
-        evidence_id = f"ev_{account_id}_{batch_id}_{target_level}"
-        if ensure_evidence_row(
-            evidence_ws,
-            evidence_headers,
-            evidence_id,
-            {
-                "evidence_id": evidence_id,
-                "account_id": account_id,
-                "evidence_type": "promotion_assessment",
-                "source_locator": f"internal://promotion/{batch_id}",
-                "evidence_strength": "A",
-                "supports_dimension": "promotion_writeback",
-                "summary": f"{account_name} 已在 {batch_id} 中完成升层写回，当前层级调整为 {target_level}。",
-                "checked_by": "codex",
-                "checked_at": today,
-                "related_asset_ids": "",
-                "field_name": "静态潜客记录成熟度",
-                "field_value": target_level,
-            },
-        ):
-            evidence_created += 1
+            promoted += 1
+            samples.append(
+                {
+                    "account_id": account_id,
+                    "account_canonical_name": account_name,
+                    "from_level": item.get("from_level"),
+                    "target_level": target_level,
+                }
+            )
 
-        queue_resolved += resolve_open_queue_rows(
-            queue_ws,
-            queue_headers,
-            account_id=account_id,
-            queue_type="promotion_review",
-            resolved_at=today,
-            note_suffix=f"{today} 已完成升层写回，当前层级={target_level}。",
-        )
+        profile_wb.save(profile_xlsx)
+        main_wb.save(main_xlsx)
+        shared_wb.save(main_shared_xlsx)
+        gov_wb.save(gov_xlsx)
+        integrity = check_workbook_integrity([main_xlsx, profile_xlsx, gov_xlsx], deep_scan=True)
 
-        promoted += 1
-        samples.append(
-            {
-                "account_id": account_id,
-                "account_canonical_name": account_name,
-                "from_level": item.get("from_level"),
-                "target_level": target_level,
-            }
-        )
-
-    profile_wb.save(profile_xlsx)
-    main_wb.save(main_xlsx)
-    shared_wb.save(main_shared_xlsx)
-    gov_wb.save(gov_xlsx)
-
-    return {
-        "enabled": True,
-        "backups": backups,
-        "promoted": promoted,
-        "skipped": skipped,
-        "profile_updates": profile_updates,
-        "main_updates": main_updates,
-        "main_shared_updates": shared_updates,
-        "coverage_updates": coverage_updates,
-        "evidence_created": evidence_created,
-        "promotion_review_resolved": queue_resolved,
-        "samples": samples,
-    }
+        return {
+            "enabled": True,
+            "backups": backups,
+            "promoted": promoted,
+            "skipped": skipped,
+            "profile_updates": profile_updates,
+            "main_updates": main_updates,
+            "main_shared_updates": shared_updates,
+            "coverage_updates": coverage_updates,
+            "evidence_created": evidence_created,
+            "promotion_review_resolved": queue_resolved,
+            "samples": samples,
+            "workbook_lock_acquired": bool(lock_meta.get("acquired")),
+            "workbook_lock_wait_seconds": lock_meta.get("wait_seconds"),
+            "workbook_lock_path": lock_meta.get("lock_path"),
+            "workbook_integrity_check": integrity,
+        }

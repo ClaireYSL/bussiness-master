@@ -1,0 +1,1788 @@
+{
+  "batch_id": "milestone6_enrich_v1",
+  "goal": "Milestone 6：L3到L2主闭环（12家） enrich",
+  "rectification_file": "/Users/clairaipartner/Codex/bussiness-master/deliveries/phase1_rectification_package_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_eve",
+      "acc_liugong",
+      "acc_mingyang",
+      "acc_xcmg",
+      "acc_dji",
+      "acc_taotao",
+      "acc_ugreen",
+      "acc_zibuyu",
+      "acc_chubang",
+      "acc_jiajia",
+      "acc_mgstationery",
+      "acc_yuanzu"
+    ],
+    "track": "",
+    "from_level": ""
+  },
+  "summary": {
+    "result_count": 12,
+    "ready_for_promote": 10,
+    "observation": 2
+  },
+  "results": [
+    {
+      "account_id": "acc_chubang",
+      "account_canonical_name": "中炬高新技术实业（集团）股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L3",
+      "suggested_maturity": "L3",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_dazzle_member_lifecycle_v1",
+        "ka_case_fila_supply_chain_v1",
+        "ka_case_naturehall_ai_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_naturehall_gpt_v1",
+        "ka_narrative_sephora_distribution_v1",
+        "ka_talktrack_hq_visibility_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_dazzle_member_lifecycle_v1",
+          "asset_type": "customer_case",
+          "title": "地素时尚多品牌会员经营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了地素时尚在多品牌服饰集团背景下，如何通过对接数据中台、梳理业务分析体系和会员全生命周期模型，完成集团统一管理与零售、电商、会员多场景分析的案例。它适合补强鞋服时尚集团和多品牌零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_fila_supply_chain_v1",
+          "asset_type": "customer_case",
+          "title": "Fila 供应链协同案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 Fila 在服装和鞋配两个作战单元下，如何围绕设计、材料、成衣、财务等 7 大部门建立供应链协同和成本交付管控体系的案例。它适合补强时尚鞋服品牌在供应链和库存协同上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_case_naturehall_ai_v1",
+          "asset_type": "customer_case",
+          "title": "自然堂全渠道数字化创新与 AI 实践",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产支撑高 SKU 品牌消费品如何从全渠道数字化与 AI 实践切入，说明品牌消费品的商品、渠道、库存和智能洞察诉求具备稳定可复制性。"
+        },
+        {
+          "asset_id": "ka_narrative_naturehall_gpt_v1",
+          "asset_type": "sales_narrative",
+          "title": "自然堂问数GPT与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了自然堂将大语言模型与 BI 基座结合，通过问答式数据分析降低业务用数门槛、提升敏捷决策效率的叙事。它适合在已有 BI 基础的品牌消费品客户中，说明观远的下一步价值不只是报表，而是 AI+BI 的分析提效与组织升级。"
+        },
+        {
+          "asset_id": "ka_narrative_sephora_distribution_v1",
+          "asset_type": "sales_narrative",
+          "title": "丝芙兰新品分货与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了丝芙兰中国在新品快速迭代和全渠道需求多变背景下，用 AI+BI 做新品分货、提升响应速度与供应链效率的叙事。它适合用来解释高 SKU 美妆零售为什么会被“库存与供应链协同”以及“一线动作闭环”类诉求打动。"
+        },
+        {
+          "asset_id": "ka_talktrack_hq_visibility_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售总部经营穿透与管理闭环话术",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "博士眼镜的案例说明，零售总部真正要的不是更多报表，而是让高层、销售管理和中台团队围绕同一套经营事实快速看清业绩来源、门店差异和管理动作优先级。它适合在门店网络较大、总部需要穿透区域和门店经营质量的零售客户中，作为“先把经营看清，再去优化动作”的切入话术。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_product",
+          "severity": "warn",
+          "field_name": "公司产品与服务概述",
+          "message": "产品与服务字段仍偏模板句。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "中炬高新技术实业（集团）股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_dji",
+      "account_canonical_name": "深圳市大疆创新科技有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1",
+        "ka_case_smallrig_outbound_v1",
+        "ka_solution_cbec_profit_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_profit_governance_cbec_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        },
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_talktrack_profit_governance_cbec_v1",
+          "asset_type": "sales_narrative",
+          "title": "跨境平台化经营治理与利润改善话术",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "乐其 SmallRig 的案例说明，跨境企业在从增量扩张走向存量博弈后，真正需要的不是再多铺几个平台，而是把利润、供应链、销售和售后放到同一套经营治理框架里。它适合用来解释平台化运营出海、品牌出海客户为什么会被“利润改善 + 平台治理 + 全域经营分析”这套话术打动。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市大疆创新科技有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_eve",
+      "account_canonical_name": "惠州亿纬锂能股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_group_coordination_mfg_v1",
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_talktrack_group_coordination_mfg_v1",
+          "asset_type": "sales_narrative",
+          "title": "多工厂多产线集团协同话术",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "兆驰集团的案例说明，制造集团的核心痛点通常不是单个报表，而是如何把订单、计划、齐套、产线、品质和发货放到同一套分层看板和协同机制里。它适合用于解释多工厂、多事业部、离散制造企业为什么需要集团经营驾驶舱和跨部门协同分析。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "惠州亿纬锂能股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_jiajia",
+      "account_canonical_name": "家家悦集团股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_coco_fnb_v1",
+        "ka_case_xianfeng_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_coco_fnb_v1",
+          "asset_type": "customer_case",
+          "title": "COCO 茶饮连锁经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 COCO 都可在全球化门店网络和茶饮高频运营场景下，通过经营综合看板、商品分析、利润经营和供应链分析提升总部与区域经营能力的案例。它适合补强茶饮赛道的标准化运营和门店经营分析样本。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "家家悦集团股份有限公司 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_liugong",
+      "account_canonical_name": "广西柳工机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_group_coordination_mfg_v1",
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_talktrack_group_coordination_mfg_v1",
+          "asset_type": "sales_narrative",
+          "title": "多工厂多产线集团协同话术",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "兆驰集团的案例说明，制造集团的核心痛点通常不是单个报表，而是如何把订单、计划、齐套、产线、品质和发货放到同一套分层看板和协同机制里。它适合用于解释多工厂、多事业部、离散制造企业为什么需要集团经营驾驶舱和跨部门协同分析。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "广西柳工机械股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "account_canonical_name": "上海晨光文具股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L3",
+      "suggested_maturity": "L3",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_dazzle_member_lifecycle_v1",
+        "ka_case_fila_supply_chain_v1",
+        "ka_case_naturehall_ai_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_naturehall_gpt_v1",
+        "ka_narrative_sephora_distribution_v1",
+        "ka_talktrack_hq_visibility_retail_v1"
+      ],
+      "minimum_fact_status": "partial",
+      "official_source_status": "available",
+      "candidate_type": "observation",
+      "review_status": "pending_review",
+      "required_queue_type": "verification",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_dazzle_member_lifecycle_v1",
+          "asset_type": "customer_case",
+          "title": "地素时尚多品牌会员经营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了地素时尚在多品牌服饰集团背景下，如何通过对接数据中台、梳理业务分析体系和会员全生命周期模型，完成集团统一管理与零售、电商、会员多场景分析的案例。它适合补强鞋服时尚集团和多品牌零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_fila_supply_chain_v1",
+          "asset_type": "customer_case",
+          "title": "Fila 供应链协同案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 Fila 在服装和鞋配两个作战单元下，如何围绕设计、材料、成衣、财务等 7 大部门建立供应链协同和成本交付管控体系的案例。它适合补强时尚鞋服品牌在供应链和库存协同上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_case_naturehall_ai_v1",
+          "asset_type": "customer_case",
+          "title": "自然堂全渠道数字化创新与 AI 实践",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产支撑高 SKU 品牌消费品如何从全渠道数字化与 AI 实践切入，说明品牌消费品的商品、渠道、库存和智能洞察诉求具备稳定可复制性。"
+        },
+        {
+          "asset_id": "ka_narrative_naturehall_gpt_v1",
+          "asset_type": "sales_narrative",
+          "title": "自然堂问数GPT与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了自然堂将大语言模型与 BI 基座结合，通过问答式数据分析降低业务用数门槛、提升敏捷决策效率的叙事。它适合在已有 BI 基础的品牌消费品客户中，说明观远的下一步价值不只是报表，而是 AI+BI 的分析提效与组织升级。"
+        },
+        {
+          "asset_id": "ka_narrative_sephora_distribution_v1",
+          "asset_type": "sales_narrative",
+          "title": "丝芙兰新品分货与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了丝芙兰中国在新品快速迭代和全渠道需求多变背景下，用 AI+BI 做新品分货、提升响应速度与供应链效率的叙事。它适合用来解释高 SKU 美妆零售为什么会被“库存与供应链协同”以及“一线动作闭环”类诉求打动。"
+        },
+        {
+          "asset_id": "ka_talktrack_hq_visibility_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售总部经营穿透与管理闭环话术",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "博士眼镜的案例说明，零售总部真正要的不是更多报表，而是让高层、销售管理和中台团队围绕同一套经营事实快速看清业绩来源、门店差异和管理动作优先级。它适合在门店网络较大、总部需要穿透区域和门店经营质量的零售客户中，作为“先把经营看清，再去优化动作”的切入话术。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "generic_product",
+          "severity": "warn",
+          "field_name": "公司产品与服务概述",
+          "message": "产品与服务字段仍偏模板句。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": false,
+      "summary": "上海晨光文具股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=False。"
+    },
+    {
+      "account_id": "acc_mingyang",
+      "account_canonical_name": "明阳智慧能源集团股份公司",
+      "primary_track": "先进制造",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_group_coordination_mfg_v1",
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_talktrack_group_coordination_mfg_v1",
+          "asset_type": "sales_narrative",
+          "title": "多工厂多产线集团协同话术",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "兆驰集团的案例说明，制造集团的核心痛点通常不是单个报表，而是如何把订单、计划、齐套、产线、品质和发货放到同一套分层看板和协同机制里。它适合用于解释多工厂、多事业部、离散制造企业为什么需要集团经营驾驶舱和跨部门协同分析。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "明阳智慧能源集团股份公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_taotao",
+      "account_canonical_name": "涛涛车业股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1",
+        "ka_case_smallrig_outbound_v1",
+        "ka_solution_cbec_profit_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_profit_governance_cbec_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        },
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_talktrack_profit_governance_cbec_v1",
+          "asset_type": "sales_narrative",
+          "title": "跨境平台化经营治理与利润改善话术",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "乐其 SmallRig 的案例说明，跨境企业在从增量扩张走向存量博弈后，真正需要的不是再多铺几个平台，而是把利润、供应链、销售和售后放到同一套经营治理框架里。它适合用来解释平台化运营出海、品牌出海客户为什么会被“利润改善 + 平台治理 + 全域经营分析”这套话术打动。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "涛涛车业股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_ugreen",
+      "account_canonical_name": "深圳市绿联科技股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1",
+        "ka_case_smallrig_outbound_v1",
+        "ka_solution_cbec_profit_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_profit_governance_cbec_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        },
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_talktrack_profit_governance_cbec_v1",
+          "asset_type": "sales_narrative",
+          "title": "跨境平台化经营治理与利润改善话术",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "乐其 SmallRig 的案例说明，跨境企业在从增量扩张走向存量博弈后，真正需要的不是再多铺几个平台，而是把利润、供应链、销售和售后放到同一套经营治理框架里。它适合用来解释平台化运营出海、品牌出海客户为什么会被“利润改善 + 平台治理 + 全域经营分析”这套话术打动。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市绿联科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_xcmg",
+      "account_canonical_name": "徐工集团工程机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_group_coordination_mfg_v1",
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_talktrack_group_coordination_mfg_v1",
+          "asset_type": "sales_narrative",
+          "title": "多工厂多产线集团协同话术",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "兆驰集团的案例说明，制造集团的核心痛点通常不是单个报表，而是如何把订单、计划、齐套、产线、品质和发货放到同一套分层看板和协同机制里。它适合用于解释多工厂、多事业部、离散制造企业为什么需要集团经营驾驶舱和跨部门协同分析。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "徐工集团工程机械股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_yuanzu",
+      "account_canonical_name": "元祖股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L2",
+      "suggested_maturity": "L2",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_coco_fnb_v1",
+        "ka_case_xianfeng_retail_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已进入L2；后续继续补官网、年报、IR和财报口径字段。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "rewrite_suggestion": {},
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_coco_fnb_v1",
+          "asset_type": "customer_case",
+          "title": "COCO 茶饮连锁经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 COCO 都可在全球化门店网络和茶饮高频运营场景下，通过经营综合看板、商品分析、利润经营和供应链分析提升总部与区域经营能力的案例。它适合补强茶饮赛道的标准化运营和门店经营分析样本。"
+        },
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "元祖股份有限公司 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "account_canonical_name": "子不语集团有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L2",
+      "suggested_maturity": "L3",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1",
+        "ka_insight_cbec_jtbd_v1",
+        "ka_solution_cbec_profit_v1"
+      ],
+      "talk_track_refs": [
+        "ka_talktrack_profit_governance_cbec_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "需补主体、组织结构与经营复杂度官方证据，待补promotion_review队列项",
+      "rewrite_suggestion": {
+        "公司产品与服务概述": "跨境时尚电商，覆盖服饰及生活方式品类的全球线上销售",
+        "商业模式概述": "以跨平台运营和品牌化出海为核心，依赖选品、投放与供应链协同",
+        "admission_reason_summary": "服饰跨境与多平台经营方向成立，可作为复杂跨境经营画像候选",
+        "validation_gap": "需补主体、组织结构与经营复杂度官方证据，待补promotion_review队列项"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_jtbd_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商核心 JTBD 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产把跨境电商的核心任务收敛为市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析四条主线。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_talktrack_profit_governance_cbec_v1",
+          "asset_type": "sales_narrative",
+          "title": "跨境平台化经营治理与利润改善话术",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "乐其 SmallRig 的案例说明，跨境企业在从增量扩张走向存量博弈后，真正需要的不是再多铺几个平台，而是把利润、供应链、销售和售后放到同一套经营治理框架里。它适合用来解释平台化运营出海、品牌出海客户为什么会被“利润改善 + 平台治理 + 全域经营分析”这套话术打动。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "子不语集团有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    }
+  ],
+  "write_back": {
+    "enabled": false
+  }
+}

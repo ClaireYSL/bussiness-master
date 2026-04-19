@@ -1,0 +1,53 @@
+{
+  "batch_id": "milestone6r_trust_lock_probe_v1",
+  "candidate_signature": [
+    {
+      "account_id": "acc_70mai",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_biemlfdlkk",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_chubang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_goertek",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_haitian_prec",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_hanscnc",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jingsheng",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_juewei",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "target_level": "L2"
+    }
+  ]
+}

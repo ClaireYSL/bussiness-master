@@ -1,0 +1,423 @@
+{
+  "batch_id": "milestone6r_trust_batch_v1",
+  "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）",
+  "from_level": "",
+  "target_level": "",
+  "selection": {
+    "account_ids": [
+      "acc_estun",
+      "acc_leadtrend",
+      "acc_topstar",
+      "acc_zhending",
+      "acc_impulse",
+      "acc_jeep_bike",
+      "acc_jiayi",
+      "acc_petstar",
+      "acc_chubang",
+      "acc_dencare",
+      "acc_juewei",
+      "acc_mgstationery"
+    ],
+    "limit": 12
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone6r_trust_promote_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 9,
+    "allow": 0,
+    "warn": 5,
+    "block": 4,
+    "writeback_promoted": 0,
+    "writeback_skipped": 9,
+    "target_level_reached": 0,
+    "level_changed": 2,
+    "queue_resolved": 0,
+    "evidence_created": 0
+  },
+  "write_back": {
+    "enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 4e-06,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 7,
+          "rows_scanned": 1112,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 12853,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4872,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    },
+    "promoted": 0,
+    "skipped": 9,
+    "profile_updates": 0,
+    "main_updates": 0,
+    "main_shared_updates": 0,
+    "coverage_updates": 0,
+    "evidence_created": 0,
+    "promotion_review_resolved": 0,
+    "samples": []
+  },
+  "items": [
+    {
+      "account_id": "acc_topstar",
+      "account_name": "广东拓斯达科技股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L1",
+      "decision": "warn",
+      "level_changed": true,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "high_quality_ready",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "account_name": "久祺股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_jiayi",
+      "account_name": "嘉益股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_petstar",
+      "account_name": "源飞宠物用品股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_impulse",
+      "account_name": "英派斯健康科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "account_name": "上海晨光文具股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "pending_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "generic_product",
+          "severity": "warn",
+          "field_name": "公司产品与服务概述",
+          "message": "产品与服务字段仍偏模板句。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "产品与服务字段仍偏模板句。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_chubang",
+      "account_name": "中炬高新技术实业（集团）股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "pending_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "generic_product",
+          "severity": "warn",
+          "field_name": "公司产品与服务概述",
+          "message": "产品与服务字段仍偏模板句。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "产品与服务字段仍偏模板句。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_juewei",
+      "account_name": "绝味食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L3",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "pending_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_dencare",
+      "account_name": "重庆登康口腔护理用品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L3",
+      "target_level": "L2",
+      "current_level": "L1",
+      "decision": "warn",
+      "level_changed": true,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "high_quality_ready",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "generic_product",
+          "severity": "warn",
+          "field_name": "公司产品与服务概述",
+          "message": "产品与服务字段仍偏模板句。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "产品与服务字段仍偏模板句。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    }
+  ]
+}

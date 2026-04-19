@@ -1,0 +1,169 @@
+{
+  "batch_id": "milestone6_main_batch_v1",
+  "goal": "Milestone 6：L3到L2主闭环（12家）",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-18T11:58:57.000000+00:00",
+  "finished_at": "2026-04-18T11:59:31.000000+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_chubang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dji",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_eve",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jiajia",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_liugong",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mingyang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_taotao",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_ugreen",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_xcmg",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_yuanzu",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "target_level": "L2"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone6_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6/milestone6_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6/milestone6_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6-L3到L2执行批次-enrich复盘-v1.md",
+    "result_count": 12,
+    "write_back": {
+      "enabled": false
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone6_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6/milestone6_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6/milestone6_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6-L3到L2执行批次-promote复盘-v1.md",
+    "result_count": 12,
+    "write_back": {
+      "enabled": true,
+      "promoted": 10,
+      "skipped": 2,
+      "profile_updates": 10,
+      "main_updates": 10,
+      "main_shared_updates": 10,
+      "coverage_updates": 10,
+      "evidence_created": 10,
+      "promotion_review_resolved": 0,
+      "samples": [
+        {
+          "account_id": "acc_liugong",
+          "account_canonical_name": "广西柳工机械股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_xcmg",
+          "account_canonical_name": "徐工集团工程机械股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_eve",
+          "account_canonical_name": "惠州亿纬锂能股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_mingyang",
+          "account_canonical_name": "明阳智慧能源集团股份公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_taotao",
+          "account_canonical_name": "涛涛车业股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_dji",
+          "account_canonical_name": "深圳市大疆创新科技有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_ugreen",
+          "account_canonical_name": "深圳市绿联科技股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_zibuyu",
+          "account_canonical_name": "子不语集团有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_yuanzu",
+          "account_canonical_name": "元祖股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        },
+        {
+          "account_id": "acc_jiajia",
+          "account_canonical_name": "家家悦集团股份有限公司",
+          "from_level": "L3",
+          "target_level": "L2"
+        }
+      ]
+    },
+    "batch_summary": {
+      "allow": 10,
+      "warn": 2,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 10,
+    "warn": 2,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": true
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone6/milestone6_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 6-L3到L2执行批次-复盘-v1.md"
+}

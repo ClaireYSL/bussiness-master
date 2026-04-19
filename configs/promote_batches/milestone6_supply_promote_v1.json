@@ -1,0 +1,12 @@
+{
+  "batch_id": "milestone6_supply_promote_v1",
+  "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家） promote",
+  "account_ids": [],
+  "from_level": "L5",
+  "target_level": "L4",
+  "auto_open_promotion_review_for_selected": true,
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-promote复盘-v1.md"
+}

@@ -1,0 +1,84 @@
+{
+  "batch_id": "milestone6_supply_batch_v1",
+  "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-18T11:59:26.000000+00:00",
+  "finished_at": "2026-04-18T11:59:43.000000+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_bull",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_dsbj",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_focus",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_kelai",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_sanquan",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_yiyi",
+      "target_level": "L4"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone6_supply_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-enrich复盘-v1.md",
+    "result_count": 6,
+    "write_back": {
+      "enabled": false
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone6_supply_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-promote复盘-v1.md",
+    "result_count": 6,
+    "write_back": {
+      "enabled": true,
+      "promoted": 0,
+      "skipped": 6,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 0,
+      "warn": 0,
+      "block": 6
+    }
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 0,
+    "block": 6,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": true
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-复盘-v1.md"
+}

@@ -20,6 +20,9 @@ from shared.static_pool import (
     build_enrich_summary_payload,
     dataclass_to_dict,
     render_enrich_review_markdown,
+    workbook_write_lock,
+    check_workbook_integrity,
+    WorkbookLockError,
 )
 
 VAULT = ROOT / "Documents/Obsidian-Codex/潜客池"
@@ -192,115 +195,122 @@ def ensure_evidence_item(ws, header_index: dict[str, int], result: dict[str, obj
     return True
 
 
-def write_back_results(results: list[dict[str, object]]) -> dict[str, object]:
-    backups = {
-        "profile": backup_once(PROFILE_XLSX),
-        "main": backup_once(MAIN_XLSX),
-        "main_shared": backup_once(MAIN_SHARED_XLSX),
-        "governance": backup_once(GOV_XLSX),
-    }
+def write_back_results(results: list[dict[str, object]], *, lock_timeout_seconds: float = 0.0) -> dict[str, object]:
+    with workbook_write_lock(timeout_seconds=lock_timeout_seconds) as lock_meta:
+        backups = {
+            "profile": backup_once(PROFILE_XLSX),
+            "main": backup_once(MAIN_XLSX),
+            "main_shared": backup_once(MAIN_SHARED_XLSX),
+            "governance": backup_once(GOV_XLSX),
+        }
 
-    profile_wb = load_workbook(PROFILE_XLSX)
-    profile_ws = profile_wb["account_profiles"]
-    profile_secondary_col = ensure_column(profile_ws, "secondary_persona_tags")
-    profile_headers, profile_rows = build_row_index(profile_ws, "account_id")
-    profile_headers["secondary_persona_tags"] = profile_secondary_col
+        profile_wb = load_workbook(PROFILE_XLSX)
+        profile_ws = profile_wb["account_profiles"]
+        profile_secondary_col = ensure_column(profile_ws, "secondary_persona_tags")
+        profile_headers, profile_rows = build_row_index(profile_ws, "account_id")
+        profile_headers["secondary_persona_tags"] = profile_secondary_col
 
-    main_wb = load_workbook(MAIN_XLSX)
-    main_ws = main_wb["accounts_main"]
-    main_headers, main_rows = build_row_index(main_ws, "account_canonical_name")
+        main_wb = load_workbook(MAIN_XLSX)
+        main_ws = main_wb["accounts_main"]
+        main_headers, main_rows = build_row_index(main_ws, "account_canonical_name")
 
-    shared_wb = load_workbook(MAIN_SHARED_XLSX)
-    shared_ws = shared_wb["全量主表"]
-    shared_headers, shared_rows = build_row_index(shared_ws, "公司主体")
+        shared_wb = load_workbook(MAIN_SHARED_XLSX)
+        shared_ws = shared_wb["全量主表"]
+        shared_headers, shared_rows = build_row_index(shared_ws, "公司主体")
 
-    gov_wb = load_workbook(GOV_XLSX)
-    queue_ws = gov_wb["review_queue"]
-    evidence_ws = gov_wb["evidence_log"]
-    queue_headers, _queue_rows = build_row_index(queue_ws, "queue_item_id")
-    evidence_headers, _evidence_rows = build_row_index(evidence_ws, "evidence_id")
+        gov_wb = load_workbook(GOV_XLSX)
+        queue_ws = gov_wb["review_queue"]
+        evidence_ws = gov_wb["evidence_log"]
+        queue_headers, _queue_rows = build_row_index(queue_ws, "queue_item_id")
+        evidence_headers, _evidence_rows = build_row_index(evidence_ws, "evidence_id")
 
-    profile_updates = 0
-    main_updates = 0
-    shared_updates = 0
-    queue_created = 0
-    evidence_created = 0
+        profile_updates = 0
+        main_updates = 0
+        shared_updates = 0
+        queue_created = 0
+        evidence_created = 0
 
-    for result in results:
-        account_id = _clean(result["account_id"])
-        account_name = _clean(result["account_canonical_name"])
-        if account_id in profile_rows:
-            row = profile_rows[account_id]
-            set_if_header(profile_ws, profile_headers, row, "primary_track", result.get("primary_track"))
-            set_if_header(profile_ws, profile_headers, row, "persona_tag", result.get("persona_tag"))
-            set_if_header(profile_ws, profile_headers, row, "secondary_persona_tags", ",".join(result.get("secondary_persona_tags") or []))
-            set_if_header(profile_ws, profile_headers, row, "static_maturity_level", result.get("suggested_maturity"))
-            set_if_header(profile_ws, profile_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
-            set_if_header(profile_ws, profile_headers, row, "validation_gap", result.get("validation_gap"))
-            set_if_header(profile_ws, profile_headers, row, "profile_status", result.get("review_status"))
-            set_if_header(profile_ws, profile_headers, row, "knowledge_asset_refs", ",".join(result.get("knowledge_asset_refs") or []))
-            set_if_header(profile_ws, profile_headers, row, "talk_track_refs", ",".join(result.get("talk_track_refs") or []))
-            set_if_header(profile_ws, profile_headers, row, "last_profiled_at", datetime.now().strftime("%Y-%m-%d"))
-            profile_updates += 1
+        for result in results:
+            account_id = _clean(result["account_id"])
+            account_name = _clean(result["account_canonical_name"])
+            if account_id in profile_rows:
+                row = profile_rows[account_id]
+                set_if_header(profile_ws, profile_headers, row, "primary_track", result.get("primary_track"))
+                set_if_header(profile_ws, profile_headers, row, "persona_tag", result.get("persona_tag"))
+                set_if_header(profile_ws, profile_headers, row, "secondary_persona_tags", ",".join(result.get("secondary_persona_tags") or []))
+                set_if_header(profile_ws, profile_headers, row, "static_maturity_level", result.get("suggested_maturity"))
+                set_if_header(profile_ws, profile_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
+                set_if_header(profile_ws, profile_headers, row, "validation_gap", result.get("validation_gap"))
+                set_if_header(profile_ws, profile_headers, row, "profile_status", result.get("review_status"))
+                set_if_header(profile_ws, profile_headers, row, "knowledge_asset_refs", ",".join(result.get("knowledge_asset_refs") or []))
+                set_if_header(profile_ws, profile_headers, row, "talk_track_refs", ",".join(result.get("talk_track_refs") or []))
+                set_if_header(profile_ws, profile_headers, row, "last_profiled_at", datetime.now().strftime("%Y-%m-%d"))
+                profile_updates += 1
 
-        if account_name in main_rows:
-            row = main_rows[account_name]
-            set_if_header(main_ws, main_headers, row, "primary_track", result.get("primary_track"))
-            set_if_header(main_ws, main_headers, row, "persona_tag", result.get("persona_tag"))
-            set_if_header(main_ws, main_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
-            set_if_header(main_ws, main_headers, row, "knowledge_asset_refs", ",".join(result.get("knowledge_asset_refs") or []))
-            set_if_header(main_ws, main_headers, row, "talk_track_refs", ",".join(result.get("talk_track_refs") or []))
-            set_if_header(main_ws, main_headers, row, "validation_gap", result.get("validation_gap"))
-            rewrite = result.get("rewrite_suggestion") or {}
-            if isinstance(rewrite, dict):
-                if rewrite.get("admission_reason_summary"):
-                    set_if_header(main_ws, main_headers, row, "admission_reason_summary", rewrite["admission_reason_summary"])
-                if rewrite.get("公司产品与服务概述"):
-                    set_if_header(main_ws, main_headers, row, "公司产品与服务概述", rewrite["公司产品与服务概述"])
-                if rewrite.get("商业模式概述"):
-                    set_if_header(main_ws, main_headers, row, "商业模式概述", rewrite["商业模式概述"])
-                if rewrite.get("核心客户客群"):
-                    set_if_header(main_ws, main_headers, row, "核心客户客群", rewrite["核心客户客群"])
-            main_updates += 1
+            if account_name in main_rows:
+                row = main_rows[account_name]
+                set_if_header(main_ws, main_headers, row, "primary_track", result.get("primary_track"))
+                set_if_header(main_ws, main_headers, row, "persona_tag", result.get("persona_tag"))
+                set_if_header(main_ws, main_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
+                set_if_header(main_ws, main_headers, row, "knowledge_asset_refs", ",".join(result.get("knowledge_asset_refs") or []))
+                set_if_header(main_ws, main_headers, row, "talk_track_refs", ",".join(result.get("talk_track_refs") or []))
+                set_if_header(main_ws, main_headers, row, "validation_gap", result.get("validation_gap"))
+                rewrite = result.get("rewrite_suggestion") or {}
+                if isinstance(rewrite, dict):
+                    if rewrite.get("admission_reason_summary"):
+                        set_if_header(main_ws, main_headers, row, "admission_reason_summary", rewrite["admission_reason_summary"])
+                    if rewrite.get("公司产品与服务概述"):
+                        set_if_header(main_ws, main_headers, row, "公司产品与服务概述", rewrite["公司产品与服务概述"])
+                    if rewrite.get("商业模式概述"):
+                        set_if_header(main_ws, main_headers, row, "商业模式概述", rewrite["商业模式概述"])
+                    if rewrite.get("核心客户客群"):
+                        set_if_header(main_ws, main_headers, row, "核心客户客群", rewrite["核心客户客群"])
+                main_updates += 1
 
-        if account_name in shared_rows:
-            row = shared_rows[account_name]
-            set_if_header(shared_ws, shared_headers, row, "主线", result.get("primary_track"))
-            set_if_header(shared_ws, shared_headers, row, "业务形态画像", result.get("persona_tag"))
-            set_if_header(shared_ws, shared_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
-            set_if_header(shared_ws, shared_headers, row, "主要知识资产引用", ",".join(result.get("knowledge_asset_refs") or []))
-            set_if_header(shared_ws, shared_headers, row, "主要切入话术引用", ",".join(result.get("talk_track_refs") or []))
-            set_if_header(shared_ws, shared_headers, row, "待验证项", result.get("validation_gap"))
-            rewrite = result.get("rewrite_suggestion") or {}
-            if isinstance(rewrite, dict):
-                if rewrite.get("admission_reason_summary"):
-                    set_if_header(shared_ws, shared_headers, row, "一话入池理由", rewrite["admission_reason_summary"])
-                if rewrite.get("公司产品与服务概述"):
-                    set_if_header(shared_ws, shared_headers, row, "公司产品与服务概述", rewrite["公司产品与服务概述"])
-                if rewrite.get("商业模式概述"):
-                    set_if_header(shared_ws, shared_headers, row, "商业模式概述", rewrite["商业模式概述"])
-                if rewrite.get("核心客户客群"):
-                    set_if_header(shared_ws, shared_headers, row, "核心客户客群", rewrite["核心客户客群"])
-            shared_updates += 1
+            if account_name in shared_rows:
+                row = shared_rows[account_name]
+                set_if_header(shared_ws, shared_headers, row, "主线", result.get("primary_track"))
+                set_if_header(shared_ws, shared_headers, row, "业务形态画像", result.get("persona_tag"))
+                set_if_header(shared_ws, shared_headers, row, "静态潜客记录成熟度", result.get("suggested_maturity"))
+                set_if_header(shared_ws, shared_headers, row, "主要知识资产引用", ",".join(result.get("knowledge_asset_refs") or []))
+                set_if_header(shared_ws, shared_headers, row, "主要切入话术引用", ",".join(result.get("talk_track_refs") or []))
+                set_if_header(shared_ws, shared_headers, row, "待验证项", result.get("validation_gap"))
+                rewrite = result.get("rewrite_suggestion") or {}
+                if isinstance(rewrite, dict):
+                    if rewrite.get("admission_reason_summary"):
+                        set_if_header(shared_ws, shared_headers, row, "一话入池理由", rewrite["admission_reason_summary"])
+                    if rewrite.get("公司产品与服务概述"):
+                        set_if_header(shared_ws, shared_headers, row, "公司产品与服务概述", rewrite["公司产品与服务概述"])
+                    if rewrite.get("商业模式概述"):
+                        set_if_header(shared_ws, shared_headers, row, "商业模式概述", rewrite["商业模式概述"])
+                    if rewrite.get("核心客户客群"):
+                        set_if_header(shared_ws, shared_headers, row, "核心客户客群", rewrite["核心客户客群"])
+                shared_updates += 1
 
-        note = f"{result.get('summary')} | required_queue_type={result.get('required_queue_type')}"
-        if ensure_review_queue_item(queue_ws, queue_headers, account_id, _clean(result["required_queue_type"]), note):
-            queue_created += 1
-        if ensure_evidence_item(evidence_ws, evidence_headers, result):
-            evidence_created += 1
+            note = f"{result.get('summary')} | required_queue_type={result.get('required_queue_type')}"
+            if ensure_review_queue_item(queue_ws, queue_headers, account_id, _clean(result["required_queue_type"]), note):
+                queue_created += 1
+            if ensure_evidence_item(evidence_ws, evidence_headers, result):
+                evidence_created += 1
 
-    profile_wb.save(PROFILE_XLSX)
-    main_wb.save(MAIN_XLSX)
-    shared_wb.save(MAIN_SHARED_XLSX)
-    gov_wb.save(GOV_XLSX)
-    return {
-        "backups": backups,
-        "profile_updates": profile_updates,
-        "main_updates": main_updates,
-        "main_shared_updates": shared_updates,
-        "queue_items_created": queue_created,
-        "evidence_items_created": evidence_created,
-    }
+        profile_wb.save(PROFILE_XLSX)
+        main_wb.save(MAIN_XLSX)
+        shared_wb.save(MAIN_SHARED_XLSX)
+        gov_wb.save(GOV_XLSX)
+        integrity = check_workbook_integrity([MAIN_XLSX, PROFILE_XLSX, GOV_XLSX], deep_scan=True)
+        return {
+            "enabled": True,
+            "backups": backups,
+            "profile_updates": profile_updates,
+            "main_updates": main_updates,
+            "main_shared_updates": shared_updates,
+            "queue_items_created": queue_created,
+            "evidence_items_created": evidence_created,
+            "workbook_lock_acquired": bool(lock_meta.get("acquired")),
+            "workbook_lock_wait_seconds": lock_meta.get("wait_seconds"),
+            "workbook_lock_path": lock_meta.get("lock_path"),
+            "workbook_integrity_check": integrity,
+        }
 
 
 def main() -> int:
@@ -350,10 +360,20 @@ def main() -> int:
         },
         "results": results,
     }
-    if args.write_back and not args.report_only:
-        payload["write_back"] = write_back_results(results)
+    write_back_enabled = bool(config.get("write_back")) if "write_back" in config else bool(args.write_back)
+    if write_back_enabled and not args.report_only:
+        lock_timeout = float(config.get("workbook_lock_timeout_seconds") or 0.0)
+        try:
+            payload["write_back"] = write_back_results(results, lock_timeout_seconds=lock_timeout)
+        except WorkbookLockError as exc:
+            raise SystemExit(str(exc)) from exc
     else:
-        payload["write_back"] = {"enabled": False}
+        payload["write_back"] = {
+            "enabled": False,
+            "workbook_lock_acquired": False,
+            "workbook_lock_wait_seconds": 0.0,
+            "workbook_integrity_check": {},
+        }
 
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     summary_path = optional_output_path(summary_file)

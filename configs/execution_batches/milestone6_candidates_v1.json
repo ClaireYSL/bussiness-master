@@ -1,0 +1,211 @@
+{
+  "batch_id": "milestone6_main_batch_v1",
+  "generated_at": "2026-04-18T11:58:32.379987+00:00",
+  "goal": "Milestone 6：L3到L2主闭环（12家）",
+  "candidate_policy": {
+    "tracks": [
+      "零售消费",
+      "跨境电商",
+      "先进制造"
+    ],
+    "routes": [
+      {
+        "from_level": "L3",
+        "target_level": "L2",
+        "per_track": 4
+      }
+    ],
+    "strict_mode": true
+  },
+  "selection_summary": {
+    "required_total": 12,
+    "picked_total": 12,
+    "shortage_count": 0,
+    "shortages": [],
+    "detail": [
+      {
+        "track": "零售消费",
+        "from_level": "L3",
+        "target_level": "L2",
+        "required": 4,
+        "available": 15,
+        "picked": 4,
+        "decision_counts": {
+          "warn": 14,
+          "block": 1
+        }
+      },
+      {
+        "track": "跨境电商",
+        "from_level": "L3",
+        "target_level": "L2",
+        "required": 4,
+        "available": 10,
+        "picked": 4,
+        "decision_counts": {
+          "warn": 6,
+          "block": 4
+        }
+      },
+      {
+        "track": "先进制造",
+        "from_level": "L3",
+        "target_level": "L2",
+        "required": 4,
+        "available": 27,
+        "picked": 4,
+        "decision_counts": {
+          "warn": 25,
+          "block": 2
+        }
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "account_id": "acc_eve",
+      "track": "先进制造",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "先进制造 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_liugong",
+      "track": "先进制造",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "先进制造 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_mingyang",
+      "track": "先进制造",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "先进制造 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_xcmg",
+      "track": "先进制造",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "先进制造 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_dji",
+      "track": "跨境电商",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_taotao",
+      "track": "跨境电商",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_ugreen",
+      "track": "跨境电商",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "跨境电商 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "track": "跨境电商",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review",
+        "verification"
+      ],
+      "selection_reason": "跨境电商 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_chubang",
+      "track": "零售消费",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_jiajia",
+      "track": "零售消费",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "track": "零售消费",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L3->L2 候选；latest_promote_decision=warn"
+    },
+    {
+      "account_id": "acc_yuanzu",
+      "track": "零售消费",
+      "current_level": "L3",
+      "target_level": "L2",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "warn",
+      "required_queue_types": [
+        "promotion_review"
+      ],
+      "selection_reason": "零售消费 L3->L2 候选；latest_promote_decision=warn"
+    }
+  ]
+}

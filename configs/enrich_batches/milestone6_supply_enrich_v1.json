@@ -1,0 +1,16 @@
+{
+  "batch_id": "milestone6_supply_enrich_v1",
+  "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家） enrich",
+  "track": "",
+  "from_level": "L5",
+  "target_level": "L4",
+  "promote_target_level": "L4",
+  "write_back": true,
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；本轮目标是补齐下一轮 L4->L3 供给。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6 Supply-L5到L4供给批次-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

@@ -235,6 +235,8 @@ def _render_execution_review(payload: dict[str, object]) -> str:
         "",
         f"- promote 判定：`allow={summary.get('allow', 0)} / warn={summary.get('warn', 0)} / block={summary.get('block', 0)}`",
         f"- 写回：`enrich_enabled={summary.get('enrich_write_back_enabled')} / promote_enabled={summary.get('promote_write_back_enabled')}`",
+        f"- 写回锁：`acquired={summary.get('workbook_lock_acquired')} / wait_seconds={summary.get('workbook_lock_wait_seconds')}`",
+        f"- 完整性检查：`ok={((summary.get('workbook_integrity_check') or {}).get('ok'))}`",
         f"- run summary：`{_clean(payload.get('run_summary_file'))}`",
         f"- enrich summary/review：`{_clean(enrich.get('summary_file'))}` / `{_clean(enrich.get('review_file'))}`",
         f"- promote summary/review：`{_clean(promote.get('summary_file'))}` / `{_clean(promote.get('review_file'))}`",
@@ -275,6 +277,9 @@ def _merge_promote_payloads(batch_id: str, goal: str, payloads: list[dict[str, o
     summary = {"allow": 0, "warn": 0, "block": 0}
     merged_writeback: dict[str, object] = {
         "enabled": False,
+        "workbook_lock_acquired": False,
+        "workbook_lock_wait_seconds": 0.0,
+        "workbook_integrity_check": {},
         "promoted": 0,
         "skipped": 0,
         "profile_updates": 0,
@@ -294,6 +299,15 @@ def _merge_promote_payloads(batch_id: str, goal: str, payloads: list[dict[str, o
         wb = payload.get("write_back") if isinstance(payload.get("write_back"), dict) else {}
         if wb:
             merged_writeback["enabled"] = bool(merged_writeback.get("enabled")) or bool(wb.get("enabled"))
+            merged_writeback["workbook_lock_acquired"] = bool(merged_writeback.get("workbook_lock_acquired")) or bool(
+                wb.get("workbook_lock_acquired")
+            )
+            merged_writeback["workbook_lock_wait_seconds"] = max(
+                float(merged_writeback.get("workbook_lock_wait_seconds") or 0.0),
+                float(wb.get("workbook_lock_wait_seconds") or 0.0),
+            )
+            if not merged_writeback.get("workbook_integrity_check") and isinstance(wb.get("workbook_integrity_check"), dict):
+                merged_writeback["workbook_integrity_check"] = wb.get("workbook_integrity_check")
             for key in [
                 "promoted",
                 "skipped",
@@ -483,6 +497,8 @@ def _execute_single_phase(
     promote_batch_summary = promote_output.get("batch_summary") if isinstance(promote_output, dict) else {}
     if not isinstance(promote_batch_summary, dict):
         promote_batch_summary = {}
+    enrich_write_back = enrich_output.get("write_back") or {}
+    promote_write_back = promote_output.get("write_back") or {}
     status = "success" if enrich_code == 0 and promote_code == 0 else "fail"
     return {
         "batch_id": batch_id,
@@ -503,7 +519,7 @@ def _execute_single_phase(
             "summary_file": enrich_summary_file,
             "review_file": enrich_review_file,
             "result_count": int((enrich_output.get("summary") or {}).get("result_count") or 0) if isinstance(enrich_output.get("summary"), dict) else 0,
-            "write_back": enrich_output.get("write_back") or {},
+            "write_back": enrich_write_back,
         },
         "promote": {
             "status": promote_status,
@@ -513,15 +529,20 @@ def _execute_single_phase(
             "summary_file": _clean(promote_output.get("summary_file")),
             "review_file": _clean(promote_output.get("review_file")),
             "result_count": int(promote_output.get("result_count") or 0) if isinstance(promote_output, dict) else 0,
-            "write_back": promote_output.get("write_back") or {},
+            "write_back": promote_write_back,
             "batch_summary": promote_batch_summary,
         },
         "summary": {
             "allow": int(promote_batch_summary.get("allow") or 0),
             "warn": int(promote_batch_summary.get("warn") or 0),
             "block": int(promote_batch_summary.get("block") or 0),
-            "enrich_write_back_enabled": bool((enrich_output.get("write_back") or {}).get("enabled")),
-            "promote_write_back_enabled": bool((promote_output.get("write_back") or {}).get("enabled")),
+            "enrich_write_back_enabled": bool(enrich_write_back.get("enabled")),
+            "promote_write_back_enabled": bool(promote_write_back.get("enabled")),
+            "workbook_lock_acquired": bool(promote_write_back.get("workbook_lock_acquired") or enrich_write_back.get("workbook_lock_acquired")),
+            "workbook_lock_wait_seconds": float(promote_write_back.get("workbook_lock_wait_seconds") or enrich_write_back.get("workbook_lock_wait_seconds") or 0.0),
+            "workbook_integrity_check": promote_write_back.get("workbook_integrity_check")
+            or enrich_write_back.get("workbook_integrity_check")
+            or {},
         },
     }
 

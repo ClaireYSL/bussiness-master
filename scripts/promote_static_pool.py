@@ -18,6 +18,7 @@ from shared.static_pool import (
     load_main_rows,
     load_sheet_rows,
     render_promote_review_markdown,
+    WorkbookLockError,
 )
 from shared.static_pool import write_back_promotion_results
 
@@ -440,14 +441,26 @@ def main() -> int:
         "main_coverage": main_coverage,
     }
     if (args.write_back or bool(config.get("write_back"))) and not args.report_only:
-        payload["write_back"] = write_back_promotion_results(
-            payload["results"],
-            batch_id=payload["batch_id"],
-            profile_xlsx=PROFILE_XLSX,
-            main_xlsx=MAIN_XLSX,
-            main_shared_xlsx=MAIN_SHARED_XLSX,
-            gov_xlsx=GOV_XLSX,
-        )
+        lock_timeout = float(config.get("workbook_lock_timeout_seconds") or 0.0)
+        try:
+            payload["write_back"] = write_back_promotion_results(
+                payload["results"],
+                batch_id=payload["batch_id"],
+                profile_xlsx=PROFILE_XLSX,
+                main_xlsx=MAIN_XLSX,
+                main_shared_xlsx=MAIN_SHARED_XLSX,
+                gov_xlsx=GOV_XLSX,
+                lock_timeout_seconds=lock_timeout,
+            )
+        except WorkbookLockError as exc:
+            raise SystemExit(str(exc)) from exc
+    else:
+        payload["write_back"] = {
+            "enabled": False,
+            "workbook_lock_acquired": False,
+            "workbook_lock_wait_seconds": 0.0,
+            "workbook_integrity_check": {},
+        }
 
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     summary_path = optional_output_path(summary_file)
@@ -477,6 +490,7 @@ def main() -> int:
                 "output_file": str(output_path),
                 "result_count": len(payload["results"]),
                 "batch_summary": payload["batch_summary"],
+                "write_back": payload.get("write_back") or {},
                 "summary_file": str(summary_path) if summary_path else "",
                 "review_file": str(review_path) if review_path else "",
             },

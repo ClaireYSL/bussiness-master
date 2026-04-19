@@ -1,0 +1,57 @@
+{
+  "batch_id": "milestone6r_trust_batch_v1",
+  "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）",
+  "phase": "report_only",
+  "generated_at": "2026-04-18T12:43:20.421399+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_chubang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dencare",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_estun",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_impulse",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_juewei",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_leadtrend",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_petstar",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_topstar",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_zhending",
+      "target_level": "L2"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json"
+}

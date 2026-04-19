@@ -1,0 +1,12 @@
+{
+  "batch_id": "milestone6_promote_v1",
+  "goal": "Milestone 6：L3到L2主闭环（12家） promote",
+  "account_ids": [],
+  "from_level": "L3",
+  "target_level": "L2",
+  "auto_open_promotion_review_for_selected": true,
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone6/milestone6_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone6/milestone6_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 6-L3到L2执行批次-promote复盘-v1.md"
+}

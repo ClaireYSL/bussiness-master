@@ -1,0 +1,33 @@
+{
+  "batch_id": "milestone6_supply_batch_v1",
+  "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）",
+  "phase": "report_only",
+  "generated_at": "2026-04-18T11:59:16.716297+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_bull",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_dsbj",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_focus",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_kelai",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_sanquan",
+      "target_level": "L4"
+    },
+    {
+      "account_id": "acc_yiyi",
+      "target_level": "L4"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_run_summary_v1.json"
+}

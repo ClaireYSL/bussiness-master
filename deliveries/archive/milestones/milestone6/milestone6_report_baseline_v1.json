@@ -1,0 +1,57 @@
+{
+  "batch_id": "milestone6_main_batch_v1",
+  "goal": "Milestone 6：L3到L2主闭环（12家）",
+  "phase": "report_only",
+  "generated_at": "2026-04-18T11:58:44.204836+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_chubang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dji",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_eve",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jiajia",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_liugong",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mingyang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_taotao",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_ugreen",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_xcmg",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_yuanzu",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_zibuyu",
+      "target_level": "L2"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone6/milestone6_run_summary_v1.json"
+}

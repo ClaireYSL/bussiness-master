@@ -1,0 +1,94 @@
+{
+  "batch_id": "milestone6r_trust_lock_probe_v1",
+  "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "fail",
+  "started_at": "2026-04-18T12:39:08.852039+00:00",
+  "finished_at": "2026-04-18T12:39:09.952856+00:00",
+  "error_stage": "enrich",
+  "error_message": "workbook write lock is busy after 0.000s: /tmp/codex_static_pool_workbook_writeback.lock",
+  "candidate_signature": [
+    {
+      "account_id": "acc_70mai",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_biemlfdlkk",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_chubang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_goertek",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_haitian_prec",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_hanscnc",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jingsheng",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_juewei",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_sunsbike",
+      "target_level": "L2"
+    }
+  ],
+  "enrich": {
+    "status": "failed",
+    "return_code": 1,
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md",
+    "result_count": 0,
+    "write_back": {}
+  },
+  "promote": {
+    "status": "skipped",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone6r_trust_promote_v1.json",
+    "output_file": "",
+    "summary_file": "",
+    "review_file": "",
+    "result_count": 0,
+    "write_back": {},
+    "batch_summary": {}
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 0,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {}
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_lock_probe_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 6R-锁冲突探测-复盘-v1.md"
+}

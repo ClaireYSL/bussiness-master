@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-18T12:51:51.262343+00:00",
+  "inputs": {
+    "main_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+    "profile_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+    "governance_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+    "sheet_name": "accounts_main",
+    "write_back": false,
+    "fill_missing_generated": true
+  },
+  "backup_file": "",
+  "summary": {
+    "rows_total": 365,
+    "before_nonempty_account_id": 365,
+    "after_nonempty_account_id": 365,
+    "coverage_ratio": 1.0,
+    "updated_rows": 0,
+    "unchanged_rows": 359,
+    "unresolved_rows": 0,
+    "generated_rows": 138,
+    "generated_to_mapped_rows": 6,
+    "collision_rows": 0,
+    "duplicate_id_conflict_count": 0
+  },
+  "mapping_source_distribution": {
+    "profile_latest": 221,
+    "generated": 138,
+    "governance_alias": 6
+  },
+  "selected_from_collision": [],
+  "duplicate_id_conflicts": [],
+  "id_repair_gap": [],
+  "field_stats": {}
+}

@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone6r_trust_enrich_v1",
+  "goal": "Milestone 6R：可信增强首轮12家 enrich",
+  "track": "",
+  "from_level": "L3",
+  "target_level": "L2",
+  "promote_target_level": "L2",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；本轮目标是提高高可信字段完备度。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

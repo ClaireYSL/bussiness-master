@@ -1,0 +1,175 @@
+{
+  "batch_id": "milestone6r_trust_batch_v1",
+  "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-18T12:45:14.591724+00:00",
+  "finished_at": "2026-04-18T12:45:22.929107+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_chubang",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dencare",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_estun",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_impulse",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jeep_bike",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_jiayi",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_juewei",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_leadtrend",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_mgstationery",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_petstar",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_topstar",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_zhending",
+      "target_level": "L2"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md",
+    "result_count": 9,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {}
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone6r_trust_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-promote复盘-v1.md",
+    "result_count": 9,
+    "write_back": {
+      "enabled": true,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 4e-06,
+      "workbook_integrity_check": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 7,
+            "rows_scanned": 1112,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 12853,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4872,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      },
+      "promoted": 0,
+      "skipped": 9,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 0,
+      "warn": 5,
+      "block": 4
+    }
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 5,
+    "block": 4,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 4e-06,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 7,
+          "rows_scanned": 1112,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 12853,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4872,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-复盘-v1.md"
+}

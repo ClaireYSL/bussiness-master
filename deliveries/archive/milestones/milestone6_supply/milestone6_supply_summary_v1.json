@@ -1,0 +1,308 @@
+{
+  "batch_id": "milestone6_supply_batch_v1",
+  "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）",
+  "from_level": "",
+  "target_level": "",
+  "selection": {
+    "account_ids": [
+      "acc_dsbj",
+      "acc_kelai",
+      "acc_focus",
+      "acc_yiyi",
+      "acc_bull",
+      "acc_sanquan"
+    ],
+    "limit": 6
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone6_supply_promote_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 6,
+    "allow": 0,
+    "warn": 0,
+    "block": 6,
+    "writeback_promoted": 0,
+    "writeback_skipped": 6,
+    "target_level_reached": 0,
+    "level_changed": 0,
+    "queue_resolved": 0,
+    "evidence_created": 0
+  },
+  "write_back": {
+    "enabled": true,
+    "promoted": 0,
+    "skipped": 6,
+    "profile_updates": 0,
+    "main_updates": 0,
+    "main_shared_updates": 0,
+    "coverage_updates": 0,
+    "evidence_created": 0,
+    "promotion_review_resolved": 0,
+    "samples": []
+  },
+  "items": [
+    {
+      "account_id": "acc_dsbj",
+      "account_name": "东山精密制造股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L4",
+      "current_level": "L5",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "pending_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。",
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "promotion_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_kelai",
+      "account_name": "上海克来机电自动化工程股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L4",
+      "current_level": "L5",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_focus",
+      "account_name": "焦点科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L4",
+      "current_level": "L5",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "pending_review",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [
+        {
+          "code": "generic_admission",
+          "severity": "warn",
+          "field_name": "admission_reason_summary",
+          "message": "入池理由仍偏画像模板。"
+        },
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。",
+        "入池理由仍偏画像模板。",
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "knowledge_extraction",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_yiyi",
+      "account_name": "依依股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L4",
+      "current_level": "L5",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_sanquan",
+      "account_name": "三全食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L4",
+      "current_level": "L5",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_bull",
+      "account_name": "公牛集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L4",
+      "current_level": "L5",
+      "decision": "block",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "active",
+      "validation_gap": "收入规模、利润状态、营收增长仍需回到更强来源继续补齐。",
+      "promote_summary": "关键判断点仍未收敛，程序不建议推进上移。",
+      "blocking_issues": [
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "公司产品与服务概述",
+          "message": "公司产品与服务概述 不能为空。"
+        },
+        {
+          "code": "missing_field",
+          "severity": "block",
+          "field_name": "商业模式概述",
+          "message": "商业模式概述 不能为空。"
+        }
+      ],
+      "warning_issues": [],
+      "remaining_gaps": [
+        "公司产品与服务概述 不能为空。",
+        "商业模式概述 不能为空。"
+      ],
+      "open_queue_types": [
+        "knowledge_extraction",
+        "verification"
+      ]
+    }
+  ]
+}

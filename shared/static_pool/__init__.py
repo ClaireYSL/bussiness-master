@@ -65,6 +65,7 @@ from .validators import (
     normalize_secondary_persona_tags,
     should_allow_frozen_text_as_input,
 )
+from .workbook_guard import check_workbook_integrity, workbook_write_lock, WorkbookLockError
 
 __all__ = [
     "CandidateRecord",
@@ -124,4 +125,7 @@ __all__ = [
     "update_main_promotion_core",
     "update_profile_promotion_core",
     "write_back_promotion_results",
+    "check_workbook_integrity",
+    "workbook_write_lock",
+    "WorkbookLockError",
 ]

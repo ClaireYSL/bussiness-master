@@ -1,0 +1,16 @@
+{
+  "batch_id": "milestone6_enrich_v1",
+  "goal": "Milestone 6：L3到L2主闭环（12家） enrich",
+  "track": "",
+  "from_level": "L3",
+  "target_level": "L2",
+  "promote_target_level": "L2",
+  "write_back": true,
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；本轮目标是压实 L3->L2 判定可信度。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone6/milestone6_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone6/milestone6_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 6-L3到L2执行批次-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}
