@@ -1,0 +1,57 @@
+{
+  "template_id": "archive_rebuild_high_quality_template_v1",
+  "goal": "Clean Start 新环境高质量潜客档案重建批次",
+  "mode": "report_only_then_write_back",
+  "source_paths": {
+    "main_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+    "main_sheet": "accounts_main",
+    "profile_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+    "profile_sheet": "account_profiles",
+    "governance_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+    "queue_sheet": "review_queue",
+    "evidence_sheet": "evidence_log"
+  },
+  "rebuild_policy": {
+    "clean_start_mode": true,
+    "exclude_legacy_md_roots": [
+      "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/07-L3以上客户档案"
+    ],
+    "target_md_root": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/07-L3以上客户档案-v2",
+    "write_strategy": "whitelist_only"
+  },
+  "selection_policy": {
+    "tracks": [
+      "零售消费",
+      "跨境电商",
+      "先进制造"
+    ],
+    "per_track_limit": 20,
+    "required_info_richness": [
+      "高",
+      "中高"
+    ],
+    "required_fields_all_nonempty": [
+      "公司产品与服务概述",
+      "商业模式概述",
+      "admission_reason_summary",
+      "knowledge_asset_refs"
+    ],
+    "prioritize_levels": [
+      "L1",
+      "L2",
+      "L3"
+    ]
+  },
+  "acceptance_policy": {
+    "require_source_locator": true,
+    "require_last_profiled_at": true,
+    "require_remaining_gaps": true,
+    "fallback_to_queue_when_failed": true
+  },
+  "accounts_whitelist": [],
+  "output": {
+    "candidate_snapshot_file": "deliveries/archive/repairs/archive_rebuild_candidates_v1.json",
+    "run_summary_file": "deliveries/archive/repairs/archive_rebuild_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Clean Start-高质量档案重建批次-复盘-v1.md"
+  }
+}
