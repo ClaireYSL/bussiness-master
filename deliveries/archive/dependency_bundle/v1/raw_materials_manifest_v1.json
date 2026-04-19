@@ -1,0 +1,962 @@
+{
+  "root": "/Users/clairaipartner/Codex/static-pool-raw-materials",
+  "file_count": 191,
+  "total_bytes": 1418425470,
+  "files": [
+    {
+      "path": "_manifest/README.md",
+      "size_bytes": 587,
+      "sha256": "1255995f81ccd78f7ea749c63314d7b9e87186201d001a726059061d6a74aa7d"
+    },
+    {
+      "path": "_manifest/copy_manifest.json",
+      "size_bytes": 110432,
+      "sha256": "543fc00f03359de1db3c68d886ace7dfd04bbdbd5b264898855e2bb91b2f6743"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/md/【修订】观远BI与SAP PCE系统数据对接技术白皮书.md",
+      "size_bytes": 19252,
+      "sha256": "ca9b42aa32791778002a9fe8877c98b8891142a4ba8cac61dbeb70d1d032c60c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/md/多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”.md",
+      "size_bytes": 12585,
+      "sha256": "bb759d60ef3d0bf4db82c996b8e64d3f3f0161efa39154443edf0223694bd537"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf",
+      "size_bytes": 34507386,
+      "sha256": "b1a2dd9d4e8d1ed2e611e77fb7e6909c7b97e7470c7b7f682bcfe5f384e60fad"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/pdf/[GuanData] CJ Foods Damand Planning Digital Management Platform PROPOSAL_2309.pdf",
+      "size_bytes": 10187252,
+      "sha256": "99cd8231edfac7a58c42108d073b4e70691ddb461f5b9993fbcf1cba223fb090"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf",
+      "size_bytes": 4339040,
+      "sha256": "aae7ae7a29f693a4f9243241556978ae034b17b5e0039f8252ec83e12c947e08"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/pdf/「有棵树」BI案例分享.pdf",
+      "size_bytes": 586815,
+      "sha256": "41f4073391f34a5b25407a37cfa0001635c43b242b833d404b0391043cba649a"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/pdf/碧橙_BI数据应用平台项目方案_观远数据（202305）.pdf",
+      "size_bytes": 23105154,
+      "sha256": "edf5263932238c8568a22bf965333df5f4ac88e71dc0eb5c17aea226ef17fd75"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已入学习队列/pdf/鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2.pdf",
+      "size_bytes": 4533234,
+      "sha256": "47b925e56100b387c64cebede63d4091386f1848ac95e13f0dcff1d14ec25116"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/【内部案例】从“试管”到“订单”的数字化突围：十亿级CDMO企业的全链路经营分析实践.md",
+      "size_bytes": 14387,
+      "sha256": "c933f27a910ec4ec670e2eca7d873585f20a2608956dc1bb151177e9793d736d"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/为高速战机装上“数字驾驶舱”：昊志机电如何驾驭数据，实现战略升级.md",
+      "size_bytes": 11222,
+      "sha256": "ba0c884ff7048e2b69385b0b56477f4f963108a7d49f7c675dfedfb38f347c1c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/制造业拓展2026（持续更新中）.md",
+      "size_bytes": 25506,
+      "sha256": "f76cd952afe0fd2f1e3cdfa5d79bedf5be4d46600d32cc7467ead19422362982"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/来伊份的补货场景预期的难点.md",
+      "size_bytes": 7272,
+      "sha256": "9891ce2611ba4b833fc6d7ed872a95c89ae38ff83cd610e4676ed65515fd5f9e"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/某医疗器械上市企业BI营销分析实践案例：以渠道效率与技术品牌双轮驱动医疗设备业务增长.md",
+      "size_bytes": 8274,
+      "sha256": "1bb0e1d459e58d48a88ffbd24301f98d330adc90b6afb57c3257b8dfb96bc95a"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/督导巡店、门店管理不用愁：观远ChatBI在一线业务场景中的实战应用.md",
+      "size_bytes": 13727,
+      "sha256": "e4a7e32498dfbf42d39c63095f1a4cf1afc24edd98f8e39fb95dab97543c48a3"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/观远数据出海标杆客户案例集（东南亚）.md",
+      "size_bytes": 28128,
+      "sha256": "4ace244c5ed8b346a53963f9ad502e08675498b17df6a4be00ecbd1df7fc3075"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/跨境电商 - ABM物料.md",
+      "size_bytes": 7843,
+      "sha256": "b084430bd409a61ee6dfacd0b7e0eff6d763e4c0b03b0e515eb42daf6d0f7667"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/md/跨境电商出海吧🚢.md",
+      "size_bytes": 31852,
+      "sha256": "5d659780a9c81849757fd2be58758cfb0a7f6b047cd92e4899812c14f6a09c06"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/Fila供应链.pdf",
+      "size_bytes": 39046182,
+      "sha256": "5d2e578d5ea505bc21fa4b88358e87f1a74f65398aa073ff28cd7d05dbacdbf4"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/GAP中国BI数据平台建设解决方案.pdf",
+      "size_bytes": 67548640,
+      "sha256": "9af507321d70cc4d6d8d5eb4f87040d07be593d64ad1b5357b46668c7635ab6e"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「 连锁餐饮-BI」夸父炸串案例方案.pdf",
+      "size_bytes": 32383050,
+      "sha256": "c24e05e1c5cd0f8806f77b86cf807357d90738e1f1f4b04b938af1961eb24cfc"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「babycare」BI案例分享.pdf",
+      "size_bytes": 28407474,
+      "sha256": "24572035dd560b3be3a3c416c57d4287a9755029fdb8af1283ef94af5aecc5c3"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「互联网+」新能源_详细案例_晶科科技.pdf",
+      "size_bytes": 3209526,
+      "sha256": "7e49e9b0a225b11f8b422ead83d0b59c61c724a230bce34a8a2ddccf309714ce"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「互联网+」智能制造_详细案例_小天才.pdf",
+      "size_bytes": 12652851,
+      "sha256": "89de4d646b7d636dbde830789d318c0d94c10e3c8397fa3134073c1e345226f7"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「吉家宠物」BI案例分享.pdf",
+      "size_bytes": 6443004,
+      "sha256": "6e3199d0d1678c47c24216af0a857afed6e3668069406ec576605e73f8e4cbc6"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「品牌零售- BI+AI」锅圈食汇案例方案.pdf",
+      "size_bytes": 6218122,
+      "sha256": "eaa1b3fb2836332146a54bed75186310894e4af0f85d3a5020a801d99aa04422"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「品牌零售- BI」六桂福案例方案.pdf",
+      "size_bytes": 9971591,
+      "sha256": "c70c3ae9b4bf23b030fc9b46350746a13e1ed1e3199076c337e8c76ed04f21f5"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「品牌零售- BI」北国珠宝案例方案.pdf",
+      "size_bytes": 6929525,
+      "sha256": "ec1b1f6707d9a39185d0e836d8574ad84defd2bea26cd4e25a71e1f243a618da"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「商超便利- BI」全家经营分析案例方案.pdf",
+      "size_bytes": 27803034,
+      "sha256": "1bb3fe035e6bddc4fc810b21bdeb4b769d94265804be8a24e9ef2de999dc0b23"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「地素」BI案例分享.pdf",
+      "size_bytes": 382009,
+      "sha256": "0edd916f2db14f520419720aa7730f942dcb6cb47d8d74713bdadb081849fe53"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「官栈」DP计划助手解决方案202303.pdf",
+      "size_bytes": 1658700,
+      "sha256": "38aac96ed0d46b339154386dc95188d4a852d8f7ed2c200298b87d8606351422"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「宝洁」客户案例总结（线下渠道分析mobile）.pdf",
+      "size_bytes": 12304853,
+      "sha256": "42249f5176bfdafa90a3d2e65e70861201432f2761d5cc2fb3e84c9b6c43b15c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「徕芬」BI案例分享.pdf",
+      "size_bytes": 8011867,
+      "sha256": "ae14b174bab373fa2773f9496104ef1300e8a75a7967ca2ca9e525c7ade7bb54"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「王小卤」BI案例分享.pdf",
+      "size_bytes": 6007970,
+      "sha256": "74bfb8a600cdb93a5f9310b764e183ac662e2f2e8bc64a1cd064863e9f9433e9"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「秋田满满」BI案例分享.pdf",
+      "size_bytes": 6443008,
+      "sha256": "28b9f044c7c0f421a5c486593f9f4e849d9da82adf6c1eb16790c3b30186461b"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「联合利华」客户案例（物流成本分析）.pdf",
+      "size_bytes": 3205890,
+      "sha256": "46d9dee309fc426c14b203c6c831af399c0b39d948d00c3709c74f2858924114"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「茶饮咖啡- BI+数仓」蜜雪冰城案例方案2024.pdf",
+      "size_bytes": 18984868,
+      "sha256": "6c08e26dd3d270bdabcc3febcd00c48f296cd0779bc53590be1c76b51da25bd1"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「茶饮咖啡- BI」COCO案例方案.pdf",
+      "size_bytes": 6815141,
+      "sha256": "1093030e4b2471667b7e62f77d7a531b70324ea696cef1cbd3352d9ec7205dc7"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「连锁餐饮- BI」-老娘舅案例方案.pdf",
+      "size_bytes": 164599613,
+      "sha256": "f34bb56fc204367276bbf73d7e1c2c01ec60153d73bccfb9767a4aa358e6b2f5"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「连锁餐饮- BI」张亮麻辣烫案例方案v2.0.pdf",
+      "size_bytes": 41806728,
+      "sha256": "0d75a4d7dee9d13f14bd9e697b8283cbf6d3c6c9d945134239387d85b6c0695c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「连锁餐饮-BI+数仓」快乐蜂案例方案v1.0.pdf",
+      "size_bytes": 27915216,
+      "sha256": "414c7d2b90fd944c9fcd00b150970a7ce599806f3590675adac8859fecc316aa"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/「连锁餐饮-BI」遇见小面案例方案.pdf",
+      "size_bytes": 8174701,
+      "sha256": "4d499a002c0c429df196e101d19bdab1b6343c7c3c634a13978cd12515a01593"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/【可外发】-BI是一个六边形武器-零跑汽车李盼盼-市场反馈版.pdf",
+      "size_bytes": 2984090,
+      "sha256": "6faf85726c3a6a5f33a4139b8a72818904f82173005121c779e6bba62b4f4b9c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/【茶叶连锁】八马茶业_案例总结_20230218.pdf",
+      "size_bytes": 20066350,
+      "sha256": "2affac30fbac27e30d60bedc0cf1f74bd41b324dd4cf28c382eaa26a9e2def81"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/【连锁茶饮】Linlee项目_案例总结_20230218 .pdf",
+      "size_bytes": 106751777,
+      "sha256": "083437de8f8476015245a6011985c8579299722ac5b381f31eb069bd650bf370"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/欧力Data Hub搭建及应用解决方案(整合版)_230130.pdf",
+      "size_bytes": 13058762,
+      "sha256": "b8fafb7c0a706f8a86708fbd221ca3b1f0b98528f29a698d07dffc03130800e3"
+    },
+    {
+      "path": "dingtalk_2026_03_28/已转正式资产/pdf/海天味业新零售业财&供应链数字化解决方案_20230815.pdf",
+      "size_bytes": 5704921,
+      "sha256": "7304b766b29373ec5bd1d15ebf1291a0c6b00427b9c80abd7331e9d5da999557"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/20260114.md",
+      "size_bytes": 651,
+      "sha256": "6078883c00aefb31e6cf8f48d3d99439cdb461578a7640e5b908bfbe3e94f03c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/2026精品应用：内部流量入口抢占、价值工程核心内容分级运营及内刊预启动.md",
+      "size_bytes": 3735,
+      "sha256": "3e0849ba0cf328b65913fc5d5a23956d3f614b267225a6968c750df4e5d0ba7e"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/Guandata x PT Berca Hardayaperkasa Intro Meeting Prep.md",
+      "size_bytes": 16615,
+      "sha256": "451e3dffecff34f07c437d85b873d51f190f1133c9ba81ddb4762e157675e090"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/「上美」BI案例分享（待补充）.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/「华润雪花」BI案例分享（待补充）.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/「微念」BI案例分享（待补充）.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/「李子园」BI案例分享（待补充）.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/「海龟爸爸」BI案例分享（待补充）.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/「物鸣」BI案例分享（待补充）.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/历史潜客筛选条件产出反馈.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/场景列表.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/客户需求汇总.md",
+      "size_bytes": 2716,
+      "sha256": "3a04c6828a65a20f63537c56eb0660f44c4e772b1a4e1d9e1868da97cea76ecb"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/经营业绩部分.md",
+      "size_bytes": 5437,
+      "sha256": "be0b15eb43188e63d20b0d6d01f4f87cb4b0c91ae24da6ec2d0ed6f902a0b02e"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/观远数据TCO对比白皮书（印尼市场版）.md",
+      "size_bytes": 8248,
+      "sha256": "1ba7f33f52f5ec870a5492e55d31ede6c80978543447bc9a0377a0254d4e1785"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/md/造数 Agent v2.5.md",
+      "size_bytes": 3689,
+      "sha256": "1d31a66e3d784876865af348b52f88520b57f8c6384bb4141e4974f23fdce56f"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/2022观远峰会-快看-11.18-V2.0.pdf",
+      "size_bytes": 1965389,
+      "sha256": "a7f97df649916f6d927d6650a6566d2e4b8dda93f76e0520e632203099c3c626"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/[GuanData] 鹿客BI数据应用平台解决方案_231008.pdf",
+      "size_bytes": 6301161,
+      "sha256": "871e775d166cbddc53975617b25d58c4503179c10469b0dad186366446c3d0bb"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf",
+      "size_bytes": 21376925,
+      "sha256": "75881c6b5cf7e93de14d45f122b557572c5d7a8ea25e7cb8cc05c5753135e3cb"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/[观远数据] 五粮液BI数据应用平台建设方案_240129.pdf",
+      "size_bytes": 17850012,
+      "sha256": "e2c43933c9843f0fe6161728a8caa53c48e9b5cd39273e6c33668265062bf787"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「Wonderlab」案例分享.pdf",
+      "size_bytes": 1907181,
+      "sha256": "b64dcaefbdbbc90b459b2bdaab8875ff325d013de6a82f8204f54299a8c8104d"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「互联网+」企业服务_易快报(合思)_售前分享版.pdf",
+      "size_bytes": 5759578,
+      "sha256": "26f74f65840b6a968ba2d20c757586a13e645521f5882838109f9702aa44bcca"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「品牌零售- BI」气味图书馆案例总结.pdf",
+      "size_bytes": 27177705,
+      "sha256": "28ef64b05cea08827609bd0a598388327d6e6a02b41a1a1d2150bd51436f2ddd"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情 _BI」3C-素士.pdf",
+      "size_bytes": 859752,
+      "sha256": "8de098153ac79998fbe65a6ca42c1ef08650e7e00b9904d98d1913235c7cd541"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」家清-联合利华UL.pdf",
+      "size_bytes": 17038679,
+      "sha256": "188dc6e5c91673cfa425c962cd0536c0206c2e40bda40911598c2d0ca0395565"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-LVMH.pdf",
+      "size_bytes": 1781313,
+      "sha256": "1b71524c2123febe227cf6a41e4ded15847ba4fb0d3a981d7f8714722776d336"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-丝芙兰.pdf",
+      "size_bytes": 2512899,
+      "sha256": "abe4cc86f769b4b6e051abff353e9e33bf6b8eae617fda5c070912706f2d2fb9"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」母婴-惠氏臻朗.pdf",
+      "size_bytes": 72128375,
+      "sha256": "0749e009e4295b8ae63bc9a5fa58af0c0d7aa249b4465adcd06af62fc7686b69"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」白酒-舍得酒业.pdf",
+      "size_bytes": 3705826,
+      "sha256": "c69a009afaabd1bcf38aab92e2445a6e3472920d444b41b6ff229dcb91867991"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」美妆-colorkey.pdf",
+      "size_bytes": 20752777,
+      "sha256": "cebe1bd93aa229cc71f05cecb5cdbcac49109e8b938a5ebf4b75fbd10be3ea63"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」食品-王老吉.pdf",
+      "size_bytes": 5029143,
+      "sha256": "0691e5276e6867e841e3395a14b73a2ff678a58155eb79e5330af484e351d087"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-简爱酸奶.pdf",
+      "size_bytes": 3881095,
+      "sha256": "38179dbee30a173b9fc41d8c2c8c9ef7e1ce0809168064eb27ffb033d82c5a68"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）.pdf",
+      "size_bytes": 13052178,
+      "sha256": "8122e810b6e9d066269a5b56a365ec5bf833c58112d8d2caa2f82f09a9cdeda5"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「森马电商」BI案例分享.pdf",
+      "size_bytes": 983153,
+      "sha256": "6263501e9efffcd60423d0473a68db3ef85d8870022f35b2ec00df53eaed81f8"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「珀莱雅」BI案例分享.pdf",
+      "size_bytes": 2146548,
+      "sha256": "ee6024f8ca5eb1b298bd9ed15ae8842636eed0c03b55994c4ee47370ecafc93e"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「自然堂」BI案例分享.pdf",
+      "size_bytes": 2146562,
+      "sha256": "97042fc6cf9d6e56b2e1a4721de6faa82b78268d033944db0908e19b9fe8017b"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」德克士案例方案.pdf",
+      "size_bytes": 9047450,
+      "sha256": "2891683576b0eb8d42ebb4691e9edd8121bc192eaf00956b34552cf3854a2ca4"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」顶誉食品案例总结.pdf",
+      "size_bytes": 7044283,
+      "sha256": "fbee08e4e979ec4d07758890bd96d3e62e948dcde0d2217b7fa0628aae3115cb"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/【母婴宠物】观远BI典型案例.pdf",
+      "size_bytes": 6442139,
+      "sha256": "04175562440975e15ef0cceb2518b9f0e17208511bfabe84670bb3ac6ad5a777"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/【美妆个护】观远BI典型案例.pdf",
+      "size_bytes": 2145917,
+      "sha256": "64933d1c3a2b2980defc4351ec9fc89dd186f0f3bbc016b8ae8fe66b271e0499"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/【连锁餐饮-BI-详细案例】遇见小面.pdf",
+      "size_bytes": 8174701,
+      "sha256": "4d499a002c0c429df196e101d19bdab1b6343c7c3c634a13978cd12515a01593"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/【逢时科技】数字化运营分析平台_项目方案_by观远数据.pdf",
+      "size_bytes": 42975289,
+      "sha256": "3c3b007b94d00d195cbc039118358a0c7b29d75fe9ec23057ffe4d41454c1cdd"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/【鞋服】观远BI典型案例.pdf",
+      "size_bytes": 1947809,
+      "sha256": "209ea6ef67bd40f8fe6288ff24b012fdaf6c9ba5549c8a401611627ce4bdcd3b"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/【鞋服行业】首威集团_财务项目_案例总结_20230218.pdf",
+      "size_bytes": 24412493,
+      "sha256": "30c081bbe01b26a6c6b4f0f26c6aecade85e7d1e7a3496b924772b2b864a5d2d"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/中信集团案例分享#20230708-脱敏.pdf",
+      "size_bytes": 37427859,
+      "sha256": "6190f0a647fe5277ba96033a95693a2a1d1004b46cd1c54369a54f18868df767"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf",
+      "size_bytes": 15610217,
+      "sha256": "8220df246a39b238e86b83f0cea00c807c59745de7c0ff662c3a6eac899119c0"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf",
+      "size_bytes": 13462230,
+      "sha256": "6ec1712ba34affa38f1f052298d358fab88d60f2e6b992e12b3afe7f736bdf7a"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/太平鸟.pdf",
+      "size_bytes": 181262,
+      "sha256": "d7713b9fd7167d0158eca79f8496533c2d11e7e41c1cd4c557753aed08ec7dfa"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/安踏.pdf",
+      "size_bytes": 7874077,
+      "sha256": "1970fc918575ea249f29a8dc02c5f9e6e135fdd0fb98baa2ea7605f09636db3d"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》.pdf",
+      "size_bytes": 4385033,
+      "sha256": "b6d9ee05c61eeef502f23c75605a59dffec74f60d37499e4a09cb0d83cd42850"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/斯凯奇.pdf",
+      "size_bytes": 39971847,
+      "sha256": "d270d9e3a54748ce4b17ad27066e57e55fee38a9623bcf10ab27cad02ff61fdd"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/柒牌经营分析项目观远供应商提案汇报_终版.pdf",
+      "size_bytes": 6173155,
+      "sha256": "eee32e9cafaa14fba04e6bc74bbd59e9498f70b653bcccf128a13b58b3a85213"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/派乐-一站式数据智能运营解决方案230628.pdf",
+      "size_bytes": 12317957,
+      "sha256": "5b041d0e7af499f157786bd8f768a0bd1551bf68a5a7afcd776937f590e10903"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/艺之卉数据运营高层汇报方案.pdf",
+      "size_bytes": 33948874,
+      "sha256": "896d46d26369b14b4a0e75e6d9a7685f61622bceeaaafd4a47f1bfe921af9707"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/详细案例-商超便利-全家.pdf",
+      "size_bytes": 4067223,
+      "sha256": "848d7bc7f1ee57f988af3d88a379a13587c3a43bdba7142f04c3525de98a80d9"
+    },
+    {
+      "path": "dingtalk_2026_03_28/待评估/pdf/赛百味智能数据运营项目规划方案v1.1-观远数据-230822.pdf",
+      "size_bytes": 11403528,
+      "sha256": "aaea4638dd81b75a41640d4c1f674baa2d3f63394028cc694ed4d03ac23f07c4"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/0115第一次会议(启动会).md",
+      "size_bytes": 31085,
+      "sha256": "214fbd91558792a4227d1e7b53e248dff6b9b7985a005cb09f18492d5611334f"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/2025-2026年会主持台词.md",
+      "size_bytes": 22001,
+      "sha256": "b2be15d725e5bed9c57bbaaacec9636576eb52a508082b6e6d81f6af7a1f71a7"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/2025H2个人概要述职-Claire.md",
+      "size_bytes": 2691,
+      "sha256": "1863ba7374ce378ea085422c3fd881217724eb09c66cc3c5eaf00836cae56545"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/20260226 meeting notes with PT Berca.md",
+      "size_bytes": 7419,
+      "sha256": "6c95327cd08111434e3eb5be7f31046ccfe81a68066082c5b406afb88725baaa"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/2026年市场品牌内容规划 - 草稿素材.md",
+      "size_bytes": 51281,
+      "sha256": "231bba571352ceac56aa88876a92a88948b932479ca2701f0367d94b639f3ff5"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/2026年市场预算.md",
+      "size_bytes": 12084,
+      "sha256": "df45f3f7417858b5df1ac702952a96093c58cd11b3c025e407476495cd5e7cc5"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/BBSTop问题.md",
+      "size_bytes": 508,
+      "sha256": "2cd18d1f23e198f499090f3877e95152deccd9544e7b3dd3da55eee816a95a09"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/Guandata APAC Partner Communication Playbook（草稿）.md",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/SDR 工作指南.md",
+      "size_bytes": 7927,
+      "sha256": "a5c93d6702b7cb56bb4df0ea5e0cfd52a0e787136c661919d65f631d8943e99c"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/SDR团队现状与优化建议报告.md",
+      "size_bytes": 2748,
+      "sha256": "892622e3d343d231328e88cd1af3c876cccef1c30b056415ba7cb047958cdb83"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/Sensitive.md",
+      "size_bytes": 4372,
+      "sha256": "72951e866468e3ddcb925b269026eda4ed0d214ffdf76c7cf7bd51d9b9029a90"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/Try again.md",
+      "size_bytes": 589,
+      "sha256": "edfa1186679d5104a2e0463ff539690ca3ec1a511ac57661d3bb1e0898f3e5f6"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/产品相关内容关键节奏拉通20260204.md",
+      "size_bytes": 3606,
+      "sha256": "938bd0bc028d82cb9343ea1ede1fe94eed394b3560b79911f10b50e300a40191"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/价值增长中心岗位及架构调整会议纪要.md",
+      "size_bytes": 2701,
+      "sha256": "ad9d5229d802b28533d86dbcb3a05b5c3baf7f809c35c874bb806dd98c1857bb"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/价值增长中心｜Q1经营月报- 3月17日会议版 .md",
+      "size_bytes": 29052,
+      "sha256": "003ded29f3427ab57fcde0a0eeb655a4b6a77fdbdbca93f3abd10d1da511fe21"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/价值工程2025Q4复盘.md",
+      "size_bytes": 11454,
+      "sha256": "533e31456d0f88fa28da81d41d3fc4f4dd9e8274e91e079d8719c5faaf2fa630"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/关键指标定义.md",
+      "size_bytes": 3183,
+      "sha256": "2dafd2c486dfb5d042c2386214ee219d5581820560f995d20a32033df0944332"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/周度SDR MQL线索统计表.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/周报草稿0309.md",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/周报草稿0322.md",
+      "size_bytes": 26228,
+      "sha256": "05ac266c74b1d843fb0eae18c8538b9a8e80600be3d70e83933a33971f46fdae"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/售前岗位AI能力评估表（Level 1-3 完整版）.md",
+      "size_bytes": 4359,
+      "sha256": "bb2dcf401205495c7deab609fcfb778f945267c64b999ac0d87ed4e0e4708429"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/备份.md",
+      "size_bytes": 12308,
+      "sha256": "887fc35130931f1b019eac29c6dee8ad8c4aa68dcdd62fac2899443b708ea55f"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/客户案例知识库管理设计（v2.0）.md",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/市场预算2026问题.md",
+      "size_bytes": 2091,
+      "sha256": "6dcdef5426a151d813c803f3868aa89a8cf39b85d823edb55a9d7d3c3a6aee8b"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/无标题文档(16).md",
+      "size_bytes": 13393,
+      "sha256": "e242111167f6f2a99ea2c7f1d43b688914603f1d7bb885e8ef460a7d406d3878"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/无标题文档(20).md",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/普通表格测试.md",
+      "size_bytes": 5,
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/测试文档.md",
+      "size_bytes": 16,
+      "sha256": "483234386e9bdbde9c0e6b829168a9c50f7fb11833e5bc8868c01c35563047f9"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/观远数据印尼出海项目潜在合作伙伴跟踪表（2026年3月更新）.md",
+      "size_bytes": 3631,
+      "sha256": "3b46ca63c5fdbc928be213a9f08eee5d21a4a5d00d65cb79a7e7449869b1c971"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/观远数据品牌人设手册（2026Q1修订）.md",
+      "size_bytes": 11409,
+      "sha256": "b01ef6b2d8bc5768c381890fcb01e1b697b570c3a5739f4b86a671b8a1aef373"
+    },
+    {
+      "path": "dingtalk_2026_03_28/明确不学/md/风险2026.md",
+      "size_bytes": 10075,
+      "sha256": "f598da9c7baea6944af2bf533534db72e8de114ca7d83e6617cd210748d451a9"
+    },
+    {
+      "path": "geo_l1_cases/已入学习队列/docx/数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”.docx",
+      "size_bytes": 3130348,
+      "sha256": "af706e2a9dcedc3d3e17959d356a010e8e1fa55e00df103e7c2dae7f4b9b9758"
+    },
+    {
+      "path": "geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx",
+      "size_bytes": 1382939,
+      "sha256": "cf48e2956ecafce200aae4ec6e30d3281b5bbd8977145e2eb9f5b0b5d368226c"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？.docx",
+      "size_bytes": 2436152,
+      "sha256": "6706c5c2c5f0b2ffb0acd98f5b5bb3c615b2c672638c023a16563f6fe700ac96"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/七秒易购的数字化飞跃：以BI赋能供应链精细化管理.docx",
+      "size_bytes": 2366194,
+      "sha256": "c7f6a013787f257a4fa2907ca78562a05a68c9e56fd633dab1f47a0ce561577f"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系.docx",
+      "size_bytes": 809555,
+      "sha256": "d633628313ddadf53768251d206d5ca6c079b6de35b5ff30d22177bce2dff627"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/分货效率提高60%，丝芙兰中国“让业务用起来”的门店新品AI+BI智能分货案例.docx",
+      "size_bytes": 1571391,
+      "sha256": "3b9e2b86162b9013cfc2f04bbaead49111fd35e8ab0e8264cc1007dab00239d5"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践.docx",
+      "size_bytes": 2355461,
+      "sha256": "3c0665bf1a6eefd03182d6448c4874f6f132c6a1e93a3acfbc71b83ca8c35828"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/员工使用率93.2%，慕尚集团BI数字化建设经验与思考分享.docx",
+      "size_bytes": 3407597,
+      "sha256": "5db8d11317ba48aeb0273035c57a5ee1127a0d4b0d6588b973e00adb906e6656"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策.docx",
+      "size_bytes": 2928463,
+      "sha256": "acbde4af17303f0bfabdb5ddeec6c2c66fb83cca6454d4cdc31649a435585ca0"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/对话彩生活：“互联网+物业”数智化转型的BI应用实践.docx",
+      "size_bytes": 1101764,
+      "sha256": "7d2f74ae4f4b6a0639f8eb033433c187f8b4afd526dc480eed794eeaa1a9599b"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长.docx",
+      "size_bytes": 1283969,
+      "sha256": "f8366792e2af1952d8cbd0af5dfa0c5bc87b5a01f88a8c9ad2fb97c3ab2f8a4f"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/用数据驱动全渠道增长：花西子与观远数据的敏捷经营实践.docx",
+      "size_bytes": 1366422,
+      "sha256": "fbfcd64c11332534a2ecf93a04cdf2a7ab5377e78932c736508dce93e439f7ee"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/突破零售增长瓶颈：蜜思肤以BI全面赋能业务管理.docx",
+      "size_bytes": 2123864,
+      "sha256": "cf1ea16b5ff9bed94e86d4e144e15b69479acb419e6bcea31dff9eac10fd17c4"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/自然堂全渠道数字化创新和AI实践.docx",
+      "size_bytes": 1442760,
+      "sha256": "d523d932d27a44019da566e7decc7a12453fd93ef48ca2b9a737834c24c20f0b"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/自然堂集团×观远数据问数GPT项目获评2024中国“大模型+数据分析”最佳实践案例.docx",
+      "size_bytes": 2120639,
+      "sha256": "7b95344119d58e69d41345763724e99f056c356f9698414101d8f2eda9277695"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/行业洞察  出圈之后，NEIWAI内外、Ubras如何以数字化推动品牌长红？.docx",
+      "size_bytes": 1876993,
+      "sha256": "ddc0c0ba1331b949ed3cc1801995333388a8e4b3b3bf666fc701e06e87757e75"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/西瓜创客 × 观远数据：AI+BI实现“让报表开口说话”.docx",
+      "size_bytes": 2590606,
+      "sha256": "08d8eefb76890a0949418c30fcafcaff7c64b4bd6dc2e9d492ea0755f6db3a3f"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能.docx",
+      "size_bytes": 3761745,
+      "sha256": "7dab5b48826518758af95bc1c760e8f644e4cc82e48e8c34efa967e244918e45"
+    },
+    {
+      "path": "geo_l1_cases/已转正式资产/docx/观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例.docx",
+      "size_bytes": 3949965,
+      "sha256": "bff6f2a5fa1925a60fc7eaac35b2cb1a67d40e07304a36b8fe49112716ec252b"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/131%直接业务增长，星星充电BI+AI数据赋能实战案例.docx",
+      "size_bytes": 2053485,
+      "sha256": "2b0416c223ce304b41b5de9d1b766955ed6bd0ea331a7ab219c4c67446ba5784"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/1713亿市场竞速赛，观远BI为百亚股份装上数据引擎.docx",
+      "size_bytes": 1575692,
+      "sha256": "6d75ec233c6ec9f4b7ce679ee640ea76d8f1510763289b6049c436240638739a"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？.docx",
+      "size_bytes": 1910473,
+      "sha256": "8cd08290a2412dbd0a3363e9113ca670622ba9987d6a39db9b5aa106ac9bbcd6"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/BI赋能，华夏乐游从数据资产到价值变现的数智化实践.docx",
+      "size_bytes": 3116858,
+      "sha256": "d4eff6ce914e75e0b0a68af45842eb946c83cb36d8f4309c7803abc8f029a2fb"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点.docx",
+      "size_bytes": 2356781,
+      "sha256": "7f4859555dad48946c97d5d8c28f108e8c3242fee182b1598ba9fc64eaa9209e"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/业务提速300%，用友薪福社的BI建设经验分享.docx",
+      "size_bytes": 4041234,
+      "sha256": "fe51cb38d00e3237f29814f7a0db8df676fc047416848e89c5a45ba81623d24e"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段.docx",
+      "size_bytes": 2851362,
+      "sha256": "eb2633213c5731f357e163029f2f222fa82ca8141f4e20131711421545de5839"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/从30%到93%的效率提升，香蜜闺秀数智化运营决策体系建设实践.docx",
+      "size_bytes": 2271846,
+      "sha256": "23ff29ac2e1e5e93d12ddd4d3bf7ce232bce2a8625c8d4e121040e90850f3fc8"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/从“靠天吃饭”到“靠数据吃饭”：凯盛浩丰与观远数据的五年共赢之路.docx",
+      "size_bytes": 1673411,
+      "sha256": "10d521b5886d4973c26f66ff76da6f7b75f48a88b9f664802b7e0cb05b78da65"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/凯盛浩丰于浩杰：92.4%的BI平台活跃用户，真正把数据让业务用起来.docx",
+      "size_bytes": 2380113,
+      "sha256": "a59fa8405dedfcfc425b0b929d977b49082eb29dc09d9555f33c073947c9ff78"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/凯盛浩丰：一颗“爆品”番茄从种子到餐桌的数据故事.docx",
+      "size_bytes": 2191421,
+      "sha256": "94762968b6de5f790c3179575baa03949aa0492c3ead81ec968e72c16565a81d"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/吉家宠物张志伟：宠物行业全链路数据分析方法论与实践.docx",
+      "size_bytes": 5367602,
+      "sha256": "3c3e49f19e5b93c54b407e326798ff7985793faad9fa5676646da627ba74fa5c"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/君乐宝如何以观远 BI 有效提升企业级数据运营能力.docx",
+      "size_bytes": 1764617,
+      "sha256": "7a4d50ff068206e6f920bb53d003f9a5986c55c4c0b6175f0d2777ecca2d6362"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/君乐宝集团：BI平台月活1500+！数据赋能业务为企业发展注入新动能.docx",
+      "size_bytes": 2407865,
+      "sha256": "1935a00997961b6e62258c320d6ad576a0c0a5e3cc427c831010a37635d6b93d"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/君乐宝：如何有效提升企业级数据运营能力.docx",
+      "size_bytes": 841225,
+      "sha256": "a79f6bd2db7d1a3426269e1ff5d88598730271e7c42f3e171855670ea6e275c3"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/品类王者！王小卤以数据贯通产品、渠道、品牌全链路，撬动增长飞轮.docx",
+      "size_bytes": 3009648,
+      "sha256": "4d0d3b407ab51292610b95e156037115e86946b692b82a1cb6783e9c63f3fa5d"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/复星星选：聚焦以终为始的消费者价值运营，绘就产业数字化转型蓝图.docx",
+      "size_bytes": 2580614,
+      "sha256": "1e82cc4db8d4cf138abf151e236b1f33daec2c8c32eff59a3387934e6fceb92e"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/夜郎古酒业签约观远数据，一站式BI助力企业加速数字化变革.docx",
+      "size_bytes": 1729228,
+      "sha256": "2109172d8e921485ab966d8d00047d06589ae8489470b7f3de9ef716acbaa387"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/宜信 × 观远BI  捕捉1%的数据波动，驱动业务运营升级.docx",
+      "size_bytes": 1822849,
+      "sha256": "f8bb64f1d22d953889eb7c19954cca4ecc2e332f0134d38ae7c7fca6148919c0"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常.docx",
+      "size_bytes": 1572719,
+      "sha256": "f0da72d032ec4a95066d8035d76419c3f32c9b8ea462b6fa6fce05902dbd2ca5"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/对话雪球：互联网企业如何让BI用起来？.docx",
+      "size_bytes": 1292524,
+      "sha256": "637aa8adf62cbd3dd6309bed203e41bd08bfaa00e4fb6f51709c206dff3bd960"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/对话鲜丰水果：打造5000人数据驱动决策共识，BI赋能业务经营提质增效.docx",
+      "size_bytes": 1406672,
+      "sha256": "1f0bb3666edcaf66094365e78b87f8f44b177241dcf5de7849c6804469ac6beb"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/库存成本下降43%！观远BI助力范思蓝恩以精细化运营降本增效.docx",
+      "size_bytes": 1757736,
+      "sha256": "4f4b4c50049e0cbd5e71effdcb3a16458d7949c8a3bde4fdca8a50df19b0789b"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/微念CIO鲍程成：想到、做到、达到，充分释放BI价值.docx",
+      "size_bytes": 2178175,
+      "sha256": "f563e352ea5bda467423dc80a22661ae5a1ee2db3172329b9fa356c0b4833796"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/捷能智电王夏晖：BI要与业务一起成长.docx",
+      "size_bytes": 2355357,
+      "sha256": "e092a3126d105d939fb91055dc9df145aeec2306fdbe13255067d01c5363e0f7"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/数禾科技王冠军：语义BI 数据民主化进阶之路.docx",
+      "size_bytes": 2837313,
+      "sha256": "0dbab7888485804639b7d232820e30ddba20b4173c7ee2786f31e622675b4182"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/新东方李枫：从效率提升到精准决策，AI+BI数智化进阶的实践与路径.docx",
+      "size_bytes": 2304682,
+      "sha256": "3e6c1f77de2f23bcd7ea1ae28d50255c226b2278bd0d63b80b59484df800ec5c"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/智联招聘：BI实现多种数据的互联打通，为企业创造更高价值.docx",
+      "size_bytes": 1599866,
+      "sha256": "00399b146f63b7ce108559f886fafda16dfa53ce7fb592db6e28351c427eb2cc"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/来伊份余迁：BI建设要拥抱业务，服务业务.docx",
+      "size_bytes": 2545257,
+      "sha256": "e5dcd098fc9275d5de61de10c3fd336269feaa5f6eef98220eb4eeb504f96b6a"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营.docx",
+      "size_bytes": 3520812,
+      "sha256": "8ce98528ffa96f180250ea19de2fdcf2d55d4097e0eb2717abf0b76843c5f665"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/每日的菌创始人杨敏：从爆品出圈到价值沉淀，实现破局增长.docx",
+      "size_bytes": 2668023,
+      "sha256": "4b67a6e1250dd638451ddcb25681b73662b60b23081c8014b731dd5f4187dd3c"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/气味图书馆CIO温晓莹：1周VS1小时，BI为业务提效数十倍(1).docx",
+      "size_bytes": 1157736,
+      "sha256": "414ba8604cdaea3d9f004b9267224c8734b06f55f9f7ba072730c7b38b412de1"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/水星家纺CIO刘峰：从BI深耕到AI洞察的渐进式增长实践.docx",
+      "size_bytes": 3528042,
+      "sha256": "7e46780d9f71658ef1513e0935d91339e9205c44074d7ef0b0e6daad0a8d1f41"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/独家对话元气森林，揭秘崛起背后的数字化策略和生存法则.docx",
+      "size_bytes": 352574,
+      "sha256": "c98e50f6bc9b7f531647e1db2322962e77501b07fb001a2d437504bc691b09c9"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/维他奶：传统消费品牌数据驱动转型，如何Make it happen.docx",
+      "size_bytes": 1695167,
+      "sha256": "bf2058fbaf535577135eccd6b83537b5c7779ef5b94df233a4a8460067ae6b3b"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/舍得酒业成轩浩：从经验驱动到数据驱动，BI赋能敏捷运营.docx",
+      "size_bytes": 2899298,
+      "sha256": "5bf367a26ffd595de5f0fea4c5e2a1e6456e6253cbb67ab3bd3b1226d8df0324"
+    },
+    {
+      "path": "geo_l1_cases/待评估/docx/观远数据斩获舍得酒业 “全域数据协同标杆奖”，数字铁军铸就酒业数字化新标杆.docx",
+      "size_bytes": 2665619,
+      "sha256": "56a2952ec74af9555fff6aeb59225f88077e8339576b78bd28609536fee01ae3"
+    },
+    {
+      "path": "geo_l1_cases/明确不学/docx/快牛智能数据分析平台项目启动会圆满举办，观远BI赋能企业经营管理提效.docx",
+      "size_bytes": 1408388,
+      "sha256": "3c4c6fc729751a1a0141d9c59fa444e38b73e5c965193f00d5b4cc99c1bafddb"
+    }
+  ]
+}
