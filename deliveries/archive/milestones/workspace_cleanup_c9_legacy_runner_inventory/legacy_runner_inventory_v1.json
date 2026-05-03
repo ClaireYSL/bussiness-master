@@ -1,0 +1,1039 @@
+{
+  "milestone": "C9",
+  "generated_at": "2026-05-03T12:03:55.995031+00:00",
+  "status": "PASS_C9_LEGACY_RUNNER_INVENTORY_READY",
+  "summary": {
+    "config_count": 92,
+    "config_write_back_true_count": 15,
+    "script_count": 52,
+    "script_legacy_or_builder_count": 48,
+    "trusted_mainline_script_count": 4
+  },
+  "policy": {
+    "new_default_runner": "trusted_pool_runner",
+    "legacy_workbook_runners": "保留历史兼容；涉及写回必须依赖现有 legacy guard / override。",
+    "config_mutation_in_c9": false
+  },
+  "config_status_counts": {
+    "legacy_or_report_only_config": 77,
+    "legacy_runner_config_requires_override": 15
+  },
+  "script_status_counts": {
+    "legacy_runner_or_legacy_builder": 37,
+    "utility_review_before_use": 5,
+    "historical_milestone_builder": 6,
+    "trusted_pool_mainline_or_recent_builder": 4
+  },
+  "configs": [
+    {
+      "path": "configs/archive/enrich_batches/milestone2_1_observation_persona_resolution_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/archive/enrich_batches/milestone2_1_observation_persona_resolution_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/archive/enrich_batches/milestone2_2_warn_complexity_resolution_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/archive/enrich_batches/milestone2_2_warn_complexity_resolution_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/archive/enrich_batches/milestone2_2_warn_complexity_resolution_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/archive/enrich_batches/milestone2_cross_track_rectification_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/archive/enrich_batches/milestone2_cross_track_rectification_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/enrich_batches/milestone14_2_intake_quality_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone14_small_batch_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone17_writeback_admission_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone20_batch_intake_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone22r_trusted_writeback_admission_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone25r_trusted_expansion_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone28r_m25r_promote_admission_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/enrich_batches/milestone5_execution_enrich_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/enrich_batches/milestone5a_supply_enrich_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/enrich_batches/milestone6_enrich_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/enrich_batches/milestone6_supply_enrich_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/archive_rebuild_high_quality_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone11_warn_quality_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone11_warn_quality_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_evidence_patch_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone13_2_manual_persona_review_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_rules_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone14_2_intake_quality_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone14_2_intake_quality_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone14_2_intake_quality_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone14_small_batch_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone17_writeback_admission_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone17_writeback_admission_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone17_writeback_admission_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone20_batch_intake_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone20_batch_intake_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone20_batch_intake_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone21_persona_business_confirmation_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone21r_trusted_match_review_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone22r_trusted_writeback_admission_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone22r_trusted_writeback_admission_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone22r_trusted_writeback_admission_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone23a_l3_business_feedback_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone25r_trusted_expansion_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone25r_trusted_expansion_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone25r_trusted_expansion_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone25r_trusted_expansion_review_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone27r_m25r_persona_confirmation_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone28r_m25r_promote_admission_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone28r_m25r_promote_admission_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone28r_m25r_promote_admission_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone30r_post_writeback_business_review_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone31r_business_feedback_collection_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone32r_business_feedback_collection_template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5_candidates_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5_execution_enrich_rectification_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5_execution_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_candidates_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_facts_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_queue_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone6_candidates_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone6_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone6_supply_candidates_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone6_supply_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone6r_trust_candidates_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/milestone6r_trust_registry_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/execution_batches/template_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/l3_to_l2_mass_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone11_warn_quality_promote_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone12_persona_stability_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone13_persona_boundary_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone14_2_intake_quality_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone14_small_batch_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone17_writeback_admission_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone20_batch_intake_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone22r_trusted_writeback_admission_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone25r_trusted_expansion_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone28r_m25r_promote_admission_promote_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "configs/promote_batches/milestone2_3_l3_to_l2_allow_closure_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone2_4_popmart_l4_to_l3_allow_closure_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone5_execution_promote_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone5a_supply_promote_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone6_promote_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone6_supply_promote_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/milestone6r_trust_promote_v1.json",
+      "write_back_true": true,
+      "recommended_status": "legacy_runner_config_requires_override",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "configs/promote_batches/retail_l5_to_l3_v1.json",
+      "write_back_true": false,
+      "recommended_status": "legacy_or_report_only_config",
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    }
+  ],
+  "scripts": [
+    {
+      "path": "scripts/build_candidate_preflight_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_enrich_batch_summary.py",
+      "recommended_status": "utility_review_before_use",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m25r_persona_confirmation_package.py",
+      "recommended_status": "historical_milestone_builder",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m25r_promote_admission_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m25r_trusted_prospect_consumption_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m30r_post_writeback_consumption_review.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m31r_business_feedback_loop_package.py",
+      "recommended_status": "historical_milestone_builder",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m32r_feedback_quality_validation_package.py",
+      "recommended_status": "historical_milestone_builder",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m33r_workbook_governance_audit.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m34r_workbook_governance_repair_admission.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m35r_field_governance_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m36r_manual_field_review_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m37r_final_field_confirmation_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m38r_governance_closure_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m39r_shared_view_deprecation_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m40r_trusted_pool_restart_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m41r_source_material_inventory.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m42r_persona_recalibration_package.py",
+      "recommended_status": "historical_milestone_builder",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m43r_new_prospect_intake_schema.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m44r_new_trusted_prospect_trial.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m45r_trusted_card_quality_review.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m46r_trusted_pool_storage_design.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m47r_trusted_pool_product.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m48r_expansion_runbook.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m49r_vault_restructure_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m50r_vault_canonical_cleanup.py",
+      "recommended_status": "historical_milestone_builder",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m51r_m56_l2_formal_pool.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m57r_l2_business_feedback_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m58r_static_pool_boundary_correction.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_m61r_m64_trusted_pool_productization.py",
+      "recommended_status": "trusted_pool_mainline_or_recent_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": true,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m65r_m68_trusted_pool_next_stage.py",
+      "recommended_status": "trusted_pool_mainline_or_recent_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": true,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_m69r_m72_l3_to_l2_closure.py",
+      "recommended_status": "trusted_pool_mainline_or_recent_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": true,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_manual_persona_review_package.py",
+      "recommended_status": "historical_milestone_builder",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_milestone2_rectification_summary.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_post_writeback_operational_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_promote_batch_summary.py",
+      "recommended_status": "utility_review_before_use",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/build_trusted_writeback_admission_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/build_writeback_admission_package.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/enrich_icp_mapping_fields_20260402.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/enrich_l1_company_facts_20260402.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/enrich_static_pool.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/execute_m34r_workbook_governance_repair.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/execute_m35r_safe_profile_field_repair.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/expand_l5_consumer_personas_20260331.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/expand_static_pool.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/pre_writeback_gate_check.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/promote_static_pool.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/render_enrich_batch_review.py",
+      "recommended_status": "utility_review_before_use",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/render_promote_batch_review.py",
+      "recommended_status": "utility_review_before_use",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/run_execution_batch.py",
+      "recommended_status": "legacy_runner_or_legacy_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": true
+    },
+    {
+      "path": "scripts/select_execution_candidates.py",
+      "recommended_status": "utility_review_before_use",
+      "touches_legacy_workbook_terms": false,
+      "new_mainline_entry": false,
+      "requires_legacy_override_for_write": false
+    },
+    {
+      "path": "scripts/trusted_pool_runner.py",
+      "recommended_status": "trusted_pool_mainline_or_recent_builder",
+      "touches_legacy_workbook_terms": true,
+      "new_mainline_entry": true,
+      "requires_legacy_override_for_write": false
+    }
+  ]
+}

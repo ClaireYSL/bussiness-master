@@ -1,0 +1,14 @@
+{
+  "milestone": "C8",
+  "generated_at": "2026-05-03T12:03:55.961730+00:00",
+  "status": "PASS_IGNORE_STRATEGY_NO_REPO_CHANGE_REQUIRED",
+  "checks": {
+    "raw_material_bundle_dir_ignored": true,
+    "raw_material_zip_ignored": true,
+    "env_ignored": true,
+    "pycache_ignored": true
+  },
+  "repo_gitignore_changed": false,
+  "local_git_exclude_changed": false,
+  "recommendation": "当前不新增忽略规则；历史 archive/config 仍保留可见，避免隐藏后续 archive import 候选。"
+}

@@ -1,0 +1,40 @@
+{
+  "milestone": "C10",
+  "generated_at": "2026-05-03T12:03:56.085258+00:00",
+  "status": "PASS_C10_WORKSPACE_HANDOFF_SNAPSHOT_READY",
+  "branch": "codex/milestone12-persona-stability",
+  "last_commit": "435ff34 feat: add l3 to l2 promotion planning loop",
+  "trusted_pool_status": {
+    "latest_milestone": "M72R",
+    "overall_status": "PASS_M72R_OPERATING_PANEL_READY",
+    "canonical_next_action": "先按 M69R second_source_gap_queue 补第二强来源，再重跑 trusted_pool_runner 进行 L3->L2 report-only。"
+  },
+  "workspace_summary": {
+    "git_status_line_count": 315,
+    "c8_classification": {
+      "archive_import_candidate_count": 262,
+      "legacy_keep_local_or_ignore_count": 105,
+      "needs_human_decision_count": 125,
+      "safe_to_ignore_local_count": 0
+    },
+    "c9_inventory": {
+      "config_count": 92,
+      "config_write_back_true_count": 15,
+      "script_count": 52,
+      "script_legacy_or_builder_count": 48,
+      "trusted_mainline_script_count": 4
+    }
+  },
+  "key_outputs": {
+    "c8_classification": "deliveries/archive/milestones/workspace_cleanup_c8_low_risk_closure/workspace_cleanup_classification_v1.json",
+    "c9_legacy_inventory": "deliveries/archive/milestones/workspace_cleanup_c9_legacy_runner_inventory/legacy_runner_inventory_v1.json",
+    "c10_handoff": "deliveries/archive/milestones/workspace_cleanup_c10_handoff_snapshot/workspace_handoff_snapshot_v1.json"
+  },
+  "forbidden_actions_without_explicit_confirmation": [
+    "git reset / checkout 回滚历史 tracked 改动",
+    "删除或批量移动历史 archive/raw materials",
+    "旧 Excel write_back",
+    "把潜客产出写入知识资产或 persona registry"
+  ],
+  "next_recommended_step": "进入 M73R 第二强来源采集；提交时只纳入 M73R 主线产物，不混入 C8 标记为 needs_human_decision 的历史文件。"
+}

@@ -1,0 +1,31 @@
+{
+  "milestone": "C8-C10",
+  "generated_at": "2026-05-03T12:03:56.113550+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 8,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": [],
+    "allowed_references": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "c8_no_delete_reset_move": true,
+    "c9_no_config_mutation": true,
+    "c10_handoff_ready": true,
+    "raw_materials_ignored": true
+  }
+}

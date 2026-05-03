@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T11:54:28.960467+00:00",
+  "generated_at": "2026-05-03T12:03:56.085382+00:00",
   "overall_status": "PASS_M72R_OPERATING_PANEL_READY",
   "counts": {
     "l1_formal_count": 0,
@@ -189,5 +189,25 @@
     "handoff_docs_archive_import_later_count": 7,
     "current_m69_m72_package_count": 6,
     "other_untracked_needs_human_decision_count": 106
+  },
+  "workspace_cleanup_status": "PASS_C10_WORKSPACE_HANDOFF_READY",
+  "latest_workspace_cleanup": "C10",
+  "c8_workspace_classification": {
+    "archive_import_candidate_count": 262,
+    "legacy_keep_local_or_ignore_count": 105,
+    "needs_human_decision_count": 125,
+    "safe_to_ignore_local_count": 0
+  },
+  "c9_legacy_runner_inventory": {
+    "config_count": 92,
+    "config_write_back_true_count": 15,
+    "script_count": 52,
+    "script_legacy_or_builder_count": 48,
+    "trusted_mainline_script_count": 4
+  },
+  "c10_workspace_handoff": {
+    "status": "PASS_C10_WORKSPACE_HANDOFF_SNAPSHOT_READY",
+    "last_commit": "435ff34 feat: add l3 to l2 promotion planning loop",
+    "branch": "codex/milestone12-persona-stability"
   }
 }
