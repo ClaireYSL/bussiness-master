@@ -1,0 +1,27 @@
+{
+  "milestone": "M84R",
+  "generated_at": "2026-05-03T13:29:05.660164+00:00",
+  "status": "PASS_M84R_NON_LISTED_ICP_SOURCE_TRIAL",
+  "summary": {
+    "canonical_pool_count": 50,
+    "static_level_counts": {
+      "L1": 31,
+      "L2": 18,
+      "L4": 1
+    },
+    "l1_vault_write_count": 12,
+    "source_category_counts": {
+      "official_owned": 42,
+      "regulatory_or_capital_market": 82,
+      "authoritative_third_party": 1,
+      "internal_or_legacy_reference": 30,
+      "platform_operating_fact": 6
+    },
+    "platform_operating_fact_count": 6,
+    "authoritative_third_party_count": 1,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "next_recommended_action": "继续补 platform_operating_fact 与 authoritative_third_party，优先服务非上市/高成长 ICP 候选。"
+}

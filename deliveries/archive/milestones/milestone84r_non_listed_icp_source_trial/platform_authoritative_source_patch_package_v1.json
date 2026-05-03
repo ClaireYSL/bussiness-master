@@ -1,0 +1,184 @@
+{
+  "milestone": "M84R",
+  "generated_at": "2026-05-03T13:29:05.034560+00:00",
+  "status": "PASS_M84R_PLATFORM_SOURCE_PATCH_READY",
+  "summary": {
+    "target_count": 12,
+    "patch_count": 12,
+    "skipped_count": 0,
+    "old_workbook_written": false,
+    "knowledge_asset_written": false,
+    "persona_registry_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_channel_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.babifood.com/",
+        "evidence_strength": "official_channel_page",
+        "supports_dimension": "icp_match_support:chain_store_operations,platform_operating_fact",
+        "summary": "巴比食品官网用于支撑连锁门店/渠道运营与标准化经营特征，补充非上市友好 L1 信源类型。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_channel_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.bbg.com.cn/",
+        "evidence_strength": "official_channel_page",
+        "supports_dimension": "icp_match_support:multi_store_retail,platform_operating_fact",
+        "summary": "步步高集团官网用于支撑多业态零售与门店网络经营事实，补充非上市友好 L1 信源类型。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_channel_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.bears.com.cn/",
+        "evidence_strength": "official_channel_page",
+        "supports_dimension": "icp_match_support:brand_product_matrix,platform_operating_fact",
+        "summary": "小熊电器官网展示品牌产品矩阵与线上渠道入口，补充平台经营事实类信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_product_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.bloomagebiotech.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+        "summary": "华熙生物官网用于支撑生物科技产品与品牌矩阵，补充非资本市场信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_channel_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.haers.cn/knowUs/Default.htm",
+        "evidence_strength": "official_channel_page",
+        "supports_dimension": "icp_match_support:global_brand_operations,platform_operating_fact",
+        "summary": "哈尔斯官网介绍品牌与国际化经营事实，补充平台/渠道经营类信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_product_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.henglin.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:global_brand_operations,official_owned",
+        "summary": "恒林家居官网用于支撑家具产品体系与全球经营特征，补充非资本市场信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_channel_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.sailvan.com/",
+        "evidence_strength": "official_channel_page",
+        "supports_dimension": "icp_match_support:cross_border_operations,platform_operating_fact",
+        "summary": "赛维集团官网用于支撑跨境品牌与多平台运营特征，补充平台经营事实类信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_channel_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.sfcservice.com/",
+        "evidence_strength": "official_channel_page",
+        "supports_dimension": "icp_match_support:cross_border_operations,platform_operating_fact",
+        "summary": "三态相关公开业务站点用于支撑跨境电商运营服务特征，补充平台经营事实类信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_product_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.yotrio.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:global_brand_operations,official_owned",
+        "summary": "永强集团官网用于支撑户外家具产品体系与全球品牌运营特征，补充非资本市场信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_product_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.uechairs.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:global_brand_operations,official_owned",
+        "summary": "永艺家具官网用于支撑办公椅产品体系与全球经营特征，补充非资本市场信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_product_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.zhengte.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:global_brand_operations,official_owned",
+        "summary": "正特官网用于支撑户外休闲产品体系与全球经营特征，补充非资本市场信源。",
+        "added_by_milestone": "M84R"
+      }
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "current_level": "L2",
+      "patch_source": {
+        "source_type": "official_product_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.topstarltd.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:multi_factory_group,official_owned",
+        "summary": "拓斯达官网用于支撑智能制造产品体系与多组织经营特征，补充非资本市场信源。",
+        "added_by_milestone": "M84R"
+      }
+    }
+  ],
+  "skipped": []
+}

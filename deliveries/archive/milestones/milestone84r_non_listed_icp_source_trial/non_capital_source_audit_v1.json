@@ -1,0 +1,163 @@
+{
+  "milestone": "M84R",
+  "generated_at": "2026-05-03T13:29:05.387028+00:00",
+  "status": "PASS_M84R_NON_CAPITAL_SOURCE_AUDIT_READY",
+  "summary": {
+    "audited_target_count": 12,
+    "source_category_counts": {
+      "official_owned": 42,
+      "regulatory_or_capital_market": 82,
+      "authoritative_third_party": 1,
+      "internal_or_legacy_reference": 30,
+      "platform_operating_fact": 6
+    },
+    "platform_operating_fact_count": 6,
+    "authoritative_third_party_count": 1
+  },
+  "items": [
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "platform_operating_fact",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "level": "L1",
+      "source_categories": [
+        "platform_operating_fact",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "platform_operating_fact",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "platform_operating_fact",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "platform_operating_fact",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "platform_operating_fact",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "level": "L1",
+      "source_categories": [
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "l1_countable_source_count": 3,
+      "has_icp_support_source": true,
+      "source_count": 4
+    }
+  ]
+}
