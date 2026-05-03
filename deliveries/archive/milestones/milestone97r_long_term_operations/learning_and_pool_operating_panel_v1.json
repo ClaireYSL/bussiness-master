@@ -1,0 +1,22 @@
+{
+  "batch_id": "learning_and_pool_operating_panel_v1",
+  "milestone": "M97R",
+  "generated_at": "2026-05-03T14:37:23.958581+00:00",
+  "summary": {
+    "trusted_pool_count": 61,
+    "level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "learning_queue_ready": true,
+    "knowledge_guard_ready": true,
+    "persona_learning_ready": true,
+    "prospect_engine_reference_ready": true,
+    "vault_product_layer_ready": true,
+    "old_workbook_write_enabled": false,
+    "m95_reference_gap_count": 0,
+    "m96_user_view_count": 61
+  },
+  "next_action": "进入 M98R：100-200 规模化扩容准入模拟与质量门槛。"
+}

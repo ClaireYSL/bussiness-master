@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T14:29:59.801716+00:00",
-  "overall_status": "PASS_M94R_LEARNING_AND_PERSONA_PIPELINE_READY",
+  "generated_at": "2026-05-03T14:37:23.960656+00:00",
+  "overall_status": "PASS_M98R_LEARNING_POOL_OPERATING_SYSTEM_READY",
   "counts": {
     "trusted_pool_count": 61,
     "l1_count": 35,
@@ -8,9 +8,8 @@
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
-    "learnable_material_queue_count": 166,
-    "knowledge_draft_count": 40,
-    "persona_learning_supported_count": 7
+    "icp_reference_gap_count": 0,
+    "scale_seed_ready_count": 61
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -30,7 +29,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M94R",
+  "latest_milestone": "M98R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -47,7 +46,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M95R：将知识/画像学习资产以 icp_reference_asset_refs 接回 trusted_pool_runner；不得从潜客反向写知识或画像。",
+  "canonical_next_action": "按 M98R threshold 执行下一轮 100-200 扩容；先从 expansion_seed_ready 画像/素材开始，继续执行 no-contamination guard。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -505,5 +504,74 @@
     "source_gap_count": 7,
     "persona_registry_write_enabled": false,
     "prospect_derived_evidence_count": 0
+  },
+  "m95r_learning_asset_driven_prospect_engine": {
+    "prospect_count": 61,
+    "with_icp_reference_count": 61,
+    "missing_icp_reference_count": 0,
+    "persona_count_with_learning_refs": 8,
+    "runner_suggested_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L3": 1
+    },
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m96r_trusted_pool_product_layer": {
+    "trusted_pool_count": 61,
+    "level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "persona_distribution": {
+      "retail_high_sku_brand": 13,
+      "fnb_chain_beverage_coffee": 5,
+      "fnb_chain_standardized": 3,
+      "retail_multi_store": 9,
+      "cbec_multi_platform_brand": 29,
+      "cbec_platform_operator": 1,
+      "mfg_multi_factory_group": 1
+    },
+    "vault_physical_file_counts": {
+      "L1": 35,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "user_entry": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md"
+  },
+  "m97r_long_term_operations": {
+    "trusted_pool_count": 61,
+    "level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "learning_queue_ready": true,
+    "knowledge_guard_ready": true,
+    "persona_learning_ready": true,
+    "prospect_engine_reference_ready": true,
+    "vault_product_layer_ready": true,
+    "old_workbook_write_enabled": false
+  },
+  "m98r_scale_expansion_readiness": {
+    "seed_count": 166,
+    "readiness_counts": {
+      "expansion_seed_ready": 61,
+      "needs_source_validation": 18,
+      "needs_persona_triage": 87
+    },
+    "recommended_initial_scale_batch": 61,
+    "canonical_pool_count": 61,
+    "current_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "readiness_depends_on_m97": "PASS_LONG_TERM_OPERATION_READY"
   }
 }

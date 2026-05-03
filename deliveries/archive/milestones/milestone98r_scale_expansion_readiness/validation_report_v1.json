@@ -1,0 +1,43 @@
+{
+  "milestone": "M95R-M98R",
+  "generated_at": "2026-05-03T14:37:24.259150+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m95r_m98_learning_pool_operating_system.py",
+      "scripts/build_m91r_m94_learning_system.py",
+      "scripts/trusted_pool_runner.py",
+      "shared/static_pool/static_promote.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 20,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "legacy_guard_without_override": {
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/Users/clairelu2026/CodexProjects/BusinessMaster/shared/static_pool/legacy_guard.py\", line 17, in assert_legacy_workbook_write_allowed\n    raise PermissionError(\nPermissionError: m95r_m98_validation blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed.\n"
+  },
+  "trusted_pool_runner_regression": {
+    "returncode": 0,
+    "stdout": "{\n  \"output_file\": \"/Users/clairelu2026/CodexProjects/BusinessMaster/deliveries/archive/milestones/milestone97r_long_term_operations/trusted_pool_runner_regression_report_v2.json\",\n  \"summary\": {\n    \"prospect_count\": 61,\n    \"level_counts\": {\n      \"L1\": 35,\n      \"L2\": 25,\n      \"L3\": 1\n    },\n    \"gap_queue_count\": 63,\n    \"updated_pool_written\": false,\n    \"pool_diff_changed_count\": 61,\n    \"vault_preview_count\": 0,\n    \"vault_regular_write_count\": 0,\n    \"old_workbook_write_enabled\": false,\n    \"baseline_required\": false,\n    \"baseline_written\": false\n  }\n}\n",
+    "stderr": ""
+  }
+}

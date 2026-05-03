@@ -1,0 +1,12 @@
+{
+  "batch_id": "handoff_snapshot_v3",
+  "milestone": "M97R",
+  "generated_at": "2026-05-03T14:37:23.958584+00:00",
+  "current_commit_expected_clean_after_commit": true,
+  "key_artifacts": {
+    "runbook": "deliveries/archive/milestones/milestone97r_long_term_operations/businessmaster_runbook_v2.md",
+    "readiness": "deliveries/archive/milestones/milestone97r_long_term_operations/project_readiness_check_v2.json",
+    "operating_panel": "deliveries/archive/milestones/milestone97r_long_term_operations/learning_and_pool_operating_panel_v1.json"
+  },
+  "next_command": "python3 scripts/build_m95r_m98_learning_pool_operating_system.py"
+}

@@ -1,0 +1,14 @@
+{
+  "batch_id": "quality_gate_check_v1",
+  "milestone": "M98R",
+  "generated_at": "2026-05-03T14:37:23.959420+00:00",
+  "status": "PASS_QUALITY_GATE_DEFINED",
+  "gates": [
+    "候选必须引用画像/知识学习资产或进入 source gap",
+    "L3 至少 1 条强来源",
+    "L2 至少 2 条强来源且解释完整",
+    "L1 至少 3 条强来源、2 类来源且有 ICP 支撑",
+    "潜客不得写入知识资产或 persona registry",
+    "旧 Excel 写入默认禁止"
+  ]
+}

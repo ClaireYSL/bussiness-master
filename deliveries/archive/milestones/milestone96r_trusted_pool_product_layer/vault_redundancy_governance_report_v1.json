@@ -1,0 +1,21 @@
+{
+  "batch_id": "vault_redundancy_governance_report_v1",
+  "milestone": "M96R",
+  "generated_at": "2026-05-03T14:37:23.955147+00:00",
+  "summary": {
+    "vault_physical_file_counts": {
+      "L1": 35,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "canonical_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "deletion_performed": false,
+    "recommendation": "继续以工作台和 L1/L2 索引为默认入口；物理重复文件后续单独治理，不在 M96R 删除。"
+  }
+}

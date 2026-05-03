@@ -1,0 +1,10 @@
+{
+  "milestone": "M95R",
+  "generated_at": "2026-05-03T14:37:23.951802+00:00",
+  "status": "PASS_NO_REVERSE_CONTAMINATION",
+  "prospect_output_used_as_knowledge_source_count": 0,
+  "prospect_output_used_as_persona_source_count": 0,
+  "formal_knowledge_asset_written": false,
+  "persona_registry_written": false,
+  "old_excel_written": false
+}

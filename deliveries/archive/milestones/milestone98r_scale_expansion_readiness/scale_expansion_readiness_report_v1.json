@@ -1,0 +1,1684 @@
+{
+  "batch_id": "scale_expansion_readiness_report_v1",
+  "milestone": "M98R",
+  "generated_at": "2026-05-03T14:37:23.959407+00:00",
+  "status": "PASS_SCALE_EXPANSION_POLICY_READY",
+  "summary": {
+    "seed_count": 166,
+    "readiness_counts": {
+      "expansion_seed_ready": 61,
+      "needs_source_validation": 18,
+      "needs_persona_triage": 87
+    },
+    "recommended_initial_scale_batch": 61,
+    "canonical_pool_count": 61,
+    "current_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "readiness_depends_on_m97": "PASS_LONG_TERM_OPERATION_READY"
+  },
+  "items": [
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_1ac505ada0e9",
+      "seed_title": "LLLM采销供应链数据化解决方案",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "mfg_rnd_sales_complex",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P0",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_e2e58dc752b6",
+      "seed_title": "「倍思」BI案例分享",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P0",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_cb246ff76bbe",
+      "seed_title": "多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "mfg_multi_factory_group",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P0",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_d3021536e889",
+      "seed_title": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P0",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_5abe416e4f06",
+      "seed_title": "数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P0",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_02ab1f15f8cc",
+      "seed_title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P0",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_b806a79b3383",
+      "seed_title": "2022观远峰会-快看-11.18-V2.0",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_aeafed6ba8d8",
+      "seed_title": "[互联网+]科技金融_详细案例_萨摩耶",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_b4f1cce0649a",
+      "seed_title": "「互联网+」企业服务_易快报(合思)_售前分享版",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_80952c20c7cb",
+      "seed_title": "「品牌零售- BI」气味图书馆案例总结",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9215204b4d2a",
+      "seed_title": "「案例详情_AI」家清-联合利华UL",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7a3bee760da2",
+      "seed_title": "「案例详情_AI」美妆-LVMH",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_4037aeb27f02",
+      "seed_title": "「案例详情_AI」美妆-丝芙兰",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9d8a56a2e839",
+      "seed_title": "「案例详情_BI」母婴-惠氏臻朗",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_c8265955ebe6",
+      "seed_title": "「案例详情_BI」美妆-colorkey",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_75ef96f73fff",
+      "seed_title": "「案例详情_BI」饮料-简爱酸奶",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "fnb_chain_beverage_coffee",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_130a9a6f71a9",
+      "seed_title": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "fnb_chain_beverage_coffee",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_eb4587059543",
+      "seed_title": "「森马电商」BI案例分享",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_92990f246359",
+      "seed_title": "「珀莱雅」BI案例分享",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_cf751e980256",
+      "seed_title": "「自然堂」BI案例分享",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9ed76ba72c74",
+      "seed_title": "「连锁餐饮- BI」德克士案例方案",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_ff5e0fb4be5b",
+      "seed_title": "「连锁餐饮- BI」顶誉食品案例总结",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_66b6e5dd8c70",
+      "seed_title": "【母婴宠物】观远BI典型案例",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_c42c913e351e",
+      "seed_title": "【美妆个护】观远BI典型案例",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_50e032ac0d3f",
+      "seed_title": "【连锁餐饮-BI-详细案例】遇见小面",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_73705b68ef09",
+      "seed_title": "【鞋服】观远BI典型案例",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_26cc3790d0ca",
+      "seed_title": "【鞋服行业】首威集团_财务项目_案例总结_20230218",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_a0934ee91f46",
+      "seed_title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_694b4661ff24",
+      "seed_title": "全家汇报方案-观远数据v1.0-230104",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
+      "seed_title": "太平鸟",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
+      "seed_title": "安踏",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7d51c399df29",
+      "seed_title": "数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7536582d826a",
+      "seed_title": "详细案例-商超便利-全家",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_49f89b565058",
+      "seed_title": "赛百味智能数据运营项目规划方案v1.1-观远数据-230822",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8818e883a66c",
+      "seed_title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_93c9999e4a70",
+      "seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+      "seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_d0e2101bd015",
+      "seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_aad23b29669d",
+      "seed_title": "宜信 × 观远BI  捕捉1%的数据波动，驱动业务运营升级",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_fccad7efa193",
+      "seed_title": "对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_1451e7124e2a",
+      "seed_title": "对话雪球：互联网企业如何让BI用起来？",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_520ad1990ece",
+      "seed_title": "对话鲜丰水果：打造5000人数据驱动决策共识，BI赋能业务经营提质增效",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_0066d171d8de",
+      "seed_title": "数禾科技王冠军：语义BI 数据民主化进阶之路",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_ea871a8c92b1",
+      "seed_title": "新东方李枫：从效率提升到精准决策，AI+BI数智化进阶的实践与路径",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_770a696f5e27",
+      "seed_title": "智联招聘：BI实现多种数据的互联打通，为企业创造更高价值",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_402d01c4227d",
+      "seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_e0b009efa094",
+      "seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
+      "seed_title": "120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "mfg_rnd_sales_complex",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_cb261a56a0a8",
+      "seed_title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
+      "seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
+      "seed_title": "七秒易购的数字化飞跃：以BI赋能供应链精细化管理",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "mfg_rnd_sales_complex",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_6b727dee25d9",
+      "seed_title": "不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "mfg_multi_factory_group",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
+      "seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_8f902dea0a2b",
+      "seed_title": "分货效率提高60%，丝芙兰中国“让业务用起来”的门店新品AI+BI智能分货案例",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_e6c36fa80a37",
+      "seed_title": "博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4ac584c7c94f",
+      "seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_f59bd0733b0b",
+      "seed_title": "咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_57dc828db21c",
+      "seed_title": "宜信 × 观远BI  捕捉1%的数据波动，驱动业务运营升级",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ca9c698147bf",
+      "seed_title": "对话彩生活：“互联网+物业”数智化转型的BI应用实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_9e7dbc7c87b3",
+      "seed_title": "对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_a1724ebfd18c",
+      "seed_title": "对话雪球：互联网企业如何让BI用起来？",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_631156928490",
+      "seed_title": "对话鲜丰水果：打造5000人数据驱动决策共识，BI赋能业务经营提质增效",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4757b1291658",
+      "seed_title": "撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_17fcd5cd8177",
+      "seed_title": "数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_c28600869124",
+      "seed_title": "数禾科技王冠军：语义BI 数据民主化进阶之路",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_bbf098727602",
+      "seed_title": "新东方李枫：从效率提升到精准决策，AI+BI数智化进阶的实践与路径",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ee629ad3ca2b",
+      "seed_title": "智联招聘：BI实现多种数据的互联打通，为企业创造更高价值",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_929ce18ef32a",
+      "seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0bb7114cea95",
+      "seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_659f379bf984",
+      "seed_title": "用数据驱动全渠道增长：花西子与观远数据的敏捷经营实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
+      "seed_title": "自然堂全渠道数字化创新和AI实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ae3ba73a7772",
+      "seed_title": "自然堂集团×观远数据问数GPT项目获评2024中国“大模型+数据分析”最佳实践案例",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_1a057bed0e99",
+      "seed_title": "西瓜创客 × 观远数据：AI+BI实现“让报表开口说话”",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "internet_platform_operation",
+      "track_guess": "internet_platform",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d2b0c1804748",
+      "seed_title": "观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5389063d8372",
+      "seed_title": "观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "fnb_chain_beverage_coffee",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0a1d14d43b61",
+      "seed_title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
+      "seed_title": "零跑汽车李盼盼：BI是一个六边形武器",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "mfg_multi_factory_group",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "expansion_readiness": "expansion_seed_ready",
+      "allowed_next_step": "candidate_discovery_with_evidence_first_guard"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_e94bacb68f32",
+      "seed_title": "青岛农商银行：以“人才·产品·场景”思维建设企业级BI智能数据平台",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_cd4dd324097f",
+      "seed_title": "面对数字化、全球化转型挑战，宜信以观远BI实现“用数据说话”",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "finance_data_democratization",
+      "track_guess": "finance",
+      "priority": "P1",
+      "expansion_readiness": "needs_source_validation",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9970405312b3",
+      "seed_title": "20260114",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_38a669da0914",
+      "seed_title": "2026精品应用：内部流量入口抢占、价值工程核心内容分级运营及内刊预启动",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_dfc1eea5dda5",
+      "seed_title": "Guandata x PT Berca Hardayaperkasa Intro Meeting Prep",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_51e2050226c2",
+      "seed_title": "[GuanData] CJ Foods Damand Planning Digital Management Platform PROPOSAL_2309",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_921d40b15284",
+      "seed_title": "[GuanData] 鹿客BI数据应用平台解决方案_231008",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_8a8103346954",
+      "seed_title": "[观远数据] 五粮液BI数据应用平台建设方案_240129",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_b9d8fac2affe",
+      "seed_title": "「Wonderlab」案例分享",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_1927dfb4bb09",
+      "seed_title": "「上美」BI案例分享（待补充）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_953450ef45b3",
+      "seed_title": "「华润雪花」BI案例分享（待补充）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_466849c40f98",
+      "seed_title": "「微念」BI案例分享（待补充）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_fefa21702092",
+      "seed_title": "「有棵树」BI案例分享",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_0b9edaf3a349",
+      "seed_title": "「李子园」BI案例分享（待补充）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_98cbf5a7ad84",
+      "seed_title": "「案例详情 _BI」3C-素士",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_958fa71a0d91",
+      "seed_title": "「案例详情_BI」白酒-舍得酒业",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_276ab10f5a09",
+      "seed_title": "「案例详情_BI」食品-王老吉",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_eee7951b3daf",
+      "seed_title": "「海龟爸爸」BI案例分享（待补充）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_4994c85e6eb8",
+      "seed_title": "「物鸣」BI案例分享（待补充）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_a50435d2dc64",
+      "seed_title": "【修订】观远BI与SAP PCE系统数据对接技术白皮书",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_f9206f795b7d",
+      "seed_title": "【逢时科技】数字化运营分析平台_项目方案_by观远数据",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_f65ed85d14c1",
+      "seed_title": "中信集团案例分享#20230708-脱敏",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_d4d8ae7070fe",
+      "seed_title": "历史潜客筛选条件产出反馈",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_72049e4ef354",
+      "seed_title": "场景列表",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_72715f89435e",
+      "seed_title": "客户需求汇总",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_fa5b2689f0af",
+      "seed_title": "斯凯奇",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_a55d27fdd7cd",
+      "seed_title": "斯凯奇",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_96039563deb1",
+      "seed_title": "柒牌经营分析项目观远供应商提案汇报_终版",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_0a8a83b72efb",
+      "seed_title": "派乐-一站式数据智能运营解决方案230628",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_b19e6aa69516",
+      "seed_title": "碧橙_BI数据应用平台项目方案_观远数据（202305）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_c5b4e2ee71c7",
+      "seed_title": "经营业绩部分",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_513a9590476d",
+      "seed_title": "艺之卉数据运营高层汇报方案",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7f30fe888042",
+      "seed_title": "观远数据TCO对比白皮书（印尼市场版）",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_407d730fda2c",
+      "seed_title": "造数 Agent v2.5",
+      "source_root": "dingtalk_2026_03_28",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_c2be5caba455",
+      "seed_title": "131%直接业务增长，星星充电BI+AI数据赋能实战案例",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_26c5623041d8",
+      "seed_title": "1713亿市场竞速赛，观远BI为百亚股份装上数据引擎",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_5d6883decef2",
+      "seed_title": "BI赋能，华夏乐游从数据资产到价值变现的数智化实践",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_aa5d7aacb2a7",
+      "seed_title": "业务提速300%，用友薪福社的BI建设经验分享",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_14f18db89093",
+      "seed_title": "从30%到93%的效率提升，香蜜闺秀数智化运营决策体系建设实践",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_beb59d5b1a29",
+      "seed_title": "从“靠天吃饭”到“靠数据吃饭”：凯盛浩丰与观远数据的五年共赢之路",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_4c5f8b6076a2",
+      "seed_title": "凯盛浩丰于浩杰：92.4%的BI平台活跃用户，真正把数据让业务用起来",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_dcc3d99860ff",
+      "seed_title": "凯盛浩丰：一颗“爆品”番茄从种子到餐桌的数据故事",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_9a5dd51f5fc6",
+      "seed_title": "君乐宝如何以观远 BI 有效提升企业级数据运营能力",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_124fb81a4cf8",
+      "seed_title": "君乐宝集团：BI平台月活1500+！数据赋能业务为企业发展注入新动能",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_abde3a061daf",
+      "seed_title": "君乐宝：如何有效提升企业级数据运营能力",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8a492b118cd9",
+      "seed_title": "品类王者！王小卤以数据贯通产品、渠道、品牌全链路，撬动增长飞轮",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_a31243045034",
+      "seed_title": "复星星选：聚焦以终为始的消费者价值运营，绘就产业数字化转型蓝图",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_3e41415c7ce4",
+      "seed_title": "夜郎古酒业签约观远数据，一站式BI助力企业加速数字化变革",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_baad1b516ab3",
+      "seed_title": "库存成本下降43%！观远BI助力范思蓝恩以精细化运营降本增效",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_288f603f4647",
+      "seed_title": "微念CIO鲍程成：想到、做到、达到，充分释放BI价值",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_885fcbf42cc9",
+      "seed_title": "捷能智电王夏晖：BI要与业务一起成长",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_f69f47cff4e4",
+      "seed_title": "每日的菌创始人杨敏：从爆品出圈到价值沉淀，实现破局增长",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_1df16ed9a70a",
+      "seed_title": "气味图书馆CIO温晓莹：1周VS1小时，BI为业务提效数十倍(1)",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_bf1b4bb891e5",
+      "seed_title": "水星家纺CIO刘峰：从BI深耕到AI洞察的渐进式增长实践",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_c09dcf8af853",
+      "seed_title": "独家对话元气森林，揭秘崛起背后的数字化策略和生存法则",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_ecfa3212955f",
+      "seed_title": "维他奶：传统消费品牌数据驱动转型，如何Make it happen",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_9a49e8b600c6",
+      "seed_title": "舍得酒业成轩浩：从经验驱动到数据驱动，BI赋能敏捷运营",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_68988341ed00",
+      "seed_title": "观远数据斩获舍得酒业 “全域数据协同标杆奖”，数字铁军铸就酒业数字化新标杆",
+      "source_root": "geo_l1_cases",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ea4ed3a9c50e",
+      "seed_title": "131%直接业务增长，星星充电BI+AI数据赋能实战案例",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_bcd6fd4e1a1f",
+      "seed_title": "1713亿市场竞速赛，观远BI为百亚股份装上数据引擎",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_6e8a482836b8",
+      "seed_title": "BI赋能，华夏乐游从数据资产到价值变现的数智化实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5bf49f581d9f",
+      "seed_title": "业务提速300%，用友薪福社的BI建设经验分享",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_25cb276f4beb",
+      "seed_title": "从30%到93%的效率提升，香蜜闺秀数智化运营决策体系建设实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_c8d0020dc1b3",
+      "seed_title": "从“靠天吃饭”到“靠数据吃饭”：凯盛浩丰与观远数据的五年共赢之路",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_a2e0a4720646",
+      "seed_title": "凯盛浩丰于浩杰：92.4%的BI平台活跃用户，真正把数据让业务用起来",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_a96101467d0d",
+      "seed_title": "凯盛浩丰：一颗“爆品”番茄从种子到餐桌的数据故事",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ef0987e708e5",
+      "seed_title": "君乐宝如何以观远 BI 有效提升企业级数据运营能力",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_62f8e8ff7d19",
+      "seed_title": "君乐宝集团：BI平台月活1500+！数据赋能业务为企业发展注入新动能",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_f00f7dd6ea56",
+      "seed_title": "君乐宝：如何有效提升企业级数据运营能力",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_bafae212a735",
+      "seed_title": "员工使用率93.2%，慕尚集团BI数字化建设经验与思考分享",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0a91f49bd4a8",
+      "seed_title": "品类王者！王小卤以数据贯通产品、渠道、品牌全链路，撬动增长飞轮",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_750cda6f5b1b",
+      "seed_title": "复星星选：聚焦以终为始的消费者价值运营，绘就产业数字化转型蓝图",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_57e62beb519a",
+      "seed_title": "夜郎古酒业签约观远数据，一站式BI助力企业加速数字化变革",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_b0c82f1d5bad",
+      "seed_title": "库存成本下降43%！观远BI助力范思蓝恩以精细化运营降本增效",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ec7fd53952bf",
+      "seed_title": "微念CIO鲍程成：想到、做到、达到，充分释放BI价值",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ff60ba50ff3d",
+      "seed_title": "快牛智能数据分析平台项目启动会圆满举办，观远BI赋能企业经营管理提效",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_c6aa41ac5f58",
+      "seed_title": "捷能智电王夏晖：BI要与业务一起成长",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_658d0f718a1a",
+      "seed_title": "每日的菌创始人杨敏：从爆品出圈到价值沉淀，实现破局增长",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_7df74e961eae",
+      "seed_title": "气味图书馆CIO温晓莹：1周VS1小时，BI为业务提效数十倍(1)",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_df5cdafa0b3c",
+      "seed_title": "水星家纺CIO刘峰：从BI深耕到AI洞察的渐进式增长实践",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_a94dcee37fef",
+      "seed_title": "独家对话元气森林，揭秘崛起背后的数字化策略和生存法则",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_12dbe44dcdbc",
+      "seed_title": "突破零售增长瓶颈：蜜思肤以BI全面赋能业务管理",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_73e29a57844f",
+      "seed_title": "维他奶：传统消费品牌数据驱动转型，如何Make it happen",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_8d38c5053d72",
+      "seed_title": "舍得酒业成轩浩：从经验驱动到数据驱动，BI赋能敏捷运营",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_60eb8c84b443",
+      "seed_title": "行业洞察  出圈之后，NEIWAI内外、Ubras如何以数字化推动品牌长红？",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_c9765582d6d6",
+      "seed_title": "观远数据斩获舍得酒业 “全域数据协同标杆奖”，数字铁军铸就酒业数字化新标杆",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_93c433251107",
+      "seed_title": "酒饮新锐奥兰中国CEO：BI一定是把握市场的方向盘",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_3869505aa6f6",
+      "seed_title": "静博士COO杨智昌：数字化运营在业务中的落地，用起来才是王道",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_757a60b0276e",
+      "seed_title": "颐顿机电签约观远数据，深耕财务、销售等场景，引领数据驱动决策",
+      "source_root": "l1_customer_cases_20260313",
+      "persona_guess": "unknown",
+      "track_guess": "unknown",
+      "priority": "P2",
+      "expansion_readiness": "needs_persona_triage",
+      "allowed_next_step": "triage_before_candidate_discovery"
+    }
+  ]
+}

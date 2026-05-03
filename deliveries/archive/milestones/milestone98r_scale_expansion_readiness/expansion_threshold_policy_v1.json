@@ -1,0 +1,13 @@
+{
+  "batch_id": "expansion_threshold_policy_v1",
+  "milestone": "M98R",
+  "generated_at": "2026-05-03T14:37:23.959405+00:00",
+  "target_batch_size": "100-200",
+  "entry_thresholds": {
+    "learning_source_ready_ratio": ">= 70% seeds with source/persona support",
+    "trusted_match_ready_target": ">= 80% after evidence collection",
+    "official_or_strong_source_required": true,
+    "prospect_to_knowledge_write_allowed": false,
+    "legacy_excel_write_allowed": false
+  }
+}
