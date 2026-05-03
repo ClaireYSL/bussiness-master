@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-03T12:54:19.541554+00:00",
+  "status": "FAIL_VALIDATION",
+  "mode": "update_trusted_pool",
+  "errors": [
+    "update_trusted_pool requires --allow-trusted-pool-update"
+  ]
+}

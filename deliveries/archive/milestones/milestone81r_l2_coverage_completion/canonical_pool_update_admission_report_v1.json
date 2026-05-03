@@ -1,0 +1,16 @@
+{
+  "milestone": "M81R",
+  "generated_at": "2026-05-03T12:54:19.272940+00:00",
+  "status": "PASS_M81R_CANONICAL_POOL_UPDATED",
+  "summary": {
+    "canonical_pool_count": 50,
+    "static_level_counts": {
+      "L2": 49,
+      "L4": 1
+    },
+    "source_trace_count": 50,
+    "old_workbook_written": false,
+    "knowledge_asset_written": false,
+    "persona_registry_written": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-03T12:54:19.014215+00:00",
+  "runner": "trusted_pool_runner",
+  "trusted_pool_file": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+  "source_trace_file": "deliveries/archive/milestones/milestone81r_l2_coverage_completion/source_trace_index_v5.json",
+  "candidate_count": 50,
+  "candidate_signature": "eae770954f67067e5e79c1e514d53accce36cf462f4ad98deb6cf0891359fdc0"
+}

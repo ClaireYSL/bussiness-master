@@ -1,0 +1,1238 @@
+{
+  "batch_id": "m81r_l2_report_only_v1",
+  "generated_at": "2026-05-03T12:54:19.132821+00:00",
+  "runner": "trusted_pool_runner_v3",
+  "mode": "report_only",
+  "trusted_pool_file": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+  "source_trace_file": "deliveries/archive/milestones/milestone81r_l2_coverage_completion/source_trace_index_v5.json",
+  "baseline_file": "deliveries/archive/milestones/milestone81r_l2_coverage_completion/m81r_baseline_v1.json",
+  "candidate_signature": "eae770954f67067e5e79c1e514d53accce36cf462f4ad98deb6cf0891359fdc0",
+  "summary": {
+    "prospect_count": 50,
+    "level_counts": {
+      "L2": 49,
+      "L4": 1
+    },
+    "gap_queue_count": 50,
+    "updated_pool_written": false,
+    "pool_diff_changed_count": 20,
+    "vault_preview_count": 0,
+    "vault_regular_write_count": 0,
+    "old_workbook_write_enabled": false,
+    "baseline_required": true,
+    "baseline_written": false
+  },
+  "decisions": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "云南贝泰妮生物科技集团股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海家化联合股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "水羊集团股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "逸仙控股有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "稳健医疗用品股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "瑞幸咖啡有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "霸王茶姬控股有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "四川百茶百道实业股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "九毛九国际控股有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "绝味食品股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "深圳百果园实业集团股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "孩子王儿童用品股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "周大生珠宝股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "盐津铺子食品股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "三只松鼠股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "小熊电器股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "北京石头世纪科技股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "赛维时代科技股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "焦点科技股份有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "云米科技有限公司 静态升层建议：L3 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "拓斯达科技股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江哈尔斯真空器皿股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江海利得新材料股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "海象新材料股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "江苏恒辉安防股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "恒林家居股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江恒威电池股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江恒林椅业股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "深圳市杰美特科技股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "朗科智能电气股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江梦天木作家居有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江明新旭腾新材料股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江野马电池股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江正特股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "深圳市赛维网络科技有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "深圳市三态电子商务股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江盛泰服装集团股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "星徽股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "泰鹏智能家居股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "永艺家具股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江华生科技股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "星华新材股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江雅艺金属科技股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江永强集团股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "current_level": "L4",
+      "suggested_level": "L4",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "strong_evidence",
+          "reason": "至少需要 1 条强来源才能进入 L3。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 0,
+      "summary": "深圳市有棵树科技股份有限公司 静态升层建议：L4 -> L4，强来源=0。"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "浙江正裕工业股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "中饮巴比食品股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "步步高商业连锁股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "广东小熊电器股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 2,
+      "summary": "华熙生物科技股份有限公司 静态升层建议：L2 -> L2，强来源=2。"
+    }
+  ],
+  "static_gap_queue": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "strong_evidence",
+      "reason": "至少需要 1 条强来源才能进入 L3。"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    }
+  ],
+  "no_write_proof": {
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "dynamic_followup_task_created": false
+  },
+  "pool_diff_file": "deliveries/archive/milestones/milestone81r_l2_coverage_completion/m81r_pool_diff_report_v1.json",
+  "vault_preview_outputs": [],
+  "vault_regular_outputs": []
+}
