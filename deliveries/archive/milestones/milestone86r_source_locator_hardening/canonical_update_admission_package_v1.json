@@ -1,0 +1,584 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.798853+00:00",
+  "status": "PASS_M86R_CANONICAL_UPDATE_ADMISSION_READY",
+  "summary": {
+    "candidate_count": 24,
+    "canonical_update_ready_count": 11,
+    "not_ready_count": 13,
+    "suggested_level_counts_for_ready": {
+      "L1": 4,
+      "L2": 7
+    },
+    "canonical_pool_updated": false,
+    "vault_regular_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "m85_suggested_level": "L1",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "matched_persona": "retail_multi_store",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "m85_suggested_level": "L1",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "non_capital_verified_categories": [
+        "official_owned",
+        "platform_operating_fact"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_manner",
+      "company_name": "上海茵赫实业有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 1,
+      "verified_source_categories": [
+        "authoritative_third_party"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party"
+      ],
+      "icp_support_verified_source_count": 1,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L1",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_ubras",
+      "company_name": "彼悦（北京）科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 1,
+      "verified_source_categories": [
+        "authoritative_third_party"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party"
+      ],
+      "icp_support_verified_source_count": 1,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "matched_persona": "retail_multi_store",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_tosummer",
+      "company_name": "北京观夏文化传播有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 1,
+      "verified_source_categories": [
+        "authoritative_third_party"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party"
+      ],
+      "icp_support_verified_source_count": 1,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "m85_suggested_level": "L1",
+      "verified_countable_source_count": 3,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 3,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_mstand",
+      "company_name": "上海艾恰餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 1,
+      "verified_source_categories": [
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 1,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "matched_persona": "retail_multi_store",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 0,
+      "verified_source_categories": [],
+      "non_capital_verified_categories": [],
+      "icp_support_verified_source_count": 0,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。",
+        "缺少非上市友好的可访问来源类别。",
+        "缺少可访问且直接支撑 ICP 的来源。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_pmpm",
+      "company_name": "上海时垠电子商务有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 1,
+      "verified_source_categories": [
+        "authoritative_third_party"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party"
+      ],
+      "icp_support_verified_source_count": 1,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_janeeyogurt",
+      "company_name": "朴诚乳业（集团）有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 1,
+      "verified_source_categories": [
+        "authoritative_third_party"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party"
+      ],
+      "icp_support_verified_source_count": 1,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "matched_persona": "retail_multi_store",
+      "m85_suggested_level": "L2",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "authoritative_third_party",
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": true,
+      "admission_reasons": [
+        "source locator hardening PASS"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 0,
+      "verified_source_categories": [],
+      "non_capital_verified_categories": [],
+      "icp_support_verified_source_count": 0,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。",
+        "缺少非上市友好的可访问来源类别。",
+        "缺少可访问且直接支撑 ICP 的来源。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 0,
+      "verified_source_categories": [],
+      "non_capital_verified_categories": [],
+      "icp_support_verified_source_count": 0,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问且可计入的强来源少于 2 条。",
+        "可访问来源类别少于 2 个。",
+        "缺少非上市友好的可访问来源类别。",
+        "缺少可访问且直接支撑 ICP 的来源。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "matched_persona": "cbec_platform_operator",
+      "m85_suggested_level": "L3",
+      "verified_countable_source_count": 2,
+      "verified_source_categories": [
+        "official_owned"
+      ],
+      "non_capital_verified_categories": [
+        "official_owned"
+      ],
+      "icp_support_verified_source_count": 2,
+      "canonical_update_ready": false,
+      "admission_reasons": [
+        "M85R report-only 未达到 L2+。",
+        "可访问来源类别少于 2 个。"
+      ],
+      "static_fields_only": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    }
+  ]
+}

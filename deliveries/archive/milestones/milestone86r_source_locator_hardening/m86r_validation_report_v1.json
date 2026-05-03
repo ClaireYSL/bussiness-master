@@ -1,0 +1,36 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.840653+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 7,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "candidate_count_24": true,
+    "canonical_ready_at_least_8": true,
+    "unique_url_count_at_least_40": true,
+    "verified_url_count_nonzero": true,
+    "canonical_pool_not_updated": true,
+    "canonical_trace_not_updated": true,
+    "no_dynamic_terms": true,
+    "api_key_scan_pass": true,
+    "py_compile_pass": true,
+    "json_parse_pass": true
+  }
+}

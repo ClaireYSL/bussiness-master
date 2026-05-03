@@ -1,0 +1,220 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.798876+00:00",
+  "status": "PASS_M86R_SOURCE_HARDENING_GAP_QUEUE_READY",
+  "summary": {
+    "gap_count": 35
+  },
+  "items": [
+    {
+      "prospect_id": "m85r_nonlisted_manner",
+      "company_name": "上海茵赫实业有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_manner",
+      "company_name": "上海茵赫实业有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_ubras",
+      "company_name": "彼悦（北京）科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_ubras",
+      "company_name": "彼悦（北京）科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_tosummer",
+      "company_name": "北京观夏文化传播有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_tosummer",
+      "company_name": "北京观夏文化传播有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_mstand",
+      "company_name": "上海艾恰餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_mstand",
+      "company_name": "上海艾恰餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "缺少非上市友好的可访问来源类别。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "缺少可访问且直接支撑 ICP 的来源。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_pmpm",
+      "company_name": "上海时垠电子商务有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_pmpm",
+      "company_name": "上海时垠电子商务有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_janeeyogurt",
+      "company_name": "朴诚乳业（集团）有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_janeeyogurt",
+      "company_name": "朴诚乳业（集团）有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "缺少非上市友好的可访问来源类别。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "缺少可访问且直接支撑 ICP 的来源。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问且可计入的强来源少于 2 条。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "缺少非上市友好的可访问来源类别。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "缺少可访问且直接支撑 ICP 的来源。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "M85R report-only 未达到 L2+。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "queue_type": "source_locator_hardening_gap",
+      "reason": "可访问来源类别少于 2 个。"
+    }
+  ]
+}

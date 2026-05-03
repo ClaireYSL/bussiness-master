@@ -1,0 +1,8 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.800430+00:00",
+  "current_scope": "M85R 非上市候选 source locator 硬化与 canonical update 准入。",
+  "canonical_update_ready_count": 11,
+  "canonical_pool_updated": false,
+  "next_command": "python3 scripts/build_m86r_source_locator_hardening.py"
+}

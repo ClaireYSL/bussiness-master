@@ -1,0 +1,19 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.800274+00:00",
+  "status": "PASS_M86R_SOURCE_LOCATOR_HARDENING_READY",
+  "summary": {
+    "candidate_count": 24,
+    "canonical_update_ready_count": 11,
+    "not_ready_count": 13,
+    "suggested_level_counts_for_ready": {
+      "L1": 4,
+      "L2": 7
+    },
+    "canonical_pool_updated": false,
+    "vault_regular_written": false,
+    "unique_url_count": 43,
+    "verified_url_count": 34
+  },
+  "next_action": "只从 canonical_update_ready=true 的候选中选择进入 M87R trusted pool update preview。"
+}

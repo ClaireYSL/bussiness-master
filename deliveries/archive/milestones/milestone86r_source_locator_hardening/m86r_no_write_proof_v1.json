@@ -1,0 +1,11 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.800126+00:00",
+  "status": "PASS_NO_CANONICAL_OR_LEGACY_WRITE",
+  "canonical_pool_updated": false,
+  "canonical_trace_updated": false,
+  "vault_regular_written": false,
+  "old_workbook_write_enabled": false,
+  "knowledge_asset_write_enabled": false,
+  "persona_registry_write_enabled": false
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T13:51:57.337670+00:00",
-  "overall_status": "PASS_M85R_NON_LISTED_CANDIDATE_TRIAL",
+  "generated_at": "2026-05-03T13:58:07.841128+00:00",
+  "overall_status": "PASS_M86R_SOURCE_LOCATOR_HARDENING",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -26,7 +26,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M85R",
+  "latest_milestone": "M86R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "审阅 M85R preview 中的非上市候选；通过后再选择一批进入 canonical trusted pool update。",
+  "canonical_next_action": "从 M86R canonical_update_ready 候选中选择进入 trusted pool update；仍需显式 allow guard。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -381,6 +381,18 @@
       "cbec_platform_operator": 1
     },
     "gap_queue_count": 41,
+    "canonical_pool_updated": false,
+    "vault_regular_written": false,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m86r_source_locator_hardening": {
+    "candidate_count": 24,
+    "canonical_update_ready_count": 11,
+    "not_ready_count": 13,
+    "unique_url_count": 43,
+    "verified_url_count": 34,
     "canonical_pool_updated": false,
     "vault_regular_written": false,
     "old_workbook_write_enabled": false,

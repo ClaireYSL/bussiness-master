@@ -1,0 +1,447 @@
+{
+  "milestone": "M86R",
+  "generated_at": "2026-05-03T13:58:07.794343+00:00",
+  "status": "PASS_M86R_SOURCE_LOCATOR_AVAILABILITY_AUDITED",
+  "summary": {
+    "unique_url_count": 43,
+    "verified_url_count": 34,
+    "restricted_or_unverified_url_count": 9,
+    "availability_status_counts": {
+      "verified": 34,
+      "unverified": 8,
+      "reachable_restricted": 1
+    }
+  },
+  "items": [
+    {
+      "source_locator": "http://www.bananain.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "http://www.bananain.com/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://catlink.sg/pages/about-us",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://catlink.sg/pages/about-us",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://more-yogurt.com/index/about",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://more-yogurt.com/index/about",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://neiwai.life/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://neiwai.life/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://news.hexun.com/2025-09-05/221239425.html",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://news.hexun.com/2025-09-05/221239425.html",
+      "content_type": "text/html",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://news.pedaily.cn/202009/459918.shtml",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://news.pedaily.cn/202009/459918.shtml",
+      "content_type": "text/html",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202208251577645279_1.pdf",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://pdf.dfcfw.com/pdf/H3_AP202208251577645279_1.pdf",
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://pitchhub.36kr.com/project/1713134360160775",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://pitchhub.36kr.com/project/1713134360160775",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.36kr.com/p/965180353109762",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.36kr.com/p/965180353109762",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.babycare.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.babycare.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.bosie.cn/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.bosie.cn/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error _ssl.c:1112: The handshake operation timed out>"
+    },
+    {
+      "source_locator": "https://www.brandstar.com.cn/news/2314",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.brandstar.com.cn/news/2314",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.busyming.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.busyming.com/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.cbinsights.com/company/hotmaxx",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.cbinsights.com/company/hotmaxx",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.cbinsights.com/company/manner",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.cbinsights.com/company/manner",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.cninsights.com/uploads/upload/files/20250225/8b3ea66071600042276e1d79151ee964.pdf",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.cninsights.com/uploads/upload/files/20250225/8b3ea66071600042276e1d79151ee964.pdf",
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.dewu.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.dewu.com/",
+      "content_type": "text/html",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.doublevconsulting.com/post/pmpm-an-emerging-c-beauty-skincare-brand-with-300-million-rmb-1st-year-revenue",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.doublevconsulting.com/post/pmpm-an-emerging-c-beauty-skincare-brand-with-300-million-rmb-1st-year-revenue",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.foodaily.com/articles/31851",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.foodaily.com/articles/31851",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.harmay.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.harmay.com/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.heytea.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.heytea.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.hongshan.com/companies/heytea/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.hongshan.com/companies/heytea/",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.hotmaxx.cn/index.html",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.hotmaxx.cn/index.html",
+      "content_type": "text/html",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+      "content_type": "application/pdf",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.janeeyogurt.com/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.janeeyogurt.com/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "source_locator": "https://www.kkguan.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.kkgroup.cn/zh-CN",
+      "content_type": "text/html;charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.kuafood.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.kuafood.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.kuafood.com/brand",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.kuafood.com/brand",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.manner-coffee.cn/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.manner-coffee.cn/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "source_locator": "https://www.morketing.com/detail/16999",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.morketing.com/detail/16999",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.mstand.cn/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.mstand.cn/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.nowwa.com/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.nowwa.com/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.nowwa.com'. (_ssl.c:1129)>"
+    },
+    {
+      "source_locator": "https://www.owler.com/company/mstand",
+      "availability_status": "reachable_restricted",
+      "verified": false,
+      "status_code": 403,
+      "final_url": "https://www.owler.com/company/mstand",
+      "content_type": "text/html",
+      "method": "HEAD",
+      "error": "HTTPError:403"
+    },
+    {
+      "source_locator": "https://www.pencilnews.cn/p/39109.html",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.pencilnews.cn/p/39109.html",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.petkit.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://petkit.com/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.pmpm.com.cn/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.pmpm.com.cn/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "source_locator": "https://www.simpcare.com/",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.simcaregroup.com/",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.stcn.com/article/detail/799343.html",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.stcn.com/article/detail/799343.html",
+      "content_type": "text/html; charset=utf-8",
+      "method": "HEAD",
+      "error": ""
+    },
+    {
+      "source_locator": "https://www.teastone.com.cn/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.teastone.com.cn/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error _ssl.c:1112: The handshake operation timed out>"
+    },
+    {
+      "source_locator": "https://www.tosummer.com/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.tosummer.com/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error _ssl.c:1112: The handshake operation timed out>"
+    },
+    {
+      "source_locator": "https://www.ubras.com.cn/",
+      "availability_status": "unverified",
+      "verified": false,
+      "status_code": null,
+      "final_url": "https://www.ubras.com.cn/",
+      "content_type": "",
+      "method": "HEAD_GET",
+      "error": "URLError:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "source_locator": "https://www.zymls.com/zsjm.html",
+      "availability_status": "verified",
+      "verified": true,
+      "status_code": 200,
+      "final_url": "https://www.zymls.com/zsjm.html",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "HEAD",
+      "error": ""
+    }
+  ]
+}
