@@ -1,0 +1,26 @@
+{
+  "milestone": "M61R-M64R",
+  "generated_at": "2026-05-03T11:06:53.015768+00:00",
+  "status": "PASS_M61R_M64R_VALIDATION",
+  "checks": {
+    "py_compile": "PASS",
+    "json_parse": "PASS",
+    "trusted_pool_runner_write_baseline": "PASS",
+    "trusted_pool_runner_require_baseline": "PASS",
+    "trusted_pool_runner_baseline_mismatch_guard": "PASS",
+    "legacy_run_execution_batch_guard": "PASS",
+    "legacy_expand_guard": "PASS",
+    "dynamic_term_scan_m61_m64": "PASS",
+    "api_key_pattern_scan": "PASS",
+    "assertions": "PASS"
+  },
+  "summary": {
+    "m61_level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "m62_card_preview_count": 20,
+    "m63_trial_candidate_count": 30,
+    "old_workbook_write_enabled": false
+  }
+}

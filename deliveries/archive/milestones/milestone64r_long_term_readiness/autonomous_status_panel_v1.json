@@ -1,0 +1,22 @@
+{
+  "milestone": "M64R",
+  "generated_at": "2026-05-03T11:05:14.004458+00:00",
+  "status": "PASS_M64R_LONG_TERM_READINESS_READY",
+  "readiness": {
+    "trusted_pool_runner_v2": "PASS_M61R_TRUSTED_POOL_RUNNER_V2_READY",
+    "vault_output_preview": "PASS_M62R_VAULT_OUTPUT_PREVIEW_READY",
+    "expansion_trial": "PASS_M63R_EXPANSION_TRIAL_READY",
+    "legacy_write_guard": "PASS_LEGACY_OVERRIDE_REQUIRED",
+    "canonical_static_boundary": "PASS_STATIC_ONLY_NO_DYNAMIC_PRIORITY"
+  },
+  "current_counts": {
+    "m61_level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "m62_card_preview_count": 20,
+    "m63_trial_candidate_count": 30
+  },
+  "next_command": "python3 scripts/trusted_pool_runner.py --require-baseline --output-file deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_v2_report_v1.json",
+  "runbook": "deliveries/archive/milestones/milestone64r_long_term_readiness/trusted_pool_runbook_v1.md"
+}

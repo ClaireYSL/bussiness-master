@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-05-03T11:05:14.004787+00:00",
+  "overall_status": "PASS_M64R_LONG_TERM_READINESS_READY",
+  "counts": {
+    "l1_formal_count": 0,
+    "l2_formal_count": 8,
+    "l3_summary_total_count": 20,
+    "l3_only_count": 12,
+    "l5_expansion_seed_count": 30
+  },
+  "persona_distribution_l2": {
+    "retail_high_sku_brand": 2,
+    "fnb_chain_beverage_coffee": 1,
+    "retail_multi_store": 3,
+    "cbec_multi_platform_brand": 1,
+    "fnb_chain_standardized": 1
+  },
+  "static_level_status": {
+    "static_l2_ready": 8,
+    "static_l1_ready": 0
+  },
+  "next_recommended_action": "下一步进入真实 M61/M62 增强迭代：为 M63R 队列补强 evidence 后，再用 trusted_pool_runner v2 持续升层。",
+  "no_write_proof": {
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "legacy_field_inherited": false
+  },
+  "latest_milestone": "M64R",
+  "m58r_static_boundary": {
+    "milestone": "M58R",
+    "generated_at": "2026-05-03T10:50:08.093214+00:00",
+    "status": "PASS_M58R_STATIC_BOUNDARY_CORRECTED",
+    "counts": {
+      "l1": 0,
+      "l2": 8,
+      "l3": 20,
+      "l3_only": 12,
+      "l5": 30
+    },
+    "static_l1_ready_count": 0,
+    "keep_l2_count": 8,
+    "dynamic_term_findings_count": 0,
+    "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
+  },
+  "canonical_next_action": "下一步进入真实 M61/M62 增强迭代：为 M63R 队列补强 evidence 后，再用 trusted_pool_runner v2 持续升层。",
+  "legacy_optional_feedback": {
+    "m57r_external_feedback": {
+      "l2_formal_count": 8,
+      "quality_pass_count": 8,
+      "business_reviewed_count": 0,
+      "pending_feedback_count": 8,
+      "accepted_count": 0,
+      "rejected_count": 0,
+      "auto_l1_promotion_count": 0,
+      "external_feedback_status": "optional_pending",
+      "next_recommended_action": "M58R/M59R：继续按静态证据链与 ICP 强匹配解释评估 L1，不使用外部反馈作为静态升层门槛。"
+    }
+  },
+  "m59r_static_promotion_core": {
+    "status": "PASS_M59R_STATIC_PROMOTION_CORE_READY",
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "gap_queue_count": 20,
+    "runner_mode": "report_only",
+    "old_workbook_write_enabled": false,
+    "report": "deliveries/archive/milestones/milestone59r_static_promotion_core/trusted_pool_static_promote_report_v1.json",
+    "closure": "deliveries/archive/milestones/milestone59r_static_promotion_core/milestone59r_static_promotion_core_closure_v1.json"
+  },
+  "m61r_trusted_pool_runner_v2": {
+    "runner": "trusted_pool_runner_v2",
+    "mode": "report_only",
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "gap_queue_count": 20,
+    "candidate_signature": "3a9a4e5f91c881ab5a8c6dc55f7ae389cca111aae10bff606222f404662fd37d",
+    "baseline_file": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_baseline_v1.json",
+    "old_workbook_write_enabled": false
+  },
+  "m62r_vault_output_preview": {
+    "card_preview_count": 20,
+    "formal_dossier_preview_count": 7,
+    "write_vault_enabled": false,
+    "old_workbook_write_enabled": false
+  },
+  "m63r_expansion_trial": {
+    "trial_candidate_count": 30,
+    "level_counts": {
+      "L4": 30
+    },
+    "old_workbook_write_enabled": false,
+    "trusted_pool_update_enabled": false
+  },
+  "m64r_long_term_readiness": {
+    "trusted_pool_runner_v2": "PASS_M61R_TRUSTED_POOL_RUNNER_V2_READY",
+    "vault_output_preview": "PASS_M62R_VAULT_OUTPUT_PREVIEW_READY",
+    "expansion_trial": "PASS_M63R_EXPANSION_TRIAL_READY",
+    "legacy_write_guard": "PASS_LEGACY_OVERRIDE_REQUIRED",
+    "canonical_static_boundary": "PASS_STATIC_ONLY_NO_DYNAMIC_PRIORITY"
+  }
+}

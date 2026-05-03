@@ -8,6 +8,7 @@ from typing import Any
 from openpyxl import load_workbook
 
 from .workbook_guard import check_workbook_integrity, workbook_write_lock
+from .legacy_guard import assert_legacy_workbook_write_allowed
 
 
 def append_semicolon_note(existing: object, addition: str) -> str:
@@ -206,7 +207,13 @@ def write_back_promotion_results(
     main_shared_xlsx: Path,
     gov_xlsx: Path,
     lock_timeout_seconds: float = 0.0,
+    extra_evidence_rows_by_account: dict[str, list[dict[str, object]]] | None = None,
+    allow_legacy_workbook_write: bool = False,
 ) -> dict[str, object]:
+    assert_legacy_workbook_write_allowed(
+        cli_override=allow_legacy_workbook_write,
+        context="promotion_writeback legacy workbook write",
+    )
     with workbook_write_lock(timeout_seconds=lock_timeout_seconds) as lock_meta:
         backups = {
             "profile": backup_once(profile_xlsx, "promote_backup"),
@@ -333,6 +340,17 @@ def write_back_promotion_results(
                 },
             ):
                 evidence_created += 1
+
+            for extra in (extra_evidence_rows_by_account or {}).get(account_id, []):
+                extra_id = str(extra.get("evidence_id") or "").strip()
+                if not extra_id:
+                    continue
+                values = dict(extra)
+                values.setdefault("account_id", account_id)
+                values.setdefault("checked_by", "codex")
+                values.setdefault("checked_at", today)
+                if ensure_evidence_row(evidence_ws, evidence_headers, extra_id, values):
+                    evidence_created += 1
 
             queue_resolved += resolve_open_queue_rows(
                 queue_ws,

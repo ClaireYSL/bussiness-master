@@ -82,6 +82,7 @@ class EnrichResult:
     persona_tag: str = ""
     secondary_persona_tags: list[str] = field(default_factory=list)
     knowledge_asset_refs: list[str] = field(default_factory=list)
+    icp_reference_asset_refs: list[str] = field(default_factory=list)
     talk_track_refs: list[str] = field(default_factory=list)
     minimum_fact_status: str = ""
     official_source_status: str = ""

@@ -1,0 +1,34 @@
+{
+  "milestone": "M61R",
+  "generated_at": "2026-05-03T11:05:14.001858+00:00",
+  "status": "PASS_M61R_TRUSTED_POOL_RUNNER_V2_READY",
+  "summary": {
+    "runner": "trusted_pool_runner_v2",
+    "mode": "report_only",
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "gap_queue_count": 20,
+    "candidate_signature": "3a9a4e5f91c881ab5a8c6dc55f7ae389cca111aae10bff606222f404662fd37d",
+    "baseline_file": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_baseline_v1.json",
+    "old_workbook_write_enabled": false
+  },
+  "outputs": {
+    "runner_report": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_v2_report_v1.json",
+    "baseline": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_baseline_v1.json",
+    "gap_queue": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/static_gap_queue_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/source_trace_normalized_v1.json",
+    "no_write_proof": "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/no_write_proof_v1.json"
+  },
+  "no_write_proof": {
+    "generated_at": "2026-05-03T11:05:07.069609+00:00",
+    "status": "PASS_NO_LEGACY_OR_DYNAMIC_WRITE",
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "dynamic_followup_task_created": false,
+    "trusted_pool_updated": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "milestone": "M59R",
+  "generated_at": "2026-05-03T10:58:02.412843+00:00",
+  "status": "PASS_M59R_STATIC_PROMOTION_CORE_READY",
+  "summary": {
+    "goal": "保留 L1-L5/enrich/promote/queue/gate 静态升层机制，并从旧 Excel 承载中解耦到 evidence-first trusted pool。",
+    "runner": "trusted_pool_runner",
+    "mode": "report_only",
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "gap_queue_count": 20,
+    "updated_pool_written": false,
+    "old_workbook_write_enabled": false,
+    "static_boundary": "只回答 ICP 匹配、证据、可信度、缺口；不表达经营优先级、团队跟进或触达时机。"
+  },
+  "core_outputs": {
+    "trusted_pool_static_promote_report": "deliveries/archive/milestones/milestone59r_static_promotion_core/trusted_pool_static_promote_report_v1.json",
+    "static_gap_queue_count": 20,
+    "decision_count": 20
+  },
+  "legacy_boundary": {
+    "old_excel_workbooks": "legacy_reference_only",
+    "legacy_write_requires": [
+      "CLI --allow-legacy-workbook-write",
+      "STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE"
+    ],
+    "new_default_carrier": [
+      "trusted_prospect_pool_v1",
+      "source_trace_index",
+      "vault evidence-first L1-L5 v2"
+    ]
+  },
+  "next_milestones": [
+    "M60R",
+    "M61R",
+    "M62R",
+    "M63R",
+    "M64R"
+  ]
+}

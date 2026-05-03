@@ -67,6 +67,7 @@ from .validators import (
 )
 from .workbook_guard import check_workbook_integrity, workbook_write_lock, WorkbookLockError
 from .pathing import get_static_pool_root, resolve_static_pool_paths
+from .static_promote import collect_evidence, evaluate_static_promotion, StaticPromotionDecision
 
 __all__ = [
     "CandidateRecord",
@@ -131,4 +132,7 @@ __all__ = [
     "WorkbookLockError",
     "get_static_pool_root",
     "resolve_static_pool_paths",
+    "collect_evidence",
+    "evaluate_static_promotion",
+    "StaticPromotionDecision",
 ]

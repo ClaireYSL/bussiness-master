@@ -127,6 +127,24 @@ def _build_grouped_lookup(rows: list[dict[str, Any]], key: str) -> dict[str, lis
     return mapping
 
 
+def _rectification_evidence_rows(rectification: dict[str, Any] | None, account_id: str) -> list[dict[str, Any]]:
+    if not rectification:
+        return []
+    rows = rectification.get("evidence_rows")
+    if not isinstance(rows, list):
+        rows = (rectification.get("rectification") or {}).get("evidence_rows")
+    if not isinstance(rows, list):
+        return []
+    results: list[dict[str, Any]] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        copied = dict(row)
+        copied.setdefault("account_id", account_id)
+        results.append(copied)
+    return results
+
+
 def _score_asset(
     asset: dict[str, Any],
     *,
@@ -359,10 +377,16 @@ def build_enrich_results(
     for account_id in wanted:
         rectification = rectification_map.get(account_id)
         main_row = main_by_id.get(account_id, {})
-        account_name = _clean(main_row.get("account_canonical_name"))
+        rect = (rectification or {}).get("rectification", {})
+        rewrite = rect.get("rewrite_suggestion") or {}
+        account_name = _clean(main_row.get("account_canonical_name") or (rectification or {}).get("account_name"))
         profile_row = profile_by_id.get(account_id) or profile_by_name.get(account_name) or {}
-        track_name = _track_name(main_row.get("primary_track") or profile_row.get("primary_track"))
-        current_level = _clean(main_row.get("静态潜客记录成熟度") or profile_row.get("静态潜客记录成熟度"))
+        track_name = _track_name(main_row.get("primary_track") or profile_row.get("primary_track") or rewrite.get("primary_track"))
+        current_level = _clean(
+            rect.get("suggested_maturity")
+            or main_row.get("静态潜客记录成熟度")
+            or profile_row.get("静态潜客记录成熟度")
+        )
         current_persona = _clean(main_row.get("persona_tag") or profile_row.get("persona_tag"))
         primary_persona, persona_issues = _determine_primary_persona(
             current_persona=current_persona,
@@ -392,12 +416,10 @@ def build_enrich_results(
             queue_rows=learning_queue,
         )
 
-        rect = (rectification or {}).get("rectification", {})
-        rewrite = rect.get("rewrite_suggestion") or {}
         risk_flags = rect.get("risk_flags") or []
         suggested_maturity = _clean(rect.get("suggested_maturity")) or current_level
         validation_gap = _clean(rewrite.get("validation_gap") or rect.get("rectification_action") or profile_row.get("validation_gap") or main_row.get("validation_gap"))
-        account_evidence = evidence_by_account.get(account_id, [])
+        account_evidence = [*evidence_by_account.get(account_id, []), *_rectification_evidence_rows(rectification, account_id)]
         evidence_official_count = sum(
             1
             for row in account_evidence
@@ -455,7 +477,7 @@ def build_enrich_results(
             official_source_status=official_source_status,
             primary_persona=primary_persona,
         )
-        summary = f"{account_name or account_id} enrich 完成：主画像={primary_persona or '待定'}，次级画像={len(secondary_personas)}，知识资产={len(strong_assets)}，可进入 promote={ready}。"
+        summary = f"{account_name or account_id} enrich 完成：主画像={primary_persona or '待定'}，次级画像={len(secondary_personas)}，ICP参考资产={len(strong_assets)}，可进入 promote={ready}。"
         results.append(
             EnrichResult(
                 account_id=account_id,
@@ -466,6 +488,7 @@ def build_enrich_results(
                 persona_tag=primary_persona,
                 secondary_persona_tags=secondary_personas,
                 knowledge_asset_refs=strong_assets,
+                icp_reference_asset_refs=strong_assets,
                 talk_track_refs=strong_talks,
                 minimum_fact_status=minimum_fact_status,
                 official_source_status=official_source_status,

@@ -1,0 +1,63 @@
+{
+  "milestone": "M60R-M64R",
+  "generated_at": "2026-05-03T10:58:02.412843+00:00",
+  "status": "PLANNED_AND_M60R_IN_PROGRESS",
+  "mainline": "source/persona -> candidate discovery -> enrich_static_facts -> attach_icp_references -> collect_strong_evidence -> static_promote -> gap_queue -> trusted_pool update -> vault cards/dossiers",
+  "milestones": [
+    {
+      "id": "M60R",
+      "priority": "P0",
+      "goal": "M59R 闭环固化，正式沉淀 report、closure、状态面板与工作区清理 manifest。",
+      "outputs": [
+        "m59 closure",
+        "status panel update",
+        "workspace cleanup manifest"
+      ]
+    },
+    {
+      "id": "M61R",
+      "priority": "P0",
+      "goal": "trusted_pool_runner v2 批次化，支持 baseline/signature、gap queue、source trace、no-write proof、update_trusted_pool。",
+      "outputs": [
+        "runner v2",
+        "baseline package",
+        "no-write proof"
+      ]
+    },
+    {
+      "id": "M62R",
+      "priority": "P0/P1",
+      "goal": "Evidence-first 升层与 vault 输出闭环，自动生成/更新 L3 卡、L2 档案、L1 静态最高可信索引。",
+      "outputs": [
+        "vault output generator",
+        "L1/L2/L3 indexes"
+      ]
+    },
+    {
+      "id": "M63R",
+      "priority": "P1",
+      "goal": "新批次 20-30 家从 L5/L4 开始扩容试运行，验证持续补证和升层机制。",
+      "outputs": [
+        "candidate discovery package",
+        "evidence patch",
+        "static promote report"
+      ]
+    },
+    {
+      "id": "M64R",
+      "priority": "P1",
+      "goal": "交接与长期运行面板，防止新 agent 误用旧 Excel 主线。",
+      "outputs": [
+        "canonical runbook",
+        "readiness check",
+        "handoff snapshot"
+      ]
+    }
+  ],
+  "guardrails": {
+    "no_old_excel_default_write": true,
+    "no_dynamic_sales_priority_in_static_pool": true,
+    "no_prospect_output_to_knowledge_assets": true,
+    "no_delete_or_reset_workspace_without_confirmation": true
+  }
+}

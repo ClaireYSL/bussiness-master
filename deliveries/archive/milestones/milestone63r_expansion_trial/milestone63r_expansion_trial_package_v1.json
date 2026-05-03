@@ -1,0 +1,467 @@
+{
+  "milestone": "M63R",
+  "generated_at": "2026-05-03T11:05:14.004056+00:00",
+  "status": "PASS_M63R_EXPANSION_TRIAL_READY",
+  "source_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_preflight/milestone25r_trusted_expansion_candidates_v1.json",
+  "summary": {
+    "trial_candidate_count": 30,
+    "level_counts": {
+      "L4": 30
+    },
+    "old_workbook_write_enabled": false,
+    "trusted_pool_update_enabled": false
+  },
+  "items": [
+    {
+      "account_id": "acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "track": "先进制造",
+      "matched_persona": "mfg_multi_factory_group",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_brand_outbound",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_multi_platform_brand",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_brand_outbound",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "track": "跨境电商",
+      "matched_persona": "cbec_supply_chain_complex",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "track": "零售消费",
+      "matched_persona": "retail_multi_store_chain",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_babi",
+      "company_name": "巴比食品集团有限公司",
+      "track": "零售消费",
+      "matched_persona": "retail_chain_fnb",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "track": "零售消费",
+      "matched_persona": "retail_multi_store",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    },
+    {
+      "account_id": "acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "track": "零售消费",
+      "matched_persona": "retail_high_sku_brand",
+      "trial_static_level": "L4",
+      "preflight_status": "needs_patch",
+      "required_gap_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "evidence_first_next_step": "补官方/强来源、核心产品服务、业务模式、ICP 匹配理由后再进入 trusted_pool_runner。"
+    }
+  ],
+  "note": "本轮只形成扩容试运行队列，不伪造强来源，不写旧 Excel，不写 trusted pool。"
+}

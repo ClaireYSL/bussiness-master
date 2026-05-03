@@ -15,6 +15,7 @@ if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
 from shared.static_pool import build_promote_summary_payload, render_promote_review_markdown
+from shared.static_pool.legacy_guard import assert_legacy_workbook_write_allowed
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -33,6 +34,7 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Require report baseline and candidate signature match before write_back.",
     )
+    parser.add_argument("--allow-legacy-workbook-write", action="store_true", help="Explicitly allow legacy Excel workbook writes.")
     return parser
 
 
@@ -211,6 +213,19 @@ def _run_stage(command: list[str]) -> tuple[int, dict[str, object], str, str]:
     return proc.returncode, output, stdout, stderr
 
 
+def _result_count_from_file(path: str) -> int:
+    if not path:
+        return 0
+    try:
+        payload = _load_json(Path(path))
+    except Exception:
+        return 0
+    results = payload.get("results")
+    if isinstance(results, list):
+        return len(results)
+    return 0
+
+
 def _render_execution_review(payload: dict[str, object]) -> str:
     summary = payload.get("summary") or {}
     enrich = payload.get("enrich") or {}
@@ -253,6 +268,7 @@ def _run_enrich_stage(
     mode: str,
     phase_label: str,
     phase_suffix_enabled: bool,
+    allow_legacy_write: bool,
 ) -> tuple[int, dict[str, object], str, str]:
     stage = dict(enrich_cfg)
     stage["account_ids"] = account_ids
@@ -269,6 +285,8 @@ def _run_enrich_stage(
         cmd.append("--report-only")
     if mode == "write_back":
         cmd.append("--write-back")
+        if allow_legacy_write:
+            cmd.append("--allow-legacy-workbook-write")
     return _run_stage(cmd)
 
 
@@ -342,6 +360,7 @@ def _run_promote_stage(
     phase_label: str,
     phase_suffix_enabled: bool,
     enrich_result_file: str,
+    allow_legacy_write: bool,
 ) -> tuple[int, dict[str, object], str, str]:
     grouped: dict[tuple[str, str], list[str]] = {}
     for item in candidates:
@@ -387,6 +406,8 @@ def _run_promote_stage(
             cmd.append("--report-only")
         if mode == "write_back":
             cmd.append("--write-back")
+            if allow_legacy_write:
+                cmd.append("--allow-legacy-workbook-write")
         code, output, stdout, stderr = _run_stage(cmd)
         stdouts.append(stdout)
         stderrs.append(stderr)
@@ -445,6 +466,7 @@ def _execute_single_phase(
     mode: str,
     phase_label: str,
     phase_suffix_enabled: bool,
+    allow_legacy_write: bool,
 ) -> dict[str, object]:
     started_at = _now()
     enrich_cfg = config.get("enrich")
@@ -461,6 +483,7 @@ def _execute_single_phase(
         mode=mode,
         phase_label=phase_label,
         phase_suffix_enabled=phase_suffix_enabled,
+        allow_legacy_write=allow_legacy_write,
     )
     enrich_status = "success" if enrich_code == 0 else "failed"
     enrich_result_file = _clean(enrich_output.get("output_file")) or _with_phase_suffix(_clean(enrich_cfg.get("output_file")), phase_label, enabled=phase_suffix_enabled)
@@ -485,6 +508,7 @@ def _execute_single_phase(
             phase_label=phase_label,
             phase_suffix_enabled=phase_suffix_enabled,
             enrich_result_file=enrich_result_file,
+            allow_legacy_write=allow_legacy_write,
         )
         promote_status = "success" if promote_code == 0 else "failed"
         if promote_code != 0:
@@ -518,7 +542,11 @@ def _execute_single_phase(
             "output_file": enrich_result_file,
             "summary_file": enrich_summary_file,
             "review_file": enrich_review_file,
-            "result_count": int((enrich_output.get("summary") or {}).get("result_count") or 0) if isinstance(enrich_output.get("summary"), dict) else 0,
+            "result_count": (
+                int((enrich_output.get("summary") or {}).get("result_count") or 0)
+                if isinstance(enrich_output.get("summary"), dict)
+                else _result_count_from_file(enrich_result_file)
+            ),
             "write_back": enrich_write_back,
         },
         "promote": {
@@ -563,6 +591,7 @@ def main() -> int:
     config_path = Path(args.config_file)
     config = _load_json(config_path)
     mode = _resolve_mode(config, args)
+    allow_legacy_write = bool(args.allow_legacy_workbook_write or config.get("allow_legacy_workbook_write"))
     batch_id = _clean(config.get("batch_id")) or config_path.stem
     goal = _clean(config.get("goal"))
     candidates = _load_candidates(config, args.candidate_file)
@@ -588,6 +617,7 @@ def main() -> int:
             mode="report_only",
             phase_label="report_only",
             phase_suffix_enabled=False,
+            allow_legacy_write=allow_legacy_write,
         )
         payload["run_summary_file"] = str(run_summary_path)
         payload["run_review_file"] = str(run_review_path)
@@ -627,6 +657,13 @@ def main() -> int:
         return 0 if payload.get("status") == "success" else 1
 
     if mode == "write_back":
+        try:
+            assert_legacy_workbook_write_allowed(
+                cli_override=allow_legacy_write,
+                context="run_execution_batch legacy workbook write",
+            )
+        except PermissionError as exc:
+            raise SystemExit(str(exc)) from exc
         _validate_baseline(require_baseline, baseline_path, candidates)
         payload = _execute_single_phase(
             batch_id=batch_id,
@@ -636,6 +673,7 @@ def main() -> int:
             mode="write_back",
             phase_label="write_back",
             phase_suffix_enabled=False,
+            allow_legacy_write=allow_legacy_write,
         )
         payload["run_summary_file"] = str(run_summary_path)
         payload["run_review_file"] = str(run_review_path)
@@ -667,6 +705,7 @@ def main() -> int:
         mode="report_only",
         phase_label="report_only",
         phase_suffix_enabled=True,
+        allow_legacy_write=allow_legacy_write,
     )
     report_summary_path = Path(_with_phase_suffix(str(run_summary_path), "report_only", enabled=True))
     report_review_path = Path(_with_phase_suffix(str(run_review_path), "report_only", enabled=True))
@@ -692,6 +731,13 @@ def main() -> int:
         encoding="utf-8",
     )
     _validate_baseline(True, baseline_path, candidates)
+    try:
+        assert_legacy_workbook_write_allowed(
+            cli_override=allow_legacy_write,
+            context="run_execution_batch both-phase legacy workbook write",
+        )
+    except PermissionError as exc:
+        raise SystemExit(str(exc)) from exc
     write_payload = _execute_single_phase(
         batch_id=batch_id,
         goal=goal,
@@ -700,6 +746,7 @@ def main() -> int:
         mode="write_back",
         phase_label="write_back",
         phase_suffix_enabled=False,
+        allow_legacy_write=allow_legacy_write,
     )
     write_payload["run_summary_file"] = str(run_summary_path)
     write_payload["run_review_file"] = str(run_review_path)

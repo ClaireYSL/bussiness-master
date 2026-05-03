@@ -12,8 +12,8 @@ WORKSPACE = Path(__file__).resolve().parents[1]
 if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
-from scripts.expand_l5_consumer_personas_20260331 import run_expand_provider
 from shared.static_pool import resolve_static_pool_paths
+from shared.static_pool.legacy_guard import assert_legacy_workbook_write_allowed
 
 POOL_PATHS = resolve_static_pool_paths()
 TRACK_PERSONA_XLSX = POOL_PATHS["track_persona"]
@@ -35,7 +35,7 @@ TRACK_NAME_TO_ID = {
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Route expand requests by active track/persona provider coverage.")
+    parser = argparse.ArgumentParser(description="Legacy workbook expand router. New default expansion should use evidence-first trusted_pool_runner flow.")
     parser.add_argument("--track", required=True, help="Track name, for example 零售消费.")
     parser.add_argument("--persona-id", help="Optional primary persona to route.")
     parser.add_argument("--candidate-source", default="", help="Optional source description for this batch.")
@@ -43,7 +43,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--limit", type=int, default=20, help="Maximum number of candidates to return or execute for this batch.")
     parser.add_argument("--output-file", help="Where to write the expand routing result package. Omit to write under /tmp.")
     parser.add_argument("--report-only", action="store_true", help="Only build routing report.")
-    parser.add_argument("--write-back", action="store_true", help="Execute the matched provider when available.")
+    parser.add_argument("--write-back", action="store_true", help="Legacy only: execute the matched provider when available.")
+    parser.add_argument("--allow-legacy-workbook-write", action="store_true", help="Explicitly allow legacy expand provider writes.")
     return parser
 
 
@@ -92,6 +93,8 @@ def execute_provider(persona_id: str, limit: int, report_only: bool, output_file
         raise RuntimeError(f"当前 persona `{persona_id}` 没有可执行 provider。")
     if SUPPORTED_PERSONA_PROVIDERS[persona_id] != str(RETAIL_PROVIDER):
         raise RuntimeError(f"当前 provider `{SUPPORTED_PERSONA_PROVIDERS[persona_id]}` 还未接入统一 expand 执行。")
+    from scripts.expand_l5_consumer_personas_20260331 import run_expand_provider
+
     return run_expand_provider(
         persona_ids=[persona_id],
         limit=limit,
@@ -128,6 +131,7 @@ def main() -> int:
             "provider_script": provider,
             "active_personas_for_track": active_personas,
             "mode": "provider_script" if supported else "rule_driven_fallback",
+            "runner_status": "legacy_workbook_expand_reference_only",
         },
         "candidate_list": candidates,
         "formal_candidate_count": 0,
@@ -139,8 +143,15 @@ def main() -> int:
     }
     if supported:
         if args.report_only or not args.write_back:
-            payload["next_step"] = f"当前可接专题 provider：{provider}。如需真实扩池，使用 `--write-back` 进入统一 expand 执行。"
+            payload["next_step"] = f"当前可接 legacy 专题 provider：{provider}。新可信池扩容应走 evidence-first 候选发现、强来源补证与 trusted_pool_runner。"
         else:
+            try:
+                assert_legacy_workbook_write_allowed(
+                    cli_override=bool(args.allow_legacy_workbook_write),
+                    context="expand_static_pool legacy provider execution",
+                )
+            except PermissionError as exc:
+                raise SystemExit(str(exc)) from exc
             provider_result = execute_provider(
                 persona_id=persona_id,
                 limit=args.limit,

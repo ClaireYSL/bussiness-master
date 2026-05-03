@@ -12,7 +12,7 @@ def _env_path(key: str) -> Path | None:
 
 
 def get_static_pool_root() -> Path:
-    return _env_path("STATIC_POOL_ROOT") or (Path.home() / "Documents/Obsidian-Codex/潜客池")
+    return _env_path("STATIC_POOL_ROOT") or Path("/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池").expanduser().resolve()
 
 
 def resolve_static_pool_paths() -> dict[str, Path]:
@@ -26,4 +26,3 @@ def resolve_static_pool_paths() -> dict[str, Path]:
         "track_persona": _env_path("STATIC_POOL_TRACK_PERSONA_FILE") or (root / "主线与画像注册表.xlsx"),
         "knowledge_registry": _env_path("STATIC_POOL_KNOWLEDGE_REGISTRY_FILE") or (root / "知识资产注册表.xlsx"),
     }
-

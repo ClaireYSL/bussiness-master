@@ -21,6 +21,7 @@ from shared.static_pool import (
     resolve_static_pool_paths,
 )
 from shared.static_pool import write_back_promotion_results
+from shared.static_pool.legacy_guard import assert_legacy_workbook_write_allowed
 
 POOL_PATHS = resolve_static_pool_paths()
 MAIN_XLSX = POOL_PATHS["main"]
@@ -41,6 +42,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-file", help="Where to write the promotion evaluation report.")
     parser.add_argument("--report-only", action="store_true", help="Only build the promotion report, do not write back.")
     parser.add_argument("--write-back", action="store_true", help="Write allow results back to the shared fact layer.")
+    parser.add_argument("--allow-legacy-workbook-write", action="store_true", help="Explicitly allow legacy Excel workbook writes.")
     return parser
 
 
@@ -195,6 +197,27 @@ def apply_fact_patch(
     return profile_updated, evidence_added
 
 
+def fact_patch_evidence_by_account(patch: dict[str, object]) -> dict[str, list[dict[str, object]]]:
+    grouped: dict[str, list[dict[str, object]]] = {}
+    accounts = patch.get("accounts")
+    if not isinstance(accounts, list):
+        return grouped
+    for item in accounts:
+        if not isinstance(item, dict):
+            continue
+        account_id = _clean(item.get("account_id"))
+        rows = item.get("evidence_rows")
+        if not account_id or not isinstance(rows, list):
+            continue
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            copied = dict(row)
+            copied.setdefault("account_id", account_id)
+            grouped.setdefault(account_id, []).append(copied)
+    return grouped
+
+
 def apply_queue_patch(queue_rows: list[dict[str, object]], patch: dict[str, object]) -> int:
     accounts = patch.get("accounts")
     if not isinstance(accounts, list):
@@ -281,11 +304,12 @@ def overlay_enrich_results(
         account_id = _clean(item.get("account_id"))
         if not account_id:
             continue
-        main_row = dict(main_by_id.get(account_id) or {})
-        profile_row = dict(profile_by_id.get(account_id) or {})
+        account_name = _clean(item.get("account_canonical_name"))
+        main_row = dict(main_by_id.get(account_id) or {"account_id": account_id, "account_canonical_name": account_name})
+        profile_row = dict(profile_by_id.get(account_id) or {"account_id": account_id, "account_canonical_name": account_name})
         for row in (main_row, profile_row):
-            if not row:
-                continue
+            row["account_id"] = row.get("account_id") or account_id
+            row["account_canonical_name"] = row.get("account_canonical_name") or account_name
             row["primary_track"] = item.get("primary_track") or row.get("primary_track")
             row["persona_tag"] = item.get("persona_tag") or row.get("persona_tag")
             row["secondary_persona_tags"] = ",".join(item.get("secondary_persona_tags") or [])
@@ -441,6 +465,13 @@ def main() -> int:
         "main_coverage": main_coverage,
     }
     if (args.write_back or bool(config.get("write_back"))) and not args.report_only:
+        try:
+            assert_legacy_workbook_write_allowed(
+                cli_override=bool(args.allow_legacy_workbook_write or config.get("allow_legacy_workbook_write")),
+                context="promote_static_pool legacy workbook write",
+            )
+        except PermissionError as exc:
+            raise SystemExit(str(exc)) from exc
         lock_timeout = float(config.get("workbook_lock_timeout_seconds") or 0.0)
         try:
             payload["write_back"] = write_back_promotion_results(
@@ -451,6 +482,8 @@ def main() -> int:
                 main_shared_xlsx=MAIN_SHARED_XLSX,
                 gov_xlsx=GOV_XLSX,
                 lock_timeout_seconds=lock_timeout,
+                extra_evidence_rows_by_account=fact_patch_evidence_by_account(fact_patch_payload),
+                allow_legacy_workbook_write=True,
             )
         except WorkbookLockError as exc:
             raise SystemExit(str(exc)) from exc

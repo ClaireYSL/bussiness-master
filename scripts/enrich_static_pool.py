@@ -24,6 +24,7 @@ from shared.static_pool import (
     WorkbookLockError,
     resolve_static_pool_paths,
 )
+from shared.static_pool.legacy_guard import assert_legacy_workbook_write_allowed
 
 POOL_PATHS = resolve_static_pool_paths()
 PROFILE_XLSX = POOL_PATHS["profile"]
@@ -44,6 +45,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-file", help="Where to write the enrich result package.")
     parser.add_argument("--report-only", action="store_true", help="Only build enrich results, do not write back.")
     parser.add_argument("--write-back", action="store_true", help="Write enrich results back for selected accounts.")
+    parser.add_argument("--allow-legacy-workbook-write", action="store_true", help="Explicitly allow legacy Excel workbook writes.")
     return parser
 
 
@@ -155,12 +157,14 @@ def ensure_evidence_item(ws, header_index: dict[str, int], result: dict[str, obj
             continue
         ws.cell(row, locator_col).value = "phase1_rectification_package_v1"
         ws.cell(row, header_index["summary"]).value = _clean(result["summary"])
-        ws.cell(row, header_index["related_asset_ids"]).value = ",".join(result.get("knowledge_asset_refs") or [])
+        ws.cell(row, header_index["related_asset_ids"]).value = ""
         ws.cell(row, header_index["field_value"]).value = json.dumps(
             {
                 "candidate_type": result.get("candidate_type"),
                 "review_status": result.get("review_status"),
                 "persona_tag": result.get("persona_tag"),
+                "icp_reference_asset_refs": result.get("icp_reference_asset_refs") or result.get("knowledge_asset_refs") or [],
+                "icp_reference_note": "reference_only_not_prospect_evidence",
             },
             ensure_ascii=False,
         )
@@ -176,7 +180,7 @@ def ensure_evidence_item(ws, header_index: dict[str, int], result: dict[str, obj
     set_if_header(ws, header_index, target_row, "summary", _clean(result["summary"]))
     set_if_header(ws, header_index, target_row, "checked_by", "codex")
     set_if_header(ws, header_index, target_row, "checked_at", datetime.now().strftime("%Y-%m-%d"))
-    set_if_header(ws, header_index, target_row, "related_asset_ids", ",".join(result.get("knowledge_asset_refs") or []))
+    set_if_header(ws, header_index, target_row, "related_asset_ids", "")
     set_if_header(ws, header_index, target_row, "field_name", "execution_rectification")
     set_if_header(
         ws,
@@ -188,6 +192,8 @@ def ensure_evidence_item(ws, header_index: dict[str, int], result: dict[str, obj
                 "candidate_type": result.get("candidate_type"),
                 "review_status": result.get("review_status"),
                 "persona_tag": result.get("persona_tag"),
+                "icp_reference_asset_refs": result.get("icp_reference_asset_refs") or result.get("knowledge_asset_refs") or [],
+                "icp_reference_note": "reference_only_not_prospect_evidence",
             },
             ensure_ascii=False,
         ),
@@ -233,6 +239,11 @@ def write_back_results(results: list[dict[str, object]], *, lock_timeout_seconds
         for result in results:
             account_id = _clean(result["account_id"])
             account_name = _clean(result["account_canonical_name"])
+            if account_id and account_id not in profile_rows:
+                row = profile_ws.max_row + 1
+                set_if_header(profile_ws, profile_headers, row, "account_id", account_id)
+                set_if_header(profile_ws, profile_headers, row, "account_canonical_name", account_name)
+                profile_rows[account_id] = row
             if account_id in profile_rows:
                 row = profile_rows[account_id]
                 set_if_header(profile_ws, profile_headers, row, "primary_track", result.get("primary_track"))
@@ -360,8 +371,15 @@ def main() -> int:
         },
         "results": results,
     }
-    write_back_enabled = bool(config.get("write_back")) if "write_back" in config else bool(args.write_back)
+    write_back_enabled = bool(args.write_back) or bool(config.get("write_back"))
     if write_back_enabled and not args.report_only:
+        try:
+            assert_legacy_workbook_write_allowed(
+                cli_override=bool(args.allow_legacy_workbook_write or config.get("allow_legacy_workbook_write")),
+                context="enrich_static_pool legacy workbook write",
+            )
+        except PermissionError as exc:
+            raise SystemExit(str(exc)) from exc
         lock_timeout = float(config.get("workbook_lock_timeout_seconds") or 0.0)
         try:
             payload["write_back"] = write_back_results(results, lock_timeout_seconds=lock_timeout)

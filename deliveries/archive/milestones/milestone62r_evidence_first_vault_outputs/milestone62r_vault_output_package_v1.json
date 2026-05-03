@@ -1,0 +1,232 @@
+{
+  "milestone": "M62R",
+  "generated_at": "2026-05-03T11:05:14.003565+00:00",
+  "status": "PASS_M62R_VAULT_OUTPUT_PREVIEW_READY",
+  "summary": {
+    "card_preview_count": 20,
+    "formal_dossier_preview_count": 7,
+    "write_vault_enabled": false,
+    "old_workbook_write_enabled": false
+  },
+  "cards": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/云南贝泰妮生物科技集团股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/上海家化联合股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/水羊集团股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/逸仙控股有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/稳健医疗用品股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "static_level": "L2",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/瑞幸咖啡有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "static_level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/霸王茶姬控股有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/四川百茶百道实业股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "static_level": "L3",
+      "matched_persona": "fnb_chain_standardized",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/九毛九国际控股有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "fnb_chain_standardized",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/绝味食品股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_multi_store",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/深圳百果园实业集团股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_multi_store",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/孩子王儿童用品股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_multi_store",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/周大生珠宝股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/盐津铺子食品股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/三只松鼠股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/小熊电器股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "cbec_multi_platform_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/北京石头世纪科技股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/赛维时代科技股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "static_level": "L3",
+      "matched_persona": "cbec_platform_operator",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/焦点科技股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "static_level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/云米科技有限公司.md",
+      "write_vault_enabled": false
+    }
+  ],
+  "formal_dossiers": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/云南贝泰妮生物科技集团股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "static_level": "L2",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/瑞幸咖啡有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "fnb_chain_standardized",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/绝味食品股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_multi_store",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/深圳百果园实业集团股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_multi_store",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/周大生珠宝股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "retail_high_sku_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/三只松鼠股份有限公司.md",
+      "write_vault_enabled": false
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "static_level": "L2",
+      "matched_persona": "cbec_multi_platform_brand",
+      "preview_markdown": "deliveries/archive/milestones/milestone62r_evidence_first_vault_outputs/vault_output_preview/北京石头世纪科技股份有限公司.md",
+      "write_vault_enabled": false
+    }
+  ],
+  "boundary": "Preview only. Actual vault write remains a separate controlled action."
+}

@@ -1,0 +1,18 @@
+{
+  "milestone": "M60R",
+  "generated_at": "2026-05-03T10:59:37.069303+00:00",
+  "status": "PASS_M60R_VALIDATION",
+  "checks": {
+    "py_compile": "PASS",
+    "json_parse": "PASS",
+    "legacy_run_execution_batch_guard": "PASS",
+    "legacy_expand_guard": "PASS",
+    "m58_dynamic_term_findings_count": 0,
+    "api_key_scan": "PASS_PATTERN_SCAN_NO_KEY",
+    "workspace_cleanup_manifest": "PASS_NO_DELETE_NO_RESET"
+  },
+  "notes": [
+    "API real-key scan skipped because DELEGATE_LLM_API_KEY was not loaded in this shell; pattern scan excluding .env passed.",
+    "M58R proof was read, not rerun, to avoid reverting canonical status panel latest milestone back to M58R."
+  ]
+}
