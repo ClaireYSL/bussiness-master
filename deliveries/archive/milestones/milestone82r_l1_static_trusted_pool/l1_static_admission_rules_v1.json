@@ -1,0 +1,23 @@
+{
+  "milestone": "M82R",
+  "generated_at": "2026-05-03T13:13:37.235306+00:00",
+  "status": "PASS_M82R_L1_STATIC_RULES_READY",
+  "rules": {
+    "l1_must_start_from": "L2",
+    "minimum_strong_sources": 3,
+    "minimum_strong_source_types": 2,
+    "requires_icp_support_source": true,
+    "requires_complete_static_fields": [
+      "match_reason",
+      "core_product_service_summary",
+      "business_model_summary",
+      "risk_or_gap"
+    ],
+    "forbidden_dynamic_terms": [
+      "重点经营",
+      "worth_following",
+      "recommended_next_action",
+      "business_feedback_pending"
+    ]
+  }
+}

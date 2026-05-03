@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T12:54:19.277326+00:00",
-  "overall_status": "PASS_M81R_L2_COVERAGE_BALANCED",
+  "generated_at": "2026-05-03T13:13:37.840269+00:00",
+  "overall_status": "PASS_M82R_L1_STATIC_TRUSTED_POOL_DELIVERED",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -19,14 +19,14 @@
     "static_l2_ready": 8,
     "static_l1_ready": 0
   },
-  "next_recommended_action": "L2 正式池覆盖已补齐；下一步可评估 L1 静态最高可信池，或进入新一轮 evidence-first 扩容。",
+  "next_recommended_action": "L1 首批已交付；下一步可做 L1 档案可读性复核，或进入新一轮 evidence-first 扩容。",
   "no_write_proof": {
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M81R",
+  "latest_milestone": "M82R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "L2 正式池覆盖已补齐；下一步可评估 L1 静态最高可信池，或进入新一轮 evidence-first 扩容。",
+  "canonical_next_action": "L1 首批已交付；下一步可做 L1 档案可读性复核，或进入新一轮 evidence-first 扩容。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -303,6 +303,28 @@
     },
     "l2_vault_write_count": 20,
     "l3_removed_count": 20,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m82r_l1_static_trusted_pool": {
+    "canonical_pool_count": 50,
+    "static_level_counts": {
+      "L1": 19,
+      "L2": 30,
+      "L4": 1
+    },
+    "l1_by_persona": {
+      "retail_high_sku_brand": 8,
+      "fnb_chain_beverage_coffee": 3,
+      "fnb_chain_standardized": 2,
+      "retail_multi_store": 2,
+      "cbec_multi_platform_brand": 3,
+      "cbec_platform_operator": 1
+    },
+    "l1_vault_write_count": 19,
+    "remain_l2_count": 30,
+    "l1_gap_count": 30,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false

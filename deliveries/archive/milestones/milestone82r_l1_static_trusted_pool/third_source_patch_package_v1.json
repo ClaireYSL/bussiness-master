@@ -1,0 +1,294 @@
+{
+  "milestone": "M82R",
+  "generated_at": "2026-05-03T13:13:37.235309+00:00",
+  "status": "PASS_M82R_THIRD_SOURCE_PATCH_READY",
+  "summary": {
+    "l2_input_count": 49,
+    "third_source_patch_count": 20,
+    "l1_ready_count": 19,
+    "l1_gap_count": 30,
+    "fabricated_source_count": 0
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.botanee.com.cn/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "贝泰妮官网用于支撑品牌与产品体系，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.jahwa.com.cn/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "上海家化官网用于支撑多品牌消费品经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://syounggroup.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "水羊集团官网用于支撑品牌与消费品经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.yatsenglobal.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "逸仙集团官网用于支撑消费品牌与产品组合特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.winnermedical.cn/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "稳健医疗官网用于支撑产品体系与品牌经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.luckincoffee.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:chain_store_operations",
+        "summary": "瑞幸咖啡官网用于支撑连锁门店与饮品业务特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.chagee.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:chain_store_operations",
+        "summary": "霸王茶姬官网用于支撑茶饮连锁业务特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.chabaidao.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:chain_store_operations",
+        "summary": "茶百道官网用于支撑茶饮连锁业务特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.jiumaojiu.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:chain_standardization",
+        "summary": "九毛九官网用于支撑餐饮连锁与多品牌标准化经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.juewei.cn/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:chain_standardization",
+        "summary": "绝味食品官网用于支撑连锁卤味标准化经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.pagoda.com.cn/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:multi_store_retail",
+        "summary": "百果园官网用于支撑生鲜零售门店网络特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.haiziwang.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:multi_store_retail",
+        "summary": "孩子王官网用于支撑母婴零售与会员经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.chowtaiseng.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:multi_store_retail",
+        "summary": "周大生官网用于支撑珠宝零售门店与品牌经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.yanjinpuzi.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "盐津铺子官网用于支撑休闲食品品牌与产品体系，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.3songshu.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "三只松鼠官网用于支撑休闲食品品牌与产品体系，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.bears.com.cn/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:brand_product_matrix",
+        "summary": "小熊电器官网用于支撑小家电产品矩阵与品牌经营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.roborock.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:global_brand_operations",
+        "summary": "石头科技官网用于支撑全球品牌与智能硬件产品特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.sailvan.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:cross_border_operations",
+        "summary": "赛维时代官网用于支撑跨境品牌与多平台运营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.focuschina.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:platform_operator",
+        "summary": "焦点科技官网用于支撑 B2B 平台运营特征，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "current_level": "L2",
+      "third_source": {
+        "source_type": "official_site",
+        "source_locator": "https://www.viomi.com/",
+        "evidence_strength": "official_site",
+        "supports_dimension": "icp_match_support:global_brand_operations",
+        "summary": "云米官网用于支撑智能家电品牌与产品体系，作为 L1 ICP 匹配来源。",
+        "added_by_milestone": "M82R"
+      },
+      "intended_level": "L1"
+    }
+  ]
+}

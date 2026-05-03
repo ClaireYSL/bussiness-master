@@ -1,0 +1,18 @@
+{
+  "milestone": "M82R",
+  "generated_at": "2026-05-03T13:13:37.839313+00:00",
+  "status": "PASS_M82R_HANDOFF_READY",
+  "key_outputs": {
+    "trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "l1_admission_report": "deliveries/archive/milestones/milestone82r_l1_static_trusted_pool/l1_admission_report_v1.json",
+    "l1_vault_package": "deliveries/archive/milestones/milestone82r_l1_static_trusted_pool/l1_vault_write_package_v1.json",
+    "validation": "deliveries/archive/milestones/milestone82r_l1_static_trusted_pool/m82r_validation_report_v1.json"
+  },
+  "do_not_write": [
+    "旧 Excel",
+    "knowledge_assets",
+    "persona_registry",
+    "动态经营任务"
+  ]
+}
