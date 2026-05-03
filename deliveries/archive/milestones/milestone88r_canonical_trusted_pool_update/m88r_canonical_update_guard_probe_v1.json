@@ -1,0 +1,7 @@
+{
+  "milestone": "M88R",
+  "generated_at": "2026-05-03T14:05:53.501941+00:00",
+  "status": "FAIL_GUARD_REQUIRED",
+  "returncode": 2,
+  "error": "canonical update requires --allow-canonical-update"
+}

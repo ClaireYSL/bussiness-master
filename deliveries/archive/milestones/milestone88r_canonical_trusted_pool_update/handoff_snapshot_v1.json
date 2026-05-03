@@ -1,0 +1,8 @@
+{
+  "milestone": "M88R",
+  "generated_at": "2026-05-03T14:05:54.002051+00:00",
+  "current_scope": "M87R preview 正式提升为 canonical trusted pool/source trace。",
+  "canonical_pool_updated": true,
+  "canonical_trace_updated": true,
+  "next_command": "python3 scripts/build_m88r_canonical_trusted_pool_update.py --allow-canonical-update"
+}

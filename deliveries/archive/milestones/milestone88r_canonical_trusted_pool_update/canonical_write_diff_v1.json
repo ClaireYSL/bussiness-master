@@ -1,0 +1,24 @@
+{
+  "milestone": "M88R",
+  "generated_at": "2026-05-03T14:05:53.542912+00:00",
+  "status": "PASS_M88R_CANONICAL_WRITE_DIFF_READY",
+  "summary": {
+    "before_pool_count": 50,
+    "after_pool_count": 61,
+    "before_trace_count": 50,
+    "after_trace_count": 61,
+    "appended_pool_count": 11,
+    "appended_trace_count": 11,
+    "before_pool_hash": "983a7096cc04a09b3eb1cf444df793549c349a5ed7d681a7d6a4374ff2d75537",
+    "after_pool_hash": "bacc2e35bc88efcf3d6d02d72a6c2cb26d7ee06d05ce5e4baee10a76cb07aa10",
+    "before_trace_hash": "3cea52472813ac01841cce684f03ab9e70bb74ced05d479bb3ad0f92e32bb01d",
+    "after_trace_hash": "d180787af42ce484616f6ad1e7131058ae6b77d09135649a7e29efaefdca8794",
+    "canonical_pool_updated": true,
+    "canonical_trace_updated": true,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "pool_diff_preview_file": "deliveries/archive/milestones/milestone87r_trusted_pool_update_preview/pool_diff_preview_v1.json",
+  "source_trace_diff_preview_file": "deliveries/archive/milestones/milestone87r_trusted_pool_update_preview/source_trace_diff_preview_v1.json"
+}

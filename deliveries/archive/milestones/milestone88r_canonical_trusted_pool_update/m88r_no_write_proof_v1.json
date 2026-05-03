@@ -1,0 +1,11 @@
+{
+  "milestone": "M88R",
+  "generated_at": "2026-05-03T14:05:54.001792+00:00",
+  "status": "PASS_CANONICAL_ONLY_WRITE",
+  "canonical_pool_updated": true,
+  "canonical_trace_updated": true,
+  "vault_regular_written": false,
+  "old_workbook_write_enabled": false,
+  "knowledge_asset_write_enabled": false,
+  "persona_registry_write_enabled": false
+}
