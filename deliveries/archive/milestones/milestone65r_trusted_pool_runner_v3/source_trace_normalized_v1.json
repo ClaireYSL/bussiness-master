@@ -1,0 +1,261 @@
+{
+  "generated_at": "2026-05-03T11:26:21.155345+00:00",
+  "source_trace_count": 8,
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "source_count": 2,
+      "strong_source_count": 2,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://www.botanee.com.cn/investor-relations.html",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 云南贝泰妮生物科技集团股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "regulatory_annual_report",
+          "source_locator": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10975004&stockid=300957",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "贝泰妮 2024 年年度报告披露公司业务、研发体系、经营结果、投资者关系活动及治理信息，可作为 L2 第二强来源。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "source_count": 2,
+      "strong_source_count": 2,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 周大生珠宝股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "regulatory_annual_report_summary",
+          "source_locator": "https://notice.10jqka.com.cn/api/pdf/1a33ea9518295c6e.pdf",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "周大生 2024 年年度报告摘要披露珠宝产品、品牌运营、渠道和经营结果，可作为多门店零售画像第二强来源。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "source_count": 2,
+      "strong_source_count": 2,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://www.juewei.cn/page/jwd/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 绝味食品股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "regulatory_annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-10/1223045873.PDF",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "绝味食品 2024 年年度报告披露卤味食品、连锁门店、经营数据和治理信息，可支撑连锁标准化餐饮画像。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "source_count": 2,
+      "strong_source_count": 1,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
+          "evidence_strength": "authoritative_media",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 孩子王儿童用品股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "regulatory_annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222991960.pdf",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "孩子王 2024 年年度报告披露门店、会员、乐友并购、母婴零售业务和财务表现，可支撑 L2 正式档案。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "source_count": 2,
+      "strong_source_count": 2,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 瑞幸咖啡有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "sec_annual_report",
+          "source_locator": "https://www.sec.gov/Archives/edgar/data/1767582/000141057825000546/lk-20241231x20f.htm",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "瑞幸咖啡 2024 Form 20-F 披露门店、移动应用、经营风险、财务和业务模式，是 L2 第二强来源。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "source_count": 2,
+      "strong_source_count": 1,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://www.pagoda.com.cn/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 深圳百果园实业集团股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "official_company_profile",
+          "source_locator": "https://www.pagoda.com.cn/about",
+          "evidence_strength": "official_site",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "百果园官网企业简介披露其水果采购、种植支持、采后保鲜、物流仓储、标准分级、门店零售等业务链条。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "source_count": 2,
+      "strong_source_count": 1,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://group.roborock.com/zh-hk/contact-us",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 北京石头世纪科技股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "exchange_performance_report",
+          "source_locator": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-02-28/688169_20250228_4E3Y.pdf",
+          "evidence_strength": "exchange_announcement",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "石头科技 2024 年业绩快报披露营收、业务增长和披露主体信息，可作为正式档案第二强来源；后续仍建议补年度报告全文。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "source_count": 2,
+      "strong_source_count": 1,
+      "sources": [
+        {
+          "source_type": "existing_m44r_strong_source",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
+          "evidence_strength": "regulatory",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "M44R 首条强来源，用于确认 三只松鼠股份有限公司 的主体、业务和画像匹配基础。"
+        },
+        {
+          "source_type": "regulatory_annual_report",
+          "source_locator": "https://disc.static.szse.cn/disc/disk03/finalpage/2025-03-27/d57d1ee5-75e6-4695-9661-2ba04cb9fd3c.PDF",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match",
+            "financial_disclosure"
+          ],
+          "summary": "三只松鼠 2024 年年度报告披露品牌、渠道、线上平台、分销与门店业务，可支撑高 SKU 消费品牌画像。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "milestone": "M68R",
+  "generated_at": "2026-05-03T11:26:21.530003+00:00",
+  "status": "PASS_M68R_EVIDENCE_FIRST_EXPANSION_READY",
+  "summary": {
+    "candidate_count": 30,
+    "level_counts": {
+      "L3": 29,
+      "L4": 1
+    },
+    "gap_queue_count": 30,
+    "old_workbook_write_enabled": false,
+    "trusted_pool_update_enabled": false
+  },
+  "source_policy": "复用 M25R 已有 CNINFO/官方来源和最小字段补丁，不伪造新来源。"
+}

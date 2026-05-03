@@ -22,10 +22,28 @@ DEFAULT_GAP_QUEUE = "deliveries/archive/milestones/milestone61r_trusted_pool_run
 DEFAULT_BASELINE = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_baseline_v1.json"
 DEFAULT_SOURCE_TRACE_OUTPUT = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/source_trace_normalized_v1.json"
 DEFAULT_NO_WRITE_PROOF = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/no_write_proof_v1.json"
+DEFAULT_POOL_DIFF = "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/pool_diff_report_v1.json"
+DEFAULT_VALIDATION = "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/validation_report_v1.json"
+DEFAULT_VAULT_PREVIEW = "deliveries/archive/milestones/milestone67r_vault_output_closure/vault_output_preview"
+
+
+STATIC_UPDATE_FIELDS = (
+    "level",
+    "trusted_status",
+    "static_promotion_summary",
+    "static_gap_count",
+    "static_evidence_count",
+    "static_strong_evidence_count",
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Evidence-first trusted pool runner for static L1-L5 promotion.")
+    parser.add_argument(
+        "--mode",
+        choices=("report_only", "validate_only", "update_trusted_pool", "generate_vault_preview"),
+        default="report_only",
+    )
     parser.add_argument("--trusted-pool", default=DEFAULT_TRUSTED_POOL)
     parser.add_argument("--source-trace", default=DEFAULT_SOURCE_TRACE)
     parser.add_argument("--output-file", default=DEFAULT_OUTPUT)
@@ -33,8 +51,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--baseline-file", default=DEFAULT_BASELINE)
     parser.add_argument("--source-trace-output", default=DEFAULT_SOURCE_TRACE_OUTPUT)
     parser.add_argument("--no-write-proof-file", default=DEFAULT_NO_WRITE_PROOF)
+    parser.add_argument("--pool-diff-file", default=DEFAULT_POOL_DIFF)
+    parser.add_argument("--validation-report-file", default=DEFAULT_VALIDATION)
+    parser.add_argument("--vault-preview-dir", default=DEFAULT_VAULT_PREVIEW)
     parser.add_argument("--require-baseline", action="store_true", help="Fail if the current batch signature differs from --baseline-file.")
     parser.add_argument("--write-baseline", action="store_true", help="Write the current batch baseline/signature.")
+    parser.add_argument("--allow-trusted-pool-update", action="store_true", help="Required with --mode update_trusted_pool.")
     parser.add_argument("--update-trusted-pool", action="store_true", help="Persist suggested levels back to trusted_prospect_pool_v1 JSON.")
     return parser
 
@@ -131,8 +153,116 @@ def _status_for_level(level: str) -> str:
     }.get(level, "candidate_seed")
 
 
+def _safe_filename(value: str) -> str:
+    keep = []
+    for char in value.strip():
+        if char in {"/", "\\", ":", "*", "?", '"', "<", ">", "|"}:
+            keep.append("_")
+        else:
+            keep.append(char)
+    return "".join(keep) or "unknown_prospect"
+
+
+def _static_patch_for_decision(decision: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "level": decision["suggested_level"],
+        "trusted_status": _status_for_level(decision["suggested_level"]),
+        "static_promotion_summary": decision["summary"],
+        "static_gap_count": len(decision["gap_queue"]),
+        "static_evidence_count": decision["evidence_count"],
+        "static_strong_evidence_count": decision["strong_evidence_count"],
+    }
+
+
+def _build_pool_diff(items: list[dict[str, Any]], decisions: list[dict[str, Any]]) -> dict[str, Any]:
+    by_id = {decision["prospect_id"]: decision for decision in decisions}
+    changes = []
+    for item in items:
+        prospect_id = str(item.get("prospect_id") or "").strip()
+        decision = by_id.get(prospect_id)
+        if not decision:
+            continue
+        patch = _static_patch_for_decision(decision)
+        field_changes = []
+        for field, new_value in patch.items():
+            old_value = item.get(field)
+            if old_value != new_value:
+                field_changes.append({"field": field, "old": old_value, "new": new_value})
+        changes.append(
+            {
+                "prospect_id": prospect_id,
+                "company_name": decision["company_name"],
+                "changed": bool(field_changes),
+                "field_changes": field_changes,
+            }
+        )
+    return {
+        "generated_at": _now(),
+        "changed_count": sum(1 for change in changes if change["changed"]),
+        "items": changes,
+    }
+
+
+def _write_vault_preview(preview_dir: str | Path, items: list[dict[str, Any]], decisions: list[dict[str, Any]]) -> list[dict[str, str]]:
+    out_dir = Path(preview_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    by_id = {str(item.get("prospect_id") or "").strip(): item for item in items}
+    outputs = []
+    for decision in decisions:
+        item = by_id.get(decision["prospect_id"], {})
+        filename = _safe_filename(decision["company_name"]) + ".md"
+        path = out_dir / filename
+        gaps = "\n".join(f"- {gap.get('reason', '')}" for gap in decision["gap_queue"]) or "- 暂无结构化缺口。"
+        text = f"""---
+prospect_id: {decision['prospect_id']}
+static_level: {decision['suggested_level']}
+matched_persona: {item.get('matched_persona', '')}
+legacy_field_inherited: false
+source_boundary: evidence_first_only
+---
+
+# {decision['company_name']}
+
+## 静态等级
+
+{decision['suggested_level']}
+
+## 为什么匹配 ICP
+
+{item.get('match_reason', '')}
+
+## 核心产品/服务
+
+{item.get('core_product_service_summary', '')}
+
+## 业务模式
+
+{item.get('business_model_summary', '')}
+
+## 关键来源
+
+- {item.get('source_locator', '')}
+
+## 风险与待补点
+
+{item.get('risk_or_gap', '')}
+
+## 升层缺口
+
+{gaps}
+
+## 边界说明
+
+本页只表达静态 ICP 匹配、证据成熟度和信息完整度；不表达经营优先级、团队跟进或触达时间。
+"""
+        path.write_text(text, encoding="utf-8")
+        outputs.append({"prospect_id": decision["prospect_id"], "company_name": decision["company_name"], "path": str(path)})
+    return outputs
+
+
 def main() -> int:
     args = build_parser().parse_args()
+    mode = "update_trusted_pool" if args.update_trusted_pool else args.mode
     pool_path = Path(args.trusted_pool)
     pool = _read_json(pool_path)
     source_trace = _source_trace_by_prospect(_read_json(args.source_trace))
@@ -169,27 +299,44 @@ def main() -> int:
     for decision in decisions:
         level_counts[decision["suggested_level"]] = level_counts.get(decision["suggested_level"], 0) + 1
 
+    pool_diff = _build_pool_diff(items, decisions)
+    validation_errors: list[str] = []
+    if mode == "update_trusted_pool" and not (args.allow_trusted_pool_update or args.update_trusted_pool):
+        validation_errors.append("update_trusted_pool requires --allow-trusted-pool-update")
+
     updated_pool_written = False
-    if args.update_trusted_pool:
+    if mode == "update_trusted_pool" and not validation_errors:
         by_id = {decision["prospect_id"]: decision for decision in decisions}
         for item in items:
             decision = by_id.get(str(item.get("prospect_id") or "").strip())
             if not decision:
                 continue
-            item["level"] = decision["suggested_level"]
-            item["trusted_status"] = _status_for_level(decision["suggested_level"])
-            item["static_promotion_summary"] = decision["summary"]
-            item["static_gap_count"] = len(decision["gap_queue"])
+            item.update(_static_patch_for_decision(decision))
         pool["generated_at"] = _now()
-        pool["summary"] = {**(pool.get("summary") or {}), "static_level_counts": level_counts, "runner": "trusted_pool_runner"}
+        pool["summary"] = {**(pool.get("summary") or {}), "static_level_counts": level_counts, "runner": "trusted_pool_runner_v3"}
         _write_json(pool_path, pool)
         updated_pool_written = True
+
+    if validation_errors:
+        validation_report = {
+            "generated_at": _now(),
+            "status": "FAIL_VALIDATION",
+            "mode": mode,
+            "errors": validation_errors,
+        }
+        _write_json(args.validation_report_file, validation_report)
+        print("; ".join(validation_errors), file=sys.stderr)
+        return 2
+
+    vault_preview_outputs: list[dict[str, str]] = []
+    if mode == "generate_vault_preview":
+        vault_preview_outputs = _write_vault_preview(args.vault_preview_dir, items, decisions)
 
     report = {
         "batch_id": Path(args.output_file).stem,
         "generated_at": _now(),
-        "runner": "trusted_pool_runner_v2",
-        "mode": "update_trusted_pool" if args.update_trusted_pool else "report_only",
+        "runner": "trusted_pool_runner_v3",
+        "mode": mode,
         "trusted_pool_file": str(pool_path),
         "source_trace_file": str(args.source_trace),
         "baseline_file": str(args.baseline_file),
@@ -199,6 +346,8 @@ def main() -> int:
             "level_counts": level_counts,
             "gap_queue_count": len(gap_queue),
             "updated_pool_written": updated_pool_written,
+            "pool_diff_changed_count": pool_diff["changed_count"],
+            "vault_preview_count": len(vault_preview_outputs),
             "old_workbook_write_enabled": False,
             "baseline_required": bool(args.require_baseline),
             "baseline_written": bool(args.write_baseline),
@@ -211,6 +360,8 @@ def main() -> int:
             "persona_registry_write_enabled": False,
             "dynamic_followup_task_created": False,
         },
+        "pool_diff_file": str(args.pool_diff_file),
+        "vault_preview_outputs": vault_preview_outputs,
     }
     gap_queue_payload = {
         "generated_at": _now(),
@@ -227,11 +378,23 @@ def main() -> int:
         "persona_registry_write_enabled": False,
         "dynamic_followup_task_created": False,
         "trusted_pool_updated": updated_pool_written,
+        "vault_preview_written": bool(vault_preview_outputs),
+    }
+    validation_report = {
+        "generated_at": _now(),
+        "status": "PASS_VALIDATION",
+        "mode": mode,
+        "prospect_count": len(items),
+        "candidate_signature": signature["candidate_signature"],
+        "dynamic_static_boundary": "PASS_STATIC_ONLY",
+        "old_workbook_write_enabled": False,
     }
     _write_json(args.output_file, report)
     _write_json(args.gap_queue_file, gap_queue_payload)
     _write_json(args.source_trace_output, source_trace_payload)
     _write_json(args.no_write_proof_file, no_write_proof)
+    _write_json(args.pool_diff_file, pool_diff)
+    _write_json(args.validation_report_file, validation_report)
     if args.write_baseline:
         _write_json(args.baseline_file, baseline)
     print(json.dumps({"output_file": args.output_file, "summary": report["summary"]}, ensure_ascii=False, indent=2))

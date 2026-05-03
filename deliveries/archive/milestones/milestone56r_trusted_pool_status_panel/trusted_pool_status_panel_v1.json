@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T11:05:14.004787+00:00",
-  "overall_status": "PASS_M64R_LONG_TERM_READINESS_READY",
+  "generated_at": "2026-05-03T11:26:21.555513+00:00",
+  "overall_status": "PASS_M68R_EVIDENCE_FIRST_EXPANSION_READY",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -19,14 +19,14 @@
     "static_l2_ready": 8,
     "static_l1_ready": 0
   },
-  "next_recommended_action": "下一步进入真实 M61/M62 增强迭代：为 M63R 队列补强 evidence 后，再用 trusted_pool_runner v2 持续升层。",
+  "next_recommended_action": "下一步：对 M68R 的 L3 扩容样本补第二强来源，进入 L3->L2 持续升层。",
   "no_write_proof": {
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M64R",
+  "latest_milestone": "M68R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "下一步进入真实 M61/M62 增强迭代：为 M63R 队列补强 evidence 后，再用 trusted_pool_runner v2 持续升层。",
+  "canonical_next_action": "下一步：对 M68R 的 L3 扩容样本补第二强来源，进入 L3->L2 持续升层。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -103,5 +103,43 @@
     "expansion_trial": "PASS_M63R_EXPANSION_TRIAL_READY",
     "legacy_write_guard": "PASS_LEGACY_OVERRIDE_REQUIRED",
     "canonical_static_boundary": "PASS_STATIC_ONLY_NO_DYNAMIC_PRIORITY"
+  },
+  "m65r_trusted_pool_runner_v3": {
+    "runner": "trusted_pool_runner_v3",
+    "mode": "report_only",
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "pool_diff_changed_count": 20
+  },
+  "m66r_storage_layer": {
+    "canonical_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "pool_diff_changed_count": 20,
+    "dynamic_field_write_enabled": false,
+    "old_workbook_write_enabled": false
+  },
+  "m67r_vault_output_closure": {
+    "vault_preview_count": 20,
+    "write_vault_enabled": false,
+    "dynamic_field_write_enabled": false
+  },
+  "m68r_expansion": {
+    "candidate_count": 30,
+    "level_counts": {
+      "L3": 29,
+      "L4": 1
+    },
+    "gap_queue_count": 30,
+    "old_workbook_write_enabled": false,
+    "trusted_pool_update_enabled": false
+  },
+  "c6_workspace_governance": {
+    "tracked_diff_count": 20,
+    "untracked_count": 528,
+    "raw_material_paths": 0,
+    "historical_archive_paths": 269,
+    "no_delete_no_reset": true
   }
 }

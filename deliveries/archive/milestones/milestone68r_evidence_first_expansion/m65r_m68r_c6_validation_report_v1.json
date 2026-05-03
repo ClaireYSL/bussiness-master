@@ -1,0 +1,32 @@
+{
+  "milestone": "M65R-M68R+C6",
+  "generated_at": "2026-05-03T11:27:24.870771+00:00",
+  "status": "PASS_M65R_M68R_C6_VALIDATION",
+  "checks": {
+    "py_compile": "PASS",
+    "json_parse": "PASS",
+    "trusted_pool_runner_v3_report_only": "PASS",
+    "trusted_pool_runner_v3_validate_only": "PASS",
+    "trusted_pool_runner_baseline_mismatch_guard": "PASS",
+    "legacy_run_execution_batch_guard": "PASS",
+    "legacy_expand_guard": "PASS",
+    "dynamic_term_scan_m65_m68": "PASS",
+    "api_key_pattern_scan": "PASS",
+    "assertions": "PASS"
+  },
+  "summary": {
+    "m65_level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "m67_vault_preview_count": 20,
+    "m68_level_counts": {
+      "L3": 29,
+      "L4": 1
+    },
+    "m68_candidate_count": 30,
+    "old_workbook_write_enabled": false,
+    "trusted_pool_updated": false,
+    "delete_reset_move_executed": false
+  }
+}

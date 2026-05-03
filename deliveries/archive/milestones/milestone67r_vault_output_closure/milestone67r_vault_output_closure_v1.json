@@ -1,0 +1,10 @@
+{
+  "milestone": "M67R",
+  "generated_at": "2026-05-03T11:26:21.530002+00:00",
+  "status": "PASS_M67R_VAULT_OUTPUT_CLOSURE_READY",
+  "summary": {
+    "vault_preview_count": 20,
+    "write_vault_enabled": false,
+    "dynamic_field_write_enabled": false
+  }
+}

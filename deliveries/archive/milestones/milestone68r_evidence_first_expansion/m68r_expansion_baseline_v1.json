@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-03T11:26:21.515528+00:00",
+  "runner": "trusted_pool_runner",
+  "trusted_pool_file": "deliveries/archive/milestones/milestone68r_evidence_first_expansion/m68r_expansion_trusted_pool_input_v1.json",
+  "source_trace_file": "deliveries/archive/milestones/milestone68r_evidence_first_expansion/m68r_expansion_source_trace_v1.json",
+  "candidate_count": 30,
+  "candidate_signature": "5a184ad8f789dd64097a4bb18d7f48f0208d906a9bc7cc12e6627ff45747e1f1"
+}

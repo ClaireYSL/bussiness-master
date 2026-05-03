@@ -1,0 +1,15 @@
+{
+  "milestone": "M65R",
+  "generated_at": "2026-05-03T11:26:21.529974+00:00",
+  "status": "PASS_M65R_TRUSTED_POOL_RUNNER_V3_READY",
+  "summary": {
+    "runner": "trusted_pool_runner_v3",
+    "mode": "report_only",
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "pool_diff_changed_count": 20
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "batch_id": "trusted_pool_runner_v3_validate_only_v1",
+  "generated_at": "2026-05-03T11:26:21.275289+00:00",
+  "runner": "trusted_pool_runner_v3",
+  "mode": "validate_only",
+  "trusted_pool_file": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+  "source_trace_file": "deliveries/archive/milestones/milestone52r_second_evidence_patch/source_trace_index_v2.json",
+  "baseline_file": "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/trusted_pool_runner_baseline_v1.json",
+  "candidate_signature": "3a9a4e5f91c881ab5a8c6dc55f7ae389cca111aae10bff606222f404662fd37d",
+  "summary": {
+    "prospect_count": 20,
+    "level_counts": {
+      "L2": 7,
+      "L3": 13
+    },
+    "gap_queue_count": 20,
+    "updated_pool_written": false,
+    "pool_diff_changed_count": 20,
+    "vault_preview_count": 0,
+    "old_workbook_write_enabled": false,
+    "baseline_required": true,
+    "baseline_written": false
+  },
+  "decisions": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "云南贝泰妮生物科技集团股份有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海家化联合股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "水羊集团股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "逸仙控股有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "稳健医疗用品股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "瑞幸咖啡有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "霸王茶姬控股有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "四川百茶百道实业股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "九毛九国际控股有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "绝味食品股份有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "深圳百果园实业集团股份有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 1,
+      "summary": "孩子王儿童用品股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "周大生珠宝股份有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "盐津铺子食品股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "三只松鼠股份有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "小熊电器股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要更完整的静态证据链。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "北京石头世纪科技股份有限公司 静态升层建议：L5 -> L2，强来源=2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "赛维时代科技股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "焦点科技股份有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "云米科技有限公司 静态升层建议：L5 -> L3，强来源=1。"
+    }
+  ],
+  "static_gap_queue": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要更完整的静态证据链。"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    }
+  ],
+  "no_write_proof": {
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "dynamic_followup_task_created": false
+  },
+  "pool_diff_file": "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/validate_only_pool_diff_report_v1.json",
+  "vault_preview_outputs": []
+}

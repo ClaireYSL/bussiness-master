@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-05-03T11:26:21.275300+00:00",
+  "status": "PASS_VALIDATION",
+  "mode": "validate_only",
+  "prospect_count": 20,
+  "candidate_signature": "3a9a4e5f91c881ab5a8c6dc55f7ae389cca111aae10bff606222f404662fd37d",
+  "dynamic_static_boundary": "PASS_STATIC_ONLY",
+  "old_workbook_write_enabled": false
+}

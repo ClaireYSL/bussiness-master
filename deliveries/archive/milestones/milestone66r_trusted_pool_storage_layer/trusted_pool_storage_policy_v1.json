@@ -1,0 +1,26 @@
+{
+  "milestone": "M66R",
+  "generated_at": "2026-05-03T11:26:21.529988+00:00",
+  "status": "PASS_M66R_STORAGE_LAYER_POLICY_READY",
+  "summary": {
+    "canonical_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "pool_diff_changed_count": 20,
+    "dynamic_field_write_enabled": false,
+    "old_workbook_write_enabled": false
+  },
+  "update_policy": {
+    "allowed_fields": [
+      "level",
+      "trusted_status",
+      "static_promotion_summary",
+      "static_gap_count",
+      "static_evidence_count",
+      "static_strong_evidence_count"
+    ],
+    "forbidden_field_groups": [
+      "external_feedback_decision",
+      "sales_action_priority",
+      "owner_or_touch_timing"
+    ]
+  }
+}
