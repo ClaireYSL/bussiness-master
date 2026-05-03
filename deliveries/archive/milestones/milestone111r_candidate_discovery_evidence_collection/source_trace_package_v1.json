@@ -1,0 +1,11 @@
+{
+  "batch_id": "source_trace_package_v1",
+  "milestone": "M111R",
+  "generated_at": "2026-05-03T14:57:07.552598+00:00",
+  "summary": {
+    "source_trace_count": 0,
+    "strong_source_trace_count": 0,
+    "seed_only_trace_count": 0
+  },
+  "items": []
+}

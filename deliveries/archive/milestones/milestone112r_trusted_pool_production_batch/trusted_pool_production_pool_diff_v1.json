@@ -1,0 +1,11 @@
+{
+  "batch_id": "trusted_pool_production_pool_diff_v1",
+  "milestone": "M112R",
+  "generated_at": "2026-05-03T14:57:07.553468+00:00",
+  "summary": {
+    "append_candidate_count": 0,
+    "update_candidate_count": 0,
+    "reason": "M111R candidates are seed-only and lack countable strong evidence; no canonical update."
+  },
+  "items": []
+}

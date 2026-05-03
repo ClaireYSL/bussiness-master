@@ -1,0 +1,13 @@
+{
+  "batch_id": "vault_delivery_preview_package_v1",
+  "milestone": "M113R",
+  "generated_at": "2026-05-03T14:57:07.553723+00:00",
+  "status": "PASS_VAULT_PREVIEW_NO_REGULAR_WRITE",
+  "summary": {
+    "decision_count": 0,
+    "vault_preview_candidate_count": 0,
+    "vault_regular_write_count": 0,
+    "link_check_required_before_write": true
+  },
+  "items": []
+}

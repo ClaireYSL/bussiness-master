@@ -1,0 +1,13 @@
+{
+  "batch_id": "knowledge_asset_registry_update_guard_v1",
+  "milestone": "M109R",
+  "generated_at": "2026-05-03T14:57:07.550228+00:00",
+  "status": "PASS_GUARDED_PREVIEW_ONLY",
+  "allow_flag_required": "--allow-knowledge-asset-registry-update",
+  "formal_registry_write_enabled": false,
+  "rules": [
+    "source_trace_verified=true",
+    "prospect_output_used_as_source=false",
+    "summary/key_signals/usage/confidence complete"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "batch_id": "monthly_operating_schedule_v1",
+  "milestone": "M113R",
+  "generated_at": "2026-05-03T14:57:07.553726+00:00",
+  "cadence": [
+    "学习素材更新",
+    "知识资产 guarded preview",
+    "画像 registry preview",
+    "候选发现与 evidence 采集",
+    "trusted pool report-only/update",
+    "vault preview/publish",
+    "handoff snapshot"
+  ],
+  "next_action": "M114R：对 M111R needs_company_identification 队列执行真实候选公司识别和公开强来源采集。"
+}

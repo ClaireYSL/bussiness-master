@@ -1,0 +1,8 @@
+{
+  "batch_id": "handoff_snapshot_m113_v1",
+  "milestone": "M113R",
+  "generated_at": "2026-05-03T14:57:07.553727+00:00",
+  "status": "READY_FOR_M114R",
+  "current_boundary": "M109-M113 完成生产化 preview/report-only；未写正式知识资产、persona registry、canonical trusted pool 或 vault 正区。",
+  "next_command": "python3 scripts/build_m109r_m113_production_cycle.py"
+}

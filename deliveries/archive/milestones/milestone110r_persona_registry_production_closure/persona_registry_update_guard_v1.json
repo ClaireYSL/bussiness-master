@@ -1,0 +1,13 @@
+{
+  "batch_id": "persona_registry_update_guard_v1",
+  "milestone": "M110R",
+  "generated_at": "2026-05-03T14:57:07.551564+00:00",
+  "status": "PASS_PERSONA_REGISTRY_PREVIEW_ONLY",
+  "allow_flag_required": "--allow-persona-registry-update",
+  "persona_registry_write_enabled": false,
+  "rules": [
+    "reference_knowledge_assets must be write-ready",
+    "prospect_output_used_as_persona_source=false",
+    "fit/non-fit/JTBD preview complete"
+  ]
+}

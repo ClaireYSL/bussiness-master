@@ -1,0 +1,11 @@
+{
+  "batch_id": "evidence_patch_package_v1",
+  "milestone": "M111R",
+  "generated_at": "2026-05-03T14:57:07.552597+00:00",
+  "summary": {
+    "candidate_count": 0,
+    "strong_evidence_ready_count": 0,
+    "canonical_pool_update_enabled": false
+  },
+  "items": []
+}

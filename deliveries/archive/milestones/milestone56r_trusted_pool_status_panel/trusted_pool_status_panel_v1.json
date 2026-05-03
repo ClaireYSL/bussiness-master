@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T14:51:45.440685+00:00",
-  "overall_status": "PASS_M108R_NEXT_OPERATING_CYCLE_READY",
+  "generated_at": "2026-05-03T14:57:07.841051+00:00",
+  "overall_status": "PASS_M113R_PRODUCTION_CYCLE_READY",
   "counts": {
     "trusted_pool_count": 61,
     "l1_count": 35,
@@ -8,9 +8,11 @@
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
-    "knowledge_preview_ready_count": 40,
-    "persona_gap_closure_ready_count": 8,
-    "scale_report_only_ready_count": 0
+    "knowledge_asset_write_ready_count": 40,
+    "persona_active_supported_count": 8,
+    "candidate_discovered_count": 39,
+    "trusted_pool_report_only_candidate_count": 0,
+    "vault_regular_write_count": 0
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -30,7 +32,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M108R",
+  "latest_milestone": "M113R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -47,7 +49,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M109R：对 M106R formal knowledge preview 做人工/LLM 摘要复核，随后可选择 guarded formal knowledge asset update；M108R 仅 report-only，未更新 canonical pool。",
+  "canonical_next_action": "M114R：对 M111R needs_company_identification 队列执行真实候选公司识别和公开强来源采集；M109/M110 仍是 guarded preview，未写正式 registry。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -670,5 +672,40 @@
     "canonical_pool_updated": false,
     "vault_written": false,
     "old_excel_written": false
+  },
+  "m109r_knowledge_asset_ingestion_closure": {
+    "input_preview_count": 40,
+    "knowledge_asset_write_ready_count": 40,
+    "needs_review_count": 0,
+    "formal_registry_write_count": 0,
+    "prospect_output_used_as_source_count": 0
+  },
+  "m110r_persona_registry_production_closure": {
+    "input_preview_count": 8,
+    "active_supported_count": 8,
+    "active_needs_validation_count": 0,
+    "persona_registry_write_count": 0,
+    "prospect_output_used_as_persona_source_count": 0
+  },
+  "m111r_candidate_discovery_evidence_collection": {
+    "seed_count": 61,
+    "candidate_discovered_count": 39,
+    "ready_for_report_only_count": 0,
+    "needs_company_identification_count": 22
+  },
+  "m112r_trusted_pool_production_batch": {
+    "candidate_count": 0,
+    "suggested_level_counts": {},
+    "canonical_pool_updated": false,
+    "source_trace_updated": false,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  },
+  "m113r_vault_delivery_operations": {
+    "decision_count": 0,
+    "vault_preview_candidate_count": 0,
+    "vault_regular_write_count": 0,
+    "link_check_required_before_write": true
   }
 }
