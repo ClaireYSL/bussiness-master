@@ -1,0 +1,294 @@
+{
+  "generated_at": "2026-05-03T13:51:57.162327+00:00",
+  "candidate_signature": "a6eb4b54f50da1260b8fd312ca7a68630ff0c2e6d2c26b5ed0e044da7ce9c6a9",
+  "gap_queue_count": 41,
+  "items": [
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_manner",
+      "company_name": "上海茵赫实业有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_ubras",
+      "company_name": "彼悦（北京）科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_tosummer",
+      "company_name": "北京观夏文化传播有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_mstand",
+      "company_name": "上海艾恰餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_pmpm",
+      "company_name": "上海时垠电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_janeeyogurt",
+      "company_name": "朴诚乳业（集团）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "milestone": "M85R",
+  "generated_at": "2026-05-03T13:51:57.337307+00:00",
+  "status": "PASS_M85R_HANDOFF_READY",
+  "key_outputs": {
+    "candidate_package": "deliveries/archive/milestones/milestone85r_non_listed_candidate_trial/non_listed_candidate_discovery_package_v1.json",
+    "report_only": "deliveries/archive/milestones/milestone85r_non_listed_candidate_trial/m85r_report_only_v1.json",
+    "vault_preview": "deliveries/archive/milestones/milestone85r_non_listed_candidate_trial/vault_preview",
+    "validation": "deliveries/archive/milestones/milestone85r_non_listed_candidate_trial/m85r_validation_report_v1.json"
+  }
+}

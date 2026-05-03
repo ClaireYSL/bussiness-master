@@ -1,0 +1,894 @@
+{
+  "generated_at": "2026-05-03T13:51:57.044570+00:00",
+  "changed_count": 24,
+  "items": [
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L1"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l1_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "湖南鸣鸣很忙商业连锁股份有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 0
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 3
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 3
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "宜春赵一鸣食品科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L1"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l1_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "北京万皮思食品科技有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 0
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 3
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 3
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海伯邑餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "深圳美西西餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_manner",
+      "company_name": "上海茵赫实业有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海茵赫实业有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L1"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l1_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "三立人（深圳）科技有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 0
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 3
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 3
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_ubras",
+      "company_name": "彼悦（北京）科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "彼悦（北京）科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海芯果科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "杭州贝咖实业有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_tosummer",
+      "company_name": "北京观夏文化传播有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "北京观夏文化传播有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L1"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l1_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "小佩网络科技（上海）有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 0
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 3
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 3
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海联宠智能科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_mstand",
+      "company_name": "上海艾恰餐饮管理有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海艾恰餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "广州极男化妆品有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "话梅（上海）化妆品有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海睿秀电子商务有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "伯喜（上海）网络科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_pmpm",
+      "company_name": "上海时垠电子商务有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海时垠电子商务有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_janeeyogurt",
+      "company_name": "朴诚乳业（集团）有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "朴诚乳业（集团）有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L2"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "static_l2_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "广东快客电子商务有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 2
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 2
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "深圳市茶石餐饮管理有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海力醒科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "changed": true,
+      "field_changes": [
+        {
+          "field": "level",
+          "old": "L5",
+          "new": "L3"
+        },
+        {
+          "field": "trusted_status",
+          "old": "candidate_seed",
+          "new": "trusted_summary_ready"
+        },
+        {
+          "field": "static_promotion_summary",
+          "old": null,
+          "new": "上海识装信息科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+        },
+        {
+          "field": "static_gap_count",
+          "old": null,
+          "new": 4
+        },
+        {
+          "field": "static_evidence_count",
+          "old": null,
+          "new": 1
+        },
+        {
+          "field": "static_strong_evidence_count",
+          "old": null,
+          "new": 1
+        }
+      ]
+    }
+  ]
+}

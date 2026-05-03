@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-03T13:51:56.928863+00:00",
+  "runner": "trusted_pool_runner",
+  "trusted_pool_file": "deliveries/archive/milestones/milestone85r_non_listed_candidate_trial/trusted_pool_input_v1.json",
+  "source_trace_file": "deliveries/archive/milestones/milestone85r_non_listed_candidate_trial/source_trace_index_v1.json",
+  "candidate_count": 24,
+  "candidate_signature": "intentional_mismatch_for_m85r_guard"
+}

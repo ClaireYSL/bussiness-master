@@ -1,0 +1,515 @@
+{
+  "milestone": "M85R",
+  "generated_at": "2026-05-03T13:51:57.176234+00:00",
+  "status": "PASS_M85R_REPORT_ONLY_REVIEW_READY",
+  "summary": {
+    "candidate_count": 24,
+    "suggested_level_counts": {
+      "L1": 4,
+      "L2": 13,
+      "L3": 7
+    },
+    "persona_counts": {
+      "retail_multi_store": 5,
+      "fnb_chain_standardized": 1,
+      "fnb_chain_beverage_coffee": 6,
+      "retail_high_sku_brand": 9,
+      "cbec_multi_platform_brand": 2,
+      "cbec_platform_operator": 1
+    },
+    "gap_queue_count": 41,
+    "canonical_pool_updated": false,
+    "vault_regular_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "湖南鸣鸣很忙商业连锁股份有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "宜春赵一鸣食品科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "北京万皮思食品科技有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海伯邑餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "深圳美西西餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_manner",
+      "company_name": "上海茵赫实业有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海茵赫实业有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "三立人（深圳）科技有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_ubras",
+      "company_name": "彼悦（北京）科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "彼悦（北京）科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海芯果科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "杭州贝咖实业有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_tosummer",
+      "company_name": "北京观夏文化传播有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "北京观夏文化传播有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "current_level": "L5",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "小佩网络科技（上海）有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_catlink",
+      "company_name": "上海联宠智能科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海联宠智能科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_mstand",
+      "company_name": "上海艾恰餐饮管理有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海艾恰餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "广州极男化妆品有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_harmay",
+      "company_name": "话梅（上海）化妆品有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "话梅（上海）化妆品有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_neiwai",
+      "company_name": "上海睿秀电子商务有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海睿秀电子商务有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bosie",
+      "company_name": "伯喜（上海）网络科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "伯喜（上海）网络科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_pmpm",
+      "company_name": "上海时垠电子商务有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海时垠电子商务有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_janeeyogurt",
+      "company_name": "朴诚乳业（集团）有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "朴诚乳业（集团）有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "广东快客电子商务有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_teastone",
+      "company_name": "深圳市茶石餐饮管理有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "深圳市茶石餐饮管理有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_nowwa",
+      "company_name": "上海力醒科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海力醒科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_dewu",
+      "company_name": "上海识装信息科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海识装信息科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。"
+    }
+  ]
+}

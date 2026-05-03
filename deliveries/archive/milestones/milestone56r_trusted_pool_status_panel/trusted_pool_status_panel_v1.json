@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T13:29:05.660398+00:00",
-  "overall_status": "PASS_M84R_NON_LISTED_ICP_SOURCE_TRIAL",
+  "generated_at": "2026-05-03T13:51:57.337670+00:00",
+  "overall_status": "PASS_M85R_NON_LISTED_CANDIDATE_TRIAL",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -19,14 +19,14 @@
     "static_l2_ready": 8,
     "static_l1_ready": 0
   },
-  "next_recommended_action": "继续补 platform_operating_fact 与 authoritative_third_party，优先服务非上市/高成长 ICP 候选。",
+  "next_recommended_action": "审阅 M85R preview 中的非上市候选；通过后再选择一批进入 canonical trusted pool update。",
   "no_write_proof": {
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M84R",
+  "latest_milestone": "M85R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "继续补 platform_operating_fact 与 authoritative_third_party，优先服务非上市/高成长 ICP 候选。",
+  "canonical_next_action": "审阅 M85R preview 中的非上市候选；通过后再选择一批进入 canonical trusted pool update。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -361,6 +361,28 @@
     },
     "platform_operating_fact_count": 6,
     "authoritative_third_party_count": 1,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m85r_non_listed_candidate_trial": {
+    "candidate_count": 24,
+    "suggested_level_counts": {
+      "L1": 4,
+      "L2": 13,
+      "L3": 7
+    },
+    "persona_counts": {
+      "retail_multi_store": 5,
+      "fnb_chain_standardized": 1,
+      "fnb_chain_beverage_coffee": 6,
+      "retail_high_sku_brand": 9,
+      "cbec_multi_platform_brand": 2,
+      "cbec_platform_operator": 1
+    },
+    "gap_queue_count": 41,
+    "canonical_pool_updated": false,
+    "vault_regular_written": false,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false

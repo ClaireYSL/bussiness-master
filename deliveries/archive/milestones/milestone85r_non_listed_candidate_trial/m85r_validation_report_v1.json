@@ -1,0 +1,40 @@
+{
+  "milestone": "M85R",
+  "generated_at": "2026-05-03T13:51:57.337127+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 14,
+    "error_count": 0,
+    "errors": []
+  },
+  "baseline_mismatch_guard": {
+    "returncode": 2,
+    "stderr": "trusted_pool_runner baseline mismatch: expected=intentional_mismatch_for_m85r_guard actual=a6eb4b54f50da1260b8fd312ca7a68630ff0c2e6d2c26b5ed0e044da7ce9c6a9"
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "candidate_count_at_least_20": true,
+    "l3_or_above_at_least_15": true,
+    "l2_or_above_at_least_8": true,
+    "uses_non_capital_source_categories": true,
+    "baseline_mismatch_failed": true,
+    "canonical_pool_not_updated": true,
+    "canonical_trace_not_updated": true,
+    "no_old_excel_write": true,
+    "no_knowledge_asset_write": true,
+    "no_persona_registry_write": true
+  }
+}
