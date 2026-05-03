@@ -1,0 +1,164 @@
+{
+  "milestone": "C15",
+  "generated_at": "2026-05-03T12:20:36.480363+00:00",
+  "status": "PASS_C15_TRACKED_RESOLUTION_READY",
+  "summary": {
+    "tracked_modified_count": 17,
+    "archive_snapshot_commit_count": 12,
+    "current_mainline_commit_count": 5,
+    "needs_human_decision_count": 0
+  },
+  "policy": {
+    "no_delete": true,
+    "no_reset": true,
+    "no_revert": true,
+    "no_legacy_excel_write": true,
+    "new_mainline": "source/persona -> evidence -> static_promote -> trusted_pool -> vault output",
+    "static_boundary": "L1-L5 only express ICP match, evidence maturity, information completeness, risk/gap; no dynamic sales priority."
+  },
+  "groups": {
+    "archive_snapshot_commit": [
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_report_only_L2_1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_write_back_L2_1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_report_baseline_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_summary_v1.json",
+      "deliveries/archive/repairs/workbook_integrity_report_v1.json",
+      "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md",
+      "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-promote复盘-v1.md",
+      "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-复盘-v1.md"
+    ],
+    "current_mainline_commit": [
+      "docs/00-当前总览/README.md",
+      "docs/00-当前总览/静态潜客池-Milestone状态总览-v1.0.md",
+      "docs/02-注册表与结构/knowledge_asset_registry_v1-字段模板-v1.md",
+      "scripts/select_execution_candidates.py",
+      "shared/static_pool/constants.py"
+    ],
+    "needs_human_decision": []
+  },
+  "items": [
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../milestone6r_trust_enrich_summary_v1.json       | 273 +++++++++++++--------\n 1 file changed, 176 insertions(+), 97 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../milestone6r_trust_enrich_v1.json               | 1343 ++++++++++++--------\n 1 file changed, 832 insertions(+), 511 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../milestone6r_trust_promote_v1.json              | 472 ++++++++++++++-------\n 1 file changed, 308 insertions(+), 164 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_report_only_L2_1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": "...estone6r_trust_promote_v1_report_only_L2_1.json | 485 ++++++++++++---------\n 1 file changed, 277 insertions(+), 208 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_write_back_L2_1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": "...lestone6r_trust_promote_v1_write_back_L2_1.json | 486 +++++++++++++--------\n 1 file changed, 315 insertions(+), 171 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_report_baseline_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../milestone6r_trust_report_baseline_v1.json      | 26 +++++++++++-----------\n 1 file changed, 13 insertions(+), 13 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../milestone6r_trust_run_summary_v1.json          | 70 +++++++++++-----------\n 1 file changed, 35 insertions(+), 35 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_summary_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../milestone6r_trust_summary_v1.json              | 451 ++++++++++++++-------\n 1 file changed, 299 insertions(+), 152 deletions(-)"
+    },
+    {
+      "path": "deliveries/archive/repairs/workbook_integrity_report_v1.json",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": ".../archive/repairs/workbook_integrity_report_v1.json    | 16 ++++++++--------\n 1 file changed, 8 insertions(+), 8 deletions(-)"
+    },
+    {
+      "path": "docs/00-当前总览/README.md",
+      "group": "current_mainline_commit",
+      "recommended_action": "commit_as_boundary_or_compatibility_fix",
+      "reason": "总览入口补充当前主线文档索引。",
+      "diff_stat": "\"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/README.md\" | 5 +++++\n 1 file changed, 5 insertions(+)"
+    },
+    {
+      "path": "docs/00-当前总览/静态潜客池-Milestone状态总览-v1.0.md",
+      "group": "current_mainline_commit",
+      "recommended_action": "commit_as_boundary_or_compatibility_fix",
+      "reason": "阶段总览补齐 M7-M40 历史演进与 legacy 隔离口径。",
+      "diff_stat": "...66\\346\\200\\201\\346\\200\\273\\350\\247\\210-v1.0.md\" | 222 +++++++++++++++++++++\n 1 file changed, 222 insertions(+)"
+    },
+    {
+      "path": "docs/02-注册表与结构/knowledge_asset_registry_v1-字段模板-v1.md",
+      "group": "current_mainline_commit",
+      "recommended_action": "commit_as_boundary_or_compatibility_fix",
+      "reason": "补充潜客产出不能污染知识资产的边界说明。",
+      "diff_stat": "...5\\227\\346\\256\\265\\346\\250\\241\\346\\235\\277-v1.md\" | 21 +++++++++++++++++++++\n 1 file changed, 21 insertions(+)"
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": "...5\\274\\272-enrich\\345\\244\\215\\347\\233\\230-v1.md\" | 154 +++++++++++++--------\n 1 file changed, 100 insertions(+), 54 deletions(-)"
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-promote复盘-v1.md",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": "...\\274\\272-promote\\345\\244\\215\\347\\233\\230-v1.md\" | 220 +++++++++++++--------\n 1 file changed, 140 insertions(+), 80 deletions(-)"
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-复盘-v1.md",
+      "group": "archive_snapshot_commit",
+      "recommended_action": "commit_as_current_local_archive_snapshot",
+      "reason": "这是历史 M6R 本机可信运行快照/复盘/完整性报告；不作为新主线事实源，但提交后可消除工作区漂移。",
+      "diff_stat": "...241\\345\\242\\236\\345\\274\\272-\\345\\244\\215\\347\\233\\230-v1.md\" | 10 +++++-----\n 1 file changed, 5 insertions(+), 5 deletions(-)"
+    },
+    {
+      "path": "scripts/select_execution_candidates.py",
+      "group": "current_mainline_commit",
+      "recommended_action": "commit_as_boundary_or_compatibility_fix",
+      "reason": "候选选择脚本优先尊重 STATIC_POOL_* 环境变量，避免旧绝对路径漂移。",
+      "diff_stat": "scripts/select_execution_candidates.py | 30 ++++++++++++++++++++++++++++--\n 1 file changed, 28 insertions(+), 2 deletions(-)"
+    },
+    {
+      "path": "shared/static_pool/constants.py",
+      "group": "current_mainline_commit",
+      "recommended_action": "commit_as_boundary_or_compatibility_fix",
+      "reason": "兼容 auto_ingested / promotion_completed 历史 review_status，保持静态升层机制可运行。",
+      "diff_stat": "shared/static_pool/constants.py | 2 ++\n 1 file changed, 2 insertions(+)"
+    }
+  ]
+}

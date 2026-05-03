@@ -1,0 +1,11 @@
+{
+  "milestone": "C15",
+  "generated_at": "2026-05-03T12:20:36.480488+00:00",
+  "status": "PASS",
+  "assertions": {
+    "all_modified_paths_classified": true,
+    "no_delete_reset_revert_executed": true,
+    "archive_snapshots_marked_legacy_reference_only": true,
+    "current_mainline_fixes_are_boundary_or_compatibility": true
+  }
+}

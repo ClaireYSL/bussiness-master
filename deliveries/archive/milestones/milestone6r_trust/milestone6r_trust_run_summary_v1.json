@@ -4,57 +4,57 @@
   "mode": "write_back",
   "phase": "write_back",
   "status": "success",
-  "started_at": "2026-04-18T12:45:14.591724+00:00",
-  "finished_at": "2026-04-18T12:45:22.929107+00:00",
+  "started_at": "2026-04-27T00:06:36.729134+00:00",
+  "finished_at": "2026-04-27T00:06:39.959097+00:00",
   "error_stage": "",
   "error_message": "",
   "candidate_signature": [
     {
-      "account_id": "acc_chubang",
+      "account_id": "acc_cn_000768",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_dencare",
+      "account_id": "acc_cn_002074",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_estun",
+      "account_id": "acc_cn_002281",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_impulse",
+      "account_id": "acc_cn_002511",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_jeep_bike",
+      "account_id": "acc_cn_002626",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_jiayi",
+      "account_id": "acc_cn_002640",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_juewei",
+      "account_id": "acc_cn_300592",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_leadtrend",
+      "account_id": "acc_cn_301110",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_mgstationery",
+      "account_id": "acc_cn_600185",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_petstar",
+      "account_id": "acc_cn_688082",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_topstar",
+      "account_id": "acc_dreame",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_zhending",
+      "account_id": "acc_tomtop",
       "target_level": "L2"
     }
   ],
@@ -65,7 +65,7 @@
     "output_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
     "summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
     "review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md",
-    "result_count": 9,
+    "result_count": 12,
     "write_back": {
       "enabled": false,
       "workbook_lock_acquired": false,
@@ -80,7 +80,7 @@
     "output_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json",
     "summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_summary_v1.json",
     "review_file": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-promote复盘-v1.md",
-    "result_count": 9,
+    "result_count": 12,
     "write_back": {
       "enabled": true,
       "workbook_lock_acquired": true,
@@ -90,33 +90,33 @@
         "deep_scan": true,
         "files": [
           {
-            "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
             "ok": true,
-            "sheet_count": 7,
-            "rows_scanned": 1112,
+            "sheet_count": 2,
+            "rows_scanned": 583,
             "error_type": "",
             "error_message": ""
           },
           {
-            "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
             "ok": true,
             "sheet_count": 4,
-            "rows_scanned": 12853,
+            "rows_scanned": 4213,
             "error_type": "",
             "error_message": ""
           },
           {
-            "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
             "ok": true,
             "sheet_count": 4,
-            "rows_scanned": 4872,
+            "rows_scanned": 2100,
             "error_type": "",
             "error_message": ""
           }
         ]
       },
       "promoted": 0,
-      "skipped": 9,
+      "skipped": 12,
       "profile_updates": 0,
       "main_updates": 0,
       "main_shared_updates": 0,
@@ -127,14 +127,14 @@
     },
     "batch_summary": {
       "allow": 0,
-      "warn": 5,
-      "block": 4
+      "warn": 12,
+      "block": 0
     }
   },
   "summary": {
     "allow": 0,
-    "warn": 5,
-    "block": 4,
+    "warn": 12,
+    "block": 0,
     "enrich_write_back_enabled": false,
     "promote_write_back_enabled": true,
     "workbook_lock_acquired": true,
@@ -144,26 +144,26 @@
       "deep_scan": true,
       "files": [
         {
-          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
           "ok": true,
-          "sheet_count": 7,
-          "rows_scanned": 1112,
+          "sheet_count": 2,
+          "rows_scanned": 583,
           "error_type": "",
           "error_message": ""
         },
         {
-          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
           "ok": true,
           "sheet_count": 4,
-          "rows_scanned": 12853,
+          "rows_scanned": 4213,
           "error_type": "",
           "error_message": ""
         },
         {
-          "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
           "ok": true,
           "sheet_count": 4,
-          "rows_scanned": 4872,
+          "rows_scanned": 2100,
           "error_type": "",
           "error_message": ""
         }

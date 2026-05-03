@@ -16,6 +16,10 @@
 - [静态潜客池-污染止血与可信底座重建方案-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-污染止血与可信底座重建方案-v1.md)
 - [静态潜客池整体设计与运行机制汇报-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池整体设计与运行机制汇报-v1.md)
 - [静态潜客池-Milestone状态总览-v1.0.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/静态潜客池-Milestone状态总览-v1.0.md)
+- [BusinessMaster阶段盘点与下一阶段总体规划-M21-M26-v1.md](/Users/clairelu2026/CodexProjects/BusinessMaster/docs/00-当前总览/BusinessMaster阶段盘点与下一阶段总体规划-M21-M26-v1.md)
+- [BusinessMaster主线校正与下一阶段计划-可信画像匹配潜客池-v1.md](/Users/clairelu2026/CodexProjects/BusinessMaster/docs/00-当前总览/BusinessMaster主线校正与下一阶段计划-可信画像匹配潜客池-v1.md)
+- [BusinessMaster产品专家评审与路线修订-M21-M26-v1.md](/Users/clairelu2026/CodexProjects/BusinessMaster/docs/00-当前总览/BusinessMaster产品专家评审与路线修订-M21-M26-v1.md)
+- [BusinessMaster主线推进路线图-M12-M16-v1.md](/Users/clairelu2026/CodexProjects/BusinessMaster/docs/00-当前总览/BusinessMaster主线推进路线图-M12-M16-v1.md)
 - [Milestone 4-治理收口与Phase1纠偏复盘-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/Milestone%204-%E6%B2%BB%E7%90%86%E6%94%B6%E5%8F%A3%E4%B8%8EPhase1%E7%BA%A0%E5%81%8F%E5%A4%8D%E7%9B%98-v1.md)
 - [执行层落地分支说明-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/执行层落地分支说明-v1.md)
 - [执行层落地分支复盘-v1.md](/Users/clairaipartner/Codex/bussiness-master/docs/00-当前总览/执行层落地分支复盘-v1.md)
@@ -61,3 +65,4 @@
 1. 先回到 [docs 总入口](/Users/clairaipartner/Codex/bussiness-master/docs/README-静态潜客池.md)
 2. 再从本目录的“核心入口”开始
 3. 只有遇到具体专题问题时，再进入“专题入口”
+- [BusinessMaster知识资产来源边界与潜客观察隔离原则-v1.md](/Users/clairelu2026/CodexProjects/BusinessMaster/docs/00-当前总览/BusinessMaster知识资产来源边界与潜客观察隔离原则-v1.md)

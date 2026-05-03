@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -100,11 +101,36 @@ def _default_source_paths() -> dict[str, str]:
     }
 
 
+def _has_env_path_override() -> bool:
+    return any(
+        os.getenv(key, "").strip()
+        for key in [
+            "STATIC_POOL_ROOT",
+            "STATIC_POOL_MAIN_FILE",
+            "STATIC_POOL_PROFILE_FILE",
+            "STATIC_POOL_GOVERNANCE_FILE",
+        ]
+    )
+
+
+def _resolve_source_paths(config: dict[str, object]) -> dict[str, str]:
+    defaults = _default_source_paths()
+    source_paths = dict(config.get("source_paths") or {})
+    for key, value in defaults.items():
+        source_paths.setdefault(key, value)
+
+    # When static-pool env paths are explicitly configured, use them as
+    # strongest source of truth to avoid stale absolute paths in configs.
+    if _has_env_path_override():
+        for key in ["main_file", "profile_file", "governance_file"]:
+            source_paths[key] = defaults[key]
+    return source_paths
+
+
 def main() -> int:
     args = build_parser().parse_args()
     config = json.loads(Path(args.config_file).read_text(encoding="utf-8"))
-    source_paths = _default_source_paths()
-    source_paths.update(config.get("source_paths") or {})
+    source_paths = _resolve_source_paths(config)
     main_rows = load_main_rows(Path(source_paths["main_file"]), source_paths["main_sheet"])
     _headers, profile_rows = load_sheet_rows(Path(source_paths["profile_file"]), source_paths["profile_sheet"])
     _headers, queue_rows = load_sheet_rows(Path(source_paths["governance_file"]), source_paths["queue_sheet"])

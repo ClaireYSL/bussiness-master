@@ -15,6 +15,8 @@ OBSERVATION_L5_REVIEW_STATUS = "pending_review"
 
 LEGACY_REVIEW_STATUS_MAP = {
     "queued": OBSERVATION_L5_REVIEW_STATUS,
+    "auto_ingested": OBSERVATION_L5_REVIEW_STATUS,
+    "promotion_completed": OBSERVATION_L5_REVIEW_STATUS,
 }
 
 PROMOTION_DECISIONS = ("allow", "warn", "block")

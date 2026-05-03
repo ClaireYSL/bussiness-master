@@ -1,0 +1,12 @@
+{
+  "milestone": "C15",
+  "generated_at": "2026-05-03T12:20:36.480490+00:00",
+  "status": "PASS_NO_DESTRUCTIVE_ACTION",
+  "proof": {
+    "deleted_files": [],
+    "reset_commands": [],
+    "revert_commands": [],
+    "legacy_workbook_writes": [],
+    "note": "C15 only classifies and prepares tracked modified files for explicit commit; it does not delete, reset, revert, move, or write legacy workbooks."
+  }
+}

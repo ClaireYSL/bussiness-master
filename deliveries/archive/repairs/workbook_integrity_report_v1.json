@@ -1,30 +1,30 @@
 {
-  "checked_at": "2026-04-18T12:52:32.289154+00:00",
+  "checked_at": "2026-04-19T14:24:58.496614+00:00",
   "report": {
     "ok": true,
     "deep_scan": true,
     "files": [
       {
-        "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
         "ok": true,
-        "sheet_count": 7,
-        "rows_scanned": 1112,
+        "sheet_count": 2,
+        "rows_scanned": 583,
         "error_type": "",
         "error_message": ""
       },
       {
-        "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
         "ok": true,
         "sheet_count": 4,
-        "rows_scanned": 12853,
+        "rows_scanned": 4213,
         "error_type": "",
         "error_message": ""
       },
       {
-        "path": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
         "ok": true,
         "sheet_count": 4,
-        "rows_scanned": 4872,
+        "rows_scanned": 2100,
         "error_type": "",
         "error_message": ""
       }

@@ -2,54 +2,54 @@
   "batch_id": "milestone6r_trust_batch_v1",
   "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）",
   "phase": "report_only",
-  "generated_at": "2026-04-18T12:43:20.421399+00:00",
+  "generated_at": "2026-04-27T00:06:15.025408+00:00",
   "candidate_signature": [
     {
-      "account_id": "acc_chubang",
+      "account_id": "acc_cn_000768",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_dencare",
+      "account_id": "acc_cn_002074",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_estun",
+      "account_id": "acc_cn_002281",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_impulse",
+      "account_id": "acc_cn_002511",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_jeep_bike",
+      "account_id": "acc_cn_002626",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_jiayi",
+      "account_id": "acc_cn_002640",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_juewei",
+      "account_id": "acc_cn_300592",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_leadtrend",
+      "account_id": "acc_cn_301110",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_mgstationery",
+      "account_id": "acc_cn_600185",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_petstar",
+      "account_id": "acc_cn_688082",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_topstar",
+      "account_id": "acc_dreame",
       "target_level": "L2"
     },
     {
-      "account_id": "acc_zhending",
+      "account_id": "acc_tomtop",
       "target_level": "L2"
     }
   ],

@@ -132,3 +132,24 @@ asset_id,asset_type,title,source_path_or_url,source_origin,track_ids,persona_ids
 - 不允许把潜客档案页、重点公司 note、专题包、主表摘要或模型总结本身写成 `learning_queue.material_path_or_url`
 - 样本反哺只允许触发“查找并补回原始素材”，不允许把阅读层产物直接当学习素材源
 - `L1 / L2 / L3` 样本只能提示“哪些原始素材方向还缺”，不能反向决定知识库主要学习范围
+
+## 12. 潜客产出与知识资产的隔离边界
+
+潜客批次、可信潜客摘要卡、promote/report-only 结果和 L3/L5 档案都不是正式知识资产来源。
+
+允许：
+
+- 作为 `candidate_observation` 记录“哪些画像边界需要复核”。
+- 作为 `source_gap` 触发补源：寻找真实客户案例、内部解决方案、行业研究、公开权威材料。
+- 作为 evidence 说明某家公司本身的信息可信度，例如官网、年报、IR、CNINFO。
+
+禁止：
+
+- 把潜客公司写成 `customer_case`。
+- 把潜客匹配结果写成画像正例或反例。
+- 把候选摘要、档案页、批次复盘、LLM 总结直接写入 `knowledge_assets`。
+- 用 M21R/M22R 的 `trusted_match_ready` 反向证明画像定义正确。
+
+正确链路是：
+
+`潜客观察 -> learning_queue 补源任务 -> 真实素材/案例验证 -> 人工评审 -> 正式 knowledge_assets`。
