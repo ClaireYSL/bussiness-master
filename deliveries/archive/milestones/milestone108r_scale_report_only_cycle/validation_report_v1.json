@@ -1,0 +1,43 @@
+{
+  "milestone": "M106R-M108R",
+  "generated_at": "2026-05-03T14:51:45.439578+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m106r_m108_next_operating_cycle.py",
+      "scripts/businessmaster_pipeline.py",
+      "scripts/build_m99r_m105_product_system.py",
+      "scripts/trusted_pool_runner.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 11,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "legacy_guard_without_override": {
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/Users/clairelu2026/CodexProjects/BusinessMaster/shared/static_pool/legacy_guard.py\", line 17, in assert_legacy_workbook_write_allowed\n    raise PermissionError(\nPermissionError: m106r_m108_validation blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed.\n"
+  },
+  "pipeline_dry_run": {
+    "returncode": 0,
+    "stdout": "{\n  \"mode\": \"readiness\",\n  \"generated_at\": \"2026-05-03T14:51:45.435937+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m99r_m105_product_system.py\",\n      \"--stage\",\n      \"readiness\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M105R\",\n    \"overall_status\": \"PASS_M105R_PRODUCT_SYSTEM_READY\",\n    \"counts\": {\n      \"trusted_pool_count\": 61,\n      \"l1_count\": 35,\n      \"l2_count\": 25,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"knowledge_review_ready_count\": 40,\n      \"persona_source_gap_count\": 8,\n      \"scale_trial_seed_count\": 61\n    }\n  }\n}\n",
+    "stderr": ""
+  }
+}

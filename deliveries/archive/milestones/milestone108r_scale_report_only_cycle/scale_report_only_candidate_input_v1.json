@@ -1,0 +1,1054 @@
+{
+  "batch_id": "scale_report_only_candidate_input_v1",
+  "milestone": "M108R",
+  "generated_at": "2026-05-03T14:51:45.182047+00:00",
+  "status": "PASS_SCALE_REPORT_ONLY_INPUT_READY",
+  "summary": {
+    "seed_count": 61,
+    "status_counts": {
+      "report_only_with_persona_watch": 61
+    },
+    "canonical_pool_updated": false,
+    "vault_written": false,
+    "old_excel_written": false
+  },
+  "items": [
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_1ac505ada0e9",
+      "seed_title": "LLLM采销供应链数据化解决方案",
+      "matched_persona": "mfg_rnd_sales_complex",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P0",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_e2e58dc752b6",
+      "seed_title": "「倍思」BI案例分享",
+      "matched_persona": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P0",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_cb246ff76bbe",
+      "seed_title": "多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”",
+      "matched_persona": "mfg_multi_factory_group",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P0",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_d3021536e889",
+      "seed_title": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P0",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_5abe416e4f06",
+      "seed_title": "数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P0",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_02ab1f15f8cc",
+      "seed_title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "matched_persona": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P0",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_80952c20c7cb",
+      "seed_title": "「品牌零售- BI」气味图书馆案例总结",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9215204b4d2a",
+      "seed_title": "「案例详情_AI」家清-联合利华UL",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7a3bee760da2",
+      "seed_title": "「案例详情_AI」美妆-LVMH",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_4037aeb27f02",
+      "seed_title": "「案例详情_AI」美妆-丝芙兰",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9d8a56a2e839",
+      "seed_title": "「案例详情_BI」母婴-惠氏臻朗",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_c8265955ebe6",
+      "seed_title": "「案例详情_BI」美妆-colorkey",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_75ef96f73fff",
+      "seed_title": "「案例详情_BI」饮料-简爱酸奶",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_130a9a6f71a9",
+      "seed_title": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_eb4587059543",
+      "seed_title": "「森马电商」BI案例分享",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_92990f246359",
+      "seed_title": "「珀莱雅」BI案例分享",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_cf751e980256",
+      "seed_title": "「自然堂」BI案例分享",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_9ed76ba72c74",
+      "seed_title": "「连锁餐饮- BI」德克士案例方案",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_ff5e0fb4be5b",
+      "seed_title": "「连锁餐饮- BI」顶誉食品案例总结",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_66b6e5dd8c70",
+      "seed_title": "【母婴宠物】观远BI典型案例",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_c42c913e351e",
+      "seed_title": "【美妆个护】观远BI典型案例",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_50e032ac0d3f",
+      "seed_title": "【连锁餐饮-BI-详细案例】遇见小面",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_73705b68ef09",
+      "seed_title": "【鞋服】观远BI典型案例",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_26cc3790d0ca",
+      "seed_title": "【鞋服行业】首威集团_财务项目_案例总结_20230218",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_a0934ee91f46",
+      "seed_title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_694b4661ff24",
+      "seed_title": "全家汇报方案-观远数据v1.0-230104",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
+      "seed_title": "太平鸟",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
+      "seed_title": "安踏",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7536582d826a",
+      "seed_title": "详细案例-商超便利-全家",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_49f89b565058",
+      "seed_title": "赛百味智能数据运营项目规划方案v1.1-观远数据-230822",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8818e883a66c",
+      "seed_title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_93c9999e4a70",
+      "seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+      "seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_d0e2101bd015",
+      "seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_fccad7efa193",
+      "seed_title": "对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_520ad1990ece",
+      "seed_title": "对话鲜丰水果：打造5000人数据驱动决策共识，BI赋能业务经营提质增效",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_402d01c4227d",
+      "seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_e0b009efa094",
+      "seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
+      "seed_title": "120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？",
+      "matched_persona": "mfg_rnd_sales_complex",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_cb261a56a0a8",
+      "seed_title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
+      "seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
+      "seed_title": "七秒易购的数字化飞跃：以BI赋能供应链精细化管理",
+      "matched_persona": "mfg_rnd_sales_complex",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_6b727dee25d9",
+      "seed_title": "不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系",
+      "matched_persona": "mfg_multi_factory_group",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
+      "seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_8f902dea0a2b",
+      "seed_title": "分货效率提高60%，丝芙兰中国“让业务用起来”的门店新品AI+BI智能分货案例",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_e6c36fa80a37",
+      "seed_title": "博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4ac584c7c94f",
+      "seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_f59bd0733b0b",
+      "seed_title": "咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_9e7dbc7c87b3",
+      "seed_title": "对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_631156928490",
+      "seed_title": "对话鲜丰水果：打造5000人数据驱动决策共识，BI赋能业务经营提质增效",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4757b1291658",
+      "seed_title": "撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长",
+      "matched_persona": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_17fcd5cd8177",
+      "seed_title": "数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_929ce18ef32a",
+      "seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0bb7114cea95",
+      "seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "matched_persona": "retail_multi_store",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_659f379bf984",
+      "seed_title": "用数据驱动全渠道增长：花西子与观远数据的敏捷经营实践",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
+      "seed_title": "自然堂全渠道数字化创新和AI实践",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_ae3ba73a7772",
+      "seed_title": "自然堂集团×观远数据问数GPT项目获评2024中国“大模型+数据分析”最佳实践案例",
+      "matched_persona": "retail_high_sku_brand",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d2b0c1804748",
+      "seed_title": "观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能",
+      "matched_persona": "fnb_chain_standardized",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5389063d8372",
+      "seed_title": "观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "track_guess": "retail_consumer",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0a1d14d43b61",
+      "seed_title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "matched_persona": "cbec_multi_platform_brand",
+      "track_guess": "cross_border_ecommerce",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
+      "seed_title": "零跑汽车李盼盼：BI是一个六边形武器",
+      "matched_persona": "mfg_multi_factory_group",
+      "track_guess": "advanced_manufacturing",
+      "priority": "P1",
+      "report_only_status": "report_only_with_persona_watch",
+      "required_before_trusted_pool_update": [
+        "候选公司识别",
+        "至少 1 条强来源",
+        "ICP 解释",
+        "source trace",
+        "report-only baseline"
+      ],
+      "canonical_pool_updated": false,
+      "vault_written": false
+    }
+  ]
+}

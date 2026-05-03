@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T14:47:37.623810+00:00",
-  "overall_status": "PASS_M105R_PRODUCT_SYSTEM_READY",
+  "generated_at": "2026-05-03T14:51:45.440685+00:00",
+  "overall_status": "PASS_M108R_NEXT_OPERATING_CYCLE_READY",
   "counts": {
     "trusted_pool_count": 61,
     "l1_count": 35,
@@ -8,9 +8,9 @@
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
-    "knowledge_review_ready_count": 40,
-    "persona_source_gap_count": 8,
-    "scale_trial_seed_count": 61
+    "knowledge_preview_ready_count": 40,
+    "persona_gap_closure_ready_count": 8,
+    "scale_report_only_ready_count": 0
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -30,7 +30,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M105R",
+  "latest_milestone": "M108R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -47,7 +47,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "使用 scripts/businessmaster_pipeline.py 作为统一入口；下一轮先处理 M100R review_ready 知识草稿和 M101R 画像 source gap，再执行 M104R scale trial。",
+  "canonical_next_action": "进入 M109R：对 M106R formal knowledge preview 做人工/LLM 摘要复核，随后可选择 guarded formal knowledge asset update；M108R 仅 report-only，未更新 canonical pool。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -647,5 +647,28 @@
     "legacy_guard_checked": true,
     "dynamic_scan_status": "PASS",
     "api_key_scan_status": "PASS"
+  },
+  "m106r_knowledge_review_cycle": {
+    "input_draft_count": 40,
+    "formal_asset_preview_ready_count": 40,
+    "needs_review_completion_count": 0,
+    "formal_knowledge_asset_write_count": 0,
+    "prospect_output_used_as_source_count": 0
+  },
+  "m107r_persona_gap_closure_cycle": {
+    "input_gap_count": 8,
+    "gap_closure_preview_ready_count": 8,
+    "needs_new_source_material_count": 0,
+    "persona_registry_write_count": 0,
+    "prospect_output_used_as_persona_source_count": 0
+  },
+  "m108r_scale_report_only_cycle": {
+    "seed_count": 61,
+    "status_counts": {
+      "report_only_with_persona_watch": 61
+    },
+    "canonical_pool_updated": false,
+    "vault_written": false,
+    "old_excel_written": false
   }
 }

@@ -1,0 +1,215 @@
+{
+  "batch_id": "persona_gap_closure_package_v1",
+  "milestone": "M107R",
+  "generated_at": "2026-05-03T14:51:45.181250+00:00",
+  "status": "PASS_PERSONA_GAP_CLOSURE_PREVIEW_READY",
+  "summary": {
+    "input_gap_count": 8,
+    "gap_closure_preview_ready_count": 8,
+    "needs_new_source_material_count": 0,
+    "persona_registry_write_count": 0,
+    "prospect_output_used_as_persona_source_count": 0
+  },
+  "items": [
+    {
+      "persona_id": "cbec_platform_operator",
+      "display_name": "平台化运营出海",
+      "original_gap_type": "needs_validation",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "display_name": "供应链复杂的跨境经营型企业",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "display_name": "一线动作闭环诉求型",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "display_name": "集团协同与经营驾驶舱诉求型",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "display_name": "总部经营穿透诉求型",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "display_name": "库存与供应链协同诉求型",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "display_name": "利润改善诉求型",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "display_name": "连锁餐饮 / 茶饮 / 咖啡",
+      "original_gap_type": "source_gap",
+      "closure_status": "gap_closure_preview_ready",
+      "candidate_knowledge_refs": [
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf"
+        },
+        {
+          "proposed_asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx"
+        },
+        {
+          "proposed_asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf"
+        }
+      ],
+      "registry_update_preview_only": true,
+      "prospect_output_used_as_persona_source": false
+    }
+  ]
+}

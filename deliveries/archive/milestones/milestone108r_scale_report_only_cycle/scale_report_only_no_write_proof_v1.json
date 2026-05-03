@@ -1,0 +1,11 @@
+{
+  "batch_id": "scale_report_only_no_write_proof_v1",
+  "milestone": "M108R",
+  "generated_at": "2026-05-03T14:51:45.182051+00:00",
+  "status": "PASS_REPORT_ONLY_NO_WRITE",
+  "canonical_pool_updated": false,
+  "vault_written": false,
+  "old_excel_written": false,
+  "knowledge_asset_registry_written": false,
+  "persona_registry_written": false
+}
