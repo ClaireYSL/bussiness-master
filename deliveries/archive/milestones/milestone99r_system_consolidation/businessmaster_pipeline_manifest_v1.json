@@ -1,0 +1,30 @@
+{
+  "batch_id": "businessmaster_pipeline_manifest_v1",
+  "milestone": "M99R",
+  "generated_at": "2026-05-03T14:47:37.125022+00:00",
+  "status": "PASS_SYSTEM_ENTRY_CONSOLIDATED",
+  "summary": {
+    "trusted_pool_count": 61,
+    "level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "latest_prior_milestone": "M98R",
+    "unified_entrypoint": "scripts/businessmaster_pipeline.py",
+    "legacy_milestone_scripts_are_replay_only": true
+  },
+  "pipeline_modes": {
+    "readiness": "系统状态与质量守护检查",
+    "learn": "学习队列与知识草稿生成",
+    "persona": "画像证据图谱与 registry preview",
+    "prospect": "trusted pool 静态升层与 no-contamination",
+    "publish": "vault 用户交付层治理",
+    "scale-plan": "规模化扩容准入计划"
+  },
+  "canonical_sources": {
+    "trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "status_panel": "deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json"
+  }
+}

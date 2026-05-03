@@ -1,0 +1,28 @@
+{
+  "batch_id": "vault_delivery_governance_package_v1",
+  "milestone": "M103R",
+  "generated_at": "2026-05-03T14:47:37.132146+00:00",
+  "status": "PASS_VAULT_GOVERNANCE_PREVIEW_READY",
+  "summary": {
+    "vault_file_counts": {
+      "L1": 35,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "canonical_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "physical_redundancy_detected": true,
+    "deletion_performed": false,
+    "legacy_source_as_fact_detected": false
+  },
+  "recommended_actions": [
+    "继续以工作台/L1/L2 索引为默认入口",
+    "物理重复文件需单独 removal manifest，不在本轮删除",
+    "source trace browser 显示证据与 ICP reference 的边界"
+  ]
+}

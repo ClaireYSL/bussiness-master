@@ -1,0 +1,58 @@
+{
+  "batch_id": "persona_source_gap_plan_v1",
+  "milestone": "M101R",
+  "generated_at": "2026-05-03T14:47:37.128592+00:00",
+  "summary": {
+    "gap_count": 8
+  },
+  "items": [
+    {
+      "persona_id": "cbec_platform_operator",
+      "display_name": "平台化运营出海",
+      "gap_type": "needs_validation",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "display_name": "供应链复杂的跨境经营型企业",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "display_name": "一线动作闭环诉求型",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "display_name": "集团协同与经营驾驶舱诉求型",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "display_name": "总部经营穿透诉求型",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "display_name": "库存与供应链协同诉求型",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "display_name": "利润改善诉求型",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "display_name": "连锁餐饮 / 茶饮 / 咖啡",
+      "gap_type": "source_gap",
+      "recommended_source_action": "补真实客户案例/解决方案/行业材料，不使用潜客作为正例。"
+    }
+  ]
+}

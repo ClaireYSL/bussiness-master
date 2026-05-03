@@ -1,0 +1,21 @@
+{
+  "batch_id": "long_term_quality_guard_v1",
+  "milestone": "M105R",
+  "generated_at": "2026-05-03T14:47:37.622745+00:00",
+  "status": "PASS_LONG_TERM_QUALITY_GUARD_READY",
+  "summary": {
+    "validation_status": "PASS",
+    "pipeline_entrypoint": "scripts/businessmaster_pipeline.py",
+    "readiness_mode_available": true,
+    "legacy_guard_checked": true,
+    "dynamic_scan_status": "PASS",
+    "api_key_scan_status": "PASS"
+  },
+  "next_operating_cycle": [
+    "学习素材更新",
+    "画像复核",
+    "潜客扩容 report-only",
+    "vault preview/publish",
+    "handoff snapshot"
+  ]
+}

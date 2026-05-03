@@ -1,0 +1,11 @@
+{
+  "batch_id": "vault_link_and_entry_check_v1",
+  "milestone": "M103R",
+  "generated_at": "2026-05-03T14:47:37.132149+00:00",
+  "status": "PASS_ENTRY_FILES_EXIST",
+  "entry_files": {
+    "workbench": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+    "l1_index": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L1 ICP强匹配索引.md",
+    "l2_index": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L2正式档案索引.md"
+  }
+}

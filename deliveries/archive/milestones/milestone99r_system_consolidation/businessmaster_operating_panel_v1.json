@@ -1,0 +1,33 @@
+{
+  "batch_id": "businessmaster_operating_panel_v1",
+  "milestone": "M99R",
+  "generated_at": "2026-05-03T14:47:37.125175+00:00",
+  "status": "PASS_OPERATING_PANEL_READY",
+  "summary": {
+    "system_phase": "product_system_consolidation",
+    "trusted_pool_count": 61,
+    "level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "persona_counts": {
+      "retail_high_sku_brand": 13,
+      "fnb_chain_beverage_coffee": 5,
+      "fnb_chain_standardized": 3,
+      "retail_multi_store": 9,
+      "cbec_multi_platform_brand": 29,
+      "cbec_platform_operator": 1,
+      "mfg_multi_factory_group": 1
+    },
+    "source_trace_count": 61,
+    "vault_counts": {
+      "L1": 35,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "next_default_command": "python3 scripts/businessmaster_pipeline.py --mode readiness"
+  }
+}

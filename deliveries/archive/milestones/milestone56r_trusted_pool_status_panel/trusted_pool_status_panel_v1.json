@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T14:37:23.960656+00:00",
-  "overall_status": "PASS_M98R_LEARNING_POOL_OPERATING_SYSTEM_READY",
+  "generated_at": "2026-05-03T14:47:37.623810+00:00",
+  "overall_status": "PASS_M105R_PRODUCT_SYSTEM_READY",
   "counts": {
     "trusted_pool_count": 61,
     "l1_count": 35,
@@ -8,8 +8,9 @@
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
-    "icp_reference_gap_count": 0,
-    "scale_seed_ready_count": 61
+    "knowledge_review_ready_count": 40,
+    "persona_source_gap_count": 8,
+    "scale_trial_seed_count": 61
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -29,7 +30,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M98R",
+  "latest_milestone": "M105R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -46,7 +47,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "按 M98R threshold 执行下一轮 100-200 扩容；先从 expansion_seed_ready 画像/素材开始，继续执行 no-contamination guard。",
+  "canonical_next_action": "使用 scripts/businessmaster_pipeline.py 作为统一入口；下一轮先处理 M100R review_ready 知识草稿和 M101R 画像 source gap，再执行 M104R scale trial。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -573,5 +574,78 @@
       "L4": 1
     },
     "readiness_depends_on_m97": "PASS_LONG_TERM_OPERATION_READY"
+  },
+  "m99r_system_consolidation": {
+    "trusted_pool_count": 61,
+    "level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "latest_prior_milestone": "M98R",
+    "unified_entrypoint": "scripts/businessmaster_pipeline.py",
+    "legacy_milestone_scripts_are_replay_only": true
+  },
+  "m100r_knowledge_learning_production": {
+    "learning_queue_count": 166,
+    "draft_count": 40,
+    "review_ready_count": 40,
+    "formal_knowledge_asset_write_count": 0,
+    "prospect_output_used_as_source_count": 0
+  },
+  "m101r_persona_productionization": {
+    "persona_count": 15,
+    "source_supported_count": 7,
+    "needs_validation_count": 1,
+    "source_gap_count": 7,
+    "persona_registry_write_count": 0
+  },
+  "m102r_trusted_pool_operating_closure": {
+    "trusted_pool_count": 61,
+    "current_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "runner_suggested_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L3": 1
+    },
+    "changed_count": 1,
+    "baseline_required_by_default": true,
+    "old_workbook_write_enabled": false
+  },
+  "m103r_vault_delivery_governance": {
+    "vault_file_counts": {
+      "L1": 35,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "canonical_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "physical_redundancy_detected": true,
+    "deletion_performed": false,
+    "legacy_source_as_fact_detected": false
+  },
+  "m104r_scale_trial": {
+    "available_seed_ready_count": 61,
+    "trial_seed_count": 61,
+    "actual_prospect_created_count": 0,
+    "canonical_pool_updated": false,
+    "vault_regular_written": false
+  },
+  "m105r_quality_guard": {
+    "validation_status": "PASS",
+    "pipeline_entrypoint": "scripts/businessmaster_pipeline.py",
+    "readiness_mode_available": true,
+    "legacy_guard_checked": true,
+    "dynamic_scan_status": "PASS",
+    "api_key_scan_status": "PASS"
   }
 }

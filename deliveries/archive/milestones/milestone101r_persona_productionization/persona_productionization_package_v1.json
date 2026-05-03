@@ -1,0 +1,135 @@
+{
+  "batch_id": "persona_productionization_package_v1",
+  "milestone": "M101R",
+  "generated_at": "2026-05-03T14:47:37.128585+00:00",
+  "status": "PASS_PERSONA_PRODUCTION_PREVIEW_READY",
+  "summary": {
+    "persona_count": 15,
+    "source_supported_count": 7,
+    "needs_validation_count": 1,
+    "source_gap_count": 7,
+    "persona_registry_write_count": 0
+  },
+  "items": [
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "display_name": "多平台品牌出海型",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 8,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "cbec_platform_operator",
+      "display_name": "平台化运营出海",
+      "production_status": "needs_validation",
+      "source_backed_evidence_count": 1,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "display_name": "供应链复杂的跨境经营型企业",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "fnb_chain_beverage_coffee",
+      "display_name": "茶饮咖啡连锁",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 7,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "fnb_chain_standardized",
+      "display_name": "标准化连锁餐饮",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 8,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "display_name": "多工厂离散制造集团",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 8,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mfg_rnd_sales_complex",
+      "display_name": "研产销协同复杂的技术型制造企业",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 6,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "display_name": "一线动作闭环诉求型",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "display_name": "集团协同与经营驾驶舱诉求型",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "display_name": "总部经营穿透诉求型",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "display_name": "库存与供应链协同诉求型",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "display_name": "利润改善诉求型",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "display_name": "连锁餐饮 / 茶饮 / 咖啡",
+      "production_status": "source_gap",
+      "source_backed_evidence_count": 0,
+      "registry_update_action": "hold_active_expansion_until_source_gap_resolved",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "display_name": "高 SKU 品牌消费品",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 8,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    },
+    {
+      "persona_id": "retail_multi_store",
+      "display_name": "多门店连锁零售",
+      "production_status": "source_supported",
+      "source_backed_evidence_count": 8,
+      "registry_update_action": "keep_or_minor_refresh_preview",
+      "persona_registry_write_enabled": false
+    }
+  ]
+}

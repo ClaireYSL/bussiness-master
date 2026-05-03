@@ -1,0 +1,87 @@
+{
+  "batch_id": "persona_registry_update_preview_v2",
+  "milestone": "M101R",
+  "generated_at": "2026-05-03T14:47:37.128593+00:00",
+  "summary": {
+    "preview_count": 15,
+    "registry_write_enabled": false,
+    "prospect_as_persona_source_count": 0
+  },
+  "items": [
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "cbec_platform_operator",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "fnb_chain_beverage_coffee",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "fnb_chain_standardized",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mfg_rnd_sales_complex",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "preview_action": "hold_active_expansion_until_source_gap_resolved",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    },
+    {
+      "persona_id": "retail_multi_store",
+      "preview_action": "keep_or_minor_refresh_preview",
+      "write_status": "not_written_preview_only"
+    }
+  ]
+}

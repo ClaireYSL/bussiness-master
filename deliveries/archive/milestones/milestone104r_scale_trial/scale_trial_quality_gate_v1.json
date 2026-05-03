@@ -1,0 +1,12 @@
+{
+  "batch_id": "scale_trial_quality_gate_v1",
+  "milestone": "M104R",
+  "generated_at": "2026-05-03T14:47:37.132743+00:00",
+  "status": "PASS_SCALE_QUALITY_GATE_READY",
+  "required_checks": [
+    "每个候选必须完成 evidence-first source trace",
+    "未挂画像学习资产的候选进入 gap queue",
+    "report-only 先于 trusted pool update",
+    "不得写旧 Excel/知识资产/persona registry"
+  ]
+}

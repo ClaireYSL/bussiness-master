@@ -1,0 +1,13 @@
+{
+  "batch_id": "knowledge_asset_production_guard_v1",
+  "milestone": "M100R",
+  "generated_at": "2026-05-03T14:47:37.127477+00:00",
+  "status": "PASS_PREVIEW_FIRST_GUARD",
+  "rules": [
+    "正式知识资产必须来自真实素材 source trace",
+    "潜客输出不能作为 knowledge asset source",
+    "LLM 输出只能作为摘要草稿",
+    "正式写入需要显式 guard"
+  ],
+  "formal_knowledge_asset_write_enabled": false
+}
