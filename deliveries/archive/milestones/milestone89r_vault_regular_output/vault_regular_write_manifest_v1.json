@@ -1,0 +1,115 @@
+{
+  "milestone": "M89R",
+  "generated_at": "2026-05-03T14:13:08.501661+00:00",
+  "status": "PASS_M89R_VAULT_WRITE_MANIFEST_READY",
+  "summary": {
+    "written_count": 11,
+    "l1_written_count": 4,
+    "l2_written_count": 7,
+    "index_written_count": 4,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "outputs": [
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/湖南鸣鸣很忙商业连锁股份有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/宜春赵一鸣食品科技有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京万皮思食品科技有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海伯邑餐饮管理有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳美西西餐饮管理有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/三立人（深圳）科技有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海芯果科技有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/杭州贝咖实业有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/小佩网络科技（上海）有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广州极男化妆品有限公司.md",
+      "action": "create"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东快客电子商务有限公司.md",
+      "action": "create"
+    }
+  ],
+  "indexes": [
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L1 ICP强匹配索引.md",
+      "kind": "l1_index",
+      "count": 35
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L2正式档案索引.md",
+      "kind": "l2_index",
+      "count": 25
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source trace index.md",
+      "kind": "source_trace_index",
+      "count": 61
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+      "kind": "workbench",
+      "count": 61
+    }
+  ]
+}

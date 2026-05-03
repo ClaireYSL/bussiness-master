@@ -1,0 +1,15 @@
+{
+  "milestone": "M89R",
+  "generated_at": "2026-05-03T14:13:08.502015+00:00",
+  "status": "PASS_M89R_VAULT_REGULAR_OUTPUT_COMPLETE",
+  "summary": {
+    "written_count": 11,
+    "l1_written_count": 4,
+    "l2_written_count": 7,
+    "index_written_count": 4,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "next_action": "M90R：质量抽样、入口复核和下一批非上市候选补源规划。"
+}

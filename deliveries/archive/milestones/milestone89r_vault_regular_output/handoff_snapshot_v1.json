@@ -1,0 +1,7 @@
+{
+  "milestone": "M89R",
+  "generated_at": "2026-05-03T14:13:08.502117+00:00",
+  "current_scope": "M88R 新增 11 家 canonical 候选写入 vault 正区。",
+  "vault_regular_written": true,
+  "next_command": "python3 scripts/build_m89r_vault_regular_output.py"
+}

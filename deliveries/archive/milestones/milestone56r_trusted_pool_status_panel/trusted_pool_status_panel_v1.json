@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T14:05:54.046584+00:00",
-  "overall_status": "PASS_M88R_CANONICAL_TRUSTED_POOL_UPDATED",
+  "generated_at": "2026-05-03T14:13:08.535036+00:00",
+  "overall_status": "PASS_M89R_VAULT_REGULAR_OUTPUT_WRITTEN",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -26,7 +26,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M88R",
+  "latest_milestone": "M89R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M89R：为新写入的 11 家生成 vault 正区输出准入与正式档案写入。",
+  "canonical_next_action": "进入 M90R：整理 L1/L2 用户入口质量与下一批非上市候选补源。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -418,6 +418,15 @@
     "canonical_pool_updated": true,
     "canonical_trace_updated": true,
     "vault_regular_written": false,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m89r_vault_regular_output": {
+    "written_count": 11,
+    "l1_written_count": 4,
+    "l2_written_count": 7,
+    "vault_regular_written": true,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false

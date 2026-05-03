@@ -1,0 +1,29 @@
+{
+  "milestone": "M89R",
+  "generated_at": "2026-05-03T14:13:08.534562+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "new_output_count_11": true,
+    "new_l1_output_count_4": true,
+    "new_l2_output_count_7": true,
+    "all_output_files_exist": true,
+    "indexes_written": true,
+    "no_dynamic_terms_in_new_outputs": true,
+    "api_key_scan_pass": true,
+    "py_compile_pass": true
+  }
+}
