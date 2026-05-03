@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T12:16:54.339149+00:00",
-  "overall_status": "PASS_M72R_OPERATING_PANEL_READY",
+  "generated_at": "2026-05-03T12:31:58.869183+00:00",
+  "overall_status": "PASS_M78R_WRITE_STRATEGY_READY",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -19,14 +19,14 @@
     "static_l2_ready": 8,
     "static_l1_ready": 0
   },
-  "next_recommended_action": "先按 M69R second_source_gap_queue 补第二强来源，再重跑 trusted_pool_runner 进行 L3->L2 report-only。",
+  "next_recommended_action": "继续 M73R 第二强来源补证；补齐后重跑 M74R report-only，再由 M76R 更新 canonical pool。",
   "no_write_proof": {
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M72R",
+  "latest_milestone": "M78R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "先按 M69R second_source_gap_queue 补第二强来源，再重跑 trusted_pool_runner 进行 L3->L2 report-only。",
+  "canonical_next_action": "继续 M73R 第二强来源补证；补齐后重跑 M74R report-only，再由 M76R 更新 canonical pool。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -236,5 +236,41 @@
     "archive_import_candidate_count": 368,
     "legacy_import_candidate_count": 106,
     "tracked_decision_count": 18
+  },
+  "m76r_canonical_trusted_pool_update": {
+    "before_count": 50,
+    "after_count": 50,
+    "added_count": 0,
+    "updated_count": 0,
+    "static_schema_backfill_count": 0,
+    "expansion_records_present_count": 30,
+    "static_level_counts": {
+      "L3": 49,
+      "L4": 1
+    },
+    "dynamic_fields_written": false
+  },
+  "m77r_vault_regular_write": {
+    "input_count": 30,
+    "vault_regular_write_count": 29,
+    "skipped_non_user_visible_count": 1,
+    "l3_written_count": 29,
+    "l2_written_count": 0,
+    "l1_written_count": 0,
+    "old_workbook_written": false,
+    "knowledge_asset_written": false,
+    "persona_registry_written": false
+  },
+  "m78r_operating_panel_v3": {
+    "canonical_pool_count": 50,
+    "canonical_pool_added_count": 0,
+    "static_level_counts": {
+      "L3": 49,
+      "L4": 1
+    },
+    "vault_regular_write_count": 29,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
   }
 }

@@ -1,0 +1,24 @@
+{
+  "milestone": "M73R",
+  "generated_at": "2026-05-03T12:31:58.863399+00:00",
+  "status": "PASS_M73R_MILESTONE_ARTIFACT_WRITE_POLICY_READY",
+  "summary": {
+    "write_target": "deliveries/archive/milestones/milestone73r_*",
+    "canonical_pool_updated": false,
+    "vault_regular_area_written": false,
+    "second_source_needed_count": 29
+  },
+  "policy": {
+    "purpose": "记录第二强来源补证过程和 source trace，不代表正式可信池状态。",
+    "allowed_outputs": [
+      "second_source_patch_package",
+      "source_trace_index_v3",
+      "collection_evidence_log"
+    ],
+    "forbidden_outputs": [
+      "旧 Excel 写入",
+      "knowledge_assets 写入",
+      "persona_registry 写入"
+    ]
+  }
+}

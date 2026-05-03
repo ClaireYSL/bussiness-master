@@ -25,6 +25,7 @@ DEFAULT_NO_WRITE_PROOF = "deliveries/archive/milestones/milestone61r_trusted_poo
 DEFAULT_POOL_DIFF = "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/pool_diff_report_v1.json"
 DEFAULT_VALIDATION = "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/validation_report_v1.json"
 DEFAULT_VAULT_PREVIEW = "deliveries/archive/milestones/milestone67r_vault_output_closure/vault_output_preview"
+DEFAULT_VAULT_ROOT = "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案"
 
 
 STATIC_UPDATE_FIELDS = (
@@ -41,7 +42,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Evidence-first trusted pool runner for static L1-L5 promotion.")
     parser.add_argument(
         "--mode",
-        choices=("report_only", "validate_only", "update_trusted_pool", "generate_vault_preview"),
+        choices=("report_only", "validate_only", "update_trusted_pool", "generate_vault_preview", "write_vault_regular"),
         default="report_only",
     )
     parser.add_argument("--trusted-pool", default=DEFAULT_TRUSTED_POOL)
@@ -54,10 +55,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--pool-diff-file", default=DEFAULT_POOL_DIFF)
     parser.add_argument("--validation-report-file", default=DEFAULT_VALIDATION)
     parser.add_argument("--vault-preview-dir", default=DEFAULT_VAULT_PREVIEW)
+    parser.add_argument("--vault-root", default=DEFAULT_VAULT_ROOT)
     parser.add_argument("--require-baseline", action="store_true", help="Fail if the current batch signature differs from --baseline-file.")
     parser.add_argument("--write-baseline", action="store_true", help="Write the current batch baseline/signature.")
     parser.add_argument("--allow-trusted-pool-update", action="store_true", help="Required with --mode update_trusted_pool.")
     parser.add_argument("--update-trusted-pool", action="store_true", help="Persist suggested levels back to trusted_prospect_pool_v1 JSON.")
+    parser.add_argument("--allow-vault-regular-write", action="store_true", help="Required with --mode write_vault_regular.")
     return parser
 
 
@@ -163,6 +166,15 @@ def _safe_filename(value: str) -> str:
     return "".join(keep) or "unknown_prospect"
 
 
+def _vault_regular_dir(vault_root: str | Path, level: str) -> Path | None:
+    root = Path(vault_root)
+    return {
+        "L1": root / "01-L1 ICP强匹配档案",
+        "L2": root / "02-L2正式潜客档案",
+        "L3": root / "03-L3可信摘要卡",
+    }.get(level)
+
+
 def _static_patch_for_decision(decision: dict[str, Any]) -> dict[str, Any]:
     return {
         "level": decision["suggested_level"],
@@ -260,6 +272,67 @@ source_boundary: evidence_first_only
     return outputs
 
 
+def _write_vault_regular(vault_root: str | Path, items: list[dict[str, Any]], decisions: list[dict[str, Any]]) -> list[dict[str, str]]:
+    by_id = {str(item.get("prospect_id") or "").strip(): item for item in items}
+    outputs = []
+    for decision in decisions:
+        level = decision["suggested_level"]
+        target_dir = _vault_regular_dir(vault_root, level)
+        if target_dir is None:
+            continue
+        target_dir.mkdir(parents=True, exist_ok=True)
+        item = by_id.get(decision["prospect_id"], {})
+        filename = _safe_filename(decision["company_name"]) + ".md"
+        path = target_dir / filename
+        gaps = "\n".join(f"- {gap.get('reason', '')}" for gap in decision["gap_queue"]) or "- 暂无结构化缺口。"
+        text = f"""---
+prospect_id: {decision['prospect_id']}
+static_level: {level}
+matched_persona: {item.get('matched_persona', '')}
+legacy_field_inherited: false
+source_boundary: evidence_first_only
+fact_source: trusted_prospect_pool_v1
+---
+
+# {decision['company_name']}
+
+## 静态等级
+
+{level}
+
+## 为什么匹配 ICP
+
+{item.get('match_reason', '')}
+
+## 核心产品/服务
+
+{item.get('core_product_service_summary', '')}
+
+## 业务模式
+
+{item.get('business_model_summary', '')}
+
+## 关键来源
+
+- {item.get('source_locator', '')}
+
+## 风险与待补点
+
+{item.get('risk_or_gap', '')}
+
+## 升层缺口
+
+{gaps}
+
+## 边界说明
+
+本页只表达静态 ICP 匹配、证据成熟度和信息完整度；不表达经营优先级、团队跟进或触达时间。
+"""
+        path.write_text(text, encoding="utf-8")
+        outputs.append({"prospect_id": decision["prospect_id"], "company_name": decision["company_name"], "level": level, "path": str(path)})
+    return outputs
+
+
 def main() -> int:
     args = build_parser().parse_args()
     mode = "update_trusted_pool" if args.update_trusted_pool else args.mode
@@ -301,8 +374,10 @@ def main() -> int:
 
     pool_diff = _build_pool_diff(items, decisions)
     validation_errors: list[str] = []
-    if mode == "update_trusted_pool" and not (args.allow_trusted_pool_update or args.update_trusted_pool):
+    if mode == "update_trusted_pool" and not args.allow_trusted_pool_update:
         validation_errors.append("update_trusted_pool requires --allow-trusted-pool-update")
+    if mode == "write_vault_regular" and not args.allow_vault_regular_write:
+        validation_errors.append("write_vault_regular requires --allow-vault-regular-write")
 
     updated_pool_written = False
     if mode == "update_trusted_pool" and not validation_errors:
@@ -331,6 +406,9 @@ def main() -> int:
     vault_preview_outputs: list[dict[str, str]] = []
     if mode == "generate_vault_preview":
         vault_preview_outputs = _write_vault_preview(args.vault_preview_dir, items, decisions)
+    vault_regular_outputs: list[dict[str, str]] = []
+    if mode == "write_vault_regular":
+        vault_regular_outputs = _write_vault_regular(args.vault_root, items, decisions)
 
     report = {
         "batch_id": Path(args.output_file).stem,
@@ -348,6 +426,7 @@ def main() -> int:
             "updated_pool_written": updated_pool_written,
             "pool_diff_changed_count": pool_diff["changed_count"],
             "vault_preview_count": len(vault_preview_outputs),
+            "vault_regular_write_count": len(vault_regular_outputs),
             "old_workbook_write_enabled": False,
             "baseline_required": bool(args.require_baseline),
             "baseline_written": bool(args.write_baseline),
@@ -362,6 +441,7 @@ def main() -> int:
         },
         "pool_diff_file": str(args.pool_diff_file),
         "vault_preview_outputs": vault_preview_outputs,
+        "vault_regular_outputs": vault_regular_outputs,
     }
     gap_queue_payload = {
         "generated_at": _now(),
@@ -379,6 +459,7 @@ def main() -> int:
         "dynamic_followup_task_created": False,
         "trusted_pool_updated": updated_pool_written,
         "vault_preview_written": bool(vault_preview_outputs),
+        "vault_regular_area_written": bool(vault_regular_outputs),
     }
     validation_report = {
         "generated_at": _now(),

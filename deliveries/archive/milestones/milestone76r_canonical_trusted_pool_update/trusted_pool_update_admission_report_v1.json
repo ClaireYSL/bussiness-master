@@ -1,0 +1,12 @@
+{
+  "milestone": "M76R",
+  "generated_at": "2026-05-03T12:31:58.865045+00:00",
+  "status": "PASS_M76R_UPDATE_ADMISSION_EXECUTED",
+  "conditions": {
+    "m74_report_only_pass": true,
+    "baseline_pass": true,
+    "pool_diff_explainable": true,
+    "no_old_excel_write": true
+  },
+  "write_target": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json"
+}

@@ -1,0 +1,16 @@
+{
+  "milestone": "M78R",
+  "generated_at": "2026-05-03T12:31:58.869053+00:00",
+  "status": "PASS_M78R_HANDOFF_READY",
+  "latest_write_targets": {
+    "canonical_trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "canonical_source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "vault_regular_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案"
+  },
+  "do_not_write": [
+    "旧 Excel",
+    "knowledge_assets",
+    "persona_registry",
+    "动态经营任务"
+  ]
+}

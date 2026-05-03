@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-03T12:31:59.278465+00:00",
+  "status": "FAIL_VALIDATION",
+  "mode": "write_vault_regular",
+  "errors": [
+    "write_vault_regular requires --allow-vault-regular-write"
+  ]
+}

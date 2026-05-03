@@ -1,0 +1,18 @@
+{
+  "milestone": "M74R",
+  "generated_at": "2026-05-03T12:31:58.863512+00:00",
+  "status": "PASS_M74R_REPORT_ONLY_WRITE_POLICY_READY",
+  "summary": {
+    "write_target": "deliveries/archive/milestones/milestone74r_*",
+    "current_level_counts": {
+      "L3": 29,
+      "L4": 1
+    },
+    "canonical_pool_updated": false,
+    "vault_regular_area_written": false
+  },
+  "policy": {
+    "purpose": "只生成 report-only、baseline、gap queue、pool diff preview。",
+    "write_to_canonical_pool": "M76R only after baseline/report-only/diff/no-old-write checks pass"
+  }
+}
