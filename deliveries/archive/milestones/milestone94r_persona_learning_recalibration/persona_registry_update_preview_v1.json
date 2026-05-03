@@ -1,0 +1,162 @@
+{
+  "batch_id": "persona_registry_update_preview_v1",
+  "milestone": "M94R",
+  "generated_at": "2026-05-03T14:29:59.800778+00:00",
+  "summary": {
+    "preview_count": 15,
+    "registry_write_enabled": false,
+    "requires_explicit_persona_registry_guard": true
+  },
+  "items": [
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "cbec_platform_operator",
+      "preview_action": "do_not_change_registry_collect_more_source",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "fnb_chain_beverage_coffee",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "fnb_chain_standardized",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mfg_rnd_sales_complex",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "preview_action": "mark_needs_source_validation",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    },
+    {
+      "persona_id": "retail_multi_store",
+      "preview_action": "keep_definition_with_evidence_binding",
+      "write_status": "not_written_preview_only",
+      "required_before_write": [
+        "人工复核",
+        "真实案例/方案来源确认",
+        "persona_registry guard 通过"
+      ]
+    }
+  ]
+}

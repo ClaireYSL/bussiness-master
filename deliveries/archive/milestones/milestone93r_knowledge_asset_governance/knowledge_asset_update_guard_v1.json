@@ -1,0 +1,21 @@
+{
+  "milestone": "M93R",
+  "generated_at": "2026-05-03T14:29:59.800068+00:00",
+  "status": "PASS_KNOWLEDGE_ASSET_UPDATE_GUARD_READY",
+  "allowed_sources": [
+    "真实客户案例",
+    "解决方案",
+    "行业研究",
+    "权威公开材料",
+    "内部原始素材"
+  ],
+  "forbidden_sources": [
+    "潜客摘要卡",
+    "trusted pool 候选结果",
+    "promote/report-only 输出",
+    "LLM 总结本身",
+    "旧主表/旧档案作为事实来源"
+  ],
+  "formal_knowledge_asset_write_enabled": false,
+  "requires_explicit_guard_for_registry_update": true
+}

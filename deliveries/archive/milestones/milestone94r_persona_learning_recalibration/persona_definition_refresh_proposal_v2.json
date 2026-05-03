@@ -1,0 +1,177 @@
+{
+  "batch_id": "persona_definition_refresh_proposal_v2",
+  "milestone": "M94R",
+  "generated_at": "2026-05-03T14:29:59.800777+00:00",
+  "summary": {
+    "proposal_count": 15,
+    "registry_write_count": 0,
+    "prospect_output_used_as_persona_source_count": 0
+  },
+  "items": [
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 9,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "cbec_platform_operator",
+      "proposal_type": "do_not_change_registry_collect_more_source",
+      "current_support_status": "needs_source_validation",
+      "evidence_count": 1,
+      "rationale": "已有少量材料但不足以刷新画像定义；先补真实案例或解决方案来源。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "fnb_chain_beverage_coffee",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 7,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "fnb_chain_standardized",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 13,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 11,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mfg_rnd_sales_complex",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 6,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 36,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    },
+    {
+      "persona_id": "retail_multi_store",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 24,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false,
+      "proposal_version": "v2",
+      "proposal_write_status": "preview_only",
+      "prospect_output_used_as_persona_source": false
+    }
+  ]
+}

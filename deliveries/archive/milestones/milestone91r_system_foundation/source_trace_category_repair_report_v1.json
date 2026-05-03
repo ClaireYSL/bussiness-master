@@ -1,0 +1,22 @@
+{
+  "milestone": "M91R",
+  "generated_at": "2026-05-03T14:29:59.778834+00:00",
+  "status": "PASS_SOURCE_CATEGORY_REPAIRED",
+  "summary": {
+    "source_trace_count": 61,
+    "newly_repaired_source_category_count": 0,
+    "repaired_source_category_count": 149,
+    "previously_repaired_source_category_count": 149,
+    "unchanged_source_category_count": 190,
+    "source_category_counts": {
+      "official_owned": 55,
+      "regulatory_or_capital_market": 82,
+      "authoritative_third_party": 13,
+      "internal_or_legacy_reference": 30,
+      "platform_operating_fact": 10
+    },
+    "missing_source_locator_count": 0,
+    "sample_repair_count": 0
+  },
+  "sample_repairs": []
+}

@@ -1,0 +1,772 @@
+{
+  "batch_id": "knowledge_extraction_draft_package_v1",
+  "milestone": "M92R",
+  "generated_at": "2026-05-03T14:29:59.788094+00:00",
+  "summary": {
+    "draft_count": 40,
+    "formal_knowledge_asset_write_enabled": false,
+    "llm_allowed_usage": "classification_summary_draft_only"
+  },
+  "items": [
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_1ac505ada0e9",
+      "material_id": "m41r_dingtalk_2026_03_28_1ac505ada0e9",
+      "asset_type": "solution_playbook",
+      "title": "LLLM采销供应链数据化解决方案",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "advanced_manufacturing",
+      "persona_guess": "mfg_rnd_sales_complex",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_e2e58dc752b6",
+      "material_id": "m41r_dingtalk_2026_03_28_e2e58dc752b6",
+      "asset_type": "customer_case",
+      "title": "「倍思」BI案例分享",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "cross_border_ecommerce",
+      "persona_guess": "cbec_multi_platform_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_cb246ff76bbe",
+      "material_id": "m41r_dingtalk_2026_03_28_cb246ff76bbe",
+      "asset_type": "scenario_pack",
+      "title": "多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/md/多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”.md",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "advanced_manufacturing",
+      "persona_guess": "mfg_multi_factory_group",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_d3021536e889",
+      "material_id": "m41r_dingtalk_2026_03_28_d3021536e889",
+      "asset_type": "scenario_pack",
+      "title": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_multi_store",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_5abe416e4f06",
+      "material_id": "m41r_geo_l1_cases_5abe416e4f06",
+      "asset_type": "scenario_pack",
+      "title": "数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_multi_store",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_02ab1f15f8cc",
+      "material_id": "m41r_geo_l1_cases_02ab1f15f8cc",
+      "asset_type": "customer_case",
+      "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "cross_border_ecommerce",
+      "persona_guess": "cbec_multi_platform_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_b806a79b3383",
+      "material_id": "m41r_dingtalk_2026_03_28_b806a79b3383",
+      "asset_type": "scenario_pack",
+      "title": "2022观远峰会-快看-11.18-V2.0",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/2022观远峰会-快看-11.18-V2.0.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "internet_platform",
+      "persona_guess": "internet_platform_operation",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_aeafed6ba8d8",
+      "material_id": "m41r_dingtalk_2026_03_28_aeafed6ba8d8",
+      "asset_type": "customer_case",
+      "title": "[互联网+]科技金融_详细案例_萨摩耶",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "finance",
+      "persona_guess": "finance_data_democratization",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_b4f1cce0649a",
+      "material_id": "m41r_dingtalk_2026_03_28_b4f1cce0649a",
+      "asset_type": "scenario_pack",
+      "title": "「互联网+」企业服务_易快报(合思)_售前分享版",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「互联网+」企业服务_易快报(合思)_售前分享版.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "internet_platform",
+      "persona_guess": "internet_platform_operation",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_80952c20c7cb",
+      "material_id": "m41r_dingtalk_2026_03_28_80952c20c7cb",
+      "asset_type": "customer_case",
+      "title": "「品牌零售- BI」气味图书馆案例总结",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「品牌零售- BI」气味图书馆案例总结.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_9215204b4d2a",
+      "material_id": "m41r_dingtalk_2026_03_28_9215204b4d2a",
+      "asset_type": "customer_case",
+      "title": "「案例详情_AI」家清-联合利华UL",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」家清-联合利华UL.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_7a3bee760da2",
+      "material_id": "m41r_dingtalk_2026_03_28_7a3bee760da2",
+      "asset_type": "customer_case",
+      "title": "「案例详情_AI」美妆-LVMH",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-LVMH.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_4037aeb27f02",
+      "material_id": "m41r_dingtalk_2026_03_28_4037aeb27f02",
+      "asset_type": "customer_case",
+      "title": "「案例详情_AI」美妆-丝芙兰",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-丝芙兰.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_9d8a56a2e839",
+      "material_id": "m41r_dingtalk_2026_03_28_9d8a56a2e839",
+      "asset_type": "customer_case",
+      "title": "「案例详情_BI」母婴-惠氏臻朗",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」母婴-惠氏臻朗.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_c8265955ebe6",
+      "material_id": "m41r_dingtalk_2026_03_28_c8265955ebe6",
+      "asset_type": "customer_case",
+      "title": "「案例详情_BI」美妆-colorkey",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」美妆-colorkey.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_75ef96f73fff",
+      "material_id": "m41r_dingtalk_2026_03_28_75ef96f73fff",
+      "asset_type": "customer_case",
+      "title": "「案例详情_BI」饮料-简爱酸奶",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-简爱酸奶.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_beverage_coffee",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_130a9a6f71a9",
+      "material_id": "m41r_dingtalk_2026_03_28_130a9a6f71a9",
+      "asset_type": "customer_case",
+      "title": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_beverage_coffee",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_eb4587059543",
+      "material_id": "m41r_dingtalk_2026_03_28_eb4587059543",
+      "asset_type": "customer_case",
+      "title": "「森马电商」BI案例分享",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「森马电商」BI案例分享.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_92990f246359",
+      "material_id": "m41r_dingtalk_2026_03_28_92990f246359",
+      "asset_type": "customer_case",
+      "title": "「珀莱雅」BI案例分享",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「珀莱雅」BI案例分享.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_cf751e980256",
+      "material_id": "m41r_dingtalk_2026_03_28_cf751e980256",
+      "asset_type": "customer_case",
+      "title": "「自然堂」BI案例分享",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「自然堂」BI案例分享.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_9ed76ba72c74",
+      "material_id": "m41r_dingtalk_2026_03_28_9ed76ba72c74",
+      "asset_type": "customer_case",
+      "title": "「连锁餐饮- BI」德克士案例方案",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」德克士案例方案.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_standardized",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_ff5e0fb4be5b",
+      "material_id": "m41r_dingtalk_2026_03_28_ff5e0fb4be5b",
+      "asset_type": "customer_case",
+      "title": "「连锁餐饮- BI」顶誉食品案例总结",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」顶誉食品案例总结.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_multi_store",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_66b6e5dd8c70",
+      "material_id": "m41r_dingtalk_2026_03_28_66b6e5dd8c70",
+      "asset_type": "customer_case",
+      "title": "【母婴宠物】观远BI典型案例",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【母婴宠物】观远BI典型案例.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_c42c913e351e",
+      "material_id": "m41r_dingtalk_2026_03_28_c42c913e351e",
+      "asset_type": "customer_case",
+      "title": "【美妆个护】观远BI典型案例",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【美妆个护】观远BI典型案例.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_50e032ac0d3f",
+      "material_id": "m41r_dingtalk_2026_03_28_50e032ac0d3f",
+      "asset_type": "customer_case",
+      "title": "【连锁餐饮-BI-详细案例】遇见小面",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【连锁餐饮-BI-详细案例】遇见小面.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_standardized",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_73705b68ef09",
+      "material_id": "m41r_dingtalk_2026_03_28_73705b68ef09",
+      "asset_type": "customer_case",
+      "title": "【鞋服】观远BI典型案例",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【鞋服】观远BI典型案例.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_26cc3790d0ca",
+      "material_id": "m41r_dingtalk_2026_03_28_26cc3790d0ca",
+      "asset_type": "customer_case",
+      "title": "【鞋服行业】首威集团_财务项目_案例总结_20230218",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【鞋服行业】首威集团_财务项目_案例总结_20230218.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_a0934ee91f46",
+      "material_id": "m41r_dingtalk_2026_03_28_a0934ee91f46",
+      "asset_type": "solution_playbook",
+      "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_standardized",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_694b4661ff24",
+      "material_id": "m41r_dingtalk_2026_03_28_694b4661ff24",
+      "asset_type": "solution_playbook",
+      "title": "全家汇报方案-观远数据v1.0-230104",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_multi_store",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_3b267fa4f181",
+      "material_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
+      "asset_type": "scenario_pack",
+      "title": "太平鸟",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/太平鸟.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_7373f739f85b",
+      "material_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
+      "asset_type": "scenario_pack",
+      "title": "安踏",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/安踏.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_7d51c399df29",
+      "material_id": "m41r_dingtalk_2026_03_28_7d51c399df29",
+      "asset_type": "customer_case",
+      "title": "数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "finance",
+      "persona_guess": "finance_data_democratization",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_7536582d826a",
+      "material_id": "m41r_dingtalk_2026_03_28_7536582d826a",
+      "asset_type": "customer_case",
+      "title": "详细案例-商超便利-全家",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/详细案例-商超便利-全家.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_multi_store",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_dingtalk_2026_03_28_49f89b565058",
+      "material_id": "m41r_dingtalk_2026_03_28_49f89b565058",
+      "asset_type": "solution_playbook",
+      "title": "赛百味智能数据运营项目规划方案v1.1-观远数据-230822",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/赛百味智能数据运营项目规划方案v1.1-观远数据-230822.pdf",
+      "source_root": "dingtalk_2026_03_28",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_standardized",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_8818e883a66c",
+      "material_id": "m41r_geo_l1_cases_8818e883a66c",
+      "asset_type": "scenario_pack",
+      "title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_93c9999e4a70",
+      "material_id": "m41r_geo_l1_cases_93c9999e4a70",
+      "asset_type": "industry_insight",
+      "title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_8cbb9aa49aa2",
+      "material_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+      "asset_type": "scenario_pack",
+      "title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "retail_consumer",
+      "persona_guess": "fnb_chain_standardized",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_d0e2101bd015",
+      "material_id": "m41r_geo_l1_cases_d0e2101bd015",
+      "asset_type": "customer_case",
+      "title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/吉家宠物张志伟：宠物行业全链路数据分析方法论与实践.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_high_sku_brand",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_aad23b29669d",
+      "material_id": "m41r_geo_l1_cases_aad23b29669d",
+      "asset_type": "scenario_pack",
+      "title": "宜信 × 观远BI  捕捉1%的数据波动，驱动业务运营升级",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/宜信 × 观远BI  捕捉1%的数据波动，驱动业务运营升级.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "finance",
+      "persona_guess": "finance_data_democratization",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    },
+    {
+      "draft_asset_id": "m92r_draft_geo_l1_cases_fccad7efa193",
+      "material_id": "m41r_geo_l1_cases_fccad7efa193",
+      "asset_type": "scenario_pack",
+      "title": "对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常",
+      "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常.docx",
+      "source_root": "geo_l1_cases",
+      "track_guess": "retail_consumer",
+      "persona_guess": "retail_multi_store",
+      "extraction_status": "draft_ready_for_human_or_llm_extraction",
+      "suggested_extraction_focus": [
+        "适用主线",
+        "画像/JTBD 信号",
+        "关键判断信号",
+        "可复用摘要",
+        "置信度与边界"
+      ],
+      "formal_knowledge_asset_write_enabled": false
+    }
+  ]
+}

@@ -16,15 +16,15 @@ from shared.static_pool.static_promote import evaluate_static_promotion
 
 
 DEFAULT_TRUSTED_POOL = "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json"
-DEFAULT_SOURCE_TRACE = "deliveries/archive/milestones/milestone52r_second_evidence_patch/source_trace_index_v2.json"
-DEFAULT_OUTPUT = "deliveries/archive/milestones/milestone59r_static_promotion_core/trusted_pool_static_promote_report_v1.json"
-DEFAULT_GAP_QUEUE = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/static_gap_queue_v1.json"
-DEFAULT_BASELINE = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/trusted_pool_runner_baseline_v1.json"
-DEFAULT_SOURCE_TRACE_OUTPUT = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/source_trace_normalized_v1.json"
-DEFAULT_NO_WRITE_PROOF = "deliveries/archive/milestones/milestone61r_trusted_pool_runner_v2/no_write_proof_v1.json"
-DEFAULT_POOL_DIFF = "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/pool_diff_report_v1.json"
-DEFAULT_VALIDATION = "deliveries/archive/milestones/milestone65r_trusted_pool_runner_v3/validation_report_v1.json"
-DEFAULT_VAULT_PREVIEW = "deliveries/archive/milestones/milestone67r_vault_output_closure/vault_output_preview"
+DEFAULT_SOURCE_TRACE = "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json"
+DEFAULT_OUTPUT = "deliveries/archive/runtime/trusted_pool_runner/trusted_pool_static_promote_report_v1.json"
+DEFAULT_GAP_QUEUE = "deliveries/archive/runtime/trusted_pool_runner/static_gap_queue_v1.json"
+DEFAULT_BASELINE = "deliveries/archive/runtime/trusted_pool_runner/trusted_pool_runner_baseline_v1.json"
+DEFAULT_SOURCE_TRACE_OUTPUT = "deliveries/archive/runtime/trusted_pool_runner/source_trace_normalized_v1.json"
+DEFAULT_NO_WRITE_PROOF = "deliveries/archive/runtime/trusted_pool_runner/no_write_proof_v1.json"
+DEFAULT_POOL_DIFF = "deliveries/archive/runtime/trusted_pool_runner/pool_diff_report_v1.json"
+DEFAULT_VALIDATION = "deliveries/archive/runtime/trusted_pool_runner/validation_report_v1.json"
+DEFAULT_VAULT_PREVIEW = "deliveries/archive/runtime/trusted_pool_runner/vault_output_preview"
 DEFAULT_VAULT_ROOT = "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案"
 
 

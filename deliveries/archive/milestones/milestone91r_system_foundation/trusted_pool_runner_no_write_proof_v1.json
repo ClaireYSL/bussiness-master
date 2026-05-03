@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-05-03T14:30:00.070829+00:00",
+  "status": "PASS_NO_LEGACY_OR_DYNAMIC_WRITE",
+  "old_workbook_write_enabled": false,
+  "knowledge_asset_write_enabled": false,
+  "persona_registry_write_enabled": false,
+  "dynamic_followup_task_created": false,
+  "trusted_pool_updated": false,
+  "vault_preview_written": false,
+  "vault_regular_area_written": false
+}

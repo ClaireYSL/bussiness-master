@@ -1,52 +1,11 @@
 {
-  "generated_at": "2026-05-03T14:29:59.778706+00:00",
-  "summary": {
-    "source_trace_count": 61,
-    "m84_patch_count": 12,
-    "platform_operating_fact_count": 6,
-    "official_owned_count": 42,
-    "regulatory_or_capital_market_count": 82,
-    "skipped_count": 0,
-    "source_category_counts": {
-      "official_owned": 55,
-      "regulatory_or_capital_market": 82,
-      "authoritative_third_party": 13,
-      "internal_or_legacy_reference": 30,
-      "platform_operating_fact": 10
-    },
-    "canonical_update_source": "M91R_source_category_foundation_cleanup",
-    "source_type_counts": {
-      "ir": 7,
-      "annual_report": 42,
-      "official_site": 32,
-      "official": 9,
-      "exchange_announcement": 4,
-      "sec_filing": 4,
-      "authoritative_media": 1,
-      "regulatory": 2,
-      "cninfo": 29,
-      "structured_intake_patch": 30,
-      "official_channel_page": 11,
-      "official_product_page": 6,
-      "official_website": 1,
-      "media_report": 3,
-      "financing_news": 4,
-      "investor_portfolio": 1,
-      "company_profile": 1,
-      "industry_research": 3
-    },
-    "missing_source_locator_count": 0,
-    "source_category_null_count": 0,
-    "m91r_source_category_repaired_count": 149,
-    "m91r_source_category_newly_repaired_count": 0
-  },
+  "generated_at": "2026-05-03T14:30:00.070827+00:00",
+  "source_trace_count": 61,
   "items": [
     {
       "prospect_id": "m44r_prospect_bear",
-      "company_name": "小熊电器股份有限公司",
-      "source_locator": "https://bears.com.cn/invest/notice.html",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "ir",
@@ -77,15 +36,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_botanee",
-      "company_name": "云南贝泰妮生物科技集团股份有限公司",
-      "source_locator": "https://www.botanee.com.cn/investor-relations.html",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "ir",
@@ -116,15 +72,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_chabaidao",
-      "company_name": "四川百茶百道实业股份有限公司",
-      "source_locator": "https://www.chabaidao.com/home/index/",
-      "evidence_strength": "official",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -155,15 +108,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_chagee",
-      "company_name": "霸王茶姬控股有限公司",
-      "source_locator": "https://investor.chagee.com/",
-      "evidence_strength": "ir",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -194,15 +144,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_chowtaiseng",
-      "company_name": "周大生珠宝股份有限公司",
-      "source_locator": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
-      "evidence_strength": "annual_report",
-      "matched_persona": "retail_multi_store",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "annual_report",
@@ -233,15 +180,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_focus_tech",
-      "company_name": "焦点科技股份有限公司",
-      "source_locator": "https://www.focuschina.com/",
-      "evidence_strength": "official",
-      "matched_persona": "cbec_platform_operator",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "official",
@@ -272,15 +216,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_jahwa",
-      "company_name": "上海家化联合股份有限公司",
-      "source_locator": "https://www.jahwa.com.cn/about/com",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "official",
@@ -311,15 +252,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_jiumaojiu",
-      "company_name": "九毛九国际控股有限公司",
-      "source_locator": "https://www.jiumaojiu.com/about/index.html",
-      "evidence_strength": "official",
-      "matched_persona": "fnb_chain_standardized",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -350,15 +288,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_juewei",
-      "company_name": "绝味食品股份有限公司",
-      "source_locator": "https://www.juewei.cn/page/jwd/",
-      "evidence_strength": "official",
-      "matched_persona": "fnb_chain_standardized",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "official",
@@ -389,15 +324,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_kidswant",
-      "company_name": "孩子王儿童用品股份有限公司",
-      "source_locator": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
-      "evidence_strength": "authoritative_media",
-      "matched_persona": "retail_multi_store",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "authoritative_media",
@@ -428,15 +360,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_luckin",
-      "company_name": "瑞幸咖啡有限公司",
-      "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
-      "evidence_strength": "ir",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -467,15 +396,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_pagoda",
-      "company_name": "深圳百果园实业集团股份有限公司",
-      "source_locator": "https://www.pagoda.com.cn/",
-      "evidence_strength": "official",
-      "matched_persona": "retail_multi_store",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -506,15 +432,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_roborock",
-      "company_name": "北京石头世纪科技股份有限公司",
-      "source_locator": "https://group.roborock.com/zh-hk/contact-us",
-      "evidence_strength": "official",
-      "matched_persona": "cbec_multi_platform_brand",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -545,15 +468,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_sailvan",
-      "company_name": "赛维时代科技股份有限公司",
-      "source_locator": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217697315.PDF",
-      "evidence_strength": "regulatory",
-      "matched_persona": "cbec_multi_platform_brand",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "regulatory",
@@ -584,15 +504,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_syoung",
-      "company_name": "水羊集团股份有限公司",
-      "source_locator": "https://syounggroup.com/",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "official",
@@ -623,15 +540,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_three_squirrels",
-      "company_name": "三只松鼠股份有限公司",
-      "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
-      "evidence_strength": "regulatory",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "regulatory",
@@ -662,15 +576,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_viomi",
-      "company_name": "云米科技有限公司",
-      "source_locator": "https://viomitechnology.gcs-web.com/",
-      "evidence_strength": "ir",
-      "matched_persona": "cbec_multi_platform_brand",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -701,15 +612,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_winner_medical",
-      "company_name": "稳健医疗用品股份有限公司",
-      "source_locator": "https://www.winnermedical.cn/investor/report.html",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "ir",
@@ -740,15 +648,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_yanjinpuzi",
-      "company_name": "盐津铺子食品股份有限公司",
-      "source_locator": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "official",
@@ -779,15 +684,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m44r_prospect_yatsen",
-      "company_name": "逸仙控股有限公司",
-      "source_locator": "https://ir.yatsenglobal.com/",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 3,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -818,15 +720,12 @@
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "source_count": 3
+      ]
     },
     {
       "prospect_id": "m68r_acc_babi",
-      "company_name": "中饮巴比食品股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -865,15 +764,12 @@
           "summary": "巴比食品官网用于支撑连锁门店/渠道运营与标准化经营特征，补充非上市友好 L1 信源类型。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_bbg",
-      "company_name": "步步高商业连锁股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -912,15 +808,12 @@
           "summary": "步步高集团官网用于支撑多业态零售与门店网络经营事实，补充非上市友好 L1 信源类型。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_bear",
-      "company_name": "广东小熊电器股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -959,15 +852,12 @@
           "summary": "小熊电器官网展示品牌产品矩阵与线上渠道入口，补充平台经营事实类信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_bloomage",
-      "company_name": "华熙生物科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1006,15 +896,12 @@
           "summary": "华熙生物官网用于支撑生物科技产品与品牌矩阵，补充非资本市场信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_haers",
-      "company_name": "浙江哈尔斯真空器皿股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1053,15 +940,12 @@
           "summary": "哈尔斯官网介绍品牌与国际化经营事实，补充平台/渠道经营类信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hailide",
-      "company_name": "浙江海利得新材料股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1091,15 +975,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_haixiang",
-      "company_name": "海象新材料股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1129,15 +1010,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hengansecurity",
-      "company_name": "江苏恒辉安防股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1167,15 +1045,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_henglin",
-      "company_name": "恒林家居股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1214,15 +1089,12 @@
           "summary": "恒林家居官网用于支撑家具产品体系与全球经营特征，补充非资本市场信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hengwei",
-      "company_name": "浙江恒威电池股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1252,15 +1124,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hlin",
-      "company_name": "浙江恒林椅业股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1290,15 +1159,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_jame",
-      "company_name": "深圳市杰美特科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1328,15 +1194,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_longood",
-      "company_name": "朗科智能电气股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1366,15 +1229,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_mengtian_wood",
-      "company_name": "浙江梦天木作家居有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1404,15 +1264,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_mingxin",
-      "company_name": "浙江明新旭腾新材料股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1442,15 +1299,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_mustangbat",
-      "company_name": "浙江野马电池股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1480,15 +1334,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_patio",
-      "company_name": "浙江正特股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1527,15 +1378,12 @@
           "summary": "正特官网用于支撑户外休闲产品体系与全球经营特征，补充非资本市场信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_sailvan",
-      "company_name": "深圳市赛维网络科技有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1574,15 +1422,12 @@
           "summary": "赛维集团官网用于支撑跨境品牌与多平台运营特征，补充平台经营事实类信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_santai",
-      "company_name": "深圳市三态电子商务股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1621,15 +1466,12 @@
           "summary": "三态相关公开业务站点用于支撑跨境电商运营服务特征，补充平台经营事实类信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_shengtai",
-      "company_name": "浙江盛泰服装集团股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1659,15 +1501,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_skshu",
-      "company_name": "星徽股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1697,15 +1536,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_taipeng",
-      "company_name": "泰鹏智能家居股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1735,15 +1571,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_topstar",
-      "company_name": "拓斯达科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1782,15 +1615,12 @@
           "summary": "拓斯达官网用于支撑智能制造产品体系与多组织经营特征，补充非资本市场信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_uechairs",
-      "company_name": "永艺家具股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1829,15 +1659,12 @@
           "summary": "永艺家具官网用于支撑办公椅产品体系与全球经营特征，补充非资本市场信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_washin",
-      "company_name": "浙江华生科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1867,15 +1694,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_xinghua",
-      "company_name": "星华新材股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1905,15 +1729,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_yayi",
-      "company_name": "浙江雅艺金属科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1943,15 +1764,12 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_yotrio",
-      "company_name": "浙江永强集团股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489",
-      "evidence_strength": "cninfo",
       "source_count": 4,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1990,15 +1808,12 @@
           "summary": "永强集团官网用于支撑户外家具产品体系与全球品牌运营特征，补充非资本市场信源。",
           "added_by_milestone": "M84R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_youkeshu",
-      "company_name": "深圳市有棵树科技股份有限公司",
-      "source_locator": "https://sorobuy.com/",
-      "evidence_strength": "official_website",
       "source_count": 2,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_website",
@@ -2018,15 +1833,12 @@
           "source_category": "internal_or_legacy_reference",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_zhengyu",
-      "company_name": "浙江正裕工业股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -2056,281 +1868,26 @@
           "source_category": "regulatory_or_capital_market",
           "source_category_inferred_by": "M91R_static_promote_source_category"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
-      "prospect_id": "m85r_nonlisted_busyming",
-      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
-      "matched_persona": "retail_multi_store",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.busyming.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "湖南鸣鸣很忙商业连锁股份有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.busyming.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.busyming.com/",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "official_channel_page",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://www.busyming.com/",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:multi_store_retail,store_network",
-          "summary": "官网披露门店、SKU、GMV 等经营事实，支撑多门店零售 ICP。",
-          "locator_hardening": {
-            "source_locator": "https://www.busyming.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.busyming.com/",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "media_report",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://www.stcn.com/article/detail/799343.html",
-          "evidence_strength": "authoritative_media",
-          "supports_dimension": "icp_match_support:financing_and_store_network",
-          "summary": "证券时报报道赵一鸣零食融资与门店/仓配网络。",
-          "locator_hardening": {
-            "source_locator": "https://www.stcn.com/article/detail/799343.html",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.stcn.com/article/detail/799343.html",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m85r_nonlisted_zhaoyiming",
-      "company_name": "宜春赵一鸣食品科技有限公司",
-      "matched_persona": "retail_multi_store",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_type": "official_channel_page",
-          "source_category": "official_owned",
-          "source_locator": "https://www.zymls.com/zsjm.html",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "宜春赵一鸣食品科技有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.zymls.com/zsjm.html",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.zymls.com/zsjm.html",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "official_channel_page",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://www.zymls.com/zsjm.html",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:multi_store_retail,store_network",
-          "summary": "赵一鸣加盟页披露门店网络与加盟流程，支撑多门店零售 ICP。",
-          "locator_hardening": {
-            "source_locator": "https://www.zymls.com/zsjm.html",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.zymls.com/zsjm.html",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "media_report",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://www.foodaily.com/articles/31851",
-          "evidence_strength": "authoritative_media",
-          "supports_dimension": "icp_match_support:store_network,sku_matrix",
-          "summary": "Foodaily 报道量贩零食门店、SKU 与融资信息。",
-          "locator_hardening": {
-            "source_locator": "https://www.foodaily.com/articles/31851",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.foodaily.com/articles/31851",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m85r_nonlisted_kuafood",
-      "company_name": "北京万皮思食品科技有限公司",
-      "matched_persona": "fnb_chain_standardized",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.kuafood.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "北京万皮思食品科技有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.kuafood.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.kuafood.com/",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "official_channel_page",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://www.kuafood.com/brand",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:chain_standardization,store_network",
-          "summary": "夸父品牌页披露连锁、供应与数字化经营特征。",
-          "locator_hardening": {
-            "source_locator": "https://www.kuafood.com/brand",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.kuafood.com/brand",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "financing_news",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://www.pencilnews.cn/p/39109.html",
-          "evidence_strength": "authoritative_media",
-          "supports_dimension": "icp_match_support:financing_and_chain_growth",
-          "summary": "铅笔道报道夸父融资、门店增长与数字化运营。",
-          "locator_hardening": {
-            "source_locator": "https://www.pencilnews.cn/p/39109.html",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.pencilnews.cn/p/39109.html",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m85r_nonlisted_more_yogurt",
-      "company_name": "上海伯邑餐饮管理有限公司",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "prospect_id": "m85r_nonlisted_babycare",
       "source_count": 2,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_site",
           "source_category": "official_owned",
-          "source_locator": "https://more-yogurt.com/index/about",
+          "source_locator": "https://www.babycare.com/",
           "evidence_strength": "official_site",
           "supports_dimension": "icp_match_support:official_owned",
-          "summary": "上海伯邑餐饮管理有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "summary": "杭州贝咖实业有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
           "locator_hardening": {
-            "source_locator": "https://more-yogurt.com/index/about",
+            "source_locator": "https://www.babycare.com/",
             "availability_status": "verified",
             "verified": true,
             "status_code": 200,
-            "final_url": "https://more-yogurt.com/index/about",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "official_channel_page",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://more-yogurt.com/index/about",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:chain_store_operations",
-          "summary": "茉酸奶官网关于品牌与门店加盟信息。",
-          "locator_hardening": {
-            "source_locator": "https://more-yogurt.com/index/about",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://more-yogurt.com/index/about",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m85r_nonlisted_heytea",
-      "company_name": "深圳美西西餐饮管理有限公司",
-      "matched_persona": "fnb_chain_beverage_coffee",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.heytea.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "深圳美西西餐饮管理有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.heytea.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.heytea.com/",
+            "final_url": "https://www.babycare.com/",
             "content_type": "text/html; charset=UTF-8",
             "method": "HEAD",
             "error": ""
@@ -2338,53 +1895,30 @@
           "added_by_milestone": "M88R"
         },
         {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.heytea.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:chain_store_operations,global_brand_operations",
-          "summary": "喜茶官网支撑品牌产品与门店经营事实。",
-          "locator_hardening": {
-            "source_locator": "https://www.heytea.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.heytea.com/",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "investor_portfolio",
+          "source_type": "industry_research",
           "source_category": "authoritative_third_party",
-          "source_locator": "https://www.hongshan.com/companies/heytea/",
-          "evidence_strength": "investor_portfolio",
-          "supports_dimension": "icp_match_support:brand_growth_and_global_stores",
-          "summary": "红杉/红杉中国 portfolio 页面支撑品牌成长与海外门店。",
+          "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+          "evidence_strength": "industry_research",
+          "supports_dimension": "icp_match_support:brand_product_matrix,offline_store",
+          "summary": "行业研究报告提及 Babycare 产品、门店与融资信息。",
           "locator_hardening": {
-            "source_locator": "https://www.hongshan.com/companies/heytea/",
+            "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
             "availability_status": "verified",
             "verified": true,
             "status_code": 200,
-            "final_url": "https://www.hongshan.com/companies/heytea/",
-            "content_type": "text/html; charset=UTF-8",
+            "final_url": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+            "content_type": "application/pdf",
             "method": "HEAD",
             "error": ""
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
     },
     {
       "prospect_id": "m85r_nonlisted_bananain",
-      "company_name": "三立人（深圳）科技有限公司",
-      "matched_persona": "retail_high_sku_brand",
       "source_count": 3,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_site",
@@ -2443,16 +1977,140 @@
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "source_count": 3,
+      "strong_source_count": 0,
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.busyming.com/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:official_owned",
+          "summary": "湖南鸣鸣很忙商业连锁股份有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "locator_hardening": {
+            "source_locator": "https://www.busyming.com/",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.busyming.com/",
+            "content_type": "text/html; charset=utf-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "official_channel_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.busyming.com/",
+          "evidence_strength": "official_channel_page",
+          "supports_dimension": "icp_match_support:multi_store_retail,store_network",
+          "summary": "官网披露门店、SKU、GMV 等经营事实，支撑多门店零售 ICP。",
+          "locator_hardening": {
+            "source_locator": "https://www.busyming.com/",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.busyming.com/",
+            "content_type": "text/html; charset=utf-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "media_report",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.stcn.com/article/detail/799343.html",
+          "evidence_strength": "authoritative_media",
+          "supports_dimension": "icp_match_support:financing_and_store_network",
+          "summary": "证券时报报道赵一鸣零食融资与门店/仓配网络。",
+          "locator_hardening": {
+            "source_locator": "https://www.stcn.com/article/detail/799343.html",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.stcn.com/article/detail/799343.html",
+            "content_type": "text/html; charset=utf-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "source_count": 3,
+      "strong_source_count": 0,
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.heytea.com/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:official_owned",
+          "summary": "深圳美西西餐饮管理有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "locator_hardening": {
+            "source_locator": "https://www.heytea.com/",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.heytea.com/",
+            "content_type": "text/html; charset=UTF-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.heytea.com/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:chain_store_operations,global_brand_operations",
+          "summary": "喜茶官网支撑品牌产品与门店经营事实。",
+          "locator_hardening": {
+            "source_locator": "https://www.heytea.com/",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.heytea.com/",
+            "content_type": "text/html; charset=UTF-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "investor_portfolio",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.hongshan.com/companies/heytea/",
+          "evidence_strength": "investor_portfolio",
+          "supports_dimension": "icp_match_support:brand_growth_and_global_stores",
+          "summary": "红杉/红杉中国 portfolio 页面支撑品牌成长与海外门店。",
+          "locator_hardening": {
+            "source_locator": "https://www.hongshan.com/companies/heytea/",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.hongshan.com/companies/heytea/",
+            "content_type": "text/html; charset=UTF-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        }
+      ]
     },
     {
       "prospect_id": "m85r_nonlisted_hotmaxx",
-      "company_name": "上海芯果科技有限公司",
-      "matched_persona": "retail_multi_store",
       "source_count": 3,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_site",
@@ -2511,31 +2169,27 @@
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
     },
     {
-      "prospect_id": "m85r_nonlisted_babycare",
-      "company_name": "杭州贝咖实业有限公司",
-      "matched_persona": "retail_high_sku_brand",
+      "prospect_id": "m85r_nonlisted_kkv",
       "source_count": 2,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_site",
           "source_category": "official_owned",
-          "source_locator": "https://www.babycare.com/",
+          "source_locator": "https://www.kkguan.com/",
           "evidence_strength": "official_site",
           "supports_dimension": "icp_match_support:official_owned",
-          "summary": "杭州贝咖实业有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "summary": "广东快客电子商务有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
           "locator_hardening": {
-            "source_locator": "https://www.babycare.com/",
+            "source_locator": "https://www.kkguan.com/",
             "availability_status": "verified",
             "verified": true,
             "status_code": 200,
-            "final_url": "https://www.babycare.com/",
-            "content_type": "text/html; charset=UTF-8",
+            "final_url": "https://www.kkgroup.cn/zh-CN",
+            "content_type": "text/html;charset=utf-8",
             "method": "HEAD",
             "error": ""
           },
@@ -2544,32 +2198,137 @@
         {
           "source_type": "industry_research",
           "source_category": "authoritative_third_party",
-          "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+          "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
           "evidence_strength": "industry_research",
-          "supports_dimension": "icp_match_support:brand_product_matrix,offline_store",
-          "summary": "行业研究报告提及 Babycare 产品、门店与融资信息。",
+          "supports_dimension": "icp_match_support:multi_store_retail,sku_matrix",
+          "summary": "行业报告提及 KKV/KK 集团多品牌零售与门店扩张。",
           "locator_hardening": {
-            "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+            "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
             "availability_status": "verified",
             "verified": true,
             "status_code": 200,
-            "final_url": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+            "final_url": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
             "content_type": "application/pdf",
             "method": "HEAD",
             "error": ""
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "source_count": 3,
+      "strong_source_count": 0,
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.kuafood.com/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:official_owned",
+          "summary": "北京万皮思食品科技有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "locator_hardening": {
+            "source_locator": "https://www.kuafood.com/",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.kuafood.com/",
+            "content_type": "text/html; charset=UTF-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "official_channel_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.kuafood.com/brand",
+          "evidence_strength": "official_channel_page",
+          "supports_dimension": "icp_match_support:chain_standardization,store_network",
+          "summary": "夸父品牌页披露连锁、供应与数字化经营特征。",
+          "locator_hardening": {
+            "source_locator": "https://www.kuafood.com/brand",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.kuafood.com/brand",
+            "content_type": "text/html; charset=UTF-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "financing_news",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.pencilnews.cn/p/39109.html",
+          "evidence_strength": "authoritative_media",
+          "supports_dimension": "icp_match_support:financing_and_chain_growth",
+          "summary": "铅笔道报道夸父融资、门店增长与数字化运营。",
+          "locator_hardening": {
+            "source_locator": "https://www.pencilnews.cn/p/39109.html",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.pencilnews.cn/p/39109.html",
+            "content_type": "text/html; charset=utf-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "source_count": 2,
+      "strong_source_count": 0,
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://more-yogurt.com/index/about",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:official_owned",
+          "summary": "上海伯邑餐饮管理有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "locator_hardening": {
+            "source_locator": "https://more-yogurt.com/index/about",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://more-yogurt.com/index/about",
+            "content_type": "text/html; charset=utf-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "official_channel_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://more-yogurt.com/index/about",
+          "evidence_strength": "official_channel_page",
+          "supports_dimension": "icp_match_support:chain_store_operations",
+          "summary": "茉酸奶官网关于品牌与门店加盟信息。",
+          "locator_hardening": {
+            "source_locator": "https://more-yogurt.com/index/about",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://more-yogurt.com/index/about",
+            "content_type": "text/html; charset=utf-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        }
+      ]
     },
     {
       "prospect_id": "m85r_nonlisted_petkit",
-      "company_name": "小佩网络科技（上海）有限公司",
-      "matched_persona": "cbec_multi_platform_brand",
       "source_count": 3,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_site",
@@ -2628,16 +2387,12 @@
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
     },
     {
       "prospect_id": "m85r_nonlisted_simpcare",
-      "company_name": "广州极男化妆品有限公司",
-      "matched_persona": "retail_high_sku_brand",
       "source_count": 2,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_site",
@@ -2677,59 +2432,71 @@
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
     },
     {
-      "prospect_id": "m85r_nonlisted_kkv",
-      "company_name": "广东快客电子商务有限公司",
-      "matched_persona": "retail_multi_store",
-      "source_count": 2,
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "source_count": 3,
+      "strong_source_count": 0,
       "sources": [
         {
-          "source_type": "official_site",
+          "source_type": "official_channel_page",
           "source_category": "official_owned",
-          "source_locator": "https://www.kkguan.com/",
-          "evidence_strength": "official_site",
+          "source_locator": "https://www.zymls.com/zsjm.html",
+          "evidence_strength": "official_channel_page",
           "supports_dimension": "icp_match_support:official_owned",
-          "summary": "广东快客电子商务有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+          "summary": "宜春赵一鸣食品科技有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
           "locator_hardening": {
-            "source_locator": "https://www.kkguan.com/",
+            "source_locator": "https://www.zymls.com/zsjm.html",
             "availability_status": "verified",
             "verified": true,
             "status_code": 200,
-            "final_url": "https://www.kkgroup.cn/zh-CN",
-            "content_type": "text/html;charset=utf-8",
+            "final_url": "https://www.zymls.com/zsjm.html",
+            "content_type": "text/html; charset=UTF-8",
             "method": "HEAD",
             "error": ""
           },
           "added_by_milestone": "M88R"
         },
         {
-          "source_type": "industry_research",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
-          "evidence_strength": "industry_research",
-          "supports_dimension": "icp_match_support:multi_store_retail,sku_matrix",
-          "summary": "行业报告提及 KKV/KK 集团多品牌零售与门店扩张。",
+          "source_type": "official_channel_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.zymls.com/zsjm.html",
+          "evidence_strength": "official_channel_page",
+          "supports_dimension": "icp_match_support:multi_store_retail,store_network",
+          "summary": "赵一鸣加盟页披露门店网络与加盟流程，支撑多门店零售 ICP。",
           "locator_hardening": {
-            "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+            "source_locator": "https://www.zymls.com/zsjm.html",
             "availability_status": "verified",
             "verified": true,
             "status_code": 200,
-            "final_url": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
-            "content_type": "application/pdf",
+            "final_url": "https://www.zymls.com/zsjm.html",
+            "content_type": "text/html; charset=UTF-8",
+            "method": "HEAD",
+            "error": ""
+          },
+          "added_by_milestone": "M88R"
+        },
+        {
+          "source_type": "media_report",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.foodaily.com/articles/31851",
+          "evidence_strength": "authoritative_media",
+          "supports_dimension": "icp_match_support:store_network,sku_matrix",
+          "summary": "Foodaily 报道量贩零食门店、SKU 与融资信息。",
+          "locator_hardening": {
+            "source_locator": "https://www.foodaily.com/articles/31851",
+            "availability_status": "verified",
+            "verified": true,
+            "status_code": 200,
+            "final_url": "https://www.foodaily.com/articles/31851",
+            "content_type": "text/html; charset=UTF-8",
             "method": "HEAD",
             "error": ""
           },
           "added_by_milestone": "M88R"
         }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
+      ]
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "milestone": "M91R",
+  "generated_at": "2026-05-03T14:29:59.782674+00:00",
+  "status": "PASS_M91R_SYSTEM_FOUNDATION_READY",
+  "summary": {
+    "trusted_pool_count": 61,
+    "canonical_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "runner_suggested_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L3": 1
+    },
+    "persona_counts": {
+      "retail_high_sku_brand": 13,
+      "fnb_chain_beverage_coffee": 5,
+      "fnb_chain_standardized": 3,
+      "retail_multi_store": 9,
+      "cbec_multi_platform_brand": 29,
+      "cbec_platform_operator": 1,
+      "mfg_multi_factory_group": 1
+    },
+    "source_trace_count": 61,
+    "source_category_counts": {
+      "official_owned": 55,
+      "regulatory_or_capital_market": 82,
+      "authoritative_third_party": 13,
+      "internal_or_legacy_reference": 30,
+      "platform_operating_fact": 10
+    },
+    "source_category_repaired_count": 149,
+    "static_gap_queue_count": 63,
+    "vault_physical_file_counts": {
+      "L1": 35,
+      "L2": 57,
+      "L3": 29
+    },
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "prospect_to_knowledge_write_enabled": false
+  },
+  "canonical_files": {
+    "trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "status_panel": "deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json"
+  },
+  "readiness_checks": {
+    "canonical_pool_exists": true,
+    "canonical_source_trace_exists": true,
+    "source_category_null_cleared": true,
+    "runner_default_output_not_milestone_59_61_65": true,
+    "legacy_workbook_default_write_disabled": true
+  }
+}

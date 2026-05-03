@@ -1,0 +1,19 @@
+{
+  "milestone": "M94R",
+  "generated_at": "2026-05-03T14:29:59.802316+00:00",
+  "current_status": "learning_engine_and_persona_learning_pipeline_ready",
+  "canonical_next_action": "M95R：知识/画像资产驱动潜客引擎集成。",
+  "key_artifacts": {
+    "m91_readiness": "deliveries/archive/milestones/milestone91r_system_foundation/system_foundation_readiness_v1.json",
+    "m92_queue": "deliveries/archive/milestones/milestone92r_learning_source_pipeline/learnable_material_queue_v2.json",
+    "m93_guard": "deliveries/archive/milestones/milestone93r_knowledge_asset_governance/knowledge_asset_update_guard_v1.json",
+    "m94_persona_map": "deliveries/archive/milestones/milestone94r_persona_learning_recalibration/persona_evidence_map_v2.json",
+    "status_panel": "deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json"
+  },
+  "forbidden_actions": [
+    "不要写旧 Excel",
+    "不要把潜客输出写入正式知识资产",
+    "不要把潜客输出写入 persona registry",
+    "不要引入动态经营字段"
+  ]
+}
