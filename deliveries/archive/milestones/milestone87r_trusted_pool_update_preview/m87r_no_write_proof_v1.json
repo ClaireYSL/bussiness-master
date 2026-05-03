@@ -1,0 +1,11 @@
+{
+  "milestone": "M87R",
+  "generated_at": "2026-05-03T14:02:14.412150+00:00",
+  "status": "PASS_PREVIEW_ONLY_NO_CANONICAL_WRITE",
+  "canonical_pool_updated": false,
+  "canonical_trace_updated": false,
+  "vault_regular_written": false,
+  "old_workbook_write_enabled": false,
+  "knowledge_asset_write_enabled": false,
+  "persona_registry_write_enabled": false
+}

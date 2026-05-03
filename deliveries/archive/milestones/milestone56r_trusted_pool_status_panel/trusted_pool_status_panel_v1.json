@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T13:58:07.841128+00:00",
-  "overall_status": "PASS_M86R_SOURCE_LOCATOR_HARDENING",
+  "generated_at": "2026-05-03T14:02:14.471987+00:00",
+  "overall_status": "PASS_M87R_TRUSTED_POOL_UPDATE_PREVIEW",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -26,7 +26,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M86R",
+  "latest_milestone": "M87R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "从 M86R canonical_update_ready 候选中选择进入 trusted pool update；仍需显式 allow guard。",
+  "canonical_next_action": "如确认 M87R preview，可进入 M88R 正式更新 canonical trusted pool；仍需显式 --allow-trusted-pool-update。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -394,6 +394,17 @@
     "unique_url_count": 43,
     "verified_url_count": 34,
     "canonical_pool_updated": false,
+    "vault_regular_written": false,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m87r_trusted_pool_update_preview": {
+    "candidate_count": 11,
+    "append_new_count": 11,
+    "source_trace_changed_count": 11,
+    "canonical_pool_updated": false,
+    "canonical_trace_updated": false,
     "vault_regular_written": false,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,

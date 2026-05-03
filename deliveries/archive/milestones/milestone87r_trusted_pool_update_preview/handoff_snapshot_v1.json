@@ -1,0 +1,7 @@
+{
+  "milestone": "M87R",
+  "generated_at": "2026-05-03T14:02:14.412811+00:00",
+  "current_scope": "M86R hardened-ready 11 家进入 trusted pool update preview。",
+  "canonical_pool_updated": false,
+  "next_command": "python3 scripts/build_m87r_trusted_pool_update_preview.py"
+}

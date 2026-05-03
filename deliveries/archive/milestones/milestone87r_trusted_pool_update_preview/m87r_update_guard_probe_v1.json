@@ -1,0 +1,5 @@
+{
+  "returncode": 2,
+  "stderr": "update_trusted_pool requires --allow-trusted-pool-update\n",
+  "expected_failure": true
+}

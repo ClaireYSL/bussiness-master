@@ -1,0 +1,21 @@
+{
+  "milestone": "M87R",
+  "generated_at": "2026-05-03T14:02:14.412620+00:00",
+  "status": "PASS_M87R_TRUSTED_POOL_UPDATE_PREVIEW_READY",
+  "summary": {
+    "candidate_count": 11,
+    "append_new_count": 11,
+    "update_existing_count": 0,
+    "changed_count": 11,
+    "level_counts_after_preview": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "canonical_pool_updated": false,
+    "changed_trace_count": 11,
+    "source_trace_count_after_preview": 61,
+    "canonical_trace_updated": false
+  },
+  "next_action": "M88R：确认后正式写 canonical trusted pool 与 source trace。"
+}

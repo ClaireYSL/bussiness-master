@@ -1,0 +1,89 @@
+{
+  "milestone": "M87R",
+  "generated_at": "2026-05-03T14:02:13.790846+00:00",
+  "status": "PASS_M87R_SOURCE_TRACE_DIFF_PREVIEW_READY",
+  "summary": {
+    "changed_trace_count": 11,
+    "source_trace_count_after_preview": 61,
+    "canonical_trace_updated": false
+  },
+  "items": [
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "action": "append_new_trace",
+      "source_count": 2,
+      "verified_source_count": 2
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "action": "append_new_trace",
+      "source_count": 2,
+      "verified_source_count": 2
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "action": "append_new_trace",
+      "source_count": 3,
+      "verified_source_count": 3
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "action": "append_new_trace",
+      "source_count": 2,
+      "verified_source_count": 2
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "action": "append_new_trace",
+      "source_count": 2,
+      "verified_source_count": 2
+    }
+  ]
+}

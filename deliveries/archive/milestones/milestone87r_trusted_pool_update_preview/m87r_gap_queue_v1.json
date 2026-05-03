@@ -1,0 +1,448 @@
+{
+  "generated_at": "2026-05-03T14:02:14.093140+00:00",
+  "candidate_signature": "79945dbd36c1571f8926908b8be3a95393c7bf17d22b61b35e09ae0b472acc76",
+  "gap_queue_count": 63,
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    }
+  ]
+}
