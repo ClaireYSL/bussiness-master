@@ -1,0 +1,20 @@
+{
+  "milestone": "M72R",
+  "generated_at": "2026-05-03T11:54:28.960228+00:00",
+  "status": "PASS_HANDOFF_SNAPSHOT_V2_READY",
+  "latest_milestone": "M72R",
+  "canonical_status_panel": "deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json",
+  "key_outputs": {
+    "m69_second_source_queue": "deliveries/archive/milestones/milestone69r_second_source_plan/second_source_gap_queue_v1.json",
+    "m70_report_only": "deliveries/archive/milestones/milestone70r_l3_to_l2_report_only/m70r_static_promote_report_v1.json",
+    "m71_vault_admission": "deliveries/archive/milestones/milestone71r_l2_vault_admission/vault_output_admission_report_v1.json",
+    "m72_operating_panel": "deliveries/archive/milestones/milestone72r_trusted_pool_operating_panel/trusted_pool_operating_panel_v2.json",
+    "c7_workspace_manifest": "deliveries/archive/milestones/workspace_cleanup_c7_final_governance/workspace_final_governance_manifest_v1.json"
+  },
+  "do_not_do": [
+    "不要写旧 Excel",
+    "不要把潜客产出写入知识资产",
+    "不要把动态经营字段放入静态分级",
+    "不要删除/reset/move 历史文件"
+  ]
+}

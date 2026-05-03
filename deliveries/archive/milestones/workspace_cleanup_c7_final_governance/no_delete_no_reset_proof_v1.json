@@ -1,0 +1,9 @@
+{
+  "milestone": "C7",
+  "generated_at": "2026-05-03T11:54:28.959743+00:00",
+  "status": "PASS_NO_DESTRUCTIVE_WORKSPACE_ACTION",
+  "delete_executed": false,
+  "reset_executed": false,
+  "move_executed": false,
+  "raw_materials_ignored": true
+}

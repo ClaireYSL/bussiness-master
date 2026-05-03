@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-03T11:54:28.389489+00:00",
+  "runner": "trusted_pool_runner",
+  "trusted_pool_file": "deliveries/archive/milestones/milestone70r_l3_to_l2_report_only/m70r_l3_to_l2_pool_input_v1.json",
+  "source_trace_file": "deliveries/archive/milestones/milestone70r_l3_to_l2_report_only/m70r_l3_to_l2_source_trace_v1.json",
+  "candidate_count": 30,
+  "candidate_signature": "intentional_mismatch_for_guard_test"
+}

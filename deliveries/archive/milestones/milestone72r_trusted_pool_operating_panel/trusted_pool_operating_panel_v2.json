@@ -1,0 +1,27 @@
+{
+  "milestone": "M72R",
+  "generated_at": "2026-05-03T11:54:28.960222+00:00",
+  "status": "PASS_M72R_TRUSTED_POOL_OPERATING_PANEL_V2_READY",
+  "summary": {
+    "current_level_counts": {
+      "L3": 29,
+      "L4": 1
+    },
+    "second_source_needed_count": 29,
+    "l4_minimal_gap_count": 1,
+    "l2_preview_count": 0,
+    "old_workbook_write_enabled": false,
+    "vault_regular_area_written": false,
+    "workspace_manifest_ready": true
+  },
+  "next_commands": [
+    "先按 deliveries/archive/milestones/milestone69r_second_source_plan/second_source_gap_queue_v1.json 补第二强来源。",
+    "补源后重跑 python3 scripts/trusted_pool_runner.py --mode report_only --trusted-pool <补源后的pool> --source-trace <补源后的trace> --require-baseline。",
+    "出现 L2 后再生成 M71R vault preview；正式写 vault 正区前必须单独执行准入命令。"
+  ],
+  "boundary": {
+    "old_excel_write": "disabled_by_default",
+    "knowledge_asset_write": "forbidden_from_prospect_output",
+    "dynamic_sales_fields": "not_part_of_static_pool_state"
+  }
+}

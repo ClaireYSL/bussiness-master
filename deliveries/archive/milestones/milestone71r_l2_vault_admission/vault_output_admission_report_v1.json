@@ -1,0 +1,18 @@
+{
+  "milestone": "M71R",
+  "generated_at": "2026-05-03T11:54:28.522621+00:00",
+  "status": "PASS_M71R_NO_VAULT_WRITE_ADMISSION_RECORDED",
+  "summary": {
+    "m70_candidate_count": 30,
+    "l2_preview_count": 0,
+    "vault_regular_area_written": false,
+    "old_workbook_written": false,
+    "knowledge_asset_written": false
+  },
+  "checks": {
+    "dynamic_term_scan_required_before_regular_write": true,
+    "legacy_source_scan_required_before_regular_write": true,
+    "field_integrity_required_before_regular_write": true,
+    "write_vault_enabled": false
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "generated_at": "2026-05-03T11:54:28.234504+00:00",
+  "items": [
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 拓斯达科技股份有限公司（300607）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 拓斯达科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江哈尔斯真空器皿股份有限公司（002615）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江哈尔斯真空器皿股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江海利得新材料股份有限公司（002206）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江海利得新材料股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 海象新材料股份有限公司（003011）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 海象新材料股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 江苏恒辉安防股份有限公司（300952）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 江苏恒辉安防股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 恒林家居股份有限公司（603661）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 恒林家居股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江恒威电池股份有限公司（301222）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江恒威电池股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江恒林椅业股份有限公司（603661）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江恒林椅业股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 深圳市杰美特科技股份有限公司（300868）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 深圳市杰美特科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 朗科智能电气股份有限公司（300543）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 朗科智能电气股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江梦天木作家居有限公司（603216）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江梦天木作家居有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江明新旭腾新材料股份有限公司（605068）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江明新旭腾新材料股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江野马电池股份有限公司（605378）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江野马电池股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江正特股份有限公司（001238）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江正特股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 深圳市赛维网络科技有限公司（301381）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 深圳市赛维网络科技有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 深圳市三态电子商务股份有限公司（301558）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 深圳市三态电子商务股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江盛泰服装集团股份有限公司（605138）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江盛泰服装集团股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 星徽股份有限公司（300464）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 星徽股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 泰鹏智能家居股份有限公司（873132）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 泰鹏智能家居股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 永艺家具股份有限公司（603600）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 永艺家具股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江华生科技股份有限公司（605180）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江华生科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 星华新材股份有限公司（301077）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 星华新材股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江雅艺金属科技股份有限公司（301113）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江雅艺金属科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江永强集团股份有限公司（002489）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江永强集团股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "official_website",
+          "source_locator": "https://sorobuy.com/",
+          "evidence_strength": "official_website",
+          "supports_dimension": "official_source,product_service",
+          "summary": "官网可定位 深圳市有棵树科技股份有限公司 公司或品牌信息。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 深圳市有棵树科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 浙江正裕工业股份有限公司（603089）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 浙江正裕工业股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 中饮巴比食品股份有限公司（605338）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 中饮巴比食品股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 步步高商业连锁股份有限公司（002251）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 步步高商业连锁股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 广东小熊电器股份有限公司（002959）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 广东小熊电器股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "official_source,listed_company_disclosure",
+          "summary": "CNINFO 可定位 华熙生物科技股份有限公司（688363）公告与定期报告入口。"
+        },
+        {
+          "source_type": "structured_intake_patch",
+          "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+          "evidence_strength": "structured_intake_patch",
+          "supports_dimension": "product_service,business_model,admission_reason",
+          "summary": "M25R 为 华熙生物科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
+        }
+      ]
+    }
+  ],
+  "source_file": "deliveries/archive/milestones/milestone68r_evidence_first_expansion/m68r_expansion_source_trace_v1.json",
+  "source_policy": "M70R report-only uses currently available M68 sources; second-source collection remains pending."
+}

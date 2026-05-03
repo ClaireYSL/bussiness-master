@@ -1,0 +1,29 @@
+{
+  "milestone": "M69R",
+  "generated_at": "2026-05-03T11:54:28.233348+00:00",
+  "status": "PASS_M69R_SECOND_SOURCE_COLLECTION_PLAN_READY",
+  "summary": {
+    "m68_candidate_count": 30,
+    "l3_second_source_needed_count": 29,
+    "l4_minimal_gap_count": 1,
+    "l2_admission_ready_count": 0,
+    "second_source_fabricated": false
+  },
+  "collection_policy": {
+    "allowed_sources": [
+      "CNINFO 年报/公告具体页",
+      "官网/IR 页面",
+      "交易所公告",
+      "监管披露",
+      "权威行业研究"
+    ],
+    "forbidden_sources": [
+      "不可定位搜索摘要",
+      "旧主表字段",
+      "旧档案正文",
+      "潜客产出反推知识资产"
+    ],
+    "no_fake_second_source": true
+  },
+  "next_step": "按 second_source_gap_queue 采集第二强来源后，再重跑 M70R report-only。"
+}

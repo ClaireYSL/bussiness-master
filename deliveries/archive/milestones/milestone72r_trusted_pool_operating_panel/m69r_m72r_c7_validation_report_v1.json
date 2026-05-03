@@ -1,0 +1,49 @@
+{
+  "milestone": "M69R-M72R-C7",
+  "generated_at": "2026-05-03T11:54:29.366131+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 22,
+    "error_count": 0,
+    "errors": []
+  },
+  "baseline_mismatch_guard": {
+    "returncode": 2,
+    "stderr": "trusted_pool_runner baseline mismatch: expected=intentional_mismatch_for_guard_test actual=5a184ad8f789dd64097a4bb18d7f48f0208d906a9bc7cc12e6627ff45747e1f1"
+  },
+  "legacy_write_guard": {
+    "returncode": 1,
+    "stderr": "run_execution_batch legacy workbook write blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed."
+  },
+  "legacy_expand_guard": {
+    "returncode": 1,
+    "stderr": "expand_static_pool legacy provider execution blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed."
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": [],
+    "allowed_legacy_or_optional_references": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "m69_l3_second_source_needed_is_29": true,
+    "m69_l4_minimal_gap_is_1": true,
+    "m70_report_only_no_pool_write": true,
+    "m70_old_workbook_disabled": true,
+    "m71_no_regular_vault_write": true,
+    "m71_preview_count_matches_l2_count": true,
+    "c7_no_delete_reset_move": true,
+    "baseline_mismatch_failed": true,
+    "legacy_write_guard_failed_without_override": true,
+    "legacy_expand_guard_failed_without_override": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "milestone": "M71R",
+  "generated_at": "2026-05-03T11:54:28.522613+00:00",
+  "status": "PASS_M71R_L2_VAULT_PREVIEW_ADMISSION_READY",
+  "summary": {
+    "m70_candidate_count": 30,
+    "l2_preview_count": 0,
+    "vault_regular_area_written": false,
+    "old_workbook_written": false,
+    "knowledge_asset_written": false
+  },
+  "items": [],
+  "empty_preview_reason": "当前 M70R 无 L2/L1；缺第二强来源，不生成 L2 正式档案 preview。"
+}
