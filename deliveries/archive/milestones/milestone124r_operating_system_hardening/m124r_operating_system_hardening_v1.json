@@ -1,0 +1,59 @@
+{
+  "batch_id": "m124r_operating_system_hardening_v1",
+  "milestone": "M124R",
+  "generated_at": "2026-05-03T15:05:11.986708+00:00",
+  "status": "PASS",
+  "summary": {
+    "canonical_knowledge_asset_count": 40,
+    "canonical_persona_count": 8,
+    "evidence_collection_task_count": 26,
+    "trusted_pool_report_only_candidate_count": 0,
+    "vault_regular_write_count": 0,
+    "system_entrypoint": "scripts/businessmaster_pipeline.py --mode production"
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m120r_m125_sustainable_production_system.py",
+      "scripts/businessmaster_pipeline.py",
+      "scripts/trusted_pool_runner.py",
+      "shared/static_pool/static_promote.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 17,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "legacy_guard_without_override": {
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/Users/clairelu2026/CodexProjects/BusinessMaster/shared/static_pool/legacy_guard.py\", line 17, in assert_legacy_workbook_write_allowed\n    raise PermissionError(\nPermissionError: m120r_m125_validation blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed.\n"
+  },
+  "pipeline_production_dry_run": {
+    "cmd": [
+      "python3",
+      "scripts/businessmaster_pipeline.py",
+      "--mode",
+      "production",
+      "--dry-run"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"mode\": \"production\",\n  \"generated_at\": \"2026-05-03T15:05:11.984400+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m120r_m125_sustainable_production_system.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-canonical-registry-update\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M125R\",\n    \"overall_status\": \"FAIL_M124R_OPERATING_SYSTEM_HARDENING\",\n    \"counts\": {\n      \"trusted_pool_count\": 61,\n      \"l1_count\": 35,\n      \"l2_count\": 25,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"canonical_knowledge_asset_count\": 40,\n      \"canonical_persona_count\": 8,\n      \"evidence_collection_task_count\": 26,\n      \"excluded_learning_source_case_count\": 35,\n      \"trusted_pool_report_only_candidate_count\": 0,\n      \"vault_regular_write_count\": 0\n    }\n  }\n}\n",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "generated_at": "2026-05-03T15:05:11.809174+00:00",
+  "summary": {
+    "input_seed_count": 61,
+    "evidence_collection_task_count": 26,
+    "excluded_learning_source_case_count": 35,
+    "ready_for_trusted_pool_report_only_count": 0,
+    "strong_evidence_collected_count": 0
+  },
+  "items": [
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_1ac505ada0e9",
+      "seed_title": "LLLM采销供应链数据化解决方案",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "mgmt_hq_operating_visibility",
+        "mgmt_group_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_d3021536e889",
+      "seed_title": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
+      "seed_title": "太平鸟",
+      "candidate_company_name": "太平鸟",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
+      "seed_title": "安踏",
+      "candidate_company_name": "安踏",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8818e883a66c",
+      "seed_title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_93c9999e4a70",
+      "seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "candidate_company_name": "Lily服饰前CIO陶润堂",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+      "seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "candidate_company_name": "乐凯撒CTO黄道泳",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_d0e2101bd015",
+      "seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "candidate_company_name": "吉家宠物张志伟",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_402d01c4227d",
+      "seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "candidate_company_name": "来伊份余迁",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_e0b009efa094",
+      "seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "candidate_company_name": "正新集团赵先瑞",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
+      "seed_title": "120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？",
+      "candidate_company_name": "120国订单交付更精准",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_hq_operating_visibility",
+        "mgmt_group_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_cb261a56a0a8",
+      "seed_title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
+      "seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "candidate_company_name": "Lily服饰前CIO陶润堂",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
+      "seed_title": "七秒易购的数字化飞跃：以BI赋能供应链精细化管理",
+      "candidate_company_name": "七秒易购的数字化飞跃",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_hq_operating_visibility",
+        "mgmt_group_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_6b727dee25d9",
+      "seed_title": "不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系",
+      "candidate_company_name": "不用3年只需3个月",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_group_coordination",
+        "mgmt_hq_operating_visibility"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
+      "seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "candidate_company_name": "乐凯撒CTO黄道泳",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_e6c36fa80a37",
+      "seed_title": "博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4ac584c7c94f",
+      "seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "candidate_company_name": "吉家宠物张志伟",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_f59bd0733b0b",
+      "seed_title": "咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4757b1291658",
+      "seed_title": "撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长",
+      "candidate_company_name": "斗满",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "cbec_platform_operator",
+        "cbec_supply_chain_complex"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_929ce18ef32a",
+      "seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "candidate_company_name": "来伊份余迁",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0bb7114cea95",
+      "seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "candidate_company_name": "正新集团赵先瑞",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_659f379bf984",
+      "seed_title": "用数据驱动全渠道增长：花西子与观远数据的敏捷经营实践",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
+      "seed_title": "自然堂全渠道数字化创新和AI实践",
+      "candidate_company_name": "自然堂",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d2b0c1804748",
+      "seed_title": "观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能",
+      "candidate_company_name": null,
+      "task_status": "needs_company_identification",
+      "mapped_canonical_personas": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
+      "seed_title": "零跑汽车李盼盼：BI是一个六边形武器",
+      "candidate_company_name": "零跑汽车李盼盼",
+      "task_status": "needs_public_strong_evidence",
+      "mapped_canonical_personas": [
+        "mgmt_group_coordination",
+        "mgmt_hq_operating_visibility"
+      ],
+      "required_sources": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_locator_required": true,
+      "ready_for_trusted_pool_report_only": false,
+      "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "batch_id": "m125r_scale_production_readiness_v1",
+  "milestone": "M125R",
+  "generated_at": "2026-05-03T15:05:11.810200+00:00",
+  "status": "PASS_SCALE_PRODUCTION_READY_FOR_MANAGED_EVIDENCE_COLLECTION",
+  "summary": {
+    "task_count": 26,
+    "task_status_counts": {
+      "needs_company_identification": 8,
+      "needs_public_strong_evidence": 18
+    },
+    "mapped_persona_task_counts": {
+      "cbec_platform_operator": 1,
+      "cbec_supply_chain_complex": 1,
+      "mgmt_frontline_action_loop": 10,
+      "mgmt_group_coordination": 5,
+      "mgmt_hq_operating_visibility": 5,
+      "mgmt_inventory_supply_coordination": 17,
+      "mgmt_profit_improvement": 10,
+      "retail_chain_fnb": 10
+    },
+    "recommended_next_batch_size": 26,
+    "scale_target_after_m120_m124": "100-200 prospects only after evidence collection quality is stable"
+  },
+  "scale_policy": {
+    "do_not_scale_until": [
+      "official/platform/authoritative source locators collected",
+      "report_only nonzero",
+      "pool diff explainable",
+      "vault preview passes checks"
+    ],
+    "quality_first_metrics": [
+      "source_category coverage",
+      "ICP explanation specificity",
+      "L1/L2/L3 distribution",
+      "gap queue closure rate"
+    ]
+  }
+}

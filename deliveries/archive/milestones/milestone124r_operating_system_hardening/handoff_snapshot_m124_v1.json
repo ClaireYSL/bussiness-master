@@ -1,0 +1,18 @@
+{
+  "batch_id": "handoff_snapshot_m124_v1",
+  "milestone": "M124R",
+  "generated_at": "2026-05-03T15:05:11.986744+00:00",
+  "status": "READY_FOR_EVIDENCE_COLLECTION_AND_M125_SCALE",
+  "current_state": "M120-M124 已把知识/画像 canonical registry、证据采集任务、trusted pool report-only 边界、vault 用户层和系统入口固化。",
+  "next_commands": [
+    "python3 scripts/businessmaster_pipeline.py --mode production --dry-run",
+    "python3 scripts/build_m120r_m125_sustainable_production_system.py --stage all --allow-canonical-registry-update",
+    "python3 scripts/businessmaster_pipeline.py --mode readiness --dry-run"
+  ],
+  "hard_boundaries": [
+    "不写旧 Excel",
+    "不从潜客写知识资产",
+    "不从潜客写 persona registry",
+    "不引入动态经营字段"
+  ]
+}

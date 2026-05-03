@@ -1,0 +1,126 @@
+{
+  "map_id": "learning_persona_reference_map_v1",
+  "generated_at": "2026-05-03T15:05:11.805817+00:00",
+  "summary": {
+    "knowledge_asset_count": 40,
+    "persona_count": 8,
+    "alias_bridge_count": 8,
+    "prospect_output_used_as_source_count": 0
+  },
+  "knowledge_asset_refs_by_persona": {
+    "cbec_platform_operator": [
+      "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+      "ka_review_geo_l1_cases_02ab1f15f8cc",
+      "ka_review_dingtalk_2026_03_28_aeafed6ba8d8"
+    ],
+    "cbec_supply_chain_complex": [
+      "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+      "ka_review_geo_l1_cases_02ab1f15f8cc",
+      "ka_review_dingtalk_2026_03_28_aeafed6ba8d8"
+    ],
+    "mgmt_frontline_action_loop": [
+      "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+      "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+      "ka_review_dingtalk_2026_03_28_694b4661ff24"
+    ],
+    "mgmt_group_coordination": [
+      "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+      "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+      "ka_review_dingtalk_2026_03_28_694b4661ff24"
+    ],
+    "mgmt_hq_operating_visibility": [
+      "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+      "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+      "ka_review_dingtalk_2026_03_28_694b4661ff24"
+    ],
+    "mgmt_inventory_supply_coordination": [
+      "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+      "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+      "ka_review_dingtalk_2026_03_28_694b4661ff24"
+    ],
+    "mgmt_profit_improvement": [
+      "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+      "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+      "ka_review_dingtalk_2026_03_28_694b4661ff24"
+    ],
+    "retail_chain_fnb": [
+      "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+      "ka_review_geo_l1_cases_02ab1f15f8cc",
+      "ka_review_dingtalk_2026_03_28_aeafed6ba8d8"
+    ]
+  },
+  "persona_alias_bridge": [
+    {
+      "legacy_or_pool_persona_id": "cbec_multi_platform_brand",
+      "canonical_persona_refs": [
+        "cbec_platform_operator",
+        "cbec_supply_chain_complex"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "cbec_platform_operator",
+      "canonical_persona_refs": [
+        "cbec_platform_operator"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "fnb_chain_beverage_coffee",
+      "canonical_persona_refs": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "fnb_chain_standardized",
+      "canonical_persona_refs": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "mfg_multi_factory_group",
+      "canonical_persona_refs": [
+        "mgmt_group_coordination",
+        "mgmt_hq_operating_visibility"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "mfg_rnd_sales_complex",
+      "canonical_persona_refs": [
+        "mgmt_hq_operating_visibility",
+        "mgmt_group_coordination"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "retail_high_sku_brand",
+      "canonical_persona_refs": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "retail_multi_store",
+      "canonical_persona_refs": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    }
+  ]
+}

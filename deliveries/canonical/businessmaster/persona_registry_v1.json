@@ -1,0 +1,330 @@
+{
+  "registry_id": "persona_registry_v1",
+  "generated_at": "2026-05-03T15:05:11.805813+00:00",
+  "source_milestone": "M110R",
+  "summary": {
+    "persona_count": 8,
+    "active_supported_count": 8,
+    "active_needs_validation_count": 0,
+    "alias_bridge_count": 8,
+    "alias_bridge_supported_count": 8,
+    "prospect_output_used_as_persona_source_count": 0,
+    "canonical_write_enabled": true
+  },
+  "items": [
+    {
+      "persona_id": "cbec_platform_operator",
+      "display_name": "平台化运营出海",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf"
+        },
+        {
+          "asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "display_name": "供应链复杂的跨境经营型企业",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf"
+        },
+        {
+          "asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "display_name": "一线动作闭环诉求型",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "display_name": "集团协同与经营驾驶舱诉求型",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "display_name": "总部经营穿透诉求型",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "display_name": "库存与供应链协同诉求型",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "display_name": "利润改善诉求型",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "asset_type": "solution_playbook",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "display_name": "连锁餐饮 / 茶饮 / 咖啡",
+      "status": "active_supported",
+      "reference_knowledge_assets": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf"
+        },
+        {
+          "asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "asset_type": "customer_case",
+          "source_path_or_url": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf"
+        }
+      ],
+      "fit_criteria": "基于参考知识资产提炼 ICP 适配标准；需正式 registry 写入前人工复核。",
+      "non_fit_boundary": "不得用潜客命中结果作为正例/反例；需真实案例或解决方案支撑边界。",
+      "typical_jtbd": "围绕经营分析、渠道/供应链/组织复杂度、数据协同与决策效率提炼。",
+      "prospect_output_used_as_persona_source": false,
+      "registry_version": "v1"
+    }
+  ],
+  "alias_bridge": [
+    {
+      "legacy_or_pool_persona_id": "cbec_multi_platform_brand",
+      "canonical_persona_refs": [
+        "cbec_platform_operator",
+        "cbec_supply_chain_complex"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "cbec_platform_operator",
+      "canonical_persona_refs": [
+        "cbec_platform_operator"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "fnb_chain_beverage_coffee",
+      "canonical_persona_refs": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "fnb_chain_standardized",
+      "canonical_persona_refs": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "mfg_multi_factory_group",
+      "canonical_persona_refs": [
+        "mgmt_group_coordination",
+        "mgmt_hq_operating_visibility"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "mfg_rnd_sales_complex",
+      "canonical_persona_refs": [
+        "mgmt_hq_operating_visibility",
+        "mgmt_group_coordination"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "retail_high_sku_brand",
+      "canonical_persona_refs": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    },
+    {
+      "legacy_or_pool_persona_id": "retail_multi_store",
+      "canonical_persona_refs": [
+        "retail_chain_fnb",
+        "mgmt_frontline_action_loop",
+        "mgmt_inventory_supply_coordination"
+      ],
+      "bridge_status": "mapped_to_supported_persona",
+      "boundary_note": "用于潜客 ICP 解释引用映射，不把潜客作为画像正例/反例。"
+    }
+  ]
+}

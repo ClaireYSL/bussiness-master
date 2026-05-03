@@ -1,0 +1,36 @@
+{
+  "batch_id": "m123r_user_delivery_product_v1",
+  "milestone": "M123R",
+  "generated_at": "2026-05-03T15:05:11.810111+00:00",
+  "status": "PASS_USER_DELIVERY_PRODUCT_READY",
+  "summary": {
+    "l1_vault_file_count": 35,
+    "l2_vault_file_count": 56,
+    "l3_vault_file_count": 29,
+    "new_vault_preview_count": 0,
+    "new_vault_regular_write_count": 0,
+    "vault_regular_write_allowed": false,
+    "source_of_truth": "trusted_prospect_pool_v1 + source_trace_index; vault is reading layer only"
+  },
+  "delivery_contract": {
+    "user_visible_levels": [
+      "L1",
+      "L2",
+      "L3"
+    ],
+    "hidden_or_work_queue_levels": [
+      "L4",
+      "L5"
+    ],
+    "must_show_fields": [
+      "company_name",
+      "matched_persona",
+      "why_icp",
+      "strong_evidence",
+      "risk_or_gap",
+      "static_level"
+    ],
+    "must_not_show_as_static_state_policy": "dynamic_sales_or_followup_terms_blocked_by_static_boundary_scan"
+  },
+  "next_publish_condition": "M122R 产生新增 L1/L2/L3 或 canonical pool diff 后，先生成 preview，再通过链接/动态字段/legacy-source 检查，最后显式 allow 写 vault 正区。"
+}
