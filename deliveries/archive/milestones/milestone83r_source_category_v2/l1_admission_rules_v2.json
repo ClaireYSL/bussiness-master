@@ -1,0 +1,18 @@
+{
+  "milestone": "M83R",
+  "generated_at": "2026-05-03T13:22:09.517639+00:00",
+  "status": "PASS_M83R_L1_ADMISSION_RULES_V2_READY",
+  "rules": {
+    "l1_must_start_from": "L2",
+    "minimum_l1_countable_sources": 3,
+    "minimum_source_categories": 2,
+    "requires_icp_support_source": true,
+    "non_listed_company_allowed_combo": [
+      "official_owned",
+      "platform_operating_fact",
+      "authoritative_third_party"
+    ],
+    "regulatory_or_capital_market_not_required": true,
+    "internal_or_legacy_reference_countable_for_l1": false
+  }
+}

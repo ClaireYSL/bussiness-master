@@ -1,0 +1,21 @@
+{
+  "milestone": "M83R",
+  "generated_at": "2026-05-03T13:22:09.561058+00:00",
+  "status": "PASS_M83R_SOURCE_CATEGORY_V2_CORRECTION",
+  "summary": {
+    "source_category_counts": {
+      "official_owned": 36,
+      "regulatory_or_capital_market": 82,
+      "authoritative_third_party": 1,
+      "internal_or_legacy_reference": 30
+    },
+    "current_l1_count": 19,
+    "v2_l1_compatible_count": 19,
+    "downgrade_preview_count": 0,
+    "l2_non_listed_friendly_suggestion_count": 30,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "next_recommended_action": "用 source_category v2 指导后续 L1 补源；非上市 ICP 优先补 official_owned + platform_operating_fact + authoritative_third_party 组合。"
+}

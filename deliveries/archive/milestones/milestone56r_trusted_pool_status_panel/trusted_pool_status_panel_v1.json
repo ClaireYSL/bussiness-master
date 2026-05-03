@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T13:13:37.840269+00:00",
-  "overall_status": "PASS_M82R_L1_STATIC_TRUSTED_POOL_DELIVERED",
+  "generated_at": "2026-05-03T13:22:09.561388+00:00",
+  "overall_status": "PASS_M83R_SOURCE_CATEGORY_V2_CORRECTION",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -19,14 +19,14 @@
     "static_l2_ready": 8,
     "static_l1_ready": 0
   },
-  "next_recommended_action": "L1 首批已交付；下一步可做 L1 档案可读性复核，或进入新一轮 evidence-first 扩容。",
+  "next_recommended_action": "用 source_category v2 指导后续 L1 补源；非上市 ICP 优先补 official_owned + platform_operating_fact + authoritative_third_party 组合。",
   "no_write_proof": {
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M82R",
+  "latest_milestone": "M83R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "L1 首批已交付；下一步可做 L1 档案可读性复核，或进入新一轮 evidence-first 扩容。",
+  "canonical_next_action": "用 source_category v2 指导后续 L1 补源；非上市 ICP 优先补 official_owned + platform_operating_fact + authoritative_third_party 组合。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -325,6 +325,21 @@
     "l1_vault_write_count": 19,
     "remain_l2_count": 30,
     "l1_gap_count": 30,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m83r_source_category_v2": {
+    "source_category_counts": {
+      "official_owned": 36,
+      "regulatory_or_capital_market": 82,
+      "authoritative_third_party": 1,
+      "internal_or_legacy_reference": 30
+    },
+    "current_l1_count": 19,
+    "v2_l1_compatible_count": 19,
+    "downgrade_preview_count": 0,
+    "l2_non_listed_friendly_suggestion_count": 30,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false

@@ -1,0 +1,843 @@
+{
+  "milestone": "M83R",
+  "generated_at": "2026-05-03T13:22:09.522732+00:00",
+  "status": "PASS_M83R_NON_LISTED_FRIENDLY_SOURCE_SUGGESTIONS_READY",
+  "summary": {
+    "l2_suggestion_count": 30
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "current_categories": [
+        "authoritative_third_party",
+        "official_owned",
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "current_categories": [
+        "regulatory_or_capital_market"
+      ],
+      "non_listed_friendly_source_recommendations": [
+        {
+          "source_category": "official_owned",
+          "examples": [
+            "官网产品/业务页",
+            "官方门店/渠道页",
+            "官方品牌/案例新闻",
+            "官方招聘/组织能力页面"
+          ]
+        },
+        {
+          "source_category": "platform_operating_fact",
+          "examples": [
+            "天猫/京东/抖音官方旗舰店",
+            "Amazon Brand Store",
+            "美团/大众点评门店网络",
+            "App/小程序公开页"
+          ]
+        }
+      ],
+      "note": "优先补能直接支撑 ICP 的公开来源，不只推荐年报/公告。"
+    }
+  ]
+}

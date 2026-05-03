@@ -1,0 +1,25 @@
+{
+  "milestone": "M83R",
+  "generated_at": "2026-05-03T13:22:09.517185+00:00",
+  "status": "PASS_M83R_SOURCE_CATEGORY_POLICY_V2_READY",
+  "source_categories": {
+    "official_owned": "官网、品牌官网、官方新闻、官方门店/渠道页、官方招聘、官方公众号/小程序公开页。",
+    "regulatory_or_capital_market": "年报、公告、CNINFO、交易所、SEC、港交所、招股书、公开转让说明书。",
+    "platform_operating_fact": "官方旗舰店、平台品牌店、门店网络、App/小程序/SaaS 公开页、可验证经营页面。",
+    "authoritative_third_party": "权威媒体深度报道、融资公告、投资机构 portfolio、行业协会/政府/研究机构材料。",
+    "internal_or_legacy_reference": "结构化 patch、旧档案、旧主表、人工整理记录；只能辅助，不计入 L1 强来源。"
+  },
+  "l1_rules_v2": {
+    "l1_must_start_from": "L2",
+    "minimum_l1_countable_sources": 3,
+    "minimum_source_categories": 2,
+    "requires_icp_support_source": true,
+    "non_listed_company_allowed_combo": [
+      "official_owned",
+      "platform_operating_fact",
+      "authoritative_third_party"
+    ],
+    "regulatory_or_capital_market_not_required": true,
+    "internal_or_legacy_reference_countable_for_l1": false
+  }
+}

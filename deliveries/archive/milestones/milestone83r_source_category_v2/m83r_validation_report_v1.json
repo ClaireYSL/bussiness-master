@@ -1,0 +1,114 @@
+{
+  "milestone": "M83R",
+  "generated_at": "2026-05-03T13:22:09.560774+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 8,
+    "error_count": 0,
+    "errors": []
+  },
+  "rule_sample_decisions": {
+    "non_listed_combo": {
+      "prospect_id": "sample_non_listed_l1",
+      "company_name": "非上市高成长样本",
+      "current_level": "L2",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "非上市高成长样本 静态升层建议：L2 -> L1，强来源=3，L1来源类别=3。"
+    },
+    "disclosure_only": {
+      "prospect_id": "sample_disclosure_only",
+      "company_name": "披露堆叠样本",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "披露堆叠样本 静态升层建议：L2 -> L2，强来源=3，L1来源类别=1。"
+    },
+    "internal_not_counted": {
+      "prospect_id": "sample_internal",
+      "company_name": "内部来源样本",
+      "current_level": "L2",
+      "suggested_level": "L3",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        }
+      ],
+      "evidence_count": 3,
+      "strong_evidence_count": 1,
+      "summary": "内部来源样本 静态升层建议：L2 -> L3，强来源=1，L1来源类别=1。"
+    },
+    "l2_not_harmed": {
+      "prospect_id": "sample_l2",
+      "company_name": "L2 保持样本",
+      "current_level": "L2",
+      "suggested_level": "L2",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "L2 保持样本 静态升层建议：L2 -> L2，强来源=2，L1来源类别=2。"
+    }
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "non_listed_combo_can_reach_l1": true,
+    "disclosure_only_without_icp_support_not_l1": true,
+    "internal_or_legacy_not_counted_for_l1": true,
+    "l2_rule_not_harmed": true,
+    "current_l1_audited": true,
+    "category_audit_has_all_pool_items": true,
+    "no_old_excel_write": true,
+    "no_knowledge_asset_write": true,
+    "no_persona_registry_write": true
+  }
+}

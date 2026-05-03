@@ -1,0 +1,13 @@
+{
+  "milestone": "M83R",
+  "generated_at": "2026-05-03T13:22:09.561062+00:00",
+  "status": "PASS_M83R_HANDOFF_READY",
+  "key_outputs": {
+    "source_category_policy": "deliveries/archive/milestones/milestone83r_source_category_v2/source_category_policy_v2.json",
+    "source_trace_category_audit": "deliveries/archive/milestones/milestone83r_source_category_v2/source_trace_category_audit_v1.json",
+    "l1_rules_v2": "deliveries/archive/milestones/milestone83r_source_category_v2/l1_admission_rules_v2.json",
+    "l1_rules_v2_audit": "deliveries/archive/milestones/milestone83r_source_category_v2/l1_admission_rules_v2_audit_v1.json",
+    "non_listed_suggestions": "deliveries/archive/milestones/milestone83r_source_category_v2/non_listed_l1_source_suggestions_v1.json",
+    "validation": "deliveries/archive/milestones/milestone83r_source_category_v2/m83r_validation_report_v1.json"
+  }
+}
