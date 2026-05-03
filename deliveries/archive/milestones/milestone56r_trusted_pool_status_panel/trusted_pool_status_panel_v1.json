@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T14:13:08.535036+00:00",
-  "overall_status": "PASS_M89R_VAULT_REGULAR_OUTPUT_WRITTEN",
+  "generated_at": "2026-05-03T14:16:56.937767+00:00",
+  "overall_status": "PASS_M90R_VAULT_ENTRY_QUALITY_CLEANUP",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -26,7 +26,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M89R",
+  "latest_milestone": "M90R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M90R：整理 L1/L2 用户入口质量与下一批非上市候选补源。",
+  "canonical_next_action": "进入 M91R：下一轮高成长/非上市候选补源或针对 13 个 source hardening gap 做修复。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -427,6 +427,18 @@
     "l1_written_count": 4,
     "l2_written_count": 7,
     "vault_regular_written": true,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m90r_vault_entry_quality_cleanup": {
+    "canonical_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "legacy_optional_entries_demoted": true,
+    "canonical_user_entry_stable": true,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false

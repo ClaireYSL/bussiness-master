@@ -1,0 +1,7 @@
+{
+  "milestone": "M90R",
+  "generated_at": "2026-05-03T14:16:56.906837+00:00",
+  "current_scope": "vault 用户入口质量复核与旧动态入口降级。",
+  "canonical_user_entry": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+  "next_command": "python3 scripts/build_m90r_vault_entry_quality_cleanup.py"
+}

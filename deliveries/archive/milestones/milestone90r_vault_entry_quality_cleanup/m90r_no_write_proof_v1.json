@@ -1,0 +1,11 @@
+{
+  "milestone": "M90R",
+  "generated_at": "2026-05-03T14:16:56.906663+00:00",
+  "status": "PASS_VAULT_ENTRY_TEXT_ONLY",
+  "vault_entry_updated": true,
+  "canonical_pool_updated": false,
+  "canonical_trace_updated": false,
+  "old_workbook_write_enabled": false,
+  "knowledge_asset_write_enabled": false,
+  "persona_registry_write_enabled": false
+}

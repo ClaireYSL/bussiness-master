@@ -1,0 +1,27 @@
+{
+  "milestone": "M90R",
+  "generated_at": "2026-05-03T14:16:56.906419+00:00",
+  "status": "PASS_M90R_VAULT_ENTRY_AUDIT_READY",
+  "summary": {
+    "canonical_level_counts": {
+      "L1": 35,
+      "L2": 25,
+      "L4": 1
+    },
+    "physical_file_counts": {
+      "01-L1 ICP强匹配档案": 35,
+      "02-L2正式潜客档案": 56,
+      "03-L3可信摘要卡": 29,
+      "04-L4待补证候选": 0,
+      "05-L5候选线索": 0
+    },
+    "canonical_user_entry_files": [
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L1 ICP强匹配索引.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L2正式档案索引.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source trace index.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Evidence-first L1-L5 v2分级说明.md"
+    ],
+    "known_physical_redundancy": "L1 升层后保留 L2 基础档案；L3 摘要卡历史文件不作为默认入口。"
+  }
+}
