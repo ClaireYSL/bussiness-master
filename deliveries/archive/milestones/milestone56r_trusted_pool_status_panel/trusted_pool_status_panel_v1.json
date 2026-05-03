@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-03T12:31:58.869183+00:00",
-  "overall_status": "PASS_M78R_WRITE_STRATEGY_READY",
+  "generated_at": "2026-05-03T12:41:59.888590+00:00",
+  "overall_status": "PASS_M80R_L2_FORMAL_POOL_DELIVERED",
   "counts": {
     "l1_formal_count": 0,
     "l2_formal_count": 8,
@@ -19,14 +19,14 @@
     "static_l2_ready": 8,
     "static_l1_ready": 0
   },
-  "next_recommended_action": "继续 M73R 第二强来源补证；补齐后重跑 M74R report-only，再由 M76R 更新 canonical pool。",
+  "next_recommended_action": "继续补第二强来源，把剩余 L3 分批推进 L2；L1 暂不启动，直到 L2 正式池稳定。",
   "no_write_proof": {
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M78R",
+  "latest_milestone": "M80R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -43,7 +43,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "继续 M73R 第二强来源补证；补齐后重跑 M74R report-only，再由 M76R 更新 canonical pool。",
+  "canonical_next_action": "继续补第二强来源，把剩余 L3 分批推进 L2；L1 暂不启动，直到 L2 正式池稳定。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -269,6 +269,19 @@
       "L4": 1
     },
     "vault_regular_write_count": 29,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "m80r_l2_formal_pool": {
+    "canonical_pool_count": 50,
+    "static_level_counts": {
+      "L3": 20,
+      "L2": 29,
+      "L4": 1
+    },
+    "l2_formal_dossier_count": 29,
+    "target_l2_count": 20,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false

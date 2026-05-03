@@ -1,0 +1,17 @@
+{
+  "milestone": "M80R",
+  "generated_at": "2026-05-03T12:41:59.888319+00:00",
+  "status": "PASS_M80R_HANDOFF_READY",
+  "key_outputs": {
+    "trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "l2_vault_package": "deliveries/archive/milestones/milestone80r_l2_formal_pool_delivery/l2_vault_write_package_v1.json",
+    "validation": "deliveries/archive/milestones/milestone80r_l2_formal_pool_delivery/m80r_validation_report_v1.json"
+  },
+  "do_not_write": [
+    "旧 Excel",
+    "knowledge_assets",
+    "persona_registry",
+    "动态经营任务"
+  ]
+}

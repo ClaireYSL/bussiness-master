@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-03T12:41:59.886419+00:00",
+  "status": "PASS_M80R_NO_UNREQUESTED_DOWNGRADE",
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "runner_suggested_level": "L4",
+      "kept_level": "L3"
+    }
+  ],
+  "summary": {
+    "prevented_downgrade_count": 1
+  }
+}

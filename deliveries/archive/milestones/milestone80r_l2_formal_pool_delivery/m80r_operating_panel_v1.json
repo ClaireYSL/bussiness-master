@@ -1,0 +1,19 @@
+{
+  "milestone": "M80R",
+  "generated_at": "2026-05-03T12:41:59.888314+00:00",
+  "status": "PASS_M80R_L2_FORMAL_POOL_DELIVERED",
+  "summary": {
+    "canonical_pool_count": 50,
+    "static_level_counts": {
+      "L3": 20,
+      "L2": 29,
+      "L4": 1
+    },
+    "l2_formal_dossier_count": 29,
+    "target_l2_count": 20,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "next_recommended_action": "继续补第二强来源，把剩余 L3 分批推进 L2；L1 暂不启动，直到 L2 正式池稳定。"
+}

@@ -1,18 +1,11 @@
 {
-  "generated_at": "2026-05-03T12:41:59.534479+00:00",
-  "summary": {
-    "source_trace_count": 50,
-    "second_source_patch_count": 29,
-    "target_l2_count": 20,
-    "source_policy": "official_or_strong_disclosure_only"
-  },
+  "generated_at": "2026-05-03T12:41:59.754291+00:00",
+  "source_trace_count": 50,
   "items": [
     {
       "prospect_id": "m44r_prospect_bear",
-      "company_name": "小熊电器股份有限公司",
-      "source_locator": "https://bears.com.cn/invest/notice.html",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -21,15 +14,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "小熊电器股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_botanee",
-      "company_name": "云南贝泰妮生物科技集团股份有限公司",
-      "source_locator": "https://www.botanee.com.cn/investor-relations.html",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -38,15 +28,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "云南贝泰妮生物科技集团股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_chabaidao",
-      "company_name": "四川百茶百道实业股份有限公司",
-      "source_locator": "https://www.chabaidao.com/home/index/",
-      "evidence_strength": "official",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -55,15 +42,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "四川百茶百道实业股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_chagee",
-      "company_name": "霸王茶姬控股有限公司",
-      "source_locator": "https://investor.chagee.com/",
-      "evidence_strength": "ir",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -72,15 +56,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "霸王茶姬控股有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_chowtaiseng",
-      "company_name": "周大生珠宝股份有限公司",
-      "source_locator": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
-      "evidence_strength": "annual_report",
-      "matched_persona": "retail_multi_store",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "annual_report",
@@ -89,15 +70,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "周大生珠宝股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_focus_tech",
-      "company_name": "焦点科技股份有限公司",
-      "source_locator": "https://www.focuschina.com/",
-      "evidence_strength": "official",
-      "matched_persona": "cbec_platform_operator",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -106,15 +84,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "焦点科技股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_jahwa",
-      "company_name": "上海家化联合股份有限公司",
-      "source_locator": "https://www.jahwa.com.cn/about/com",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -123,15 +98,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "上海家化联合股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_jiumaojiu",
-      "company_name": "九毛九国际控股有限公司",
-      "source_locator": "https://www.jiumaojiu.com/about/index.html",
-      "evidence_strength": "official",
-      "matched_persona": "fnb_chain_standardized",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -140,15 +112,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "九毛九国际控股有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_juewei",
-      "company_name": "绝味食品股份有限公司",
-      "source_locator": "https://www.juewei.cn/page/jwd/",
-      "evidence_strength": "official",
-      "matched_persona": "fnb_chain_standardized",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -157,15 +126,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "绝味食品股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_kidswant",
-      "company_name": "孩子王儿童用品股份有限公司",
-      "source_locator": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
-      "evidence_strength": "authoritative_media",
-      "matched_persona": "retail_multi_store",
+      "source_count": 1,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "authoritative_media",
@@ -174,15 +140,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "孩子王儿童用品股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_luckin",
-      "company_name": "瑞幸咖啡有限公司",
-      "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
-      "evidence_strength": "ir",
-      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -191,15 +154,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "瑞幸咖啡有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_pagoda",
-      "company_name": "深圳百果园实业集团股份有限公司",
-      "source_locator": "https://www.pagoda.com.cn/",
-      "evidence_strength": "official",
-      "matched_persona": "retail_multi_store",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -208,15 +168,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "深圳百果园实业集团股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_roborock",
-      "company_name": "北京石头世纪科技股份有限公司",
-      "source_locator": "https://group.roborock.com/zh-hk/contact-us",
-      "evidence_strength": "official",
-      "matched_persona": "cbec_multi_platform_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -225,15 +182,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "北京石头世纪科技股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_sailvan",
-      "company_name": "赛维时代科技股份有限公司",
-      "source_locator": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217697315.PDF",
-      "evidence_strength": "regulatory",
-      "matched_persona": "cbec_multi_platform_brand",
+      "source_count": 1,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "regulatory",
@@ -242,15 +196,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "赛维时代科技股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_syoung",
-      "company_name": "水羊集团股份有限公司",
-      "source_locator": "https://syounggroup.com/",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -259,15 +210,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "水羊集团股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_three_squirrels",
-      "company_name": "三只松鼠股份有限公司",
-      "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
-      "evidence_strength": "regulatory",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "regulatory",
@@ -276,15 +224,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "三只松鼠股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_viomi",
-      "company_name": "云米科技有限公司",
-      "source_locator": "https://viomitechnology.gcs-web.com/",
-      "evidence_strength": "ir",
-      "matched_persona": "cbec_multi_platform_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -293,15 +238,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "云米科技有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_winner_medical",
-      "company_name": "稳健医疗用品股份有限公司",
-      "source_locator": "https://www.winnermedical.cn/investor/report.html",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -310,15 +252,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "稳健医疗用品股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_yanjinpuzi",
-      "company_name": "盐津铺子食品股份有限公司",
-      "source_locator": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "official",
@@ -327,15 +266,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "盐津铺子食品股份有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m44r_prospect_yatsen",
-      "company_name": "逸仙控股有限公司",
-      "source_locator": "https://ir.yatsenglobal.com/",
-      "evidence_strength": "ir",
-      "matched_persona": "retail_high_sku_brand",
+      "source_count": 1,
+      "strong_source_count": 1,
       "sources": [
         {
           "source_type": "ir",
@@ -344,15 +280,12 @@
           "supports_dimension": "existing_source_trace",
           "summary": "逸仙控股有限公司 既有可信来源。"
         }
-      ],
-      "source_count": 1
+      ]
     },
     {
       "prospect_id": "m68r_acc_babi",
-      "company_name": "中饮巴比食品股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -376,15 +309,12 @@
           "summary": "中饮巴比食品股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_bbg",
-      "company_name": "步步高商业连锁股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -408,15 +338,12 @@
           "summary": "步步高商业连锁股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_bear",
-      "company_name": "广东小熊电器股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -440,15 +367,12 @@
           "summary": "广东小熊电器股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_bloomage",
-      "company_name": "华熙生物科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -472,15 +396,12 @@
           "summary": "华熙生物科技股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_haers",
-      "company_name": "浙江哈尔斯真空器皿股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -504,15 +425,12 @@
           "summary": "浙江哈尔斯真空器皿股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hailide",
-      "company_name": "浙江海利得新材料股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -536,15 +454,12 @@
           "summary": "浙江海利得新材料股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_haixiang",
-      "company_name": "海象新材料股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -568,15 +483,12 @@
           "summary": "海象新材料股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hengansecurity",
-      "company_name": "江苏恒辉安防股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -600,15 +512,12 @@
           "summary": "江苏恒辉安防股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_henglin",
-      "company_name": "恒林家居股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -632,15 +541,12 @@
           "summary": "恒林家居股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hengwei",
-      "company_name": "浙江恒威电池股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -664,15 +570,12 @@
           "summary": "浙江恒威电池股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_hlin",
-      "company_name": "浙江恒林椅业股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -696,15 +599,12 @@
           "summary": "浙江恒林椅业股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_jame",
-      "company_name": "深圳市杰美特科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -728,15 +628,12 @@
           "summary": "深圳市杰美特科技股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_longood",
-      "company_name": "朗科智能电气股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -760,15 +657,12 @@
           "summary": "朗科智能电气股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_mengtian_wood",
-      "company_name": "浙江梦天木作家居有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -792,15 +686,12 @@
           "summary": "浙江梦天木作家居有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_mingxin",
-      "company_name": "浙江明新旭腾新材料股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -824,15 +715,12 @@
           "summary": "浙江明新旭腾新材料股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_mustangbat",
-      "company_name": "浙江野马电池股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -856,15 +744,12 @@
           "summary": "浙江野马电池股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_patio",
-      "company_name": "浙江正特股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -888,15 +773,12 @@
           "summary": "浙江正特股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_sailvan",
-      "company_name": "深圳市赛维网络科技有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -920,15 +802,12 @@
           "summary": "深圳市赛维网络科技有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_santai",
-      "company_name": "深圳市三态电子商务股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -952,15 +831,12 @@
           "summary": "深圳市三态电子商务股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_shengtai",
-      "company_name": "浙江盛泰服装集团股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -984,15 +860,12 @@
           "summary": "浙江盛泰服装集团股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_skshu",
-      "company_name": "星徽股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1016,15 +889,12 @@
           "summary": "星徽股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_taipeng",
-      "company_name": "泰鹏智能家居股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1048,15 +918,12 @@
           "summary": "泰鹏智能家居股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_topstar",
-      "company_name": "拓斯达科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1080,15 +947,12 @@
           "summary": "拓斯达科技股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_uechairs",
-      "company_name": "永艺家具股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1112,15 +976,12 @@
           "summary": "永艺家具股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_washin",
-      "company_name": "浙江华生科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1144,15 +1005,12 @@
           "summary": "浙江华生科技股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_xinghua",
-      "company_name": "星华新材股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1176,15 +1034,12 @@
           "summary": "星华新材股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_yayi",
-      "company_name": "浙江雅艺金属科技股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1208,15 +1063,12 @@
           "summary": "浙江雅艺金属科技股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_yotrio",
-      "company_name": "浙江永强集团股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1240,15 +1092,12 @@
           "summary": "浙江永强集团股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_youkeshu",
-      "company_name": "深圳市有棵树科技股份有限公司",
-      "source_locator": "https://sorobuy.com/",
-      "evidence_strength": "official_website",
       "source_count": 2,
+      "strong_source_count": 0,
       "sources": [
         {
           "source_type": "official_website",
@@ -1264,15 +1113,12 @@
           "supports_dimension": "product_service,business_model,admission_reason",
           "summary": "M25R 为 深圳市有棵树科技股份有限公司 补齐产品、商业模式和入池理由最小字段。"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     },
     {
       "prospect_id": "m68r_acc_zhengyu",
-      "company_name": "浙江正裕工业股份有限公司",
-      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089",
-      "evidence_strength": "cninfo",
       "source_count": 3,
+      "strong_source_count": 2,
       "sources": [
         {
           "source_type": "cninfo",
@@ -1296,8 +1142,7 @@
           "summary": "浙江正裕工业股份有限公司 第二强来源：CNINFO 年报/定期报告披露入口，用于支撑 L2 证据成熟度。",
           "added_by_milestone": "M80R"
         }
-      ],
-      "canonical_update_source": "M76R"
+      ]
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "milestone": "M80R",
+  "generated_at": "2026-05-03T12:41:59.886313+00:00",
+  "status": "PASS_M80R_CANONICAL_POOL_UPDATED",
+  "summary": {
+    "canonical_pool_count": 50,
+    "static_level_counts": {
+      "L3": 20,
+      "L2": 29,
+      "L4": 1
+    },
+    "source_trace_count": 50,
+    "l2_count": 29,
+    "old_workbook_written": false,
+    "knowledge_asset_written": false,
+    "persona_registry_written": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "milestone": "M80R",
+  "generated_at": "2026-05-03T12:42:00.171874+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 26,
+    "error_count": 0,
+    "errors": []
+  },
+  "baseline_mismatch_guard": {
+    "returncode": 2,
+    "stderr": "trusted_pool_runner baseline mismatch: expected=intentional_mismatch_for_m80r_guard actual=ec9cba601221361cdd15d8318f72e5f560ddef8f4a0b5a04f19be654096f8458"
+  },
+  "update_guard": {
+    "returncode": 2,
+    "stderr": "update_trusted_pool requires --allow-trusted-pool-update"
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "assertions": {
+    "target_count_at_least_20": true,
+    "l2_count_at_least_20": true,
+    "target_ids_promoted_to_l2": true,
+    "vault_l2_write_count_matches_targets": true,
+    "no_unrequested_downgrade": true,
+    "canonical_l4_count_remains_1": true,
+    "baseline_mismatch_failed": true,
+    "update_without_allow_failed": true,
+    "no_old_excel_write": true,
+    "no_knowledge_asset_write": true,
+    "no_persona_registry_write": true
+  }
+}

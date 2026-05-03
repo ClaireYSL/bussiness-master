@@ -1,0 +1,186 @@
+{
+  "milestone": "M80R",
+  "generated_at": "2026-05-03T12:41:59.534594+00:00",
+  "status": "PASS_M80R_L2_ADMISSION_PRECHECK_READY",
+  "summary": {
+    "target_count": 29,
+    "minimum_l2_target": 20,
+    "expected_l2_after_patch": 29
+  },
+  "items": [
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "precheck": "ready_for_l2_report_only",
+      "required_second_source_added": true
+    }
+  ]
+}
