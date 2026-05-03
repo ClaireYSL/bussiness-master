@@ -1,0 +1,1527 @@
+{
+  "batch_id": "milestone28r_m25r_promote_admission_v1",
+  "goal": "Milestone 28R：M25R 二次 promote 准入试运行",
+  "from_level": "",
+  "target_level": "",
+  "selection": {
+    "account_ids": [
+      "acc_topstar",
+      "acc_haers",
+      "acc_hailide",
+      "acc_haixiang",
+      "acc_hengansecurity",
+      "acc_henglin",
+      "acc_hengwei",
+      "acc_hlin",
+      "acc_jame",
+      "acc_longood",
+      "acc_mengtian_wood",
+      "acc_mingxin",
+      "acc_mustangbat",
+      "acc_patio",
+      "acc_sailvan",
+      "acc_santai",
+      "acc_shengtai",
+      "acc_skshu",
+      "acc_taipeng",
+      "acc_uechairs",
+      "acc_washin",
+      "acc_xinghua",
+      "acc_yayi",
+      "acc_yotrio",
+      "acc_youkeshu",
+      "acc_zhengyu",
+      "acc_babi",
+      "acc_bbg",
+      "acc_bear",
+      "acc_bloomage",
+      "acc_brightdairy",
+      "acc_candr",
+      "acc_chinagold",
+      "acc_chj",
+      "acc_cofco_sugar",
+      "acc_dengkang",
+      "acc_eurasia",
+      "acc_freda",
+      "acc_fuanna",
+      "acc_gaishi",
+      "acc_ganyuan",
+      "acc_guangzhourestaurant",
+      "acc_gubei",
+      "acc_guifaxiang",
+      "acc_haixinfood",
+      "acc_haoxiangni",
+      "acc_hiro",
+      "acc_holike",
+      "acc_hqls",
+      "acc_huangshanghuang"
+    ],
+    "limit": 50
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone28r_m25r_promote_admission_promote_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 50,
+    "allow": 50,
+    "warn": 0,
+    "block": 0,
+    "writeback_promoted": 50,
+    "writeback_skipped": 0,
+    "target_level_reached": 50,
+    "level_changed": 50,
+    "queue_resolved": 3,
+    "evidence_created": 150
+  },
+  "write_back": {
+    "enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 1.3e-05,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4277,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2422,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    },
+    "promoted": 50,
+    "skipped": 0,
+    "profile_updates": 50,
+    "main_updates": 50,
+    "main_shared_updates": 50,
+    "coverage_updates": 1,
+    "evidence_created": 150,
+    "promotion_review_resolved": 3,
+    "samples": [
+      {
+        "account_id": "acc_babi",
+        "account_canonical_name": "巴比食品集团有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_bbg",
+        "account_canonical_name": "步步高商业连锁股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_bear",
+        "account_canonical_name": "广东小熊电器股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_bloomage",
+        "account_canonical_name": "华熙生物科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_brightdairy",
+        "account_canonical_name": "光明乳业股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_candr",
+        "account_canonical_name": "中顺洁柔纸业股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_chinagold",
+        "account_canonical_name": "中国黄金集团黄金珠宝股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_chj",
+        "account_canonical_name": "潮宏基珠宝股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_cofco_sugar",
+        "account_canonical_name": "中粮糖业控股股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_dengkang",
+        "account_canonical_name": "登康口腔护理用品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_eurasia",
+        "account_canonical_name": "欧亚集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_freda",
+        "account_canonical_name": "福瑞达生物股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_fuanna",
+        "account_canonical_name": "深圳市富安娜家居用品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_gaishi",
+        "account_canonical_name": "盖世食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_ganyuan",
+        "account_canonical_name": "甘源食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_guangzhourestaurant",
+        "account_canonical_name": "广州酒家集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_gubei",
+        "account_canonical_name": "乖宝宠物食品集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_guifaxiang",
+        "account_canonical_name": "天津桂发祥十八街麻花食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_haers",
+        "account_canonical_name": "浙江哈尔斯真空器皿股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_hailide",
+        "account_canonical_name": "浙江海利得新材料股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_haixiang",
+        "account_canonical_name": "海象新材料股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_haixinfood",
+        "account_canonical_name": "海欣食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_haoxiangni",
+        "account_canonical_name": "好想你健康食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_hengansecurity",
+        "account_canonical_name": "江苏恒辉安防股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_henglin",
+        "account_canonical_name": "恒林家居股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_hengwei",
+        "account_canonical_name": "浙江恒威电池股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_hiro",
+        "account_canonical_name": "海融科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_hlin",
+        "account_canonical_name": "浙江恒林椅业股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_holike",
+        "account_canonical_name": "好莱客创意家居股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_hqls",
+        "account_canonical_name": "红旗连锁股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_huangshanghuang",
+        "account_canonical_name": "煌上煌集团食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_jame",
+        "account_canonical_name": "深圳市杰美特科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_longood",
+        "account_canonical_name": "朗科智能电气股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_mengtian_wood",
+        "account_canonical_name": "浙江梦天木作家居有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_mingxin",
+        "account_canonical_name": "浙江明新旭腾新材料股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_mustangbat",
+        "account_canonical_name": "浙江野马电池股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_patio",
+        "account_canonical_name": "浙江正特股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_sailvan",
+        "account_canonical_name": "深圳市赛维网络科技有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_santai",
+        "account_canonical_name": "深圳市三态电子商务股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_shengtai",
+        "account_canonical_name": "浙江盛泰服装集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_skshu",
+        "account_canonical_name": "星徽股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_taipeng",
+        "account_canonical_name": "泰鹏智能家居股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_topstar",
+        "account_canonical_name": "广东拓斯达科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_uechairs",
+        "account_canonical_name": "永艺家具股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_washin",
+        "account_canonical_name": "浙江华生科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_xinghua",
+        "account_canonical_name": "星华新材股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_yayi",
+        "account_canonical_name": "浙江雅艺金属科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_yotrio",
+        "account_canonical_name": "浙江永强集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_youkeshu",
+        "account_canonical_name": "深圳市有棵树科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_zhengyu",
+        "account_canonical_name": "浙江正裕工业股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      }
+    ]
+  },
+  "items": [
+    {
+      "account_id": "acc_babi",
+      "account_name": "巴比食品集团有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_bbg",
+      "account_name": "步步高商业连锁股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_bear",
+      "account_name": "广东小熊电器股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_bloomage",
+      "account_name": "华熙生物科技股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "knowledge_extraction",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "account_name": "光明乳业股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_candr",
+      "account_name": "中顺洁柔纸业股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_chinagold",
+      "account_name": "中国黄金集团黄金珠宝股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_chj",
+      "account_name": "潮宏基珠宝股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "account_name": "中粮糖业控股股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_dengkang",
+      "account_name": "登康口腔护理用品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_eurasia",
+      "account_name": "欧亚集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_freda",
+      "account_name": "福瑞达生物股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_fuanna",
+      "account_name": "深圳市富安娜家居用品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_gaishi",
+      "account_name": "盖世食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "account_name": "甘源食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "account_name": "广州酒家集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_gubei",
+      "account_name": "乖宝宠物食品集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "account_name": "天津桂发祥十八街麻花食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_haers",
+      "account_name": "浙江哈尔斯真空器皿股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_hailide",
+      "account_name": "浙江海利得新材料股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_haixiang",
+      "account_name": "海象新材料股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "account_name": "海欣食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "account_name": "好想你健康食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "account_name": "江苏恒辉安防股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_henglin",
+      "account_name": "恒林家居股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_hengwei",
+      "account_name": "浙江恒威电池股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_hiro",
+      "account_name": "海融科技股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_hlin",
+      "account_name": "浙江恒林椅业股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_holike",
+      "account_name": "好莱客创意家居股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_hqls",
+      "account_name": "红旗连锁股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "account_name": "煌上煌集团食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_jame",
+      "account_name": "深圳市杰美特科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_longood",
+      "account_name": "朗科智能电气股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "account_name": "浙江梦天木作家居有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_mingxin",
+      "account_name": "浙江明新旭腾新材料股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "account_name": "浙江野马电池股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_patio",
+      "account_name": "浙江正特股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_sailvan",
+      "account_name": "深圳市赛维网络科技有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "cleanup_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_santai",
+      "account_name": "深圳市三态电子商务股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_shengtai",
+      "account_name": "浙江盛泰服装集团股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_skshu",
+      "account_name": "星徽股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_taipeng",
+      "account_name": "泰鹏智能家居股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_topstar",
+      "account_name": "广东拓斯达科技股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_uechairs",
+      "account_name": "永艺家具股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_washin",
+      "account_name": "浙江华生科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_xinghua",
+      "account_name": "星华新材股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_yayi",
+      "account_name": "浙江雅艺金属科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_yotrio",
+      "account_name": "浙江永强集团股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "account_name": "深圳市有棵树科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "account_name": "浙江正裕工业股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。M27R 系统建议为 confirm_active_candidate，M28R 仅用于非写回准入试跑；不得把潜客观察写入正式知识资产，真实写回仍需 gate、baseline 和用户确认。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    }
+  ]
+}

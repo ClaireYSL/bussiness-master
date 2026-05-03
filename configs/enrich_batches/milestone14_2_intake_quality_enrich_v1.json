@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone14_2_intake_quality_enrich_v1",
+  "goal": "Milestone 14.2：扩容样本入池质量解阻 enrich 非写回复核",
+  "from_level": "L5",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "rectification_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_patch_v1.json",
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；本轮 patch 作为 report-only 临时事实层。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

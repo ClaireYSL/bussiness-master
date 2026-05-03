@@ -1,0 +1,69 @@
+{
+  "batch_id": "milestone14_2_intake_quality_v1",
+  "goal": "Milestone 14.2：扩容样本入池质量解阻",
+  "phase": "report_only",
+  "generated_at": "2026-04-27T03:09:20.022788+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_aidi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aimer",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_anji",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aofei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aukey",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cayi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cnano",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_daziran",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_dingli",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_eccang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "target_level": "L3"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_run_summary_v1.json"
+}

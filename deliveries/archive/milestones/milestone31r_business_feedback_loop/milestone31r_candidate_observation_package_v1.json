@@ -1,0 +1,320 @@
+{
+  "batch_id": "milestone31r_candidate_observation_package_v1",
+  "items": [
+    {
+      "observation_id": "m31r_obs_acc_haers_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_bear_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "persona": "retail_high_sku_brand",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_babi_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_babi",
+      "company_name": "巴比食品集团有限公司",
+      "persona": "retail_multi_store",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_topstar_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_topstar",
+      "company_name": "广东拓斯达科技股份有限公司",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_hailide_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_bloomage_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "persona": "retail_high_sku_brand",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_bbg_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "persona": "retail_multi_store",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_haixiang_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_brightdairy_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_brightdairy",
+      "company_name": "光明乳业股份有限公司",
+      "persona": "retail_high_sku_brand",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_chinagold_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_chinagold",
+      "company_name": "中国黄金集团黄金珠宝股份有限公司",
+      "persona": "retail_multi_store",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_hengansecurity_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_candr_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_candr",
+      "company_name": "中顺洁柔纸业股份有限公司",
+      "persona": "retail_high_sku_brand",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_chj_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_chj",
+      "company_name": "潮宏基珠宝股份有限公司",
+      "persona": "retail_multi_store",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_henglin_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m31r_obs_acc_cofco_sugar_business_feedback_pending_v1",
+      "observation_type": "candidate_observation",
+      "account_id": "acc_cofco_sugar",
+      "company_name": "中粮糖业控股股份有限公司",
+      "persona": "retail_high_sku_brand",
+      "track": "零售消费",
+      "observation_summary": "该潜客已完成 L3 写回并进入业务抽样评估；业务反馈尚未填写，不能作为正式客户案例或画像正例。",
+      "feedback_status": "pending_business_feedback",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "business_feedback_collection",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    }
+  ]
+}

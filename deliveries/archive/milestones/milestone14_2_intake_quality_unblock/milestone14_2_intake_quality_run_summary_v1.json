@@ -1,0 +1,129 @@
+{
+  "batch_id": "milestone14_2_intake_quality_v1",
+  "goal": "Milestone 14.2：扩容样本入池质量解阻",
+  "mode": "report_only",
+  "phase": "report_only",
+  "status": "success",
+  "started_at": "2026-04-27T03:09:18.261970+00:00",
+  "finished_at": "2026-04-27T03:09:20.020448+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_aidi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aimer",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_anji",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aofei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aukey",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cayi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cnano",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_daziran",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_dingli",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_eccang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "target_level": "L3"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone14_2_intake_quality_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻-enrich复盘-v1.md",
+    "result_count": 15,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {}
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone14_2_intake_quality_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻-promote复盘-v1.md",
+    "result_count": 15,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {},
+      "promoted": 0,
+      "skipped": 0,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 0,
+      "warn": 15,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 15,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {}
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻最终复盘-v1.md"
+}

@@ -1,0 +1,368 @@
+{
+  "batch_id": "milestone25r_trusted_expansion_v1",
+  "goal": "Milestone 25R：可信扩容补证试运行",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-27T14:11:14.391147+00:00",
+  "finished_at": "2026-04-27T14:11:20.378317+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_babi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_bbg",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_bear",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_candr",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_chj",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_dengkang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_eurasia",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_freda",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_fuanna",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_gaishi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_gubei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haers",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hailide",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_henglin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hiro",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hlin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_holike",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hqls",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jame",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_longood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_patio",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_santai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_skshu",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_topstar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_washin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yayi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "target_level": "L3"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone25r_trusted_expansion_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 25R-可信扩容补证-enrich复盘-v1.md",
+    "result_count": 50,
+    "write_back": {
+      "enabled": true,
+      "backups": {
+        "profile": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.enrich_backup_20260427_221114.xlsx",
+        "main": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.enrich_backup_20260427_221114.xlsx",
+        "main_shared": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260427_221114.xlsx",
+        "governance": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.enrich_backup_20260427_221114.xlsx"
+      },
+      "profile_updates": 50,
+      "main_updates": 50,
+      "main_shared_updates": 50,
+      "queue_items_created": 48,
+      "evidence_items_created": 50,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 4e-06,
+      "workbook_lock_path": "/tmp/codex_static_pool_workbook_writeback.lock",
+      "workbook_integrity_check": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 583,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4277,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2272,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      }
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone25r_trusted_expansion_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 25R-可信扩容补证-promote复盘-v1.md",
+    "result_count": 50,
+    "write_back": {
+      "enabled": true,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 4e-06,
+      "workbook_integrity_check": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 583,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4277,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2272,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      },
+      "promoted": 0,
+      "skipped": 50,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 0,
+      "warn": 50,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 50,
+    "block": 0,
+    "enrich_write_back_enabled": true,
+    "promote_write_back_enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 4e-06,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4277,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2272,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 25R-可信扩容补证最终复盘-v1.md"
+}

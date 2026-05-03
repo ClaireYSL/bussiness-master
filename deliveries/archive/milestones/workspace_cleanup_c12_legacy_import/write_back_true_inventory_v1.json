@@ -1,0 +1,12 @@
+{
+  "milestone": "C12",
+  "generated_at": "2026-05-03T12:16:53.892514+00:00",
+  "status": "PASS_C12_WRITE_BACK_TRUE_INVENTORY_READY",
+  "summary": {
+    "write_back_true_count": 1
+  },
+  "policy": "这些配置只作为 legacy 历史存在；真实写回必须走 legacy override，不作为 evidence-first 主线入口。",
+  "items": [
+    "configs/promote_batches/milestone11_warn_quality_promote_v1.json"
+  ]
+}

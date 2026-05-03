@@ -1,0 +1,14 @@
+{
+  "batch_id": "milestone11_warn_quality_promote_v1",
+  "goal": "Milestone 11：warn级质量解阻后 promote 复核",
+  "account_ids": [],
+  "from_level": "L3",
+  "target_level": "L2",
+  "auto_open_promotion_review_for_selected": true,
+  "fact_patch_file": "configs/execution_batches/milestone11_warn_quality_facts_v1.json",
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": true,
+  "output_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻-promote复盘-v1.md"
+}

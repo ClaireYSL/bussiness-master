@@ -1,0 +1,13 @@
+{
+  "batch_id": "milestone14_small_batch_promote_v1",
+  "goal": "Milestone 14：小批扩容 promote 非写回复核",
+  "account_ids": [],
+  "from_level": "L5",
+  "target_level": "L3",
+  "auto_open_promotion_review_for_selected": true,
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": false,
+  "output_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 14-小批扩容promote复盘-v1.md"
+}

@@ -1,0 +1,41 @@
+{
+  "template_id": "milestone43r_new_prospect_intake_template_v1",
+  "record_type": "new_trusted_prospect_intake",
+  "required_fields": [
+    "prospect_id",
+    "company_name",
+    "matched_persona",
+    "match_reason",
+    "core_product_service_summary",
+    "business_model_summary",
+    "strong_evidence",
+    "risk_or_gap",
+    "trusted_status"
+  ],
+  "optional_fields": [
+    "industry_guess",
+    "website",
+    "stock_code",
+    "secondary_persona",
+    "notes"
+  ],
+  "trusted_status_values": [
+    "trusted_match_ready",
+    "evidence_pending",
+    "persona_pending_review",
+    "not_icp"
+  ],
+  "forbidden_legacy_fields": [
+    "legacy_profile_summary",
+    "old_main_table_level",
+    "old_shared_view_status",
+    "historical_review_status",
+    "legacy_account_notes"
+  ],
+  "minimum_gate": [
+    "trusted_match_ready 必须至少有 1 条 official/regulatory/annual_report/ir/exchange_announcement/authoritative_media/industry_research evidence。",
+    "trusted_match_ready 必须有明确画像和匹配理由。",
+    "旧主表/旧档案/旧共享版字段不得自动继承；只能作为去重参考。",
+    "LLM 可辅助摘要，但不得直接决定 trusted_status。"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "batch_id": "milestone32r_rule_calibration_proposal_v1",
+  "items": [
+    {
+      "proposal_id": "m32r_rule_cbec_multi_platform_brand_quality_threshold_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "cbec_multi_platform_brand",
+      "sample_count": 5,
+      "review_outcome_counts": {
+        "pending": 5
+      },
+      "proposal_summary": "基于业务反馈采集结果，为后续 M33R 扩容质量阈值提供校准输入；不得直接修改正式画像规则。",
+      "status": "pending_feedback",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m32r_rule_mfg_multi_factory_group_quality_threshold_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "mfg_multi_factory_group",
+      "sample_count": 1,
+      "review_outcome_counts": {
+        "pending": 1
+      },
+      "proposal_summary": "基于业务反馈采集结果，为后续 M33R 扩容质量阈值提供校准输入；不得直接修改正式画像规则。",
+      "status": "pending_feedback",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m32r_rule_retail_high_sku_brand_quality_threshold_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "retail_high_sku_brand",
+      "sample_count": 5,
+      "review_outcome_counts": {
+        "pending": 5
+      },
+      "proposal_summary": "基于业务反馈采集结果，为后续 M33R 扩容质量阈值提供校准输入；不得直接修改正式画像规则。",
+      "status": "pending_feedback",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m32r_rule_retail_multi_store_quality_threshold_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "retail_multi_store",
+      "sample_count": 4,
+      "review_outcome_counts": {
+        "pending": 4
+      },
+      "proposal_summary": "基于业务反馈采集结果，为后续 M33R 扩容质量阈值提供校准输入；不得直接修改正式画像规则。",
+      "status": "pending_feedback",
+      "formal_rule_change_allowed": false
+    }
+  ]
+}

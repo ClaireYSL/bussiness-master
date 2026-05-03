@@ -1,0 +1,74 @@
+{
+  "milestone_id": "milestone12_persona_stability",
+  "batch_id": "milestone12_persona_stability_batch_v1",
+  "goal": "Milestone 12：主画像稳定性复核与画像体系收敛",
+  "candidate_file": "deliveries/archive/repairs/milestone6r_trust_candidates_reselect_20260419.json",
+  "baseline_promote_result_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_promote_v1_report_only_L2_1.json",
+  "abstract_input_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_abstract_input_v1.json",
+  "llm_review_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_llm_review_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 12-主画像稳定性复核草稿-v1.md",
+  "llm_policy": {
+    "enabled": true,
+    "delegate_script": "scripts/llm_delegate.py",
+    "system_file": "prompts/delegate/persona_stability_system.md",
+    "user_file": "prompts/delegate/persona_stability_user.md",
+    "input_source_tag": "abstracted_persona_review_package",
+    "direct_writeback_allowed": false
+  },
+  "success_metrics": {
+    "baseline_persona_boundary_unstable": 12,
+    "target": "persona_boundary_unstable 明显下降；剩余 warn 必须可解释",
+    "allow_required": false,
+    "current_result": "allow=0 / warn=12 / block=0; gate_check=PASS; no write_back because status_patch_allowed_count=0"
+  },
+  "action_package_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_action_package_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone12_persona_stability_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone12_persona_stability_queue_v1.json",
+  "action_review_file": "docs/03-执行与校验/Milestone 12-画像稳定性行动包复盘-v1.md",
+  "safety_policy": {
+    "llm_direct_writeback_allowed": false,
+    "default_action_package_mode": "queue_only_unless_explicit_writeback_ready",
+    "fact_patch_requires": [
+      "writeback_ready=true",
+      "valid_review_status",
+      "valid_persona",
+      "gate_check_after_report_only"
+    ],
+    "current_round_expected_fact_patch_accounts": 12,
+    "current_round_expected_status_patch_accounts": 0
+  },
+  "timebox": {
+    "plan": "M12 完整闭环：强 evidence 补证、行动包复核、report_only、gate_check",
+    "phase_a": "abstract_input + LLM review + action package",
+    "phase_b": "report_only + gate_check",
+    "phase_c": "仅 gate 全 PASS 且有 allow 时考虑 write_back"
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  },
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 12-画像稳定性enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone12_persona_stability_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 12-画像稳定性promote复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 12-画像稳定性最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_report_baseline_v1.json"
+  },
+  "evidence_patch_file": "configs/execution_batches/milestone12_persona_stability_evidence_patch_v1.json",
+  "base_fact_patch_file": "configs/execution_batches/milestone11_warn_quality_facts_v1.json",
+  "gate_check_file": "deliveries/archive/repairs/milestone12_persona_stability_gate_check_v1.json",
+  "gate_check_review_file": "docs/03-执行与校验/Milestone 12-画像稳定性写回前闸门检查-v1.md",
+  "final_review_file": "docs/03-执行与校验/Milestone 12-画像稳定性最终复盘-v1.md"
+}

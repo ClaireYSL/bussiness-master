@@ -1,0 +1,179 @@
+{
+  "batch_id": "milestone12_persona_stability_evidence_patch_v1",
+  "goal": "Milestone 12：主画像稳定性强来源补证",
+  "policy": {
+    "source_priority": ["official_site", "annual_report", "cninfo", "ir_announcement", "listed_company_disclosure"],
+    "direct_review_status_writeback": false,
+    "note": "本补丁仅补强画像稳定性判断所需 evidence，不直接把 pending_review 改为 active。"
+  },
+  "accounts": [
+    {
+      "account_id": "acc_dreame",
+      "account_name": "追觅创新科技（苏州）有限公司",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_dreame_official_products_v1",
+          "source_type": "official_site",
+          "source_locator": "https://www.dreame.tech/home/shop/shop",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,product_scope,track_fit",
+          "summary": "追觅官网产品入口覆盖智能清洁、洗地、无线吸尘、个护等智能家电品类，可支撑其作为高 SKU 智能家电品牌消费品主体继续复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_tomtop",
+      "account_name": "深圳市通拓科技有限公司",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_tomtop_official_about_v1",
+          "source_type": "official_site",
+          "source_locator": "https://blog.tomtop.com/about/",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,cross_border_platform,track_fit",
+          "summary": "TOMTOP 官方介绍显示其总部在深圳，业务涉及 eBay、Amazon、Alibaba、DHgate、淘宝及 TOMTOP 网站等多平台电商营销，支撑跨境多平台品牌/平台经营画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "account_name": "珠免集团",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_600185_annual_retail_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11049299&stockid=600185",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,retail_network,track_fit",
+          "summary": "格力地产/珠免集团相关年度报告公告披露珠海免税的新零售平台、线上线下流量融合、旅游零售品类和品牌资源，支撑其多门店/旅游零售画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "account_name": "金达威",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_002626_financial_report_v1",
+          "source_type": "listed_company_disclosure",
+          "source_locator": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80018831&gather=1&id=10856980",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,product_scope,track_fit",
+          "summary": "金达威 2024 年度财务报告公告可定位其上市公司主体和年度经营披露，结合其营养健康、辅酶 Q10、维生素等业务，支撑高 SKU 健康消费品/营养品画像继续复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "account_name": "中顺洁柔",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_002511_annual_products_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223267242.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,product_scope,track_fit",
+          "summary": "中顺洁柔 2024 年年度报告披露公司生活用纸等业务、销售量及合并子公司信息，可支撑其作为生活用纸/个护高 SKU 品牌消费品主体复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "account_name": "跨境通",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_002640_annual_crossborder_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222942840.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,cross_border_platform,track_fit",
+          "summary": "跨境通 2024 年年度报告摘要披露全球电商和跨境电商行业背景及公司年度报告信息，可支撑其跨境电商主线画像复核，同时仍需关注经营压力。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "account_name": "青木科技",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_301110_annual_ecommerce_service_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223377273.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,ecommerce_service,track_fit",
+          "summary": "青木科技 2024 年年度报告全文可定位其年度披露；公开年报信息显示其电商代运营/综合电商服务收入构成，可支撑电商服务与跨境/多平台相邻画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "account_name": "华凯易佰",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_300592_annual_crossborder_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223262338.pdf",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,cross_border_platform,track_fit",
+          "summary": "华凯易佰 2024 年年度报告披露其依托易佰网络、通拓科技开展跨境出口电商，通过 Amazon、eBay、Temu、TikTok、AliExpress 等平台销售，支撑跨境多平台画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "account_name": "光迅科技",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_002281_annual_optical_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223234851.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,manufacturing_complexity,track_fit",
+          "summary": "光迅科技 2024 年年度报告披露光电子器件、传输光模块、垂直整合和高端光电子器件产能建设等内容，可支撑先进制造主线下多工厂/制造协同画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_000768",
+      "account_name": "中航西飞",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_000768_annual_aircraft_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-01/1222975145.pdf",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,rd_manufacturing_sales,track_fit",
+          "summary": "中航西飞 2024 年年度报告披露其航空产品销售收入和航空制造相关经营信息，可支撑先进制造主线下研产销协同复杂制造画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "account_name": "盛美上海",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_688082_annual_semiconductor_equipment_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10760358",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,semiconductor_equipment,track_fit",
+          "summary": "盛美上海 2024 年年度报告公告披露半导体清洗设备、其他半导体设备及先进封装湿法设备收入增长，支撑半导体设备研产销复杂制造画像复核。"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "account_name": "国轩高科",
+      "evidence_rows": [
+        {
+          "evidence_id": "m12_ev_acc_cn_002074_annual_battery_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223284129.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,rd_manufacturing_sales,track_fit",
+          "summary": "国轩高科 2024 年年度报告全文可定位其动力电池、储能电池等新能源制造业务，支撑先进制造主线下研产销协同复杂制造画像复核。"
+        }
+      ]
+    }
+  ]
+}

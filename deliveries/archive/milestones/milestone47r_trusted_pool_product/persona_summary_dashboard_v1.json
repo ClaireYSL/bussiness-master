@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-03T08:09:16.418155+00:00",
+  "summary": {
+    "trusted_pool_count": 20,
+    "share_view_count": 20,
+    "source_trace_count": 20,
+    "trusted_match_ready_count": 20,
+    "persona_count": 6,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "dashboard": {
+    "persona_counts": {
+      "retail_high_sku_brand": 8,
+      "fnb_chain_beverage_coffee": 3,
+      "fnb_chain_standardized": 2,
+      "retail_multi_store": 3,
+      "cbec_multi_platform_brand": 3,
+      "cbec_platform_operator": 1
+    },
+    "status_counts": {
+      "trusted_match_ready": 20
+    },
+    "total_count": 20
+  }
+}

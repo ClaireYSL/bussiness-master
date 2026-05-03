@@ -1,0 +1,39 @@
+{
+  "milestone_id": "milestone13_persona_boundary_rules",
+  "batch_id": "milestone13_persona_boundary_batch_v1",
+  "goal": "Milestone 13：画像边界规则沉淀与可执行化",
+  "candidate_file": "deliveries/archive/repairs/milestone6r_trust_candidates_reselect_20260419.json",
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  },
+  "rule_config_file": "configs/execution_batches/milestone13_persona_boundary_rules_v1.json",
+  "rule_package_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_rule_package_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone13_persona_boundary_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone13_persona_boundary_queue_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone13_persona_boundary_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则promote复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_report_baseline_v1.json"
+  },
+  "success_metrics": {
+    "rule_decisions_required": 12,
+    "allow_required": false,
+    "active_candidate_required": false,
+    "expected_current_result": "规则可解释；不要求强行 active"
+  }
+}

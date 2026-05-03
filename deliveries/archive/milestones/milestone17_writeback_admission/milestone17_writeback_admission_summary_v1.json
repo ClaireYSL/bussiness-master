@@ -1,0 +1,512 @@
+{
+  "batch_id": "milestone17_writeback_admission_v1",
+  "goal": "Milestone 17：写回候选准入试点",
+  "from_level": "",
+  "target_level": "",
+  "selection": {
+    "account_ids": [
+      "acc_aidi",
+      "acc_cnano",
+      "acc_dingli",
+      "acc_focusprecision",
+      "acc_haitianjg",
+      "acc_aukey",
+      "acc_cayi",
+      "acc_daziran",
+      "acc_eccang",
+      "acc_greatstar",
+      "acc_aimer",
+      "acc_anji",
+      "acc_anjingfood",
+      "acc_aofei",
+      "acc_arrowhome"
+    ],
+    "limit": 15
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone17_writeback_admission_promote_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 15,
+    "allow": 15,
+    "warn": 0,
+    "block": 0,
+    "writeback_promoted": 15,
+    "writeback_skipped": 0,
+    "target_level_reached": 15,
+    "level_changed": 15,
+    "queue_resolved": 1,
+    "evidence_created": 45
+  },
+  "write_back": {
+    "enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 3e-06,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4228,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2174,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    },
+    "promoted": 15,
+    "skipped": 0,
+    "profile_updates": 15,
+    "main_updates": 15,
+    "main_shared_updates": 15,
+    "coverage_updates": 0,
+    "evidence_created": 45,
+    "promotion_review_resolved": 1,
+    "samples": [
+      {
+        "account_id": "acc_aidi",
+        "account_canonical_name": "烟台艾迪精密机械股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_aimer",
+        "account_canonical_name": "爱慕股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_anji",
+        "account_canonical_name": "安记食品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_anjingfood",
+        "account_canonical_name": "安井食品集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_aofei",
+        "account_canonical_name": "奥飞娱乐股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_arrowhome",
+        "account_canonical_name": "箭牌家居集团股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_aukey",
+        "account_canonical_name": "深圳市傲基创新科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_cayi",
+        "account_canonical_name": "浙江嘉益保温科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_cnano",
+        "account_canonical_name": "江苏天奈科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_daziran",
+        "account_canonical_name": "浙江大自然户外用品股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_dingli",
+        "account_canonical_name": "浙江鼎力机械股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_eccang",
+        "account_canonical_name": "深圳市易仓科技有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_focusprecision",
+        "account_canonical_name": "江苏先锋精密科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_greatstar",
+        "account_canonical_name": "杭州巨星科技股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      },
+      {
+        "account_id": "acc_haitianjg",
+        "account_canonical_name": "宁波海天精工股份有限公司",
+        "from_level": "L5",
+        "target_level": "L3"
+      }
+    ]
+  },
+  "items": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "knowledge_extraction",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "boundary_review",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "knowledge_extraction",
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L3",
+      "decision": "allow",
+      "level_changed": true,
+      "target_level_reached": true,
+      "writeback_applied": true,
+      "profile_status": "standard_ready",
+      "validation_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "promote_summary": "关键判断点已收敛，可作为本轮建议推进对象。",
+      "blocking_issues": [],
+      "warning_issues": [],
+      "remaining_gaps": [],
+      "open_queue_types": [
+        "verification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "batch_id": "milestone43r_new_prospect_intake_schema_package_v1",
+  "generated_at": "2026-05-03T08:03:31.547438+00:00",
+  "summary": {
+    "intake_required_field_count": 9,
+    "evidence_required_field_count": 7,
+    "card_required_field_count": 8,
+    "trusted_status_values": [
+      "trusted_match_ready",
+      "evidence_pending",
+      "persona_pending_review",
+      "not_icp"
+    ],
+    "empty_sample_validation_error_count": 0,
+    "guard_sample_validation_error_count": 3,
+    "guard_detected_missing_evidence": true,
+    "guard_detected_legacy_field": true,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "prospect_generation_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "new_prospect_intake_template": {
+    "template_id": "milestone43r_new_prospect_intake_template_v1",
+    "record_type": "new_trusted_prospect_intake",
+    "required_fields": [
+      "prospect_id",
+      "company_name",
+      "matched_persona",
+      "match_reason",
+      "core_product_service_summary",
+      "business_model_summary",
+      "strong_evidence",
+      "risk_or_gap",
+      "trusted_status"
+    ],
+    "optional_fields": [
+      "industry_guess",
+      "website",
+      "stock_code",
+      "secondary_persona",
+      "notes"
+    ],
+    "trusted_status_values": [
+      "trusted_match_ready",
+      "evidence_pending",
+      "persona_pending_review",
+      "not_icp"
+    ],
+    "forbidden_legacy_fields": [
+      "legacy_profile_summary",
+      "old_main_table_level",
+      "old_shared_view_status",
+      "historical_review_status",
+      "legacy_account_notes"
+    ],
+    "minimum_gate": [
+      "trusted_match_ready 必须至少有 1 条 official/regulatory/annual_report/ir/exchange_announcement/authoritative_media/industry_research evidence。",
+      "trusted_match_ready 必须有明确画像和匹配理由。",
+      "旧主表/旧档案/旧共享版字段不得自动继承；只能作为去重参考。",
+      "LLM 可辅助摘要，但不得直接决定 trusted_status。"
+    ]
+  },
+  "trusted_evidence_patch_schema": {
+    "schema_id": "milestone43r_trusted_evidence_patch_schema_v1",
+    "record_type": "trusted_evidence_patch",
+    "required_fields": [
+      "prospect_id",
+      "company_name",
+      "source_type",
+      "source_locator",
+      "evidence_strength",
+      "supports_dimension",
+      "summary"
+    ],
+    "evidence_strength_values": [
+      "official",
+      "regulatory",
+      "annual_report",
+      "ir",
+      "exchange_announcement",
+      "authoritative_media",
+      "industry_research",
+      "weak_reference"
+    ],
+    "strong_evidence_values": [
+      "official",
+      "regulatory",
+      "annual_report",
+      "ir",
+      "exchange_announcement",
+      "authoritative_media",
+      "industry_research"
+    ],
+    "supports_dimension_values": [
+      "company_identity",
+      "product_service",
+      "business_model",
+      "persona_match",
+      "scale_signal",
+      "risk_signal"
+    ],
+    "validation_rules": [
+      "source_locator 必须可定位到具体页面、公告、报告、官网栏目或文件。",
+      "weak_reference 不能单独支撑 trusted_match_ready。",
+      "summary 只能总结来源支持的事实，不写销售动作建议。"
+    ]
+  },
+  "trusted_summary_card_schema": {
+    "schema_id": "milestone43r_trusted_summary_card_schema_v1",
+    "record_type": "trusted_prospect_summary_card",
+    "required_fields": [
+      "company_name",
+      "matched_persona",
+      "match_reason",
+      "core_product_service_summary",
+      "business_model_summary",
+      "key_evidence",
+      "trusted_status",
+      "risk_or_gap"
+    ],
+    "consumer_questions_answered": [
+      "这家公司为什么匹配 ICP/画像？",
+      "核心产品/服务是什么？",
+      "业务模式或经营结构是什么？",
+      "证据来自哪里，够不够强？",
+      "当前风险或待补点是什么？"
+    ],
+    "not_allowed": [
+      "销售行动口径作为主指标",
+      "潜客观察写入正式知识资产",
+      "旧档案字段自动继承"
+    ]
+  },
+  "intake_validation_report": {
+    "empty_sample": {
+      "record_count": 0,
+      "validation_error_count": 0,
+      "errors": []
+    },
+    "guard_sample": {
+      "record_count": 2,
+      "validation_error_count": 3,
+      "errors": [
+        {
+          "row": 0,
+          "error_code": "missing_required_field",
+          "fields": [
+            "strong_evidence"
+          ]
+        },
+        {
+          "row": 0,
+          "error_code": "trusted_ready_without_strong_evidence"
+        },
+        {
+          "row": 1,
+          "error_code": "legacy_field_inherited",
+          "fields": [
+            "legacy_profile_summary"
+          ]
+        }
+      ]
+    }
+  }
+}

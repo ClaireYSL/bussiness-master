@@ -1,0 +1,65 @@
+{
+  "batch_id": "milestone31r_source_gap_queue_v1",
+  "items": [
+    {
+      "gap_id": "m31r_gap_cbec_multi_platform_brand_business_feedback_v1",
+      "gap_type": "source_gap",
+      "persona": "cbec_multi_platform_brand",
+      "sample_count": 5,
+      "task_summary": "需要业务侧反馈该画像下抽样潜客是否值得继续经营；反馈结果只能用于校准建议，不能直接写入正式知识资产。",
+      "required_inputs": [
+        "worth_following",
+        "recommended_next_action",
+        "business_fit_rating",
+        "disqualify_reason_if_any"
+      ],
+      "formal_knowledge_source_allowed": false,
+      "queue_status": "open"
+    },
+    {
+      "gap_id": "m31r_gap_mfg_multi_factory_group_business_feedback_v1",
+      "gap_type": "source_gap",
+      "persona": "mfg_multi_factory_group",
+      "sample_count": 1,
+      "task_summary": "需要业务侧反馈该画像下抽样潜客是否值得继续经营；反馈结果只能用于校准建议，不能直接写入正式知识资产。",
+      "required_inputs": [
+        "worth_following",
+        "recommended_next_action",
+        "business_fit_rating",
+        "disqualify_reason_if_any"
+      ],
+      "formal_knowledge_source_allowed": false,
+      "queue_status": "open"
+    },
+    {
+      "gap_id": "m31r_gap_retail_high_sku_brand_business_feedback_v1",
+      "gap_type": "source_gap",
+      "persona": "retail_high_sku_brand",
+      "sample_count": 5,
+      "task_summary": "需要业务侧反馈该画像下抽样潜客是否值得继续经营；反馈结果只能用于校准建议，不能直接写入正式知识资产。",
+      "required_inputs": [
+        "worth_following",
+        "recommended_next_action",
+        "business_fit_rating",
+        "disqualify_reason_if_any"
+      ],
+      "formal_knowledge_source_allowed": false,
+      "queue_status": "open"
+    },
+    {
+      "gap_id": "m31r_gap_retail_multi_store_business_feedback_v1",
+      "gap_type": "source_gap",
+      "persona": "retail_multi_store",
+      "sample_count": 4,
+      "task_summary": "需要业务侧反馈该画像下抽样潜客是否值得继续经营；反馈结果只能用于校准建议，不能直接写入正式知识资产。",
+      "required_inputs": [
+        "worth_following",
+        "recommended_next_action",
+        "business_fit_rating",
+        "disqualify_reason_if_any"
+      ],
+      "formal_knowledge_source_allowed": false,
+      "queue_status": "open"
+    }
+  ]
+}

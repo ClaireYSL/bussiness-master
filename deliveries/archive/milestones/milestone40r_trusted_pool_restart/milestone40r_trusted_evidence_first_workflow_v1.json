@@ -1,0 +1,40 @@
+{
+  "workflow_id": "milestone40r_trusted_evidence_first_workflow_v1",
+  "steps": [
+    {
+      "step": 1,
+      "name": "candidate_discovery",
+      "description": "从知识库画像、公开来源、行业名单或 legacy index 发现候选。",
+      "output": "candidate_seed"
+    },
+    {
+      "step": 2,
+      "name": "evidence_collection",
+      "description": "为候选收集官网、年报、IR、公告、CNINFO、权威行业材料等强来源。",
+      "output": "evidence_patch"
+    },
+    {
+      "step": 3,
+      "name": "trusted_summary_card",
+      "description": "基于 evidence 生成可信潜客摘要卡。",
+      "output": "trusted_prospect_card"
+    },
+    {
+      "step": 4,
+      "name": "persona_match_review",
+      "description": "用画像规则判断匹配度，输出 trusted_status。",
+      "output": "persona_match_result"
+    },
+    {
+      "step": 5,
+      "name": "share_or_queue",
+      "description": "可信对象进入共享消费包；不可信对象进入补证队列。",
+      "output": "share_package_or_source_gap_queue"
+    }
+  ],
+  "llm_usage_boundary": [
+    "LLM 可做摘要草稿、画像复核草稿、补源建议。",
+    "LLM 不得直接决定 trusted_status。",
+    "LLM 输出不得直接写入正式知识资产。"
+  ]
+}

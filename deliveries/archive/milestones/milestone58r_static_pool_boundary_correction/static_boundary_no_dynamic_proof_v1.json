@@ -1,0 +1,76 @@
+{
+  "milestone": "M58R",
+  "generated_at": "2026-05-03T10:50:08.093213+00:00",
+  "record_type": "static_boundary_no_dynamic_proof",
+  "scan_result": {
+    "dynamic_term_findings": [],
+    "dynamic_term_findings_count": 0,
+    "scan_scope": [
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Evidence-first L1-L5 v2分级说明.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L1重点经营索引.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L2正式档案索引.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L3可信摘要卡索引.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/M57R-L2业务反馈模板.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/M57R-L2正式可信潜客用户速览.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source trace index.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1重点经营档案/README.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/README.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/三只松鼠股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云南贝泰妮生物科技集团股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/北京石头世纪科技股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/周大生珠宝股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/孩子王儿童用品股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳百果园实业集团股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/瑞幸咖啡有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/绝味食品股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/三只松鼠股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/上海家化联合股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/九毛九国际控股有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/云南贝泰妮生物科技集团股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/云米科技有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/北京石头世纪科技股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/周大生珠宝股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/四川百茶百道实业股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/孩子王儿童用品股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/小熊电器股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/水羊集团股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳百果园实业集团股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/焦点科技股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/瑞幸咖啡有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/盐津铺子食品股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/稳健医疗用品股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/绝味食品股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/赛维时代科技股份有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/逸仙控股有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/霸王茶姬控股有限公司.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/04-L4待补证候选/README.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/05-L5候选线索/README.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客池-首页.md",
+      "/Users/clairelu2026/CodexProjects/BusinessMaster/docs/02-注册表与结构/external_target_account_pool_v2-字段模板-v1.md",
+      "/Users/clairelu2026/CodexProjects/BusinessMaster/scripts/build_m51r_m56_l2_formal_pool.py",
+      "/Users/clairelu2026/CodexProjects/BusinessMaster/scripts/build_m57r_l2_business_feedback_package.py",
+      "/Users/clairelu2026/CodexProjects/BusinessMaster/scripts/build_m58r_static_pool_boundary_correction.py",
+      "deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json"
+    ],
+    "allowed_optional_files": [
+      "M57R-L2业务反馈模板.md",
+      "build_m57r_l2_business_feedback_package.py"
+    ],
+    "allowed_migration_scripts": [
+      "build_m58r_static_pool_boundary_correction.py"
+    ],
+    "allowed_compat_files": [
+      "L1重点经营索引.md",
+      "README.md"
+    ],
+    "pass": true
+  },
+  "no_write_proof": {
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "dynamic_followup_task_created": false,
+    "dynamic_fields_used_for_static_level": false
+  }
+}

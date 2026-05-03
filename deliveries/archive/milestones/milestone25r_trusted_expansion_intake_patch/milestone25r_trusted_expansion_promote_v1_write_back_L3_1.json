@@ -1,0 +1,1739 @@
+{
+  "batch_id": "milestone25r_trusted_expansion_promote_v1",
+  "goal": "Milestone 25R：可信扩容补证 promote 非写回复核",
+  "from_level": "L5",
+  "target_level": "L3",
+  "track": "",
+  "write_back": {
+    "enabled": true,
+    "backups": {
+      "profile": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.promote_backup_20260427_221117.xlsx",
+      "main": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.promote_backup_20260427_221117.xlsx",
+      "main_shared": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.promote_backup_20260427_221117.xlsx",
+      "governance": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.promote_backup_20260427_221117.xlsx"
+    },
+    "promoted": 0,
+    "skipped": 50,
+    "profile_updates": 0,
+    "main_updates": 0,
+    "main_shared_updates": 0,
+    "coverage_updates": 0,
+    "evidence_created": 0,
+    "promotion_review_resolved": 0,
+    "samples": [],
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 4e-06,
+    "workbook_lock_path": "/tmp/codex_static_pool_workbook_writeback.lock",
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4277,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2272,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "enrich_result_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_enrich_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_topstar",
+      "acc_haers",
+      "acc_hailide",
+      "acc_haixiang",
+      "acc_hengansecurity",
+      "acc_henglin",
+      "acc_hengwei",
+      "acc_hlin",
+      "acc_jame",
+      "acc_longood",
+      "acc_mengtian_wood",
+      "acc_mingxin",
+      "acc_mustangbat",
+      "acc_patio",
+      "acc_sailvan",
+      "acc_santai",
+      "acc_shengtai",
+      "acc_skshu",
+      "acc_taipeng",
+      "acc_uechairs",
+      "acc_washin",
+      "acc_xinghua",
+      "acc_yayi",
+      "acc_yotrio",
+      "acc_youkeshu",
+      "acc_zhengyu",
+      "acc_babi",
+      "acc_bbg",
+      "acc_bear",
+      "acc_bloomage",
+      "acc_brightdairy",
+      "acc_candr",
+      "acc_chinagold",
+      "acc_chj",
+      "acc_cofco_sugar",
+      "acc_dengkang",
+      "acc_eurasia",
+      "acc_freda",
+      "acc_fuanna",
+      "acc_gaishi",
+      "acc_ganyuan",
+      "acc_guangzhourestaurant",
+      "acc_gubei",
+      "acc_guifaxiang",
+      "acc_haixinfood",
+      "acc_haoxiangni",
+      "acc_hiro",
+      "acc_holike",
+      "acc_hqls",
+      "acc_huangshanghuang"
+    ],
+    "limit": 9999
+  },
+  "batch_summary": {
+    "allow": 0,
+    "warn": 50,
+    "block": 0
+  },
+  "results": [
+    {
+      "account_id": "acc_babi",
+      "account_canonical_name": "巴比食品集团有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1,ka_case_familymart_kpi_loop_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_babi",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_bbg",
+      "account_canonical_name": "步步高商业连锁股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_bbg",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_bear",
+      "account_canonical_name": "广东小熊电器股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_bear",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_bloomage",
+      "account_canonical_name": "华熙生物科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_bloomage",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "account_canonical_name": "光明乳业股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_brightdairy",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_candr",
+      "account_canonical_name": "中顺洁柔纸业股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_candr",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_chinagold",
+      "account_canonical_name": "中国黄金集团黄金珠宝股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_chinagold",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_chj",
+      "account_canonical_name": "潮宏基珠宝股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_chj",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "account_canonical_name": "中粮糖业控股股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_cofco_sugar",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_dengkang",
+      "account_canonical_name": "登康口腔护理用品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_dengkang",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_eurasia",
+      "account_canonical_name": "欧亚集团股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_eurasia",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_freda",
+      "account_canonical_name": "福瑞达生物股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_freda",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_fuanna",
+      "account_canonical_name": "深圳市富安娜家居用品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_fuanna",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_gaishi",
+      "account_canonical_name": "盖世食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_gaishi",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "account_canonical_name": "甘源食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_ganyuan",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "account_canonical_name": "广州酒家集团股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1,ka_case_familymart_kpi_loop_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_guangzhourestaurant",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_gubei",
+      "account_canonical_name": "乖宝宠物食品集团股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_gubei",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "account_canonical_name": "天津桂发祥十八街麻花食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_guifaxiang",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_haers",
+      "account_canonical_name": "浙江哈尔斯真空器皿股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_haers",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_hailide",
+      "account_canonical_name": "浙江海利得新材料股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_hailide",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_haixiang",
+      "account_canonical_name": "海象新材料股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_haixiang",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "account_canonical_name": "海欣食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_haixinfood",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "account_canonical_name": "好想你健康食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_haoxiangni",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "account_canonical_name": "江苏恒辉安防股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_hengansecurity",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_henglin",
+      "account_canonical_name": "恒林家居股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_henglin",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_hengwei",
+      "account_canonical_name": "浙江恒威电池股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_hengwei",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_hiro",
+      "account_canonical_name": "海融科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_hiro",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_hlin",
+      "account_canonical_name": "浙江恒林椅业股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_hlin",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_holike",
+      "account_canonical_name": "好莱客创意家居股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_holike",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_hqls",
+      "account_canonical_name": "红旗连锁股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_xianfeng_retail_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_bama_tea_chain_v1,ka_case_beiguo_jewelry_ops_v1,ka_case_coco_fnb_v1",
+      "talk_track_refs": "ka_case_chatbi_frontline_v1,ka_narrative_boshiyanjing_aibi_v1,ka_solution_frontline_loop_retail_v1",
+      "promotion_gate": {
+        "account_id": "acc_hqls",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_multi_store",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "account_canonical_name": "煌上煌集团食品股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1,ka_case_apparel_multi_brand_ops_v1,ka_case_babycare_ops_v1,ka_case_dazzle_member_lifecycle_v1,ka_case_fila_supply_chain_v1",
+      "talk_track_refs": "ka_narrative_naturehall_gpt_v1,ka_narrative_sephora_distribution_v1,ka_case_chatbi_frontline_v1",
+      "promotion_gate": {
+        "account_id": "acc_huangshanghuang",
+        "decision": "warn",
+        "normalized_persona_tag": "retail_high_sku_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_jame",
+      "account_canonical_name": "深圳市杰美特科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_jame",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_longood",
+      "account_canonical_name": "朗科智能电气股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_longood",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "account_canonical_name": "浙江梦天木作家居有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_mengtian_wood",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_mingxin",
+      "account_canonical_name": "浙江明新旭腾新材料股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_mingxin",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "account_canonical_name": "浙江野马电池股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_mustangbat",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_patio",
+      "account_canonical_name": "浙江正特股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_patio",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_sailvan",
+      "account_canonical_name": "深圳市赛维网络科技有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_sailvan",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_santai",
+      "account_canonical_name": "深圳市三态电子商务股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_santai",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_shengtai",
+      "account_canonical_name": "浙江盛泰服装集团股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_shengtai",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_skshu",
+      "account_canonical_name": "星徽股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_skshu",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_taipeng",
+      "account_canonical_name": "泰鹏智能家居股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_taipeng",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_topstar",
+      "account_canonical_name": "广东拓斯达科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1,ka_case_shoufan_custom_mfg_v1",
+      "talk_track_refs": "ka_narrative_xiguachuangke_aibi_v1",
+      "promotion_gate": {
+        "account_id": "acc_topstar",
+        "decision": "warn",
+        "normalized_persona_tag": "mfg_multi_factory_group",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_uechairs",
+      "account_canonical_name": "永艺家具股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_uechairs",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_washin",
+      "account_canonical_name": "浙江华生科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_washin",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_xinghua",
+      "account_canonical_name": "星华新材股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_xinghua",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_yayi",
+      "account_canonical_name": "浙江雅艺金属科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_yayi",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_yotrio",
+      "account_canonical_name": "浙江永强集团股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_yotrio",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "account_canonical_name": "深圳市有棵树科技股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_youkeshu",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "account_canonical_name": "浙江正裕工业股份有限公司",
+      "from_level": "L5",
+      "target_level": "L3",
+      "primary_track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": "",
+      "knowledge_asset_refs": "ka_insight_cbec_jtbd_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "talk_track_refs": "",
+      "promotion_gate": {
+        "account_id": "acc_zhengyu",
+        "decision": "warn",
+        "normalized_persona_tag": "cbec_multi_platform_brand",
+        "normalized_secondary_persona_tags": [],
+        "blocking_issues": [],
+        "warning_issues": [
+          {
+            "code": "persona_boundary_unstable",
+            "severity": "warn",
+            "field_name": "review_status",
+            "message": "当前仍处于观察/边界状态。"
+          }
+        ],
+        "suggested_review_status": "pending_review",
+        "suggested_queue_type": "promotion_review",
+        "summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+        "enrich_candidate_type": "formal_candidate",
+        "enrich_ready_for_promote": true,
+        "enrich_minimum_fact_status": "pass"
+      }
+    }
+  ],
+  "enrich_summary": {
+    "result_count": 50,
+    "ready_for_promote": 50,
+    "observation": 0
+  },
+  "patch_summary": {
+    "fact_patch_file": "configs/execution_batches/milestone25r_trusted_expansion_facts_v1.json",
+    "queue_patch_file": "configs/execution_batches/milestone25r_trusted_expansion_queue_v1.json",
+    "profile_updates": 50,
+    "evidence_rows_added": 100,
+    "queue_rows_added": 47,
+    "main_coverage": {
+      "requested": 50,
+      "existing": 50,
+      "added_from_shared": 0,
+      "still_missing": 0
+    }
+  }
+}

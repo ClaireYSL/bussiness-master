@@ -1,0 +1,462 @@
+{
+  "batch_id": "milestone27r_m25r_persona_confirmation_template_v1",
+  "generated_at": "2026-04-27T14:19:17.394460+00:00",
+  "allowed_manual_actions": [
+    "confirm_active_candidate",
+    "keep_pending",
+    "persona_adjust",
+    "hold"
+  ],
+  "items": [
+    {
+      "account_id": "acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "company_name": "光明乳业股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_candr",
+      "company_name": "中顺洁柔纸业股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_chinagold",
+      "company_name": "中国黄金集团黄金珠宝股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_chj",
+      "company_name": "潮宏基珠宝股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "company_name": "中粮糖业控股股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_dengkang",
+      "company_name": "登康口腔护理用品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_eurasia",
+      "company_name": "欧亚集团股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_freda",
+      "company_name": "福瑞达生物股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_fuanna",
+      "company_name": "深圳市富安娜家居用品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_gaishi",
+      "company_name": "盖世食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "company_name": "甘源食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "company_name": "广州酒家集团股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_gubei",
+      "company_name": "乖宝宠物食品集团股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "company_name": "天津桂发祥十八街麻花食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "company_name": "海欣食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "company_name": "好想你健康食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_hiro",
+      "company_name": "海融科技股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_holike",
+      "company_name": "好莱客创意家居股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_hqls",
+      "company_name": "红旗连锁股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "company_name": "煌上煌集团食品股份有限公司",
+      "system_recommendation": "confirm_active_candidate",
+      "manual_action": "",
+      "manual_reviewer": "",
+      "manual_review_date": "",
+      "manual_review_note": ""
+    }
+  ]
+}

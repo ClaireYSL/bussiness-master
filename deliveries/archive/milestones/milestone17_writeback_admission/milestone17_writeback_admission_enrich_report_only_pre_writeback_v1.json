@@ -1,0 +1,2140 @@
+{
+  "batch_id": "milestone17_writeback_admission_enrich_v1",
+  "goal": "Milestone 17：写回候选准入试点 enrich 写回复核",
+  "rectification_file": "configs/execution_batches/milestone17_writeback_admission_facts_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_aidi",
+      "acc_aimer",
+      "acc_anji",
+      "acc_anjingfood",
+      "acc_aofei",
+      "acc_arrowhome",
+      "acc_aukey",
+      "acc_cayi",
+      "acc_cnano",
+      "acc_daziran",
+      "acc_dingli",
+      "acc_eccang",
+      "acc_focusprecision",
+      "acc_greatstar",
+      "acc_haitianjg"
+    ],
+    "track": "",
+    "from_level": "L5"
+  },
+  "summary": {
+    "result_count": 15,
+    "ready_for_promote": 15,
+    "observation": 0
+  },
+  "results": [
+    {
+      "account_id": "acc_aidi",
+      "account_canonical_name": "烟台艾迪精密机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "艾迪精密围绕工程机械液压属具、高端液压件、工业机器人核心部件、硬质合金刀具和精密线性传动部件开展研发、生产与销售。",
+        "商业模式概述": "公司以高端装备核心零部件制造为主，通过多业务事业部、全球服务网络和上市公司治理体系承接工程机械、机器人、自动化和新能源装备客户需求。",
+        "admission_reason_summary": "液压属具、传动部件、机器人和刀具业务共同指向研产销协同复杂制造场景，适合进入先进制造补证链路并验证多产品线经营治理。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "烟台艾迪精密机械股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_canonical_name": "爱慕股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_naturehall_ai_v1",
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_dazzle_member_lifecycle_v1",
+        "ka_case_fila_supply_chain_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_naturehall_gpt_v1",
+        "ka_narrative_sephora_distribution_v1",
+        "ka_case_chatbi_frontline_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "爱慕股份从事贴身服饰、内衣、家居服及相关服饰用品的研发、生产、品牌运营与销售。",
+        "商业模式概述": "公司以多品牌服饰经营、产品研发设计、线上线下渠道销售和会员消费运营为核心，服务中高端贴身服饰市场。",
+        "admission_reason_summary": "贴身服饰品类、多品牌和渠道经营特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_naturehall_ai_v1",
+          "asset_type": "customer_case",
+          "title": "自然堂全渠道数字化创新与 AI 实践",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产支撑高 SKU 品牌消费品如何从全渠道数字化与 AI 实践切入，说明品牌消费品的商品、渠道、库存和智能洞察诉求具备稳定可复制性。"
+        },
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_dazzle_member_lifecycle_v1",
+          "asset_type": "customer_case",
+          "title": "地素时尚多品牌会员经营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了地素时尚在多品牌服饰集团背景下，如何通过对接数据中台、梳理业务分析体系和会员全生命周期模型，完成集团统一管理与零售、电商、会员多场景分析的案例。它适合补强鞋服时尚集团和多品牌零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_fila_supply_chain_v1",
+          "asset_type": "customer_case",
+          "title": "Fila 供应链协同案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 Fila 在服装和鞋配两个作战单元下，如何围绕设计、材料、成衣、财务等 7 大部门建立供应链协同和成本交付管控体系的案例。它适合补强时尚鞋服品牌在供应链和库存协同上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_naturehall_gpt_v1",
+          "asset_type": "sales_narrative",
+          "title": "自然堂问数GPT与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了自然堂将大语言模型与 BI 基座结合，通过问答式数据分析降低业务用数门槛、提升敏捷决策效率的叙事。它适合在已有 BI 基础的品牌消费品客户中，说明观远的下一步价值不只是报表，而是 AI+BI 的分析提效与组织升级。"
+        },
+        {
+          "asset_id": "ka_narrative_sephora_distribution_v1",
+          "asset_type": "sales_narrative",
+          "title": "丝芙兰新品分货与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了丝芙兰中国在新品快速迭代和全渠道需求多变背景下，用 AI+BI 做新品分货、提升响应速度与供应链效率的叙事。它适合用来解释高 SKU 美妆零售为什么会被“库存与供应链协同”以及“一线动作闭环”类诉求打动。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "爱慕股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_anji",
+      "account_canonical_name": "安记食品股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_naturehall_ai_v1",
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_dazzle_member_lifecycle_v1",
+        "ka_case_fila_supply_chain_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_naturehall_gpt_v1",
+        "ka_narrative_sephora_distribution_v1",
+        "ka_case_chatbi_frontline_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "安记食品专注复合调味料、调味品和食品配料的研发、生产与销售。",
+        "商业模式概述": "公司以调味品研发制造、品牌销售和渠道铺货为核心，面向餐饮、家庭消费和食品工业客户提供产品。",
+        "admission_reason_summary": "复合调味料产品、品牌渠道和食品消费属性明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_naturehall_ai_v1",
+          "asset_type": "customer_case",
+          "title": "自然堂全渠道数字化创新与 AI 实践",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产支撑高 SKU 品牌消费品如何从全渠道数字化与 AI 实践切入，说明品牌消费品的商品、渠道、库存和智能洞察诉求具备稳定可复制性。"
+        },
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_dazzle_member_lifecycle_v1",
+          "asset_type": "customer_case",
+          "title": "地素时尚多品牌会员经营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了地素时尚在多品牌服饰集团背景下，如何通过对接数据中台、梳理业务分析体系和会员全生命周期模型，完成集团统一管理与零售、电商、会员多场景分析的案例。它适合补强鞋服时尚集团和多品牌零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_fila_supply_chain_v1",
+          "asset_type": "customer_case",
+          "title": "Fila 供应链协同案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 Fila 在服装和鞋配两个作战单元下，如何围绕设计、材料、成衣、财务等 7 大部门建立供应链协同和成本交付管控体系的案例。它适合补强时尚鞋服品牌在供应链和库存协同上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_naturehall_gpt_v1",
+          "asset_type": "sales_narrative",
+          "title": "自然堂问数GPT与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了自然堂将大语言模型与 BI 基座结合，通过问答式数据分析降低业务用数门槛、提升敏捷决策效率的叙事。它适合在已有 BI 基础的品牌消费品客户中，说明观远的下一步价值不只是报表，而是 AI+BI 的分析提效与组织升级。"
+        },
+        {
+          "asset_id": "ka_narrative_sephora_distribution_v1",
+          "asset_type": "sales_narrative",
+          "title": "丝芙兰新品分货与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了丝芙兰中国在新品快速迭代和全渠道需求多变背景下，用 AI+BI 做新品分货、提升响应速度与供应链效率的叙事。它适合用来解释高 SKU 美妆零售为什么会被“库存与供应链协同”以及“一线动作闭环”类诉求打动。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "安记食品股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_canonical_name": "安井食品集团股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_naturehall_ai_v1",
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_dazzle_member_lifecycle_v1",
+        "ka_case_fila_supply_chain_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_naturehall_gpt_v1",
+        "ka_narrative_sephora_distribution_v1",
+        "ka_case_chatbi_frontline_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "安井食品主营速冻调制食品、速冻菜肴制品和速冻面米制品等速冻食品的研发、生产与销售。",
+        "商业模式概述": "公司以冷冻食品研发制造、品牌渠道、餐饮和零售终端供应为主，围绕多品类和冷链履约组织经营。",
+        "admission_reason_summary": "速冻食品产品矩阵、渠道供应和冷链履约特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_naturehall_ai_v1",
+          "asset_type": "customer_case",
+          "title": "自然堂全渠道数字化创新与 AI 实践",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产支撑高 SKU 品牌消费品如何从全渠道数字化与 AI 实践切入，说明品牌消费品的商品、渠道、库存和智能洞察诉求具备稳定可复制性。"
+        },
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_dazzle_member_lifecycle_v1",
+          "asset_type": "customer_case",
+          "title": "地素时尚多品牌会员经营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了地素时尚在多品牌服饰集团背景下，如何通过对接数据中台、梳理业务分析体系和会员全生命周期模型，完成集团统一管理与零售、电商、会员多场景分析的案例。它适合补强鞋服时尚集团和多品牌零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_fila_supply_chain_v1",
+          "asset_type": "customer_case",
+          "title": "Fila 供应链协同案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 Fila 在服装和鞋配两个作战单元下，如何围绕设计、材料、成衣、财务等 7 大部门建立供应链协同和成本交付管控体系的案例。它适合补强时尚鞋服品牌在供应链和库存协同上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_naturehall_gpt_v1",
+          "asset_type": "sales_narrative",
+          "title": "自然堂问数GPT与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了自然堂将大语言模型与 BI 基座结合，通过问答式数据分析降低业务用数门槛、提升敏捷决策效率的叙事。它适合在已有 BI 基础的品牌消费品客户中，说明观远的下一步价值不只是报表，而是 AI+BI 的分析提效与组织升级。"
+        },
+        {
+          "asset_id": "ka_narrative_sephora_distribution_v1",
+          "asset_type": "sales_narrative",
+          "title": "丝芙兰新品分货与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了丝芙兰中国在新品快速迭代和全渠道需求多变背景下，用 AI+BI 做新品分货、提升响应速度与供应链效率的叙事。它适合用来解释高 SKU 美妆零售为什么会被“库存与供应链协同”以及“一线动作闭环”类诉求打动。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "安井食品集团股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_canonical_name": "奥飞娱乐股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_high_sku_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_naturehall_ai_v1",
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_dazzle_member_lifecycle_v1",
+        "ka_case_fila_supply_chain_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_naturehall_gpt_v1",
+        "ka_narrative_sephora_distribution_v1",
+        "ka_case_chatbi_frontline_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "奥飞娱乐围绕动漫内容、影视、游戏、媒体、消费品和主题业态开展 IP 内容与衍生消费业务。",
+        "商业模式概述": "公司以 IP 内容生产、授权、玩具和消费品衍生、渠道销售为核心，形成内容到商品的消费经营链路。",
+        "admission_reason_summary": "动漫 IP、玩具消费品和内容衍生链路清晰，能够支撑零售消费高 SKU 品牌及 IP 商品经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_naturehall_ai_v1",
+          "asset_type": "customer_case",
+          "title": "自然堂全渠道数字化创新与 AI 实践",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产支撑高 SKU 品牌消费品如何从全渠道数字化与 AI 实践切入，说明品牌消费品的商品、渠道、库存和智能洞察诉求具备稳定可复制性。"
+        },
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_dazzle_member_lifecycle_v1",
+          "asset_type": "customer_case",
+          "title": "地素时尚多品牌会员经营案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了地素时尚在多品牌服饰集团背景下，如何通过对接数据中台、梳理业务分析体系和会员全生命周期模型，完成集团统一管理与零售、电商、会员多场景分析的案例。它适合补强鞋服时尚集团和多品牌零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_fila_supply_chain_v1",
+          "asset_type": "customer_case",
+          "title": "Fila 供应链协同案例",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 Fila 在服装和鞋配两个作战单元下，如何围绕设计、材料、成衣、财务等 7 大部门建立供应链协同和成本交付管控体系的案例。它适合补强时尚鞋服品牌在供应链和库存协同上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_naturehall_gpt_v1",
+          "asset_type": "sales_narrative",
+          "title": "自然堂问数GPT与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了自然堂将大语言模型与 BI 基座结合，通过问答式数据分析降低业务用数门槛、提升敏捷决策效率的叙事。它适合在已有 BI 基础的品牌消费品客户中，说明观远的下一步价值不只是报表，而是 AI+BI 的分析提效与组织升级。"
+        },
+        {
+          "asset_id": "ka_narrative_sephora_distribution_v1",
+          "asset_type": "sales_narrative",
+          "title": "丝芙兰新品分货与 AI+BI 叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了丝芙兰中国在新品快速迭代和全渠道需求多变背景下，用 AI+BI 做新品分货、提升响应速度与供应链效率的叙事。它适合用来解释高 SKU 美妆零售为什么会被“库存与供应链协同”以及“一线动作闭环”类诉求打动。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_high_sku_brand 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "奥飞娱乐股份有限公司 enrich 完成：主画像=retail_high_sku_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_canonical_name": "箭牌家居集团股份有限公司",
+      "primary_track": "零售消费",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "retail_multi_store",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_xianfeng_retail_v1",
+        "ka_case_apparel_multi_brand_ops_v1",
+        "ka_case_bama_tea_chain_v1",
+        "ka_case_beiguo_jewelry_ops_v1",
+        "ka_case_coco_fnb_v1"
+      ],
+      "talk_track_refs": [
+        "ka_case_chatbi_frontline_v1",
+        "ka_narrative_boshiyanjing_aibi_v1",
+        "ka_solution_frontline_loop_retail_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "公司产品与服务概述": "箭牌家居提供智能坐便器、卫浴陶瓷、浴室柜、五金龙头、瓷砖和定制家居等智慧家居产品。",
+        "商业模式概述": "公司以多品牌家居产品制造、全国销售网点、经销和零售渠道运营为核心，面向家庭装修与家居消费市场。",
+        "admission_reason_summary": "家居产品矩阵、十大生产基地和大量销售网点特征明确，能够支撑零售消费多门店网络画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_057",
+          "material_title": "LLLM 采销供应链数据化解决方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_058",
+          "material_title": "CJ Foods 需求计划数字化平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "retail_high_sku_brand,mgmt_inventory_supply_coordination"
+        },
+        {
+          "queue_id": "klq_059",
+          "material_title": "鲜丰水果数据智能化应用方案",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_060",
+          "material_title": "7-Eleven 终端经营透视案例",
+          "priority": "P2",
+          "trigger_persona_id": "retail_multi_store,mgmt_hq_operating_visibility"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_xianfeng_retail_v1",
+          "asset_type": "customer_case",
+          "title": "鲜丰水果等连锁零售经营分析样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了多门店连锁零售的样本锚点，可用于判断哪些零售企业属于总部强管理、多区域、多门店、高频复盘型对象。"
+        },
+        {
+          "asset_id": "ka_case_apparel_multi_brand_ops_v1",
+          "asset_type": "customer_case",
+          "title": "多品牌服饰零售经营样本",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀多品牌服饰零售在总部经营透视与商品渠道联动上的共性。"
+        },
+        {
+          "asset_id": "ka_case_bama_tea_chain_v1",
+          "asset_type": "customer_case",
+          "title": "八马茶业连锁经营案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了八马茶业在采购、生产、加盟、直营、线上线下全链条经营背景下，如何通过 BI 项目解决底层数据未打通、数据核算复杂和报表加工周期长等问题的案例。它适合补强茶叶连锁和全产业链零售经营样本。"
+        },
+        {
+          "asset_id": "ka_case_beiguo_jewelry_ops_v1",
+          "asset_type": "customer_case",
+          "title": "北国珠宝品牌零售经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了北国珠宝在传统线下门店、APP、抖音、快手多渠道并存背景下，如何通过 BI 平台帮助管理层追踪经营业绩、帮助业务部门优化库存和商品结构，并通过移动端预警支持一线运营的案例。它适合作为珠宝零售与多渠道品牌零售样本的补强。"
+        },
+        {
+          "asset_id": "ka_case_chatbi_frontline_v1",
+          "asset_type": "sales_narrative",
+          "title": "ChatBI 在督导、店长、一线场景中的应用叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明观远的 AI+BI 能力可以下沉到督导、店长和一线业务动作，不只服务总部报表。"
+        },
+        {
+          "asset_id": "ka_case_coco_fnb_v1",
+          "asset_type": "customer_case",
+          "title": "COCO 茶饮连锁经营分析案例",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 COCO 都可在全球化门店网络和茶饮高频运营场景下，通过经营综合看板、商品分析、利润经营和供应链分析提升总部与区域经营能力的案例。它适合补强茶饮赛道的标准化运营和门店经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_boshiyanjing_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "博士眼镜 AI+BI 一线经营叙事",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了博士眼镜通过飞书、观远 BI 与 AI 营销能力，用 4 人数据团队服务 2500 人数据消费需求，并围绕高管、销售管理与中台团队建立数据运营优先级与闭环方式的叙事。它适合作为门店型零售 AI+BI 经营赋能的轻叙事资产。"
+        },
+        {
+          "asset_id": "ka_solution_frontline_loop_retail_v1",
+          "asset_type": "sales_narrative",
+          "title": "零售一线动作闭环打法",
+          "match_reason": "零售消费 / retail_multi_store 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "把一线问数、督导巡店和动作闭环整理成适合连锁零售/餐饮的一线打法资产。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "箭牌家居集团股份有限公司 enrich 完成：主画像=retail_multi_store，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_canonical_name": "深圳市傲基创新科技股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_insight_cbec_jtbd_v1",
+        "ka_solution_cbec_profit_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "傲基科技面向全球市场经营自主品牌科技消费品，覆盖消费电子、智能硬件及相关跨境销售品类。",
+        "商业模式概述": "公司以跨境品牌运营、产品研发设计、海外渠道和供应链管理为核心，服务全球消费者市场。",
+        "admission_reason_summary": "自主品牌科技消费品、跨境渠道和供应链协同特征清晰，能够支撑跨境多平台品牌经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_insight_cbec_jtbd_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商核心 JTBD 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产把跨境电商的核心任务收敛为市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析四条主线。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市傲基创新科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_canonical_name": "浙江嘉益保温科技股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_smallrig_outbound_v1",
+        "ka_insight_cbec_abm_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "嘉益股份专注不锈钢保温杯、旅行杯、水杯和饮品容器的研发设计、生产与销售，并提供 OEM/ODM 服务。",
+        "商业模式概述": "公司以中国及海外工厂制造能力、全球品牌客户协同和饮具产品开发为主，形成制造出海和客户定制交付模式。",
+        "admission_reason_summary": "保温杯产品、海外工厂和全球品牌客户协同明确，能够支撑跨境品牌制造与供应链复杂度复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_abm_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商 ABM 物料与 ICP 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明跨境电商已经不是“研究阶段”，而是已具备 ABM 物料、Top 案例和相对明确的 ICP。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江嘉益保温科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_canonical_name": "江苏天奈科技股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "天奈科技主要提供碳纳米管导电浆料、碳纳米管粉体及相关新材料产品，面向锂电池和导电材料应用。",
+        "商业模式概述": "公司以新能源材料研发、规模化制造和客户技术服务为主，围绕锂电池产业链形成材料交付和持续工艺迭代模式。",
+        "admission_reason_summary": "碳纳米管导电材料与新能源电池产业链深度绑定，能够支撑先进制造画像下研发、量产和客户认证协同的复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "江苏天奈科技股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_canonical_name": "浙江大自然户外用品股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_smallrig_outbound_v1",
+        "ka_insight_cbec_abm_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "大自然户外用品研发、生产自动充气垫、充气床、防水包、冰包、枕头坐垫和 TPU 复合面料等户外产品。",
+        "商业模式概述": "公司以户外用品研发制造、全球品牌客户合作和出口交付为主，围绕产品设计、生产制造和客户订单履约运营。",
+        "admission_reason_summary": "户外用品产品线、全球品牌合作和出口制造特征明确，能够支撑跨境品牌供应链和海外经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_abm_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商 ABM 物料与 ICP 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明跨境电商已经不是“研究阶段”，而是已具备 ABM 物料、Top 案例和相对明确的 ICP。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江大自然户外用品股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_canonical_name": "浙江鼎力机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "浙江鼎力研发、生产、销售剪叉式、臂式等智能高空作业平台，并提供面向全球客户的装备服务。",
+        "商业模式概述": "公司以高端装备制造、全球渠道销售和售后服务为核心，依托研发、生产基地和海外市场覆盖形成制造出海模式。",
+        "admission_reason_summary": "高空作业平台产品、全球服务网络和研发生产体系明确，能够验证先进制造多基地与全球经营协同画像。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江鼎力机械股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_canonical_name": "深圳市易仓科技有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_insight_cbec_jtbd_v1",
+        "ka_solution_cbec_profit_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "易仓科技提供跨境电商 ERP、海外仓系统、国际货代软件和跨境分销 M2B 等软件服务。",
+        "商业模式概述": "公司以跨境电商 SaaS/软件产品、系统实施和客户运营服务为主，支撑卖家、海外仓和物流服务商的业务协同。",
+        "admission_reason_summary": "跨境 ERP、海外仓和货代系统覆盖跨境经营关键环节，能够支撑跨境平台服务和供应链复杂度画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_insight_cbec_jtbd_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商核心 JTBD 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产把跨境电商的核心任务收敛为市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析四条主线。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市易仓科技有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_canonical_name": "江苏先锋精密科技股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "先锋精科聚焦半导体刻蚀、薄膜沉积等设备的关键精密零部件、模组生产与装配。",
+        "商业模式概述": "公司以半导体设备核心零部件精密制造为主，通过工艺研发、精密加工和客户认证体系服务设备产业链客户。",
+        "admission_reason_summary": "半导体设备关键零部件业务具备高工艺门槛和客户认证特征，能够支撑先进制造研产销复杂协同画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "江苏先锋精密科技股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_canonical_name": "杭州巨星科技股份有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_insight_cbec_jtbd_v1",
+        "ka_solution_cbec_profit_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "巨星科技专注中高端手工具、电动工具、工具箱柜、智能产品和相关五金工具产品的开发、生产与销售。",
+        "商业模式概述": "公司以工具产品研发制造、全球渠道销售和品牌/供应链运营为主，面向欧美等海外市场形成制造出海模式。",
+        "admission_reason_summary": "工具产品线、全球销售网络和跨境经营特征明确，能够支撑跨境供应链复杂型经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_insight_cbec_jtbd_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商核心 JTBD 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产把跨境电商的核心任务收敛为市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析四条主线。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "杭州巨星科技股份有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_canonical_name": "宁波海天精工股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_shoufan_custom_mfg_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "海天精工主要研发、生产和销售龙门加工中心、立式加工中心、卧式加工中心、数控车床等高端数控机床。",
+        "商业模式概述": "公司以高端数控机床制造为核心，依托多地制造基地、技术研发和销售服务体系面向工业客户交付设备。",
+        "admission_reason_summary": "数控机床产品线、多制造基地和上市公司治理信息明确，能够支撑先进制造多工厂集团画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_shoufan_custom_mfg_v1",
+          "asset_type": "customer_case",
+          "title": "首帆动力定制化生产经营分析案例",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了首帆动力在服务全球 120 多个国家和地区、面对高度定制化和低毛利业务背景下，如何通过 BI 打通 CRM、PLM、MES、ERP 等系统，实现报价提效、成本预警和订单全生命周期追溯的案例。它适合补强复杂制造和边设计边生产型企业的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [],
+      "enrich_ready_for_promote": true,
+      "summary": "宁波海天精工股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    }
+  ],
+  "write_back": {
+    "enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {}
+  }
+}

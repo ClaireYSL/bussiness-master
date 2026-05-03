@@ -1,0 +1,16 @@
+{
+  "batch_id": "milestone14_2_intake_quality_promote_v1",
+  "goal": "Milestone 14.2：扩容样本入池质量解阻 promote 非写回复核",
+  "account_ids": [],
+  "from_level": "L5",
+  "target_level": "L3",
+  "auto_open_promotion_review_for_selected": true,
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": false,
+  "enrich_result_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone14_2_intake_quality_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone14_2_intake_quality_queue_v1.json",
+  "output_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻-promote复盘-v1.md"
+}

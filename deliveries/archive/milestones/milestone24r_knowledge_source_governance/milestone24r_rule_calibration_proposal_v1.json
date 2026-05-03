@@ -1,0 +1,35 @@
+{
+  "batch_id": "milestone24r_rule_calibration_proposal_v1",
+  "items": [
+    {
+      "proposal_id": "m24r_rule_mfg_multi_factory_group_boundary_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "candidate_count": 7,
+      "proposal_summary": "该画像在潜客批次中出现稳定候选，但这只能说明候选匹配；是否调整画像定义必须回到真实客户案例、解决方案或行业权威材料验证。",
+      "status": "needs_human_and_source_review",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m24r_rule_mfg_rnd_sales_complex_boundary_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "candidate_count": 20,
+      "proposal_summary": "该画像在潜客批次中出现稳定候选，但这只能说明候选匹配；是否调整画像定义必须回到真实客户案例、解决方案或行业权威材料验证。",
+      "status": "needs_human_and_source_review",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m24r_rule_cbec_multi_platform_brand_boundary_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "candidate_count": 3,
+      "proposal_summary": "该画像在潜客批次中出现稳定候选，但这只能说明候选匹配；是否调整画像定义必须回到真实客户案例、解决方案或行业权威材料验证。",
+      "status": "needs_human_and_source_review",
+      "formal_rule_change_allowed": false
+    }
+  ]
+}

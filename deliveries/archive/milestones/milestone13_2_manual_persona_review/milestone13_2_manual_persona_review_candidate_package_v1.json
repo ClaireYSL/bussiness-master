@@ -1,0 +1,272 @@
+{
+  "batch_id": "milestone13_2_manual_persona_review_candidate_package_v1",
+  "generated_at": "2026-04-27T02:29:00.245337+00:00",
+  "source_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_rule_package_v1.json",
+  "summary": {
+    "account_count": 12,
+    "boundary_decision_counts": {
+      "keep_pending_review": 12
+    },
+    "manual_confirmation_count": 0
+  },
+  "accounts": [
+    {
+      "account_id": "acc_cn_000768",
+      "account_name": "中航西飞",
+      "persona": "mfg_rnd_sales_complex",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "official_source",
+        "persona_support",
+        "rd_manufacturing_sales",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认研产销协同、高技术制造或复杂产品经营链路。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "account_name": "国轩高科",
+      "persona": "mfg_rnd_sales_complex",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "official_source",
+        "persona_support",
+        "rd_manufacturing_sales",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认研产销协同、高技术制造或复杂产品经营链路。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "account_name": "光迅科技",
+      "persona": "mfg_multi_factory_group",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "manufacturing_complexity",
+        "official_source",
+        "persona_support",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认制造协同、多基地、多产线或集团化经营复杂度。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "account_name": "中顺洁柔",
+      "persona": "retail_high_sku_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "official_source",
+        "persona_support",
+        "product_scope",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认多 SKU/多品类品牌经营，而不是只有单一产品或泛消费品描述。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "account_name": "金达威",
+      "persona": "retail_high_sku_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "official_source",
+        "persona_support",
+        "product_scope",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认多 SKU/多品类品牌经营，而不是只有单一产品或泛消费品描述。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "account_name": "跨境通",
+      "persona": "cbec_multi_platform_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "cross_border_platform",
+        "official_source",
+        "persona_support",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认跨境或多平台经营结构，而不是只有互联网电商或代运营标签。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "account_name": "华凯易佰",
+      "persona": "cbec_multi_platform_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "cross_border_platform",
+        "official_source",
+        "persona_support",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认跨境或多平台经营结构，而不是只有互联网电商或代运营标签。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "account_name": "青木科技",
+      "persona": "cbec_multi_platform_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "ecommerce_service",
+        "official_source",
+        "persona_support",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [
+        "cross_border_platform"
+      ],
+      "reasons": [
+        "persona_required_dimensions_missing",
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认跨境或多平台经营结构，而不是只有互联网电商或代运营标签。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "补足缺失维度或保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "account_name": "珠免集团",
+      "persona": "retail_multi_store",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "official_source",
+        "persona_support",
+        "retail_network",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认门店/零售网络/区域经营结构，而不是只有零售行业标签。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "account_name": "盛美上海",
+      "persona": "mfg_rnd_sales_complex",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "official_source",
+        "persona_support",
+        "semiconductor_equipment",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [
+        "rd_manufacturing_sales"
+      ],
+      "reasons": [
+        "persona_required_dimensions_missing",
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认研产销协同、高技术制造或复杂产品经营链路。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "补足缺失维度或保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_dreame",
+      "account_name": "追觅创新科技（苏州）有限公司",
+      "persona": "retail_high_sku_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "persona_support",
+        "product_scope",
+        "product_service",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认多 SKU/多品类品牌经营，而不是只有单一产品或泛消费品描述。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "account_name": "深圳市通拓科技有限公司",
+      "persona": "cbec_multi_platform_brand",
+      "boundary_decision": "keep_pending_review",
+      "suggested_review_status": "pending_review",
+      "strong_evidence_count": 2,
+      "evidence_dimensions": [
+        "admission_reason",
+        "cross_border_platform",
+        "persona_support",
+        "track_fit"
+      ],
+      "missing_required_dimensions": [],
+      "reasons": [
+        "active_confirmation_missing"
+      ],
+      "active_confirmation_hint": "需要能确认跨境或多平台经营结构，而不是只有互联网电商或代运营标签。",
+      "review_question": "是否确认该对象的主画像已稳定，足以从 pending_review 转 active？",
+      "suggested_manual_action": "人工复核后可考虑 confirm_active；若无法确认，保持 keep_pending。"
+    }
+  ]
+}

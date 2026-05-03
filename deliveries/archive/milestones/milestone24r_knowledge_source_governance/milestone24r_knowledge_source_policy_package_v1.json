@@ -1,0 +1,31 @@
+{
+  "package_id": "milestone24r_knowledge_source_policy_package_v1",
+  "allowed_formal_source_types": [
+    "served_customer_case",
+    "internal_solution_material",
+    "verified_playbook",
+    "industry_research",
+    "annual_report",
+    "announcement",
+    "ir",
+    "regulatory_disclosure",
+    "human_reviewed_mapping_fact"
+  ],
+  "forbidden_prospect_sources": [
+    "trusted_prospect_card",
+    "candidate_observation",
+    "promote_result",
+    "report_only_summary",
+    "profile_page_summary",
+    "llm_candidate_summary"
+  ],
+  "allowed_candidate_outputs": [
+    "candidate_observation",
+    "persona_boundary_question",
+    "rule_calibration_proposal",
+    "source_gap"
+  ],
+  "formal_knowledge_write_enabled": false,
+  "correct_flow": "candidate_observation -> learning_queue source_gap -> real material validation -> human review -> formal knowledge asset",
+  "boundary_doc": "docs/00-当前总览/BusinessMaster知识资产来源边界与潜客观察隔离原则-v1.md"
+}

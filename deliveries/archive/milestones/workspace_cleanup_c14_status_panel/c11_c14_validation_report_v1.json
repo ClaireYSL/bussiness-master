@@ -1,0 +1,343 @@
+{
+  "milestone": "C11-C14",
+  "generated_at": "2026-05-03T12:16:54.707392+00:00",
+  "status": "PASS",
+  "py_compile": {
+    "returncode": 0,
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 323,
+    "error_count": 0,
+    "errors": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "api_key_findings_count": 0,
+    "findings": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "dynamic_term_findings_count": 0,
+    "findings": [],
+    "allowed_references": [
+      {
+        "path": "deliveries/archive/handoffs/milestone16_2_autonomous_status_panel_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone21_persona_business_confirmation/milestone21_persona_business_confirmation_package_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone21_persona_business_confirmation/milestone21_persona_business_confirmation_package_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone23a_l3_business_feedback/milestone23a_l3_business_feedback_package_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone23a_l3_business_feedback/milestone23a_l3_business_feedback_package_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone30r_post_writeback_consumption_review/milestone30r_post_writeback_consumption_review_package_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone30r_post_writeback_consumption_review/milestone30r_post_writeback_consumption_review_package_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone30r_post_writeback_consumption_review/milestone30r_post_writeback_sample_review_items_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone30r_post_writeback_consumption_review/milestone30r_post_writeback_sample_review_items_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_business_feedback_loop_package_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_business_feedback_loop_package_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_business_feedback_loop_package_v1.json",
+        "term": "business_feedback_pending",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_candidate_observation_package_v1.json",
+        "term": "business_feedback_pending",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_source_gap_queue_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_source_gap_queue_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_analysis_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_analysis_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_collection_view_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_collection_view_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_quality_validation_package_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_quality_validation_package_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone57r_l2_business_feedback/milestone57r_l2_business_feedback_closure_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone57r_l2_business_feedback/milestone57r_l2_business_feedback_template_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone57r_l2_business_feedback/milestone57r_l2_business_feedback_template_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "deliveries/archive/milestones/milestone58r_static_pool_boundary_correction/static_boundary_no_dynamic_proof_v1.json",
+        "term": "重点经营",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/00-当前总览/BusinessMaster主线校正与下一阶段计划-可信画像匹配潜客池-v1.md",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/00-当前总览/BusinessMaster主线校正与下一阶段计划-可信画像匹配潜客池-v1.md",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/00-当前总览/BusinessMaster产品专家评审与路线修订-M21-M26-v1.md",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/00-当前总览/BusinessMaster产品专家评审与路线修订-M21-M26-v1.md",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/03-执行与校验/Milestone 16.2-自治运行状态面板-v1.md",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/03-执行与校验/Milestone 23A-首批15家L3业务反馈快跑复盘-v1.md",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/03-执行与校验/Milestone 23A-首批15家L3业务反馈快跑复盘-v1.md",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/03-执行与校验/Milestone 30R-写回后50家可消费池复核与业务抽样评估-v1.md",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "docs/03-执行与校验/Milestone 30R-写回后50家可消费池复核与业务抽样评估-v1.md",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone21_persona_business_confirmation_template_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone21_persona_business_confirmation_template_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone23a_l3_business_feedback_template_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone23a_l3_business_feedback_template_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone30r_post_writeback_business_review_template_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone30r_post_writeback_business_review_template_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone31r_business_feedback_collection_template_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone31r_business_feedback_collection_template_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone32r_business_feedback_collection_template_v1.json",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "configs/execution_batches/milestone32r_business_feedback_collection_template_v1.json",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_autonomous_status_panel.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_business_feedback_fast_run_package.py",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_business_feedback_fast_run_package.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m30r_post_writeback_consumption_review.py",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m30r_post_writeback_consumption_review.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m31r_business_feedback_loop_package.py",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m31r_business_feedback_loop_package.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m31r_business_feedback_loop_package.py",
+        "term": "business_feedback_pending",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m32r_feedback_quality_validation_package.py",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m32r_feedback_quality_validation_package.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m49r_vault_restructure_package.py",
+        "term": "重点经营",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_m50r_vault_canonical_cleanup.py",
+        "term": "重点经营",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_persona_business_confirmation_package.py",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_persona_business_confirmation_package.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_c11_c14_workspace_cleanup_execution.py",
+        "term": "重点经营",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_c11_c14_workspace_cleanup_execution.py",
+        "term": "worth_following",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_c11_c14_workspace_cleanup_execution.py",
+        "term": "recommended_next_action",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      },
+      {
+        "path": "scripts/build_c11_c14_workspace_cleanup_execution.py",
+        "term": "business_feedback_pending",
+        "reason": "legacy_archive_import_or_cleanup_reference"
+      }
+    ],
+    "allowed_reference_count": 62
+  },
+  "assertions": {
+    "c11_no_behavior_change": true,
+    "c12_no_legacy_execution": true,
+    "c13_no_revert": true,
+    "c14_ready": true
+  }
+}

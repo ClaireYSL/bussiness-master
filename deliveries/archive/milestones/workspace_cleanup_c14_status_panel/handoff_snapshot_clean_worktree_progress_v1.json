@@ -1,0 +1,19 @@
+{
+  "milestone": "C14",
+  "generated_at": "2026-05-03T12:16:54.338554+00:00",
+  "status": "PASS_C14_HANDOFF_SNAPSHOT_CLEANUP_PROGRESS_READY",
+  "latest_cleanup": "C14",
+  "key_outputs": {
+    "c11_archive_manifest": "deliveries/archive/milestones/workspace_cleanup_c11_archive_import/archive_import_manifest_v1.json",
+    "c12_legacy_manifest": "deliveries/archive/milestones/workspace_cleanup_c12_legacy_import/legacy_config_script_import_manifest_v1.json",
+    "c13_tracked_decisions": "deliveries/archive/milestones/workspace_cleanup_c13_tracked_decisions/tracked_changes_decision_package_v1.json",
+    "c14_status_panel": "deliveries/archive/milestones/workspace_cleanup_c14_status_panel/workspace_cleanup_status_panel_v2.json"
+  },
+  "do_not_do": [
+    "delete",
+    "reset",
+    "move historical files",
+    "run legacy write_back",
+    "stage C13 tracked modified without explicit decision"
+  ]
+}

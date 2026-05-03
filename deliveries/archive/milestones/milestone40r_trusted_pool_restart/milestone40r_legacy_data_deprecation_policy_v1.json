@@ -1,0 +1,34 @@
+{
+  "policy_id": "milestone40r_legacy_data_deprecation_policy_v1",
+  "status": "active",
+  "principle": "历史主表、档案库、共享版不再作为可信事实源；只作为 legacy reference。",
+  "legacy_assets": [
+    {
+      "asset": "静态潜客主表.xlsx",
+      "new_role": "legacy_candidate_index",
+      "allowed_use": "只用于发现候选线索、去重和历史追溯；不得直接作为可信事实源。"
+    },
+    {
+      "asset": "潜客档案库.xlsx",
+      "new_role": "legacy_archive_reference",
+      "allowed_use": "只读参考；只有重新补强证据后，字段才能进入新可信潜客包。"
+    },
+    {
+      "asset": "内部运营-静态潜客池-共享版.xlsx",
+      "new_role": "deprecated_export",
+      "allowed_use": "不再参与治理、候选准入或质量判断；后续如需共享视图，从新可信包再生成。"
+    },
+    {
+      "asset": "治理与证据.xlsx",
+      "new_role": "legacy_evidence_and_queue_log",
+      "allowed_use": "保留历史写回记录；新增可信证据建议改用 milestone evidence package。"
+    }
+  ],
+  "rules": [
+    "不再修复低价值历史字段差异。",
+    "旧数据不能直接进入新可信池。",
+    "旧候选若要复用，必须按新 evidence-first 流程重新采集强来源证据。",
+    "潜客观察不能直接写入正式知识资产。",
+    "共享版不再阻塞主线。"
+  ]
+}

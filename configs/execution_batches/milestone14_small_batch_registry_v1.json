@@ -1,0 +1,50 @@
+{
+  "milestone_id": "milestone14_small_batch_expansion",
+  "batch_id": "milestone14_small_batch_expansion_v1",
+  "goal": "Milestone 14：小批量合格潜客池扩容试运行",
+  "track_mix": {
+    "tracks": [
+      "零售消费",
+      "跨境电商",
+      "先进制造"
+    ]
+  },
+  "promotion_mix": {
+    "routes": [
+      {
+        "from_level": "L5",
+        "target_level": "L3",
+        "per_track": 5
+      }
+    ]
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  },
+  "candidate_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_candidates_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone14_small_batch_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14-小批扩容enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone14_small_batch_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14-小批扩容promote复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14-小批扩容最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_report_baseline_v1.json"
+  },
+  "success_metrics": {
+    "target_count": 15,
+    "write_back_allowed_by_default": false,
+    "goal": "验证规则迁移，不追求写回。"
+  }
+}

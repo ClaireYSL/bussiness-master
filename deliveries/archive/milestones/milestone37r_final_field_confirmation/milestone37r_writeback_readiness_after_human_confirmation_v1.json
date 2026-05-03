@@ -1,0 +1,15 @@
+{
+  "batch_id": "milestone37r_writeback_readiness_after_human_confirmation_v1",
+  "mode": "not_ready_until_human_decision_filled",
+  "candidate_patch_account_count_from_m36": 3,
+  "suggested_sync_item_count": 8,
+  "suggested_alias_item_count": 2,
+  "suggested_hold_item_count": 5,
+  "required_before_true_writeback": [
+    "human_decision 必须填写，且只能使用 allowed_decisions 中的值。",
+    "account_canonical_name 不直接覆盖；默认作为 alias 记录候选处理。",
+    "只有 human_decision=sync_main_to_profile 或 merge_values 的字段才能进入最终写回 patch。",
+    "真实写回前必须重新读取当前 profile，确认目标字段未发生漂移。"
+  ],
+  "true_writeback_enabled": false
+}

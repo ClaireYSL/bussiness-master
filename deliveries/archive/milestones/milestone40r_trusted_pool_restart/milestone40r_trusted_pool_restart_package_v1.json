@@ -1,0 +1,165 @@
+{
+  "batch_id": "milestone40r_trusted_pool_restart_package_v1",
+  "generated_at": "2026-04-28T14:17:30.412395+00:00",
+  "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+  "summary": {
+    "legacy_isolation_status": "active",
+    "new_pool_entry_mode": "evidence_first",
+    "shared_view_in_core_pipeline": false,
+    "legacy_profile_in_trusted_decision": false,
+    "legacy_main_in_trusted_decision": false,
+    "legacy_assets_deleted": false,
+    "new_schema_required_field_count": 11,
+    "minimum_entry_gate_count": 5,
+    "workbook_integrity_ok": true,
+    "true_writeback_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "legacy_data_deprecation_policy": {
+    "policy_id": "milestone40r_legacy_data_deprecation_policy_v1",
+    "status": "active",
+    "principle": "历史主表、档案库、共享版不再作为可信事实源；只作为 legacy reference。",
+    "legacy_assets": [
+      {
+        "asset": "静态潜客主表.xlsx",
+        "new_role": "legacy_candidate_index",
+        "allowed_use": "只用于发现候选线索、去重和历史追溯；不得直接作为可信事实源。"
+      },
+      {
+        "asset": "潜客档案库.xlsx",
+        "new_role": "legacy_archive_reference",
+        "allowed_use": "只读参考；只有重新补强证据后，字段才能进入新可信潜客包。"
+      },
+      {
+        "asset": "内部运营-静态潜客池-共享版.xlsx",
+        "new_role": "deprecated_export",
+        "allowed_use": "不再参与治理、候选准入或质量判断；后续如需共享视图，从新可信包再生成。"
+      },
+      {
+        "asset": "治理与证据.xlsx",
+        "new_role": "legacy_evidence_and_queue_log",
+        "allowed_use": "保留历史写回记录；新增可信证据建议改用 milestone evidence package。"
+      }
+    ],
+    "rules": [
+      "不再修复低价值历史字段差异。",
+      "旧数据不能直接进入新可信池。",
+      "旧候选若要复用，必须按新 evidence-first 流程重新采集强来源证据。",
+      "潜客观察不能直接写入正式知识资产。",
+      "共享版不再阻塞主线。"
+    ]
+  },
+  "new_prospect_intake_schema": {
+    "schema_id": "milestone40r_new_prospect_intake_schema_v1",
+    "required_fields": [
+      "prospect_id",
+      "company_canonical_name",
+      "matched_persona",
+      "match_reason",
+      "core_product_service_summary",
+      "business_model_summary",
+      "official_or_strong_evidence",
+      "source_locator",
+      "evidence_strength",
+      "risk_or_gap",
+      "trusted_status"
+    ],
+    "trusted_status_values": [
+      "trusted_match_ready",
+      "needs_evidence_patch",
+      "persona_pending_review",
+      "not_ready"
+    ],
+    "minimum_entry_gate": [
+      "至少 1 条官方或强来源 evidence。",
+      "必须有明确匹配画像。",
+      "必须有可读的核心产品/服务摘要。",
+      "必须说明为什么匹配，而不是只给标签。",
+      "必须保留风险或待补点。"
+    ]
+  },
+  "trusted_evidence_first_workflow": {
+    "workflow_id": "milestone40r_trusted_evidence_first_workflow_v1",
+    "steps": [
+      {
+        "step": 1,
+        "name": "candidate_discovery",
+        "description": "从知识库画像、公开来源、行业名单或 legacy index 发现候选。",
+        "output": "candidate_seed"
+      },
+      {
+        "step": 2,
+        "name": "evidence_collection",
+        "description": "为候选收集官网、年报、IR、公告、CNINFO、权威行业材料等强来源。",
+        "output": "evidence_patch"
+      },
+      {
+        "step": 3,
+        "name": "trusted_summary_card",
+        "description": "基于 evidence 生成可信潜客摘要卡。",
+        "output": "trusted_prospect_card"
+      },
+      {
+        "step": 4,
+        "name": "persona_match_review",
+        "description": "用画像规则判断匹配度，输出 trusted_status。",
+        "output": "persona_match_result"
+      },
+      {
+        "step": 5,
+        "name": "share_or_queue",
+        "description": "可信对象进入共享消费包；不可信对象进入补证队列。",
+        "output": "share_package_or_source_gap_queue"
+      }
+    ],
+    "llm_usage_boundary": [
+      "LLM 可做摘要草稿、画像复核草稿、补源建议。",
+      "LLM 不得直接决定 trusted_status。",
+      "LLM 输出不得直接写入正式知识资产。"
+    ]
+  },
+  "next_milestone": {
+    "milestone": "M41R",
+    "name": "新可信潜客首批 intake 试运行",
+    "target": "选择 20-30 家候选，按 evidence-first schema 重新生成可信潜客包，不继承 legacy 档案字段。"
+  },
+  "workbook_integrity": {
+    "ok": true,
+    "deep_scan": true,
+    "files": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+        "ok": true,
+        "sheet_count": 2,
+        "rows_scanned": 576,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 4355,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.xlsx",
+        "ok": true,
+        "sheet_count": 6,
+        "rows_scanned": 1169,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 2422,
+        "error_type": "",
+        "error_message": ""
+      }
+    ]
+  }
+}

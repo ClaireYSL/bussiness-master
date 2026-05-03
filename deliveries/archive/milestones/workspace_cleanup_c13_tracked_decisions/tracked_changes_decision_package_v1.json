@@ -1,0 +1,44 @@
+{
+  "milestone": "C13",
+  "generated_at": "2026-05-03T12:16:53.893040+00:00",
+  "status": "PASS_C13_TRACKED_CHANGE_DECISION_PACKAGE_READY",
+  "summary": {
+    "archive_snapshot_commit_candidate_count": 12,
+    "current_cleanup_commit_candidate_count": 1,
+    "needs_user_or_historical_decision_count": 5,
+    "do_not_touch_count": 0
+  },
+  "policy": {
+    "auto_revert": false,
+    "auto_overwrite": false,
+    "archive_snapshot_commit_allowed_later": true,
+    "current_commit_includes_tracked_modified": "only current_cleanup_commit_candidate"
+  },
+  "groups": {
+    "archive_snapshot_commit_candidate": [
+      "\"docs/03-执行与校验/Milestone 6R-主表修复与可信增强-enrich复盘-v1.md\"",
+      "\"docs/03-执行与校验/Milestone 6R-主表修复与可信增强-promote复盘-v1.md\"",
+      "\"docs/03-执行与校验/Milestone 6R-主表修复与可信增强-复盘-v1.md\"",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_report_only_L2_1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_write_back_L2_1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_report_baseline_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+      "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_summary_v1.json",
+      "deliveries/archive/repairs/workbook_integrity_report_v1.json"
+    ],
+    "current_cleanup_commit_candidate": [
+      "deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json"
+    ],
+    "needs_user_or_historical_decision": [
+      "docs/00-当前总览/README.md",
+      "docs/00-当前总览/静态潜客池-Milestone状态总览-v1.0.md",
+      "docs/02-注册表与结构/knowledge_asset_registry_v1-字段模板-v1.md",
+      "scripts/select_execution_candidates.py",
+      "shared/static_pool/constants.py"
+    ],
+    "do_not_touch": []
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "checked_at": "2026-04-28T14:18:39.046950+00:00",
+  "ok": true,
+  "workspace": "/Users/clairelu2026/CodexProjects/BusinessMaster",
+  "checks": {
+    "workbook_integrity": {
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 576,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4355,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2422,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      }
+    },
+    "env": {
+      "ok": true,
+      "detail": {
+        "env_file_exists": true,
+        "delegate_llm": {
+          "DELEGATE_LLM_BASE_URL": true,
+          "DELEGATE_LLM_API_KEY": true,
+          "DELEGATE_LLM_MODEL": true
+        },
+        "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池"
+      }
+    },
+    "source_tag_guard": {
+      "ok": true
+    },
+    "py_compile": {
+      "ok": true,
+      "detail": {
+        "cmd": [
+          "python3",
+          "-m",
+          "py_compile",
+          "scripts/build_manual_persona_review_package.py",
+          "scripts/build_share_consumption_package.py",
+          "scripts/build_intake_quality_patch.py",
+          "scripts/build_candidate_preflight_package.py",
+          "scripts/build_writeback_admission_package.py",
+          "scripts/build_post_writeback_operational_package.py",
+          "scripts/build_expansion_feedback_package.py",
+          "scripts/build_batch_intake_patch_from_m19.py",
+          "scripts/build_business_feedback_fast_run_package.py",
+          "scripts/build_persona_business_confirmation_package.py",
+          "scripts/build_trusted_match_review_package.py",
+          "scripts/build_trusted_writeback_admission_package.py",
+          "scripts/build_trusted_prospect_summary_package.py",
+          "scripts/build_knowledge_source_governance_package.py",
+          "scripts/build_trusted_expansion_preflight_package.py",
+          "scripts/build_trusted_expansion_intake_patch.py",
+          "scripts/build_trusted_expansion_review_package.py",
+          "scripts/build_autonomous_status_panel.py",
+          "scripts/build_persona_boundary_rule_package.py",
+          "scripts/run_project_readiness_check.py",
+          "scripts/run_execution_batch.py",
+          "scripts/pre_writeback_gate_check.py"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "m13_rule_package": {
+      "ok": true
+    },
+    "m14_report_only": {
+      "ok": true
+    },
+    "m14_2_report_only": {
+      "ok": true
+    },
+    "m14_2_gate_check": {
+      "ok": true
+    },
+    "m14_3_preflight": {
+      "ok": true
+    },
+    "m15_2_share_package": {
+      "ok": true
+    },
+    "m17_admission_package": {
+      "ok": true
+    },
+    "m18_operational_package": {
+      "ok": true
+    },
+    "m19_feedback_package": {
+      "ok": true
+    },
+    "m20_batch_intake": {
+      "ok": true
+    },
+    "m23a_business_feedback_package": {
+      "ok": true
+    },
+    "m21_persona_business_confirmation_package": {
+      "ok": true
+    },
+    "m21r_trusted_match_review": {
+      "ok": true
+    },
+    "m22r_trusted_writeback_admission": {
+      "ok": true
+    },
+    "m23r_trusted_prospect_summary": {
+      "ok": true
+    },
+    "m24r_knowledge_source_governance": {
+      "ok": true
+    },
+    "m25r_expansion_preflight": {
+      "ok": true
+    },
+    "m25r_expansion_intake_patch_report_only": {
+      "ok": true
+    },
+    "m25r_trusted_expansion_review": {
+      "ok": true
+    }
+  },
+  "milestones": {
+    "M13": {
+      "account_count": 12,
+      "decision_counts": {
+        "keep_pending_review": 12
+      },
+      "strong_evidence_total": 24,
+      "active_candidate_count": 0,
+      "keep_pending_review_count": 12,
+      "hold_review_count": 0
+    },
+    "M14": {
+      "allow": 0,
+      "warn": 0,
+      "block": 15
+    },
+    "M14.2": {
+      "allow": 0,
+      "warn": 15,
+      "block": 0
+    },
+    "M14.3": {
+      "candidate_count": 15,
+      "preflight_status_counts": {
+        "executable_now": 15
+      },
+      "before_decision_counts": {
+        "block": 15
+      },
+      "after_decision_counts": {
+        "allow": 15
+      }
+    },
+    "M15.2": {
+      "item_count": 27,
+      "share_status_counts": {
+        "high_value_pending": 12,
+        "ready_for_human_review": 15
+      },
+      "share_ready_or_pending": 27,
+      "not_share_ready": 0,
+      "ready_for_human_review": 15,
+      "high_value_pending": 12,
+      "needs_intake_patch": 0
+    },
+    "M17": {
+      "allow_candidate_count": 15,
+      "decision_counts": {
+        "allow": 15
+      },
+      "gate_ok": true,
+      "writeback_executed": true,
+      "promoted": 15,
+      "skipped": 0,
+      "recommended_action": "M17 已完成真实写回；下一步进入写回后复核和 M18 运营化。"
+    },
+    "M18": {
+      "account_count": 15,
+      "share_status_counts": {
+        "l3_share_ready": 15
+      },
+      "share_ready_count": 15,
+      "needs_fix_count": 0,
+      "workbook_integrity_ok": true,
+      "m17_promoted": 15,
+      "m17_skipped": 0
+    },
+    "M19": {
+      "feedback_item_count": 15,
+      "next_candidate_count": 134,
+      "candidate_status_counts": {
+        "needs_intake_patch": 106,
+        "not_ready": 28
+      },
+      "candidate_decision_counts": {
+        "block": 134
+      }
+    },
+    "M20": {
+      "allow": 0,
+      "warn": 30,
+      "block": 0
+    },
+    "M23A": {
+      "account_count": 15,
+      "share_ready_count": 15,
+      "business_reviewed_count": 0,
+      "accepted_by_business_count": 0,
+      "rejected_by_business_count": 0,
+      "next_action_defined_count": 0,
+      "positive_fit_rate": null,
+      "feedback_status_counts": {
+        "pending_business_feedback": 15
+      }
+    },
+    "M21": {
+      "account_count": 30,
+      "m20_decision_counts": {
+        "warn": 30
+      },
+      "default_confirmation_status_counts": {
+        "keep_pending_need_business_context": 30
+      },
+      "confirm_active_high_value_count": 0,
+      "confirm_active_high_value_rate": 0.0,
+      "business_reviewed_count": 0,
+      "next_action_defined_count": 0
+    },
+    "M21R": {
+      "account_count": 30,
+      "trusted_status_counts": {
+        "trusted_match_ready": 30
+      },
+      "trusted_match_ready_count": 30,
+      "profile_match_pending_count": 0,
+      "evidence_pending_count": 0,
+      "persona_adjust_needed_count": 0,
+      "not_icp_count": 0,
+      "official_evidence_coverage_rate": 1.0,
+      "core_info_complete_rate": 1.0,
+      "admission_reason_clear_rate": 1.0
+    },
+    "M22R": {
+      "trusted_input_count": 30,
+      "admission_candidate_count": 30,
+      "fact_patch_count": 30,
+      "queue_patch_count": 30,
+      "skipped_count": 0,
+      "report_only_allow": 30,
+      "report_only_warn": 0,
+      "report_only_block": 0,
+      "report_only_result_count": 30,
+      "gate_ok": true,
+      "track_counts": {
+        "先进制造": 27,
+        "跨境电商": 3
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 7,
+        "mfg_rnd_sales_complex": 20,
+        "cbec_multi_platform_brand": 3
+      }
+    },
+    "M23R": {
+      "card_count": 30,
+      "strong_evidence_card_count": 30,
+      "missing_strong_evidence_count": 0,
+      "missing_strong_evidence_account_ids": [],
+      "trusted_status_counts": {
+        "trusted_match_ready": 30
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 7,
+        "mfg_rnd_sales_complex": 20,
+        "cbec_multi_platform_brand": 3
+      },
+      "track_counts": {
+        "先进制造": 27,
+        "跨境电商": 3
+      },
+      "sales_action_terms_detected": false,
+      "formal_knowledge_write_enabled": false,
+      "gate_ok": true
+    },
+    "M24R": {
+      "candidate_observation_count": 30,
+      "source_gap_count": 3,
+      "rule_calibration_proposal_count": 3,
+      "learning_queue_task_count": 3,
+      "persona_counts": {
+        "mfg_multi_factory_group": 7,
+        "mfg_rnd_sales_complex": 20,
+        "cbec_multi_platform_brand": 3
+      },
+      "formal_knowledge_write_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M25R": {
+      "candidate_count": 50,
+      "target_size": 50,
+      "preflight_status_counts": {
+        "needs_patch": 50
+      },
+      "track_counts": {
+        "先进制造": 1,
+        "跨境电商": 25,
+        "零售消费": 24
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 1,
+        "cbec_brand_outbound": 2,
+        "cbec_supply_chain_complex": 22,
+        "cbec_multi_platform_brand": 1,
+        "retail_multi_store_chain": 1,
+        "retail_chain_fnb": 2,
+        "retail_multi_store": 6,
+        "retail_high_sku_brand": 15
+      },
+      "source_governance_ok": true,
+      "report_only_status": "not_run_pre_patch_required",
+      "report_only_run_summary_file": "",
+      "gate_check_file": "",
+      "true_writeback_executed": false
+    },
+    "M25R_patch": {
+      "account_count": 50,
+      "skipped_count": 81,
+      "official_source_ready_count": 50,
+      "evidence_row_count": 100,
+      "source_type_counts": {
+        "cninfo": 49,
+        "structured_intake_patch": 50,
+        "official_website": 1
+      },
+      "report_only_allow": 0,
+      "report_only_warn": 50,
+      "report_only_block": 0,
+      "report_only_result_count": 50,
+      "gate_ok": true,
+      "trusted_match_ready_count": 50,
+      "trusted_review_count": 50
+    },
+    "M25R_review": {
+      "account_count": 50,
+      "trusted_status_counts": {
+        "trusted_match_ready": 50
+      },
+      "trusted_match_ready_count": 50,
+      "profile_match_pending_count": 0,
+      "evidence_pending_count": 0,
+      "persona_adjust_needed_count": 0,
+      "not_icp_count": 0,
+      "official_evidence_coverage_rate": 1.0,
+      "core_info_complete_rate": 1.0,
+      "admission_reason_clear_rate": 1.0
+    }
+  }
+}

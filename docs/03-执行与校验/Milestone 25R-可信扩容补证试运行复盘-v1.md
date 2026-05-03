@@ -1,0 +1,152 @@
+# Milestone 25R-可信扩容补证试运行复盘-v1
+
+## 摘要
+
+- 候选数：`50`
+- skipped：`81`
+- official source 覆盖：`50/50`
+- evidence 行：`100`
+- 本轮真实写回：`false`
+
+## 安全边界
+
+- 本轮只生成 patch/config，不直接写回。
+- 本轮不写入正式知识资产。
+- 若 report-only 通过，仍需 gate check 和用户单独确认才能真实写回。
+
+## 补证对象
+
+- `acc_topstar` 拓斯达科技股份有限公司：拓斯达围绕工业机器人、注塑机辅机、数控机床和自动化应用系统开展研发、制造与销售。
+- `acc_haers` 浙江哈尔斯真空器皿股份有限公司：哈尔斯围绕不锈钢真空保温器皿、杯壶产品和户外饮水器具开展研发、生产与销售。
+- `acc_hailide` 浙江海利得新材料股份有限公司：海利得围绕涤纶工业长丝、塑胶材料、帘子布和新材料产品开展研发、生产与销售。
+- `acc_haixiang` 海象新材料股份有限公司：海象新材围绕 PVC 地板、SPC 地板等新型环保地面材料开展研发、生产与出口销售。
+- `acc_hengansecurity` 江苏恒辉安防股份有限公司：恒辉安防围绕安全防护手套、防护用品和功能性安全防护材料开展研发、生产与销售。
+- `acc_henglin` 恒林家居股份有限公司：恒林家居围绕办公椅、沙发、按摩椅和健康坐具等家居产品开展研发、生产与销售。
+- `acc_hengwei` 浙江恒威电池股份有限公司：恒威电池围绕碱性电池、碳性电池和消费电池产品开展研发、生产与销售。
+- `acc_hlin` 浙江恒林椅业股份有限公司：恒林椅业围绕办公椅、沙发、按摩椅和健康坐具等家居产品开展研发、生产与销售。
+- `acc_jame` 深圳市杰美特科技股份有限公司：杰美特围绕手机保护壳、智能终端配件和消费电子配件开展研发、生产与销售。
+- `acc_longood` 朗科智能电气股份有限公司：朗科智能围绕智能控制器、电子电器控制组件和新能源控制产品开展研发、生产与销售。
+- `acc_mengtian_wood` 浙江梦天木作家居有限公司：梦天木作围绕木门、墙板、柜类和全屋定制木作产品开展设计、生产与销售。
+- `acc_mingxin` 浙江明新旭腾新材料股份有限公司：明新旭腾围绕汽车内饰新材料、天然皮革和功能复合材料开展研发、生产与销售。
+- `acc_mustangbat` 浙江野马电池股份有限公司：野马电池围绕碱性电池、碳性电池和消费电池产品开展研发、生产与销售。
+- `acc_patio` 浙江正特股份有限公司：正特股份围绕户外休闲家具、遮阳用品和庭院家具产品开展研发、生产与销售。
+- `acc_sailvan` 深圳市赛维网络科技有限公司：赛维时代围绕跨境电商品牌运营、服饰配饰、家居和多品类自有品牌产品开展经营。
+- `acc_santai` 深圳市三态电子商务股份有限公司：三态股份围绕跨境电商出口、供应链服务和多平台商品运营开展经营。
+- `acc_shengtai` 浙江盛泰服装集团股份有限公司：盛泰服装围绕针织面料、成衣制造和服装供应链服务开展研发、生产与销售。
+- `acc_skshu` 星徽股份有限公司：星徽股份围绕跨境电商运营、滑轨铰链等五金产品和自有品牌出海开展经营。
+- `acc_taipeng` 泰鹏智能家居股份有限公司：泰鹏智能围绕庭院帐篷、户外休闲家具和智能家居用品开展研发、生产与销售。
+- `acc_uechairs` 永艺家具股份有限公司：永艺股份围绕办公椅、按摩椅、功能坐具和健康家具产品开展研发、生产与销售。
+- `acc_washin` 浙江华生科技股份有限公司：华生科技围绕塑胶复合材料、气密材料和户外休闲材料开展研发、生产与销售。
+- `acc_xinghua` 星华新材股份有限公司：星华新材围绕反光材料、反光布和功能性复合材料开展研发、生产与销售。
+- `acc_yayi` 浙江雅艺金属科技股份有限公司：雅艺科技围绕火盆、气炉、户外休闲家具和庭院用品开展研发、生产与销售。
+- `acc_yotrio` 浙江永强集团股份有限公司：永强集团围绕户外休闲家具、遮阳用品和庭院用品开展研发、生产与全球销售。
+- `acc_youkeshu` 深圳市有棵树科技股份有限公司：有棵树围绕跨境电商出口、供应链整合和多平台商品运营开展经营。
+- `acc_zhengyu` 浙江正裕工业股份有限公司：正裕工业围绕汽车减震器、悬架系统零部件和汽车后市场产品开展研发、生产与销售。
+- `acc_babi` 中饮巴比食品股份有限公司：巴比食品围绕中式面点、速冻食品、团餐供应和连锁门店食品供应链开展经营。
+- `acc_bbg` 步步高商业连锁股份有限公司：步步高围绕超市、百货、购物中心和区域零售连锁业务开展经营。
+- `acc_bear` 广东小熊电器股份有限公司：小熊电器围绕厨房小家电、生活小家电和创意家电产品开展研发、销售与品牌运营。
+- `acc_bloomage` 华熙生物科技股份有限公司：华熙生物围绕透明质酸、生物活性物和功能性护肤、食品健康产品开展研发、生产与销售。
+- `acc_brightdairy` 光明乳业股份有限公司：光明乳业围绕乳制品、液态奶、酸奶、奶粉和冷链食品开展生产、销售与渠道运营。
+- `acc_candr` 中顺洁柔纸业股份有限公司：中顺洁柔围绕生活用纸、护理用品和家庭清洁纸品开展研发、生产与销售。
+- `acc_chinagold` 中国黄金集团黄金珠宝股份有限公司：中国黄金围绕黄金珠宝产品、投资金条和全国零售门店网络开展经营。
+- `acc_chj` 潮宏基珠宝股份有限公司：潮宏基围绕珠宝首饰、时尚配饰和零售门店网络开展设计、销售与品牌运营。
+- `acc_cofco_sugar` 中粮糖业控股股份有限公司：中粮糖业围绕食糖、番茄制品、贸易和食品原料供应链开展生产与销售。
+- `acc_dengkang` 登康口腔护理用品股份有限公司：登康口腔围绕牙膏、牙刷、漱口水和口腔护理用品开展研发、生产与销售。
+- `acc_eurasia` 欧亚集团股份有限公司：欧亚集团围绕百货、购物中心、超市和区域商业零售网络开展经营。
+- `acc_freda` 福瑞达生物股份有限公司：福瑞达围绕化妆品、医药健康和生物科技产品开展研发、生产与销售。
+- `acc_fuanna` 深圳市富安娜家居用品股份有限公司：富安娜围绕床上用品、家纺产品和家居生活用品开展设计、生产与零售。
+- `acc_gaishi` 盖世食品股份有限公司：盖世食品围绕预制凉菜、海洋食品和即食食品开展研发、生产与销售。
+- `acc_ganyuan` 甘源食品股份有限公司：甘源食品围绕坚果炒货、豆类零食和休闲食品开展研发、生产与销售。
+- `acc_guangzhourestaurant` 广州酒家集团股份有限公司：广州酒家围绕餐饮服务、月饼、速冻食品和食品制造开展经营。
+- `acc_gubei` 乖宝宠物食品集团股份有限公司：乖宝宠物围绕宠物食品、宠物零食和自有品牌宠物产品开展研发、生产与销售。
+- `acc_guifaxiang` 天津桂发祥十八街麻花食品股份有限公司：桂发祥围绕麻花、传统糕点和休闲食品开展生产、销售与品牌运营。
+- `acc_haixinfood` 海欣食品股份有限公司：海欣食品围绕速冻鱼糜制品、速冻肉制品和预制菜食品开展生产与销售。
+- `acc_haoxiangni` 好想你健康食品股份有限公司：好想你围绕红枣、坚果、健康食品和休闲食品开展研发、生产与销售。
+- `acc_hiro` 海融科技股份有限公司：海融科技围绕植脂奶油、烘焙原料和食品工业配料开展研发、生产与销售。
+- `acc_holike` 好莱客创意家居股份有限公司：好莱客围绕定制衣柜、橱柜、木门和全屋定制家居产品开展设计、生产与销售。
+- `acc_hqls` 红旗连锁股份有限公司：红旗连锁围绕便利超市、社区零售和区域门店网络开展经营。
+- `acc_huangshanghuang` 煌上煌集团食品股份有限公司：煌上煌围绕酱卤肉制品、佐餐凉菜、米制品和连锁熟食门店开展生产、销售与品牌运营。
+
+## Skipped
+
+- `acc_babi` ：duplicate_account_id
+- `acc_hangke` 杭可科技股份有限公司：official_source_mapping_missing
+- `acc_hanzhong` 汉钟精机股份有限公司：official_source_mapping_missing
+- `acc_haopeng` 深圳市豪鹏科技股份有限公司：official_source_mapping_missing
+- `acc_henglihyd` 江苏恒立液压股份有限公司：official_source_mapping_missing
+- `acc_hetai` 深圳和而泰智能控制股份有限公司：official_source_mapping_missing
+- `acc_hymson` 海目星激光科技集团股份有限公司：official_source_mapping_missing
+- `acc_ikd` 爱柯迪股份有限公司：official_source_mapping_missing
+- `acc_invt` 深圳市英威腾电气股份有限公司：official_source_mapping_missing
+- `acc_jereh` 杰瑞石油服务集团股份有限公司：official_source_mapping_missing
+- `acc_jiejia` 深圳市捷佳伟创新能源装备股份有限公司：official_source_mapping_missing
+- `acc_jsbr` 江苏北人智能制造科技股份有限公司：official_source_mapping_missing
+- `acc_kaili` 深圳开立生物医疗科技股份有限公司：official_source_mapping_missing
+- `acc_kedali` 深圳市科达利实业股份有限公司：official_source_mapping_missing
+- `acc_leisai` 深圳市雷赛智能控制股份有限公司：official_source_mapping_missing
+- `acc_neway` 苏州纽威阀门股份有限公司：official_source_mapping_missing
+- `acc_recodeal` 瑞可达连接系统股份有限公司：official_source_mapping_missing
+- `acc_rifa` 浙江日发精密机械股份有限公司：official_source_mapping_missing
+- `acc_scc` 生益电子股份有限公司：official_source_mapping_missing
+- `acc_scimee` 沈阳芯源微电子设备股份有限公司：official_source_mapping_missing
+- `acc_shuanghuan` 浙江双环传动机械股份有限公司：official_source_mapping_missing
+- `acc_topband` 深圳拓邦股份有限公司：official_source_mapping_missing
+- `acc_topstar` ：duplicate_account_id
+- `acc_wanma` 浙江万马股份有限公司：official_source_mapping_missing
+- `acc_weixingmeter` 浙江伟星智能仪表股份有限公司：official_source_mapping_missing
+- `acc_wus` 沪士电子股份有限公司：official_source_mapping_missing
+- `acc_yawei` 江苏亚威机床股份有限公司：official_source_mapping_missing
+- `acc_yinlun` 浙江银轮机械股份有限公司：official_source_mapping_missing
+- `acc_yuyue` 江苏鱼跃医疗设备股份有限公司：official_source_mapping_missing
+- `acc_haers` ：duplicate_account_id
+- `acc_hailide` ：duplicate_account_id
+- `acc_haixiang` ：duplicate_account_id
+- `acc_hengansecurity` ：duplicate_account_id
+- `acc_henglin` ：duplicate_account_id
+- `acc_hengwei` ：duplicate_account_id
+- `acc_hlin` ：duplicate_account_id
+- `acc_jame` ：duplicate_account_id
+- `acc_laifen` 深圳市徕芬电子科技有限公司：official_source_mapping_missing
+- `acc_lanhe` 深圳市蓝禾技术有限公司：official_source_mapping_missing
+- `acc_longood` ：duplicate_account_id
+- `acc_mengtian_wood` ：duplicate_account_id
+- `acc_mingxin` ：duplicate_account_id
+- `acc_morhome` 慕容家居控股有限公司：official_source_mapping_missing
+- `acc_mustangbat` ：duplicate_account_id
+- `acc_patio` ：duplicate_account_id
+- `acc_sailvan` ：duplicate_account_id
+- `acc_santai` ：duplicate_account_id
+- `acc_shengtai` ：duplicate_account_id
+- `acc_skshu` ：duplicate_account_id
+- `acc_taipeng` ：duplicate_account_id
+- `acc_uechairs` ：duplicate_account_id
+- `acc_washin` ：duplicate_account_id
+- `acc_xinghua` ：duplicate_account_id
+- `acc_yayi` ：duplicate_account_id
+- `acc_yotrio` ：duplicate_account_id
+- `acc_youkeshu` ：duplicate_account_id
+- `acc_zhengyu` ：duplicate_account_id
+- `acc_babi` ：duplicate_account_id
+- `acc_babi` ：duplicate_account_id
+- `acc_bbg` ：duplicate_account_id
+- `acc_bear` ：duplicate_account_id
+- `acc_bloomage` ：duplicate_account_id
+- `acc_brightdairy` ：duplicate_account_id
+- `acc_candr` ：duplicate_account_id
+- `acc_chinagold` ：duplicate_account_id
+- `acc_chj` ：duplicate_account_id
+- `acc_cofco_sugar` ：duplicate_account_id
+- `acc_dengkang` ：duplicate_account_id
+- `acc_eurasia` ：duplicate_account_id
+- `acc_freda` ：duplicate_account_id
+- `acc_fuanna` ：duplicate_account_id
+- `acc_gaishi` ：duplicate_account_id
+- `acc_ganyuan` ：duplicate_account_id
+- `acc_guangzhourestaurant` ：duplicate_account_id
+- `acc_gubei` ：duplicate_account_id
+- `acc_guifaxiang` ：duplicate_account_id
+- `acc_haixinfood` ：duplicate_account_id
+- `acc_haoxiangni` ：duplicate_account_id
+- `acc_hiro` ：duplicate_account_id
+- `acc_holike` ：duplicate_account_id
+- `acc_hqls` ：duplicate_account_id

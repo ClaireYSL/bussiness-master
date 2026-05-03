@@ -1,0 +1,3021 @@
+{
+  "batch_id": "milestone19_expansion_feedback_package_v1",
+  "generated_at": "2026-04-27T03:22:42.934244+00:00",
+  "source_files": {
+    "m18_package": "deliveries/archive/milestones/milestone18_l3_operationalization/milestone18_l3_operational_package_v1.json"
+  },
+  "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+  "summary": {
+    "feedback_item_count": 15,
+    "next_candidate_count": 134,
+    "candidate_status_counts": {
+      "needs_intake_patch": 106,
+      "not_ready": 28
+    },
+    "candidate_decision_counts": {
+      "block": 134
+    }
+  },
+  "feedback_items": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `先进制造/mfg_rnd_sales_complex` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "艾迪精密围绕工程机械液压属具、高端液压件、工业机器人核心部件、硬质合金刀具和精密线性传动部件开展研发、生产与销售。",
+        "business_model_summary": "公司以高端装备核心零部件制造为主，通过多业务事业部、全球服务网络和上市公司治理体系承接工程机械、机器人、自动化和新能源装备客户需求。",
+        "why_worth_review": "液压属具、传动部件、机器人和刀具业务共同指向研产销协同复杂制造场景，适合进入先进制造补证链路并验证多产品线经营治理。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 4
+      }
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `零售消费/retail_high_sku_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "爱慕股份从事贴身服饰、内衣、家居服及相关服饰用品的研发、生产、品牌运营与销售。",
+        "business_model_summary": "公司以多品牌服饰经营、产品研发设计、线上线下渠道销售和会员消费运营为核心，服务中高端贴身服饰市场。",
+        "why_worth_review": "贴身服饰品类、多品牌和渠道经营特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `零售消费/retail_high_sku_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "安记食品专注复合调味料、调味品和食品配料的研发、生产与销售。",
+        "business_model_summary": "公司以调味品研发制造、品牌销售和渠道铺货为核心，面向餐饮、家庭消费和食品工业客户提供产品。",
+        "why_worth_review": "复合调味料产品、品牌渠道和食品消费属性明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `零售消费/retail_high_sku_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "安井食品主营速冻调制食品、速冻菜肴制品和速冻面米制品等速冻食品的研发、生产与销售。",
+        "business_model_summary": "公司以冷冻食品研发制造、品牌渠道、餐饮和零售终端供应为主，围绕多品类和冷链履约组织经营。",
+        "why_worth_review": "速冻食品产品矩阵、渠道供应和冷链履约特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `零售消费/retail_high_sku_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "奥飞娱乐围绕动漫内容、影视、游戏、媒体、消费品和主题业态开展 IP 内容与衍生消费业务。",
+        "business_model_summary": "公司以 IP 内容生产、授权、玩具和消费品衍生、渠道销售为核心，形成内容到商品的消费经营链路。",
+        "why_worth_review": "动漫 IP、玩具消费品和内容衍生链路清晰，能够支撑零售消费高 SKU 品牌及 IP 商品经营画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `零售消费/retail_multi_store` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "箭牌家居提供智能坐便器、卫浴陶瓷、浴室柜、五金龙头、瓷砖和定制家居等智慧家居产品。",
+        "business_model_summary": "公司以多品牌家居产品制造、全国销售网点、经销和零售渠道运营为核心，面向家庭装修与家居消费市场。",
+        "why_worth_review": "家居产品矩阵、十大生产基地和大量销售网点特征明确，能够支撑零售消费多门店网络画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `跨境电商/cbec_multi_platform_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "傲基科技面向全球市场经营自主品牌科技消费品，覆盖消费电子、智能硬件及相关跨境销售品类。",
+        "business_model_summary": "公司以跨境品牌运营、产品研发设计、海外渠道和供应链管理为核心，服务全球消费者市场。",
+        "why_worth_review": "自主品牌科技消费品、跨境渠道和供应链协同特征清晰，能够支撑跨境多平台品牌经营画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `跨境电商/cbec_multi_platform_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "嘉益股份专注不锈钢保温杯、旅行杯、水杯和饮品容器的研发设计、生产与销售，并提供 OEM/ODM 服务。",
+        "business_model_summary": "公司以中国及海外工厂制造能力、全球品牌客户协同和饮具产品开发为主，形成制造出海和客户定制交付模式。",
+        "why_worth_review": "保温杯产品、海外工厂和全球品牌客户协同明确，能够支撑跨境品牌制造与供应链复杂度复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `先进制造/mfg_rnd_sales_complex` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "天奈科技主要提供碳纳米管导电浆料、碳纳米管粉体及相关新材料产品，面向锂电池和导电材料应用。",
+        "business_model_summary": "公司以新能源材料研发、规模化制造和客户技术服务为主，围绕锂电池产业链形成材料交付和持续工艺迭代模式。",
+        "why_worth_review": "碳纳米管导电材料与新能源电池产业链深度绑定，能够支撑先进制造画像下研发、量产和客户认证协同的复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `跨境电商/cbec_multi_platform_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "大自然户外用品研发、生产自动充气垫、充气床、防水包、冰包、枕头坐垫和 TPU 复合面料等户外产品。",
+        "business_model_summary": "公司以户外用品研发制造、全球品牌客户合作和出口交付为主，围绕产品设计、生产制造和客户订单履约运营。",
+        "why_worth_review": "户外用品产品线、全球品牌合作和出口制造特征明确，能够支撑跨境品牌供应链和海外经营画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `先进制造/mfg_multi_factory_group` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "浙江鼎力研发、生产、销售剪叉式、臂式等智能高空作业平台，并提供面向全球客户的装备服务。",
+        "business_model_summary": "公司以高端装备制造、全球渠道销售和售后服务为核心，依托研发、生产基地和海外市场覆盖形成制造出海模式。",
+        "why_worth_review": "高空作业平台产品、全球服务网络和研发生产体系明确，能够验证先进制造多基地与全球经营协同画像。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `跨境电商/cbec_multi_platform_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "易仓科技提供跨境电商 ERP、海外仓系统、国际货代软件和跨境分销 M2B 等软件服务。",
+        "business_model_summary": "公司以跨境电商 SaaS/软件产品、系统实施和客户运营服务为主，支撑卖家、海外仓和物流服务商的业务协同。",
+        "why_worth_review": "跨境 ERP、海外仓和货代系统覆盖跨境经营关键环节，能够支撑跨境平台服务和供应链复杂度画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `先进制造/mfg_rnd_sales_complex` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "先锋精科聚焦半导体刻蚀、薄膜沉积等设备的关键精密零部件、模组生产与装配。",
+        "business_model_summary": "公司以半导体设备核心零部件精密制造为主，通过工艺研发、精密加工和客户认证体系服务设备产业链客户。",
+        "why_worth_review": "半导体设备关键零部件业务具备高工艺门槛和客户认证特征，能够支撑先进制造研产销复杂协同画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `跨境电商/cbec_multi_platform_brand` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "巨星科技专注中高端手工具、电动工具、工具箱柜、智能产品和相关五金工具产品的开发、生产与销售。",
+        "business_model_summary": "公司以工具产品研发制造、全球渠道销售和品牌/供应链运营为主，面向欧美等海外市场形成制造出海模式。",
+        "why_worth_review": "工具产品线、全球销售网络和跨境经营特征明确，能够支撑跨境供应链复杂型经营画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "feedback_status": "pending_business_feedback",
+      "recommended_reviewer": "sales_or_research_owner",
+      "business_feedback_fields": {
+        "fit_score_1_to_5": "",
+        "is_real_target": "",
+        "best_use_case": "",
+        "contact_or_channel_hint": "",
+        "disqualify_reason": "",
+        "next_action": ""
+      },
+      "starter_question": "这家公司是否符合 `先进制造/mfg_multi_factory_group` 的真实业务优先级，是否值得进入 L2 补强？",
+      "evidence_brief": {
+        "product_summary": "海天精工主要研发、生产和销售龙门加工中心、立式加工中心、卧式加工中心、数控车床等高端数控机床。",
+        "business_model_summary": "公司以高端数控机床制造为核心，依托多地制造基地、技术研发和销售服务体系面向工业客户交付设备。",
+        "why_worth_review": "数控机床产品线、多制造基地和上市公司治理信息明确，能够支撑先进制造多工厂集团画像复核。",
+        "remaining_gap": "已进入L3；后续继续补官网、年报、IR和财报口径字段，再评估是否进入L2。已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_count": 5
+      }
+    }
+  ],
+  "next_batch_candidates": [
+    {
+      "account_id": "acc_hangke",
+      "account_name": "杭可科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "account_name": "汉钟精机股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "account_name": "深圳市豪鹏科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "account_name": "江苏恒立液压股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_hetai",
+      "account_name": "深圳和而泰智能控制股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_hymson",
+      "account_name": "海目星激光科技集团股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_ikd",
+      "account_name": "爱柯迪股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_invt",
+      "account_name": "深圳市英威腾电气股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "杰瑞石油服务集团股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "account_name": "深圳市捷佳伟创新能源装备股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "account_name": "江苏北人智能制造科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_kaili",
+      "account_name": "深圳开立生物医疗科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_kedali",
+      "account_name": "深圳市科达利实业股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_leisai",
+      "account_name": "深圳市雷赛智能控制股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_neway",
+      "account_name": "苏州纽威阀门股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "account_name": "瑞可达连接系统股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_rifa",
+      "account_name": "浙江日发精密机械股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_scc",
+      "account_name": "生益电子股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_scimee",
+      "account_name": "沈阳芯源微电子设备股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "account_name": "浙江双环传动机械股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_topband",
+      "account_name": "深圳拓邦股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_topstar",
+      "account_name": "拓斯达科技股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_wanma",
+      "account_name": "浙江万马股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "account_name": "浙江伟星智能仪表股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_wus",
+      "account_name": "沪士电子股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_yawei",
+      "account_name": "江苏亚威机床股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "account_name": "浙江银轮机械股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "account_name": "江苏鱼跃医疗设备股份有限公司",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_haers",
+      "account_name": "浙江哈尔斯真空器皿股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_brand_outbound",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_hailide",
+      "account_name": "浙江海利得新材料股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "account_name": "海象新材料股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "account_name": "江苏恒辉安防股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_henglin",
+      "account_name": "恒林家居股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "account_name": "浙江恒威电池股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_hlin",
+      "account_name": "浙江恒林椅业股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_jame",
+      "account_name": "深圳市杰美特科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_laifen",
+      "account_name": "深圳市徕芬电子科技有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "account_name": "深圳市蓝禾技术有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_longood",
+      "account_name": "朗科智能电气股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "account_name": "浙江梦天木作家居有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "account_name": "浙江明新旭腾新材料股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_morhome",
+      "account_name": "慕容家居控股有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "account_name": "浙江野马电池股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_patio",
+      "account_name": "浙江正特股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "account_name": "深圳市赛维网络科技有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_santai",
+      "account_name": "深圳市三态电子商务股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "account_name": "浙江盛泰服装集团股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_skshu",
+      "account_name": "星徽股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "account_name": "泰鹏智能家居股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "account_name": "永艺家具股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_washin",
+      "account_name": "浙江华生科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "account_name": "星华新材股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_yayi",
+      "account_name": "浙江雅艺金属科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "account_name": "浙江永强集团股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "account_name": "深圳市有棵树科技股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_brand_outbound",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "account_name": "浙江正裕工业股份有限公司",
+      "track": "跨境电商",
+      "persona": "cbec_supply_chain_complex",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_babi",
+      "account_name": "中饮巴比食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store_chain",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_babi",
+      "account_name": "巴比食品集团有限公司",
+      "track": "零售消费",
+      "persona": "retail_chain_fnb",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_bbg",
+      "account_name": "步步高商业连锁股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_bear",
+      "account_name": "广东小熊电器股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "account_name": "华熙生物科技股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "account_name": "光明乳业股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_candr",
+      "account_name": "中顺洁柔纸业股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "account_name": "中国黄金集团黄金珠宝股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_chj",
+      "account_name": "潮宏基珠宝股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "account_name": "中粮糖业控股股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_dengkang",
+      "account_name": "登康口腔护理用品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_eurasia",
+      "account_name": "欧亚集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_freda",
+      "account_name": "福瑞达生物股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_fuanna",
+      "account_name": "深圳市富安娜家居用品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_gaishi",
+      "account_name": "盖世食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "account_name": "甘源食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "account_name": "广州酒家集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_chain_fnb",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_gubei",
+      "account_name": "乖宝宠物食品集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "account_name": "天津桂发祥十八街麻花食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "account_name": "海欣食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "account_name": "好想你健康食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_hiro",
+      "account_name": "海融科技股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_holike",
+      "account_name": "好莱客创意家居股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_hqls",
+      "account_name": "红旗连锁股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "account_name": "煌上煌集团食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_huanlejia",
+      "account_name": "欢乐家食品集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_jiaheshipin",
+      "account_name": "佳禾食品工业股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_jinzai",
+      "account_name": "劲仔食品集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_joeone",
+      "account_name": "九牧王股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_joyoung",
+      "account_name": "九阳股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_keming",
+      "account_name": "克明食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_lafang",
+      "account_name": "拉芳家化股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_lancy",
+      "account_name": "朗姿股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_lecom",
+      "account_name": "立高食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_ligao",
+      "account_name": "广州立高食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_liziyuan",
+      "account_name": "李子园食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_lolo",
+      "account_name": "承德露露股份公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_milkground",
+      "account_name": "上海妙可蓝多食品科技股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_mlily",
+      "account_name": "梦百合家居科技股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_mobi",
+      "account_name": "牧高笛户外用品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_namchow",
+      "account_name": "南侨食品集团（上海）股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_narwal",
+      "account_name": "深圳市云鲸智能创新有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_pandarb",
+      "account_name": "熊猫乳品集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_pengwei",
+      "account_name": "品渥食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_peti",
+      "account_name": "佩蒂动物营养科技股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_qianweiyangchu",
+      "account_name": "千味央厨食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_quanjude",
+      "account_name": "中国全聚德（集团）股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_chain_fnb",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "not_ready",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "legacy_persona_alias"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "暂不进入扩容，回到画像或事实源治理。"
+    },
+    {
+      "account_id": "acc_richen",
+      "account_name": "日辰食品集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_robam",
+      "account_name": "杭州老板电器股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_runben",
+      "account_name": "润本生物技术股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_saintangelo",
+      "account_name": "报喜鸟控股股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_sanfo",
+      "account_name": "三夫户外用品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_sanjiang",
+      "account_name": "三江购物俱乐部股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_sanyuan",
+      "account_name": "北京三元食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_shifengculture",
+      "account_name": "实丰文化发展股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_spzp",
+      "account_name": "广州尚品宅配家居股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_suofeiya",
+      "account_name": "索菲亚家居股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_supor",
+      "account_name": "浙江苏泊尔股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_tineco",
+      "account_name": "添可智能科技有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_tolybread",
+      "account_name": "桃李面包股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_toread",
+      "account_name": "探路者控股集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_vatsliquor",
+      "account_name": "华致酒行连锁管理股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_wanpy",
+      "account_name": "中宠股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_weizhixiang",
+      "account_name": "上海味知香食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_wfj",
+      "account_name": "王府井集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_wufangzhai",
+      "account_name": "五芳斋实业股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_xinhe",
+      "account_name": "欣贺股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_yatsen",
+      "account_name": "广州逸仙电子商务有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_yedao",
+      "account_name": "海南椰岛（集团）股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_yiming",
+      "account_name": "浙江一鸣食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_youyou",
+      "account_name": "有友食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_zbom",
+      "account_name": "志邦家居股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_zhongbai",
+      "account_name": "中百控股集团股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "warning_codes": [
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_zhongjing",
+      "account_name": "仲景食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_zhouliufu",
+      "account_name": "周六福珠宝股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_ziyan",
+      "account_name": "紫燕食品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_multi_store",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_zjnature",
+      "account_name": "浙江自然户外用品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "generic_admission",
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    },
+    {
+      "account_id": "acc_zuming",
+      "account_name": "祖名豆制品股份有限公司",
+      "track": "零售消费",
+      "persona": "retail_high_sku_brand",
+      "current_level": "L5",
+      "target_level": "L3",
+      "latest_decision": "block",
+      "preflight_status": "needs_intake_patch",
+      "blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "warning_codes": [
+        "evidence_thin",
+        "promotion_review_missing"
+      ],
+      "next_action": "先补产品、商业模式、官方来源和入池理由。"
+    }
+  ],
+  "next_batch_plan": {
+    "target_size": 30,
+    "objective": "intake_patch_trial",
+    "candidate_count": 134,
+    "eligible_count": 106,
+    "executable_now_count": 0,
+    "picked_count": 30,
+    "picked_account_ids": [
+      "acc_hangke",
+      "acc_hanzhong",
+      "acc_haopeng",
+      "acc_henglihyd",
+      "acc_hetai",
+      "acc_hymson",
+      "acc_ikd",
+      "acc_invt",
+      "acc_jereh",
+      "acc_jiejia",
+      "acc_jsbr",
+      "acc_kaili",
+      "acc_kedali",
+      "acc_leisai",
+      "acc_neway",
+      "acc_recodeal",
+      "acc_rifa",
+      "acc_scc",
+      "acc_scimee",
+      "acc_shuanghuan",
+      "acc_topband",
+      "acc_topstar",
+      "acc_wanma",
+      "acc_weixingmeter",
+      "acc_wus",
+      "acc_yawei",
+      "acc_yinlun",
+      "acc_yuyue",
+      "acc_laifen",
+      "acc_lanhe"
+    ],
+    "track_mix": {
+      "先进制造": 28,
+      "跨境电商": 2
+    },
+    "status_mix": {
+      "needs_intake_patch": 30
+    },
+    "cadence": "下一轮不是直接扩容写回，而是选择 30 家 needs_intake_patch 做补证试运行；完成 patch 后再 report-only/gate。"
+  }
+}

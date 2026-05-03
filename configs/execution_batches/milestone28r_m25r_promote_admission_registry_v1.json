@@ -1,0 +1,30 @@
+{
+  "milestone_id": "milestone28r_m25r_promote_admission",
+  "batch_id": "milestone28r_m25r_promote_admission_v1",
+  "goal": "Milestone 28R：M25R 二次 promote 准入试运行",
+  "candidate_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_candidates_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone28r_m25r_promote_admission_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone28r_m25r_promote_admission_queue_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone28r_m25r_promote_admission_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 28R-M25R二次promote准入-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone28r_m25r_promote_admission_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 28R-M25R二次promote准入-promote复盘-v1.md"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 28R-M25R二次promote准入最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_report_baseline_v1.json"
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  }
+}

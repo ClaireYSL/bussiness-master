@@ -1,0 +1,895 @@
+{
+  "generated_at": "2026-04-27T02:33:11.677417+00:00",
+  "workspace": "/Users/clairelu2026/CodexProjects/BusinessMaster",
+  "git": {
+    "branch": "codex/milestone12-persona-stability",
+    "commit": "693a0e4318b8a22cee985ea8bd0edf5f1618df40",
+    "short_commit": "693a0e4",
+    "dirty": true,
+    "changed_file_count": 92,
+    "changed_files": [
+      {
+        "status": "M",
+        "path": "eliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_summary_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_enrich_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_report_only_L2_1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1_write_back_L2_1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_report_baseline_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_summary_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "deliveries/archive/repairs/workbook_integrity_report_v1.json"
+      },
+      {
+        "status": "M",
+        "path": "\"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/\\351\\235\\231\\346\\200\\201\\346\\275\\234\\345\\256\\242\\346\\261\\240-Milestone\\347\\212\\266\\346\\200\\201\\346\\200\\273\\350\\247\\210-v1.0.md\""
+      },
+      {
+        "status": "M",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 6R-\\344\\270\\273\\350\\241\\250\\344\\277\\256\\345\\244\\215\\344\\270\\216\\345\\217\\257\\344\\277\\241\\345\\242\\236\\345\\274\\272-enrich\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "M",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 6R-\\344\\270\\273\\350\\241\\250\\344\\277\\256\\345\\244\\215\\344\\270\\216\\345\\217\\257\\344\\277\\241\\345\\242\\236\\345\\274\\272-promote\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "M",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 6R-\\344\\270\\273\\350\\241\\250\\344\\277\\256\\345\\244\\215\\344\\270\\216\\345\\217\\257\\344\\277\\241\\345\\242\\236\\345\\274\\272-\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "M",
+        "path": "scripts/run_execution_batch.py"
+      },
+      {
+        "status": "M",
+        "path": "scripts/select_execution_candidates.py"
+      },
+      {
+        "status": "M",
+        "path": "shared/static_pool/constants.py"
+      },
+      {
+        "status": "??",
+        "path": "configs/enrich_batches/milestone14_small_batch_enrich_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone11_warn_quality_facts_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone11_warn_quality_registry_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone12_persona_stability_evidence_patch_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone12_persona_stability_facts_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone12_persona_stability_queue_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone12_persona_stability_registry_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone13_2_manual_persona_review_template_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone13_persona_boundary_facts_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone13_persona_boundary_queue_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone13_persona_boundary_registry_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone13_persona_boundary_rules_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/execution_batches/milestone14_small_batch_registry_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/promote_batches/milestone11_warn_quality_promote_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/promote_batches/milestone12_persona_stability_promote_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/promote_batches/milestone13_persona_boundary_promote_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "configs/promote_batches/milestone14_small_batch_promote_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/handoff_snapshot_20260419_090815.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/handoff_snapshot_20260419_090815.md"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/handoff_snapshot_20260419_142457.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/handoff_snapshot_20260419_142457.md"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/milestone16_project_readiness_check_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/milestones/milestone11_warn_quality/"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/milestones/milestone12_persona_stability/"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/milestones/milestone13_2_manual_persona_review/"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/milestones/milestone13_persona_boundary_rules/"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/milestones/milestone14_small_batch_expansion/"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/milestones/milestone15_share_consumption/"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone11_warn_quality_gate_check_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone11_workbook_integrity_report_post_writeback_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone12_persona_stability_gate_check_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone13_persona_boundary_gate_check_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone14_small_batch_gate_check_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone6r_pre_writeback_gate_check_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/milestone6r_trust_candidates_reselect_20260419.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/repairs/workbook_integrity_report_post_writeback_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "\"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/BusinessMaster\\344\\270\\273\\347\\272\\277\\346\\216\\250\\350\\277\\233\\350\\267\\257\\347\\272\\277\\345\\233\\276-M12-M16-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/Milestone 7-10-\\346\\211\\247\\350\\241\\214\\351\\227\\255\\347\\216\\257\\347\\250\\263\\345\\256\\232\\345\\214\\226\\350\\267\\257\\347\\272\\277-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 11-warn\\350\\264\\250\\351\\207\\217\\350\\247\\243\\351\\230\\273-enrich\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 11-warn\\350\\264\\250\\351\\207\\217\\350\\247\\243\\351\\230\\273-promote\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 11-warn\\350\\264\\250\\351\\207\\217\\350\\247\\243\\351\\230\\273-\\345\\206\\231\\345\\233\\236\\345\\211\\215\\351\\227\\270\\351\\227\\250\\346\\243\\200\\346\\237\\245-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 11-warn\\350\\264\\250\\351\\207\\217\\350\\247\\243\\351\\230\\273\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 11-warn\\350\\264\\250\\351\\207\\217\\350\\247\\243\\351\\230\\273\\346\\211\\247\\350\\241\\214\\350\\257\\264\\346\\230\\216-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-LLM\\347\\224\\273\\345\\203\\217\\345\\244\\215\\346\\240\\270\\347\\273\\223\\346\\236\\234\\350\\215\\211\\347\\250\\277-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\344\\270\\273\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247\\345\\244\\215\\346\\240\\270\\346\\211\\247\\350\\241\\214\\350\\257\\264\\346\\230\\216-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\344\\270\\273\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247\\345\\244\\215\\346\\240\\270\\350\\215\\211\\347\\250\\277-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247enrich\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247promote\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247\\345\\206\\231\\345\\233\\236\\345\\211\\215\\351\\227\\270\\351\\227\\250\\346\\243\\200\\346\\237\\245-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247\\346\\234\\200\\347\\273\\210\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 12-\\347\\224\\273\\345\\203\\217\\347\\250\\263\\345\\256\\232\\346\\200\\247\\350\\241\\214\\345\\212\\250\\345\\214\\205\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 13-\\347\\224\\273\\345\\203\\217\\350\\276\\271\\347\\225\\214\\350\\247\\204\\345\\210\\231enrich\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 13-\\347\\224\\273\\345\\203\\217\\350\\276\\271\\347\\225\\214\\350\\247\\204\\345\\210\\231promote\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 13-\\347\\224\\273\\345\\203\\217\\350\\276\\271\\347\\225\\214\\350\\247\\204\\345\\210\\231\\345\\206\\231\\345\\233\\236\\345\\211\\215\\351\\227\\270\\351\\227\\250\\346\\243\\200\\346\\237\\245-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 13-\\347\\224\\273\\345\\203\\217\\350\\276\\271\\347\\225\\214\\350\\247\\204\\345\\210\\231\\346\\234\\200\\347\\273\\210\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 13-\\347\\224\\273\\345\\203\\217\\350\\276\\271\\347\\225\\214\\350\\247\\204\\345\\210\\231\\350\\257\\204\\344\\274\\260\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 13.2-\\344\\272\\272\\345\\267\\245\\347\\224\\273\\345\\203\\217\\347\\241\\256\\350\\256\\244\\345\\214\\205\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 14-\\345\\260\\217\\346\\211\\271\\346\\211\\251\\345\\256\\271enrich\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 14-\\345\\260\\217\\346\\211\\271\\346\\211\\251\\345\\256\\271promote\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 14-\\345\\260\\217\\346\\211\\271\\346\\211\\251\\345\\256\\271\\345\\206\\231\\345\\233\\236\\345\\211\\215\\351\\227\\270\\351\\227\\250\\346\\243\\200\\346\\237\\245-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 14-\\345\\260\\217\\346\\211\\271\\346\\211\\251\\345\\256\\271\\346\\234\\200\\347\\273\\210\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 15-\\345\\205\\261\\344\\272\\253\\346\\266\\210\\350\\264\\271\\345\\214\\205\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 16-\\350\\277\\201\\347\\247\\273\\344\\272\\244\\346\\216\\245\\350\\207\\252\\346\\243\\200\\345\\244\\215\\347\\233\\230-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 6R-block\\350\\247\\243\\351\\230\\273\\344\\274\\230\\345\\205\\210\\347\\272\\247\\346\\270\\205\\345\\215\\225-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "\"docs/03-\\346\\211\\247\\350\\241\\214\\344\\270\\216\\346\\240\\241\\351\\252\\214/Milestone 6R-\\345\\206\\231\\345\\233\\236\\345\\211\\215\\351\\227\\270\\351\\227\\250\\346\\243\\200\\346\\237\\245\\346\\270\\205\\345\\215\\225-v1.md\""
+      },
+      {
+        "status": "??",
+        "path": "prompts/delegate/persona_stability_system.md"
+      },
+      {
+        "status": "??",
+        "path": "prompts/delegate/persona_stability_user.md"
+      },
+      {
+        "status": "??",
+        "path": "scripts/build_manual_persona_review_package.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/build_persona_boundary_rule_package.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/build_persona_stability_action_package.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/build_persona_stability_review_package.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/build_share_consumption_package.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/pre_writeback_gate_check.py"
+      },
+      {
+        "status": "??",
+        "path": "scripts/run_project_readiness_check.py"
+      },
+      {
+        "status": "??",
+        "path": "static-pool-deps-20260419_151148.zip"
+      },
+      {
+        "status": "??",
+        "path": "static-pool-deps-20260419_151148/"
+      }
+    ]
+  },
+  "repairs": {
+    "files": [
+      {
+        "path": "deliveries/archive/repairs/milestone14_small_batch_gate_check_v1.json",
+        "mtime": "2026-04-27T02:31:12.955076+00:00",
+        "size_bytes": 4237
+      },
+      {
+        "path": "deliveries/archive/repairs/milestone13_persona_boundary_gate_check_v1.json",
+        "mtime": "2026-04-27T02:22:59.197931+00:00",
+        "size_bytes": 3703
+      },
+      {
+        "path": "deliveries/archive/repairs/milestone12_persona_stability_gate_check_v1.json",
+        "mtime": "2026-04-27T02:08:35.486471+00:00",
+        "size_bytes": 3691
+      },
+      {
+        "path": "deliveries/archive/repairs/milestone11_workbook_integrity_report_post_writeback_v1.json",
+        "mtime": "2026-04-27T00:14:21.866306+00:00",
+        "size_bytes": 857
+      },
+      {
+        "path": "deliveries/archive/repairs/milestone11_warn_quality_gate_check_v1.json",
+        "mtime": "2026-04-27T00:14:09.544593+00:00",
+        "size_bytes": 3661
+      },
+      {
+        "path": "deliveries/archive/repairs/workbook_integrity_report_post_writeback_v1.json",
+        "mtime": "2026-04-27T00:06:48.283663+00:00",
+        "size_bytes": 857
+      },
+      {
+        "path": "deliveries/archive/repairs/milestone6r_pre_writeback_gate_check_v1.json",
+        "mtime": "2026-04-27T00:06:31.685660+00:00",
+        "size_bytes": 3619
+      },
+      {
+        "path": "deliveries/archive/repairs/milestone6r_trust_candidates_reselect_20260419.json",
+        "mtime": "2026-04-27T00:06:14.035194+00:00",
+        "size_bytes": 5855
+      },
+      {
+        "path": "deliveries/archive/repairs/workbook_integrity_report_v1.json",
+        "mtime": "2026-04-19T14:24:58.496805+00:00",
+        "size_bytes": 857
+      },
+      {
+        "path": "deliveries/archive/repairs/main_id_repair_v1_dryrun.json",
+        "mtime": "2026-04-19T09:05:08.213952+00:00",
+        "size_bytes": 1068
+      },
+      {
+        "path": "deliveries/archive/repairs/main_id_repair_v1.json",
+        "mtime": "2026-04-19T09:05:08.213899+00:00",
+        "size_bytes": 1179
+      }
+    ],
+    "main_id_repair": {
+      "rows_total": 365,
+      "before_nonempty_account_id": 365,
+      "after_nonempty_account_id": 365,
+      "coverage_ratio": 1.0,
+      "updated_rows": 6,
+      "unchanged_rows": 359,
+      "unresolved_rows": 0,
+      "generated_rows": 138,
+      "generated_to_mapped_rows": 6,
+      "collision_rows": 0,
+      "duplicate_id_conflict_count": 0
+    },
+    "integrity_report": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4213,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2100,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "recent_run_summaries": [
+    {
+      "path": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_run_summary_v1.json",
+      "status": "success",
+      "mode": "report_only",
+      "allow": 0,
+      "warn": 0,
+      "block": 15,
+      "workbook_lock_acquired": false
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_run_summary_v1.json",
+      "status": "success",
+      "mode": "report_only",
+      "allow": 0,
+      "warn": 12,
+      "block": 0,
+      "workbook_lock_acquired": false
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_run_summary_v1.json",
+      "status": "success",
+      "mode": "report_only",
+      "allow": 0,
+      "warn": 12,
+      "block": 0,
+      "workbook_lock_acquired": false
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 12,
+      "block": 0,
+      "workbook_lock_acquired": true
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 12,
+      "block": 0,
+      "workbook_lock_acquired": true
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_lock_probe_run_summary_v1.json",
+      "status": "fail",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 0,
+      "block": 0,
+      "workbook_lock_acquired": false
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 0,
+      "block": 6,
+      "workbook_lock_acquired": null
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6/milestone6_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 10,
+      "warn": 2,
+      "block": 0,
+      "workbook_lock_acquired": null
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 7,
+      "warn": 0,
+      "block": 0,
+      "workbook_lock_acquired": null
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone5/milestone5_execution_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 7,
+      "warn": 0,
+      "block": 0,
+      "workbook_lock_acquired": null
+    }
+  ],
+  "key_configs": [
+    {
+      "path": "configs/execution_batches/milestone14_small_batch_registry_v1.json",
+      "batch_id": "milestone14_small_batch_expansion_v1",
+      "milestone_id": "milestone14_small_batch_expansion",
+      "goal": "Milestone 14：小批量合格潜客池扩容试运行"
+    },
+    {
+      "path": "configs/enrich_batches/milestone14_small_batch_enrich_v1.json",
+      "batch_id": "milestone14_small_batch_enrich_v1",
+      "milestone_id": "",
+      "goal": "Milestone 14：小批扩容 L5->L3 enrich 非写回复核"
+    },
+    {
+      "path": "configs/promote_batches/milestone14_small_batch_promote_v1.json",
+      "batch_id": "milestone14_small_batch_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 14：小批扩容 promote 非写回复核"
+    },
+    {
+      "path": "configs/execution_batches/milestone13_2_manual_persona_review_template_v1.json",
+      "batch_id": "milestone13_2_manual_persona_review_template_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_registry_v1.json",
+      "batch_id": "milestone13_persona_boundary_batch_v1",
+      "milestone_id": "milestone13_persona_boundary_rules",
+      "goal": "Milestone 13：画像边界规则沉淀与可执行化"
+    },
+    {
+      "path": "configs/promote_batches/milestone13_persona_boundary_promote_v1.json",
+      "batch_id": "milestone13_persona_boundary_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 13：画像边界规则后 promote 非写回复核"
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_queue_v1.json",
+      "batch_id": "milestone13_persona_boundary_queue_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_facts_v1.json",
+      "batch_id": "milestone13_persona_boundary_facts_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone13_persona_boundary_rules_v1.json",
+      "batch_id": "milestone13_persona_boundary_rules_v1",
+      "milestone_id": "milestone13_persona_boundary_rules",
+      "goal": "Milestone 13：画像边界规则沉淀与可执行化"
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_registry_v1.json",
+      "batch_id": "milestone12_persona_stability_batch_v1",
+      "milestone_id": "milestone12_persona_stability",
+      "goal": "Milestone 12：主画像稳定性复核与画像体系收敛"
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_queue_v1.json",
+      "batch_id": "milestone12_persona_stability_queue_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_facts_v1.json",
+      "batch_id": "milestone12_persona_stability_facts_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone12_persona_stability_evidence_patch_v1.json",
+      "batch_id": "milestone12_persona_stability_evidence_patch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 12：主画像稳定性强来源补证"
+    },
+    {
+      "path": "configs/promote_batches/milestone12_persona_stability_promote_v1.json",
+      "batch_id": "milestone12_persona_stability_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 12：画像稳定性行动包后 promote 非写回复核"
+    },
+    {
+      "path": "configs/execution_batches/milestone11_warn_quality_facts_v1.json",
+      "batch_id": "milestone11_warn_quality_facts_v1",
+      "milestone_id": "",
+      "goal": "Milestone 11：6R样本warn级质量解阻补证包"
+    },
+    {
+      "path": "configs/execution_batches/milestone11_warn_quality_registry_v1.json",
+      "batch_id": "milestone11_warn_quality_batch_v1",
+      "milestone_id": "milestone11_warn_quality",
+      "goal": "Milestone 11：6R样本warn级质量解阻与补证闭环"
+    },
+    {
+      "path": "configs/promote_batches/milestone11_warn_quality_promote_v1.json",
+      "batch_id": "milestone11_warn_quality_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 11：warn级质量解阻后 promote 复核"
+    },
+    {
+      "path": "configs/promote_batches/retail_l5_to_l3_v1.json",
+      "batch_id": "promote_batch_retail_l5_to_l3_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/promote_batches/milestone6r_trust_promote_v1.json",
+      "batch_id": "milestone6r_trust_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6R：可信增强首轮12家 promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone6_supply_promote_v1.json",
+      "batch_id": "milestone6_supply_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家） promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone6_promote_v1.json",
+      "batch_id": "milestone6_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6：L3到L2主闭环（12家） promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone5a_supply_promote_v1.json",
+      "batch_id": "milestone5a_supply_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5A：L5到L4供给补齐 promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone5_execution_promote_v1.json",
+      "batch_id": "milestone5_execution_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5：24家样本 promote 批次"
+    },
+    {
+      "path": "configs/promote_batches/milestone2_4_popmart_l4_to_l3_allow_closure_v1.json",
+      "batch_id": "milestone2_4_popmart_l4_to_l3_allow_closure_v1",
+      "milestone_id": "",
+      "goal": "Milestone 2.4：acc_popmart 真实 L4 到 L3 升层写回"
+    },
+    {
+      "path": "configs/promote_batches/milestone2_3_l3_to_l2_allow_closure_v1.json",
+      "batch_id": "milestone2_3_l3_to_l2_allow_closure_v1",
+      "milestone_id": "",
+      "goal": "Milestone 2.3：allow样本真实L3到L2升层写回"
+    },
+    {
+      "path": "configs/promote_batches/l3_to_l2_mass_v1.json",
+      "batch_id": "promote_batch_l3_to_l2_mass_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/template_v1.json",
+      "batch_id": "execution_batch_template_v1",
+      "milestone_id": "",
+      "goal": "execution 批次模板：enrich -> promote -> run summary/review"
+    },
+    {
+      "path": "configs/execution_batches/milestone6r_trust_registry_v1.json",
+      "batch_id": "milestone6r_trust_batch_v1",
+      "milestone_id": "milestone6r_trust",
+      "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6r_trust_candidates_v1.json",
+      "batch_id": "milestone6r_trust_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_supply_registry_v1.json",
+      "batch_id": "milestone6_supply_batch_v1",
+      "milestone_id": "milestone6_supply",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_supply_candidates_v1.json",
+      "batch_id": "milestone6_supply_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_registry_v1.json",
+      "batch_id": "milestone6_main_batch_v1",
+      "milestone_id": "milestone6",
+      "goal": "Milestone 6：L3到L2主闭环（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_candidates_v1.json",
+      "batch_id": "milestone6_main_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6：L3到L2主闭环（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_registry_v1.json",
+      "batch_id": "milestone5a_supply_batch_v1",
+      "milestone_id": "milestone5a_supply",
+      "goal": "Milestone 5A：补齐L4供给（14家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_queue_v1.json",
+      "batch_id": "milestone5a_supply_queue_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_facts_v1.json",
+      "batch_id": "milestone5a_supply_facts_v1",
+      "milestone_id": "",
+      "goal": ""
+    }
+  ],
+  "recent_docs": [
+    {
+      "path": "docs/03-执行与校验/Milestone 16-迁移交接自检复盘-v1.md",
+      "mtime": "2026-04-27T02:32:48.937506+00:00",
+      "size_bytes": 995
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 15-共享消费包复盘-v1.md",
+      "mtime": "2026-04-27T02:32:07.624501+00:00",
+      "size_bytes": 6312
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 14-小批扩容写回前闸门检查-v1.md",
+      "mtime": "2026-04-27T02:31:12.955237+00:00",
+      "size_bytes": 541
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 14-小批扩容最终复盘-v1.md",
+      "mtime": "2026-04-27T02:31:12.108878+00:00",
+      "size_bytes": 1374
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 14-小批扩容promote复盘-v1.md",
+      "mtime": "2026-04-27T02:31:12.108529+00:00",
+      "size_bytes": 12790
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 14-小批扩容enrich复盘-v1.md",
+      "mtime": "2026-04-27T02:31:10.819749+00:00",
+      "size_bytes": 12239
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 13.2-人工画像确认包复盘-v1.md",
+      "mtime": "2026-04-27T02:29:00.246031+00:00",
+      "size_bytes": 4358
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 13-画像边界规则最终复盘-v1.md",
+      "mtime": "2026-04-27T02:23:29.603245+00:00",
+      "size_bytes": 5339
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 13-画像边界规则写回前闸门检查-v1.md",
+      "mtime": "2026-04-27T02:22:59.198213+00:00",
+      "size_bytes": 531
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 13-画像边界规则promote复盘-v1.md",
+      "mtime": "2026-04-27T02:22:44.359346+00:00",
+      "size_bytes": 8999
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 13-画像边界规则enrich复盘-v1.md",
+      "mtime": "2026-04-27T02:22:41.276410+00:00",
+      "size_bytes": 9102
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 13-画像边界规则评估复盘-v1.md",
+      "mtime": "2026-04-27T02:22:10.566706+00:00",
+      "size_bytes": 5361
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-主画像稳定性复核执行说明-v1.md",
+      "mtime": "2026-04-27T02:14:43.612595+00:00",
+      "size_bytes": 5250
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-画像稳定性最终复盘-v1.md",
+      "mtime": "2026-04-27T02:14:23.978199+00:00",
+      "size_bytes": 2225
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-画像稳定性写回前闸门检查-v1.md",
+      "mtime": "2026-04-27T02:08:35.486794+00:00",
+      "size_bytes": 531
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-画像稳定性promote复盘-v1.md",
+      "mtime": "2026-04-27T02:08:16.225019+00:00",
+      "size_bytes": 9006
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-画像稳定性enrich复盘-v1.md",
+      "mtime": "2026-04-27T02:08:13.972739+00:00",
+      "size_bytes": 9102
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-画像稳定性行动包复盘-v1.md",
+      "mtime": "2026-04-27T02:07:28.924551+00:00",
+      "size_bytes": 5259
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-LLM画像复核结果草稿-v1.md",
+      "mtime": "2026-04-27T01:41:15.278100+00:00",
+      "size_bytes": 7844
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 12-主画像稳定性复核草稿-v1.md",
+      "mtime": "2026-04-27T01:39:32.734211+00:00",
+      "size_bytes": 8278
+    }
+  ]
+}

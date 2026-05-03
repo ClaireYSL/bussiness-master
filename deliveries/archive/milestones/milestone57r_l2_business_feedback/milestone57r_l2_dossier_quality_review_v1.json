@@ -1,0 +1,173 @@
+{
+  "milestone": "M57R",
+  "generated_at": "2026-05-03T10:50:08.028526+00:00",
+  "record_type": "l2_dossier_quality_review",
+  "items": [
+    {
+      "company_name": "三只松鼠股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/三只松鼠股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云南贝泰妮生物科技集团股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "北京石头世纪科技股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/北京石头世纪科技股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "周大生珠宝股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/周大生珠宝股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "孩子王儿童用品股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/孩子王儿童用品股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳百果园实业集团股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "瑞幸咖啡有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/瑞幸咖啡有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    },
+    {
+      "company_name": "绝味食品股份有限公司",
+      "dossier_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/绝味食品股份有限公司.md",
+      "score": 1.0,
+      "pass": true,
+      "checks": {
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_service": true,
+        "has_business_model": true,
+        "has_at_least_two_strong_evidence": true,
+        "has_risk_or_gap": true,
+        "has_static_gap": true,
+        "has_source_boundary": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "missing_or_failed_checks": [],
+      "evidence_count": 2
+    }
+  ],
+  "summary": {
+    "l2_formal_count": 8,
+    "quality_pass_count": 8,
+    "quality_fail_count": 0,
+    "average_score": 1.0
+  }
+}

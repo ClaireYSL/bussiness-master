@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T12:03:56.085382+00:00",
+  "generated_at": "2026-05-03T12:16:54.339149+00:00",
   "overall_status": "PASS_M72R_OPERATING_PANEL_READY",
   "counts": {
     "l1_formal_count": 0,
@@ -190,8 +190,8 @@
     "current_m69_m72_package_count": 6,
     "other_untracked_needs_human_decision_count": 106
   },
-  "workspace_cleanup_status": "PASS_C10_WORKSPACE_HANDOFF_READY",
-  "latest_workspace_cleanup": "C10",
+  "workspace_cleanup_status": "PASS_C14_CLEANUP_IMPORT_READY",
+  "latest_workspace_cleanup": "C14",
   "c8_workspace_classification": {
     "archive_import_candidate_count": 262,
     "legacy_keep_local_or_ignore_count": 105,
@@ -209,5 +209,32 @@
     "status": "PASS_C10_WORKSPACE_HANDOFF_SNAPSHOT_READY",
     "last_commit": "435ff34 feat: add l3 to l2 promotion planning loop",
     "branch": "codex/milestone12-persona-stability"
+  },
+  "c11_archive_import": {
+    "archive_import_candidate_count": 368,
+    "json_parse_error_count": 0
+  },
+  "c12_legacy_import": {
+    "legacy_import_candidate_count": 106,
+    "config_count": 55,
+    "script_count": 49,
+    "prompt_count": 2,
+    "write_back_true_count": 1,
+    "json_parse_error_count": 0
+  },
+  "c13_tracked_decisions": {
+    "archive_snapshot_commit_candidate_count": 12,
+    "current_cleanup_commit_candidate_count": 1,
+    "needs_user_or_historical_decision_count": 5,
+    "do_not_touch_count": 0
+  },
+  "c14_cleanup_panel": {
+    "before_untracked_count": 488,
+    "before_tracked_modified_count": 18,
+    "current_untracked_count_before_staging": 488,
+    "current_tracked_modified_count": 18,
+    "archive_import_candidate_count": 368,
+    "legacy_import_candidate_count": 106,
+    "tracked_decision_count": 18
   }
 }

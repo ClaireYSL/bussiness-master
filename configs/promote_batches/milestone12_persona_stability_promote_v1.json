@@ -1,0 +1,29 @@
+{
+  "batch_id": "milestone12_persona_stability_promote_v1",
+  "goal": "Milestone 12：画像稳定性行动包后 promote 非写回复核",
+  "account_ids": [
+    "acc_dreame",
+    "acc_tomtop",
+    "acc_cn_600185",
+    "acc_cn_002626",
+    "acc_cn_002511",
+    "acc_cn_002640",
+    "acc_cn_301110",
+    "acc_cn_300592",
+    "acc_cn_002281",
+    "acc_cn_000768",
+    "acc_cn_688082",
+    "acc_cn_002074"
+  ],
+  "from_level": "L3",
+  "target_level": "L2",
+  "fact_patch_file": "configs/execution_batches/milestone12_persona_stability_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone12_persona_stability_queue_v1.json",
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": false,
+  "output_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_promote_v1_report_only_L2_1.json",
+  "summary_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 12-画像稳定性promote复盘-v1.md",
+  "enrich_result_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_enrich_v1.json",
+  "note": "M12 promote 必须显式消费 M11 enrich 结果，避免主表旧 persona alias 导致 report_only 口径漂移。"
+}

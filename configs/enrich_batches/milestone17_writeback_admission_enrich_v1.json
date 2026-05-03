@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone17_writeback_admission_enrich_v1",
+  "goal": "Milestone 17：写回候选准入试点 enrich 写回复核",
+  "from_level": "L5",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "rectification_file": "configs/execution_batches/milestone17_writeback_admission_facts_v1.json",
+  "source_policy": "M17 用户已确认 15 家写回试点；仅使用结构化 fact patch 与强 evidence。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

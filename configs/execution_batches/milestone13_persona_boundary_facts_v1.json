@@ -1,0 +1,379 @@
+{
+  "batch_id": "milestone13_persona_boundary_facts_v1",
+  "policy": "M13 inherits M12 evidence/quality facts. review_status=active is emitted only for active_candidate decisions.",
+  "accounts": [
+    {
+      "account_id": "acc_cn_000768",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=000768",
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_000768_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补中航西飞官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=000768",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强中航西飞上市公司官方披露来源。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_000768_annual_aircraft_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-01/1222975145.pdf",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,rd_manufacturing_sales,track_fit",
+          "summary": "中航西飞 2024 年年度报告披露其航空产品销售收入和航空制造相关经营信息，可支撑先进制造主线下研产销协同复杂制造画像复核。",
+          "account_id": "acc_cn_000768"
+        }
+      ],
+      "account_name": "中航西飞"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002074",
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_002074_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补国轩高科官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002074",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强国轩高科上市公司官方披露来源。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_002074_annual_battery_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223284129.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,rd_manufacturing_sales,track_fit",
+          "summary": "国轩高科 2024 年年度报告全文可定位其动力电池、储能电池等新能源制造业务，支撑先进制造主线下研产销协同复杂制造画像复核。",
+          "account_id": "acc_cn_002074"
+        }
+      ],
+      "account_name": "国轩高科"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002281",
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_002281_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补光迅科技官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002281",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强光迅科技上市公司官方披露来源。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_002281_annual_optical_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223234851.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,manufacturing_complexity,track_fit",
+          "summary": "光迅科技 2024 年年度报告披露光电子器件、传输光模块、垂直整合和高端光电子器件产能建设等内容，可支撑先进制造主线下多工厂/制造协同画像复核。",
+          "account_id": "acc_cn_002281"
+        }
+      ],
+      "account_name": "光迅科技"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002511",
+      "main_fields": {
+        "公司产品与服务概述": "中顺洁柔经营生活用纸、个人护理和相关家庭清洁消费品，覆盖品牌产品、渠道销售和终端消费场景。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_002511_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补中顺洁柔官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002511",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强中顺洁柔上市公司官方披露来源与产品字段。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_002511_annual_products_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223267242.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,product_scope,track_fit",
+          "summary": "中顺洁柔 2024 年年度报告披露公司生活用纸等业务、销售量及合并子公司信息，可支撑其作为生活用纸/个护高 SKU 品牌消费品主体复核。",
+          "account_id": "acc_cn_002511"
+        }
+      ],
+      "account_name": "中顺洁柔"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002626",
+      "main_fields": {
+        "公司产品与服务概述": "金达威经营营养健康原料、膳食营养补充剂和相关消费健康产品，覆盖研发、生产、品牌和渠道销售链路。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_002626_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补金达威官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002626",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强金达威上市公司官方披露来源与产品字段。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_002626_financial_report_v1",
+          "source_type": "listed_company_disclosure",
+          "source_locator": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80018831&gather=1&id=10856980",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,product_scope,track_fit",
+          "summary": "金达威 2024 年度财务报告公告可定位其上市公司主体和年度经营披露，结合其营养健康、辅酶 Q10、维生素等业务，支撑高 SKU 健康消费品/营养品画像继续复核。",
+          "account_id": "acc_cn_002626"
+        }
+      ],
+      "account_name": "金达威"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002640",
+      "main_fields": {
+        "公司产品与服务概述": "跨境通围绕跨境出口零售、电商平台运营和海外消费品销售开展业务，核心对象是多平台、多站点的跨境商品经营链路。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_002640_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补跨境通官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002640",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强跨境通上市公司官方披露来源与产品字段。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_002640_annual_crossborder_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222942840.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,cross_border_platform,track_fit",
+          "summary": "跨境通 2024 年年度报告摘要披露全球电商和跨境电商行业背景及公司年度报告信息，可支撑其跨境电商主线画像复核，同时仍需关注经营压力。",
+          "account_id": "acc_cn_002640"
+        }
+      ],
+      "account_name": "跨境通"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300592",
+      "main_fields": {
+        "公司产品与服务概述": "华凯易佰面向跨境出口电商场景运营泛品类商品销售、平台店铺管理和海外履约相关业务。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_300592_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补华凯易佰官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300592",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强华凯易佰上市公司官方披露来源与产品字段。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_300592_annual_crossborder_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-23/1223262338.pdf",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,cross_border_platform,track_fit",
+          "summary": "华凯易佰 2024 年年度报告披露其依托易佰网络、通拓科技开展跨境出口电商，通过 Amazon、eBay、Temu、TikTok、AliExpress 等平台销售，支撑跨境多平台画像复核。",
+          "account_id": "acc_cn_300592"
+        }
+      ],
+      "account_name": "华凯易佰"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301110",
+      "main_fields": {
+        "公司产品与服务概述": "青木科技为品牌客户提供电商代运营、数字营销、渠道运营和消费者运营相关服务。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_301110_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补青木科技官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301110",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强青木科技上市公司官方披露来源与产品字段。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_301110_annual_ecommerce_service_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223377273.PDF",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,ecommerce_service,track_fit",
+          "summary": "青木科技 2024 年年度报告全文可定位其年度披露；公开年报信息显示其电商代运营/综合电商服务收入构成，可支撑电商服务与跨境/多平台相邻画像复核。",
+          "account_id": "acc_cn_301110"
+        }
+      ],
+      "account_name": "青木科技"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600185",
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_600185_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补珠免集团官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600185",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强珠免集团上市公司官方披露来源。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_600185_annual_retail_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11049299&stockid=600185",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,retail_network,track_fit",
+          "summary": "格力地产/珠免集团相关年度报告公告披露珠海免税的新零售平台、线上线下流量融合、旅游零售品类和品牌资源，支撑其多门店/旅游零售画像复核。",
+          "account_id": "acc_cn_600185"
+        }
+      ],
+      "account_name": "珠免集团"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_disclosure,cninfo",
+      "primary_source_refs": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688082",
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_cn_688082_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "official_source_ready",
+          "field_value": "已补盛美上海官方披露入口作为强来源。",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688082",
+          "source_type": "official_disclosure",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source",
+          "summary": "Milestone 11 补强盛美上海上市公司官方披露来源。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_cn_688082_annual_semiconductor_equipment_v1",
+          "source_type": "annual_report",
+          "source_locator": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10760358",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,semiconductor_equipment,track_fit",
+          "summary": "盛美上海 2024 年年度报告公告披露半导体清洗设备、其他半导体设备及先进封装湿法设备收入增长，支撑半导体设备研产销复杂制造画像复核。",
+          "account_id": "acc_cn_688082"
+        }
+      ],
+      "account_name": "盛美上海"
+    },
+    {
+      "account_id": "acc_dreame",
+      "main_fields": {
+        "公司产品与服务概述": "追觅科技经营智能清洁电器、个护电器和智能家居相关硬件产品，覆盖研发、制造、品牌运营和多渠道销售链路。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_dreame_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "公司产品与服务概述",
+          "field_value": "已补追觅科技更具体的智能清洁电器与智能家居产品表述。",
+          "source_locator": "https://www.dreametech.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "product_service",
+          "summary": "Milestone 11 补强追觅科技官网来源与产品字段。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_dreame_official_products_v1",
+          "source_type": "official_site",
+          "source_locator": "https://www.dreame.tech/home/shop/shop",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,product_scope,track_fit",
+          "summary": "追觅官网产品入口覆盖智能清洁、洗地、无线吸尘、个护等智能家电品类，可支撑其作为高 SKU 智能家电品牌消费品主体继续复核。",
+          "account_id": "acc_dreame"
+        }
+      ],
+      "account_name": "追觅创新科技（苏州）有限公司"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "main_fields": {
+        "admission_reason_summary": "通拓科技具备跨境电商多平台、多品类和海外零售履约链路，可用于验证跨境品牌出海与平台运营画像下的补证和上移判断。"
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "ev_m11_acc_tomtop_official_v1",
+          "evidence_type": "official_fact_patch",
+          "field_name": "admission_reason_summary",
+          "field_value": "已补通拓科技跨境经营入池理由。",
+          "source_locator": "https://www.tomtop.com/",
+          "source_type": "official_website",
+          "evidence_strength": "A",
+          "supports_dimension": "admission_reason",
+          "summary": "Milestone 11 补强通拓科技官网来源与入池理由。"
+        },
+        {
+          "evidence_id": "m12_ev_acc_tomtop_official_about_v1",
+          "source_type": "official_site",
+          "source_locator": "https://blog.tomtop.com/about/",
+          "evidence_strength": "A",
+          "supports_dimension": "persona_support,cross_border_platform,track_fit",
+          "summary": "TOMTOP 官方介绍显示其总部在深圳，业务涉及 eBay、Amazon、Alibaba、DHgate、淘宝及 TOMTOP 网站等多平台电商营销，支撑跨境多平台品牌/平台经营画像复核。",
+          "account_id": "acc_tomtop"
+        }
+      ],
+      "account_name": "深圳市通拓科技有限公司"
+    }
+  ]
+}

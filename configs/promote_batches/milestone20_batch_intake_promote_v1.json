@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone20_batch_intake_promote_v1",
+  "goal": "Milestone 20：批量补证自动化 promote 非写回复核",
+  "account_ids": [],
+  "from_level": "L5",
+  "target_level": "L3",
+  "auto_open_promotion_review_for_selected": true,
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": false,
+  "limit": 9999,
+  "enrich_result_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_enrich_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone20_batch_intake_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone20_batch_intake_queue_v1.json",
+  "output_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 20-批量补证自动化-promote复盘-v1.md"
+}

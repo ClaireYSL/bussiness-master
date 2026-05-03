@@ -1,0 +1,12 @@
+{
+  "gate_id": "milestone48r_quality_gate_check_v1",
+  "checks": {
+    "source_roots_ready": true,
+    "persona_evidence_map_ready": true,
+    "intake_schema_ready": true,
+    "first_batch_ready": true,
+    "trusted_pool_product_ready": true,
+    "no_write_proof_ready": true
+  },
+  "pass": true
+}

@@ -1,0 +1,4101 @@
+{
+  "batch_id": "milestone20_batch_intake_enrich_v1",
+  "goal": "Milestone 20：批量补证自动化 enrich 非写回复核",
+  "rectification_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_patch_v1.json",
+  "selection": {
+    "account_ids": [
+      "acc_hangke",
+      "acc_hanzhong",
+      "acc_haopeng",
+      "acc_henglihyd",
+      "acc_hetai",
+      "acc_hymson",
+      "acc_ikd",
+      "acc_invt",
+      "acc_jereh",
+      "acc_jiejia",
+      "acc_jsbr",
+      "acc_kaili",
+      "acc_kedali",
+      "acc_laifen",
+      "acc_lanhe",
+      "acc_leisai",
+      "acc_morhome",
+      "acc_neway",
+      "acc_recodeal",
+      "acc_rifa",
+      "acc_scc",
+      "acc_scimee",
+      "acc_shuanghuan",
+      "acc_topband",
+      "acc_wanma",
+      "acc_weixingmeter",
+      "acc_wus",
+      "acc_yawei",
+      "acc_yinlun",
+      "acc_yuyue"
+    ],
+    "track": "",
+    "from_level": "L5"
+  },
+  "summary": {
+    "result_count": 30,
+    "ready_for_promote": 30,
+    "observation": 0
+  },
+  "results": [
+    {
+      "account_id": "acc_hangke",
+      "account_canonical_name": "杭可科技股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "杭可科技围绕锂电池后处理系统、充放电设备、测试设备和自动化产线开展研发、制造与销售。",
+        "商业模式概述": "杭可科技股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "杭可科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "杭可科技股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "account_canonical_name": "汉钟精机股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "汉钟精机聚焦螺杆压缩机、真空泵、冷冻冷藏压缩机和相关流体机械设备。",
+        "商业模式概述": "汉钟精机股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "汉钟精机股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "汉钟精机股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "account_canonical_name": "深圳市豪鹏科技股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "豪鹏科技提供锂离子电池、镍氢电池及储能、消费电子和智能硬件电池解决方案。",
+        "商业模式概述": "深圳市豪鹏科技股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "深圳市豪鹏科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市豪鹏科技股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "account_canonical_name": "江苏恒立液压股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "恒立液压研发制造液压油缸、液压泵阀、液压系统和精密铸件等核心液压部件。",
+        "商业模式概述": "江苏恒立液压股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "江苏恒立液压股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "江苏恒立液压股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_hetai",
+      "account_canonical_name": "深圳和而泰智能控制股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "和而泰提供智能控制器、智能硬件控制、汽车电子和家电控制相关产品与解决方案。",
+        "商业模式概述": "深圳和而泰智能控制股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "深圳和而泰智能控制股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳和而泰智能控制股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_hymson",
+      "account_canonical_name": "海目星激光科技集团股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "海目星提供激光及自动化设备，覆盖锂电、光伏、消费电子和钣金加工等制造场景。",
+        "商业模式概述": "海目星激光科技集团股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "海目星激光科技集团股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "海目星激光科技集团股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_ikd",
+      "account_canonical_name": "爱柯迪股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "爱柯迪研发制造汽车铝合金精密压铸件和新能源汽车结构件等零部件。",
+        "商业模式概述": "爱柯迪股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "爱柯迪股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "爱柯迪股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_invt",
+      "account_canonical_name": "深圳市英威腾电气股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "英威腾提供变频器、伺服系统、工业自动化、新能源电源和电气控制产品。",
+        "商业模式概述": "深圳市英威腾电气股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "深圳市英威腾电气股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市英威腾电气股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_canonical_name": "杰瑞石油服务集团股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_shoufan_custom_mfg_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "杰瑞股份提供油气装备、环保装备、新能源装备及相关工程技术服务。",
+        "商业模式概述": "杰瑞石油服务集团股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "杰瑞石油服务集团股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_shoufan_custom_mfg_v1",
+          "asset_type": "customer_case",
+          "title": "首帆动力定制化生产经营分析案例",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了首帆动力在服务全球 120 多个国家和地区、面对高度定制化和低毛利业务背景下，如何通过 BI 打通 CRM、PLM、MES、ERP 等系统，实现报价提效、成本预警和订单全生命周期追溯的案例。它适合补强复杂制造和边设计边生产型企业的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "杰瑞石油服务集团股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "account_canonical_name": "深圳市捷佳伟创新能源装备股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1",
+        "ka_case_shoufan_custom_mfg_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "捷佳伟创提供光伏电池片生产设备、湿法设备、扩散设备和自动化整线方案。",
+        "商业模式概述": "深圳市捷佳伟创新能源装备股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "深圳市捷佳伟创新能源装备股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_case_shoufan_custom_mfg_v1",
+          "asset_type": "customer_case",
+          "title": "首帆动力定制化生产经营分析案例",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了首帆动力在服务全球 120 多个国家和地区、面对高度定制化和低毛利业务背景下，如何通过 BI 打通 CRM、PLM、MES、ERP 等系统，实现报价提效、成本预警和订单全生命周期追溯的案例。它适合补强复杂制造和边设计边生产型企业的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市捷佳伟创新能源装备股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "account_canonical_name": "江苏北人智能制造科技股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "江苏北人提供工业机器人系统集成、智能焊接生产线和智能制造装备。",
+        "商业模式概述": "江苏北人智能制造科技股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "江苏北人智能制造科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "江苏北人智能制造科技股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_kaili",
+      "account_canonical_name": "深圳开立生物医疗科技股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "开立医疗研发制造超声诊断、内窥镜、监护和体外诊断等医疗设备。",
+        "商业模式概述": "深圳开立生物医疗科技股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "深圳开立生物医疗科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳开立生物医疗科技股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_kedali",
+      "account_canonical_name": "深圳市科达利实业股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "科达利研发制造锂电池精密结构件、汽车结构件和新能源零部件。",
+        "商业模式概述": "深圳市科达利实业股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "深圳市科达利实业股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市科达利实业股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_laifen",
+      "account_canonical_name": "深圳市徕芬电子科技有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_smallrig_outbound_v1",
+        "ka_insight_cbec_abm_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "徕芬围绕高速吹风机、电动牙刷等个人护理和生活电器产品开展研发、设计与销售。",
+        "商业模式概述": "深圳市徕芬电子科技有限公司以消费电子品牌研发、产品设计、供应链协同和海外线上渠道运营为核心，面向全球消费者交付自有品牌产品。",
+        "admission_reason_summary": "深圳市徕芬电子科技有限公司具备消费电子产品、跨境渠道和品牌运营特征，可用于验证 `cbec_multi_platform_brand` 下的海外渠道、供应链和产品矩阵经营。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_abm_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商 ABM 物料与 ICP 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明跨境电商已经不是“研究阶段”，而是已具备 ABM 物料、Top 案例和相对明确的 ICP。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市徕芬电子科技有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "account_canonical_name": "深圳市蓝禾技术有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_smallrig_outbound_v1",
+        "ka_insight_cbec_abm_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "蓝禾技术围绕手机配件、数码周边、消费电子和跨境品牌产品开展研发与运营。",
+        "商业模式概述": "深圳市蓝禾技术有限公司以消费电子品牌研发、产品设计、供应链协同和海外线上渠道运营为核心，面向全球消费者交付自有品牌产品。",
+        "admission_reason_summary": "深圳市蓝禾技术有限公司具备消费电子产品、跨境渠道和品牌运营特征，可用于验证 `cbec_multi_platform_brand` 下的海外渠道、供应链和产品矩阵经营。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_insight_cbec_abm_v1",
+          "asset_type": "industry_insight",
+          "title": "跨境电商 ABM 物料与 ICP 洞察",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产说明跨境电商已经不是“研究阶段”，而是已具备 ABM 物料、Top 案例和相对明确的 ICP。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市蓝禾技术有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_leisai",
+      "account_canonical_name": "深圳市雷赛智能控制股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "雷赛智能提供步进系统、伺服系统、运动控制卡和工业自动化控制产品。",
+        "商业模式概述": "深圳市雷赛智能控制股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "深圳市雷赛智能控制股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳市雷赛智能控制股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_morhome",
+      "account_canonical_name": "慕容家居控股有限公司",
+      "primary_track": "跨境电商",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "cbec_multi_platform_brand",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_smallrig_outbound_v1",
+        "ka_solution_cbec_profit_v1",
+        "ka_case_babycare_ops_v1",
+        "ka_case_cbec_consumer_electronics_ops_v1",
+        "ka_case_cbec_home_outbound_ops_v1"
+      ],
+      "talk_track_refs": [],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "慕容家居围绕功能沙发、软体家具、家居产品设计生产和海外市场销售开展经营。",
+        "商业模式概述": "慕容家居控股有限公司以消费电子品牌研发、产品设计、供应链协同和海外线上渠道运营为核心，面向全球消费者交付自有品牌产品。",
+        "admission_reason_summary": "慕容家居控股有限公司具备消费电子产品、跨境渠道和品牌运营特征，可用于验证 `cbec_multi_platform_brand` 下的海外渠道、供应链和产品矩阵经营。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_051",
+          "material_title": "乐其 SmallRig 跨境电商数据分析体系案例",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_052",
+          "material_title": "碧橙 TP/DP BI 数据应用平台方案",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_hq_operating_visibility"
+        },
+        {
+          "queue_id": "klq_053",
+          "material_title": "倍思 BI 案例分享",
+          "priority": "P1",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        },
+        {
+          "queue_id": "klq_054",
+          "material_title": "有棵树 BI 案例分享",
+          "priority": "P2",
+          "trigger_persona_id": "cbec_multi_platform_brand,mgmt_profit_improvement"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_smallrig_outbound_v1",
+          "asset_type": "customer_case",
+          "title": "乐其 SmallRig 出海样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为现有出海样本锚点，用于解释品牌出海型企业为何属于观远可打的跨境画像。"
+        },
+        {
+          "asset_id": "ka_solution_cbec_profit_v1",
+          "asset_type": "solution_playbook",
+          "title": "跨境 T+1 利润分析与业财一体化打法",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产凝练了跨境电商最关键的解决方案抓手：市场洞察与选品、多平台精细化运营、库存与供需平衡、T+1 利润分析。"
+        },
+        {
+          "asset_id": "ka_case_babycare_ops_v1",
+          "asset_type": "customer_case",
+          "title": "babycare 全渠道精细化运营案例",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了 babycare 如何通过 BI 平台和指标体系实现全渠道业绩达成跟踪、人群运营量化和 ARPU 提升的案例。它兼具品牌消费品和多平台经营特征，适合补强母婴品牌与人群精细化运营样本。"
+        },
+        {
+          "asset_id": "ka_case_cbec_consumer_electronics_ops_v1",
+          "asset_type": "customer_case",
+          "title": "消费电子品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀消费电子品牌出海企业在市场洞察、多平台经营和利润改善上的共性。"
+        },
+        {
+          "asset_id": "ka_case_cbec_home_outbound_ops_v1",
+          "asset_type": "customer_case",
+          "title": "家居家清品牌出海经营样本",
+          "match_reason": "跨境电商 / cbec_multi_platform_brand 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀家居家清品牌出海在平台经营、利润改善和供应链协同上的通用切入点。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "慕容家居控股有限公司 enrich 完成：主画像=cbec_multi_platform_brand，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_neway",
+      "account_canonical_name": "苏州纽威阀门股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "纽威股份研发制造工业阀门、控制阀、安全阀和能源装备用阀门产品。",
+        "商业模式概述": "苏州纽威阀门股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "苏州纽威阀门股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "苏州纽威阀门股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "account_canonical_name": "瑞可达连接系统股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "瑞可达提供连接器、线束组件和新能源、通信、工业领域连接系统。",
+        "商业模式概述": "瑞可达连接系统股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "瑞可达连接系统股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "瑞可达连接系统股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_rifa",
+      "account_canonical_name": "浙江日发精密机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_multi_factory_group",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_zerorun_self_service_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_haozhi_dashboard_v1",
+        "ka_case_mfg_group_dashboard_v1",
+        "ka_case_robotics_automation_ops_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "日发精机提供数控机床、航空航天装备、智能制造产线和机械加工设备。",
+        "商业模式概述": "浙江日发精密机械股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "admission_reason_summary": "浙江日发精密机械股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_zerorun_self_service_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式数据服务体系",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产作为先进制造和复杂经营协同样本，可用于说明技术型制造和汽车相关复杂经营主体具备观远可复制的自助分析与经营协同需求。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_case_mfg_group_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "制造集团经营驾驶舱样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀制造集团如何从集团经营透明化和驾驶舱诉求切入。"
+        },
+        {
+          "asset_id": "ka_case_robotics_automation_ops_v1",
+          "asset_type": "customer_case",
+          "title": "机器人与自动化装备经营样本",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀机器人与自动化装备企业在集团协同和经营驾驶舱上的可复用逻辑。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_multi_factory_group 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江日发精密机械股份有限公司 enrich 完成：主画像=mfg_multi_factory_group，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_scc",
+      "account_canonical_name": "生益电子股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "生益电子研发制造印制电路板，服务通信、服务器、汽车电子和工业控制客户。",
+        "商业模式概述": "生益电子股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "生益电子股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "生益电子股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_scimee",
+      "account_canonical_name": "沈阳芯源微电子设备股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "芯源微提供半导体涂胶显影设备、清洗设备和晶圆处理设备。",
+        "商业模式概述": "沈阳芯源微电子设备股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "沈阳芯源微电子设备股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "沈阳芯源微电子设备股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "account_canonical_name": "浙江双环传动机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "双环传动研发制造齿轮、传动部件和新能源汽车传动系统零部件。",
+        "商业模式概述": "浙江双环传动机械股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "浙江双环传动机械股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江双环传动机械股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_topband",
+      "account_canonical_name": "深圳拓邦股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "拓邦股份提供智能控制器、锂电池、控制系统和物联网智能硬件产品。",
+        "商业模式概述": "深圳拓邦股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "深圳拓邦股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "深圳拓邦股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_wanma",
+      "account_canonical_name": "浙江万马股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "万马股份提供电线电缆、高分子材料、充电设备和新能源相关产品。",
+        "商业模式概述": "浙江万马股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "浙江万马股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江万马股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "account_canonical_name": "浙江伟星智能仪表股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "伟星智能提供智能水表、智能燃气表、计量系统和智慧水务相关设备。",
+        "商业模式概述": "浙江伟星智能仪表股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "浙江伟星智能仪表股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江伟星智能仪表股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_wus",
+      "account_canonical_name": "沪士电子股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "沪士电子研发制造印制电路板，面向通信、数据中心、汽车电子和工业设备客户。",
+        "商业模式概述": "沪士电子股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "沪士电子股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "沪士电子股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_yawei",
+      "account_canonical_name": "江苏亚威机床股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "亚威股份提供金属成形机床、激光加工设备、自动化生产线和智能制造装备。",
+        "商业模式概述": "江苏亚威机床股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "江苏亚威机床股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "江苏亚威机床股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "account_canonical_name": "浙江银轮机械股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "银轮股份研发制造热交换器、热管理模块和汽车及工程机械热管理产品。",
+        "商业模式概述": "浙江银轮机械股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "浙江银轮机械股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "浙江银轮机械股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "account_canonical_name": "江苏鱼跃医疗设备股份有限公司",
+      "primary_track": "先进制造",
+      "current_level": "L5",
+      "suggested_maturity": "L5",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "secondary_persona_tags": [],
+      "knowledge_asset_refs": [
+        "ka_case_haozhi_dashboard_v1",
+        "ka_insight_mfg_value_stream_v1",
+        "ka_case_auto_electronics_coordination_v1",
+        "ka_case_leapmotor_selfservice_bi_v1",
+        "ka_case_medical_device_channel_v1"
+      ],
+      "talk_track_refs": [
+        "ka_narrative_xiguachuangke_aibi_v1"
+      ],
+      "minimum_fact_status": "pass",
+      "official_source_status": "available",
+      "candidate_type": "formal_candidate",
+      "review_status": "active",
+      "required_queue_type": "verification",
+      "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+      "rewrite_suggestion": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "鱼跃医疗提供呼吸治疗、血糖监测、康复护理、消毒感控和家用医疗设备。",
+        "商业模式概述": "江苏鱼跃医疗设备股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "admission_reason_summary": "江苏鱼跃医疗设备股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "validation_gap": "M20 已补最小字段和官方来源；后续需按真实业务反馈决定是否进入写回准入。",
+        "review_status": "pending_review",
+        "静态潜客记录成熟度": "L5"
+      },
+      "matched_learning_queue_items": [
+        {
+          "queue_id": "klq_055",
+          "material_title": "SAP PCE 对接技术白皮书",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        },
+        {
+          "queue_id": "klq_056",
+          "material_title": "兆驰集团多工厂多产线经营效能案例",
+          "priority": "P1",
+          "trigger_persona_id": "mfg_multi_factory_group,mgmt_group_coordination"
+        }
+      ],
+      "knowledge_matches": [
+        {
+          "asset_id": "ka_case_haozhi_dashboard_v1",
+          "asset_type": "customer_case",
+          "title": "昊志机电经营驾驶舱与战略升级叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产证明制造业方向的强项不是工厂控制替代，而是经营驾驶舱、价值流管理和管理标准化复制。"
+        },
+        {
+          "asset_id": "ka_insight_mfg_value_stream_v1",
+          "asset_type": "industry_insight",
+          "title": "制造业从商业价值流切入的行业洞察",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 current_refs + track + primary_persona",
+          "match_strength": 12,
+          "matched_on": [
+            "current_refs",
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产明确了先进制造拓展的基本方向：不是做智慧工厂替代，而是做商业价值流、经营协同和计划协同。"
+        },
+        {
+          "asset_id": "ka_case_auto_electronics_coordination_v1",
+          "asset_type": "customer_case",
+          "title": "汽车电子协同经营样本",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "沉淀汽车电子和高技术制造主体在研产销协同与经营透明化上的共性。"
+        },
+        {
+          "asset_id": "ka_case_leapmotor_selfservice_bi_v1",
+          "asset_type": "customer_case",
+          "title": "零跑汽车自助式 BI 服务案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了零跑汽车如何从“点菜式数据服务”走向“自助餐式数据服务”，通过 BI 模型沉淀和业务自助分析能力建设，缓解业务需求爆发与 IT 资源有限之间矛盾的案例。它适合补强先进制造主线中 BI 自助化与数据服务模式升级的样本。"
+        },
+        {
+          "asset_id": "ka_case_medical_device_channel_v1",
+          "asset_type": "customer_case",
+          "title": "医疗器械企业渠道效率与技术品牌案例",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track + primary_persona",
+          "match_strength": 8,
+          "matched_on": [
+            "track",
+            "primary_persona"
+          ],
+          "summary": "该资产沉淀了某医疗器械上市企业在代理商、实销商和终端医院多层渠道结构下，如何通过 BI 营销分析体系提升渠道效率、客户开发精度和设备全生命周期价值的案例。它适合补强技术型制造企业在渠道穿透和持续性收入管理上的经营分析样本。"
+        },
+        {
+          "asset_id": "ka_narrative_xiguachuangke_aibi_v1",
+          "asset_type": "sales_narrative",
+          "title": "AI+BI让报表开口说话叙事",
+          "match_reason": "先进制造 / mfg_rnd_sales_complex 命中 track",
+          "match_strength": 2,
+          "matched_on": [
+            "track"
+          ],
+          "summary": "该资产沉淀了西瓜创客如何通过 AI+BI 的仪表板智能洞察，实现多维数据扫描、异常归因和报告自动生成的叙事型案例。它更适合作为“AI+BI 让报表开口说话”的轻叙事资产，而不是行业事实本体。"
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "enrich_ready_for_promote": true,
+      "summary": "江苏鱼跃医疗设备股份有限公司 enrich 完成：主画像=mfg_rnd_sales_complex，次级画像=0，知识资产=5，可进入 promote=True。"
+    }
+  ],
+  "write_back": {
+    "enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {}
+  }
+}

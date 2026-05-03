@@ -1,0 +1,209 @@
+{
+  "batch_id": "milestone28r_m25r_promote_admission_v1",
+  "goal": "Milestone 28R：M25R 二次 promote 准入试运行",
+  "phase": "report_only",
+  "generated_at": "2026-04-27T14:21:20.076139+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_babi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_bbg",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_bear",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_candr",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_chj",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_dengkang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_eurasia",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_freda",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_fuanna",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_gaishi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_gubei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haers",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hailide",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_henglin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hiro",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hlin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_holike",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hqls",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jame",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_longood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_patio",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_santai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_skshu",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_topstar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_washin",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yayi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "target_level": "L3"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_run_summary_v1.json"
+}

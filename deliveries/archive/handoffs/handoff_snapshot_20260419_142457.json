@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-04-19T14:24:57.883631+00:00",
+  "workspace": "/Users/clairelu2026/CodexProjects/BusinessMaster",
+  "git": {
+    "branch": "codex/execution-layer-foundation",
+    "commit": "693a0e4318b8a22cee985ea8bd0edf5f1618df40",
+    "short_commit": "693a0e4",
+    "dirty": true,
+    "changed_file_count": 5,
+    "changed_files": [
+      {
+        "status": "M",
+        "path": "eliveries/archive/repairs/workbook_integrity_report_v1.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/handoff_snapshot_20260419_090815.json"
+      },
+      {
+        "status": "??",
+        "path": "deliveries/archive/handoffs/handoff_snapshot_20260419_090815.md"
+      },
+      {
+        "status": "??",
+        "path": "static-pool-deps-20260419_151148.zip"
+      },
+      {
+        "status": "??",
+        "path": "static-pool-deps-20260419_151148/"
+      }
+    ]
+  },
+  "repairs": {
+    "files": [
+      {
+        "path": "deliveries/archive/repairs/workbook_integrity_report_v1.json",
+        "mtime": "2026-04-19T13:47:58.076095+00:00",
+        "size_bytes": 1003
+      },
+      {
+        "path": "deliveries/archive/repairs/main_id_repair_v1_dryrun.json",
+        "mtime": "2026-04-19T09:05:08.213952+00:00",
+        "size_bytes": 1068
+      },
+      {
+        "path": "deliveries/archive/repairs/main_id_repair_v1.json",
+        "mtime": "2026-04-19T09:05:08.213899+00:00",
+        "size_bytes": 1179
+      }
+    ],
+    "main_id_repair": {
+      "rows_total": 365,
+      "before_nonempty_account_id": 365,
+      "after_nonempty_account_id": 365,
+      "coverage_ratio": 1.0,
+      "updated_rows": 6,
+      "unchanged_rows": 359,
+      "unresolved_rows": 0,
+      "generated_rows": 138,
+      "generated_to_mapped_rows": 6,
+      "collision_rows": 0,
+      "duplicate_id_conflict_count": 0
+    },
+    "integrity_report": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/Downloads/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/workbooks/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 7,
+          "rows_scanned": 1112,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/Downloads/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/workbooks/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 12853,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/Downloads/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/workbooks/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4872,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "recent_run_summaries": [
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 5,
+      "block": 4,
+      "workbook_lock_acquired": true
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_lock_probe_run_summary_v1.json",
+      "status": "fail",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 0,
+      "block": 0,
+      "workbook_lock_acquired": false
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6_supply/milestone6_supply_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 0,
+      "warn": 0,
+      "block": 6,
+      "workbook_lock_acquired": null
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone6/milestone6_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 10,
+      "warn": 2,
+      "block": 0,
+      "workbook_lock_acquired": null
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone5_supply/milestone5a_supply_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 7,
+      "warn": 0,
+      "block": 0,
+      "workbook_lock_acquired": null
+    },
+    {
+      "path": "deliveries/archive/milestones/milestone5/milestone5_execution_run_summary_v1.json",
+      "status": "success",
+      "mode": "write_back",
+      "allow": 7,
+      "warn": 0,
+      "block": 0,
+      "workbook_lock_acquired": null
+    }
+  ],
+  "key_configs": [
+    {
+      "path": "configs/promote_batches/retail_l5_to_l3_v1.json",
+      "batch_id": "promote_batch_retail_l5_to_l3_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/promote_batches/milestone6r_trust_promote_v1.json",
+      "batch_id": "milestone6r_trust_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6R：可信增强首轮12家 promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone6_supply_promote_v1.json",
+      "batch_id": "milestone6_supply_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家） promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone6_promote_v1.json",
+      "batch_id": "milestone6_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6：L3到L2主闭环（12家） promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone5a_supply_promote_v1.json",
+      "batch_id": "milestone5a_supply_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5A：L5到L4供给补齐 promote"
+    },
+    {
+      "path": "configs/promote_batches/milestone5_execution_promote_v1.json",
+      "batch_id": "milestone5_execution_promote_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5：24家样本 promote 批次"
+    },
+    {
+      "path": "configs/promote_batches/milestone2_4_popmart_l4_to_l3_allow_closure_v1.json",
+      "batch_id": "milestone2_4_popmart_l4_to_l3_allow_closure_v1",
+      "milestone_id": "",
+      "goal": "Milestone 2.4：acc_popmart 真实 L4 到 L3 升层写回"
+    },
+    {
+      "path": "configs/promote_batches/milestone2_3_l3_to_l2_allow_closure_v1.json",
+      "batch_id": "milestone2_3_l3_to_l2_allow_closure_v1",
+      "milestone_id": "",
+      "goal": "Milestone 2.3：allow样本真实L3到L2升层写回"
+    },
+    {
+      "path": "configs/promote_batches/l3_to_l2_mass_v1.json",
+      "batch_id": "promote_batch_l3_to_l2_mass_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/template_v1.json",
+      "batch_id": "execution_batch_template_v1",
+      "milestone_id": "",
+      "goal": "execution 批次模板：enrich -> promote -> run summary/review"
+    },
+    {
+      "path": "configs/execution_batches/milestone6r_trust_registry_v1.json",
+      "batch_id": "milestone6r_trust_batch_v1",
+      "milestone_id": "milestone6r_trust",
+      "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6r_trust_candidates_v1.json",
+      "batch_id": "milestone6r_trust_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6R：主工作簿修复与可信度增强（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_supply_registry_v1.json",
+      "batch_id": "milestone6_supply_batch_v1",
+      "milestone_id": "milestone6_supply",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_supply_candidates_v1.json",
+      "batch_id": "milestone6_supply_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_registry_v1.json",
+      "batch_id": "milestone6_main_batch_v1",
+      "milestone_id": "milestone6",
+      "goal": "Milestone 6：L3到L2主闭环（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone6_candidates_v1.json",
+      "batch_id": "milestone6_main_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6：L3到L2主闭环（12家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_registry_v1.json",
+      "batch_id": "milestone5a_supply_batch_v1",
+      "milestone_id": "milestone5a_supply",
+      "goal": "Milestone 5A：补齐L4供给（14家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_queue_v1.json",
+      "batch_id": "milestone5a_supply_queue_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_facts_v1.json",
+      "batch_id": "milestone5a_supply_facts_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone5a_supply_candidates_v1.json",
+      "batch_id": "milestone5a_supply_candidates_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5A：补齐L4供给（14家）"
+    },
+    {
+      "path": "configs/execution_batches/milestone5_registry_v1.json",
+      "batch_id": "milestone5_execution_batch_v1",
+      "milestone_id": "milestone5",
+      "goal": "Milestone 5：执行层批次产品化 + 跨主线24家升层闭环"
+    },
+    {
+      "path": "configs/execution_batches/milestone5_execution_facts_v1.json",
+      "batch_id": "milestone5_execution_facts_v1",
+      "milestone_id": "",
+      "goal": ""
+    },
+    {
+      "path": "configs/execution_batches/milestone5_execution_enrich_rectification_v1.json",
+      "batch_id": "milestone5_execution_enrich_rectification_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5B.2：7家enrich_not_ready收敛补丁"
+    },
+    {
+      "path": "configs/execution_batches/milestone5_candidates_v1.json",
+      "batch_id": "milestone5_execution_batch_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5：执行层批次产品化 + 跨主线24家升层闭环"
+    },
+    {
+      "path": "configs/execution_batches/archive_rebuild_high_quality_template_v1.json",
+      "batch_id": "",
+      "milestone_id": "",
+      "goal": "Clean Start 新环境高质量潜客档案重建批次"
+    },
+    {
+      "path": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+      "batch_id": "milestone6r_trust_enrich_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6R：可信增强首轮12家 enrich"
+    },
+    {
+      "path": "configs/enrich_batches/milestone6_supply_enrich_v1.json",
+      "batch_id": "milestone6_supply_enrich_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6 Supply：L5到L4供给附带批次（6家） enrich"
+    },
+    {
+      "path": "configs/enrich_batches/milestone6_enrich_v1.json",
+      "batch_id": "milestone6_enrich_v1",
+      "milestone_id": "",
+      "goal": "Milestone 6：L3到L2主闭环（12家） enrich"
+    },
+    {
+      "path": "configs/enrich_batches/milestone5a_supply_enrich_v1.json",
+      "batch_id": "milestone5a_supply_enrich_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5A：L5到L4供给补齐 enrich"
+    },
+    {
+      "path": "configs/enrich_batches/milestone5_execution_enrich_v1.json",
+      "batch_id": "milestone5_execution_enrich_v1",
+      "milestone_id": "",
+      "goal": "Milestone 5：24家样本 enrich 批次"
+    }
+  ],
+  "recent_docs": [
+    {
+      "path": "docs/03-执行与校验/项目运行迁移清单-v1.md",
+      "mtime": "2026-04-19T09:05:08.227849+00:00",
+      "size_bytes": 8016
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-薄L3补全专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227766+00:00",
+      "size_bytes": 2273
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-消费品新画像扩池专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227701+00:00",
+      "size_bytes": 6879
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-大规模扩池与上移专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227618+00:00",
+      "size_bytes": 3345
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-先进制造上移专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227541+00:00",
+      "size_bytes": 2942
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-L4到L3批量上移专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227481+00:00",
+      "size_bytes": 1996
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-L3消费品官方源补强专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227425+00:00",
+      "size_bytes": 998
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-L3扩容专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227370+00:00",
+      "size_bytes": 6031
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-L3到L2候选批次-v5.md",
+      "mtime": "2026-04-19T09:05:08.227287+00:00",
+      "size_bytes": 2165
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.227229+00:00",
+      "size_bytes": 2453
+    },
+    {
+      "path": "docs/03-执行与校验/静态潜客池-L3以上全量信息补强与纠错-v1.md",
+      "mtime": "2026-04-19T09:05:08.227171+00:00",
+      "size_bytes": 807
+    },
+    {
+      "path": "docs/03-执行与校验/潜客档案质量校准-v1.md",
+      "mtime": "2026-04-19T09:05:08.227115+00:00",
+      "size_bytes": 2674
+    },
+    {
+      "path": "docs/03-执行与校验/客户档案尾部修复分组清单-20260403.md",
+      "mtime": "2026-04-19T09:05:08.227054+00:00",
+      "size_bytes": 5669
+    },
+    {
+      "path": "docs/03-执行与校验/先进制造-L4第二轮补证与下一轮上移候选-v1.md",
+      "mtime": "2026-04-19T09:05:08.226967+00:00",
+      "size_bytes": 916
+    },
+    {
+      "path": "docs/03-执行与校验/主事实表恢复专项-v1.md",
+      "mtime": "2026-04-19T09:05:08.226904+00:00",
+      "size_bytes": 4035
+    },
+    {
+      "path": "docs/03-执行与校验/三条主线专题包校验记录-v1.md",
+      "mtime": "2026-04-19T09:05:08.226845+00:00",
+      "size_bytes": 2168
+    },
+    {
+      "path": "docs/03-执行与校验/external_target_account_pool_v2-重复主体清单-v0.1.md",
+      "mtime": "2026-04-19T09:05:08.226786+00:00",
+      "size_bytes": 4604
+    },
+    {
+      "path": "docs/03-执行与校验/README.md",
+      "mtime": "2026-04-19T09:05:08.226699+00:00",
+      "size_bytes": 2524
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 6R-锁冲突探测-复盘-v1.md",
+      "mtime": "2026-04-19T09:05:08.226619+00:00",
+      "size_bytes": 1206
+    },
+    {
+      "path": "docs/03-执行与校验/Milestone 6R-主表修复与可信增强-复盘-v1.md",
+      "mtime": "2026-04-19T09:05:08.226545+00:00",
+      "size_bytes": 1290
+    }
+  ]
+}

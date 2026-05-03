@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-03T08:08:12.912361+00:00",
+  "summary": {
+    "sample_count": 15,
+    "quality_pass_count": 15,
+    "quality_needs_rework_count": 0,
+    "average_quality_score": 100.0,
+    "human_feedback_status": "pending",
+    "accepted_count": 0,
+    "rejected_count": 0,
+    "field_gap_count": 0,
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "items": []
+}

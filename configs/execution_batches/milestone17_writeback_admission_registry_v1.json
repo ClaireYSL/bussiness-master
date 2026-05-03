@@ -1,0 +1,30 @@
+{
+  "milestone_id": "milestone17_writeback_admission",
+  "batch_id": "milestone17_writeback_admission_v1",
+  "goal": "Milestone 17：写回候选准入试点",
+  "candidate_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_candidates_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone17_writeback_admission_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone17_writeback_admission_queue_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone17_writeback_admission_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone17_writeback_admission_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点-promote复盘-v1.md"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_report_baseline_v1.json"
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  }
+}

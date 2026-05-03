@@ -1,0 +1,57 @@
+{
+  "batch_id": "milestone11_warn_quality_batch_v1",
+  "goal": "Milestone 11：6R样本warn级质量解阻与补证闭环",
+  "phase": "report_only",
+  "generated_at": "2026-04-27T00:13:47.983807+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_cn_000768",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dreame",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "target_level": "L2"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_run_summary_v1.json"
+}

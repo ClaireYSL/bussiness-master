@@ -1,0 +1,82 @@
+{
+  "batch_id": "milestone51r_l2_admission_selection_package_v1",
+  "generated_at": "2026-05-03T10:48:45.574063+00:00",
+  "summary": {
+    "candidate_count": 8,
+    "l2_admission_candidate_count": 8
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "existing_strong_source": "https://www.botanee.com.cn/investor-relations.html",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "existing_strong_source": "https://investor.luckincoffee.com/financial-information/annual-reports/",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "existing_strong_source": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "existing_strong_source": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "existing_strong_source": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "existing_strong_source": "https://group.roborock.com/zh-hk/contact-us",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "existing_strong_source": "https://www.juewei.cn/page/jwd/",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "existing_strong_source": "https://www.pagoda.com.cn/",
+      "second_source_required": true,
+      "business_explanation_complete": true,
+      "l2_admission_candidate": true
+    }
+  ]
+}

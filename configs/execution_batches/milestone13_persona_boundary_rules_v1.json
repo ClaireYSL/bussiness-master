@@ -1,0 +1,46 @@
+{
+  "milestone_id": "milestone13_persona_boundary_rules",
+  "batch_id": "milestone13_persona_boundary_rules_v1",
+  "goal": "Milestone 13：画像边界规则沉淀与可执行化",
+  "source_files": {
+    "m12_action_package": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_action_package_v1.json",
+    "m12_fact_patch": "configs/execution_batches/milestone12_persona_stability_facts_v1.json",
+    "m12_promote_result": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_promote_v1.json",
+    "m12_llm_review": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_llm_review_v1.json"
+  },
+  "decision_outputs": {
+    "rule_package_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_rule_package_v1.json",
+    "fact_patch_file": "configs/execution_batches/milestone13_persona_boundary_facts_v1.json",
+    "queue_patch_file": "configs/execution_batches/milestone13_persona_boundary_queue_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则评估复盘-v1.md"
+  },
+  "rule_defaults": {
+    "min_strong_evidence_for_active": 2,
+    "active_requires_manual_or_llm_confirmation": true,
+    "active_allowed_warning_codes": ["persona_boundary_unstable", "promotion_review_missing"],
+    "hold_on_block": true,
+    "hold_on_nonstandard_persona": true
+  },
+  "persona_rules": {
+    "retail_high_sku_brand": {
+      "required_evidence_dimensions": ["persona_support", "product_scope", "track_fit"],
+      "active_confirmation_hint": "需要能确认多 SKU/多品类品牌经营，而不是只有单一产品或泛消费品描述。"
+    },
+    "retail_multi_store": {
+      "required_evidence_dimensions": ["persona_support", "retail_network", "track_fit"],
+      "active_confirmation_hint": "需要能确认门店/零售网络/区域经营结构，而不是只有零售行业标签。"
+    },
+    "cbec_multi_platform_brand": {
+      "required_evidence_dimensions": ["persona_support", "cross_border_platform", "track_fit"],
+      "active_confirmation_hint": "需要能确认跨境或多平台经营结构，而不是只有互联网电商或代运营标签。"
+    },
+    "mfg_multi_factory_group": {
+      "required_evidence_dimensions": ["persona_support", "manufacturing_complexity", "track_fit"],
+      "active_confirmation_hint": "需要能确认制造协同、多基地、多产线或集团化经营复杂度。"
+    },
+    "mfg_rnd_sales_complex": {
+      "required_evidence_dimensions": ["persona_support", "rd_manufacturing_sales", "track_fit"],
+      "active_confirmation_hint": "需要能确认研产销协同、高技术制造或复杂产品经营链路。"
+    }
+  }
+}

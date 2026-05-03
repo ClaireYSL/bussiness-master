@@ -1,0 +1,156 @@
+{
+  "batch_id": "milestone17_writeback_admission_queue_v1",
+  "generated_at": "2026-04-27T03:10:19.806762+00:00",
+  "accounts": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M17 用户已确认写回试点；进入真实 write_back 后由 promotion writeback 关闭。",
+      "created_at": "2026-04-27"
+    }
+  ]
+}

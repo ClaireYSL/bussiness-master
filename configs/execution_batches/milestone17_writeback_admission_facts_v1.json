@@ -1,0 +1,3370 @@
+{
+  "batch_id": "milestone17_writeback_admission_facts_v1",
+  "generated_at": "2026-04-27T03:10:19.806762+00:00",
+  "accounts": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "previous_warning_codes": [],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cceddie.com/index.htm,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603638",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "艾迪精密围绕工程机械液压属具、高端液压件、工业机器人核心部件、硬质合金刀具和精密线性传动部件开展研发、生产与销售。",
+        "商业模式概述": "公司以高端装备核心零部件制造为主，通过多业务事业部、全球服务网络和上市公司治理体系承接工程机械、机器人、自动化和新能源装备客户需求。",
+        "admission_reason_summary": "液压属具、传动部件、机器人和刀具业务共同指向研产销协同复杂制造场景，适合进入先进制造补证链路并验证多产品线经营治理。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_rnd_sales_complex",
+          "公司产品与服务概述": "艾迪精密围绕工程机械液压属具、高端液压件、工业机器人核心部件、硬质合金刀具和精密线性传动部件开展研发、生产与销售。",
+          "商业模式概述": "公司以高端装备核心零部件制造为主，通过多业务事业部、全球服务网络和上市公司治理体系承接工程机械、机器人、自动化和新能源装备客户需求。",
+          "admission_reason_summary": "液压属具、传动部件、机器人和刀具业务共同指向研产销协同复杂制造场景，适合进入先进制造补证链路并验证多产品线经营治理。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aidi_1",
+            "account_id": "acc_aidi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cceddie.com/index.htm",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aidi_2",
+            "account_id": "acc_aidi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603638",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aidi_1",
+          "account_id": "acc_aidi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cceddie.com/index.htm",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aidi_2",
+          "account_id": "acc_aidi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603638",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cnanotechnology.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688116",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "天奈科技主要提供碳纳米管导电浆料、碳纳米管粉体及相关新材料产品，面向锂电池和导电材料应用。",
+        "商业模式概述": "公司以新能源材料研发、规模化制造和客户技术服务为主，围绕锂电池产业链形成材料交付和持续工艺迭代模式。",
+        "admission_reason_summary": "碳纳米管导电材料与新能源电池产业链深度绑定，能够支撑先进制造画像下研发、量产和客户认证协同的复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_rnd_sales_complex",
+          "公司产品与服务概述": "天奈科技主要提供碳纳米管导电浆料、碳纳米管粉体及相关新材料产品，面向锂电池和导电材料应用。",
+          "商业模式概述": "公司以新能源材料研发、规模化制造和客户技术服务为主，围绕锂电池产业链形成材料交付和持续工艺迭代模式。",
+          "admission_reason_summary": "碳纳米管导电材料与新能源电池产业链深度绑定，能够支撑先进制造画像下研发、量产和客户认证协同的复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_cnano_1",
+            "account_id": "acc_cnano",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cnanotechnology.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_cnano_2",
+            "account_id": "acc_cnano",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688116",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_cnano_1",
+          "account_id": "acc_cnano",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cnanotechnology.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_cnano_2",
+          "account_id": "acc_cnano",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688116",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cndingli.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603338",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "浙江鼎力研发、生产、销售剪叉式、臂式等智能高空作业平台，并提供面向全球客户的装备服务。",
+        "商业模式概述": "公司以高端装备制造、全球渠道销售和售后服务为核心，依托研发、生产基地和海外市场覆盖形成制造出海模式。",
+        "admission_reason_summary": "高空作业平台产品、全球服务网络和研发生产体系明确，能够验证先进制造多基地与全球经营协同画像。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_multi_factory_group",
+          "公司产品与服务概述": "浙江鼎力研发、生产、销售剪叉式、臂式等智能高空作业平台，并提供面向全球客户的装备服务。",
+          "商业模式概述": "公司以高端装备制造、全球渠道销售和售后服务为核心，依托研发、生产基地和海外市场覆盖形成制造出海模式。",
+          "admission_reason_summary": "高空作业平台产品、全球服务网络和研发生产体系明确，能够验证先进制造多基地与全球经营协同画像。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_dingli_1",
+            "account_id": "acc_dingli",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cndingli.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_dingli_2",
+            "account_id": "acc_dingli",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603338",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_dingli_1",
+          "account_id": "acc_dingli",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cndingli.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_dingli_2",
+          "account_id": "acc_dingli",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603338",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.sprint-tech.com,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688605",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "先锋精科聚焦半导体刻蚀、薄膜沉积等设备的关键精密零部件、模组生产与装配。",
+        "商业模式概述": "公司以半导体设备核心零部件精密制造为主，通过工艺研发、精密加工和客户认证体系服务设备产业链客户。",
+        "admission_reason_summary": "半导体设备关键零部件业务具备高工艺门槛和客户认证特征，能够支撑先进制造研产销复杂协同画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_rnd_sales_complex",
+          "公司产品与服务概述": "先锋精科聚焦半导体刻蚀、薄膜沉积等设备的关键精密零部件、模组生产与装配。",
+          "商业模式概述": "公司以半导体设备核心零部件精密制造为主，通过工艺研发、精密加工和客户认证体系服务设备产业链客户。",
+          "admission_reason_summary": "半导体设备关键零部件业务具备高工艺门槛和客户认证特征，能够支撑先进制造研产销复杂协同画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_focusprecision_1",
+            "account_id": "acc_focusprecision",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+            "source_type": "official_website",
+            "source_locator": "https://www.sprint-tech.com",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_focusprecision_2",
+            "account_id": "acc_focusprecision",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688605",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_focusprecision_1",
+          "account_id": "acc_focusprecision",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+          "source_type": "official_website",
+          "source_locator": "https://www.sprint-tech.com",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_focusprecision_2",
+          "account_id": "acc_focusprecision",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688605",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,investor_relations",
+      "primary_source_refs": "https://haitianprecision.com/,https://haitianprecision.com/investor-relations/",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "海天精工主要研发、生产和销售龙门加工中心、立式加工中心、卧式加工中心、数控车床等高端数控机床。",
+        "商业模式概述": "公司以高端数控机床制造为核心，依托多地制造基地、技术研发和销售服务体系面向工业客户交付设备。",
+        "admission_reason_summary": "数控机床产品线、多制造基地和上市公司治理信息明确，能够支撑先进制造多工厂集团画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_multi_factory_group",
+          "公司产品与服务概述": "海天精工主要研发、生产和销售龙门加工中心、立式加工中心、卧式加工中心、数控车床等高端数控机床。",
+          "商业模式概述": "公司以高端数控机床制造为核心，依托多地制造基地、技术研发和销售服务体系面向工业客户交付设备。",
+          "admission_reason_summary": "数控机床产品线、多制造基地和上市公司治理信息明确，能够支撑先进制造多工厂集团画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_haitianjg_1",
+            "account_id": "acc_haitianjg",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+            "source_type": "official_website",
+            "source_locator": "https://haitianprecision.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_haitianjg_2",
+            "account_id": "acc_haitianjg",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+            "source_type": "investor_relations",
+            "source_locator": "https://haitianprecision.com/investor-relations/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_haitianjg_1",
+          "account_id": "acc_haitianjg",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+          "source_type": "official_website",
+          "source_locator": "https://haitianprecision.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_haitianjg_2",
+          "account_id": "acc_haitianjg",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+          "source_type": "investor_relations",
+          "source_locator": "https://haitianprecision.com/investor-relations/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,industry_association",
+      "primary_source_refs": "https://www.aukeys.com/index.html,https://www.szida.org/Enable/Detail/397",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "傲基科技面向全球市场经营自主品牌科技消费品，覆盖消费电子、智能硬件及相关跨境销售品类。",
+        "商业模式概述": "公司以跨境品牌运营、产品研发设计、海外渠道和供应链管理为核心，服务全球消费者市场。",
+        "admission_reason_summary": "自主品牌科技消费品、跨境渠道和供应链协同特征清晰，能够支撑跨境多平台品牌经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "傲基科技面向全球市场经营自主品牌科技消费品，覆盖消费电子、智能硬件及相关跨境销售品类。",
+          "商业模式概述": "公司以跨境品牌运营、产品研发设计、海外渠道和供应链管理为核心，服务全球消费者市场。",
+          "admission_reason_summary": "自主品牌科技消费品、跨境渠道和供应链协同特征清晰，能够支撑跨境多平台品牌经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aukey_1",
+            "account_id": "acc_aukey",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网可定位傲基股份主体和跨境品牌业务入口。",
+            "source_type": "official_website",
+            "source_locator": "https://www.aukeys.com/index.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网可定位傲基股份主体和跨境品牌业务入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aukey_2",
+            "account_id": "acc_aukey",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+            "source_type": "industry_association",
+            "source_locator": "https://www.szida.org/Enable/Detail/397",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aukey_1",
+          "account_id": "acc_aukey",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网可定位傲基股份主体和跨境品牌业务入口。",
+          "source_type": "official_website",
+          "source_locator": "https://www.aukeys.com/index.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网可定位傲基股份主体和跨境品牌业务入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aukey_2",
+          "account_id": "acc_aukey",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+          "source_type": "industry_association",
+          "source_locator": "https://www.szida.org/Enable/Detail/397",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cayigroup.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301004",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "嘉益股份专注不锈钢保温杯、旅行杯、水杯和饮品容器的研发设计、生产与销售，并提供 OEM/ODM 服务。",
+        "商业模式概述": "公司以中国及海外工厂制造能力、全球品牌客户协同和饮具产品开发为主，形成制造出海和客户定制交付模式。",
+        "admission_reason_summary": "保温杯产品、海外工厂和全球品牌客户协同明确，能够支撑跨境品牌制造与供应链复杂度复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "嘉益股份专注不锈钢保温杯、旅行杯、水杯和饮品容器的研发设计、生产与销售，并提供 OEM/ODM 服务。",
+          "商业模式概述": "公司以中国及海外工厂制造能力、全球品牌客户协同和饮具产品开发为主，形成制造出海和客户定制交付模式。",
+          "admission_reason_summary": "保温杯产品、海外工厂和全球品牌客户协同明确，能够支撑跨境品牌制造与供应链复杂度复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_cayi_1",
+            "account_id": "acc_cayi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cayigroup.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_cayi_2",
+            "account_id": "acc_cayi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301004",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_cayi_1",
+          "account_id": "acc_cayi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cayigroup.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_cayi_2",
+          "account_id": "acc_cayi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301004",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.zjnature.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605080",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "大自然户外用品研发、生产自动充气垫、充气床、防水包、冰包、枕头坐垫和 TPU 复合面料等户外产品。",
+        "商业模式概述": "公司以户外用品研发制造、全球品牌客户合作和出口交付为主，围绕产品设计、生产制造和客户订单履约运营。",
+        "admission_reason_summary": "户外用品产品线、全球品牌合作和出口制造特征明确，能够支撑跨境品牌供应链和海外经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "大自然户外用品研发、生产自动充气垫、充气床、防水包、冰包、枕头坐垫和 TPU 复合面料等户外产品。",
+          "商业模式概述": "公司以户外用品研发制造、全球品牌客户合作和出口交付为主，围绕产品设计、生产制造和客户订单履约运营。",
+          "admission_reason_summary": "户外用品产品线、全球品牌合作和出口制造特征明确，能够支撑跨境品牌供应链和海外经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_daziran_1",
+            "account_id": "acc_daziran",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+            "source_type": "official_website",
+            "source_locator": "https://www.zjnature.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_daziran_2",
+            "account_id": "acc_daziran",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605080",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_daziran_1",
+          "account_id": "acc_daziran",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+          "source_type": "official_website",
+          "source_locator": "https://www.zjnature.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_daziran_2",
+          "account_id": "acc_daziran",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605080",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,official_website",
+      "primary_source_refs": "https://www.eccang.com/about.html,https://www.eccang.com/",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "易仓科技提供跨境电商 ERP、海外仓系统、国际货代软件和跨境分销 M2B 等软件服务。",
+        "商业模式概述": "公司以跨境电商 SaaS/软件产品、系统实施和客户运营服务为主，支撑卖家、海外仓和物流服务商的业务协同。",
+        "admission_reason_summary": "跨境 ERP、海外仓和货代系统覆盖跨境经营关键环节，能够支撑跨境平台服务和供应链复杂度画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "易仓科技提供跨境电商 ERP、海外仓系统、国际货代软件和跨境分销 M2B 等软件服务。",
+          "商业模式概述": "公司以跨境电商 SaaS/软件产品、系统实施和客户运营服务为主，支撑卖家、海外仓和物流服务商的业务协同。",
+          "admission_reason_summary": "跨境 ERP、海外仓和货代系统覆盖跨境经营关键环节，能够支撑跨境平台服务和供应链复杂度画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_eccang_1",
+            "account_id": "acc_eccang",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+            "source_type": "official_website",
+            "source_locator": "https://www.eccang.com/about.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_eccang_2",
+            "account_id": "acc_eccang",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+            "source_type": "official_website",
+            "source_locator": "https://www.eccang.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_eccang_1",
+          "account_id": "acc_eccang",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+          "source_type": "official_website",
+          "source_locator": "https://www.eccang.com/about.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_eccang_2",
+          "account_id": "acc_eccang",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+          "source_type": "official_website",
+          "source_locator": "https://www.eccang.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.greatstargroup.com/about.html,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002444",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "巨星科技专注中高端手工具、电动工具、工具箱柜、智能产品和相关五金工具产品的开发、生产与销售。",
+        "商业模式概述": "公司以工具产品研发制造、全球渠道销售和品牌/供应链运营为主，面向欧美等海外市场形成制造出海模式。",
+        "admission_reason_summary": "工具产品线、全球销售网络和跨境经营特征明确，能够支撑跨境供应链复杂型经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "巨星科技专注中高端手工具、电动工具、工具箱柜、智能产品和相关五金工具产品的开发、生产与销售。",
+          "商业模式概述": "公司以工具产品研发制造、全球渠道销售和品牌/供应链运营为主，面向欧美等海外市场形成制造出海模式。",
+          "admission_reason_summary": "工具产品线、全球销售网络和跨境经营特征明确，能够支撑跨境供应链复杂型经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_greatstar_1",
+            "account_id": "acc_greatstar",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+            "source_type": "official_website",
+            "source_locator": "https://www.greatstargroup.com/about.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_greatstar_2",
+            "account_id": "acc_greatstar",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002444",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_greatstar_1",
+          "account_id": "acc_greatstar",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+          "source_type": "official_website",
+          "source_locator": "https://www.greatstargroup.com/about.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_greatstar_2",
+          "account_id": "acc_greatstar",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002444",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.aimer.com.cn/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603511",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "爱慕股份从事贴身服饰、内衣、家居服及相关服饰用品的研发、生产、品牌运营与销售。",
+        "商业模式概述": "公司以多品牌服饰经营、产品研发设计、线上线下渠道销售和会员消费运营为核心，服务中高端贴身服饰市场。",
+        "admission_reason_summary": "贴身服饰品类、多品牌和渠道经营特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "爱慕股份从事贴身服饰、内衣、家居服及相关服饰用品的研发、生产、品牌运营与销售。",
+          "商业模式概述": "公司以多品牌服饰经营、产品研发设计、线上线下渠道销售和会员消费运营为核心，服务中高端贴身服饰市场。",
+          "admission_reason_summary": "贴身服饰品类、多品牌和渠道经营特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aimer_1",
+            "account_id": "acc_aimer",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网可定位爱慕品牌与贴身服饰业务入口。",
+            "source_type": "official_website",
+            "source_locator": "https://www.aimer.com.cn/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网可定位爱慕品牌与贴身服饰业务入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aimer_2",
+            "account_id": "acc_aimer",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603511",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aimer_1",
+          "account_id": "acc_aimer",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网可定位爱慕品牌与贴身服饰业务入口。",
+          "source_type": "official_website",
+          "source_locator": "https://www.aimer.com.cn/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网可定位爱慕品牌与贴身服饰业务入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aimer_2",
+          "account_id": "acc_aimer",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603511",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.anjifood.com/about.html,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603696",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "安记食品专注复合调味料、调味品和食品配料的研发、生产与销售。",
+        "商业模式概述": "公司以调味品研发制造、品牌销售和渠道铺货为核心，面向餐饮、家庭消费和食品工业客户提供产品。",
+        "admission_reason_summary": "复合调味料产品、品牌渠道和食品消费属性明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "安记食品专注复合调味料、调味品和食品配料的研发、生产与销售。",
+          "商业模式概述": "公司以调味品研发制造、品牌销售和渠道铺货为核心，面向餐饮、家庭消费和食品工业客户提供产品。",
+          "admission_reason_summary": "复合调味料产品、品牌渠道和食品消费属性明确，能够支撑零售消费高 SKU 品牌画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_anji_1",
+            "account_id": "acc_anji",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+            "source_type": "official_website",
+            "source_locator": "https://www.anjifood.com/about.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_anji_2",
+            "account_id": "acc_anji",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603696",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_anji_1",
+          "account_id": "acc_anji",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+          "source_type": "official_website",
+          "source_locator": "https://www.anjifood.com/about.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_anji_2",
+          "account_id": "acc_anji",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603696",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.anjoyfood.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603345",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "安井食品主营速冻调制食品、速冻菜肴制品和速冻面米制品等速冻食品的研发、生产与销售。",
+        "商业模式概述": "公司以冷冻食品研发制造、品牌渠道、餐饮和零售终端供应为主，围绕多品类和冷链履约组织经营。",
+        "admission_reason_summary": "速冻食品产品矩阵、渠道供应和冷链履约特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "安井食品主营速冻调制食品、速冻菜肴制品和速冻面米制品等速冻食品的研发、生产与销售。",
+          "商业模式概述": "公司以冷冻食品研发制造、品牌渠道、餐饮和零售终端供应为主，围绕多品类和冷链履约组织经营。",
+          "admission_reason_summary": "速冻食品产品矩阵、渠道供应和冷链履约特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_anjingfood_1",
+            "account_id": "acc_anjingfood",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+            "source_type": "official_website",
+            "source_locator": "https://www.anjoyfood.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_anjingfood_2",
+            "account_id": "acc_anjingfood",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603345",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_anjingfood_1",
+          "account_id": "acc_anjingfood",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+          "source_type": "official_website",
+          "source_locator": "https://www.anjoyfood.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_anjingfood_2",
+          "account_id": "acc_anjingfood",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603345",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.gdalpha.com/about/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002292",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "奥飞娱乐围绕动漫内容、影视、游戏、媒体、消费品和主题业态开展 IP 内容与衍生消费业务。",
+        "商业模式概述": "公司以 IP 内容生产、授权、玩具和消费品衍生、渠道销售为核心，形成内容到商品的消费经营链路。",
+        "admission_reason_summary": "动漫 IP、玩具消费品和内容衍生链路清晰，能够支撑零售消费高 SKU 品牌及 IP 商品经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "奥飞娱乐围绕动漫内容、影视、游戏、媒体、消费品和主题业态开展 IP 内容与衍生消费业务。",
+          "商业模式概述": "公司以 IP 内容生产、授权、玩具和消费品衍生、渠道销售为核心，形成内容到商品的消费经营链路。",
+          "admission_reason_summary": "动漫 IP、玩具消费品和内容衍生链路清晰，能够支撑零售消费高 SKU 品牌及 IP 商品经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aofei_1",
+            "account_id": "acc_aofei",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+            "source_type": "official_website",
+            "source_locator": "https://www.gdalpha.com/about/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aofei_2",
+            "account_id": "acc_aofei",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002292",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aofei_1",
+          "account_id": "acc_aofei",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+          "source_type": "official_website",
+          "source_locator": "https://www.gdalpha.com/about/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aofei_2",
+          "account_id": "acc_aofei",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002292",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.arrowgroup.com.cn/groupprofile/index.aspx,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001322",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "公司产品与服务概述": "箭牌家居提供智能坐便器、卫浴陶瓷、浴室柜、五金龙头、瓷砖和定制家居等智慧家居产品。",
+        "商业模式概述": "公司以多品牌家居产品制造、全国销售网点、经销和零售渠道运营为核心，面向家庭装修与家居消费市场。",
+        "admission_reason_summary": "家居产品矩阵、十大生产基地和大量销售网点特征明确，能够支撑零售消费多门店网络画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_multi_store",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_multi_store",
+          "公司产品与服务概述": "箭牌家居提供智能坐便器、卫浴陶瓷、浴室柜、五金龙头、瓷砖和定制家居等智慧家居产品。",
+          "商业模式概述": "公司以多品牌家居产品制造、全国销售网点、经销和零售渠道运营为核心，面向家庭装修与家居消费市场。",
+          "admission_reason_summary": "家居产品矩阵、十大生产基地和大量销售网点特征明确，能够支撑零售消费多门店网络画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_arrowhome_1",
+            "account_id": "acc_arrowhome",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+            "source_type": "official_website",
+            "source_locator": "https://www.arrowgroup.com.cn/groupprofile/index.aspx",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_arrowhome_2",
+            "account_id": "acc_arrowhome",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001322",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_arrowhome_1",
+          "account_id": "acc_arrowhome",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+          "source_type": "official_website",
+          "source_locator": "https://www.arrowgroup.com.cn/groupprofile/index.aspx",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_arrowhome_2",
+          "account_id": "acc_arrowhome",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001322",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field",
+        "official_source_missing"
+      ],
+      "previous_warning_codes": [],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cceddie.com/index.htm,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603638",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "艾迪精密围绕工程机械液压属具、高端液压件、工业机器人核心部件、硬质合金刀具和精密线性传动部件开展研发、生产与销售。",
+        "商业模式概述": "公司以高端装备核心零部件制造为主，通过多业务事业部、全球服务网络和上市公司治理体系承接工程机械、机器人、自动化和新能源装备客户需求。",
+        "admission_reason_summary": "液压属具、传动部件、机器人和刀具业务共同指向研产销协同复杂制造场景，适合进入先进制造补证链路并验证多产品线经营治理。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_rnd_sales_complex",
+          "公司产品与服务概述": "艾迪精密围绕工程机械液压属具、高端液压件、工业机器人核心部件、硬质合金刀具和精密线性传动部件开展研发、生产与销售。",
+          "商业模式概述": "公司以高端装备核心零部件制造为主，通过多业务事业部、全球服务网络和上市公司治理体系承接工程机械、机器人、自动化和新能源装备客户需求。",
+          "admission_reason_summary": "液压属具、传动部件、机器人和刀具业务共同指向研产销协同复杂制造场景，适合进入先进制造补证链路并验证多产品线经营治理。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aidi_1",
+            "account_id": "acc_aidi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cceddie.com/index.htm",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aidi_2",
+            "account_id": "acc_aidi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603638",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aidi_1",
+          "account_id": "acc_aidi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cceddie.com/index.htm",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露艾迪精密高端液压件、工业机器人、刀具、储能和传动等业务板块。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aidi_2",
+          "account_id": "acc_aidi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603638",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位艾迪精密上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cnanotechnology.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688116",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "天奈科技主要提供碳纳米管导电浆料、碳纳米管粉体及相关新材料产品，面向锂电池和导电材料应用。",
+        "商业模式概述": "公司以新能源材料研发、规模化制造和客户技术服务为主，围绕锂电池产业链形成材料交付和持续工艺迭代模式。",
+        "admission_reason_summary": "碳纳米管导电材料与新能源电池产业链深度绑定，能够支撑先进制造画像下研发、量产和客户认证协同的复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_rnd_sales_complex",
+          "公司产品与服务概述": "天奈科技主要提供碳纳米管导电浆料、碳纳米管粉体及相关新材料产品，面向锂电池和导电材料应用。",
+          "商业模式概述": "公司以新能源材料研发、规模化制造和客户技术服务为主，围绕锂电池产业链形成材料交付和持续工艺迭代模式。",
+          "admission_reason_summary": "碳纳米管导电材料与新能源电池产业链深度绑定，能够支撑先进制造画像下研发、量产和客户认证协同的复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_cnano_1",
+            "account_id": "acc_cnano",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cnanotechnology.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_cnano_2",
+            "account_id": "acc_cnano",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688116",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_cnano_1",
+          "account_id": "acc_cnano",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cnanotechnology.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网可定位天奈科技碳纳米管材料与新能源应用信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_cnano_2",
+          "account_id": "acc_cnano",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688116",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位天奈科技上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cndingli.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603338",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "浙江鼎力研发、生产、销售剪叉式、臂式等智能高空作业平台，并提供面向全球客户的装备服务。",
+        "商业模式概述": "公司以高端装备制造、全球渠道销售和售后服务为核心，依托研发、生产基地和海外市场覆盖形成制造出海模式。",
+        "admission_reason_summary": "高空作业平台产品、全球服务网络和研发生产体系明确，能够验证先进制造多基地与全球经营协同画像。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_multi_factory_group",
+          "公司产品与服务概述": "浙江鼎力研发、生产、销售剪叉式、臂式等智能高空作业平台，并提供面向全球客户的装备服务。",
+          "商业模式概述": "公司以高端装备制造、全球渠道销售和售后服务为核心，依托研发、生产基地和海外市场覆盖形成制造出海模式。",
+          "admission_reason_summary": "高空作业平台产品、全球服务网络和研发生产体系明确，能够验证先进制造多基地与全球经营协同画像。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_dingli_1",
+            "account_id": "acc_dingli",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cndingli.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_dingli_2",
+            "account_id": "acc_dingli",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603338",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_dingli_1",
+          "account_id": "acc_dingli",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cndingli.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露浙江鼎力智能高空作业平台、研发生产和全球服务网络。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_dingli_2",
+          "account_id": "acc_dingli",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603338",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位浙江鼎力上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.sprint-tech.com,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688605",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "公司产品与服务概述": "先锋精科聚焦半导体刻蚀、薄膜沉积等设备的关键精密零部件、模组生产与装配。",
+        "商业模式概述": "公司以半导体设备核心零部件精密制造为主，通过工艺研发、精密加工和客户认证体系服务设备产业链客户。",
+        "admission_reason_summary": "半导体设备关键零部件业务具备高工艺门槛和客户认证特征，能够支撑先进制造研产销复杂协同画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_rnd_sales_complex",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_rnd_sales_complex",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_rnd_sales_complex",
+          "公司产品与服务概述": "先锋精科聚焦半导体刻蚀、薄膜沉积等设备的关键精密零部件、模组生产与装配。",
+          "商业模式概述": "公司以半导体设备核心零部件精密制造为主，通过工艺研发、精密加工和客户认证体系服务设备产业链客户。",
+          "admission_reason_summary": "半导体设备关键零部件业务具备高工艺门槛和客户认证特征，能够支撑先进制造研产销复杂协同画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_focusprecision_1",
+            "account_id": "acc_focusprecision",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+            "source_type": "official_website",
+            "source_locator": "https://www.sprint-tech.com",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_focusprecision_2",
+            "account_id": "acc_focusprecision",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688605",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_focusprecision_1",
+          "account_id": "acc_focusprecision",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+          "source_type": "official_website",
+          "source_locator": "https://www.sprint-tech.com",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "公开资料定位先锋精科官网与半导体关键零部件业务。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_focusprecision_2",
+          "account_id": "acc_focusprecision",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688605",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位先锋精科上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,investor_relations",
+      "primary_source_refs": "https://haitianprecision.com/,https://haitianprecision.com/investor-relations/",
+      "main_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "公司产品与服务概述": "海天精工主要研发、生产和销售龙门加工中心、立式加工中心、卧式加工中心、数控车床等高端数控机床。",
+        "商业模式概述": "公司以高端数控机床制造为核心，依托多地制造基地、技术研发和销售服务体系面向工业客户交付设备。",
+        "admission_reason_summary": "数控机床产品线、多制造基地和上市公司治理信息明确，能够支撑先进制造多工厂集团画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "先进制造",
+        "persona_tag": "mfg_multi_factory_group",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "mfg_multi_factory_group",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "先进制造",
+          "persona_tag": "mfg_multi_factory_group",
+          "公司产品与服务概述": "海天精工主要研发、生产和销售龙门加工中心、立式加工中心、卧式加工中心、数控车床等高端数控机床。",
+          "商业模式概述": "公司以高端数控机床制造为核心，依托多地制造基地、技术研发和销售服务体系面向工业客户交付设备。",
+          "admission_reason_summary": "数控机床产品线、多制造基地和上市公司治理信息明确，能够支撑先进制造多工厂集团画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_haitianjg_1",
+            "account_id": "acc_haitianjg",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+            "source_type": "official_website",
+            "source_locator": "https://haitianprecision.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_haitianjg_2",
+            "account_id": "acc_haitianjg",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+            "source_type": "investor_relations",
+            "source_locator": "https://haitianprecision.com/investor-relations/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_haitianjg_1",
+          "account_id": "acc_haitianjg",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+          "source_type": "official_website",
+          "source_locator": "https://haitianprecision.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露海天精工数控机床产品、制造基地和研发生产信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_haitianjg_2",
+          "account_id": "acc_haitianjg",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+          "source_type": "investor_relations",
+          "source_locator": "https://haitianprecision.com/investor-relations/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网投资者关系页面披露海天精工上市信息和股票代码。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,industry_association",
+      "primary_source_refs": "https://www.aukeys.com/index.html,https://www.szida.org/Enable/Detail/397",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "傲基科技面向全球市场经营自主品牌科技消费品，覆盖消费电子、智能硬件及相关跨境销售品类。",
+        "商业模式概述": "公司以跨境品牌运营、产品研发设计、海外渠道和供应链管理为核心，服务全球消费者市场。",
+        "admission_reason_summary": "自主品牌科技消费品、跨境渠道和供应链协同特征清晰，能够支撑跨境多平台品牌经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "傲基科技面向全球市场经营自主品牌科技消费品，覆盖消费电子、智能硬件及相关跨境销售品类。",
+          "商业模式概述": "公司以跨境品牌运营、产品研发设计、海外渠道和供应链管理为核心，服务全球消费者市场。",
+          "admission_reason_summary": "自主品牌科技消费品、跨境渠道和供应链协同特征清晰，能够支撑跨境多平台品牌经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aukey_1",
+            "account_id": "acc_aukey",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网可定位傲基股份主体和跨境品牌业务入口。",
+            "source_type": "official_website",
+            "source_locator": "https://www.aukeys.com/index.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网可定位傲基股份主体和跨境品牌业务入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aukey_2",
+            "account_id": "acc_aukey",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+            "source_type": "industry_association",
+            "source_locator": "https://www.szida.org/Enable/Detail/397",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aukey_1",
+          "account_id": "acc_aukey",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网可定位傲基股份主体和跨境品牌业务入口。",
+          "source_type": "official_website",
+          "source_locator": "https://www.aukeys.com/index.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网可定位傲基股份主体和跨境品牌业务入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aukey_2",
+          "account_id": "acc_aukey",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+          "source_type": "industry_association",
+          "source_locator": "https://www.szida.org/Enable/Detail/397",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "深圳市工业设计行业协会页面披露傲基科技自主品牌科技消费品研发、设计和销售信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.cayigroup.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301004",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "嘉益股份专注不锈钢保温杯、旅行杯、水杯和饮品容器的研发设计、生产与销售，并提供 OEM/ODM 服务。",
+        "商业模式概述": "公司以中国及海外工厂制造能力、全球品牌客户协同和饮具产品开发为主，形成制造出海和客户定制交付模式。",
+        "admission_reason_summary": "保温杯产品、海外工厂和全球品牌客户协同明确，能够支撑跨境品牌制造与供应链复杂度复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "嘉益股份专注不锈钢保温杯、旅行杯、水杯和饮品容器的研发设计、生产与销售，并提供 OEM/ODM 服务。",
+          "商业模式概述": "公司以中国及海外工厂制造能力、全球品牌客户协同和饮具产品开发为主，形成制造出海和客户定制交付模式。",
+          "admission_reason_summary": "保温杯产品、海外工厂和全球品牌客户协同明确，能够支撑跨境品牌制造与供应链复杂度复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_cayi_1",
+            "account_id": "acc_cayi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+            "source_type": "official_website",
+            "source_locator": "https://www.cayigroup.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_cayi_2",
+            "account_id": "acc_cayi",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301004",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_cayi_1",
+          "account_id": "acc_cayi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+          "source_type": "official_website",
+          "source_locator": "https://www.cayigroup.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露嘉益股份饮具制造、OEM/ODM、海外工厂和全球品牌合作信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_cayi_2",
+          "account_id": "acc_cayi",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301004",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位嘉益股份上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.zjnature.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605080",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "大自然户外用品研发、生产自动充气垫、充气床、防水包、冰包、枕头坐垫和 TPU 复合面料等户外产品。",
+        "商业模式概述": "公司以户外用品研发制造、全球品牌客户合作和出口交付为主，围绕产品设计、生产制造和客户订单履约运营。",
+        "admission_reason_summary": "户外用品产品线、全球品牌合作和出口制造特征明确，能够支撑跨境品牌供应链和海外经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "大自然户外用品研发、生产自动充气垫、充气床、防水包、冰包、枕头坐垫和 TPU 复合面料等户外产品。",
+          "商业模式概述": "公司以户外用品研发制造、全球品牌客户合作和出口交付为主，围绕产品设计、生产制造和客户订单履约运营。",
+          "admission_reason_summary": "户外用品产品线、全球品牌合作和出口制造特征明确，能够支撑跨境品牌供应链和海外经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_daziran_1",
+            "account_id": "acc_daziran",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+            "source_type": "official_website",
+            "source_locator": "https://www.zjnature.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_daziran_2",
+            "account_id": "acc_daziran",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605080",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_daziran_1",
+          "account_id": "acc_daziran",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+          "source_type": "official_website",
+          "source_locator": "https://www.zjnature.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露大自然户外用品产品线、全球品牌合作和研发制造信息。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_daziran_2",
+          "account_id": "acc_daziran",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605080",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位大自然户外用品上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,official_website",
+      "primary_source_refs": "https://www.eccang.com/about.html,https://www.eccang.com/",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "易仓科技提供跨境电商 ERP、海外仓系统、国际货代软件和跨境分销 M2B 等软件服务。",
+        "商业模式概述": "公司以跨境电商 SaaS/软件产品、系统实施和客户运营服务为主，支撑卖家、海外仓和物流服务商的业务协同。",
+        "admission_reason_summary": "跨境 ERP、海外仓和货代系统覆盖跨境经营关键环节，能够支撑跨境平台服务和供应链复杂度画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "易仓科技提供跨境电商 ERP、海外仓系统、国际货代软件和跨境分销 M2B 等软件服务。",
+          "商业模式概述": "公司以跨境电商 SaaS/软件产品、系统实施和客户运营服务为主，支撑卖家、海外仓和物流服务商的业务协同。",
+          "admission_reason_summary": "跨境 ERP、海外仓和货代系统覆盖跨境经营关键环节，能够支撑跨境平台服务和供应链复杂度画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_eccang_1",
+            "account_id": "acc_eccang",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+            "source_type": "official_website",
+            "source_locator": "https://www.eccang.com/about.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_eccang_2",
+            "account_id": "acc_eccang",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+            "source_type": "official_website",
+            "source_locator": "https://www.eccang.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_eccang_1",
+          "account_id": "acc_eccang",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+          "source_type": "official_website",
+          "source_locator": "https://www.eccang.com/about.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露易仓科技公司介绍及跨境电商 ERP、WMS、TMS 软件能力。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_eccang_2",
+          "account_id": "acc_eccang",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+          "source_type": "official_website",
+          "source_locator": "https://www.eccang.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网首页可定位易仓跨境 ERP、海外仓系统和国际货代软件产品入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "generic_admission",
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.greatstargroup.com/about.html,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002444",
+      "main_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "公司产品与服务概述": "巨星科技专注中高端手工具、电动工具、工具箱柜、智能产品和相关五金工具产品的开发、生产与销售。",
+        "商业模式概述": "公司以工具产品研发制造、全球渠道销售和品牌/供应链运营为主，面向欧美等海外市场形成制造出海模式。",
+        "admission_reason_summary": "工具产品线、全球销售网络和跨境经营特征明确，能够支撑跨境供应链复杂型经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "跨境电商",
+        "persona_tag": "cbec_multi_platform_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "cbec_multi_platform_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "跨境电商",
+          "persona_tag": "cbec_multi_platform_brand",
+          "公司产品与服务概述": "巨星科技专注中高端手工具、电动工具、工具箱柜、智能产品和相关五金工具产品的开发、生产与销售。",
+          "商业模式概述": "公司以工具产品研发制造、全球渠道销售和品牌/供应链运营为主，面向欧美等海外市场形成制造出海模式。",
+          "admission_reason_summary": "工具产品线、全球销售网络和跨境经营特征明确，能够支撑跨境供应链复杂型经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_greatstar_1",
+            "account_id": "acc_greatstar",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+            "source_type": "official_website",
+            "source_locator": "https://www.greatstargroup.com/about.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_greatstar_2",
+            "account_id": "acc_greatstar",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002444",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_greatstar_1",
+          "account_id": "acc_greatstar",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+          "source_type": "official_website",
+          "source_locator": "https://www.greatstargroup.com/about.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "巨星控股集团官网披露巨星科技为全球领先工具企业及股票代码。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_greatstar_2",
+          "account_id": "acc_greatstar",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002444",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位巨星科技上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.aimer.com.cn/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603511",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "爱慕股份从事贴身服饰、内衣、家居服及相关服饰用品的研发、生产、品牌运营与销售。",
+        "商业模式概述": "公司以多品牌服饰经营、产品研发设计、线上线下渠道销售和会员消费运营为核心，服务中高端贴身服饰市场。",
+        "admission_reason_summary": "贴身服饰品类、多品牌和渠道经营特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "爱慕股份从事贴身服饰、内衣、家居服及相关服饰用品的研发、生产、品牌运营与销售。",
+          "商业模式概述": "公司以多品牌服饰经营、产品研发设计、线上线下渠道销售和会员消费运营为核心，服务中高端贴身服饰市场。",
+          "admission_reason_summary": "贴身服饰品类、多品牌和渠道经营特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aimer_1",
+            "account_id": "acc_aimer",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网可定位爱慕品牌与贴身服饰业务入口。",
+            "source_type": "official_website",
+            "source_locator": "https://www.aimer.com.cn/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网可定位爱慕品牌与贴身服饰业务入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aimer_2",
+            "account_id": "acc_aimer",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603511",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aimer_1",
+          "account_id": "acc_aimer",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网可定位爱慕品牌与贴身服饰业务入口。",
+          "source_type": "official_website",
+          "source_locator": "https://www.aimer.com.cn/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网可定位爱慕品牌与贴身服饰业务入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aimer_2",
+          "account_id": "acc_aimer",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603511",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位爱慕股份上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.anjifood.com/about.html,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603696",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "安记食品专注复合调味料、调味品和食品配料的研发、生产与销售。",
+        "商业模式概述": "公司以调味品研发制造、品牌销售和渠道铺货为核心，面向餐饮、家庭消费和食品工业客户提供产品。",
+        "admission_reason_summary": "复合调味料产品、品牌渠道和食品消费属性明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "安记食品专注复合调味料、调味品和食品配料的研发、生产与销售。",
+          "商业模式概述": "公司以调味品研发制造、品牌销售和渠道铺货为核心，面向餐饮、家庭消费和食品工业客户提供产品。",
+          "admission_reason_summary": "复合调味料产品、品牌渠道和食品消费属性明确，能够支撑零售消费高 SKU 品牌画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_anji_1",
+            "account_id": "acc_anji",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+            "source_type": "official_website",
+            "source_locator": "https://www.anjifood.com/about.html",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_anji_2",
+            "account_id": "acc_anji",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603696",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_anji_1",
+          "account_id": "acc_anji",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+          "source_type": "official_website",
+          "source_locator": "https://www.anjifood.com/about.html",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网企业简介披露安记食品专注调味品研发、生产和销售。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_anji_2",
+          "account_id": "acc_anji",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603696",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位安记食品上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.anjoyfood.com/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603345",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "安井食品主营速冻调制食品、速冻菜肴制品和速冻面米制品等速冻食品的研发、生产与销售。",
+        "商业模式概述": "公司以冷冻食品研发制造、品牌渠道、餐饮和零售终端供应为主，围绕多品类和冷链履约组织经营。",
+        "admission_reason_summary": "速冻食品产品矩阵、渠道供应和冷链履约特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "安井食品主营速冻调制食品、速冻菜肴制品和速冻面米制品等速冻食品的研发、生产与销售。",
+          "商业模式概述": "公司以冷冻食品研发制造、品牌渠道、餐饮和零售终端供应为主，围绕多品类和冷链履约组织经营。",
+          "admission_reason_summary": "速冻食品产品矩阵、渠道供应和冷链履约特征明确，能够支撑零售消费高 SKU 品牌画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_anjingfood_1",
+            "account_id": "acc_anjingfood",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+            "source_type": "official_website",
+            "source_locator": "https://www.anjoyfood.com/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_anjingfood_2",
+            "account_id": "acc_anjingfood",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603345",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_anjingfood_1",
+          "account_id": "acc_anjingfood",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+          "source_type": "official_website",
+          "source_locator": "https://www.anjoyfood.com/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露安井食品速冻调制食品、速冻菜肴和速冻面米制品业务。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_anjingfood_2",
+          "account_id": "acc_anjingfood",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603345",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位安井食品上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.gdalpha.com/about/,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002292",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "公司产品与服务概述": "奥飞娱乐围绕动漫内容、影视、游戏、媒体、消费品和主题业态开展 IP 内容与衍生消费业务。",
+        "商业模式概述": "公司以 IP 内容生产、授权、玩具和消费品衍生、渠道销售为核心，形成内容到商品的消费经营链路。",
+        "admission_reason_summary": "动漫 IP、玩具消费品和内容衍生链路清晰，能够支撑零售消费高 SKU 品牌及 IP 商品经营画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_high_sku_brand",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_high_sku_brand",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_high_sku_brand",
+          "公司产品与服务概述": "奥飞娱乐围绕动漫内容、影视、游戏、媒体、消费品和主题业态开展 IP 内容与衍生消费业务。",
+          "商业模式概述": "公司以 IP 内容生产、授权、玩具和消费品衍生、渠道销售为核心，形成内容到商品的消费经营链路。",
+          "admission_reason_summary": "动漫 IP、玩具消费品和内容衍生链路清晰，能够支撑零售消费高 SKU 品牌及 IP 商品经营画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_aofei_1",
+            "account_id": "acc_aofei",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+            "source_type": "official_website",
+            "source_locator": "https://www.gdalpha.com/about/",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_aofei_2",
+            "account_id": "acc_aofei",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002292",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_aofei_1",
+          "account_id": "acc_aofei",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+          "source_type": "official_website",
+          "source_locator": "https://www.gdalpha.com/about/",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网披露奥飞娱乐内容创作、影视、游戏、媒体、消费品和主题业态。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_aofei_2",
+          "account_id": "acc_aofei",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002292",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位奥飞娱乐上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "source_milestone": "M14.2",
+      "previous_blocking_codes": [
+        "missing_field",
+        "missing_field"
+      ],
+      "previous_warning_codes": [
+        "evidence_thin"
+      ],
+      "official_source_count": 2,
+      "high_confidence_source_count": 2,
+      "primary_source_types": "official_website,cninfo",
+      "primary_source_refs": "https://www.arrowgroup.com.cn/groupprofile/index.aspx,https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001322",
+      "main_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "公司产品与服务概述": "箭牌家居提供智能坐便器、卫浴陶瓷、浴室柜、五金龙头、瓷砖和定制家居等智慧家居产品。",
+        "商业模式概述": "公司以多品牌家居产品制造、全国销售网点、经销和零售渠道运营为核心，面向家庭装修与家居消费市场。",
+        "admission_reason_summary": "家居产品矩阵、十大生产基地和大量销售网点特征明确，能够支撑零售消费多门店网络画像复核。",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "review_status": "active",
+        "静态潜客记录成熟度": "L5"
+      },
+      "profile_fields": {
+        "primary_track": "零售消费",
+        "persona_tag": "retail_multi_store",
+        "static_maturity_level": "L5",
+        "静态潜客记录成熟度": "L5",
+        "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "profile_status": "active"
+      },
+      "rectification": {
+        "final_candidate_type": "formal_candidate",
+        "final_review_status": "active",
+        "suggested_maturity": "L5",
+        "suggested_primary_persona": "retail_multi_store",
+        "risk_flags": [],
+        "rewrite_suggestion": {
+          "primary_track": "零售消费",
+          "persona_tag": "retail_multi_store",
+          "公司产品与服务概述": "箭牌家居提供智能坐便器、卫浴陶瓷、浴室柜、五金龙头、瓷砖和定制家居等智慧家居产品。",
+          "商业模式概述": "公司以多品牌家居产品制造、全国销售网点、经销和零售渠道运营为核心，面向家庭装修与家居消费市场。",
+          "admission_reason_summary": "家居产品矩阵、十大生产基地和大量销售网点特征明确，能够支撑零售消费多门店网络画像复核。",
+          "validation_gap": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+          "review_status": "active",
+          "静态潜客记录成熟度": "L5"
+        },
+        "rectification_action": "已补官方来源和最小字段；仍需人工确认画像边界、真实采购场景和优先触达价值。",
+        "evidence_rows": [
+          {
+            "evidence_id": "m142_ev_acc_arrowhome_1",
+            "account_id": "acc_arrowhome",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+            "source_type": "official_website",
+            "source_locator": "https://www.arrowgroup.com.cn/groupprofile/index.aspx",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          },
+          {
+            "evidence_id": "m142_ev_acc_arrowhome_2",
+            "account_id": "acc_arrowhome",
+            "evidence_type": "intake_quality_patch",
+            "field_name": "intake_quality_support",
+            "field_value": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001322",
+            "evidence_strength": "A",
+            "supports_dimension": "official_source,product_service,business_model,persona_support",
+            "summary": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+            "checked_by": "codex",
+            "checked_at": "2026-04-27"
+          }
+        ]
+      },
+      "evidence_rows": [
+        {
+          "evidence_id": "m142_ev_acc_arrowhome_1",
+          "account_id": "acc_arrowhome",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+          "source_type": "official_website",
+          "source_locator": "https://www.arrowgroup.com.cn/groupprofile/index.aspx",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "官网集团简介披露箭牌、法恩莎、安华品牌、生产基地和销售网点。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        },
+        {
+          "evidence_id": "m142_ev_acc_arrowhome_2",
+          "account_id": "acc_arrowhome",
+          "evidence_type": "intake_quality_patch",
+          "field_name": "intake_quality_support",
+          "field_value": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+          "source_type": "cninfo",
+          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001322",
+          "evidence_strength": "A",
+          "supports_dimension": "official_source,product_service,business_model,persona_support",
+          "summary": "CNINFO 可定位箭牌家居上市公司公告与定期报告入口。",
+          "checked_by": "codex",
+          "checked_at": "2026-04-27"
+        }
+      ]
+    }
+  ]
+}

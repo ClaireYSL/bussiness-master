@@ -1,0 +1,140 @@
+{
+  "milestone": "M58R",
+  "generated_at": "2026-05-03T10:50:08.093211+00:00",
+  "record_type": "l1_static_readiness_score",
+  "items": [
+    {
+      "company_name": "三只松鼠股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "retail_high_sku_brand",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "retail_high_sku_brand",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "北京石头世纪科技股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "cbec_multi_platform_brand",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "周大生珠宝股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "retail_multi_store",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "孩子王儿童用品股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "retail_multi_store",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "retail_multi_store",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "瑞幸咖啡有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    },
+    {
+      "company_name": "绝味食品股份有限公司",
+      "current_level": "L2",
+      "static_l1_status": "keep_l2_static_complete",
+      "l2_ready": false,
+      "l1_ready": false,
+      "score": 0.7778,
+      "evidence_count": 2,
+      "matched_persona": "fnb_chain_standardized",
+      "missing_for_l1": [
+        "has_three_or_more_sources_for_l1",
+        "has_icp_match_reason"
+      ],
+      "l1_gap": "L1 需要比 L2 更完整的静态证据链；当前至少还需补到 3 条强来源或等价的更强来源组合。",
+      "dynamic_fields_used": false
+    }
+  ],
+  "score_policy": {
+    "l2_minimum": "2 条强来源 + 画像/产品/业务模式/风险解释完整",
+    "l1_minimum": "满足 L2 且至少 3 条强来源或等价的更强静态证据链",
+    "dynamic_fields_used": false
+  }
+}

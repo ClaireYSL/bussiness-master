@@ -1,0 +1,164 @@
+{
+  "batch_id": "milestone34r_workbook_governance_true_repair_v1",
+  "generated_at": "2026-04-28T13:27:10.604575+00:00",
+  "status": "success",
+  "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+  "preflight": {
+    "main": {
+      "row_count": 575,
+      "unique_account_ids": 568,
+      "duplicate_group_count": 7,
+      "duplicate_rows_extra_count": 7,
+      "level_counts": {
+        "L2": 304,
+        "L3": 177,
+        "L1": 8,
+        "L5": 85,
+        "L4": 1
+      }
+    },
+    "profile": {
+      "row_count": 490,
+      "unique_account_ids": 490,
+      "duplicate_group_count": 0
+    },
+    "shared": {
+      "sheet_names": [
+        "全量主表",
+        "主线汇总",
+        "高质量层",
+        "L4_L5扩展层",
+        "边界主体",
+        "画像汇总"
+      ],
+      "row_count": 355,
+      "unique_company_names": 355,
+      "level_counts": {
+        "L1": 8,
+        "L2": 34,
+        "L3": 103,
+        "L4": 6,
+        "L5": 204
+      }
+    },
+    "main_profile_gap": {
+      "main_not_in_profile_count": 78,
+      "profile_not_in_main_count": 0
+    },
+    "checks": {
+      "main_duplicate_group_matches_admission": true,
+      "main_duplicate_extra_matches_admission": true,
+      "profile_gap_matches_admission": true,
+      "shared_preview_exists": true
+    },
+    "ok": true
+  },
+  "backups": {
+    "main": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.m34r_repair_backup_20260428_212707.xlsx",
+    "profile": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.m34r_repair_backup_20260428_212707.xlsx",
+    "main_shared": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.m34r_repair_backup_20260428_212707.xlsx",
+    "governance": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.m34r_repair_backup_20260428_212707.xlsx"
+  },
+  "summary": {
+    "duplicate_rows_deleted": 7,
+    "profile_rows_appended": 78,
+    "shared_rebuilt_row_count": 568,
+    "post_main_row_count": 568,
+    "post_main_unique_account_ids": 568,
+    "post_main_duplicate_group_count": 0,
+    "post_profile_row_count": 568,
+    "post_profile_unique_account_ids": 568,
+    "post_profile_duplicate_group_count": 0,
+    "post_main_not_in_profile_count": 0,
+    "post_profile_not_in_main_count": 0,
+    "post_shared_row_count": 568,
+    "post_shared_unique_company_names": 568,
+    "post_workbook_integrity_ok": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 3e-06,
+    "true_repair_executed": true,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "post_counts": {
+    "main": {
+      "row_count": 568,
+      "unique_account_ids": 568,
+      "duplicate_group_count": 0,
+      "duplicate_rows_extra_count": 0,
+      "level_counts": {
+        "L2": 304,
+        "L3": 177,
+        "L1": 8,
+        "L5": 78,
+        "L4": 1
+      }
+    },
+    "profile": {
+      "row_count": 568,
+      "unique_account_ids": 568,
+      "duplicate_group_count": 0
+    },
+    "shared": {
+      "sheet_names": [
+        "全量主表",
+        "主线汇总",
+        "高质量层",
+        "L4_L5扩展层",
+        "边界主体",
+        "画像汇总"
+      ],
+      "row_count": 568,
+      "unique_company_names": 568,
+      "level_counts": {
+        "L2": 304,
+        "L3": 177,
+        "L1": 8,
+        "L5": 78,
+        "L4": 1
+      }
+    },
+    "main_profile_gap": {
+      "main_not_in_profile_count": 0,
+      "profile_not_in_main_count": 0
+    }
+  },
+  "workbook_integrity": {
+    "ok": true,
+    "deep_scan": true,
+    "files": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+        "ok": true,
+        "sheet_count": 2,
+        "rows_scanned": 576,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 4355,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.xlsx",
+        "ok": true,
+        "sheet_count": 6,
+        "rows_scanned": 1169,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 2422,
+        "error_type": "",
+        "error_message": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone20_batch_intake_enrich_v1",
+  "goal": "Milestone 20：批量补证自动化 enrich 非写回复核",
+  "from_level": "L5",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "rectification_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_patch_v1.json",
+  "source_policy": "M20 批量补证试运行；仅使用结构化 patch、CNINFO 和官网来源。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 20-批量补证自动化-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

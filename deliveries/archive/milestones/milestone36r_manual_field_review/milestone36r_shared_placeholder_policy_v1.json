@@ -1,0 +1,27 @@
+{
+  "policy_id": "milestone36r_shared_placeholder_policy_v1",
+  "status": "active_for_audit_interpretation",
+  "shared_is_generated_view": true,
+  "main_should_not_be_overwritten_by_shared_placeholder": true,
+  "placeholder_values": [
+    "待补充",
+    "待验证",
+    "pending",
+    "PENDING"
+  ],
+  "applies_to_fields": [
+    "收入规模区间",
+    "营收增长概述"
+  ],
+  "account_count": 68,
+  "diff_count": 131,
+  "field_distribution": {
+    "收入规模区间": 63,
+    "营收增长概述": 68
+  },
+  "interpretation": [
+    "共享版中的 `待补充` 表示消费视图对缺口的显式占位，不表示主表字段错误。",
+    "共享版可以从 profile 或投影规则补充消费字段，但不得反向覆盖主表。",
+    "若需要消除审计噪声，应调整审计规则识别 generated_view_placeholder，而不是把主表空字段批量写成待补充。"
+  ]
+}

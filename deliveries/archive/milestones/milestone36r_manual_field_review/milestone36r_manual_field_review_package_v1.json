@@ -1,0 +1,430 @@
+{
+  "batch_id": "milestone36r_manual_field_review_package_v1",
+  "generated_at": "2026-04-28T13:51:15.393806+00:00",
+  "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+  "policy": {
+    "manual_confirmation_required_for_profile_differences": true,
+    "shared_placeholder_is_not_main_error": true,
+    "no_true_writeback": true,
+    "no_knowledge_asset_write": true,
+    "no_persona_registry_write": true
+  },
+  "summary": {
+    "manual_review_account_count": 5,
+    "manual_review_item_count": 15,
+    "candidate_patch_account_count": 3,
+    "candidate_patch_field_count": 10,
+    "manual_review_field_distribution": {
+      "account_canonical_name": 2,
+      "信息扎实度": 2,
+      "admission_reason_summary": 5,
+      "公司产品与服务概述": 3,
+      "商业模式概述": 3
+    },
+    "shared_placeholder_account_count": 68,
+    "shared_placeholder_diff_count": 131,
+    "shared_placeholder_field_distribution": {
+      "收入规模区间": 63,
+      "营收增长概述": 68
+    },
+    "workbook_integrity_ok": true,
+    "true_writeback_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "manual_review_queue": {
+    "batch_id": "milestone36r_manual_field_review_queue_v1",
+    "items": [
+      {
+        "review_item_id": "m36r_acc_botanee_account_canonical_name",
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "account_canonical_name",
+        "main_value": "云南贝泰妮生物科技集团股份有限公司",
+        "profile_value": "贝泰妮集团股份有限公司",
+        "review_rule": "公司主体名称差异。默认主表为 source of truth，但需人工确认是否为简称、曾用名或误配。",
+        "recommended_action": "confirm_main_canonical_name_then_sync_profile_or_record_alias",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_botanee_信息扎实度",
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "信息扎实度",
+        "main_value": "中高",
+        "profile_value": "中",
+        "review_rule": "质量等级差异。不得自动覆盖，应确认新旧证据口径和最近写回来源。",
+        "recommended_action": "likely_sync_main_to_profile_after_human_confirm",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_botanee_admission_reason_summary",
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "美妆个护和品牌消费品属性成立，可作为高 SKU 品牌消费品次级样本。",
+        "profile_value": "美妆个护品牌属性强，适合作为高 SKU 品牌消费品高优先级候选。",
+        "review_rule": "入池理由差异。主表通常更新，但需要确认是否丢失档案中的有效判断。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_botanee_公司产品与服务概述",
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "公司产品与服务概述",
+        "main_value": "品牌消费品经营，SKU较多，渠道与供应链协同复杂。",
+        "profile_value": "美妆个护。",
+        "review_rule": "产品服务描述差异。需要确认主表是否更具体、档案是否保留补充细节。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_botanee_商业模式概述",
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "商业模式概述",
+        "main_value": "品牌消费品全渠道经营，依赖商品、供应链和渠道协同。",
+        "profile_value": "以品牌消费品为主，具备较强经营协同复杂度。",
+        "review_rule": "商业模式描述差异。需要确认是否存在画像或经营模式口径变化。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_dsbj_account_canonical_name",
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "account_canonical_name",
+        "main_value": "苏州东山精密制造股份有限公司",
+        "profile_value": "东山精密制造股份有限公司",
+        "review_rule": "公司主体名称差异。默认主表为 source of truth，但需人工确认是否为简称、曾用名或误配。",
+        "recommended_action": "confirm_main_canonical_name_then_sync_profile_or_record_alias",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_dsbj_信息扎实度",
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "信息扎实度",
+        "main_value": "高",
+        "profile_value": "中",
+        "review_rule": "质量等级差异。不得自动覆盖，应确认新旧证据口径和最近写回来源。",
+        "recommended_action": "manual_compare_before_sync",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_dsbj_admission_reason_summary",
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "多基地制造与全球客户协同明确，可作为多工厂制造补充标尺。",
+        "profile_value": "精密制造与多基地协同属性强，适合作为多工厂制造高优先级候选。",
+        "review_rule": "入池理由差异。主表通常更新，但需要确认是否丢失档案中的有效判断。",
+        "recommended_action": "manual_compare_before_sync",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_dsbj_公司产品与服务概述",
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "公司产品与服务概述",
+        "main_value": "多工厂、多事业部的集团型制造业务。",
+        "profile_value": "精密制造。",
+        "review_rule": "产品服务描述差异。需要确认主表是否更具体、档案是否保留补充细节。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_dsbj_商业模式概述",
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "商业模式概述",
+        "main_value": "集团型制造，依赖多基地协同和总部经营管理。",
+        "profile_value": "以多工厂制造为主，具备较强经营协同复杂度。",
+        "review_rule": "商业模式描述差异。需要确认是否存在画像或经营模式口径变化。",
+        "recommended_action": "manual_compare_before_sync",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_neway_admission_reason_summary",
+        "account_id": "acc_neway",
+        "account_name": "纽威阀门股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "阀门与工业装备零部件制造属性明确。",
+        "profile_value": "技术型制造属性明确，符合装备 / 工业制造画像。",
+        "review_rule": "入池理由差异。主表通常更新，但需要确认是否丢失档案中的有效判断。",
+        "recommended_action": "manual_compare_before_sync",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_qianweiyangchu_admission_reason_summary",
+        "account_id": "acc_qianweiyangchu",
+        "account_name": "郑州千味央厨食品股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "预制食品与餐饮供应双属性并存，商品与供应链画像成立。",
+        "profile_value": "餐饮供应链与食品品牌双属性并存，适合商品与供应链协同画像，符合高 SKU 品牌消费品相邻画像。",
+        "review_rule": "入池理由差异。主表通常更新，但需要确认是否丢失档案中的有效判断。",
+        "recommended_action": "manual_compare_before_sync",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_topstar_admission_reason_summary",
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "拓斯达科技股份有限公司具备制造组织、产品交付和经营协同特征，可用于验证 `mfg_multi_factory_group` 下的研产销协同和多基地/项目经营复杂度。",
+        "profile_value": "自动化装备与复杂经营协同方向成立，适合作为技术型制造画像候选。",
+        "review_rule": "入池理由差异。主表通常更新，但需要确认是否丢失档案中的有效判断。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_topstar_公司产品与服务概述",
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "field": "公司产品与服务概述",
+        "main_value": "拓斯达围绕工业机器人、注塑机辅机、数控机床和自动化应用系统开展研发、制造与销售。",
+        "profile_value": "工业机器人、自动化设备与智能制造解决方案。",
+        "review_rule": "产品服务描述差异。需要确认主表是否更具体、档案是否保留补充细节。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      },
+      {
+        "review_item_id": "m36r_acc_topstar_商业模式概述",
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "field": "商业模式概述",
+        "main_value": "拓斯达科技股份有限公司以技术研发、制造交付、供应链协同和客户项目服务为核心组织经营。",
+        "profile_value": "机器人本体、系统集成与自动化解决方案并行。",
+        "review_rule": "商业模式描述差异。需要确认是否存在画像或经营模式口径变化。",
+        "recommended_action": "review_main_more_specific_then_sync_if_accepted",
+        "allowed_decisions": [
+          "sync_main_to_profile",
+          "keep_profile",
+          "merge_values",
+          "record_alias_only",
+          "hold_pending_more_evidence"
+        ],
+        "default_decision": "hold_pending_more_evidence",
+        "writeback_status": "not_executed"
+      }
+    ]
+  },
+  "candidate_patch_after_manual_confirmation": {
+    "batch_id": "milestone36r_candidate_patch_after_manual_confirmation_v1",
+    "mode": "requires_human_confirmation_no_write",
+    "accounts": [
+      {
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "mode": "requires_human_confirmation_no_write",
+        "proposed_updates": {
+          "account_canonical_name": "云南贝泰妮生物科技集团股份有限公司",
+          "信息扎实度": "中高",
+          "admission_reason_summary": "美妆个护和品牌消费品属性成立，可作为高 SKU 品牌消费品次级样本。",
+          "公司产品与服务概述": "品牌消费品经营，SKU较多，渠道与供应链协同复杂。",
+          "商业模式概述": "品牌消费品全渠道经营，依赖商品、供应链和渠道协同。"
+        },
+        "proposed_alias_note": "原档案名称 `贝泰妮集团股份有限公司` 可作为简称/别名候选，需人工确认是否保留。"
+      },
+      {
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "mode": "requires_human_confirmation_no_write",
+        "proposed_updates": {
+          "account_canonical_name": "苏州东山精密制造股份有限公司",
+          "公司产品与服务概述": "多工厂、多事业部的集团型制造业务。"
+        },
+        "proposed_alias_note": "原档案名称 `东山精密制造股份有限公司` 可作为简称/别名候选，需人工确认是否保留。"
+      },
+      {
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "mode": "requires_human_confirmation_no_write",
+        "proposed_updates": {
+          "admission_reason_summary": "拓斯达科技股份有限公司具备制造组织、产品交付和经营协同特征，可用于验证 `mfg_multi_factory_group` 下的研产销协同和多基地/项目经营复杂度。",
+          "公司产品与服务概述": "拓斯达围绕工业机器人、注塑机辅机、数控机床和自动化应用系统开展研发、制造与销售。",
+          "商业模式概述": "拓斯达科技股份有限公司以技术研发、制造交付、供应链协同和客户项目服务为核心组织经营。"
+        },
+        "proposed_alias_note": ""
+      }
+    ]
+  },
+  "shared_placeholder_policy": {
+    "policy_id": "milestone36r_shared_placeholder_policy_v1",
+    "status": "active_for_audit_interpretation",
+    "shared_is_generated_view": true,
+    "main_should_not_be_overwritten_by_shared_placeholder": true,
+    "placeholder_values": [
+      "待补充",
+      "待验证",
+      "pending",
+      "PENDING"
+    ],
+    "applies_to_fields": [
+      "收入规模区间",
+      "营收增长概述"
+    ],
+    "account_count": 68,
+    "diff_count": 131,
+    "field_distribution": {
+      "收入规模区间": 63,
+      "营收增长概述": 68
+    },
+    "interpretation": [
+      "共享版中的 `待补充` 表示消费视图对缺口的显式占位，不表示主表字段错误。",
+      "共享版可以从 profile 或投影规则补充消费字段，但不得反向覆盖主表。",
+      "若需要消除审计噪声，应调整审计规则识别 generated_view_placeholder，而不是把主表空字段批量写成待补充。"
+    ]
+  },
+  "workbook_integrity": {
+    "ok": true,
+    "deep_scan": true,
+    "files": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+        "ok": true,
+        "sheet_count": 2,
+        "rows_scanned": 576,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 4355,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.xlsx",
+        "ok": true,
+        "sheet_count": 6,
+        "rows_scanned": 1169,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 2422,
+        "error_type": "",
+        "error_message": ""
+      }
+    ]
+  }
+}

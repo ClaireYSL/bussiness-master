@@ -1,0 +1,11 @@
+{
+  "old_counts_match_expected": true,
+  "new_counts_match_expected": true,
+  "canonical_readmes_exist": true,
+  "new_area_link_issues": 0,
+  "l3_card_required_field_issues": 0,
+  "new_area_stale_phrase_issues": 0,
+  "old_root_still_exists": true,
+  "no_write_proof_ok": true,
+  "pass": true
+}

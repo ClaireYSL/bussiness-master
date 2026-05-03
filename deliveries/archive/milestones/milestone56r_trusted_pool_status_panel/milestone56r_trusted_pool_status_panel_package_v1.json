@@ -1,0 +1,30 @@
+{
+  "batch_id": "milestone56r_trusted_pool_status_panel_package_v1",
+  "generated_at": "2026-05-03T10:48:45.573930+00:00",
+  "overall_status": "PASS_M56R_L2_FORMAL_POOL_READY",
+  "counts": {
+    "l1_formal_count": 0,
+    "l2_formal_count": 8,
+    "l3_summary_total_count": 20,
+    "l3_only_count": 12,
+    "l5_expansion_seed_count": 30
+  },
+  "persona_distribution_l2": {
+    "retail_high_sku_brand": 2,
+    "fnb_chain_beverage_coffee": 1,
+    "retail_multi_store": 3,
+    "cbec_multi_platform_brand": 1,
+    "fnb_chain_standardized": 1
+  },
+  "static_level_status": {
+    "static_l2_ready": 8,
+    "static_l1_ready": 0
+  },
+  "next_recommended_action": "M58R/M59R：按静态 ICP 与证据成熟度继续补强 L1 准入，不引入动态经营判断。",
+  "no_write_proof": {
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "legacy_field_inherited": false
+  }
+}

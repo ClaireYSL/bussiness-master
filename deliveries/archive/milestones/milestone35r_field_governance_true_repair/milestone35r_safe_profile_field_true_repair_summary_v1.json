@@ -1,0 +1,136 @@
+{
+  "batch_id": "milestone35r_safe_profile_field_true_repair_v1",
+  "generated_at": "2026-04-28T13:43:52.286945+00:00",
+  "status": "success",
+  "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+  "preflight": {
+    "checks": {
+      "account_count_is_64": true,
+      "field_count_is_320": true,
+      "all_accounts_exist": true,
+      "all_fields_exist": true,
+      "all_targets_blank": true
+    },
+    "ok": true,
+    "account_count": 64,
+    "field_count": 320,
+    "missing_accounts": [],
+    "missing_fields": [],
+    "non_blank_targets": [],
+    "non_blank_target_count": 0
+  },
+  "backups": {
+    "profile": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.m35r_field_repair_backup_20260428_214350.xlsx",
+    "main": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.m35r_field_repair_reference_backup_20260428_214350.xlsx",
+    "main_shared": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.m35r_field_repair_reference_backup_20260428_214350.xlsx",
+    "governance": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.m35r_field_repair_reference_backup_20260428_214350.xlsx"
+  },
+  "summary": {
+    "updated_account_count": 64,
+    "updated_field_count": 320,
+    "field_distribution": {
+      "信息扎实度": 64,
+      "ICP匹配概率": 64,
+      "admission_reason_summary": 64,
+      "公司产品与服务概述": 64,
+      "商业模式概述": 64
+    },
+    "samples": [
+      {
+        "account_id": "acc_aidi",
+        "account_name": "烟台艾迪精密机械股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_aimer",
+        "account_name": "爱慕股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_anji",
+        "account_name": "安记食品股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_anjingfood",
+        "account_name": "安井食品集团股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_aofei",
+        "account_name": "奥飞娱乐股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_arrowhome",
+        "account_name": "箭牌家居集团股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_aukey",
+        "account_name": "深圳市傲基创新科技股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_babi",
+        "account_name": "巴比食品集团有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_bbg",
+        "account_name": "步步高商业连锁股份有限公司",
+        "updated_field_count": 5
+      },
+      {
+        "account_id": "acc_bear",
+        "account_name": "广东小熊电器股份有限公司",
+        "updated_field_count": 5
+      }
+    ],
+    "post_workbook_integrity_ok": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 4e-06,
+    "true_field_repair_executed": true,
+    "shared_reverse_overwrite_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "workbook_integrity": {
+    "ok": true,
+    "deep_scan": true,
+    "files": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+        "ok": true,
+        "sheet_count": 2,
+        "rows_scanned": 576,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 4355,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.xlsx",
+        "ok": true,
+        "sheet_count": 6,
+        "rows_scanned": 1169,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 2422,
+        "error_type": "",
+        "error_message": ""
+      }
+    ]
+  }
+}

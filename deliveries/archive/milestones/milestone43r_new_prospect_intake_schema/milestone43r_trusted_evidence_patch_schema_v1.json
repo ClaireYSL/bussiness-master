@@ -1,0 +1,45 @@
+{
+  "schema_id": "milestone43r_trusted_evidence_patch_schema_v1",
+  "record_type": "trusted_evidence_patch",
+  "required_fields": [
+    "prospect_id",
+    "company_name",
+    "source_type",
+    "source_locator",
+    "evidence_strength",
+    "supports_dimension",
+    "summary"
+  ],
+  "evidence_strength_values": [
+    "official",
+    "regulatory",
+    "annual_report",
+    "ir",
+    "exchange_announcement",
+    "authoritative_media",
+    "industry_research",
+    "weak_reference"
+  ],
+  "strong_evidence_values": [
+    "official",
+    "regulatory",
+    "annual_report",
+    "ir",
+    "exchange_announcement",
+    "authoritative_media",
+    "industry_research"
+  ],
+  "supports_dimension_values": [
+    "company_identity",
+    "product_service",
+    "business_model",
+    "persona_match",
+    "scale_signal",
+    "risk_signal"
+  ],
+  "validation_rules": [
+    "source_locator 必须可定位到具体页面、公告、报告、官网栏目或文件。",
+    "weak_reference 不能单独支撑 trusted_match_ready。",
+    "summary 只能总结来源支持的事实，不写销售动作建议。"
+  ]
+}

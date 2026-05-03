@@ -1,0 +1,28 @@
+{
+  "milestone": "M58R",
+  "generated_at": "2026-05-03T10:50:08.093216+00:00",
+  "summary": {
+    "milestone": "M58R",
+    "generated_at": "2026-05-03T10:50:08.093214+00:00",
+    "status": "PASS_M58R_STATIC_BOUNDARY_CORRECTED",
+    "counts": {
+      "l1": 0,
+      "l2": 8,
+      "l3": 20,
+      "l3_only": 12,
+      "l5": 30
+    },
+    "static_l1_ready_count": 0,
+    "keep_l2_count": 8,
+    "dynamic_term_findings_count": 0,
+    "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
+  },
+  "validation": {
+    "l2_count": 8,
+    "l1_count": 0,
+    "json_artifacts_written": true,
+    "dynamic_scan_pass": true,
+    "dynamic_fields_used_for_static_level": false,
+    "no_write_proof_pass": true
+  }
+}

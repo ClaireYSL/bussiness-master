@@ -1,0 +1,251 @@
+{
+  "batch_id": "milestone55r_expansion_seed_queue_package_v1",
+  "generated_at": "2026-05-03T10:48:45.575819+00:00",
+  "summary": {
+    "seed_count": 30,
+    "default_level": "L5",
+    "trusted_match_ready_count": 0
+  },
+  "items": [
+    {
+      "company_name": "上海家化联合股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.jahwa.com.cn/about/com",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "水羊集团股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://syounggroup.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "逸仙控股有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://ir.yatsenglobal.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "稳健医疗用品股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.winnermedical.cn/investor/report.html",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "霸王茶姬控股有限公司",
+      "matched_persona_guess": "fnb_chain_beverage_coffee",
+      "source_locator_seed": "https://investor.chagee.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "九毛九国际控股有限公司",
+      "matched_persona_guess": "fnb_chain_standardized",
+      "source_locator_seed": "https://www.jiumaojiu.com/about/index.html",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "盐津铺子食品股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "小熊电器股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://bears.com.cn/invest/notice.html",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "赛维时代科技股份有限公司",
+      "matched_persona_guess": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.sailvan.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "焦点科技股份有限公司",
+      "matched_persona_guess": "cbec_platform_operator",
+      "source_locator_seed": "https://www.focuschina.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "云米科技有限公司",
+      "matched_persona_guess": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://viomitechnology.gcs-web.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "上海爱婴室商务服务股份有限公司",
+      "matched_persona_guess": "retail_multi_store",
+      "source_locator_seed": "https://www.aiyingshi.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "良品铺子股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.517lppz.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "名创优品集团控股有限公司",
+      "matched_persona_guess": "retail_multi_store",
+      "source_locator_seed": "https://ir.miniso.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "泡泡玛特国际集团有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.popmart.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "海底捞国际控股有限公司",
+      "matched_persona_guess": "fnb_chain_standardized",
+      "source_locator_seed": "https://www.haidilao.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "奈雪的茶控股有限公司",
+      "matched_persona_guess": "fnb_chain_beverage_coffee",
+      "source_locator_seed": "https://www.naixuecha.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "安克创新科技股份有限公司",
+      "matched_persona_guess": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.anker-in.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "致欧家居科技股份有限公司",
+      "matched_persona_guess": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.songmics.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "华宝新能科技股份有限公司",
+      "matched_persona_guess": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.hello-tech.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "科沃斯机器人股份有限公司",
+      "matched_persona_guess": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.ecovacs.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "小米集团",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.mi.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "飞科电器股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.flyco.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "公牛集团股份有限公司",
+      "matched_persona_guess": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.gongniu.cn/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "老凤祥股份有限公司",
+      "matched_persona_guess": "retail_multi_store",
+      "source_locator_seed": "https://www.laofengxiang.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "海澜之家集团股份有限公司",
+      "matched_persona_guess": "retail_multi_store",
+      "source_locator_seed": "https://www.hla.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "波司登国际控股有限公司",
+      "matched_persona_guess": "retail_multi_store",
+      "source_locator_seed": "https://company.bosideng.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "百胜中国控股有限公司",
+      "matched_persona_guess": "fnb_chain_standardized",
+      "source_locator_seed": "https://ir.yumchina.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "蜜雪冰城股份有限公司",
+      "matched_persona_guess": "fnb_chain_beverage_coffee",
+      "source_locator_seed": "https://www.mxbc.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    },
+    {
+      "company_name": "古茗控股有限公司",
+      "matched_persona_guess": "fnb_chain_beverage_coffee",
+      "source_locator_seed": "https://www.gumingnc.com/",
+      "current_level": "L5",
+      "next_required_action": "collect_first_strong_evidence_before_L3",
+      "legacy_field_inherited": false
+    }
+  ]
+}

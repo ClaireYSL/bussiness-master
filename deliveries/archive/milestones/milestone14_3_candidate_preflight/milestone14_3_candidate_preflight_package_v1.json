@@ -1,0 +1,188 @@
+{
+  "batch_id": "milestone14_3_candidate_preflight_package_v1",
+  "generated_at": "2026-04-27T02:49:31.201779+00:00",
+  "source_files": {
+    "candidate_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_candidates_v1.json",
+    "before_promote_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_promote_v1.json",
+    "after_promote_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_promote_v1.json"
+  },
+  "summary": {
+    "candidate_count": 15,
+    "preflight_status_counts": {
+      "executable_now": 15
+    },
+    "before_decision_counts": {
+      "block": 15
+    },
+    "after_decision_counts": {
+      "allow": 15
+    }
+  },
+  "items": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "track": "先进制造",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "track": "先进制造",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "track": "先进制造",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "track": "先进制造",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "track": "先进制造",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "track": "跨境电商",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "track": "跨境电商",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "track": "跨境电商",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "track": "跨境电商",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "track": "跨境电商",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "track": "零售消费",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "track": "零售消费",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "track": "零售消费",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "track": "零售消费",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "track": "零售消费",
+      "before_decision": "block",
+      "after_decision": "allow",
+      "after_blocking_codes": [],
+      "after_warning_codes": [],
+      "preflight_status": "executable_now",
+      "next_action": "可进入 report_only/gate；如需真实写回，先进入 M17 准入确认。"
+    }
+  ]
+}

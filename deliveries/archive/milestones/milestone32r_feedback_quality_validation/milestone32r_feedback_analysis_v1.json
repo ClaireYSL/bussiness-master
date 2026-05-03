@@ -1,0 +1,424 @@
+{
+  "batch_id": "milestone32r_feedback_analysis_v1",
+  "summary": {
+    "sample_count": 15,
+    "business_reviewed_count": 0,
+    "pending_feedback_count": 15,
+    "accepted_count": 0,
+    "rejected_count": 0,
+    "unclear_count": 0,
+    "invalid_feedback_count": 0,
+    "validation_error_count": 0,
+    "outcome_counts": {
+      "pending": 15
+    },
+    "persona_acceptance": {
+      "cbec_multi_platform_brand": {
+        "sample_count": 5,
+        "reviewed_count": 0,
+        "accepted_count": 0,
+        "acceptance_rate": null,
+        "outcome_counts": {
+          "pending": 5
+        }
+      },
+      "mfg_multi_factory_group": {
+        "sample_count": 1,
+        "reviewed_count": 0,
+        "accepted_count": 0,
+        "acceptance_rate": null,
+        "outcome_counts": {
+          "pending": 1
+        }
+      },
+      "retail_high_sku_brand": {
+        "sample_count": 5,
+        "reviewed_count": 0,
+        "accepted_count": 0,
+        "acceptance_rate": null,
+        "outcome_counts": {
+          "pending": 5
+        }
+      },
+      "retail_multi_store": {
+        "sample_count": 4,
+        "reviewed_count": 0,
+        "accepted_count": 0,
+        "acceptance_rate": null,
+        "outcome_counts": {
+          "pending": 4
+        }
+      }
+    },
+    "recommended_next_action_counts": {},
+    "disqualify_reason_counts": {},
+    "candidate_observation_count": 15,
+    "source_gap_count": 4,
+    "rule_calibration_proposal_count": 4,
+    "no_write_proof_ok": true,
+    "formal_knowledge_write_enabled": false,
+    "true_writeback_enabled": false
+  },
+  "items": [
+    {
+      "account_id": "acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "matched_track": "跨境电商",
+      "matched_persona": "cbec_multi_platform_brand",
+      "why_it_matches": "浙江哈尔斯真空器皿股份有限公司具备产品供给、供应链协同和海外/多渠道经营特征，可用于验证 `cbec_multi_platform_brand` 下的跨境经营复杂度和商品运营链路。",
+      "core_product_or_service": "哈尔斯围绕不锈钢真空保温器皿、杯壶产品和户外饮水器具开展研发、生产与销售。",
+      "business_model": "浙江哈尔斯真空器皿股份有限公司以产品研发/供应链组织、海外渠道或多平台运营为核心，围绕商品规划、供应链协同和线上销售组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_high_sku_brand",
+      "why_it_matches": "广东小熊电器股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_high_sku_brand` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "小熊电器围绕厨房小家电、生活小家电和创意家电产品开展研发、销售与品牌运营。",
+      "business_model": "广东小熊电器股份有限公司以消费品牌、产品研发、渠道分销和零售终端运营为核心，围绕 SKU 管理、渠道供给和品牌增长组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_babi",
+      "company_name": "巴比食品集团有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_multi_store",
+      "why_it_matches": "中饮巴比食品股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_multi_store` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "巴比食品围绕中式面点、速冻食品、团餐供应和连锁门店食品供应链开展经营。",
+      "business_model": "中饮巴比食品股份有限公司以品牌商品、门店网络、渠道运营和供应链补货为核心，围绕区域经营、商品管理和会员/渠道运营组织业务。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_topstar",
+      "company_name": "广东拓斯达科技股份有限公司",
+      "matched_track": "先进制造",
+      "matched_persona": "mfg_multi_factory_group",
+      "why_it_matches": "拓斯达科技股份有限公司具备制造组织、产品交付和经营协同特征，可用于验证 `mfg_multi_factory_group` 下的研产销协同和多基地/项目经营复杂度。",
+      "core_product_or_service": "拓斯达围绕工业机器人、注塑机辅机、数控机床和自动化应用系统开展研发、制造与销售。",
+      "business_model": "拓斯达科技股份有限公司以技术研发、制造交付、供应链协同和客户项目服务为核心组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "matched_track": "跨境电商",
+      "matched_persona": "cbec_multi_platform_brand",
+      "why_it_matches": "浙江海利得新材料股份有限公司具备产品供给、供应链协同和海外/多渠道经营特征，可用于验证 `cbec_multi_platform_brand` 下的跨境经营复杂度和商品运营链路。",
+      "core_product_or_service": "海利得围绕涤纶工业长丝、塑胶材料、帘子布和新材料产品开展研发、生产与销售。",
+      "business_model": "浙江海利得新材料股份有限公司以产品研发/供应链组织、海外渠道或多平台运营为核心，围绕商品规划、供应链协同和线上销售组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_high_sku_brand",
+      "why_it_matches": "华熙生物科技股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_high_sku_brand` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "华熙生物围绕透明质酸、生物活性物和功能性护肤、食品健康产品开展研发、生产与销售。",
+      "business_model": "华熙生物科技股份有限公司以消费品牌、产品研发、渠道分销和零售终端运营为核心，围绕 SKU 管理、渠道供给和品牌增长组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_multi_store",
+      "why_it_matches": "步步高商业连锁股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_multi_store` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "步步高围绕超市、百货、购物中心和区域零售连锁业务开展经营。",
+      "business_model": "步步高商业连锁股份有限公司以品牌商品、门店网络、渠道运营和供应链补货为核心，围绕区域经营、商品管理和会员/渠道运营组织业务。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "matched_track": "跨境电商",
+      "matched_persona": "cbec_multi_platform_brand",
+      "why_it_matches": "海象新材料股份有限公司具备产品供给、供应链协同和海外/多渠道经营特征，可用于验证 `cbec_multi_platform_brand` 下的跨境经营复杂度和商品运营链路。",
+      "core_product_or_service": "海象新材围绕 PVC 地板、SPC 地板等新型环保地面材料开展研发、生产与出口销售。",
+      "business_model": "海象新材料股份有限公司以产品研发/供应链组织、海外渠道或多平台运营为核心，围绕商品规划、供应链协同和线上销售组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "company_name": "光明乳业股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_high_sku_brand",
+      "why_it_matches": "光明乳业股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_high_sku_brand` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "光明乳业围绕乳制品、液态奶、酸奶、奶粉和冷链食品开展生产、销售与渠道运营。",
+      "business_model": "光明乳业股份有限公司以消费品牌、产品研发、渠道分销和零售终端运营为核心，围绕 SKU 管理、渠道供给和品牌增长组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600597",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "company_name": "中国黄金集团黄金珠宝股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_multi_store",
+      "why_it_matches": "中国黄金集团黄金珠宝股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_multi_store` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "中国黄金围绕黄金珠宝产品、投资金条和全国零售门店网络开展经营。",
+      "business_model": "中国黄金集团黄金珠宝股份有限公司以品牌商品、门店网络、渠道运营和供应链补货为核心，围绕区域经营、商品管理和会员/渠道运营组织业务。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600916",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "matched_track": "跨境电商",
+      "matched_persona": "cbec_multi_platform_brand",
+      "why_it_matches": "江苏恒辉安防股份有限公司具备产品供给、供应链协同和海外/多渠道经营特征，可用于验证 `cbec_multi_platform_brand` 下的跨境经营复杂度和商品运营链路。",
+      "core_product_or_service": "恒辉安防围绕安全防护手套、防护用品和功能性安全防护材料开展研发、生产与销售。",
+      "business_model": "江苏恒辉安防股份有限公司以产品研发/供应链组织、海外渠道或多平台运营为核心，围绕商品规划、供应链协同和线上销售组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_candr",
+      "company_name": "中顺洁柔纸业股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_high_sku_brand",
+      "why_it_matches": "中顺洁柔纸业股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_high_sku_brand` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "中顺洁柔围绕生活用纸、护理用品和家庭清洁纸品开展研发、生产与销售。",
+      "business_model": "中顺洁柔纸业股份有限公司以消费品牌、产品研发、渠道分销和零售终端运营为核心，围绕 SKU 管理、渠道供给和品牌增长组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002511",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_chj",
+      "company_name": "潮宏基珠宝股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_multi_store",
+      "why_it_matches": "潮宏基珠宝股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_multi_store` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "潮宏基围绕珠宝首饰、时尚配饰和零售门店网络开展设计、销售与品牌运营。",
+      "business_model": "潮宏基珠宝股份有限公司以品牌商品、门店网络、渠道运营和供应链补货为核心，围绕区域经营、商品管理和会员/渠道运营组织业务。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002345",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "matched_track": "跨境电商",
+      "matched_persona": "cbec_multi_platform_brand",
+      "why_it_matches": "恒林家居股份有限公司具备产品供给、供应链协同和海外/多渠道经营特征，可用于验证 `cbec_multi_platform_brand` 下的跨境经营复杂度和商品运营链路。",
+      "core_product_or_service": "恒林家居围绕办公椅、沙发、按摩椅和健康坐具等家居产品开展研发、生产与销售。",
+      "business_model": "恒林家居股份有限公司以产品研发/供应链组织、海外渠道或多平台运营为核心，围绕商品规划、供应链协同和线上销售组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "company_name": "中粮糖业控股股份有限公司",
+      "matched_track": "零售消费",
+      "matched_persona": "retail_high_sku_brand",
+      "why_it_matches": "中粮糖业控股股份有限公司具备消费品、门店/渠道或高 SKU 经营特征，可用于验证 `retail_high_sku_brand` 下的商品、渠道和零售经营复杂度。",
+      "core_product_or_service": "中粮糖业围绕食糖、番茄制品、贸易和食品原料供应链开展生产与销售。",
+      "business_model": "中粮糖业控股股份有限公司以消费品牌、产品研发、渠道分销和零售终端运营为核心，围绕 SKU 管理、渠道供给和品牌增长组织经营。",
+      "primary_evidence_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600737",
+      "business_feedback_fields": {
+        "business_fit_rating": "",
+        "worth_following": "",
+        "recommended_next_action": "",
+        "target_scenario": "",
+        "disqualify_reason": "",
+        "feedback_notes": "",
+        "feedback_owner": "",
+        "feedback_date": ""
+      },
+      "feedback_status": "pending",
+      "review_outcome": "pending",
+      "validation_errors": [],
+      "knowledge_asset_boundary_note": "业务反馈只能用于候选观察、source gap 和规则校准建议，不能直接写入正式知识资产。"
+    }
+  ]
+}

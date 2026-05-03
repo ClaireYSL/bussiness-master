@@ -1,0 +1,21 @@
+{
+  "runbook_id": "milestone48r_batch_runbook_v1",
+  "standard_steps": [
+    "python3 scripts/build_m41r_source_material_inventory.py",
+    "python3 scripts/build_m42r_persona_recalibration_package.py",
+    "python3 scripts/build_m43r_new_prospect_intake_schema.py",
+    "python3 scripts/build_m44r_new_trusted_prospect_trial.py",
+    "python3 scripts/build_m45r_trusted_card_quality_review.py",
+    "python3 scripts/build_m46r_trusted_pool_storage_design.py",
+    "python3 scripts/build_m47r_trusted_pool_product.py",
+    "python3 scripts/build_m48r_expansion_runbook.py",
+    "python3 scripts/build_autonomous_status_panel.py"
+  ],
+  "do_not_run_without_confirmation": [
+    "真实工作簿 write_back",
+    "新建正式工作簿",
+    "覆盖知识资产",
+    "覆盖画像 registry",
+    "删除 legacy 文件"
+  ]
+}

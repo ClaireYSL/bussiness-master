@@ -1,0 +1,8 @@
+{
+  "old_counts_match_expected": true,
+  "new_structure_exists": true,
+  "m44r_20_only_l3": true,
+  "homepage_points_to_new_entry": true,
+  "no_write_proof_ok": true,
+  "pass": true
+}

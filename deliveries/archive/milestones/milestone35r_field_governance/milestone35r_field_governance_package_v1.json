@@ -1,0 +1,1401 @@
+{
+  "batch_id": "milestone35r_field_governance_package_v1",
+  "generated_at": "2026-04-28T13:44:32.585322+00:00",
+  "static_pool_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+  "policy": {
+    "main_remains_source_of_truth_for_account_identity": true,
+    "profile_safe_fill_only_when_profile_blank_and_main_nonempty": true,
+    "shared_is_generated_view_no_reverse_overwrite": true,
+    "true_writeback_enabled": false,
+    "requires_user_confirmation_for_real_field_sync": true
+  },
+  "summary": {
+    "source_profile_mismatch_account_count": 5,
+    "source_profile_diff_count": 15,
+    "safe_profile_patch_account_count": 0,
+    "safe_profile_patch_field_count": 0,
+    "profile_manual_review_item_count": 15,
+    "source_shared_mismatch_account_count": 68,
+    "source_shared_diff_count": 131,
+    "shared_expected_generated_diff_count": 131,
+    "shared_safe_regenerate_diff_count": 0,
+    "shared_manual_review_item_count": 0,
+    "profile_patch_field_distribution": {},
+    "profile_manual_review_field_distribution": {
+      "account_canonical_name": 2,
+      "信息扎实度": 2,
+      "admission_reason_summary": 5,
+      "公司产品与服务概述": 3,
+      "商业模式概述": 3
+    },
+    "shared_expected_field_distribution": {
+      "收入规模区间": 63,
+      "营收增长概述": 68
+    },
+    "shared_manual_review_field_distribution": {},
+    "workbook_integrity_ok": true,
+    "true_writeback_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false
+  },
+  "safe_profile_patch": {
+    "batch_id": "milestone35r_safe_profile_patch_v1",
+    "mode": "candidate_only_no_write",
+    "accounts": []
+  },
+  "profile_manual_review_queue": {
+    "batch_id": "milestone35r_profile_manual_review_queue_v1",
+    "items": [
+      {
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "account_canonical_name",
+        "main_value": "云南贝泰妮生物科技集团股份有限公司",
+        "profile_value": "贝泰妮集团股份有限公司",
+        "recommended_action": "manual_review_identity_or_core_status"
+      },
+      {
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "信息扎实度",
+        "main_value": "中高",
+        "profile_value": "中",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "美妆个护和品牌消费品属性成立，可作为高 SKU 品牌消费品次级样本。",
+        "profile_value": "美妆个护品牌属性强，适合作为高 SKU 品牌消费品高优先级候选。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "公司产品与服务概述",
+        "main_value": "品牌消费品经营，SKU较多，渠道与供应链协同复杂。",
+        "profile_value": "美妆个护。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_botanee",
+        "account_name": "云南贝泰妮生物科技集团股份有限公司",
+        "field": "商业模式概述",
+        "main_value": "品牌消费品全渠道经营，依赖商品、供应链和渠道协同。",
+        "profile_value": "以品牌消费品为主，具备较强经营协同复杂度。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "account_canonical_name",
+        "main_value": "苏州东山精密制造股份有限公司",
+        "profile_value": "东山精密制造股份有限公司",
+        "recommended_action": "manual_review_identity_or_core_status"
+      },
+      {
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "信息扎实度",
+        "main_value": "高",
+        "profile_value": "中",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "多基地制造与全球客户协同明确，可作为多工厂制造补充标尺。",
+        "profile_value": "精密制造与多基地协同属性强，适合作为多工厂制造高优先级候选。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "公司产品与服务概述",
+        "main_value": "多工厂、多事业部的集团型制造业务。",
+        "profile_value": "精密制造。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_dsbj",
+        "account_name": "苏州东山精密制造股份有限公司",
+        "field": "商业模式概述",
+        "main_value": "集团型制造，依赖多基地协同和总部经营管理。",
+        "profile_value": "以多工厂制造为主，具备较强经营协同复杂度。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_neway",
+        "account_name": "纽威阀门股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "阀门与工业装备零部件制造属性明确。",
+        "profile_value": "技术型制造属性明确，符合装备 / 工业制造画像。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_qianweiyangchu",
+        "account_name": "郑州千味央厨食品股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "预制食品与餐饮供应双属性并存，商品与供应链画像成立。",
+        "profile_value": "餐饮供应链与食品品牌双属性并存，适合商品与供应链协同画像，符合高 SKU 品牌消费品相邻画像。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "field": "admission_reason_summary",
+        "main_value": "拓斯达科技股份有限公司具备制造组织、产品交付和经营协同特征，可用于验证 `mfg_multi_factory_group` 下的研产销协同和多基地/项目经营复杂度。",
+        "profile_value": "自动化装备与复杂经营协同方向成立，适合作为技术型制造画像候选。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "field": "公司产品与服务概述",
+        "main_value": "拓斯达围绕工业机器人、注塑机辅机、数控机床和自动化应用系统开展研发、制造与销售。",
+        "profile_value": "工业机器人、自动化设备与智能制造解决方案。",
+        "recommended_action": "manual_review_before_sync"
+      },
+      {
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "field": "商业模式概述",
+        "main_value": "拓斯达科技股份有限公司以技术研发、制造交付、供应链协同和客户项目服务为核心组织经营。",
+        "profile_value": "机器人本体、系统集成与自动化解决方案并行。",
+        "recommended_action": "manual_review_before_sync"
+      }
+    ]
+  },
+  "shared_generated_view_explanations": {
+    "batch_id": "milestone35r_shared_generated_view_explanations_v1",
+    "items": [
+      {
+        "account_id": "acc_70mai",
+        "account_name": "深圳市七十迈数字科技有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_70mai",
+        "account_name": "深圳市七十迈数字科技有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_boci",
+        "account_name": "柏楚电子科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_boci",
+        "account_name": "柏楚电子科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_boshi",
+        "account_name": "哈尔滨博实自动化股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_boshi",
+        "account_name": "哈尔滨博实自动化股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_ccgrass",
+        "account_name": "共创草坪股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_ccgrass",
+        "account_name": "共创草坪股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_chuangshiji",
+        "account_name": "广东创世纪智能装备集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_chuangshiji",
+        "account_name": "广东创世纪智能装备集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_citic_hic",
+        "account_name": "中信重工机械股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_citic_hic",
+        "account_name": "中信重工机械股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_dalianheavy",
+        "account_name": "大连华锐重工集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_dalianheavy",
+        "account_name": "大连华锐重工集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_dechangmotor",
+        "account_name": "宁波德昌电机股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_dechangmotor",
+        "account_name": "宁波德昌电机股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_dechangshares",
+        "account_name": "德昌股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_deye",
+        "account_name": "宁波德业科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_deye",
+        "account_name": "宁波德业科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_donlim",
+        "account_name": "广东新宝电器股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_donlim",
+        "account_name": "广东新宝电器股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_easpring",
+        "account_name": "北京当升材料科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_easpring",
+        "account_name": "北京当升材料科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_efort",
+        "account_name": "埃夫特智能装备股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_efort",
+        "account_name": "埃夫特智能装备股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_faratronic",
+        "account_name": "厦门法拉电子股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_faratronic",
+        "account_name": "厦门法拉电子股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_focus",
+        "account_name": "焦点科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_focus",
+        "account_name": "焦点科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_fujia",
+        "account_name": "宁波富佳实业股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_fujia",
+        "account_name": "宁波富佳实业股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_furi",
+        "account_name": "孚日集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_furi",
+        "account_name": "孚日集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hangcha",
+        "account_name": "杭叉集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hangcha",
+        "account_name": "杭叉集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_heli",
+        "account_name": "安徽合力股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_heli",
+        "account_name": "安徽合力股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hengbo",
+        "account_name": "恒勃控股股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hongya",
+        "account_name": "弘亚数控机械股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hongya",
+        "account_name": "弘亚数控机械股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_huaci",
+        "account_name": "华瓷股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_huagong",
+        "account_name": "华工科技产业股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_huagong",
+        "account_name": "华工科技产业股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hwatsing",
+        "account_name": "华海清科股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_hwatsing",
+        "account_name": "华海清科股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jeep_bike",
+        "account_name": "久祺股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jeep_bike",
+        "account_name": "久祺股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jereh",
+        "account_name": "烟台杰瑞石油服务集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jereh",
+        "account_name": "烟台杰瑞石油服务集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jiaheng",
+        "account_name": "嘉亨家化股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jiaheng",
+        "account_name": "嘉亨家化股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jialian",
+        "account_name": "宁波家联科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jialian",
+        "account_name": "宁波家联科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jiansheng",
+        "account_name": "健盛集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jiansheng",
+        "account_name": "健盛集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jiayi",
+        "account_name": "嘉益股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jiayi",
+        "account_name": "嘉益股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jifeng",
+        "account_name": "宁波继峰汽车零部件股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_jifeng",
+        "account_name": "宁波继峰汽车零部件股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_juyi",
+        "account_name": "合肥巨一科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_juyi",
+        "account_name": "合肥巨一科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kaidi",
+        "account_name": "常州凯迪电器股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kaidi",
+        "account_name": "常州凯迪电器股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kanglongda",
+        "account_name": "康隆达特种防护科技集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kanglongda",
+        "account_name": "康隆达特种防护科技集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kelai",
+        "account_name": "上海克来机电自动化工程股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kelai",
+        "account_name": "上海克来机电自动化工程股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kinco",
+        "account_name": "上海步科自动化股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_kinco",
+        "account_name": "上海步科自动化股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_lanjian",
+        "account_name": "兰剑智能科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_lanjian",
+        "account_name": "兰剑智能科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_loctek",
+        "account_name": "乐歌人体工学科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_loctek",
+        "account_name": "乐歌人体工学科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_moons",
+        "account_name": "上海鸣志电器股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_moons",
+        "account_name": "上海鸣志电器股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_nbfd",
+        "account_name": "宁波富达股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_nbfd",
+        "account_name": "宁波富达股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_newspring",
+        "account_name": "五洲新春集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_newspring",
+        "account_name": "五洲新春集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_opt",
+        "account_name": "奥普特科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_opt",
+        "account_name": "奥普特科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_origin",
+        "account_name": "宁波创源文化发展股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_origin",
+        "account_name": "宁波创源文化发展股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_pioneer_tech",
+        "account_name": "先惠技术股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_pioneer_tech",
+        "account_name": "先惠技术股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_piotech",
+        "account_name": "拓荆科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_piotech",
+        "account_name": "拓荆科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_precision",
+        "account_name": "武汉精测电子集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_precision",
+        "account_name": "武汉精测电子集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_ronbay",
+        "account_name": "宁波容百新能源科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_ronbay",
+        "account_name": "宁波容百新能源科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_runner",
+        "account_name": "建霖家居股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_runner",
+        "account_name": "建霖家居股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_scientech",
+        "account_name": "中科飞测科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_scientech",
+        "account_name": "中科飞测科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_semcorp",
+        "account_name": "云南恩捷新材料股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_semcorp",
+        "account_name": "云南恩捷新材料股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_shandongweida",
+        "account_name": "山东威达机械股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_shandongweida",
+        "account_name": "山东威达机械股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_shantui",
+        "account_name": "山推工程机械股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_shantui",
+        "account_name": "山推工程机械股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sino-seals",
+        "account_name": "中密控股股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sino-seals",
+        "account_name": "中密控股股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sinomach_precision",
+        "account_name": "国机精工集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sinomach_precision",
+        "account_name": "国机精工集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sinyang",
+        "account_name": "上海新阳半导体材料股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sinyang",
+        "account_name": "上海新阳半导体材料股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_suncha",
+        "account_name": "双枪科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_suncha",
+        "account_name": "双枪科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sunsbike",
+        "account_name": "三柏硕健康科技股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_sunsbike",
+        "account_name": "三柏硕健康科技股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_uwlaser",
+        "account_name": "江苏联赢激光股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_uwlaser",
+        "account_name": "江苏联赢激光股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_uxi",
+        "account_name": "匠心家居股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xinje",
+        "account_name": "无锡信捷电气股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xinje",
+        "account_name": "无锡信捷电气股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xinshida",
+        "account_name": "上海新时达电气股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xinshida",
+        "account_name": "上海新时达电气股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xtcnew",
+        "account_name": "厦门厦钨新能源材料股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xtcnew",
+        "account_name": "厦门厦钨新能源材料股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xusheng",
+        "account_name": "宁波旭升集团股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_xusheng",
+        "account_name": "宁波旭升集团股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_yiheda",
+        "account_name": "怡合达自动化股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_yiheda",
+        "account_name": "怡合达自动化股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_yingliu",
+        "account_name": "应流机电股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_yingliu",
+        "account_name": "应流机电股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_yiyi",
+        "account_name": "依依股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_zdleader",
+        "account_name": "宁波中大力德智能传动股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_zdleader",
+        "account_name": "宁波中大力德智能传动股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_zhongding",
+        "account_name": "安徽中鼎密封件股份有限公司",
+        "main_field": "收入规模区间",
+        "shared_field": "收入规模区间",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      },
+      {
+        "account_id": "acc_zhongding",
+        "account_name": "安徽中鼎密封件股份有限公司",
+        "main_field": "营收增长概述",
+        "shared_field": "营收增长概述",
+        "main_value": "",
+        "shared_value": "待补充",
+        "classification": "generated_view_placeholder_not_main_error"
+      }
+    ]
+  },
+  "shared_safe_regenerate_candidates": {
+    "batch_id": "milestone35r_shared_safe_regenerate_candidates_v1",
+    "items": []
+  },
+  "shared_manual_review_queue": {
+    "batch_id": "milestone35r_shared_manual_review_queue_v1",
+    "items": []
+  },
+  "workbook_integrity": {
+    "ok": true,
+    "deep_scan": true,
+    "files": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+        "ok": true,
+        "sheet_count": 2,
+        "rows_scanned": 576,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 4355,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.xlsx",
+        "ok": true,
+        "sheet_count": 6,
+        "rows_scanned": 1169,
+        "error_type": "",
+        "error_message": ""
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+        "ok": true,
+        "sheet_count": 4,
+        "rows_scanned": 2422,
+        "error_type": "",
+        "error_message": ""
+      }
+    ]
+  }
+}

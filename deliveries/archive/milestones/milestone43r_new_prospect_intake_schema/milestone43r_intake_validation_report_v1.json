@@ -1,0 +1,31 @@
+{
+  "empty_sample": {
+    "record_count": 0,
+    "validation_error_count": 0,
+    "errors": []
+  },
+  "guard_sample": {
+    "record_count": 2,
+    "validation_error_count": 3,
+    "errors": [
+      {
+        "row": 0,
+        "error_code": "missing_required_field",
+        "fields": [
+          "strong_evidence"
+        ]
+      },
+      {
+        "row": 0,
+        "error_code": "trusted_ready_without_strong_evidence"
+      },
+      {
+        "row": 1,
+        "error_code": "legacy_field_inherited",
+        "fields": [
+          "legacy_profile_summary"
+        ]
+      }
+    ]
+  }
+}

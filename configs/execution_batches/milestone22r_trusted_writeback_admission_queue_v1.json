@@ -1,0 +1,306 @@
+{
+  "batch_id": "milestone22r_trusted_writeback_admission_queue_v1",
+  "generated_at": "2026-04-27T10:25:18.029827+00:00",
+  "accounts": [
+    {
+      "account_id": "acc_hangke",
+      "account_name": "杭可科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "account_name": "汉钟精机股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "account_name": "深圳市豪鹏科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "account_name": "江苏恒立液压股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_hetai",
+      "account_name": "深圳和而泰智能控制股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_hymson",
+      "account_name": "海目星激光科技集团股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_ikd",
+      "account_name": "爱柯迪股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_invt",
+      "account_name": "深圳市英威腾电气股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "杰瑞石油服务集团股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "account_name": "深圳市捷佳伟创新能源装备股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "account_name": "江苏北人智能制造科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_kaili",
+      "account_name": "深圳开立生物医疗科技股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_kedali",
+      "account_name": "深圳市科达利实业股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_leisai",
+      "account_name": "深圳市雷赛智能控制股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_neway",
+      "account_name": "苏州纽威阀门股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "account_name": "瑞可达连接系统股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_rifa",
+      "account_name": "浙江日发精密机械股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_scc",
+      "account_name": "生益电子股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_scimee",
+      "account_name": "沈阳芯源微电子设备股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "account_name": "浙江双环传动机械股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_topband",
+      "account_name": "深圳拓邦股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_wanma",
+      "account_name": "浙江万马股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "account_name": "浙江伟星智能仪表股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_wus",
+      "account_name": "沪士电子股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_yawei",
+      "account_name": "江苏亚威机床股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "account_name": "浙江银轮机械股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "account_name": "江苏鱼跃医疗设备股份有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_laifen",
+      "account_name": "深圳市徕芬电子科技有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "account_name": "深圳市蓝禾技术有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    },
+    {
+      "account_id": "acc_morhome",
+      "account_name": "慕容家居控股有限公司",
+      "queue_type": "promotion_review",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "M22R 可信画像匹配准入材料已生成；真实 write_back 需用户单独确认后由标准执行链路关闭。",
+      "created_at": "2026-04-27"
+    }
+  ]
+}

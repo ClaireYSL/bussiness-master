@@ -1,0 +1,35 @@
+{
+  "batch_id": "milestone50r_vault_canonical_cleanup_package_v1",
+  "generated_at": "2026-05-03T09:28:13.815999+00:00",
+  "summary": {
+    "old_l1_l2_md_count": 313,
+    "old_l3_md_count": 112,
+    "old_total_md_count": 425,
+    "new_l1_formal_dossier_count": 0,
+    "new_l2_formal_dossier_count": 0,
+    "new_l3_summary_card_count": 20,
+    "canonical_readme_count": 4,
+    "legacy_stubbed_pages": 2,
+    "legacy_marked_status_pages": 6,
+    "lint_pass": true,
+    "no_write_proof_ok": true
+  },
+  "validation": {
+    "old_counts_match_expected": true,
+    "new_counts_match_expected": true,
+    "canonical_readmes_exist": true,
+    "new_area_link_issues": 0,
+    "l3_card_required_field_issues": 0,
+    "new_area_stale_phrase_issues": 0,
+    "old_root_still_exists": true,
+    "no_write_proof_ok": true,
+    "pass": true
+  },
+  "lint_report": {
+    "generated_at": "2026-05-03T09:28:13.815872+00:00",
+    "checked_files": 31,
+    "link_issues": [],
+    "l3_card_issues": [],
+    "stale_phrase_issues": []
+  }
+}

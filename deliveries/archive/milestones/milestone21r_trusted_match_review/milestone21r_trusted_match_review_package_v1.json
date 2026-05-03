@@ -1,0 +1,1451 @@
+{
+  "batch_id": "milestone21r_trusted_match_review_package_v1",
+  "generated_at": "2026-04-27T10:17:59.118543+00:00",
+  "source_files": {
+    "facts_file": "configs/execution_batches/milestone20_batch_intake_facts_v1.json",
+    "promote_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_promote_v1.json"
+  },
+  "north_star_metric": {
+    "name": "可信画像匹配潜客数",
+    "definition": "同时满足 ICP/画像匹配明确、核心公司信息完整、关键 evidence 可追溯、入池/上移理由清楚、风险和待补点明确、当前治理状态可解释的公司数量。"
+  },
+  "policy": {
+    "default_writeback": false,
+    "writeback_admission_status": "trusted_match_ready",
+    "writeback_requires": [
+      "trusted_status == trusted_match_ready",
+      "official_evidence_coverage == true",
+      "core_info_complete == true",
+      "admission_reason_clear == true",
+      "report_only/gate_check PASS",
+      "workbook_integrity ok=true",
+      "explicit user confirmation"
+    ]
+  },
+  "summary": {
+    "account_count": 30,
+    "trusted_status_counts": {
+      "trusted_match_ready": 30
+    },
+    "trusted_match_ready_count": 30,
+    "profile_match_pending_count": 0,
+    "evidence_pending_count": 0,
+    "persona_adjust_needed_count": 0,
+    "not_icp_count": 0,
+    "official_evidence_coverage_rate": 1.0,
+    "core_info_complete_rate": 1.0,
+    "admission_reason_clear_rate": 1.0
+  },
+  "review_items": [
+    {
+      "account_id": "acc_hangke",
+      "account_name": "杭可科技股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1,ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "杭可科技股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "杭可科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "杭可科技围绕锂电池后处理系统、充放电设备、测试设备和自动化产线开展研发、制造与销售。",
+        "business_model": "杭可科技股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688006",
+            "summary": "CNINFO 可定位 杭可科技股份有限公司（688006）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 杭可科技股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "account_name": "汉钟精机股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "汉钟精机股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "汉钟精机股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "汉钟精机聚焦螺杆压缩机、真空泵、冷冻冷藏压缩机和相关流体机械设备。",
+        "business_model": "汉钟精机股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002158",
+            "summary": "CNINFO 可定位 汉钟精机股份有限公司（002158）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 汉钟精机股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_haopeng",
+      "account_name": "深圳市豪鹏科技股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市豪鹏科技股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "深圳市豪鹏科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "豪鹏科技提供锂离子电池、镍氢电池及储能、消费电子和智能硬件电池解决方案。",
+        "business_model": "深圳市豪鹏科技股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001283",
+            "summary": "CNINFO 可定位 深圳市豪鹏科技股份有限公司（001283）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市豪鹏科技股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "account_name": "江苏恒立液压股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "江苏恒立液压股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "江苏恒立液压股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "恒立液压研发制造液压油缸、液压泵阀、液压系统和精密铸件等核心液压部件。",
+        "business_model": "江苏恒立液压股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=601100",
+            "summary": "CNINFO 可定位 江苏恒立液压股份有限公司（601100）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 江苏恒立液压股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_hetai",
+      "account_name": "深圳和而泰智能控制股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳和而泰智能控制股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "深圳和而泰智能控制股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "和而泰提供智能控制器、智能硬件控制、汽车电子和家电控制相关产品与解决方案。",
+        "business_model": "深圳和而泰智能控制股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002402",
+            "summary": "CNINFO 可定位 深圳和而泰智能控制股份有限公司（002402）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳和而泰智能控制股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_hymson",
+      "account_name": "海目星激光科技集团股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1,ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "海目星激光科技集团股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "海目星激光科技集团股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "海目星提供激光及自动化设备，覆盖锂电、光伏、消费电子和钣金加工等制造场景。",
+        "business_model": "海目星激光科技集团股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688559",
+            "summary": "CNINFO 可定位 海目星激光科技集团股份有限公司（688559）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 海目星激光科技集团股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_ikd",
+      "account_name": "爱柯迪股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1,ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "爱柯迪股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "爱柯迪股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "爱柯迪研发制造汽车铝合金精密压铸件和新能源汽车结构件等零部件。",
+        "business_model": "爱柯迪股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600933",
+            "summary": "CNINFO 可定位 爱柯迪股份有限公司（600933）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 爱柯迪股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_invt",
+      "account_name": "深圳市英威腾电气股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市英威腾电气股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "深圳市英威腾电气股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "英威腾提供变频器、伺服系统、工业自动化、新能源电源和电气控制产品。",
+        "business_model": "深圳市英威腾电气股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002334",
+            "summary": "CNINFO 可定位 深圳市英威腾电气股份有限公司（002334）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市英威腾电气股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_jereh",
+      "account_name": "杰瑞石油服务集团股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1,ka_case_shoufan_custom_mfg_v1",
+      "trusted_prospect_card": {
+        "company_name": "杰瑞石油服务集团股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "杰瑞石油服务集团股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "杰瑞股份提供油气装备、环保装备、新能源装备及相关工程技术服务。",
+        "business_model": "杰瑞石油服务集团股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002353",
+            "summary": "CNINFO 可定位 杰瑞石油服务集团股份有限公司（002353）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 杰瑞石油服务集团股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_jiejia",
+      "account_name": "深圳市捷佳伟创新能源装备股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1,ka_case_shoufan_custom_mfg_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市捷佳伟创新能源装备股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "深圳市捷佳伟创新能源装备股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "捷佳伟创提供光伏电池片生产设备、湿法设备、扩散设备和自动化整线方案。",
+        "business_model": "深圳市捷佳伟创新能源装备股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300724",
+            "summary": "CNINFO 可定位 深圳市捷佳伟创新能源装备股份有限公司（300724）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市捷佳伟创新能源装备股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_jsbr",
+      "account_name": "江苏北人智能制造科技股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "江苏北人智能制造科技股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "江苏北人智能制造科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "江苏北人提供工业机器人系统集成、智能焊接生产线和智能制造装备。",
+        "business_model": "江苏北人智能制造科技股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688218",
+            "summary": "CNINFO 可定位 江苏北人智能制造科技股份有限公司（688218）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 江苏北人智能制造科技股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_kaili",
+      "account_name": "深圳开立生物医疗科技股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳开立生物医疗科技股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "深圳开立生物医疗科技股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "开立医疗研发制造超声诊断、内窥镜、监护和体外诊断等医疗设备。",
+        "business_model": "深圳开立生物医疗科技股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300633",
+            "summary": "CNINFO 可定位 深圳开立生物医疗科技股份有限公司（300633）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳开立生物医疗科技股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_kedali",
+      "account_name": "深圳市科达利实业股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1,ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市科达利实业股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "深圳市科达利实业股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "科达利研发制造锂电池精密结构件、汽车结构件和新能源零部件。",
+        "business_model": "深圳市科达利实业股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002850",
+            "summary": "CNINFO 可定位 深圳市科达利实业股份有限公司（002850）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市科达利实业股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_leisai",
+      "account_name": "深圳市雷赛智能控制股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市雷赛智能控制股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "深圳市雷赛智能控制股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "雷赛智能提供步进系统、伺服系统、运动控制卡和工业自动化控制产品。",
+        "business_model": "深圳市雷赛智能控制股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002979",
+            "summary": "CNINFO 可定位 深圳市雷赛智能控制股份有限公司（002979）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市雷赛智能控制股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_neway",
+      "account_name": "苏州纽威阀门股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "苏州纽威阀门股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "苏州纽威阀门股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "纽威股份研发制造工业阀门、控制阀、安全阀和能源装备用阀门产品。",
+        "business_model": "苏州纽威阀门股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603699",
+            "summary": "CNINFO 可定位 苏州纽威阀门股份有限公司（603699）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 苏州纽威阀门股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_recodeal",
+      "account_name": "瑞可达连接系统股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "瑞可达连接系统股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "瑞可达连接系统股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "瑞可达提供连接器、线束组件和新能源、通信、工业领域连接系统。",
+        "business_model": "瑞可达连接系统股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688800",
+            "summary": "CNINFO 可定位 瑞可达连接系统股份有限公司（688800）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 瑞可达连接系统股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_rifa",
+      "account_name": "浙江日发精密机械股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_zerorun_self_service_v1,ka_insight_mfg_value_stream_v1,ka_case_haozhi_dashboard_v1,ka_case_mfg_group_dashboard_v1,ka_case_robotics_automation_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "浙江日发精密机械股份有限公司",
+        "matched_persona": "mfg_multi_factory_group",
+        "matched_track": "先进制造",
+        "match_reason": "浙江日发精密机械股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_multi_factory_group` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "日发精机提供数控机床、航空航天装备、智能制造产线和机械加工设备。",
+        "business_model": "浙江日发精密机械股份有限公司以高端制造、多基地生产、客户项目交付和售后服务为核心，围绕研发、采购、制造和销售协同组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002520",
+            "summary": "CNINFO 可定位 浙江日发精密机械股份有限公司（002520）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 浙江日发精密机械股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_scc",
+      "account_name": "生益电子股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "生益电子股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "生益电子股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "生益电子研发制造印制电路板，服务通信、服务器、汽车电子和工业控制客户。",
+        "business_model": "生益电子股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688183",
+            "summary": "CNINFO 可定位 生益电子股份有限公司（688183）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 生益电子股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_scimee",
+      "account_name": "沈阳芯源微电子设备股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "沈阳芯源微电子设备股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "沈阳芯源微电子设备股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "芯源微提供半导体涂胶显影设备、清洗设备和晶圆处理设备。",
+        "business_model": "沈阳芯源微电子设备股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688037",
+            "summary": "CNINFO 可定位 沈阳芯源微电子设备股份有限公司（688037）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 沈阳芯源微电子设备股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "account_name": "浙江双环传动机械股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "浙江双环传动机械股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "浙江双环传动机械股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "双环传动研发制造齿轮、传动部件和新能源汽车传动系统零部件。",
+        "business_model": "浙江双环传动机械股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002472",
+            "summary": "CNINFO 可定位 浙江双环传动机械股份有限公司（002472）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 浙江双环传动机械股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_topband",
+      "account_name": "深圳拓邦股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳拓邦股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "深圳拓邦股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "拓邦股份提供智能控制器、锂电池、控制系统和物联网智能硬件产品。",
+        "business_model": "深圳拓邦股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002139",
+            "summary": "CNINFO 可定位 深圳拓邦股份有限公司（002139）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳拓邦股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_wanma",
+      "account_name": "浙江万马股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "浙江万马股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "浙江万马股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "万马股份提供电线电缆、高分子材料、充电设备和新能源相关产品。",
+        "business_model": "浙江万马股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002276",
+            "summary": "CNINFO 可定位 浙江万马股份有限公司（002276）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 浙江万马股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "account_name": "浙江伟星智能仪表股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "浙江伟星智能仪表股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "浙江伟星智能仪表股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "伟星智能提供智能水表、智能燃气表、计量系统和智慧水务相关设备。",
+        "business_model": "浙江伟星智能仪表股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002849",
+            "summary": "CNINFO 可定位 浙江伟星智能仪表股份有限公司（002849）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 浙江伟星智能仪表股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_wus",
+      "account_name": "沪士电子股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "沪士电子股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "沪士电子股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "沪士电子研发制造印制电路板，面向通信、数据中心、汽车电子和工业设备客户。",
+        "business_model": "沪士电子股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002463",
+            "summary": "CNINFO 可定位 沪士电子股份有限公司（002463）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 沪士电子股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_yawei",
+      "account_name": "江苏亚威机床股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "江苏亚威机床股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "江苏亚威机床股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "亚威股份提供金属成形机床、激光加工设备、自动化生产线和智能制造装备。",
+        "business_model": "江苏亚威机床股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002559",
+            "summary": "CNINFO 可定位 江苏亚威机床股份有限公司（002559）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 江苏亚威机床股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_yinlun",
+      "account_name": "浙江银轮机械股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "浙江银轮机械股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "浙江银轮机械股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "银轮股份研发制造热交换器、热管理模块和汽车及工程机械热管理产品。",
+        "business_model": "浙江银轮机械股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002126",
+            "summary": "CNINFO 可定位 浙江银轮机械股份有限公司（002126）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 浙江银轮机械股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_yuyue",
+      "account_name": "江苏鱼跃医疗设备股份有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "先进制造",
+      "persona": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_haozhi_dashboard_v1,ka_insight_mfg_value_stream_v1,ka_case_auto_electronics_coordination_v1,ka_case_leapmotor_selfservice_bi_v1,ka_case_medical_device_channel_v1",
+      "trusted_prospect_card": {
+        "company_name": "江苏鱼跃医疗设备股份有限公司",
+        "matched_persona": "mfg_rnd_sales_complex",
+        "matched_track": "先进制造",
+        "match_reason": "江苏鱼跃医疗设备股份有限公司的产品、制造组织和客户交付链路清晰，可用于验证 `mfg_rnd_sales_complex` 下的研产销协同、项目交付和经营管理复杂度。",
+        "core_product_or_service": "鱼跃医疗提供呼吸治疗、血糖监测、康复护理、消毒感控和家用医疗设备。",
+        "business_model": "江苏鱼跃医疗设备股份有限公司以技术研发、精密制造、行业客户销售和持续服务为核心，围绕产品迭代、项目交付和客户认证组织经营。",
+        "key_evidence": [
+          {
+            "source_type": "cninfo",
+            "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002223",
+            "summary": "CNINFO 可定位 江苏鱼跃医疗设备股份有限公司（002223）上市公司公告与定期报告入口。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 江苏鱼跃医疗设备股份有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_laifen",
+      "account_name": "深圳市徕芬电子科技有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市徕芬电子科技有限公司",
+        "matched_persona": "cbec_multi_platform_brand",
+        "matched_track": "跨境电商",
+        "match_reason": "深圳市徕芬电子科技有限公司具备消费电子产品、跨境渠道和品牌运营特征，可用于验证 `cbec_multi_platform_brand` 下的海外渠道、供应链和产品矩阵经营。",
+        "core_product_or_service": "徕芬围绕高速吹风机、电动牙刷等个人护理和生活电器产品开展研发、设计与销售。",
+        "business_model": "深圳市徕芬电子科技有限公司以消费电子品牌研发、产品设计、供应链协同和海外线上渠道运营为核心，面向全球消费者交付自有品牌产品。",
+        "key_evidence": [
+          {
+            "source_type": "official_website",
+            "source_locator": "https://www.laifen.net/about",
+            "summary": "官网可定位 深圳市徕芬电子科技有限公司 的公司或品牌介绍与产品信息。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市徕芬电子科技有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_lanhe",
+      "account_name": "深圳市蓝禾技术有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "深圳市蓝禾技术有限公司",
+        "matched_persona": "cbec_multi_platform_brand",
+        "matched_track": "跨境电商",
+        "match_reason": "深圳市蓝禾技术有限公司具备消费电子产品、跨境渠道和品牌运营特征，可用于验证 `cbec_multi_platform_brand` 下的海外渠道、供应链和产品矩阵经营。",
+        "core_product_or_service": "蓝禾技术围绕手机配件、数码周边、消费电子和跨境品牌产品开展研发与运营。",
+        "business_model": "深圳市蓝禾技术有限公司以消费电子品牌研发、产品设计、供应链协同和海外线上渠道运营为核心，面向全球消费者交付自有品牌产品。",
+        "key_evidence": [
+          {
+            "source_type": "official_website",
+            "source_locator": "http://www.lanhe-group.com/",
+            "summary": "官网可定位 深圳市蓝禾技术有限公司 的公司或品牌介绍与产品信息。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 深圳市蓝禾技术有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    },
+    {
+      "account_id": "acc_morhome",
+      "account_name": "慕容家居控股有限公司",
+      "trusted_status": "trusted_match_ready",
+      "track": "跨境电商",
+      "persona": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "core_info_complete": true,
+      "official_evidence_coverage": true,
+      "evidence_traceable": true,
+      "admission_reason_clear": true,
+      "persona_match_clear": true,
+      "promotion_warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "promotion_blocking_codes": [],
+      "official_source_count": 1,
+      "evidence_count": 2,
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_solution_cbec_profit_v1,ka_case_babycare_ops_v1,ka_case_cbec_consumer_electronics_ops_v1,ka_case_cbec_home_outbound_ops_v1",
+      "trusted_prospect_card": {
+        "company_name": "慕容家居控股有限公司",
+        "matched_persona": "cbec_multi_platform_brand",
+        "matched_track": "跨境电商",
+        "match_reason": "慕容家居控股有限公司具备消费电子产品、跨境渠道和品牌运营特征，可用于验证 `cbec_multi_platform_brand` 下的海外渠道、供应链和产品矩阵经营。",
+        "core_product_or_service": "慕容家居围绕功能沙发、软体家具、家居产品设计生产和海外市场销售开展经营。",
+        "business_model": "慕容家居控股有限公司以消费电子品牌研发、产品设计、供应链协同和海外线上渠道运营为核心，面向全球消费者交付自有品牌产品。",
+        "key_evidence": [
+          {
+            "source_type": "official_website",
+            "source_locator": "https://morrisofa.com/index.php/page/1",
+            "summary": "官网可定位 慕容家居控股有限公司 的公司或品牌介绍与产品信息。",
+            "evidence_strength": "A"
+          },
+          {
+            "source_type": "structured_intake_patch",
+            "source_locator": "internal://milestone20/batch_intake_patch",
+            "summary": "M20 为 慕容家居控股有限公司 补齐产品、商业模式和入池理由最小字段。",
+            "evidence_strength": "A"
+          }
+        ],
+        "trusted_status": "trusted_match_ready",
+        "risk_or_gap": [
+          "原 promote warn 已通过 M21R 可信信息复核解释；后续写回仍需 gate 和用户确认。"
+        ]
+      }
+    }
+  ]
+}

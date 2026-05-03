@@ -1,0 +1,53 @@
+{
+  "batch_id": "milestone24r_source_gap_queue_v1",
+  "items": [
+    {
+      "gap_id": "m24r_gap_mfg_multi_factory_group_source_v1",
+      "gap_type": "source_gap",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "candidate_count": 7,
+      "required_source_types": [
+        "served_customer_case",
+        "internal_solution_material",
+        "industry_research",
+        "verified_playbook"
+      ],
+      "task_summary": "为该画像补真实客户案例、解决方案或行业材料，用于校准画像定义；不得使用潜客摘要作为正式来源。",
+      "queue_status": "open",
+      "formal_knowledge_source_allowed": false
+    },
+    {
+      "gap_id": "m24r_gap_mfg_rnd_sales_complex_source_v1",
+      "gap_type": "source_gap",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "candidate_count": 20,
+      "required_source_types": [
+        "served_customer_case",
+        "internal_solution_material",
+        "industry_research",
+        "verified_playbook"
+      ],
+      "task_summary": "为该画像补真实客户案例、解决方案或行业材料，用于校准画像定义；不得使用潜客摘要作为正式来源。",
+      "queue_status": "open",
+      "formal_knowledge_source_allowed": false
+    },
+    {
+      "gap_id": "m24r_gap_cbec_multi_platform_brand_source_v1",
+      "gap_type": "source_gap",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "candidate_count": 3,
+      "required_source_types": [
+        "served_customer_case",
+        "internal_solution_material",
+        "industry_research",
+        "verified_playbook"
+      ],
+      "task_summary": "为该画像补真实客户案例、解决方案或行业材料，用于校准画像定义；不得使用潜客摘要作为正式来源。",
+      "queue_status": "open",
+      "formal_knowledge_source_allowed": false
+    }
+  ]
+}

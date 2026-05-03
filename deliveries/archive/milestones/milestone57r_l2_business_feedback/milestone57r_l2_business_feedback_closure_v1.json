@@ -1,0 +1,53 @@
+{
+  "milestone": "M57R",
+  "generated_at": "2026-05-03T10:50:08.028533+00:00",
+  "summary": {
+    "milestone": "M57R",
+    "generated_at": "2026-05-03T10:50:08.028531+00:00",
+    "status": "PASS_M57R_OPTIONAL_EXTERNAL_FEEDBACK_READY",
+    "l2_formal_count": 8,
+    "quality_pass_count": 8,
+    "business_reviewed_count": 0,
+    "pending_feedback_count": 8,
+    "external_feedback_status": "optional_pending",
+    "accepted_count": 0,
+    "rejected_count": 0,
+    "auto_l1_promotion_count": 0,
+    "no_write_proof": {
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "auto_l1_promotion_enabled": false
+    },
+    "next_recommended_action": "M58R/M59R：继续按静态证据链与 ICP 强匹配解释评估 L1，不使用外部反馈作为静态升层门槛。"
+  },
+  "feedback_analysis": {
+    "reviewed_count": 0,
+    "pending_feedback_count": 8,
+    "worth_following_distribution": {
+      "blank": 8
+    },
+    "next_action_distribution": {
+      "blank": 8
+    },
+    "validation_error_count": 0,
+    "validation_errors": [],
+    "accepted_count": 0,
+    "rejected_count": 0,
+    "unclear_count": 0,
+    "note": "空白反馈不计入 accepted/rejected；M57R 不自动升 L1。"
+  },
+  "quality_review_summary": {
+    "l2_formal_count": 8,
+    "quality_pass_count": 8,
+    "quality_fail_count": 0,
+    "average_score": 1.0
+  },
+  "validation": {
+    "json_artifacts_written": true,
+    "l2_count_matches_quality_items": true,
+    "empty_feedback_not_accepted": true,
+    "quality_all_pass": true,
+    "no_write_proof_pass": true
+  }
+}

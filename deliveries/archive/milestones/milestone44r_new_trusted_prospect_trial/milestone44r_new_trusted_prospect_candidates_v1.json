@@ -1,0 +1,609 @@
+{
+  "generated_at": "2026-05-03T08:07:06.304663+00:00",
+  "summary": {
+    "candidate_count": 20,
+    "trusted_match_ready_count": 20,
+    "evidence_pending_count": 0,
+    "persona_pending_review_count": 0,
+    "not_icp_count": 0,
+    "strong_evidence_candidate_count": 20,
+    "official_or_strong_evidence_count": 20,
+    "validation_error_count": 0,
+    "by_persona": {
+      "retail_high_sku_brand": 8,
+      "fnb_chain_beverage_coffee": 3,
+      "fnb_chain_standardized": 2,
+      "retail_multi_store": 3,
+      "cbec_multi_platform_brand": 3,
+      "cbec_platform_operator": 1
+    },
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "legacy_field_inherited_count": 0,
+    "llm_decision_used_count": 0,
+    "no_write_proof_ok": true
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "功效护肤品牌集团，具备多品牌/多渠道/产品研发与上市公司信息披露场景，适合高 SKU 品牌经营分析画像。",
+      "core_product_service_summary": "以皮肤健康互联网+大健康为定位，覆盖功效性护肤品与相关健康消费品。",
+      "business_model_summary": "品牌研发、生产/供应链、线上线下渠道销售与会员运营并重。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_botanee",
+          "company_name": "云南贝泰妮生物科技集团股份有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://www.botanee.com.cn/investor-relations.html",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 云南贝泰妮生物科技集团股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304508+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "拥有多品牌日化美妆产品和多工厂/多渠道经营结构，符合品牌零售高 SKU 复杂度画像。",
+      "core_product_service_summary": "日用化妆品、护肤、洗护、母婴等品牌与产品组合。",
+      "business_model_summary": "上市日化集团，品牌矩阵、生产基地、渠道分销和消费者运营共同驱动。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_jahwa",
+          "company_name": "上海家化联合股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.jahwa.com.cn/about/com",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 上海家化联合股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304602+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "自有品牌与 CP 品牌双业务驱动，强调研发与数字化组织，匹配新消费品牌经营分析画像。",
+      "core_product_service_summary": "美妆护肤品牌运营及相关消费品业务。",
+      "business_model_summary": "自有品牌+代理/合作品牌组合，线上渠道和品牌运营能力重要。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_syoung",
+          "company_name": "水羊集团股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://syounggroup.com/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 水羊集团股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304604+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "中国美妆集团，品牌矩阵与电商/零售渠道经营复杂度高，适合高 SKU 品牌画像。",
+      "core_product_service_summary": "美妆护肤品牌集团，包含彩妆、护肤等消费品牌。",
+      "business_model_summary": "品牌组合经营、线上线下渠道、会员与营销驱动。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_yatsen",
+          "company_name": "逸仙控股有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://ir.yatsenglobal.com/",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 逸仙控股有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304605+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "医疗耗材与健康消费品牌并行，产品线和渠道复杂，适合品牌零售/健康消费经营分析画像。",
+      "core_product_service_summary": "医疗耗材、健康生活消费品及相关品牌产品。",
+      "business_model_summary": "制造供应链、品牌零售、线上线下渠道和上市公司治理并重。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_winner_medical",
+          "company_name": "稳健医疗用品股份有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://www.winnermedical.cn/investor/report.html",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 稳健医疗用品股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304607+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "大规模咖啡连锁，移动端订单、门店网络和供应链共同驱动，符合茶饮咖啡连锁画像。",
+      "core_product_service_summary": "咖啡及饮品连锁品牌，提供门店自提、外卖及数字化消费体验。",
+      "business_model_summary": "门店网络+移动应用+供应链+会员运营的连锁新零售模式。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_luckin",
+          "company_name": "瑞幸咖啡有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 瑞幸咖啡有限公司 的公司身份、主营产品/服务、业务模式及其与 fnb_chain_beverage_coffee 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304608+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "新茶饮连锁品牌，强调门店、加盟/伙伴、品质和全球化扩张，符合茶饮咖啡连锁画像。",
+      "core_product_service_summary": "现制茶饮品牌，围绕原叶鲜奶茶等产品经营。",
+      "business_model_summary": "连锁门店、合作伙伴、供应链和品牌运营共同驱动。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_chagee",
+          "company_name": "霸王茶姬控股有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://investor.chagee.com/",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 霸王茶姬控股有限公司 的公司身份、主营产品/服务、业务模式及其与 fnb_chain_beverage_coffee 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304609+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "茶饮连锁品牌，官网披露投关/业绩报告/公告通函入口，具备门店与供应链经营分析需求。",
+      "core_product_service_summary": "现制茶饮产品和品牌加盟/连锁经营。",
+      "business_model_summary": "加盟/连锁门店、产品研发、供应链与品牌运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_chabaidao",
+          "company_name": "四川百茶百道实业股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.chabaidao.com/home/index/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 四川百茶百道实业股份有限公司 的公司身份、主营产品/服务、业务模式及其与 fnb_chain_beverage_coffee 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304611+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "match_reason": "多品牌餐饮集团，门店覆盖广、品牌组合多，符合标准化连锁餐饮画像。",
+      "core_product_service_summary": "九毛九、太二酸菜鱼、怂火锅等餐饮品牌经营。",
+      "business_model_summary": "多品牌直营/连锁餐饮，门店运营、供应链和区域扩张共同驱动。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_jiumaojiu",
+          "company_name": "九毛九国际控股有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.jiumaojiu.com/about/index.html",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 九毛九国际控股有限公司 的公司身份、主营产品/服务、业务模式及其与 fnb_chain_standardized 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304612+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "match_reason": "休闲卤制食品连锁与加盟体系，生产、冷链、门店网络复杂，符合标准化连锁餐饮/食品画像。",
+      "core_product_service_summary": "休闲卤制食品研发、生产、销售与连锁加盟。",
+      "business_model_summary": "中央生产、冷链物流、加盟/终端零售和品牌运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_juewei",
+          "company_name": "绝味食品股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.juewei.cn/page/jwd/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 绝味食品股份有限公司 的公司身份、主营产品/服务、业务模式及其与 fnb_chain_standardized 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304613+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "水果专营连锁，门店网络、供应链和标准化零售运营要求高，符合多门店零售画像。",
+      "core_product_service_summary": "水果零售、果品品牌与连锁门店服务。",
+      "business_model_summary": "门店网络、供应链、品控和会员零售共同驱动。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_pagoda",
+          "company_name": "深圳百果园实业集团股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.pagoda.com.cn/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 深圳百果园实业集团股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_multi_store 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304615+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "母婴童零售连锁与会员经营场景突出，符合多门店/会员零售经营画像。",
+      "core_product_service_summary": "母婴童商品零售、儿童成长服务和会员经营。",
+      "business_model_summary": "线下门店、线上渠道、会员与服务场景结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_kidswant",
+          "company_name": "孩子王儿童用品股份有限公司",
+          "source_type": "regulatory",
+          "source_locator": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
+          "evidence_strength": "authoritative_media",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 孩子王儿童用品股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_multi_store 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304616+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "珠宝零售连锁，门店、加盟、商品和库存管理复杂，符合多门店零售画像。",
+      "core_product_service_summary": "珠宝首饰产品设计、品牌运营和终端零售。",
+      "business_model_summary": "品牌加盟/直营网点、商品供应链和终端销售运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_chowtaiseng",
+          "company_name": "周大生珠宝股份有限公司",
+          "source_type": "annual_report",
+          "source_locator": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
+          "evidence_strength": "annual_report",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 周大生珠宝股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_multi_store 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304617+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "休闲食品集团，产品品类、渠道和供应链复杂度高，符合高 SKU 消费品牌画像。",
+      "core_product_service_summary": "休闲食品研发、生产和销售，覆盖多品类食品。",
+      "business_model_summary": "自有制造、渠道销售、品牌传播与多品类产品运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_yanjinpuzi",
+          "company_name": "盐津铺子食品股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 盐津铺子食品股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304619+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "休闲零食品牌，线上起家并拓展多渠道、多品类经营，符合高 SKU 品牌画像。",
+      "core_product_service_summary": "坚果、烘焙、综合零食、肉制品、果干等休闲食品。",
+      "business_model_summary": "品牌产品组合、线上渠道、线下/分销渠道和内容电商共同驱动。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_three_squirrels",
+          "company_name": "三只松鼠股份有限公司",
+          "source_type": "regulatory",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
+          "evidence_strength": "regulatory",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 三只松鼠股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304621+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "小家电品牌产品线多、渠道多，经营分析常涉及 SKU、渠道、库存和新品表现。",
+      "core_product_service_summary": "创意小家电产品研发、设计、生产和销售。",
+      "business_model_summary": "产品研发、制造供应链、线上线下渠道和品牌运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_bear",
+          "company_name": "小熊电器股份有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://bears.com.cn/invest/notice.html",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 小熊电器股份有限公司 的公司身份、主营产品/服务、业务模式及其与 retail_high_sku_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304622+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "智能硬件品牌具备国内外渠道和产品矩阵，适合跨境/多平台品牌经营画像。",
+      "core_product_service_summary": "扫地机器人、洗地机等智能清洁电器及相关产品。",
+      "business_model_summary": "研发驱动、供应链制造、国内外渠道与品牌运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_roborock",
+          "company_name": "北京石头世纪科技股份有限公司",
+          "source_type": "authoritative_media",
+          "source_locator": "https://group.roborock.com/zh-hk/contact-us",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 北京石头世纪科技股份有限公司 的公司身份、主营产品/服务、业务模式及其与 cbec_multi_platform_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304623+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "跨境电商企业，平台、多品牌、多区域和供应链管理复杂，符合跨境多平台品牌画像。",
+      "core_product_service_summary": "跨境电商品牌经营、供应链和多平台销售。",
+      "business_model_summary": "品牌孵化、跨境平台运营、供应链和海外市场经营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_sailvan",
+          "company_name": "赛维时代科技股份有限公司",
+          "source_type": "regulatory",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217697315.PDF",
+          "evidence_strength": "regulatory",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 赛维时代科技股份有限公司 的公司身份、主营产品/服务、业务模式及其与 cbec_multi_platform_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304625+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "matched_persona": "cbec_platform_operator",
+      "match_reason": "旗下中国制造网等平台型业务服务外贸与跨境场景，适合跨境平台/运营服务商画像。",
+      "core_product_service_summary": "B2B 电子商务、外贸服务、软件与企业数字化服务。",
+      "business_model_summary": "平台服务、软件产品和外贸数字化服务结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_focus_tech",
+          "company_name": "焦点科技股份有限公司",
+          "source_type": "official_site",
+          "source_locator": "https://www.focuschina.com/",
+          "evidence_strength": "official",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 焦点科技股份有限公司 的公司身份、主营产品/服务、业务模式及其与 cbec_platform_operator 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304626+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "智能家居/净水品牌，产品、渠道和全球上市公司披露结构可支撑多平台品牌经营判断。",
+      "core_product_service_summary": "AIoT 家居与净水产品，聚焦家庭水解决方案。",
+      "business_model_summary": "智能硬件研发、品牌销售、渠道和服务运营结合。",
+      "strong_evidence": [
+        {
+          "prospect_id": "m44r_prospect_viomi",
+          "company_name": "云米科技有限公司",
+          "source_type": "official_ir",
+          "source_locator": "https://viomitechnology.gcs-web.com/",
+          "evidence_strength": "ir",
+          "supports_dimension": [
+            "company_identity",
+            "product_service",
+            "business_model",
+            "persona_match"
+          ],
+          "summary": "该来源用于确认 云米科技有限公司 的公司身份、主营产品/服务、业务模式及其与 cbec_multi_platform_brand 的画像匹配基础。",
+          "collected_at": "2026-05-03T08:07:06.304628+00:00"
+        }
+      ],
+      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。",
+      "trusted_status": "trusted_match_ready",
+      "legacy_field_inherited": false,
+      "llm_decision_used": false
+    }
+  ]
+}

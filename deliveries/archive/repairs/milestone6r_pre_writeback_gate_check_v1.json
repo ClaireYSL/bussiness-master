@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-04-27T00:06:31.683417+00:00",
+  "batch_id": "milestone6r_trust_batch_v1",
+  "ok": true,
+  "inputs": {
+    "candidate_file": "deliveries/archive/repairs/milestone6r_trust_candidates_reselect_20260419.json",
+    "baseline_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_report_baseline_v1.json",
+    "run_summary_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_run_summary_v1.json",
+    "promote_file": "deliveries/archive/milestones/milestone6r_trust/milestone6r_trust_promote_v1.json",
+    "main_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+    "profile_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+    "governance_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+  },
+  "gates": {
+    "signature_match": {
+      "ok": true,
+      "message": "candidate signature matched baseline",
+      "candidate_signature_count": 12,
+      "baseline_signature_count": 12
+    },
+    "run_consistency": {
+      "ok": true,
+      "message": "run summary and promote result counts are consistent",
+      "run_status": "success",
+      "run_mode": "report_only",
+      "enrich_result_count": 12,
+      "promote_result_count": 12,
+      "promote_results_count": 12
+    },
+    "workbook_integrity": {
+      "ok": true,
+      "message": "workbook integrity ok",
+      "report": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 583,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4213,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2100,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      }
+    },
+    "decision_sample_review": {
+      "ok": true,
+      "message": "decision sample review covered at least three tracks",
+      "tracks_covered": 3,
+      "samples": [
+        {
+          "track": "先进制造",
+          "account_id": "acc_cn_000768",
+          "decision": "warn",
+          "ok": true,
+          "blocking_issues": [],
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        },
+        {
+          "track": "跨境电商",
+          "account_id": "acc_cn_002640",
+          "decision": "warn",
+          "ok": true,
+          "blocking_issues": [],
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        },
+        {
+          "track": "零售消费",
+          "account_id": "acc_cn_002511",
+          "decision": "warn",
+          "ok": true,
+          "blocking_issues": [],
+          "summary": "可继续推进，但仍需显式暴露风险和待补证点。"
+        }
+      ]
+    },
+    "serial_execution_lock": {
+      "ok": true,
+      "message": "write-back lock is available",
+      "lock_meta": {
+        "lock_path": "/tmp/codex_static_pool_workbook_writeback.lock",
+        "acquired": true,
+        "wait_seconds": 4e-06
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "batch_id": "milestone11_warn_quality_batch_v1",
+  "goal": "Milestone 11：6R样本warn级质量解阻与补证闭环",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-27T00:14:20.957033+00:00",
+  "finished_at": "2026-04-27T00:14:25.759608+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_cn_000768",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dreame",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "target_level": "L2"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻-enrich复盘-v1.md",
+    "result_count": 12,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {}
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone11_warn_quality_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻-promote复盘-v1.md",
+    "result_count": 12,
+    "write_back": {
+      "enabled": true,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 5e-06,
+      "workbook_integrity_check": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 583,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4213,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2100,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      },
+      "promoted": 0,
+      "skipped": 12,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 0,
+      "warn": 12,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 12,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 5e-06,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4213,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2100,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻复盘-v1.md"
+}

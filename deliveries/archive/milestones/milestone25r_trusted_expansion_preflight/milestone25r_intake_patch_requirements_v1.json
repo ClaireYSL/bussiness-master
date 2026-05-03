@@ -1,0 +1,1205 @@
+{
+  "batch_id": "milestone25r_intake_patch_requirements_v1",
+  "items": [
+    {
+      "account_id": "acc_topstar",
+      "account_name": "拓斯达科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_haers",
+      "account_name": "浙江哈尔斯真空器皿股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_hailide",
+      "account_name": "浙江海利得新材料股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "account_name": "海象新材料股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "account_name": "江苏恒辉安防股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_henglin",
+      "account_name": "恒林家居股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "account_name": "浙江恒威电池股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_hlin",
+      "account_name": "浙江恒林椅业股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_jame",
+      "account_name": "深圳市杰美特科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_longood",
+      "account_name": "朗科智能电气股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "account_name": "浙江梦天木作家居有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "account_name": "浙江明新旭腾新材料股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "account_name": "浙江野马电池股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_patio",
+      "account_name": "浙江正特股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "account_name": "深圳市赛维网络科技有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_santai",
+      "account_name": "深圳市三态电子商务股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "account_name": "浙江盛泰服装集团股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_skshu",
+      "account_name": "星徽股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "account_name": "泰鹏智能家居股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "account_name": "永艺家具股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_washin",
+      "account_name": "浙江华生科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "account_name": "星华新材股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_yayi",
+      "account_name": "浙江雅艺金属科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "account_name": "浙江永强集团股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "account_name": "深圳市有棵树科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "account_name": "浙江正裕工业股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_babi",
+      "account_name": "中饮巴比食品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_babi",
+      "account_name": "巴比食品集团有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_bbg",
+      "account_name": "步步高商业连锁股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_bear",
+      "account_name": "广东小熊电器股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "account_name": "华熙生物科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "account_name": "光明乳业股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_candr",
+      "account_name": "中顺洁柔纸业股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "account_name": "中国黄金集团黄金珠宝股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_chj",
+      "account_name": "潮宏基珠宝股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "account_name": "中粮糖业控股股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_dengkang",
+      "account_name": "登康口腔护理用品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_eurasia",
+      "account_name": "欧亚集团股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_freda",
+      "account_name": "福瑞达生物股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_fuanna",
+      "account_name": "深圳市富安娜家居用品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_gaishi",
+      "account_name": "盖世食品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "account_name": "甘源食品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "account_name": "广州酒家集团股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_gubei",
+      "account_name": "乖宝宠物食品集团股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "account_name": "天津桂发祥十八街麻花食品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "account_name": "海欣食品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "account_name": "好想你健康食品股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_hiro",
+      "account_name": "海融科技股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_holike",
+      "account_name": "好莱客创意家居股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    },
+    {
+      "account_id": "acc_hqls",
+      "account_name": "红旗连锁股份有限公司",
+      "required_fields": [
+        "admission_reason_summary",
+        "official_or_high_confidence_source",
+        "公司产品与服务概述",
+        "商业模式概述"
+      ],
+      "allowed_source_types": [
+        "official_website",
+        "cninfo",
+        "annual_report",
+        "announcement",
+        "ir",
+        "regulatory_disclosure"
+      ],
+      "forbidden_source_types": [
+        "trusted_prospect_card",
+        "candidate_summary",
+        "llm_candidate_summary"
+      ],
+      "patch_status": "not_started"
+    }
+  ]
+}

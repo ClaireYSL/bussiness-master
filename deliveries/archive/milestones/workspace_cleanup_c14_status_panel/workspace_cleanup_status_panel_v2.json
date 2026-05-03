@@ -1,0 +1,16 @@
+{
+  "milestone": "C14",
+  "generated_at": "2026-05-03T12:16:54.338395+00:00",
+  "status": "PASS_C14_CLEANUP_STATUS_PANEL_READY",
+  "summary": {
+    "before_untracked_count": 488,
+    "before_tracked_modified_count": 18,
+    "current_untracked_count_before_staging": 488,
+    "current_tracked_modified_count": 18,
+    "archive_import_candidate_count": 368,
+    "legacy_import_candidate_count": 106,
+    "tracked_decision_count": 18
+  },
+  "next_cleanup_step": "Stage and commit C11 archive/import candidates plus C12 legacy candidates; keep C13 tracked modified out of the commit.",
+  "remaining_risk": "tracked modified files still require user/historical decision; no revert has been done."
+}

@@ -1,0 +1,366 @@
+{
+  "batch_id": "milestone20_batch_intake_candidates_v1",
+  "generated_at": "2026-04-27T03:41:31.812002+00:00",
+  "accounts": [
+    {
+      "account_id": "acc_hangke",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_hetai",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_hymson",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_ikd",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_invt",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_kaili",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_kedali",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_leisai",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_neway",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_rifa",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_scc",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_scimee",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_topband",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_wanma",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_wus",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_yawei",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_laifen",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    },
+    {
+      "account_id": "acc_morhome",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "latest_promote_decision": "block",
+      "required_queue_types": [
+        "verification"
+      ],
+      "selection_reason": "M19 选中 needs_intake_patch，进入 M20 批量补证试运行。"
+    }
+  ]
+}

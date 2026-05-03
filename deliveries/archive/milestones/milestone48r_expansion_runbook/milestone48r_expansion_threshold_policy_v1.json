@@ -1,0 +1,11 @@
+{
+  "policy_id": "milestone48r_expansion_threshold_policy_v1",
+  "next_batch_size": "30-50 before 100+",
+  "minimum_requirements": [
+    "每家公司至少 1 条 official/regulatory/annual_report/ir/exchange_announcement/authoritative_media/industry_research evidence。",
+    "trusted_match_ready 比例 >= 80%，否则先做 evidence patch 而非扩容。",
+    "画像必须来自 M42R source_supported 或已人工确认画像。",
+    "旧主表/档案/共享版仅可用于去重，不得自动继承事实字段。",
+    "潜客产出不得写入正式知识资产或画像 registry。"
+  ]
+}

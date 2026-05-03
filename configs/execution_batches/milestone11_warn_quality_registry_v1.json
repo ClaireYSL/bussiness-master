@@ -1,0 +1,61 @@
+{
+  "milestone_id": "milestone11_warn_quality",
+  "batch_id": "milestone11_warn_quality_batch_v1",
+  "goal": "Milestone 11：6R样本warn级质量解阻与补证闭环",
+  "timebox": {
+    "plan": "质量解阻优先，不以全量allow为硬目标",
+    "phase_a": "report_only 验证warn下降",
+    "phase_b": "gate_check后write_back"
+  },
+  "accounts": [],
+  "track_mix": {
+    "tracks": [
+      "零售消费",
+      "跨境电商",
+      "先进制造"
+    ],
+    "per_track_total": 4
+  },
+  "promotion_mix": {
+    "routes": [
+      {
+        "from_level": "L3",
+        "target_level": "L2",
+        "per_track": 4
+      }
+    ]
+  },
+  "mode_policy": {
+    "default_phase": "both",
+    "require_report_baseline": true,
+    "write_back_after_report_only": true
+  },
+  "candidate_file": "deliveries/archive/repairs/milestone6r_trust_candidates_reselect_20260419.json",
+  "source_paths": {
+    "main_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/静态潜客主表.xlsx",
+    "main_sheet": "accounts_main",
+    "profile_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/潜客档案库.xlsx",
+    "profile_sheet": "account_profiles",
+    "governance_file": "/Users/clairaipartner/Documents/Obsidian-Codex/潜客池/治理与证据.xlsx",
+    "queue_sheet": "review_queue",
+    "evidence_sheet": "evidence_log"
+  },
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone11_warn_quality_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻-promote复盘-v1.md",
+    "enrich_result_source": "from_current_enrich"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 11-warn质量解阻复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_report_baseline_v1.json"
+  }
+}

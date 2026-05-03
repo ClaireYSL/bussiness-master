@@ -1,0 +1,34 @@
+{
+  "sequence_id": "milestone34r_repair_sequence_v1",
+  "mode": "admission_only_no_write",
+  "steps": [
+    {
+      "step": 1,
+      "action": "backup_workbooks",
+      "requires_confirmation": true
+    },
+    {
+      "step": 2,
+      "action": "resolve_duplicate_account_ids",
+      "candidate_count": 7,
+      "requires_confirmation": true
+    },
+    {
+      "step": 3,
+      "action": "append_missing_profile_rows",
+      "candidate_count": 78,
+      "requires_confirmation": true
+    },
+    {
+      "step": 4,
+      "action": "rebuild_shared_view_from_projection",
+      "candidate_count": 568,
+      "requires_confirmation": true
+    },
+    {
+      "step": 5,
+      "action": "rerun_m33r_audit_and_integrity",
+      "requires_confirmation": false
+    }
+  ]
+}

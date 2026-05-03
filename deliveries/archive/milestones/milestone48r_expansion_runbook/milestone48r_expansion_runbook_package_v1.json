@@ -1,0 +1,67 @@
+{
+  "batch_id": "milestone48r_expansion_runbook_package_v1",
+  "generated_at": "2026-05-03T08:09:48.352901+00:00",
+  "summary": {
+    "readiness_check_pass": true,
+    "handoff_ready": true,
+    "quality_gate_pass": true,
+    "next_batch_size": "30-50",
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "expansion_threshold_policy": {
+    "policy_id": "milestone48r_expansion_threshold_policy_v1",
+    "next_batch_size": "30-50 before 100+",
+    "minimum_requirements": [
+      "每家公司至少 1 条 official/regulatory/annual_report/ir/exchange_announcement/authoritative_media/industry_research evidence。",
+      "trusted_match_ready 比例 >= 80%，否则先做 evidence patch 而非扩容。",
+      "画像必须来自 M42R source_supported 或已人工确认画像。",
+      "旧主表/档案/共享版仅可用于去重，不得自动继承事实字段。",
+      "潜客产出不得写入正式知识资产或画像 registry。"
+    ]
+  },
+  "batch_runbook": {
+    "runbook_id": "milestone48r_batch_runbook_v1",
+    "standard_steps": [
+      "python3 scripts/build_m41r_source_material_inventory.py",
+      "python3 scripts/build_m42r_persona_recalibration_package.py",
+      "python3 scripts/build_m43r_new_prospect_intake_schema.py",
+      "python3 scripts/build_m44r_new_trusted_prospect_trial.py",
+      "python3 scripts/build_m45r_trusted_card_quality_review.py",
+      "python3 scripts/build_m46r_trusted_pool_storage_design.py",
+      "python3 scripts/build_m47r_trusted_pool_product.py",
+      "python3 scripts/build_m48r_expansion_runbook.py",
+      "python3 scripts/build_autonomous_status_panel.py"
+    ],
+    "do_not_run_without_confirmation": [
+      "真实工作簿 write_back",
+      "新建正式工作簿",
+      "覆盖知识资产",
+      "覆盖画像 registry",
+      "删除 legacy 文件"
+    ]
+  },
+  "quality_gate_check": {
+    "gate_id": "milestone48r_quality_gate_check_v1",
+    "checks": {
+      "source_roots_ready": true,
+      "persona_evidence_map_ready": true,
+      "intake_schema_ready": true,
+      "first_batch_ready": true,
+      "trusted_pool_product_ready": true,
+      "no_write_proof_ready": true
+    },
+    "pass": true
+  },
+  "handoff_snapshot": {
+    "snapshot_id": "milestone48r_handoff_snapshot_v1",
+    "current_status": "evidence_first_first_pool_ready",
+    "latest_product_artifact": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "latest_share_view": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_share_view_v1.json",
+    "latest_source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "next_recommended_milestone": "M49R: 30-50 家扩容候选发现与 evidence-first 采集",
+    "non_writeback_boundary": "M41R-M48R 均不写旧主表、不写知识资产、不改画像 registry。"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "batch_id": "milestone12_persona_stability_review_v1",
+  "overall_summary": "本次复核的12家潜客均触发画像边界不稳定警告，已完成L3层级档案补强且业务主线与当前主画像方向匹配，但普遍缺乏官网、公开财报等稳定核心证据，建议全部维持待复核状态",
+  "accounts": [
+    {
+      "account_id": "acc_dreame",
+      "account_name": "追觅创新科技（苏州）有限公司",
+      "current_persona": "retail_high_sku_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "retail_high_sku_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L3全量补强，候选池资料可确认其为智能家电高SKU品牌，业务主线与当前主画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺稳定官方入口、官方介绍或一手案例材料，主画像边界尚未完全收束",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_tomtop",
+      "account_name": "深圳市通拓科技有限公司",
+      "current_persona": "cbec_multi_platform_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "cbec_multi_platform_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L3全量补强，候选池资料可确认其跨境电商经营属性，业务主线与当前主画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺稳定官方入口、官方介绍或一手案例材料，主画像边界尚未完全收束",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "account_name": "珠免集团",
+      "current_persona": "retail_multi_store",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "retail_multi_store",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为旅游零售方向上市主体，业务主线与当前多门店零售画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "account_name": "金达威",
+      "current_persona": "retail_high_sku_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "retail_high_sku_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为食品加工方向上市主体，业务主线与当前高SKU零售品牌画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，主画像边界尚未完全收束",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "account_name": "中顺洁柔",
+      "current_persona": "retail_high_sku_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "retail_high_sku_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为个护用品方向上市主体，业务主线与当前高SKU零售品牌画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "account_name": "跨境通",
+      "current_persona": "cbec_multi_platform_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "cbec_multi_platform_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为互联网电商方向上市主体，业务主线与当前跨境多平台品牌画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "account_name": "青木科技",
+      "current_persona": "cbec_multi_platform_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "cbec_multi_platform_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为互联网电商方向上市主体，业务主线与当前跨境多平台品牌画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "account_name": "华凯易佰",
+      "current_persona": "cbec_multi_platform_brand",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "cbec_multi_platform_brand",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为互联网电商方向上市主体，业务主线与当前跨境多平台品牌画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "account_name": "光迅科技",
+      "current_persona": "mfg_multi_factory_group",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "mfg_multi_factory_group",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为通信设备方向上市主体，业务主线与当前多工厂制造集团画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_000768",
+      "account_name": "中航西飞",
+      "current_persona": "mfg_rnd_sales_complex",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "mfg_rnd_sales_complex",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为航空装备方向上市主体，业务主线与当前研产销协同复杂制造画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "account_name": "盛美上海",
+      "current_persona": "mfg_rnd_sales_complex",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "mfg_rnd_sales_complex",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为半导体方向上市主体，业务主线与当前研产销协同复杂制造画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "account_name": "国轩高科",
+      "current_persona": "mfg_rnd_sales_complex",
+      "recommended_action": "keep_pending_review",
+      "recommended_review_status": "pending_review",
+      "recommended_persona": "mfg_rnd_sales_complex",
+      "confidence": "medium",
+      "evidence_based_reason": "已完成L5到L3批量补强，公开主体名单可确认其为电池方向上市主体，业务主线与当前研产销协同复杂制造画像方向匹配，但存在画像边界不稳定警告",
+      "remaining_risk": "缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界",
+      "writeback_ready": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "milestone31r_rule_calibration_proposal_v1",
+  "items": [
+    {
+      "proposal_id": "m31r_rule_cbec_multi_platform_brand_feedback_calibration_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "cbec_multi_platform_brand",
+      "sample_count": 5,
+      "proposal_summary": "该画像已有写回后抽样对象；待业务反馈后，可形成候选选择、优先级或淘汰规则建议。正式画像规则变更仍需真实客户案例/解决方案/权威材料验证。",
+      "status": "pending_business_feedback",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m31r_rule_mfg_multi_factory_group_feedback_calibration_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "mfg_multi_factory_group",
+      "sample_count": 1,
+      "proposal_summary": "该画像已有写回后抽样对象；待业务反馈后，可形成候选选择、优先级或淘汰规则建议。正式画像规则变更仍需真实客户案例/解决方案/权威材料验证。",
+      "status": "pending_business_feedback",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m31r_rule_retail_high_sku_brand_feedback_calibration_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "retail_high_sku_brand",
+      "sample_count": 5,
+      "proposal_summary": "该画像已有写回后抽样对象；待业务反馈后，可形成候选选择、优先级或淘汰规则建议。正式画像规则变更仍需真实客户案例/解决方案/权威材料验证。",
+      "status": "pending_business_feedback",
+      "formal_rule_change_allowed": false
+    },
+    {
+      "proposal_id": "m31r_rule_retail_multi_store_feedback_calibration_v1",
+      "proposal_type": "rule_calibration_proposal",
+      "persona": "retail_multi_store",
+      "sample_count": 4,
+      "proposal_summary": "该画像已有写回后抽样对象；待业务反馈后，可形成候选选择、优先级或淘汰规则建议。正式画像规则变更仍需真实客户案例/解决方案/权威材料验证。",
+      "status": "pending_business_feedback",
+      "formal_rule_change_allowed": false
+    }
+  ]
+}

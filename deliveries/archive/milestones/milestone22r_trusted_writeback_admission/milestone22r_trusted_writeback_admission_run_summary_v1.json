@@ -1,0 +1,189 @@
+{
+  "batch_id": "milestone22r_trusted_writeback_admission_v1",
+  "goal": "Milestone 22R：可信潜客写回准入材料与非写回验证",
+  "mode": "report_only",
+  "phase": "report_only",
+  "status": "success",
+  "started_at": "2026-04-27T10:24:19.945066+00:00",
+  "finished_at": "2026-04-27T10:24:22.155883+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_hangke",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hetai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hymson",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_ikd",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_invt",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jereh",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_kaili",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_kedali",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_laifen",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_leisai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_morhome",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_neway",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_rifa",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_scc",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_scimee",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_topband",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_wanma",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_wus",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yawei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "target_level": "L3"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone22r_trusted_writeback_admission_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入-enrich复盘-v1.md",
+    "result_count": 30,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {}
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone22r_trusted_writeback_admission_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入-promote复盘-v1.md",
+    "result_count": 30,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {},
+      "promoted": 0,
+      "skipped": 0,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 30,
+      "warn": 0,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 30,
+    "warn": 0,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {}
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入最终复盘-v1.md"
+}

@@ -1,0 +1,22 @@
+{
+  "plan_id": "milestone33r_shared_view_rebuild_plan_v1",
+  "source_of_truth": "静态潜客主表.xlsx/accounts_main",
+  "target_workbook": "内部运营-静态潜客池-共享版.xlsx",
+  "mode": "plan_only_no_write",
+  "expected_full_rows": 568,
+  "expected_high_quality_rows": 489,
+  "expected_extended_rows": 79,
+  "expected_level_counts": {
+    "L2": 304,
+    "L3": 177,
+    "L1": 8,
+    "L5": 78,
+    "L4": 1
+  },
+  "rules": [
+    "全量主表应由主表按公司主体投影生成。",
+    "高质量层应包含 L1/L2/L3。",
+    "L4_L5扩展层应包含 L4/L5。",
+    "共享版不应作为 account/persona/level 的 source of truth。"
+  ]
+}

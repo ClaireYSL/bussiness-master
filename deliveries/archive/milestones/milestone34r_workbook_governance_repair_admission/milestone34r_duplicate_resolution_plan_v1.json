@@ -1,0 +1,187 @@
+{
+  "batch_id": "milestone34r_duplicate_resolution_plan_v1",
+  "items": [
+    {
+      "account_id": "acc_babi",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 15,
+        "account_id": "acc_babi",
+        "account_name": "巴比食品集团有限公司",
+        "level": "L3",
+        "track": "零售消费",
+        "persona": "retail_multi_store",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 14,
+          "account_id": "acc_babi",
+          "account_name": "中饮巴比食品股份有限公司",
+          "level": "L5",
+          "track": "零售消费",
+          "persona": "retail_multi_store_chain",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    },
+    {
+      "account_id": "acc_hangke",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 98,
+        "account_id": "acc_hangke",
+        "account_name": "浙江杭可科技股份有限公司",
+        "level": "L2",
+        "track": "先进制造",
+        "persona": "mfg_rnd_sales_complex",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 99,
+          "account_id": "acc_hangke",
+          "account_name": "杭可科技股份有限公司",
+          "level": "L5",
+          "track": "先进制造",
+          "persona": "mfg_multi_factory_group",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    },
+    {
+      "account_id": "acc_hymson",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 124,
+        "account_id": "acc_hymson",
+        "account_name": "深圳市海目星激光科技集团股份有限公司",
+        "level": "L2",
+        "track": "先进制造",
+        "persona": "mfg_multi_factory_group",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 125,
+          "account_id": "acc_hymson",
+          "account_name": "海目星激光科技集团股份有限公司",
+          "level": "L5",
+          "track": "先进制造",
+          "persona": "mfg_multi_factory_group",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    },
+    {
+      "account_id": "acc_jereh",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 137,
+        "account_id": "acc_jereh",
+        "account_name": "烟台杰瑞石油服务集团股份有限公司",
+        "level": "L2",
+        "track": "先进制造",
+        "persona": "mfg_multi_factory_group",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 138,
+          "account_id": "acc_jereh",
+          "account_name": "杰瑞石油服务集团股份有限公司",
+          "level": "L5",
+          "track": "先进制造",
+          "persona": "mfg_multi_factory_group",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    },
+    {
+      "account_id": "acc_neway",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 207,
+        "account_id": "acc_neway",
+        "account_name": "纽威阀门股份有限公司",
+        "level": "L2",
+        "track": "先进制造",
+        "persona": "mfg_rnd_sales_complex",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 208,
+          "account_id": "acc_neway",
+          "account_name": "苏州纽威阀门股份有限公司",
+          "level": "L5",
+          "track": "先进制造",
+          "persona": "mfg_rnd_sales_complex",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    },
+    {
+      "account_id": "acc_qianweiyangchu",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 223,
+        "account_id": "acc_qianweiyangchu",
+        "account_name": "郑州千味央厨食品股份有限公司",
+        "level": "L2",
+        "track": "零售消费",
+        "persona": "retail_high_sku_brand",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 224,
+          "account_id": "acc_qianweiyangchu",
+          "account_name": "千味央厨食品股份有限公司",
+          "level": "L5",
+          "track": "零售消费",
+          "persona": "retail_high_sku_brand",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    },
+    {
+      "account_id": "acc_topstar",
+      "duplicate_count": 2,
+      "recommended_keep": {
+        "excel_row": 288,
+        "account_id": "acc_topstar",
+        "account_name": "广东拓斯达科技股份有限公司",
+        "level": "L3",
+        "track": "先进制造",
+        "persona": "mfg_multi_factory_group",
+        "filled_core_fields": 8
+      },
+      "recommended_remove": [
+        {
+          "excel_row": 287,
+          "account_id": "acc_topstar",
+          "account_name": "拓斯达科技股份有限公司",
+          "level": "L5",
+          "track": "先进制造",
+          "persona": "mfg_multi_factory_group",
+          "filled_core_fields": 6
+        }
+      ],
+      "rule": "保留层级更高、核心字段更完整、且有档案承接的行；若仍并列，保留靠前行。",
+      "writeback_status": "not_executed"
+    }
+  ]
+}

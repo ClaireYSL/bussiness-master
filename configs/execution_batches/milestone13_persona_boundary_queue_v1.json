@@ -1,0 +1,125 @@
+{
+  "batch_id": "milestone13_persona_boundary_queue_v1",
+  "accounts": [
+    {
+      "queue_item_id": "m13_acc_cn_000768_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_000768",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_002074_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002074",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_002281_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002281",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_002511_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002511",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_002626_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002626",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_002640_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002640",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_300592_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_300592",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_301110_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_301110",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：persona_required_dimensions_missing,active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_600185_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_600185",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_cn_688082_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_688082",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：persona_required_dimensions_missing,active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_dreame_verification",
+      "queue_type": "verification",
+      "account_id": "acc_dreame",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m13_acc_tomtop_verification",
+      "queue_type": "verification",
+      "account_id": "acc_tomtop",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 13画像边界规则：active_confirmation_missing",
+      "created_at": "2026-04-27"
+    }
+  ]
+}

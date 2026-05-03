@@ -1,0 +1,89 @@
+{
+  "batch_id": "milestone41r_source_coverage_summary_v1",
+  "generated_at": "2026-05-03T07:55:03.372882+00:00",
+  "summary": {
+    "source_root_count": 3,
+    "source_roots": {
+      "dingtalk_2026_03_28": {
+        "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28",
+        "exists": true,
+        "file_count": 133
+      },
+      "geo_l1_cases": {
+        "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases",
+        "exists": true,
+        "file_count": 57
+      },
+      "l1_customer_cases_20260313": {
+        "path": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313",
+        "exists": true,
+        "file_count": 554
+      }
+    },
+    "total_material_count": 744,
+    "learnable_queue_count": 166,
+    "excluded_material_count": 32,
+    "already_asset_count": 55,
+    "registry_available": true,
+    "registry_counts": {
+      "raw_material_inventory": 189,
+      "knowledge_assets": 95,
+      "learning_queue": 60
+    },
+    "registry_matched_count": 300,
+    "counts_by_source_root": {
+      "dingtalk_2026_03_28": 133,
+      "geo_l1_cases": 57,
+      "l1_customer_cases_20260313": 554
+    },
+    "counts_by_file_type": {
+      "md": 120,
+      "pdf": 75,
+      "pptx": 1,
+      "docx": 57,
+      "jpeg": 61,
+      "png": 352,
+      "gif": 43,
+      "webp": 35
+    },
+    "counts_by_source_folder_status": {
+      "已入学习队列": 10,
+      "已转正式资产": 55,
+      "待评估": 93,
+      "明确不学": 32,
+      "legacy_case_library": 63,
+      "supporting_attachment": 491
+    },
+    "counts_by_learnability_status": {
+      "learnable_now": 10,
+      "already_asset": 55,
+      "needs_triage": 156,
+      "excluded": 32,
+      "supporting_attachment": 491
+    },
+    "top_persona_guesses": {
+      "unknown": 367,
+      "retail_high_sku_brand": 93,
+      "retail_multi_store": 85,
+      "finance_data_democratization": 48,
+      "mfg_multi_factory_group": 44,
+      "mfg_rnd_sales_complex": 43,
+      "fnb_chain_standardized": 24,
+      "internet_platform_operation": 23,
+      "cbec_multi_platform_brand": 9,
+      "fnb_chain_beverage_coffee": 7,
+      "cbec_platform_operator": 1
+    },
+    "no_write_proof": {
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "prospect_generation_enabled": false
+    },
+    "next_milestone": {
+      "milestone": "M42R",
+      "name": "ICP/画像体系重校准",
+      "input": "M41R learnable material queue + existing persona registry"
+    }
+  }
+}

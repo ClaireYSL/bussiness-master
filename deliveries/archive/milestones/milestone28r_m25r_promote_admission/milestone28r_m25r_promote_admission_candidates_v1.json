@@ -1,0 +1,506 @@
+{
+  "batch_id": "milestone28r_m25r_promote_admission_candidates_v1",
+  "generated_at": "2026-04-27T14:21:51.959077+00:00",
+  "accounts": [
+    {
+      "account_id": "acc_topstar",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "mfg_multi_factory_group",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_haers",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_hailide",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_henglin",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_hlin",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_jame",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_longood",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_patio",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_santai",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_skshu",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_washin",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_yayi",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "cbec_multi_platform_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_babi",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_bbg",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_bear",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_candr",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_chj",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_dengkang",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_eurasia",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_freda",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_fuanna",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_gaishi",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_gubei",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_hiro",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_holike",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_hqls",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_multi_store",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "track": "零售消费",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "persona_tag": "retail_high_sku_brand",
+      "confirmation_status": "system_recommended_confirm_active_candidate",
+      "selection_reason": "M27R 系统建议 confirm_active_candidate；M28R 仅执行非写回 report-only/gate 准入试跑。"
+    }
+  ]
+}

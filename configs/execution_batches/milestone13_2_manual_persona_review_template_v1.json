@@ -1,0 +1,151 @@
+{
+  "batch_id": "milestone13_2_manual_persona_review_template_v1",
+  "source_file": "deliveries/archive/milestones/milestone13_2_manual_persona_review/milestone13_2_manual_persona_review_candidate_package_v1.json",
+  "policy": "This file is intentionally not pre-confirmed. Change decision to confirm_active only after human persona review.",
+  "accounts": [
+    {
+      "account_id": "acc_cn_000768",
+      "account_name": "中航西飞",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "account_name": "国轩高科",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "account_name": "光迅科技",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "account_name": "中顺洁柔",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "account_name": "金达威",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "account_name": "跨境通",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "account_name": "华凯易佰",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "account_name": "青木科技",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "account_name": "珠免集团",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "account_name": "盛美上海",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_dreame",
+      "account_name": "追觅创新科技（苏州）有限公司",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    },
+    {
+      "account_id": "acc_tomtop",
+      "account_name": "深圳市通拓科技有限公司",
+      "decision": "pending_manual_review",
+      "allowed_decisions": [
+        "confirm_active",
+        "keep_pending_review",
+        "hold_review"
+      ],
+      "reviewer": "",
+      "review_note": ""
+    }
+  ]
+}

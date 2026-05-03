@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-05-03T07:56:55.793764+00:00",
+  "summary": {
+    "persona_count": 15,
+    "source_supported_count": 7,
+    "needs_source_validation_count": 1,
+    "source_gap_count": 7,
+    "boundary_question_count": 11,
+    "source_gap_queue_count": 8,
+    "registry_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "prospect_generation_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "items": [
+    {
+      "question_id": "m42r_boundary_retail_high_sku_brand__retail_multi_store",
+      "topic": "品牌全渠道 SKU 复杂度 vs 门店网络经营复杂度",
+      "left_persona": "retail_high_sku_brand",
+      "right_persona": "retail_multi_store",
+      "left_evidence_count": 36,
+      "right_evidence_count": 24,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_boundary_fnb_chain_beverage_coffee__fnb_chain_standardized",
+      "topic": "茶饮咖啡高频门店 vs 标准化连锁餐饮",
+      "left_persona": "fnb_chain_beverage_coffee",
+      "right_persona": "fnb_chain_standardized",
+      "left_evidence_count": 7,
+      "right_evidence_count": 13,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_boundary_cbec_multi_platform_brand__cbec_platform_operator",
+      "topic": "跨境品牌经营主体 vs 平台/代运营服务商",
+      "left_persona": "cbec_multi_platform_brand",
+      "right_persona": "cbec_platform_operator",
+      "left_evidence_count": 9,
+      "right_evidence_count": 1,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_boundary_mfg_multi_factory_group__mfg_rnd_sales_complex",
+      "topic": "多工厂运营管控 vs 研产销/订单交付复杂度",
+      "left_persona": "mfg_multi_factory_group",
+      "right_persona": "mfg_rnd_sales_complex",
+      "left_evidence_count": 11,
+      "right_evidence_count": 6,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_source_gap_cbec_supply_chain_complex",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "cbec_supply_chain_complex",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_frontline_action_loop",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_frontline_action_loop",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_group_coordination",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_group_coordination",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_hq_operating_visibility",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_hq_operating_visibility",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_inventory_supply_coordination",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_profit_improvement",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_profit_improvement",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_retail_chain_fnb",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "retail_chain_fnb",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    }
+  ]
+}

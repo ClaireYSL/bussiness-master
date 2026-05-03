@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone14_small_batch_enrich_v1",
+  "goal": "Milestone 14：小批扩容 L5->L3 enrich 非写回复核",
+  "track": "",
+  "from_level": "L5",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "source_policy": "仅接受官网、年报、IR、cninfo 和其他强公开资料；本轮目标是提高高可信字段完备度。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14-小批扩容enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

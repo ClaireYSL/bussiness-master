@@ -1,0 +1,9 @@
+{
+  "snapshot_id": "milestone48r_handoff_snapshot_v1",
+  "current_status": "evidence_first_first_pool_ready",
+  "latest_product_artifact": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+  "latest_share_view": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_share_view_v1.json",
+  "latest_source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+  "next_recommended_milestone": "M49R: 30-50 家扩容候选发现与 evidence-first 采集",
+  "non_writeback_boundary": "M41R-M48R 均不写旧主表、不写知识资产、不改画像 registry。"
+}

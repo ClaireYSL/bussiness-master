@@ -1,0 +1,117 @@
+{
+  "batch_id": "milestone13_persona_boundary_batch_v1",
+  "goal": "Milestone 13：画像边界规则沉淀与可执行化",
+  "mode": "report_only",
+  "phase": "report_only",
+  "status": "success",
+  "started_at": "2026-04-27T02:22:39.863642+00:00",
+  "finished_at": "2026-04-27T02:22:44.359459+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_cn_000768",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_dreame",
+      "target_level": "L2"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "target_level": "L2"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone6r_trust_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则enrich复盘-v1.md",
+    "result_count": 12,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {}
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone13_persona_boundary_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则promote复盘-v1.md",
+    "result_count": 12,
+    "write_back": {
+      "enabled": false,
+      "workbook_lock_acquired": false,
+      "workbook_lock_wait_seconds": 0.0,
+      "workbook_integrity_check": {},
+      "promoted": 0,
+      "skipped": 0,
+      "profile_updates": 0,
+      "main_updates": 0,
+      "main_shared_updates": 0,
+      "coverage_updates": 0,
+      "evidence_created": 0,
+      "promotion_review_resolved": 0,
+      "samples": []
+    },
+    "batch_summary": {
+      "allow": 0,
+      "warn": 12,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 0,
+    "warn": 12,
+    "block": 0,
+    "enrich_write_back_enabled": false,
+    "promote_write_back_enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {}
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 13-画像边界规则最终复盘-v1.md"
+}

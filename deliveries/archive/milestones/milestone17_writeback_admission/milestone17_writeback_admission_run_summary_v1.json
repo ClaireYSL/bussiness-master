@@ -1,0 +1,319 @@
+{
+  "batch_id": "milestone17_writeback_admission_v1",
+  "goal": "Milestone 17：写回候选准入试点",
+  "mode": "write_back",
+  "phase": "write_back",
+  "status": "success",
+  "started_at": "2026-04-27T03:11:29.686029+00:00",
+  "finished_at": "2026-04-27T03:11:36.809667+00:00",
+  "error_stage": "",
+  "error_message": "",
+  "candidate_signature": [
+    {
+      "account_id": "acc_aidi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aimer",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_anji",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aofei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_aukey",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cayi",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_cnano",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_daziran",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_dingli",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_eccang",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "target_level": "L3"
+    }
+  ],
+  "enrich": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/enrich_batches/milestone17_writeback_admission_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点-enrich复盘-v1.md",
+    "result_count": 15,
+    "write_back": {
+      "enabled": true,
+      "backups": {
+        "profile": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.enrich_backup_20260427_111130.xlsx",
+        "main": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.enrich_backup_20260427_111130.xlsx",
+        "main_shared": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/内部运营-静态潜客池-共享版.enrich_backup_20260427_111130.xlsx",
+        "governance": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.enrich_backup_20260427_111130.xlsx"
+      },
+      "profile_updates": 15,
+      "main_updates": 15,
+      "main_shared_updates": 15,
+      "queue_items_created": 14,
+      "evidence_items_created": 15,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 4e-06,
+      "workbook_lock_path": "/tmp/codex_static_pool_workbook_writeback.lock",
+      "workbook_integrity_check": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 583,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4228,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2129,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      }
+    }
+  },
+  "promote": {
+    "status": "success",
+    "return_code": 0,
+    "config_file": "configs/promote_batches/milestone17_writeback_admission_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点-promote复盘-v1.md",
+    "result_count": 15,
+    "write_back": {
+      "enabled": true,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 3e-06,
+      "workbook_integrity_check": {
+        "ok": true,
+        "deep_scan": true,
+        "files": [
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+            "ok": true,
+            "sheet_count": 2,
+            "rows_scanned": 583,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 4228,
+            "error_type": "",
+            "error_message": ""
+          },
+          {
+            "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+            "ok": true,
+            "sheet_count": 4,
+            "rows_scanned": 2174,
+            "error_type": "",
+            "error_message": ""
+          }
+        ]
+      },
+      "promoted": 15,
+      "skipped": 0,
+      "profile_updates": 15,
+      "main_updates": 15,
+      "main_shared_updates": 15,
+      "coverage_updates": 0,
+      "evidence_created": 45,
+      "promotion_review_resolved": 1,
+      "samples": [
+        {
+          "account_id": "acc_aidi",
+          "account_canonical_name": "烟台艾迪精密机械股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_aimer",
+          "account_canonical_name": "爱慕股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_anji",
+          "account_canonical_name": "安记食品股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_anjingfood",
+          "account_canonical_name": "安井食品集团股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_aofei",
+          "account_canonical_name": "奥飞娱乐股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_arrowhome",
+          "account_canonical_name": "箭牌家居集团股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_aukey",
+          "account_canonical_name": "深圳市傲基创新科技股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_cayi",
+          "account_canonical_name": "浙江嘉益保温科技股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_cnano",
+          "account_canonical_name": "江苏天奈科技股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_daziran",
+          "account_canonical_name": "浙江大自然户外用品股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_dingli",
+          "account_canonical_name": "浙江鼎力机械股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_eccang",
+          "account_canonical_name": "深圳市易仓科技有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_focusprecision",
+          "account_canonical_name": "江苏先锋精密科技股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_greatstar",
+          "account_canonical_name": "杭州巨星科技股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        },
+        {
+          "account_id": "acc_haitianjg",
+          "account_canonical_name": "宁波海天精工股份有限公司",
+          "from_level": "L5",
+          "target_level": "L3"
+        }
+      ]
+    },
+    "batch_summary": {
+      "allow": 15,
+      "warn": 0,
+      "block": 0
+    }
+  },
+  "summary": {
+    "allow": 15,
+    "warn": 0,
+    "block": 0,
+    "enrich_write_back_enabled": true,
+    "promote_write_back_enabled": true,
+    "workbook_lock_acquired": true,
+    "workbook_lock_wait_seconds": 3e-06,
+    "workbook_integrity_check": {
+      "ok": true,
+      "deep_scan": true,
+      "files": [
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+          "ok": true,
+          "sheet_count": 2,
+          "rows_scanned": 583,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 4228,
+          "error_type": "",
+          "error_message": ""
+        },
+        {
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+          "ok": true,
+          "sheet_count": 4,
+          "rows_scanned": 2174,
+          "error_type": "",
+          "error_message": ""
+        }
+      ]
+    }
+  },
+  "run_summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_run_summary_v1.json",
+  "run_review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点最终复盘-v1.md"
+}

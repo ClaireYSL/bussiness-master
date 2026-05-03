@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone28r_m25r_promote_admission_enrich_v1",
+  "goal": "Milestone 28R：M25R 二次 promote 准入 enrich 复核",
+  "from_level": "L5",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "rectification_file": "configs/execution_batches/milestone28r_m25r_promote_admission_facts_v1.json",
+  "source_policy": "M28R 使用 M27R 画像确认建议和 M25R 结构化事实；不写入知识资产，不真实写回。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 28R-M25R二次promote准入-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

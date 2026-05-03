@@ -1,0 +1,155 @@
+{
+  "batch_id": "milestone54r_l2_quality_review_package_v1",
+  "generated_at": "2026-05-03T10:48:45.575247+00:00",
+  "summary": {
+    "reviewed_count": 8,
+    "pass_count": 8,
+    "static_l2_ready": 8
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "score": 8,
+      "max_score": 8,
+      "checks": {
+        "has_company_name": true,
+        "has_persona": true,
+        "has_match_reason": true,
+        "has_product_summary": true,
+        "has_business_model": true,
+        "has_two_strong_sources": true,
+        "legacy_field_inherited_false": true,
+        "static_pool_boundary": true
+      },
+      "quality_status": "pass",
+      "static_pool_boundary": "static_icp_evidence_only"
+    }
+  ]
+}

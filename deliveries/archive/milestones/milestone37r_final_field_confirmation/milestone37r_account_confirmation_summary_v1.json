@@ -1,0 +1,58 @@
+{
+  "batch_id": "milestone37r_account_confirmation_summary_v1",
+  "items": [
+    {
+      "account_id": "acc_botanee",
+      "account_name": "云南贝泰妮生物科技集团股份有限公司",
+      "review_item_count": 5,
+      "fields": "account_canonical_name、信息扎实度、admission_reason_summary、公司产品与服务概述、商业模式概述",
+      "suggested_decision_distribution": {
+        "record_alias_only": 1,
+        "sync_main_to_profile": 4
+      },
+      "requires_human_confirmation": true
+    },
+    {
+      "account_id": "acc_dsbj",
+      "account_name": "苏州东山精密制造股份有限公司",
+      "review_item_count": 5,
+      "fields": "account_canonical_name、信息扎实度、admission_reason_summary、公司产品与服务概述、商业模式概述",
+      "suggested_decision_distribution": {
+        "record_alias_only": 1,
+        "hold_pending_more_evidence": 3,
+        "sync_main_to_profile": 1
+      },
+      "requires_human_confirmation": true
+    },
+    {
+      "account_id": "acc_neway",
+      "account_name": "纽威阀门股份有限公司",
+      "review_item_count": 1,
+      "fields": "admission_reason_summary",
+      "suggested_decision_distribution": {
+        "hold_pending_more_evidence": 1
+      },
+      "requires_human_confirmation": true
+    },
+    {
+      "account_id": "acc_qianweiyangchu",
+      "account_name": "郑州千味央厨食品股份有限公司",
+      "review_item_count": 1,
+      "fields": "admission_reason_summary",
+      "suggested_decision_distribution": {
+        "hold_pending_more_evidence": 1
+      },
+      "requires_human_confirmation": true
+    },
+    {
+      "account_id": "acc_topstar",
+      "account_name": "广东拓斯达科技股份有限公司",
+      "review_item_count": 3,
+      "fields": "admission_reason_summary、公司产品与服务概述、商业模式概述",
+      "suggested_decision_distribution": {
+        "sync_main_to_profile": 3
+      },
+      "requires_human_confirmation": true
+    }
+  ]
+}

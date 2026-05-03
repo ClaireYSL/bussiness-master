@@ -1,0 +1,316 @@
+{
+  "batch_id": "milestone15_share_consumption_package_v1",
+  "generated_at": "2026-04-27T02:32:07.622612+00:00",
+  "source_files": {
+    "m13_rule_package": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_rule_package_v1.json",
+    "m14_promote_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_promote_v1.json"
+  },
+  "summary": {
+    "item_count": 27,
+    "share_status_counts": {
+      "high_value_pending": 12,
+      "not_share_ready": 15
+    },
+    "share_ready_or_pending": 12,
+    "not_share_ready": 15
+  },
+  "items": [
+    {
+      "account_id": "acc_cn_000768",
+      "account_name": "中航西飞",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "mfg_rnd_sales_complex",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "account_name": "国轩高科",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "mfg_rnd_sales_complex",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "account_name": "光迅科技",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "mfg_multi_factory_group",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "account_name": "中顺洁柔",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "account_name": "金达威",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "account_name": "跨境通",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "account_name": "华凯易佰",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "account_name": "青木科技",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": false,
+      "remaining_risk": "persona_required_dimensions_missing,active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "account_name": "珠免集团",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "retail_multi_store",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "account_name": "盛美上海",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "mfg_rnd_sales_complex",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": false,
+      "remaining_risk": "persona_required_dimensions_missing,active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_dreame",
+      "account_name": "追觅创新科技（苏州）有限公司",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "account_name": "深圳市通拓科技有限公司",
+      "source_milestone": "M13",
+      "share_status": "high_value_pending",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "已具备 2 条强 evidence，画像维度基本齐备，但仍需人工确认是否可 active。",
+      "evidence_enough": true,
+      "remaining_risk": "active_confirmation_missing",
+      "next_action": "人工确认画像边界；若确认 active，再进入 report_only/gate/writeback。"
+    },
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "mfg_rnd_sales_complex",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,official_source_missing",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "retail_high_sku_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "retail_multi_store",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "mfg_rnd_sales_complex",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "mfg_multi_factory_group",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "mfg_rnd_sales_complex",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,generic_admission,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "cbec_multi_platform_brand",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,generic_admission,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "source_milestone": "M14",
+      "share_status": "not_share_ready",
+      "persona": "mfg_multi_factory_group",
+      "why_worth_review": "小批扩容候选，已完成 report_only 预检。",
+      "evidence_enough": false,
+      "remaining_risk": "missing_field,missing_field,evidence_thin",
+      "next_action": "先补最小字段、官方来源和入池理由，再进入共享消费层。"
+    }
+  ]
+}

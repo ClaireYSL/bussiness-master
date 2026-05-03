@@ -1,0 +1,59 @@
+{
+  "batch_id": "milestone49r_vault_restructure_package_v1",
+  "generated_at": "2026-05-03T08:36:21.041399+00:00",
+  "summary": {
+    "old_l1_l2_md_count": 313,
+    "old_l3_md_count": 112,
+    "old_total_md_count": 425,
+    "new_l1_formal_dossier_count": 0,
+    "new_l2_formal_dossier_count": 0,
+    "new_l3_summary_card_count": 20,
+    "new_l4_user_visible_dossier_count": 0,
+    "new_l5_user_visible_dossier_count": 0,
+    "legacy_archive_marker": "legacy_archive_do_not_use_as_source",
+    "new_vault_entry": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+    "homepage_updated": true,
+    "no_write_proof_ok": true,
+    "validation_pass": true
+  },
+  "vault_audit": {
+    "generated_at": "2026-05-03T08:36:21.041231+00:00",
+    "vault_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池",
+    "old_archive_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-L3以上客户档案",
+    "new_trusted_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案",
+    "old_counts": {
+      "old_l1_l2_md_count": 313,
+      "old_l3_md_count": 112,
+      "old_total_md_count": 425
+    },
+    "new_counts": {
+      "new_l1_formal_dossier_count": 0,
+      "new_l2_formal_dossier_count": 0,
+      "new_l3_summary_card_count": 20,
+      "new_l4_user_visible_dossier_count": 0,
+      "new_l5_user_visible_dossier_count": 0
+    },
+    "old_entries_marked_legacy": [
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-L3以上客户档案/00-legacy-warning.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/05-汇总与状态/01-总览/L3以上客户档案索引.md",
+      "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/05-汇总与状态/04-状态与校验/潜客档案使用说明.md"
+    ],
+    "legacy_reference_only": true
+  },
+  "no_write_proof": {
+    "old_workbook_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "old_excel_mtime_unchanged": true,
+    "old_directory_still_exists": true,
+    "legacy_files_deleted": false
+  },
+  "validation": {
+    "old_counts_match_expected": true,
+    "new_structure_exists": true,
+    "m44r_20_only_l3": true,
+    "homepage_points_to_new_entry": true,
+    "no_write_proof_ok": true,
+    "pass": true
+  }
+}

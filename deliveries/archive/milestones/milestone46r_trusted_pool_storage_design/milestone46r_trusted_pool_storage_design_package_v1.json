@@ -1,0 +1,74 @@
+{
+  "batch_id": "milestone46r_trusted_pool_storage_design_package_v1",
+  "generated_at": "2026-05-03T08:08:44.044548+00:00",
+  "summary": {
+    "storage_design_ready": true,
+    "legacy_excel_primary_store": false,
+    "new_formal_workbook_requires_confirmation": true,
+    "knowledge_asset_write_enabled": false,
+    "persona_registry_write_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "trusted_pool_storage_design": {
+    "design_id": "milestone46r_trusted_pool_storage_design_v1",
+    "recommended_storage": "trusted_prospect_pool_v1_independent_artifact",
+    "do_not_reuse_legacy_excel_as_primary_store": true,
+    "storage_paths": {
+      "json_canonical": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+      "share_view_json": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_share_view_v1.json",
+      "source_trace_index": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json"
+    },
+    "required_record_fields": [
+      "prospect_id",
+      "company_name",
+      "matched_persona",
+      "match_reason",
+      "core_product_service_summary",
+      "business_model_summary",
+      "key_evidence",
+      "trusted_status",
+      "risk_or_gap"
+    ]
+  },
+  "export_view_spec": {
+    "spec_id": "milestone46r_export_view_spec_v1",
+    "views": [
+      {
+        "view_name": "trusted_prospect_share_view",
+        "purpose": "给业务/研究侧快速判断",
+        "format": [
+          "json",
+          "markdown_later"
+        ]
+      },
+      {
+        "view_name": "persona_summary_dashboard",
+        "purpose": "按画像查看数量与证据覆盖",
+        "format": [
+          "json"
+        ]
+      },
+      {
+        "view_name": "source_trace_index",
+        "purpose": "快速回溯来源",
+        "format": [
+          "json"
+        ]
+      }
+    ]
+  },
+  "writeback_policy": {
+    "policy_id": "milestone46r_writeback_policy_v1",
+    "default_writeback_target": "none",
+    "legacy_excel_writeback_allowed": false,
+    "new_formal_workbook_requires_user_confirmation": true,
+    "knowledge_asset_write_allowed": false,
+    "persona_registry_write_allowed": false
+  },
+  "migration_boundary_doc": {
+    "doc_id": "milestone46r_migration_boundary_doc_v1",
+    "legacy_role": "dedupe_reference_only",
+    "new_pool_role": "trusted_operating_pool",
+    "migration_boundary": "旧主表/档案字段不得自动迁入；每条新池记录必须由 M43/M44 schema 和 evidence 支撑。"
+  }
+}

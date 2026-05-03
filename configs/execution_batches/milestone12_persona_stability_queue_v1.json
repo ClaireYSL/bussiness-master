@@ -1,0 +1,127 @@
+{
+  "batch_id": "milestone12_persona_stability_queue_v1",
+  "source_file": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_llm_review_v1.json",
+  "evidence_patch_file": "configs/execution_batches/milestone12_persona_stability_evidence_patch_v1.json",
+  "accounts": [
+    {
+      "queue_item_id": "m12_acc_dreame_verification",
+      "queue_type": "verification",
+      "account_id": "acc_dreame",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺稳定官方入口、官方介绍或一手案例材料，主画像边界尚未完全收束；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_tomtop_verification",
+      "queue_type": "verification",
+      "account_id": "acc_tomtop",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺稳定官方入口、官方介绍或一手案例材料，主画像边界尚未完全收束；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_600185_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_600185",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_002626_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002626",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，主画像边界尚未完全收束；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_002511_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002511",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_002640_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002640",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_301110_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_301110",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_300592_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_300592",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_002281_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002281",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_000768_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_000768",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_688082_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_688082",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    },
+    {
+      "queue_item_id": "m12_acc_cn_002074_verification",
+      "queue_type": "verification",
+      "account_id": "acc_cn_002074",
+      "priority": "P1",
+      "status": "open",
+      "owner": "codex",
+      "note": "Milestone 12画像稳定性复核：缺公开财报口径的收入规模、利润状态、营收增长数据，需补充官网/年报/IR材料以收束画像边界；已补强 evidence=1 条，仍需人工确认是否可转 active",
+      "created_at": "2026-04-27"
+    }
+  ]
+}

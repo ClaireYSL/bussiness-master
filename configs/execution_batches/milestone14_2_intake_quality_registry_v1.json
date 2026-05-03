@@ -1,0 +1,31 @@
+{
+  "milestone_id": "milestone14_2_intake_quality_unblock",
+  "batch_id": "milestone14_2_intake_quality_v1",
+  "goal": "Milestone 14.2：扩容样本入池质量解阻",
+  "candidate_file": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_candidates_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone14_2_intake_quality_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone14_2_intake_quality_queue_v1.json",
+  "intake_patch_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_patch_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone14_2_intake_quality_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone14_2_intake_quality_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻-promote复盘-v1.md"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 14.2-扩容样本入池质量解阻最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_report_baseline_v1.json"
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "batch_id": "milestone16_2_autonomous_status_panel_v1",
+  "generated_at": "2026-05-03T08:10:27.927134+00:00",
+  "source_files": {
+    "M12": "deliveries/archive/milestones/milestone12_persona_stability/milestone12_persona_stability_promote_v1.json",
+    "M13": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_promote_v1.json",
+    "M14": "deliveries/archive/milestones/milestone14_small_batch_expansion/milestone14_small_batch_promote_v1.json",
+    "M14.2": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_promote_v1.json",
+    "M14.3": "deliveries/archive/milestones/milestone14_3_candidate_preflight/milestone14_3_candidate_preflight_package_v1.json",
+    "M15.2": "deliveries/archive/milestones/milestone15_2_share_consumption/milestone15_2_share_consumption_package_v1.json",
+    "M17": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_package_v1.json",
+    "M18": "deliveries/archive/milestones/milestone18_l3_operationalization/milestone18_l3_operational_package_v1.json",
+    "M19": "deliveries/archive/milestones/milestone19_expansion_feedback/milestone19_expansion_feedback_package_v1.json",
+    "M20": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_promote_v1.json",
+    "M20_gate": "deliveries/archive/repairs/milestone20_batch_intake_gate_check_v1.json",
+    "M23A": "deliveries/archive/milestones/milestone23a_l3_business_feedback/milestone23a_l3_business_feedback_package_v1.json",
+    "M21": "deliveries/archive/milestones/milestone21_persona_business_confirmation/milestone21_persona_business_confirmation_package_v1.json",
+    "M21R": "deliveries/archive/milestones/milestone21r_trusted_match_review/milestone21r_trusted_match_review_package_v1.json",
+    "M22R": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_package_v1.json",
+    "M22R_gate": "deliveries/archive/repairs/milestone22r_trusted_writeback_admission_gate_check_v1.json",
+    "M23R": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+    "M24R": "deliveries/archive/milestones/milestone24r_knowledge_source_governance/milestone24r_knowledge_source_governance_package_v1.json",
+    "M25R": "deliveries/archive/milestones/milestone25r_trusted_expansion_preflight/milestone25r_trusted_expansion_preflight_package_v1.json",
+    "M25R_patch": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_intake_patch_v1.json",
+    "M25R_run": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_run_summary_v1.json",
+    "M25R_gate": "deliveries/archive/repairs/milestone25r_trusted_expansion_gate_check_v1.json",
+    "M25R_post_integrity": "deliveries/archive/repairs/milestone25r_workbook_integrity_report_post_writeback_v1.json",
+    "M25R_review": "deliveries/archive/milestones/milestone25r_trusted_expansion_review/milestone25r_trusted_expansion_review_package_v1.json",
+    "M26R": "deliveries/archive/milestones/milestone26r_m25r_trusted_consumption/milestone26r_m25r_trusted_consumption_package_v1.json",
+    "M27R": "deliveries/archive/milestones/milestone27r_m25r_persona_confirmation/milestone27r_m25r_persona_confirmation_package_v1.json",
+    "M28R": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_package_v1.json",
+    "M28R_run": "deliveries/archive/milestones/milestone28r_m25r_promote_admission/milestone28r_m25r_promote_admission_run_summary_v1.json",
+    "M28R_gate": "deliveries/archive/repairs/milestone28r_m25r_promote_admission_gate_check_v1.json",
+    "M28R_post_integrity": "deliveries/archive/repairs/milestone28r_workbook_integrity_report_post_writeback_v1.json",
+    "M30R": "deliveries/archive/milestones/milestone30r_post_writeback_consumption_review/milestone30r_post_writeback_consumption_review_package_v1.json",
+    "M31R": "deliveries/archive/milestones/milestone31r_business_feedback_loop/milestone31r_business_feedback_loop_package_v1.json",
+    "M32R": "deliveries/archive/milestones/milestone32r_feedback_quality_validation/milestone32r_feedback_quality_validation_package_v1.json",
+    "M33R": "deliveries/archive/milestones/milestone33r_workbook_governance_audit/milestone33r_workbook_governance_audit_package_v1.json",
+    "M34R": "deliveries/archive/milestones/milestone34r_workbook_governance_repair_admission/milestone34r_workbook_governance_repair_admission_package_v1.json",
+    "M34R_true_repair": "deliveries/archive/milestones/milestone34r_workbook_governance_true_repair/milestone34r_workbook_governance_true_repair_summary_v1.json",
+    "M35R": "deliveries/archive/milestones/milestone35r_field_governance/milestone35r_field_governance_package_v1.json",
+    "M35R_true_repair": "deliveries/archive/milestones/milestone35r_field_governance_true_repair/milestone35r_safe_profile_field_true_repair_summary_v1.json",
+    "M36R": "deliveries/archive/milestones/milestone36r_manual_field_review/milestone36r_manual_field_review_package_v1.json",
+    "M37R": "deliveries/archive/milestones/milestone37r_final_field_confirmation/milestone37r_final_field_confirmation_package_v1.json",
+    "M38R": "deliveries/archive/milestones/milestone38r_governance_closure/milestone38r_governance_closure_package_v1.json",
+    "M40R": "deliveries/archive/milestones/milestone40r_trusted_pool_restart/milestone40r_trusted_pool_restart_package_v1.json",
+    "M41R": "deliveries/archive/milestones/milestone41r_source_material_inventory/milestone41r_source_coverage_summary_v1.json",
+    "M42R": "deliveries/archive/milestones/milestone42r_persona_recalibration/milestone42r_persona_recalibration_package_v1.json",
+    "M43R": "deliveries/archive/milestones/milestone43r_new_prospect_intake_schema/milestone43r_new_prospect_intake_schema_package_v1.json",
+    "M44R": "deliveries/archive/milestones/milestone44r_new_trusted_prospect_trial/milestone44r_new_trusted_prospect_trial_package_v1.json",
+    "M45R": "deliveries/archive/milestones/milestone45r_trusted_card_quality_review/milestone45r_trusted_card_quality_review_package_v1.json",
+    "M46R": "deliveries/archive/milestones/milestone46r_trusted_pool_storage_design/milestone46r_trusted_pool_storage_design_package_v1.json",
+    "M47R": "deliveries/archive/milestones/milestone47r_trusted_pool_product/milestone47r_trusted_pool_product_package_v1.json",
+    "M48R": "deliveries/archive/milestones/milestone48r_expansion_runbook/milestone48r_expansion_runbook_package_v1.json",
+    "M16": "deliveries/archive/handoffs/milestone16_project_readiness_check_v1.json",
+    "M14.2_gate": "deliveries/archive/repairs/milestone14_2_intake_quality_gate_check_v1.json"
+  },
+  "overall_status": "PASS_M48R_EVIDENCE_FIRST_RUNBOOK_READY",
+  "recommended_next_action": "M48R 已完成 evidence-first 首批可信池与长期运行机制：下一步建议进入 M49R，按阈值扩容 30-50 家，仍先 report/product 化，不默认写回正式工作簿。",
+  "milestones": {
+    "M12": {
+      "result_count": 12,
+      "allow": 0,
+      "warn": 12,
+      "block": 0,
+      "write_back_enabled": false
+    },
+    "M13": {
+      "result_count": 12,
+      "allow": 0,
+      "warn": 12,
+      "block": 0,
+      "write_back_enabled": false
+    },
+    "M14_before_patch": {
+      "result_count": 15,
+      "allow": 0,
+      "warn": 0,
+      "block": 15,
+      "write_back_enabled": false
+    },
+    "M14_2_after_patch": {
+      "result_count": 15,
+      "allow": 0,
+      "warn": 15,
+      "block": 0,
+      "write_back_enabled": false
+    },
+    "M14_3_preflight": {
+      "candidate_count": 15,
+      "preflight_status_counts": {
+        "executable_now": 15
+      },
+      "before_decision_counts": {
+        "block": 15
+      },
+      "after_decision_counts": {
+        "allow": 15
+      }
+    },
+    "M15_2_share": {
+      "item_count": 27,
+      "share_status_counts": {
+        "high_value_pending": 12,
+        "ready_for_human_review": 15
+      },
+      "share_ready_or_pending": 27,
+      "not_share_ready": 0,
+      "ready_for_human_review": 15,
+      "high_value_pending": 12,
+      "needs_intake_patch": 0
+    },
+    "M17": {
+      "allow_candidate_count": 15,
+      "decision_counts": {
+        "allow": 15
+      },
+      "gate_ok": true,
+      "writeback_executed": true,
+      "promoted": 15,
+      "skipped": 0,
+      "recommended_action": "M17 已完成真实写回；下一步进入写回后复核和 M18 运营化。"
+    },
+    "M18": {
+      "account_count": 15,
+      "share_status_counts": {
+        "l3_share_ready": 15
+      },
+      "share_ready_count": 15,
+      "needs_fix_count": 0,
+      "workbook_integrity_ok": true,
+      "m17_promoted": 15,
+      "m17_skipped": 0
+    },
+    "M19": {
+      "feedback_item_count": 15,
+      "next_candidate_count": 134,
+      "candidate_status_counts": {
+        "needs_intake_patch": 106,
+        "not_ready": 28
+      },
+      "candidate_decision_counts": {
+        "block": 134
+      }
+    },
+    "M20": {
+      "result_count": 30,
+      "allow": 0,
+      "warn": 30,
+      "block": 0,
+      "write_back_enabled": false
+    },
+    "M20_gate_ok": true,
+    "M23A": {
+      "account_count": 15,
+      "share_ready_count": 15,
+      "business_reviewed_count": 0,
+      "accepted_by_business_count": 0,
+      "rejected_by_business_count": 0,
+      "next_action_defined_count": 0,
+      "positive_fit_rate": null,
+      "feedback_status_counts": {
+        "pending_business_feedback": 15
+      }
+    },
+    "M21": {
+      "account_count": 30,
+      "m20_decision_counts": {
+        "warn": 30
+      },
+      "default_confirmation_status_counts": {
+        "keep_pending_need_business_context": 30
+      },
+      "confirm_active_high_value_count": 0,
+      "confirm_active_high_value_rate": 0.0,
+      "business_reviewed_count": 0,
+      "next_action_defined_count": 0
+    },
+    "M21R": {
+      "account_count": 30,
+      "trusted_status_counts": {
+        "trusted_match_ready": 30
+      },
+      "trusted_match_ready_count": 30,
+      "profile_match_pending_count": 0,
+      "evidence_pending_count": 0,
+      "persona_adjust_needed_count": 0,
+      "not_icp_count": 0,
+      "official_evidence_coverage_rate": 1.0,
+      "core_info_complete_rate": 1.0,
+      "admission_reason_clear_rate": 1.0
+    },
+    "M22R": {
+      "trusted_input_count": 30,
+      "admission_candidate_count": 30,
+      "fact_patch_count": 30,
+      "queue_patch_count": 30,
+      "skipped_count": 0,
+      "report_only_allow": 30,
+      "report_only_warn": 0,
+      "report_only_block": 0,
+      "report_only_result_count": 30,
+      "gate_ok": true,
+      "track_counts": {
+        "先进制造": 27,
+        "跨境电商": 3
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 7,
+        "mfg_rnd_sales_complex": 20,
+        "cbec_multi_platform_brand": 3
+      }
+    },
+    "M22R_gate_ok": true,
+    "M23R": {
+      "card_count": 30,
+      "strong_evidence_card_count": 30,
+      "missing_strong_evidence_count": 0,
+      "missing_strong_evidence_account_ids": [],
+      "trusted_status_counts": {
+        "trusted_match_ready": 30
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 7,
+        "mfg_rnd_sales_complex": 20,
+        "cbec_multi_platform_brand": 3
+      },
+      "track_counts": {
+        "先进制造": 27,
+        "跨境电商": 3
+      },
+      "sales_action_terms_detected": false,
+      "formal_knowledge_write_enabled": false,
+      "gate_ok": true
+    },
+    "M24R": {
+      "candidate_observation_count": 30,
+      "source_gap_count": 3,
+      "rule_calibration_proposal_count": 3,
+      "learning_queue_task_count": 3,
+      "persona_counts": {
+        "mfg_multi_factory_group": 7,
+        "mfg_rnd_sales_complex": 20,
+        "cbec_multi_platform_brand": 3
+      },
+      "formal_knowledge_write_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M25R": {
+      "candidate_count": 50,
+      "target_size": 50,
+      "preflight_status_counts": {
+        "needs_patch": 50
+      },
+      "track_counts": {
+        "先进制造": 1,
+        "跨境电商": 25,
+        "零售消费": 24
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 1,
+        "cbec_brand_outbound": 2,
+        "cbec_supply_chain_complex": 22,
+        "cbec_multi_platform_brand": 1,
+        "retail_multi_store_chain": 1,
+        "retail_chain_fnb": 2,
+        "retail_multi_store": 6,
+        "retail_high_sku_brand": 15
+      },
+      "source_governance_ok": true,
+      "report_only_status": "not_run_pre_patch_required",
+      "report_only_run_summary_file": "",
+      "gate_check_file": "",
+      "true_writeback_executed": false
+    },
+    "M25R_patch": {
+      "account_count": 50,
+      "skipped_count": 81,
+      "official_source_ready_count": 50,
+      "evidence_row_count": 100,
+      "source_type_counts": {
+        "cninfo": 49,
+        "structured_intake_patch": 50,
+        "official_website": 1
+      },
+      "report_only_allow": 0,
+      "report_only_warn": 50,
+      "report_only_block": 0,
+      "report_only_result_count": 50,
+      "gate_ok": true,
+      "trusted_match_ready_count": 50,
+      "trusted_review_count": 50
+    },
+    "M25R_writeback": {
+      "mode": "write_back",
+      "status": "success",
+      "enrich_writeback_enabled": true,
+      "enrich_profile_updates": 50,
+      "enrich_main_updates": 50,
+      "enrich_main_shared_updates": 50,
+      "enrich_queue_items_created": 48,
+      "enrich_evidence_items_created": 50,
+      "promote_writeback_enabled": true,
+      "promoted": 0,
+      "skipped": 50,
+      "post_workbook_integrity_ok": true,
+      "lock_acquired": true
+    },
+    "M25R_gate_ok": true,
+    "M25R_review": {
+      "account_count": 50,
+      "trusted_status_counts": {
+        "trusted_match_ready": 50
+      },
+      "trusted_match_ready_count": 50,
+      "profile_match_pending_count": 0,
+      "evidence_pending_count": 0,
+      "persona_adjust_needed_count": 0,
+      "not_icp_count": 0,
+      "official_evidence_coverage_rate": 1.0,
+      "core_info_complete_rate": 1.0,
+      "admission_reason_clear_rate": 1.0
+    },
+    "M26R": {
+      "card_count": 50,
+      "strong_evidence_card_count": 50,
+      "missing_strong_evidence_count": 0,
+      "missing_strong_evidence_account_ids": [],
+      "consumer_status_counts": {
+        "needs_persona_confirmation": 50
+      },
+      "trusted_status_counts": {
+        "trusted_match_ready": 50
+      },
+      "persona_counts": {
+        "mfg_multi_factory_group": 1,
+        "cbec_multi_platform_brand": 25,
+        "retail_multi_store": 8,
+        "retail_high_sku_brand": 16
+      },
+      "track_counts": {
+        "先进制造": 1,
+        "跨境电商": 25,
+        "零售消费": 24
+      },
+      "warning_code_counts": {
+        "persona_boundary_unstable": 50
+      },
+      "promote_mode": "write_back",
+      "enrich_writeback_executed": true,
+      "promote_promoted": 0,
+      "promote_skipped": 50,
+      "sales_action_terms_detected": false,
+      "forbidden_knowledge_write_keys_detected": false,
+      "formal_knowledge_write_enabled": false
+    },
+    "M27R": {
+      "account_count": 50,
+      "system_recommendation_counts": {
+        "confirm_active_candidate": 50
+      },
+      "confirm_active_candidate_count": 50,
+      "keep_pending_count": 0,
+      "persona_adjust_count": 0,
+      "hold_count": 0,
+      "manual_confirmation_required_count": 50,
+      "formal_knowledge_write_enabled": false,
+      "true_writeback_enabled": false
+    },
+    "M28R": {
+      "confirm_active_input_count": 50,
+      "admission_candidate_count": 50,
+      "fact_patch_count": 50,
+      "queue_patch_count": 50,
+      "skipped_count": 0,
+      "persona_counts": {
+        "mfg_multi_factory_group": 1,
+        "cbec_multi_platform_brand": 25,
+        "retail_multi_store": 8,
+        "retail_high_sku_brand": 16
+      },
+      "track_counts": {
+        "先进制造": 1,
+        "跨境电商": 25,
+        "零售消费": 24
+      },
+      "report_only_allow": 50,
+      "report_only_warn": 0,
+      "report_only_block": 0,
+      "report_only_result_count": 50,
+      "gate_ok": true,
+      "true_writeback_enabled": false,
+      "formal_knowledge_write_enabled": false
+    },
+    "M28R_writeback": {
+      "mode": "write_back",
+      "status": "success",
+      "enrich_writeback_enabled": true,
+      "enrich_profile_updates": 50,
+      "enrich_main_updates": 50,
+      "enrich_main_shared_updates": 50,
+      "enrich_queue_items_created": 0,
+      "enrich_evidence_items_created": 0,
+      "promote_writeback_enabled": true,
+      "promoted": 50,
+      "skipped": 0,
+      "post_workbook_integrity_ok": true,
+      "lock_acquired": true
+    },
+    "M28R_gate_ok": true,
+    "M30R": {
+      "account_count": 50,
+      "l3_share_ready_count": 50,
+      "needs_fix_count": 0,
+      "sample_count": 15,
+      "persona_counts": {
+        "retail_multi_store": 8,
+        "retail_high_sku_brand": 16,
+        "cbec_multi_platform_brand": 25,
+        "mfg_multi_factory_group": 1
+      },
+      "track_counts": {
+        "零售消费": 24,
+        "跨境电商": 25,
+        "先进制造": 1
+      },
+      "sample_persona_counts": {
+        "cbec_multi_platform_brand": 5,
+        "retail_high_sku_brand": 5,
+        "retail_multi_store": 4,
+        "mfg_multi_factory_group": 1
+      },
+      "workbook_integrity_ok": true,
+      "m28r_promoted": 50,
+      "m28r_skipped": 0,
+      "true_writeback_enabled": false,
+      "formal_knowledge_write_enabled": false
+    },
+    "M31R": {
+      "sample_count": 15,
+      "business_reviewed_count": 0,
+      "pending_business_feedback_count": 15,
+      "candidate_observation_count": 15,
+      "source_gap_count": 4,
+      "rule_calibration_proposal_count": 4,
+      "persona_counts": {
+        "cbec_multi_platform_brand": 5,
+        "retail_high_sku_brand": 5,
+        "retail_multi_store": 4,
+        "mfg_multi_factory_group": 1
+      },
+      "feedback_status_counts": {
+        "pending_business_feedback": 15
+      },
+      "no_write_proof_ok": true,
+      "formal_knowledge_write_enabled": false,
+      "true_writeback_enabled": false
+    },
+    "M32R": {
+      "sample_count": 15,
+      "business_reviewed_count": 0,
+      "pending_feedback_count": 15,
+      "accepted_count": 0,
+      "rejected_count": 0,
+      "unclear_count": 0,
+      "invalid_feedback_count": 0,
+      "validation_error_count": 0,
+      "outcome_counts": {
+        "pending": 15
+      },
+      "persona_acceptance": {
+        "cbec_multi_platform_brand": {
+          "sample_count": 5,
+          "reviewed_count": 0,
+          "accepted_count": 0,
+          "acceptance_rate": null,
+          "outcome_counts": {
+            "pending": 5
+          }
+        },
+        "mfg_multi_factory_group": {
+          "sample_count": 1,
+          "reviewed_count": 0,
+          "accepted_count": 0,
+          "acceptance_rate": null,
+          "outcome_counts": {
+            "pending": 1
+          }
+        },
+        "retail_high_sku_brand": {
+          "sample_count": 5,
+          "reviewed_count": 0,
+          "accepted_count": 0,
+          "acceptance_rate": null,
+          "outcome_counts": {
+            "pending": 5
+          }
+        },
+        "retail_multi_store": {
+          "sample_count": 4,
+          "reviewed_count": 0,
+          "accepted_count": 0,
+          "acceptance_rate": null,
+          "outcome_counts": {
+            "pending": 4
+          }
+        }
+      },
+      "recommended_next_action_counts": {},
+      "disqualify_reason_counts": {},
+      "candidate_observation_count": 15,
+      "source_gap_count": 4,
+      "rule_calibration_proposal_count": 4,
+      "no_write_proof_ok": true,
+      "formal_knowledge_write_enabled": false,
+      "true_writeback_enabled": false
+    },
+    "M33R": {
+      "main_row_count": 568,
+      "main_unique_account_ids": 568,
+      "profile_row_count": 568,
+      "profile_unique_account_ids": 568,
+      "shared_row_count": 568,
+      "shared_unique_company_names": 568,
+      "main_level_counts": {
+        "L2": 304,
+        "L3": 177,
+        "L1": 8,
+        "L5": 78,
+        "L4": 1
+      },
+      "profile_level_counts": {
+        "L1": 8,
+        "L2": 304,
+        "L3": 177,
+        "L4": 1,
+        "L5": 78
+      },
+      "shared_level_counts": {
+        "L2": 304,
+        "L3": 177,
+        "L1": 8,
+        "L5": 78,
+        "L4": 1
+      },
+      "main_duplicate_account_id_count": 0,
+      "profile_duplicate_account_id_count": 0,
+      "shared_duplicate_company_name_count": 0,
+      "main_not_in_profile_count": 0,
+      "profile_not_in_main_count": 0,
+      "main_not_in_shared_count": 0,
+      "shared_not_in_main_count": 0,
+      "profile_mismatch_account_count": 5,
+      "shared_mismatch_account_count": 68,
+      "missing_profile_queue_count": 0,
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "destructive_action_enabled": false
+    },
+    "M34R": {
+      "source_m33_status": {
+        "main_row_count": 575,
+        "main_unique_account_ids": 568,
+        "profile_row_count": 490,
+        "profile_unique_account_ids": 490,
+        "shared_row_count": 355,
+        "shared_unique_company_names": 355,
+        "main_level_counts": {
+          "L2": 304,
+          "L3": 177,
+          "L1": 8,
+          "L5": 85,
+          "L4": 1
+        },
+        "profile_level_counts": {
+          "L1": 8,
+          "L2": 304,
+          "L3": 177,
+          "L4": 1
+        },
+        "shared_level_counts": {
+          "L1": 8,
+          "L2": 34,
+          "L3": 103,
+          "L4": 6,
+          "L5": 204
+        },
+        "main_duplicate_account_id_count": 7,
+        "profile_duplicate_account_id_count": 0,
+        "shared_duplicate_company_name_count": 0,
+        "main_not_in_profile_count": 78,
+        "profile_not_in_main_count": 0,
+        "main_not_in_shared_count": 222,
+        "shared_not_in_main_count": 2,
+        "profile_mismatch_account_count": 72,
+        "shared_mismatch_account_count": 225,
+        "missing_profile_queue_count": 78,
+        "workbook_integrity_ok": true,
+        "true_writeback_enabled": false,
+        "destructive_action_enabled": false
+      },
+      "duplicate_group_count": 7,
+      "duplicate_rows_to_remove_count": 7,
+      "deduped_main_row_count": 568,
+      "missing_profile_patch_count": 78,
+      "shared_projection_row_count": 568,
+      "expected_level_counts_after_dedupe": {
+        "L2": 304,
+        "L3": 177,
+        "L1": 8,
+        "L5": 78,
+        "L4": 1
+      },
+      "expected_high_quality_count": 489,
+      "expected_extended_count": 79,
+      "shared_preview_xlsx": "deliveries/archive/milestones/milestone34r_workbook_governance_repair_admission/milestone34r_shared_view_rebuild_preview_v1.xlsx",
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "destructive_action_enabled": false,
+      "shared_overwrite_enabled": false
+    },
+    "M34R_true_repair": {
+      "duplicate_rows_deleted": 7,
+      "profile_rows_appended": 78,
+      "shared_rebuilt_row_count": 568,
+      "post_main_row_count": 568,
+      "post_main_unique_account_ids": 568,
+      "post_main_duplicate_group_count": 0,
+      "post_profile_row_count": 568,
+      "post_profile_unique_account_ids": 568,
+      "post_profile_duplicate_group_count": 0,
+      "post_main_not_in_profile_count": 0,
+      "post_profile_not_in_main_count": 0,
+      "post_shared_row_count": 568,
+      "post_shared_unique_company_names": 568,
+      "post_workbook_integrity_ok": true,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 3e-06,
+      "true_repair_executed": true,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M35R": {
+      "source_profile_mismatch_account_count": 5,
+      "source_profile_diff_count": 15,
+      "safe_profile_patch_account_count": 0,
+      "safe_profile_patch_field_count": 0,
+      "profile_manual_review_item_count": 15,
+      "source_shared_mismatch_account_count": 68,
+      "source_shared_diff_count": 131,
+      "shared_expected_generated_diff_count": 131,
+      "shared_safe_regenerate_diff_count": 0,
+      "shared_manual_review_item_count": 0,
+      "profile_patch_field_distribution": {},
+      "profile_manual_review_field_distribution": {
+        "account_canonical_name": 2,
+        "信息扎实度": 2,
+        "admission_reason_summary": 5,
+        "公司产品与服务概述": 3,
+        "商业模式概述": 3
+      },
+      "shared_expected_field_distribution": {
+        "收入规模区间": 63,
+        "营收增长概述": 68
+      },
+      "shared_manual_review_field_distribution": {},
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M35R_true_repair": {
+      "updated_account_count": 64,
+      "updated_field_count": 320,
+      "field_distribution": {
+        "信息扎实度": 64,
+        "ICP匹配概率": 64,
+        "admission_reason_summary": 64,
+        "公司产品与服务概述": 64,
+        "商业模式概述": 64
+      },
+      "samples": [
+        {
+          "account_id": "acc_aidi",
+          "account_name": "烟台艾迪精密机械股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_aimer",
+          "account_name": "爱慕股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_anji",
+          "account_name": "安记食品股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_anjingfood",
+          "account_name": "安井食品集团股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_aofei",
+          "account_name": "奥飞娱乐股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_arrowhome",
+          "account_name": "箭牌家居集团股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_aukey",
+          "account_name": "深圳市傲基创新科技股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_babi",
+          "account_name": "巴比食品集团有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_bbg",
+          "account_name": "步步高商业连锁股份有限公司",
+          "updated_field_count": 5
+        },
+        {
+          "account_id": "acc_bear",
+          "account_name": "广东小熊电器股份有限公司",
+          "updated_field_count": 5
+        }
+      ],
+      "post_workbook_integrity_ok": true,
+      "workbook_lock_acquired": true,
+      "workbook_lock_wait_seconds": 4e-06,
+      "true_field_repair_executed": true,
+      "shared_reverse_overwrite_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M36R": {
+      "manual_review_account_count": 5,
+      "manual_review_item_count": 15,
+      "candidate_patch_account_count": 3,
+      "candidate_patch_field_count": 10,
+      "manual_review_field_distribution": {
+        "account_canonical_name": 2,
+        "信息扎实度": 2,
+        "admission_reason_summary": 5,
+        "公司产品与服务概述": 3,
+        "商业模式概述": 3
+      },
+      "shared_placeholder_account_count": 68,
+      "shared_placeholder_diff_count": 131,
+      "shared_placeholder_field_distribution": {
+        "收入规模区间": 63,
+        "营收增长概述": 68
+      },
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M37R": {
+      "confirmation_account_count": 5,
+      "confirmation_item_count": 15,
+      "candidate_patch_account_count_from_m36": 3,
+      "suggested_sync_item_count": 8,
+      "suggested_alias_item_count": 2,
+      "suggested_hold_item_count": 5,
+      "shared_placeholder_policy_status": "active_for_audit_interpretation",
+      "shared_placeholder_diff_count": 131,
+      "confirmation_csv": "deliveries/archive/milestones/milestone37r_final_field_confirmation/milestone37r_final_field_confirmation_template_v1.csv",
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M38R": {
+      "row_level_governance_status": "closed",
+      "main_row_count": 568,
+      "profile_row_count": 568,
+      "shared_row_count": 568,
+      "residual_profile_variance_account_count": 5,
+      "residual_profile_variance_item_count": 15,
+      "non_blocking_variance_count": 15,
+      "governance_blocker_count": 0,
+      "closure_type_distribution": {
+        "accepted_alias_variance": 2,
+        "accepted_profile_description_variance": 8,
+        "pending_evidence_non_blocking": 5
+      },
+      "shared_placeholder_diff_count": 131,
+      "shared_placeholder_status": "accepted_generated_view_placeholder",
+      "project_can_continue_to_core_pipeline": true,
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M40R": {
+      "legacy_isolation_status": "active",
+      "new_pool_entry_mode": "evidence_first",
+      "shared_view_in_core_pipeline": false,
+      "legacy_profile_in_trusted_decision": false,
+      "legacy_main_in_trusted_decision": false,
+      "legacy_assets_deleted": false,
+      "new_schema_required_field_count": 11,
+      "minimum_entry_gate_count": 5,
+      "workbook_integrity_ok": true,
+      "true_writeback_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false
+    },
+    "M41R": {
+      "source_root_count": 3,
+      "source_roots": {
+        "dingtalk_2026_03_28": {
+          "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28",
+          "exists": true,
+          "file_count": 133
+        },
+        "geo_l1_cases": {
+          "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases",
+          "exists": true,
+          "file_count": 57
+        },
+        "l1_customer_cases_20260313": {
+          "path": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313",
+          "exists": true,
+          "file_count": 554
+        }
+      },
+      "total_material_count": 744,
+      "learnable_queue_count": 166,
+      "excluded_material_count": 32,
+      "already_asset_count": 55,
+      "registry_available": true,
+      "registry_counts": {
+        "raw_material_inventory": 189,
+        "knowledge_assets": 95,
+        "learning_queue": 60
+      },
+      "registry_matched_count": 300,
+      "counts_by_source_root": {
+        "dingtalk_2026_03_28": 133,
+        "geo_l1_cases": 57,
+        "l1_customer_cases_20260313": 554
+      },
+      "counts_by_file_type": {
+        "md": 120,
+        "pdf": 75,
+        "pptx": 1,
+        "docx": 57,
+        "jpeg": 61,
+        "png": 352,
+        "gif": 43,
+        "webp": 35
+      },
+      "counts_by_source_folder_status": {
+        "已入学习队列": 10,
+        "已转正式资产": 55,
+        "待评估": 93,
+        "明确不学": 32,
+        "legacy_case_library": 63,
+        "supporting_attachment": 491
+      },
+      "counts_by_learnability_status": {
+        "learnable_now": 10,
+        "already_asset": 55,
+        "needs_triage": 156,
+        "excluded": 32,
+        "supporting_attachment": 491
+      },
+      "top_persona_guesses": {
+        "unknown": 367,
+        "retail_high_sku_brand": 93,
+        "retail_multi_store": 85,
+        "finance_data_democratization": 48,
+        "mfg_multi_factory_group": 44,
+        "mfg_rnd_sales_complex": 43,
+        "fnb_chain_standardized": 24,
+        "internet_platform_operation": 23,
+        "cbec_multi_platform_brand": 9,
+        "fnb_chain_beverage_coffee": 7,
+        "cbec_platform_operator": 1
+      },
+      "no_write_proof": {
+        "old_workbook_write_enabled": false,
+        "knowledge_asset_write_enabled": false,
+        "persona_registry_write_enabled": false,
+        "prospect_generation_enabled": false
+      },
+      "next_milestone": {
+        "milestone": "M42R",
+        "name": "ICP/画像体系重校准",
+        "input": "M41R learnable material queue + existing persona registry"
+      }
+    },
+    "M42R": {
+      "persona_count": 15,
+      "source_supported_count": 7,
+      "needs_source_validation_count": 1,
+      "source_gap_count": 7,
+      "boundary_question_count": 11,
+      "source_gap_queue_count": 8,
+      "registry_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "prospect_generation_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M43R": {
+      "intake_required_field_count": 9,
+      "evidence_required_field_count": 7,
+      "card_required_field_count": 8,
+      "trusted_status_values": [
+        "trusted_match_ready",
+        "evidence_pending",
+        "persona_pending_review",
+        "not_icp"
+      ],
+      "empty_sample_validation_error_count": 0,
+      "guard_sample_validation_error_count": 3,
+      "guard_detected_missing_evidence": true,
+      "guard_detected_legacy_field": true,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "prospect_generation_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M44R": {
+      "candidate_count": 20,
+      "trusted_match_ready_count": 20,
+      "evidence_pending_count": 0,
+      "persona_pending_review_count": 0,
+      "not_icp_count": 0,
+      "strong_evidence_candidate_count": 20,
+      "official_or_strong_evidence_count": 20,
+      "validation_error_count": 0,
+      "by_persona": {
+        "retail_high_sku_brand": 8,
+        "fnb_chain_beverage_coffee": 3,
+        "fnb_chain_standardized": 2,
+        "retail_multi_store": 3,
+        "cbec_multi_platform_brand": 3,
+        "cbec_platform_operator": 1
+      },
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "legacy_field_inherited_count": 0,
+      "llm_decision_used_count": 0,
+      "no_write_proof_ok": true
+    },
+    "M45R": {
+      "sample_count": 15,
+      "quality_pass_count": 15,
+      "quality_needs_rework_count": 0,
+      "average_quality_score": 100.0,
+      "human_feedback_status": "pending",
+      "accepted_count": 0,
+      "rejected_count": 0,
+      "field_gap_count": 0,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M46R": {
+      "storage_design_ready": true,
+      "legacy_excel_primary_store": false,
+      "new_formal_workbook_requires_confirmation": true,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M47R": {
+      "trusted_pool_count": 20,
+      "share_view_count": 20,
+      "source_trace_count": 20,
+      "trusted_match_ready_count": 20,
+      "persona_count": 6,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M48R": {
+      "readiness_check_pass": true,
+      "handoff_ready": true,
+      "quality_gate_pass": true,
+      "next_batch_size": "30-50",
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "no_write_proof_ok": true
+    },
+    "M16_readiness_ok": true,
+    "M14_2_gate_ok": true
+  },
+  "writeback_boundaries": [
+    "M25R 已在用户确认后执行真实 write_back：enrich 写入补证与核心信息；promote 未上移，skipped=50。",
+    "M28R 已在用户确认后执行真实 promote write_back：promoted=50，skipped=0。",
+    "本轮未批量将 pending_review 转 active。",
+    "M23A/M21 只作为可读性参考；主写回准入应以 M21R 的 trusted_match_ready 为准。",
+    "M22R 已生成 active fact patch 仅用于 report-only/gate 验证；不等于已写回。",
+    "潜客批次产物只能形成 candidate_observation/source_gap/rule_calibration_proposal，不能直接写入正式知识资产或画像正例。",
+    "M34R 仅生成三表治理安全修复准入包和共享版预览，不删除主表重复行、不补写档案库、不覆盖共享版。",
+    "M34R true repair 已在用户确认后执行：主表去重、档案库补 stub、共享版重建；未写入知识资产注册表或画像注册表。",
+    "M35R 仅生成字段级差异治理准入包；profile 字段真实补齐仍需用户单独确认，共享版差异不得反向覆盖主表。",
+    "M35R true repair 已在用户确认后执行：仅补齐 profile 安全空字段，未处理人工复核项，未让共享版反向覆盖主表。",
+    "M36R 仅生成人工复核队列和共享版占位口径说明；不自动处理仍需人工确认的 profile 差异。",
+    "M37R 仅生成最终确认表；human_decision 未填写前，不生成最终写回 patch。",
+    "M38R 已将剩余 5 家/15 字段登记为非阻塞差异；不再要求用户逐字段确认，主线可继续。",
+    "M40R 已将旧主表/档案/共享版降级为 legacy/reference/export；新可信池必须走 evidence-first。",
+    "M41R 只盘点原素材和学习队列，不生成潜客、不写知识资产、不改画像 registry。",
+    "M42R 只生成画像证据映射和刷新 proposal，不覆盖正式画像 registry。",
+    "M43R 只生成新可信潜客 intake/schema/validator，不继承旧档案字段。",
+    "M44R 只生成新可信潜客候选、证据包和摘要卡；不写旧主表、不写知识资产。",
+    "M45R 只做卡片质量抽样和反馈模板；无人工反馈时不生成 accepted/rejected。",
+    "M46R-M47R 采用独立 trusted_prospect_pool_v1 产物，不复用旧 Excel 作为主存储。",
+    "M48R 只固化扩容阈值和 runbook，不触发真实写回。",
+    "任何真实工作簿 write_back 仍需用户单独确认。"
+  ],
+  "next_commands": [
+    "python3 scripts/build_m48r_expansion_runbook.py",
+    "python3 scripts/build_m47r_trusted_pool_product.py",
+    "python3 scripts/build_m46r_trusted_pool_storage_design.py",
+    "python3 scripts/build_m45r_trusted_card_quality_review.py",
+    "python3 scripts/build_m44r_new_trusted_prospect_trial.py",
+    "python3 scripts/build_m43r_new_prospect_intake_schema.py",
+    "python3 scripts/build_m42r_persona_recalibration_package.py",
+    "python3 scripts/build_m41r_source_material_inventory.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/build_m40r_trusted_pool_restart_package.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/build_m38r_governance_closure_package.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/build_m37r_final_field_confirmation_package.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/build_m36r_manual_field_review_package.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/build_m35r_field_governance_package.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/build_m34r_workbook_governance_repair_admission.py",
+    "python3 scripts/build_trusted_match_review_package.py",
+    "python3 scripts/build_trusted_writeback_admission_package.py",
+    "python3 scripts/run_execution_batch.py --config-file configs/execution_batches/milestone22r_trusted_writeback_admission_registry_v1.json --report-only",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/pre_writeback_gate_check.py --candidate-file deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_candidates_v1.json --baseline-file deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_report_baseline_v1.json --run-summary-file deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_run_summary_v1.json --promote-file deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_promote_v1.json --output-json deliveries/archive/repairs/milestone22r_trusted_writeback_admission_gate_check_v1.json --output-md 'docs/03-执行与校验/Milestone 22R-可信潜客写回前闸门检查-v1.md'",
+    "python3 scripts/build_trusted_prospect_summary_package.py",
+    "python3 scripts/build_knowledge_source_governance_package.py",
+    "python3 scripts/build_trusted_expansion_preflight_package.py",
+    "python3 scripts/build_trusted_expansion_intake_patch.py",
+    "STATIC_POOL_ROOT='/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池' python3 scripts/run_execution_batch.py --config-file configs/execution_batches/milestone25r_trusted_expansion_registry_v1.json --report-only",
+    "python3 scripts/build_trusted_expansion_review_package.py",
+    "python3 scripts/run_project_readiness_check.py"
+  ]
+}

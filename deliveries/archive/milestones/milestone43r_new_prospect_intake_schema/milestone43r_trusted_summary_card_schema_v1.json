@@ -1,0 +1,26 @@
+{
+  "schema_id": "milestone43r_trusted_summary_card_schema_v1",
+  "record_type": "trusted_prospect_summary_card",
+  "required_fields": [
+    "company_name",
+    "matched_persona",
+    "match_reason",
+    "core_product_service_summary",
+    "business_model_summary",
+    "key_evidence",
+    "trusted_status",
+    "risk_or_gap"
+  ],
+  "consumer_questions_answered": [
+    "这家公司为什么匹配 ICP/画像？",
+    "核心产品/服务是什么？",
+    "业务模式或经营结构是什么？",
+    "证据来自哪里，够不够强？",
+    "当前风险或待补点是什么？"
+  ],
+  "not_allowed": [
+    "销售行动口径作为主指标",
+    "潜客观察写入正式知识资产",
+    "旧档案字段自动继承"
+  ]
+}

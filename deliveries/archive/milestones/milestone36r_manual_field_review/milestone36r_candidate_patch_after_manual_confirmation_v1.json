@@ -1,0 +1,40 @@
+{
+  "batch_id": "milestone36r_candidate_patch_after_manual_confirmation_v1",
+  "mode": "requires_human_confirmation_no_write",
+  "accounts": [
+    {
+      "account_id": "acc_botanee",
+      "account_name": "云南贝泰妮生物科技集团股份有限公司",
+      "mode": "requires_human_confirmation_no_write",
+      "proposed_updates": {
+        "account_canonical_name": "云南贝泰妮生物科技集团股份有限公司",
+        "信息扎实度": "中高",
+        "admission_reason_summary": "美妆个护和品牌消费品属性成立，可作为高 SKU 品牌消费品次级样本。",
+        "公司产品与服务概述": "品牌消费品经营，SKU较多，渠道与供应链协同复杂。",
+        "商业模式概述": "品牌消费品全渠道经营，依赖商品、供应链和渠道协同。"
+      },
+      "proposed_alias_note": "原档案名称 `贝泰妮集团股份有限公司` 可作为简称/别名候选，需人工确认是否保留。"
+    },
+    {
+      "account_id": "acc_dsbj",
+      "account_name": "苏州东山精密制造股份有限公司",
+      "mode": "requires_human_confirmation_no_write",
+      "proposed_updates": {
+        "account_canonical_name": "苏州东山精密制造股份有限公司",
+        "公司产品与服务概述": "多工厂、多事业部的集团型制造业务。"
+      },
+      "proposed_alias_note": "原档案名称 `东山精密制造股份有限公司` 可作为简称/别名候选，需人工确认是否保留。"
+    },
+    {
+      "account_id": "acc_topstar",
+      "account_name": "广东拓斯达科技股份有限公司",
+      "mode": "requires_human_confirmation_no_write",
+      "proposed_updates": {
+        "admission_reason_summary": "拓斯达科技股份有限公司具备制造组织、产品交付和经营协同特征，可用于验证 `mfg_multi_factory_group` 下的研产销协同和多基地/项目经营复杂度。",
+        "公司产品与服务概述": "拓斯达围绕工业机器人、注塑机辅机、数控机床和自动化应用系统开展研发、制造与销售。",
+        "商业模式概述": "拓斯达科技股份有限公司以技术研发、制造交付、供应链协同和客户项目服务为核心组织经营。"
+      },
+      "proposed_alias_note": ""
+    }
+  ]
+}

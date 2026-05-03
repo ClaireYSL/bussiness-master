@@ -1,0 +1,16 @@
+{
+  "batch_id": "milestone17_writeback_admission_promote_v1",
+  "goal": "Milestone 17：写回候选准入试点 promote 写回复核",
+  "account_ids": [],
+  "from_level": "L5",
+  "target_level": "L3",
+  "auto_open_promotion_review_for_selected": true,
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": false,
+  "enrich_result_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_enrich_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone17_writeback_admission_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone17_writeback_admission_queue_v1.json",
+  "output_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone17_writeback_admission/milestone17_writeback_admission_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 17-写回候选准入试点-promote复盘-v1.md"
+}

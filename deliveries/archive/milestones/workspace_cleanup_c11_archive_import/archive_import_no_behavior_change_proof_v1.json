@@ -1,0 +1,10 @@
+{
+  "milestone": "C11",
+  "generated_at": "2026-05-03T12:16:53.859782+00:00",
+  "status": "PASS_C11_ARCHIVE_IMPORT_NO_BEHAVIOR_CHANGE",
+  "files_deleted": false,
+  "files_moved": false,
+  "file_content_modified": false,
+  "old_enrich_promote_runner_executed": false,
+  "old_workbook_written": false
+}

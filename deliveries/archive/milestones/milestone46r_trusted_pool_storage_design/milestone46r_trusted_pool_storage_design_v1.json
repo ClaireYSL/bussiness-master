@@ -1,0 +1,21 @@
+{
+  "design_id": "milestone46r_trusted_pool_storage_design_v1",
+  "recommended_storage": "trusted_prospect_pool_v1_independent_artifact",
+  "do_not_reuse_legacy_excel_as_primary_store": true,
+  "storage_paths": {
+    "json_canonical": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "share_view_json": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_share_view_v1.json",
+    "source_trace_index": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json"
+  },
+  "required_record_fields": [
+    "prospect_id",
+    "company_name",
+    "matched_persona",
+    "match_reason",
+    "core_product_service_summary",
+    "business_model_summary",
+    "key_evidence",
+    "trusted_status",
+    "risk_or_gap"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "spec_id": "milestone46r_export_view_spec_v1",
+  "views": [
+    {
+      "view_name": "trusted_prospect_share_view",
+      "purpose": "给业务/研究侧快速判断",
+      "format": [
+        "json",
+        "markdown_later"
+      ]
+    },
+    {
+      "view_name": "persona_summary_dashboard",
+      "purpose": "按画像查看数量与证据覆盖",
+      "format": [
+        "json"
+      ]
+    },
+    {
+      "view_name": "source_trace_index",
+      "purpose": "快速回溯来源",
+      "format": [
+        "json"
+      ]
+    }
+  ]
+}

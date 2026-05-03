@@ -1,0 +1,30 @@
+{
+  "milestone_id": "milestone22r_trusted_writeback_admission",
+  "batch_id": "milestone22r_trusted_writeback_admission_v1",
+  "goal": "Milestone 22R：可信潜客写回准入材料与非写回验证",
+  "candidate_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_candidates_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone22r_trusted_writeback_admission_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone22r_trusted_writeback_admission_queue_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone22r_trusted_writeback_admission_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone22r_trusted_writeback_admission_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入-promote复盘-v1.md"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_report_baseline_v1.json"
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  }
+}

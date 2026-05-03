@@ -1,0 +1,635 @@
+{
+  "batch_id": "milestone24r_candidate_observation_package_v1",
+  "items": [
+    {
+      "observation_id": "m24r_obs_acc_hangke_trusted_match_v1",
+      "account_id": "acc_hangke",
+      "company_name": "杭可科技股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_hanzhong_trusted_match_v1",
+      "account_id": "acc_hanzhong",
+      "company_name": "汉钟精机股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_haopeng_trusted_match_v1",
+      "account_id": "acc_haopeng",
+      "company_name": "深圳市豪鹏科技股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_henglihyd_trusted_match_v1",
+      "account_id": "acc_henglihyd",
+      "company_name": "江苏恒立液压股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_hetai_trusted_match_v1",
+      "account_id": "acc_hetai",
+      "company_name": "深圳和而泰智能控制股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_hymson_trusted_match_v1",
+      "account_id": "acc_hymson",
+      "company_name": "海目星激光科技集团股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_ikd_trusted_match_v1",
+      "account_id": "acc_ikd",
+      "company_name": "爱柯迪股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_invt_trusted_match_v1",
+      "account_id": "acc_invt",
+      "company_name": "深圳市英威腾电气股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_jereh_trusted_match_v1",
+      "account_id": "acc_jereh",
+      "company_name": "杰瑞石油服务集团股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_jiejia_trusted_match_v1",
+      "account_id": "acc_jiejia",
+      "company_name": "深圳市捷佳伟创新能源装备股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_jsbr_trusted_match_v1",
+      "account_id": "acc_jsbr",
+      "company_name": "江苏北人智能制造科技股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_kaili_trusted_match_v1",
+      "account_id": "acc_kaili",
+      "company_name": "深圳开立生物医疗科技股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_kedali_trusted_match_v1",
+      "account_id": "acc_kedali",
+      "company_name": "深圳市科达利实业股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_leisai_trusted_match_v1",
+      "account_id": "acc_leisai",
+      "company_name": "深圳市雷赛智能控制股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_neway_trusted_match_v1",
+      "account_id": "acc_neway",
+      "company_name": "苏州纽威阀门股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_recodeal_trusted_match_v1",
+      "account_id": "acc_recodeal",
+      "company_name": "瑞可达连接系统股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_rifa_trusted_match_v1",
+      "account_id": "acc_rifa",
+      "company_name": "浙江日发精密机械股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_multi_factory_group",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_scc_trusted_match_v1",
+      "account_id": "acc_scc",
+      "company_name": "生益电子股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_scimee_trusted_match_v1",
+      "account_id": "acc_scimee",
+      "company_name": "沈阳芯源微电子设备股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_shuanghuan_trusted_match_v1",
+      "account_id": "acc_shuanghuan",
+      "company_name": "浙江双环传动机械股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_topband_trusted_match_v1",
+      "account_id": "acc_topband",
+      "company_name": "深圳拓邦股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_wanma_trusted_match_v1",
+      "account_id": "acc_wanma",
+      "company_name": "浙江万马股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_weixingmeter_trusted_match_v1",
+      "account_id": "acc_weixingmeter",
+      "company_name": "浙江伟星智能仪表股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_wus_trusted_match_v1",
+      "account_id": "acc_wus",
+      "company_name": "沪士电子股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_yawei_trusted_match_v1",
+      "account_id": "acc_yawei",
+      "company_name": "江苏亚威机床股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_yinlun_trusted_match_v1",
+      "account_id": "acc_yinlun",
+      "company_name": "浙江银轮机械股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_yuyue_trusted_match_v1",
+      "account_id": "acc_yuyue",
+      "company_name": "江苏鱼跃医疗设备股份有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "mfg_rnd_sales_complex",
+      "track": "先进制造",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_laifen_trusted_match_v1",
+      "account_id": "acc_laifen",
+      "company_name": "深圳市徕芬电子科技有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_lanhe_trusted_match_v1",
+      "account_id": "acc_lanhe",
+      "company_name": "深圳市蓝禾技术有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    },
+    {
+      "observation_id": "m24r_obs_acc_morhome_trusted_match_v1",
+      "account_id": "acc_morhome",
+      "company_name": "慕容家居控股有限公司",
+      "observation_type": "candidate_observation",
+      "persona": "cbec_multi_platform_brand",
+      "track": "跨境电商",
+      "observation_summary": "该潜客与当前画像匹配且公司事实可追溯；该观察不能作为客户案例或画像正例。",
+      "source_package": "deliveries/archive/milestones/milestone23r_trusted_prospect_summary/milestone23r_trusted_prospect_summary_package_v1.json",
+      "formal_knowledge_source_allowed": false,
+      "allowed_downstream": [
+        "trusted_prospect_summary",
+        "source_gap",
+        "rule_calibration_proposal"
+      ],
+      "forbidden_downstream": [
+        "knowledge_assets",
+        "customer_case",
+        "persona_registry_direct_update"
+      ]
+    }
+  ]
+}

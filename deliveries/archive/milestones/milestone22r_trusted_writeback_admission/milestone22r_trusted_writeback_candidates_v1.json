@@ -1,0 +1,307 @@
+{
+  "batch_id": "milestone22r_trusted_writeback_candidates_v1",
+  "generated_at": "2026-04-27T10:25:18.029827+00:00",
+  "source_file": "deliveries/archive/milestones/milestone21r_trusted_match_review/milestone21r_trusted_match_review_package_v1.json",
+  "accounts": [
+    {
+      "account_id": "acc_hangke",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_hetai",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_hymson",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_ikd",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_invt",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_jereh",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_kaili",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_kedali",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_leisai",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_neway",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_rifa",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_multi_factory_group",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_scc",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_scimee",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_topband",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_wanma",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_wus",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_yawei",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "track": "先进制造",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_laifen",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "cbec_multi_platform_brand",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "cbec_multi_platform_brand",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    },
+    {
+      "account_id": "acc_morhome",
+      "track": "跨境电商",
+      "current_level": "L5",
+      "target_level": "L3",
+      "candidate_type": "formal_candidate",
+      "trusted_status": "trusted_match_ready",
+      "persona_tag": "cbec_multi_platform_brand",
+      "selection_reason": "M21R 已确认可信画像匹配、核心信息完整、官方来源可追溯；进入 M22R 非写回准入验证。"
+    }
+  ]
+}

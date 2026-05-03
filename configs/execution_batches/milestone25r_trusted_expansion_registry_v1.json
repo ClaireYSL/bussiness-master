@@ -1,0 +1,31 @@
+{
+  "milestone_id": "milestone25r_trusted_expansion",
+  "batch_id": "milestone25r_trusted_expansion_v1",
+  "goal": "Milestone 25R：可信扩容补证试运行",
+  "candidate_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_candidates_v1.json",
+  "fact_patch_file": "configs/execution_batches/milestone25r_trusted_expansion_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone25r_trusted_expansion_queue_v1.json",
+  "intake_patch_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_intake_patch_v1.json",
+  "enrich": {
+    "config_file": "configs/enrich_batches/milestone25r_trusted_expansion_enrich_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 25R-可信扩容补证-enrich复盘-v1.md"
+  },
+  "promote": {
+    "config_file": "configs/promote_batches/milestone25r_trusted_expansion_promote_v1.json",
+    "output_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_promote_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 25R-可信扩容补证-promote复盘-v1.md"
+  },
+  "run_output": {
+    "summary_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_run_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 25R-可信扩容补证最终复盘-v1.md",
+    "report_baseline_file": "deliveries/archive/milestones/milestone25r_trusted_expansion_intake_patch/milestone25r_trusted_expansion_report_baseline_v1.json"
+  },
+  "mode_policy": {
+    "default_phase": "report_only",
+    "require_report_baseline": true,
+    "write_back_after_report_only": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "batch_id": "milestone13_persona_boundary_promote_v1",
+  "goal": "Milestone 13：画像边界规则后 promote 非写回复核",
+  "account_ids": [
+    "acc_dreame",
+    "acc_tomtop",
+    "acc_cn_600185",
+    "acc_cn_002626",
+    "acc_cn_002511",
+    "acc_cn_002640",
+    "acc_cn_301110",
+    "acc_cn_300592",
+    "acc_cn_002281",
+    "acc_cn_000768",
+    "acc_cn_688082",
+    "acc_cn_002074"
+  ],
+  "from_level": "L3",
+  "target_level": "L2",
+  "fact_patch_file": "configs/execution_batches/milestone13_persona_boundary_facts_v1.json",
+  "queue_patch_file": "configs/execution_batches/milestone13_persona_boundary_queue_v1.json",
+  "workbook_lock_timeout_seconds": 0.0,
+  "write_back": false,
+  "output_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_promote_v1.json",
+  "summary_file": "deliveries/archive/milestones/milestone13_persona_boundary_rules/milestone13_persona_boundary_summary_v1.json",
+  "review_file": "docs/03-执行与校验/Milestone 13-画像边界规则promote复盘-v1.md",
+  "enrich_result_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_enrich_v1.json",
+  "note": "M13 promote 使用 M13 规则 fact/queue patch，并继续显式消费 enrich 结果避免旧画像口径漂移。"
+}

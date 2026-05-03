@@ -1,0 +1,8 @@
+{
+  "policy_id": "milestone46r_writeback_policy_v1",
+  "default_writeback_target": "none",
+  "legacy_excel_writeback_allowed": false,
+  "new_formal_workbook_requires_user_confirmation": true,
+  "knowledge_asset_write_allowed": false,
+  "persona_registry_write_allowed": false
+}

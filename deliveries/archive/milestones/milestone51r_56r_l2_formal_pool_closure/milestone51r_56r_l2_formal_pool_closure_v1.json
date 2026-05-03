@@ -1,0 +1,23 @@
+{
+  "batch_id": "milestone51r_56r_l2_formal_pool_closure_v1",
+  "generated_at": "2026-05-03T10:48:45.577528+00:00",
+  "summary": {
+    "m51_candidate_count": 8,
+    "m52_second_evidence_patch_count": 8,
+    "m53_l2_formal_dossier_count": 8,
+    "m54_quality_pass_count": 8,
+    "m55_expansion_seed_count": 30,
+    "m56_status": "PASS_M56R_L2_FORMAL_POOL_READY",
+    "validation_pass": true
+  },
+  "validation": {
+    "selected_count": true,
+    "l2_formal_count_at_least_5": true,
+    "all_l2_have_two_sources": true,
+    "all_quality_pass": true,
+    "link_issue_count": 0,
+    "no_write_proof_ok": true,
+    "pass": true
+  },
+  "link_issues": []
+}

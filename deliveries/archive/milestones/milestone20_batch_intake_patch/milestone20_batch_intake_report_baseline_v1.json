@@ -1,0 +1,129 @@
+{
+  "batch_id": "milestone20_batch_intake_v1",
+  "goal": "Milestone 20：批量补证自动化",
+  "phase": "report_only",
+  "generated_at": "2026-04-27T03:41:33.830066+00:00",
+  "candidate_signature": [
+    {
+      "account_id": "acc_hangke",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hanzhong",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_haopeng",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_henglihyd",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hetai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_hymson",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_ikd",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_invt",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jereh",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jiejia",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_jsbr",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_kaili",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_kedali",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_laifen",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_lanhe",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_leisai",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_morhome",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_neway",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_recodeal",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_rifa",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_scc",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_scimee",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_shuanghuan",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_topband",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_wanma",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_weixingmeter",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_wus",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yawei",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yinlun",
+      "target_level": "L3"
+    },
+    {
+      "account_id": "acc_yuyue",
+      "target_level": "L3"
+    }
+  ],
+  "report_run_summary_file": "deliveries/archive/milestones/milestone20_batch_intake_patch/milestone20_batch_intake_run_summary_v1.json"
+}

@@ -1,0 +1,1188 @@
+{
+  "batch_id": "milestone42r_persona_recalibration_package_v1",
+  "generated_at": "2026-05-03T07:56:55.793764+00:00",
+  "inputs": {
+    "m41_inventory": "deliveries/archive/milestones/milestone41r_source_material_inventory/milestone41r_source_material_inventory_v2.json",
+    "persona_dir": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像"
+  },
+  "summary": {
+    "persona_count": 15,
+    "source_supported_count": 7,
+    "needs_source_validation_count": 1,
+    "source_gap_count": 7,
+    "boundary_question_count": 11,
+    "source_gap_queue_count": 8,
+    "registry_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "prospect_generation_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "persona_evidence_map": [
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "display_name": "多平台品牌出海型",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/cbec_multi_platform_brand.md",
+      "support_status": "source_supported",
+      "evidence_count": 9,
+      "strength_counts": {
+        "queued_primary_source": 2,
+        "formal_asset_or_transformed_source": 4,
+        "weak_or_excluded": 1,
+        "triage_primary_source": 2
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf",
+          "learnability_status": "learnable_now",
+          "source_strength": "queued_primary_source",
+          "matched_keywords": [
+            "倍思"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx",
+          "learnability_status": "learnable_now",
+          "source_strength": "queued_primary_source",
+          "matched_keywords": [
+            "SmallRig",
+            "乐其",
+            "跨境"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_4757b1291658",
+          "title": "撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "跨境"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_0a1d14d43b61",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "SmallRig",
+            "乐其",
+            "跨境"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_91ba3ed4a494",
+          "title": "撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已转正式资产/docx/撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长.docx",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "跨境"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_901e7ecaa4fa",
+          "title": "观远数据出海标杆客户案例集（东南亚）",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/md/观远数据出海标杆客户案例集（东南亚）.md",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "东南亚",
+            "出海",
+            "出海标杆"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_3f735a5d8260",
+          "title": "跨境电商 - ABM物料",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/md/跨境电商 - ABM物料.md",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "跨境"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_472952eca361",
+          "title": "跨境电商出海吧🚢",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/md/跨境电商出海吧🚢.md",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "出海",
+            "跨境"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "cbec_platform_operator",
+      "display_name": "平台化运营出海",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/cbec_platform_operator.md",
+      "support_status": "needs_source_validation",
+      "evidence_count": 1,
+      "strength_counts": {
+        "formal_asset_or_transformed_source": 1
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_cb13bbc0296b",
+          "title": "「官栈」DP计划助手解决方案202303",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/「官栈」DP计划助手解决方案202303.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "DP"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "display_name": "供应链复杂的跨境经营型企业",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/cbec_supply_chain_complex.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "fnb_chain_beverage_coffee",
+      "display_name": "茶饮咖啡连锁",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/fnb_chain_beverage_coffee.md",
+      "support_status": "source_supported",
+      "evidence_count": 7,
+      "strength_counts": {
+        "formal_asset_or_transformed_source": 4,
+        "triage_primary_source": 3
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_75ef96f73fff",
+          "title": "「案例详情_BI」饮料-简爱酸奶",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-简爱酸奶.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "饮料"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_130a9a6f71a9",
+          "title": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "饮料"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_5389063d8372",
+          "title": "观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "奈雪",
+            "茶饮"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_56670d0d237d",
+          "title": "「茶饮咖啡- BI+数仓」蜜雪冰城案例方案2024",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/「茶饮咖啡- BI+数仓」蜜雪冰城案例方案2024.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "咖啡",
+            "茶饮",
+            "蜜雪"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_9e99522e2f16",
+          "title": "「茶饮咖啡- BI」COCO案例方案",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/「茶饮咖啡- BI」COCO案例方案.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "COCO",
+            "CoCo",
+            "咖啡",
+            "茶饮"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_5ca81375a797",
+          "title": "【连锁茶饮】Linlee项目_案例总结_20230218 ",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/【连锁茶饮】Linlee项目_案例总结_20230218 .pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "Linlee",
+            "茶饮",
+            "连锁"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_44fa10e79df0",
+          "title": "观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已转正式资产/docx/观远数据联合飞书为奈雪的茶打造“一店一群”解决方案，入选2025 CCFA新茶饮创新案例.docx",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "奈雪",
+            "茶饮"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "fnb_chain_standardized",
+      "display_name": "标准化连锁餐饮",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/fnb_chain_standardized.md",
+      "support_status": "source_supported",
+      "evidence_count": 13,
+      "strength_counts": {
+        "formal_asset_or_transformed_source": 6,
+        "triage_primary_source": 7
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_9ed76ba72c74",
+          "title": "「连锁餐饮- BI」德克士案例方案",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」德克士案例方案.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "德克士",
+            "连锁",
+            "餐饮"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_50e032ac0d3f",
+          "title": "【连锁餐饮-BI-详细案例】遇见小面",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【连锁餐饮-BI-详细案例】遇见小面.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "连锁",
+            "遇见小面",
+            "餐饮"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+          "title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段.docx",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "乐凯撒",
+            "餐饮"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
+          "title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "乐凯撒",
+            "餐饮"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_a0934ee91f46",
+          "title": "五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/五谷渔粉数据智能分析项目规划方案-观远数据-231106-v1.1.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "五谷渔粉"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_d2b0c1804748",
+          "title": "观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "老乡鸡"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_49f89b565058",
+          "title": "赛百味智能数据运营项目规划方案v1.1-观远数据-230822",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/赛百味智能数据运营项目规划方案v1.1-观远数据-230822.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "赛百味"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_a0b979922832",
+          "title": "「 连锁餐饮-BI」夸父炸串案例方案",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/「 连锁餐饮-BI」夸父炸串案例方案.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "夸父",
+            "连锁",
+            "餐饮"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "display_name": "多工厂离散制造集团",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mfg_multi_factory_group.md",
+      "support_status": "source_supported",
+      "evidence_count": 11,
+      "strength_counts": {
+        "queued_primary_source": 1,
+        "formal_asset_or_transformed_source": 8,
+        "triage_primary_source": 2
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_cb246ff76bbe",
+          "title": "多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/md/多工厂多产线高效管控！兆驰集团携手观远数据实现企业“效能跃升”.md",
+          "learnability_status": "learnable_now",
+          "source_strength": "queued_primary_source",
+          "matched_keywords": [
+            "产线",
+            "多工厂",
+            "工厂"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_6b727dee25d9",
+          "title": "不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "汽车",
+            "零跑"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
+          "title": "零跑汽车李盼盼：BI是一个六边形武器",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/零跑汽车李盼盼：BI是一个六边形武器.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "汽车",
+            "零跑"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_6e230a473c0a",
+          "title": "「互联网+」新能源_详细案例_晶科科技",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/「互联网+」新能源_详细案例_晶科科技.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "互联网",
+            "新能源",
+            "晶科"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_e8af0ac41f70",
+          "title": "「互联网+」智能制造_详细案例_小天才",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/「互联网+」智能制造_详细案例_小天才.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "互联网",
+            "制造"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_739422c0322e",
+          "title": "【内部案例】从“试管”到“订单”的数字化突围：十亿级CDMO企业的全链路经营分析实践",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/md/【内部案例】从“试管”到“订单”的数字化突围：十亿级CDMO企业的全链路经营分析实践.md",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "CDMO"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_482e8466043d",
+          "title": "【可外发】-BI是一个六边形武器-零跑汽车李盼盼-市场反馈版",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/【可外发】-BI是一个六边形武器-零跑汽车李盼盼-市场反馈版.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "汽车",
+            "零跑"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_3df945fd42c7",
+          "title": "不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已转正式资产/docx/不用3年只需3个月，零跑汽车建立「自助餐式」数据服务体系.docx",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "汽车",
+            "零跑"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "mfg_rnd_sales_complex",
+      "display_name": "研产销协同复杂的技术型制造企业",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mfg_rnd_sales_complex.md",
+      "support_status": "source_supported",
+      "evidence_count": 6,
+      "strength_counts": {
+        "queued_primary_source": 1,
+        "formal_asset_or_transformed_source": 3,
+        "triage_primary_source": 2
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_1ac505ada0e9",
+          "title": "LLLM采销供应链数据化解决方案",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/LLLM采销供应链数据化解决方案.pdf",
+          "learnability_status": "learnable_now",
+          "source_strength": "queued_primary_source",
+          "matched_keywords": [
+            "供应链"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
+          "title": "120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "交付",
+            "定制化",
+            "订单交付",
+            "首帆"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
+          "title": "七秒易购的数字化飞跃：以BI赋能供应链精细化管理",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/七秒易购的数字化飞跃：以BI赋能供应链精细化管理.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "供应链"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_26d56bb673dc",
+          "title": "120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已转正式资产/docx/120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？.docx",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "交付",
+            "定制化",
+            "订单交付",
+            "首帆"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_a3d391f8b005",
+          "title": "七秒易购的数字化飞跃：以BI赋能供应链精细化管理",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已转正式资产/docx/七秒易购的数字化飞跃：以BI赋能供应链精细化管理.docx",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "供应链"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_069fe77bed22",
+          "title": "海天味业新零售业财&供应链数字化解决方案_20230815",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已转正式资产/pdf/海天味业新零售业财&供应链数字化解决方案_20230815.pdf",
+          "learnability_status": "already_asset",
+          "source_strength": "formal_asset_or_transformed_source",
+          "matched_keywords": [
+            "供应链"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "display_name": "一线动作闭环诉求型",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mgmt_frontline_action_loop.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "display_name": "集团协同与经营驾驶舱诉求型",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mgmt_group_coordination.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "display_name": "总部经营穿透诉求型",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mgmt_hq_operating_visibility.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "display_name": "库存与供应链协同诉求型",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mgmt_inventory_supply_coordination.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "display_name": "利润改善诉求型",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/mgmt_profit_improvement.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "display_name": "连锁餐饮 / 茶饮 / 咖啡",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/retail_chain_fnb.md",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "strength_counts": {},
+      "representative_evidence": []
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "display_name": "高 SKU 品牌消费品",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/retail_high_sku_brand.md",
+      "support_status": "source_supported",
+      "evidence_count": 36,
+      "strength_counts": {
+        "formal_asset_or_transformed_source": 12,
+        "triage_primary_source": 24
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_geo_l1_cases_8818e883a66c",
+          "title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？.docx",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "森马"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_cb261a56a0a8",
+          "title": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "森马"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_93c9999e4a70",
+          "title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点.docx",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "服饰"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
+          "title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "服饰"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_80952c20c7cb",
+          "title": "「品牌零售- BI」气味图书馆案例总结",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「品牌零售- BI」气味图书馆案例总结.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "品牌零售"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_9215204b4d2a",
+          "title": "「案例详情_AI」家清-联合利华UL",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」家清-联合利华UL.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "联合利华"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_7a3bee760da2",
+          "title": "「案例详情_AI」美妆-LVMH",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-LVMH.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "美妆"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_4037aeb27f02",
+          "title": "「案例详情_AI」美妆-丝芙兰",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-丝芙兰.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "美妆"
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "retail_multi_store",
+      "display_name": "多门店连锁零售",
+      "persona_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/02-画像/retail_multi_store.md",
+      "support_status": "source_supported",
+      "evidence_count": 24,
+      "strength_counts": {
+        "queued_primary_source": 2,
+        "formal_asset_or_transformed_source": 7,
+        "triage_primary_source": 15
+      },
+      "representative_evidence": [
+        {
+          "material_id": "m41r_geo_l1_cases_5abe416e4f06",
+          "title": "数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/数据驱动零售新生态：7-Eleven携手观远数据打造终端经营“透视镜”.docx",
+          "learnability_status": "learnable_now",
+          "source_strength": "queued_primary_source",
+          "matched_keywords": [
+            "7-Eleven"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_d3021536e889",
+          "title": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2.pdf",
+          "learnability_status": "learnable_now",
+          "source_strength": "queued_primary_source",
+          "matched_keywords": [
+            "鲜丰"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_ff5e0fb4be5b",
+          "title": "「连锁餐饮- BI」顶誉食品案例总结",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」顶誉食品案例总结.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "连锁",
+            "餐饮"
+          ]
+        },
+        {
+          "material_id": "m41r_dingtalk_2026_03_28_694b4661ff24",
+          "title": "全家汇报方案-观远数据v1.0-230104",
+          "source_root": "dingtalk_2026_03_28",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/全家汇报方案-观远数据v1.0-230104.pdf",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "全家"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_8f902dea0a2b",
+          "title": "分货效率提高60%，丝芙兰中国“让业务用起来”的门店新品AI+BI智能分货案例",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/分货效率提高60%，丝芙兰中国“让业务用起来”的门店新品AI+BI智能分货案例.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "分货",
+            "门店"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_e6c36fa80a37",
+          "title": "博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "博士眼镜"
+          ]
+        },
+        {
+          "material_id": "m41r_l1_customer_cases_20260313_f59bd0733b0b",
+          "title": "咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策",
+          "source_root": "l1_customer_cases_20260313",
+          "source_locator": "/Users/clairelu2026/26M1-ObsidianVaultGeneral/Obsidian知识库极简版/L1客户案例20260313/咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策.md",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "咖啡",
+            "连锁"
+          ]
+        },
+        {
+          "material_id": "m41r_geo_l1_cases_fccad7efa193",
+          "title": "对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常",
+          "source_root": "geo_l1_cases",
+          "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/对话来伊份：BI月活跃用户突破2000+，“让业务用起来”成为日常.docx",
+          "learnability_status": "needs_triage",
+          "source_strength": "triage_primary_source",
+          "matched_keywords": [
+            "来伊份"
+          ]
+        }
+      ]
+    }
+  ],
+  "persona_definition_refresh_proposal": [
+    {
+      "persona_id": "cbec_multi_platform_brand",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 9,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "cbec_platform_operator",
+      "proposal_type": "do_not_change_registry_collect_more_source",
+      "current_support_status": "needs_source_validation",
+      "evidence_count": 1,
+      "rationale": "已有少量材料但不足以刷新画像定义；先补真实案例或解决方案来源。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "cbec_supply_chain_complex",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "fnb_chain_beverage_coffee",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 7,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "fnb_chain_standardized",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 13,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mfg_multi_factory_group",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 11,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mfg_rnd_sales_complex",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 6,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_frontline_action_loop",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_group_coordination",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_hq_operating_visibility",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "mgmt_profit_improvement",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "retail_chain_fnb",
+      "proposal_type": "mark_needs_source_validation",
+      "current_support_status": "source_gap",
+      "evidence_count": 0,
+      "rationale": "当前 M41R 原素材未找到足够支撑，不应继续用该画像大规模筛潜客。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "retail_high_sku_brand",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 36,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    },
+    {
+      "persona_id": "retail_multi_store",
+      "proposal_type": "keep_definition_with_evidence_binding",
+      "current_support_status": "source_supported",
+      "evidence_count": 24,
+      "rationale": "已有真实客户案例/解决方案材料支撑，建议先绑定 evidence map，再在人工评审后决定是否微调定义。",
+      "registry_write_enabled": false
+    }
+  ],
+  "persona_boundary_questions": [
+    {
+      "question_id": "m42r_boundary_retail_high_sku_brand__retail_multi_store",
+      "topic": "品牌全渠道 SKU 复杂度 vs 门店网络经营复杂度",
+      "left_persona": "retail_high_sku_brand",
+      "right_persona": "retail_multi_store",
+      "left_evidence_count": 36,
+      "right_evidence_count": 24,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_boundary_fnb_chain_beverage_coffee__fnb_chain_standardized",
+      "topic": "茶饮咖啡高频门店 vs 标准化连锁餐饮",
+      "left_persona": "fnb_chain_beverage_coffee",
+      "right_persona": "fnb_chain_standardized",
+      "left_evidence_count": 7,
+      "right_evidence_count": 13,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_boundary_cbec_multi_platform_brand__cbec_platform_operator",
+      "topic": "跨境品牌经营主体 vs 平台/代运营服务商",
+      "left_persona": "cbec_multi_platform_brand",
+      "right_persona": "cbec_platform_operator",
+      "left_evidence_count": 9,
+      "right_evidence_count": 1,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_boundary_mfg_multi_factory_group__mfg_rnd_sales_complex",
+      "topic": "多工厂运营管控 vs 研产销/订单交付复杂度",
+      "left_persona": "mfg_multi_factory_group",
+      "right_persona": "mfg_rnd_sales_complex",
+      "left_evidence_count": 11,
+      "right_evidence_count": 6,
+      "decision_needed": "当候选同时命中两边时，优先使用哪个主画像，或是否保留 secondary_persona。",
+      "status": "open_boundary_question"
+    },
+    {
+      "question_id": "m42r_source_gap_cbec_supply_chain_complex",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "cbec_supply_chain_complex",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_frontline_action_loop",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_frontline_action_loop",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_group_coordination",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_group_coordination",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_hq_operating_visibility",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_hq_operating_visibility",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_inventory_supply_coordination",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_mgmt_profit_improvement",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "mgmt_profit_improvement",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    },
+    {
+      "question_id": "m42r_source_gap_retail_chain_fnb",
+      "topic": "画像缺少真实来源支撑",
+      "persona_id": "retail_chain_fnb",
+      "decision_needed": "补真实客户案例/解决方案之前，不建议作为 M44R 新潜客主筛选画像。",
+      "status": "source_gap_question"
+    }
+  ],
+  "source_gap_queue": [
+    {
+      "gap_id": "m42r_gap_cbec_platform_operator",
+      "persona_id": "cbec_platform_operator",
+      "support_status": "needs_source_validation",
+      "evidence_count": 1,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_cbec_supply_chain_complex",
+      "persona_id": "cbec_supply_chain_complex",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_frontline_action_loop",
+      "persona_id": "mgmt_frontline_action_loop",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_group_coordination",
+      "persona_id": "mgmt_group_coordination",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_hq_operating_visibility",
+      "persona_id": "mgmt_hq_operating_visibility",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_inventory_supply_coordination",
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_profit_improvement",
+      "persona_id": "mgmt_profit_improvement",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_retail_chain_fnb",
+      "persona_id": "retail_chain_fnb",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    }
+  ]
+}

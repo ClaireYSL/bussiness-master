@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-05-03T07:56:55.793764+00:00",
+  "summary": {
+    "persona_count": 15,
+    "source_supported_count": 7,
+    "needs_source_validation_count": 1,
+    "source_gap_count": 7,
+    "boundary_question_count": 11,
+    "source_gap_queue_count": 8,
+    "registry_write_enabled": false,
+    "knowledge_asset_write_enabled": false,
+    "prospect_generation_enabled": false,
+    "no_write_proof_ok": true
+  },
+  "items": [
+    {
+      "gap_id": "m42r_gap_cbec_platform_operator",
+      "persona_id": "cbec_platform_operator",
+      "support_status": "needs_source_validation",
+      "evidence_count": 1,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_cbec_supply_chain_complex",
+      "persona_id": "cbec_supply_chain_complex",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_frontline_action_loop",
+      "persona_id": "mgmt_frontline_action_loop",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_group_coordination",
+      "persona_id": "mgmt_group_coordination",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_hq_operating_visibility",
+      "persona_id": "mgmt_hq_operating_visibility",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_inventory_supply_coordination",
+      "persona_id": "mgmt_inventory_supply_coordination",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_mgmt_profit_improvement",
+      "persona_id": "mgmt_profit_improvement",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    },
+    {
+      "gap_id": "m42r_gap_retail_chain_fnb",
+      "persona_id": "retail_chain_fnb",
+      "support_status": "source_gap",
+      "evidence_count": 0,
+      "required_source_type": [
+        "真实客户案例",
+        "解决方案",
+        "权威行业研究",
+        "客户公开演讲/公开案例"
+      ],
+      "forbidden_source_type": [
+        "潜客摘要反推",
+        "旧潜客档案字段",
+        "未证实销售判断"
+      ],
+      "next_action": "补齐真实来源后再刷新画像定义 proposal。"
+    }
+  ]
+}

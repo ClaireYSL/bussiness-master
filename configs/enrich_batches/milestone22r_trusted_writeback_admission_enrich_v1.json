@@ -1,0 +1,17 @@
+{
+  "batch_id": "milestone22r_trusted_writeback_admission_enrich_v1",
+  "goal": "Milestone 22R：可信潜客写回准入 enrich 复核",
+  "from_level": "L5",
+  "target_level": "L3",
+  "promote_target_level": "L3",
+  "write_back": false,
+  "workbook_lock_timeout_seconds": 0.0,
+  "rectification_file": "configs/execution_batches/milestone22r_trusted_writeback_admission_facts_v1.json",
+  "source_policy": "M22R 仅使用 M21R 可信画像匹配结果、M20 结构化 facts 与强 evidence；不发送原始长文，不直接写回。",
+  "output": {
+    "enrich_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_enrich_v1.json",
+    "summary_file": "deliveries/archive/milestones/milestone22r_trusted_writeback_admission/milestone22r_trusted_writeback_admission_enrich_summary_v1.json",
+    "review_file": "docs/03-执行与校验/Milestone 22R-可信潜客写回准入-enrich复盘-v1.md"
+  },
+  "account_ids": []
+}

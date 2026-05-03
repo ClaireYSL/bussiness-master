@@ -1,0 +1,503 @@
+{
+  "batch_id": "milestone14_2_intake_quality_v1",
+  "goal": "Milestone 14.2：扩容样本入池质量解阻",
+  "from_level": "",
+  "target_level": "",
+  "selection": {
+    "account_ids": [
+      "acc_aidi",
+      "acc_cnano",
+      "acc_dingli",
+      "acc_focusprecision",
+      "acc_haitianjg",
+      "acc_aukey",
+      "acc_cayi",
+      "acc_daziran",
+      "acc_eccang",
+      "acc_greatstar",
+      "acc_aimer",
+      "acc_anji",
+      "acc_anjingfood",
+      "acc_aofei",
+      "acc_arrowhome"
+    ],
+    "limit": 15
+  },
+  "source_files": {
+    "config_file": "configs/promote_batches/milestone14_2_intake_quality_promote_v1.json",
+    "promote_result_file": "deliveries/archive/milestones/milestone14_2_intake_quality_unblock/milestone14_2_intake_quality_promote_v1.json"
+  },
+  "summary": {
+    "account_count": 15,
+    "allow": 0,
+    "warn": 15,
+    "block": 0,
+    "writeback_promoted": 0,
+    "writeback_skipped": 0,
+    "target_level_reached": 0,
+    "level_changed": 0,
+    "queue_resolved": 0,
+    "evidence_created": 0
+  },
+  "write_back": {
+    "enabled": false,
+    "workbook_lock_acquired": false,
+    "workbook_lock_wait_seconds": 0.0,
+    "workbook_integrity_check": {},
+    "promoted": 0,
+    "skipped": 0,
+    "profile_updates": 0,
+    "main_updates": 0,
+    "main_shared_updates": 0,
+    "coverage_updates": 0,
+    "evidence_created": 0,
+    "promotion_review_resolved": 0,
+    "samples": []
+  },
+  "items": [
+    {
+      "account_id": "acc_aidi",
+      "account_name": "烟台艾迪精密机械股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "业务结构、全球经营与客户协同仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_aimer",
+      "account_name": "爱慕股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "渠道结构、品牌矩阵与会员经营仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_anji",
+      "account_name": "安记食品股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "渠道结构、库存协同与品牌矩阵仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_anjingfood",
+      "account_name": "安井食品集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "渠道结构、供应链与库存颗粒度仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_aofei",
+      "account_name": "奥飞娱乐股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_high_sku_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "业务结构与消费品牌占比仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "knowledge_extraction",
+        "promotion_review"
+      ]
+    },
+    {
+      "account_id": "acc_arrowhome",
+      "account_name": "箭牌家居集团股份有限公司",
+      "track": "零售消费",
+      "persona_tag": "retail_multi_store",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "直营网 / 经销网络与区域经营颗粒度仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_aukey",
+      "account_name": "深圳市傲基创新科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "当前主体有效性、经营阶段与品牌结构仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "boundary_review"
+      ]
+    },
+    {
+      "account_id": "acc_cayi",
+      "account_name": "浙江嘉益保温科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "海外经营规模与平台结构仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "verification"
+      ]
+    },
+    {
+      "account_id": "acc_cnano",
+      "account_name": "江苏天奈科技股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "业务链路与组织复杂度仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_daziran",
+      "account_name": "浙江大自然户外用品股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "海外平台结构、品牌矩阵、区域经营仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_dingli",
+      "account_name": "浙江鼎力机械股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "制造基地、区域经营与客户结构仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_eccang",
+      "account_name": "深圳市易仓科技有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "平台业务边界、客户结构与场景范围仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": [
+        "knowledge_extraction"
+      ]
+    },
+    {
+      "account_id": "acc_focusprecision",
+      "account_name": "江苏先锋精密科技股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_rnd_sales_complex",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "主体强证据与经营复杂度仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_greatstar",
+      "account_name": "杭州巨星科技股份有限公司",
+      "track": "跨境电商",
+      "persona_tag": "cbec_multi_platform_brand",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "海外渠道结构、品牌矩阵、平台颗粒度仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    },
+    {
+      "account_id": "acc_haitianjg",
+      "account_name": "宁波海天精工股份有限公司",
+      "track": "先进制造",
+      "persona_tag": "mfg_multi_factory_group",
+      "from_level": "L5",
+      "target_level": "L3",
+      "current_level": "L5",
+      "decision": "warn",
+      "level_changed": false,
+      "target_level_reached": false,
+      "writeback_applied": false,
+      "profile_status": "",
+      "validation_gap": "工厂布局、业务条线与全球经营仍需补。",
+      "promote_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "blocking_issues": [],
+      "warning_issues": [
+        {
+          "code": "persona_boundary_unstable",
+          "severity": "warn",
+          "field_name": "review_status",
+          "message": "当前仍处于观察/边界状态。"
+        }
+      ],
+      "remaining_gaps": [
+        "当前仍处于观察/边界状态。"
+      ],
+      "open_queue_types": []
+    }
+  ]
+}

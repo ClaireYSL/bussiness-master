@@ -1,0 +1,560 @@
+{
+  "batch_id": "milestone12_persona_stability_review_v1",
+  "generated_at": "2026-04-27T01:39:32.733528+00:00",
+  "source_files": {
+    "promote_result_file": "deliveries/archive/milestones/milestone11_warn_quality/milestone11_warn_quality_promote_v1_report_only_L2_1.json",
+    "main_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/静态潜客主表.xlsx",
+    "profile_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/潜客档案库.xlsx",
+    "governance_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+  },
+  "llm_boundary": {
+    "input_is_abstracted": true,
+    "raw_source_text_included": false,
+    "direct_writeback_allowed": false,
+    "allowed_use": "persona stability draft review only"
+  },
+  "summary": {
+    "account_count": 12,
+    "decision_counts": {
+      "warn": 12
+    },
+    "warning_code_counts": {
+      "persona_boundary_unstable": 12
+    }
+  },
+  "accounts": [
+    {
+      "account_id": "acc_dreame",
+      "account_name": "追觅创新科技（苏州）有限公司",
+      "primary_track": "零售消费",
+      "current_persona": "retail_high_sku_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营智能家电相关产品或品牌业务，属于高 SKU、多渠道经营的品牌消费品主体。",
+      "business_model_summary": "以品牌消费品销售和多渠道经营为核心，具备商品、渠道、供应链与利润协同复杂度。",
+      "admission_reason_summary": "智能家电品牌与 SKU 复杂度明显，符合高 SKU 品牌消费品画像。",
+      "validation_gap": "已完成L3纠错；当前仍缺稳定官方入口，先保持L3，后续优先补官网、官方介绍或一手案例材料。",
+      "knowledge_asset_refs": "ka_case_naturehall_ai_v1",
+      "talk_track_refs": "talktrack_hq_visibility_retail_v1",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "主线,画像,入池",
+          "summary": "第四批候选已明确追觅智能家电品牌与 SKU 复杂度。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/外部目标客户池-v1.0-第四批放量候选池-v0.1.md"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "",
+          "supports_dimension": "background_profile",
+          "summary": "本轮L5到L3扩容专项已确认该账户达到标准就绪层级。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v1.md"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "中",
+          "supports_dimension": "background_profile",
+          "summary": "已对 追觅创新科技（苏州）有限公司 完成 L3 全量补强；当前产品/行业/经营复杂度判断已收束到可继续补证层。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md"
+        }
+      ],
+      "open_review_queue": [],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_tomtop",
+      "account_name": "深圳市通拓科技有限公司",
+      "primary_track": "跨境电商",
+      "current_persona": "cbec_multi_platform_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营跨境品牌出海相关业务，属于多平台经营的跨境品牌或供应链出海主体。",
+      "business_model_summary": "以跨境多平台、多国家和多履约链路协同为核心，具备投放、供应链、仓配与利润协同复杂度。",
+      "admission_reason_summary": "跨境电商经营属性明确，适合作为品牌出海相邻候选。",
+      "validation_gap": "已完成L3纠错；当前仍缺稳定官方入口，先保持L3，后续优先补官网、官方介绍或一手案例材料。",
+      "knowledge_asset_refs": "ka_case_smallrig_outbound_v1,ka_insight_cbec_abm_v1",
+      "talk_track_refs": "talktrack_cbec_profit_v1",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "主线,画像,入池",
+          "summary": "第十五批候选已明确通拓科技跨境电商经营属性。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/外部目标客户池-v1.0-第十五批放量候选池-v0.1.md"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "",
+          "supports_dimension": "background_profile",
+          "summary": "本轮L5到L3扩容专项已确认该账户达到标准就绪层级。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v1.md"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "中",
+          "supports_dimension": "background_profile",
+          "summary": "已对 深圳市通拓科技有限公司 完成 L3 全量补强；当前产品/行业/经营复杂度判断已收束到可继续补证层。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L3全量补强专项-v1.md"
+        }
+      ],
+      "open_review_queue": [],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_600185",
+      "account_name": "珠免集团",
+      "primary_track": "零售消费",
+      "current_persona": "retail_multi_store",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营零售渠道、百货、连锁卖场或区域零售网络业务，具备多门店经营复杂度。",
+      "business_model_summary": "以直营网点、加盟网络或区域门店运营为核心，存在总部到区域到门店的经营协同链条。",
+      "admission_reason_summary": "珠免集团 具备零售消费主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_familymart_kpi_loop_v1",
+      "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 珠免集团 作为 旅游零售Ⅱ 方向上市主体存在，适合作为 零售消费 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sh600185.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "珠免集团 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_002626",
+      "account_name": "金达威",
+      "primary_track": "零售消费",
+      "current_persona": "retail_high_sku_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营品牌消费品、个护、家居、食品或耐用品等多 SKU 产品，具备较强商品与渠道复杂度。",
+      "business_model_summary": "以品牌零售和多渠道销售为核心，兼具经销、电商、直营网点或零售终端协同特征。",
+      "admission_reason_summary": "金达威 具备零售消费主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+      "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 金达威 作为 食品加工 方向上市主体存在，适合作为 零售消费 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz002626.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_002511",
+      "account_name": "中顺洁柔",
+      "primary_track": "零售消费",
+      "current_persona": "retail_high_sku_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营品牌消费品、个护、家居、食品或耐用品等多 SKU 产品，具备较强商品与渠道复杂度。",
+      "business_model_summary": "以品牌零售和多渠道销售为核心，兼具经销、电商、直营网点或零售终端协同特征。",
+      "admission_reason_summary": "中顺洁柔 具备零售消费主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_huaxizi_growth_v1,ka_case_wangxiaolu_growth_v1",
+      "talk_track_refs": "经营穿透与门店动作闭环、商品结构优化与利润改善",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 中顺洁柔 作为 个护用品 方向上市主体存在，适合作为 零售消费 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz002511.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "中顺洁柔 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_002640",
+      "account_name": "跨境通",
+      "primary_track": "跨境电商",
+      "current_persona": "cbec_multi_platform_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营跨境品牌消费品业务，具备多平台、多国家、多产品线经营复杂度。",
+      "business_model_summary": "以品牌出海和多平台运营为核心，存在海外渠道、平台运营与供应链协同特征。",
+      "admission_reason_summary": "跨境通 具备跨境电商主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_mapping_sea_tpdp_cases_v1,ka_case_douman_logistics_v1",
+      "talk_track_refs": "T+1利润分析、平台化经营治理、库存与供需协同",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 跨境通 作为 互联网电商 方向上市主体存在，适合作为 跨境电商 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz002640.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "跨境通 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_301110",
+      "account_name": "青木科技",
+      "primary_track": "跨境电商",
+      "current_persona": "cbec_multi_platform_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营跨境品牌消费品业务，具备多平台、多国家、多产品线经营复杂度。",
+      "business_model_summary": "以品牌出海和多平台运营为核心，存在海外渠道、平台运营与供应链协同特征。",
+      "admission_reason_summary": "青木科技 具备跨境电商主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_mapping_sea_tpdp_cases_v1,ka_case_douman_logistics_v1",
+      "talk_track_refs": "T+1利润分析、平台化经营治理、库存与供需协同",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 青木科技 作为 互联网电商 方向上市主体存在，适合作为 跨境电商 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz301110.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "青木科技 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_300592",
+      "account_name": "华凯易佰",
+      "primary_track": "跨境电商",
+      "current_persona": "cbec_multi_platform_brand",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营跨境品牌消费品业务，具备多平台、多国家、多产品线经营复杂度。",
+      "business_model_summary": "以品牌出海和多平台运营为核心，存在海外渠道、平台运营与供应链协同特征。",
+      "admission_reason_summary": "华凯易佰 具备跨境电商主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_mapping_sea_tpdp_cases_v1,ka_case_douman_logistics_v1",
+      "talk_track_refs": "T+1利润分析、平台化经营治理、库存与供需协同",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 华凯易佰 作为 互联网电商 方向上市主体存在，适合作为 跨境电商 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz300592.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "华凯易佰 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_002281",
+      "account_name": "光迅科技",
+      "primary_track": "先进制造",
+      "current_persona": "mfg_multi_factory_group",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营多工厂、多基地制造业务，具备集团化制造协同复杂度。",
+      "business_model_summary": "以集团化、多基地制造经营为核心，存在工厂、事业部、区域和供应链协同特征。",
+      "admission_reason_summary": "光迅科技 具备先进制造主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+      "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 光迅科技 作为 通信设备 方向上市主体存在，适合作为 先进制造 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz002281.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "光迅科技 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_000768",
+      "account_name": "中航西飞",
+      "primary_track": "先进制造",
+      "current_persona": "mfg_rnd_sales_complex",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营技术型设备、材料、工业产品或高复杂制造业务，具备研产销协同复杂度。",
+      "business_model_summary": "以研发、生产、销售协同的技术型制造经营为核心，存在项目型交付、复杂产品线或行业客户特征。",
+      "admission_reason_summary": "中航西飞 具备先进制造主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+      "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 中航西飞 作为 航空装备Ⅱ 方向上市主体存在，适合作为 先进制造 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz000768.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "中航西飞 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_688082",
+      "account_name": "盛美上海",
+      "primary_track": "先进制造",
+      "current_persona": "mfg_rnd_sales_complex",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营技术型设备、材料、工业产品或高复杂制造业务，具备研产销协同复杂度。",
+      "business_model_summary": "以研发、生产、销售协同的技术型制造经营为核心，存在项目型交付、复杂产品线或行业客户特征。",
+      "admission_reason_summary": "盛美上海 具备先进制造主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+      "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 盛美上海 作为 半导体 方向上市主体存在，适合作为 先进制造 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sh688082.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "盛美上海 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    },
+    {
+      "account_id": "acc_cn_002074",
+      "account_name": "国轩高科",
+      "primary_track": "先进制造",
+      "current_persona": "mfg_rnd_sales_complex",
+      "secondary_personas": "",
+      "current_review_status": "pending_review",
+      "current_promotion_decision": "warn",
+      "warning_codes": [
+        "persona_boundary_unstable"
+      ],
+      "blocking_codes": [],
+      "product_service_summary": "主营技术型设备、材料、工业产品或高复杂制造业务，具备研产销协同复杂度。",
+      "business_model_summary": "以研发、生产、销售协同的技术型制造经营为核心，存在项目型交付、复杂产品线或行业客户特征。",
+      "admission_reason_summary": "国轩高科 具备先进制造主线下的典型经营复杂度，已补到公开主体名单、行业分类与上市公司公开披露层，满足 L3 静态样本门槛。",
+      "validation_gap": "已完成L5到L3批量补强；收入规模、利润状态、营收增长仍待公开财报口径继续补齐。",
+      "knowledge_asset_refs": "ka_case_leapmotor_selfservice_bi_v1,ka_solution_ouli_datahub_v1",
+      "talk_track_refs": "集团经营驾驶舱、研产销协同、价值流透明化",
+      "evidence_summaries": [
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "identity",
+          "summary": "公开主体名单可确认 国轩高科 作为 电池 方向上市主体存在，适合作为 先进制造 静态潜客候选。",
+          "source_locator": "https://quote.eastmoney.com/concept/sz002074.html"
+        },
+        {
+          "source_type": "",
+          "evidence_strength": "B",
+          "supports_dimension": "background_profile",
+          "summary": "已完成公开主体名单、行业分类与上市公司公开披露补强，满足 L5 到 L3 的最低标准。",
+          "source_locator": "/Users/clairaipartner/.openclaw/workspace-main/bussiness-master/docs/03-执行与校验/静态潜客池-L5到L3扩容专项-v2.md"
+        }
+      ],
+      "open_review_queue": [
+        {
+          "queue_type": "promotion_review",
+          "status": "open",
+          "priority": "high",
+          "note": "国轩高科 已完成L3标准档案补强，适合作为下一轮L3到L2优先候选；优先补官网/年报/IR后再做最终上移判断。"
+        }
+      ],
+      "local_gate_summary": "可继续推进，但仍需显式暴露风险和待补证点。",
+      "expected_review_question": "当前主画像是否已经稳定到足以从 pending_review 转为 active，或是否应继续 pending/hold/调整画像。"
+    }
+  ]
+}

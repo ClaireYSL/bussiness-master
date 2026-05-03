@@ -1,0 +1,355 @@
+{
+  "batch_id": "milestone27r_m25r_persona_boundary_questions_v1",
+  "items": [
+    {
+      "account_id": "acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "matched_persona": "mfg_multi_factory_group",
+      "boundary_question": "拓斯达科技股份有限公司 是否应按 `mfg_multi_factory_group` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江哈尔斯真空器皿股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江海利得新材料股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "海象新材料股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "江苏恒辉安防股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "恒林家居股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江恒威电池股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江恒林椅业股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "深圳市杰美特科技股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "朗科智能电气股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江梦天木作家居有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江明新旭腾新材料股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江野马电池股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江正特股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "深圳市赛维网络科技有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "深圳市三态电子商务股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江盛泰服装集团股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "星徽股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "泰鹏智能家居股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "永艺家具股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江华生科技股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "星华新材股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江雅艺金属科技股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江永强集团股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "深圳市有棵树科技股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "boundary_question": "浙江正裕工业股份有限公司 是否应按 `cbec_multi_platform_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "中饮巴比食品股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "步步高商业连锁股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "广东小熊电器股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "华熙生物科技股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_brightdairy",
+      "company_name": "光明乳业股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "光明乳业股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_candr",
+      "company_name": "中顺洁柔纸业股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "中顺洁柔纸业股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_chinagold",
+      "company_name": "中国黄金集团黄金珠宝股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "中国黄金集团黄金珠宝股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_chj",
+      "company_name": "潮宏基珠宝股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "潮宏基珠宝股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_cofco_sugar",
+      "company_name": "中粮糖业控股股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "中粮糖业控股股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_dengkang",
+      "company_name": "登康口腔护理用品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "登康口腔护理用品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_eurasia",
+      "company_name": "欧亚集团股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "欧亚集团股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_freda",
+      "company_name": "福瑞达生物股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "福瑞达生物股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_fuanna",
+      "company_name": "深圳市富安娜家居用品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "深圳市富安娜家居用品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_gaishi",
+      "company_name": "盖世食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "盖世食品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_ganyuan",
+      "company_name": "甘源食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "甘源食品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_guangzhourestaurant",
+      "company_name": "广州酒家集团股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "广州酒家集团股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_gubei",
+      "company_name": "乖宝宠物食品集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "乖宝宠物食品集团股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_guifaxiang",
+      "company_name": "天津桂发祥十八街麻花食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "天津桂发祥十八街麻花食品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_haixinfood",
+      "company_name": "海欣食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "海欣食品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_haoxiangni",
+      "company_name": "好想你健康食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "好想你健康食品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_hiro",
+      "company_name": "海融科技股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "海融科技股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_holike",
+      "company_name": "好莱客创意家居股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "好莱客创意家居股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_hqls",
+      "company_name": "红旗连锁股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "boundary_question": "红旗连锁股份有限公司 是否应按 `retail_multi_store` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    },
+    {
+      "account_id": "acc_huangshanghuang",
+      "company_name": "煌上煌集团食品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "boundary_question": "煌上煌集团食品股份有限公司 是否应按 `retail_high_sku_brand` 进入 L3 可消费池？如果不是，应调整画像、继续 pending，还是 hold？",
+      "system_recommendation": "confirm_active_candidate"
+    }
+  ]
+}

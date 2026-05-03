@@ -1,0 +1,11 @@
+{
+  "formal_knowledge_write_enabled": false,
+  "true_writeback_enabled": false,
+  "knowledge_assets_write_package_generated": false,
+  "persona_registry_write_package_generated": false,
+  "all_observations_non_formal_source": true,
+  "all_source_gaps_non_formal_source": true,
+  "observation_types_allowed": true,
+  "forbidden_write_keys_detected": false,
+  "ok": true
+}
