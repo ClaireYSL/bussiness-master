@@ -1,0 +1,453 @@
+{
+  "package_id": "m202r_second_source_patch_package_v1",
+  "milestone": "M202R",
+  "generated_at": "2026-05-04T10:13:22.930869+00:00",
+  "summary": {
+    "input_l3_count": 19,
+    "second_source_ready_count": 19,
+    "source_health_gap_count": 0,
+    "source_gap_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "trusted_pool_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m200_b5edf73bd4e6",
+      "company_name": "杭州认养一头牛生物科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.ryytn.com/aboutus/index.jhtml",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:sku_matrix,supply_chain_operations,dairy_brand_operations",
+        "summary": "杭州认养一头牛生物科技有限公司 的第二强来源为 https://www.ryytn.com/aboutus/index.jhtml，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.ryytn.com/aboutus/index.jhtml",
+          "reachable": true,
+          "http_status": 403,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_d443f235d88b",
+      "company_name": "杭州花西子化妆品股份有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.florasis.com/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:brand_product_matrix,global_brand_operations,channel_complexity",
+        "summary": "杭州花西子化妆品股份有限公司 的第二强来源为 https://www.florasis.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.florasis.com/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_b2928815d10e",
+      "company_name": "上海林清轩生物科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.lqxshop.com/about",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
+        "summary": "上海林清轩生物科技有限公司 的第二强来源为 https://www.lqxshop.com/about，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.lqxshop.com/about",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_596844a57563",
+      "company_name": "上海新锐供应链管理有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_collection",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.cupshe.com/collections/swimwear",
+        "evidence_strength": "official_product_collection",
+        "supports_dimension": "icp_match_support:global_brand_operations,sku_matrix,cross_border_operations",
+        "summary": "上海新锐供应链管理有限公司 的第二强来源为 https://www.cupshe.com/collections/swimwear，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.cupshe.com/collections/swimwear",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_f8e5b127043f",
+      "company_name": "细刻网络科技（上海）有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.chicme.com/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,platform_operator",
+        "summary": "细刻网络科技（上海）有限公司 的第二强来源为 https://www.chicme.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.chicme.com/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_96a10fa5dcbe",
+      "company_name": "深圳市傲基科技股份有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.aukeys.com/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_hardware_brand",
+        "summary": "深圳市傲基科技股份有限公司 的第二强来源为 https://www.aukeys.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.aukeys.com/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_67c24a3efdbb",
+      "company_name": "深圳市泽宝创新技术有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.ravpower.com/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_hardware_brand",
+        "summary": "深圳市泽宝创新技术有限公司 的第二强来源为 https://www.ravpower.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.ravpower.com/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_62d14c462430",
+      "company_name": "深圳市蓝禾技术有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.benks.com/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_accessory_brand",
+        "summary": "深圳市蓝禾技术有限公司 的第二强来源为 https://www.benks.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.benks.com/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_2f660d14d234",
+      "company_name": "深圳市时商创展科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.omoton.com/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_accessory_brand",
+        "summary": "深圳市时商创展科技有限公司 的第二强来源为 https://www.omoton.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.omoton.com/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_678e6705b1df",
+      "company_name": "广州棒谷科技股份有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.banggood.cn/about-us.html",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:platform_operator,cross_border_operations,multi_platform_commerce",
+        "summary": "广州棒谷科技股份有限公司 的第二强来源为 https://www.banggood.cn/about-us.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.banggood.cn/about-us.html",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_67270fee7b44",
+      "company_name": "广州希音国际进出口有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_platform_operator",
+      "new_source": {
+        "source_type": "official_newsroom",
+        "source_category": "official_owned",
+        "source_locator": "https://www.sheingroup.com/newsroom",
+        "evidence_strength": "official_newsroom",
+        "supports_dimension": "icp_match_support:platform_operator,global_brand_operations,cross_border_operations",
+        "summary": "广州希音国际进出口有限公司 的第二强来源为 https://www.sheingroup.com/newsroom，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_platform_operator 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.sheingroup.com/newsroom",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_10e4826dc1c0",
+      "company_name": "广州影石创新科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.insta360.com/product",
+        "evidence_strength": "official_product_page",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,sku_matrix",
+        "summary": "广州影石创新科技有限公司 的第二强来源为 https://www.insta360.com/product，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.insta360.com/product",
+          "reachable": true,
+          "http_status": 403,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_743b6529e25d",
+      "company_name": "深圳市大疆创新科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_company_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.dji.com/company",
+        "evidence_strength": "official_company_page",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,multi_region",
+        "summary": "深圳市大疆创新科技有限公司 的第二强来源为 https://www.dji.com/company，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.dji.com/company",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_fa3b843905b3",
+      "company_name": "追觅科技（苏州）有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.dreame.tech/pages/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,sku_matrix",
+        "summary": "追觅科技（苏州）有限公司 的第二强来源为 https://www.dreame.tech/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.dreame.tech/pages/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_bfe244b6f8ca",
+      "company_name": "深圳绿米联创科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.aqara.com/about-us",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:iot_product_matrix,global_brand_operations,channel_complexity",
+        "summary": "深圳绿米联创科技有限公司 的第二强来源为 https://www.aqara.com/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.aqara.com/about-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_e534c24d05d8",
+      "company_name": "添可智能科技有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_product_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.tineco.com/products",
+        "evidence_strength": "official_product_page",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
+        "summary": "添可智能科技有限公司 的第二强来源为 https://www.tineco.com/products，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.tineco.com/products",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_c5ab402aa53c",
+      "company_name": "北京元气森林饮料有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_product_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.yuanqisenlin.com/products",
+        "evidence_strength": "official_product_page",
+        "supports_dimension": "icp_match_support:retail_high_sku_brand,sku_matrix,channel_complexity",
+        "summary": "北京元气森林饮料有限公司 的第二强来源为 https://www.yuanqisenlin.com/products，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.yuanqisenlin.com/products",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_071a8aac234a",
+      "company_name": "南京卫岗乳业有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "industry_association_profile",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://cdia.org.cn/index/cate/ex_info/id/2937.html",
+        "evidence_strength": "industry_association_profile",
+        "supports_dimension": "icp_match_support:retail_high_sku_brand,dairy_operations,regional_channel_complexity",
+        "summary": "南京卫岗乳业有限公司 的第二强来源为 https://cdia.org.cn/index/cate/ex_info/id/2937.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://cdia.org.cn/index/cate/ex_info/id/2937.html",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_b35fee904018",
+      "company_name": "和府捞面餐饮管理有限公司",
+      "patch_status": "second_source_ready",
+      "matched_persona": "fnb_chain_standardized",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.hefumian.com/about.html",
+        "evidence_strength": "official_about_page",
+        "supports_dimension": "icp_match_support:chain_standardization,store_network,fnb_chain_operations",
+        "summary": "和府捞面餐饮管理有限公司 的第二强来源为 https://www.hefumian.com/about.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 fnb_chain_standardized 的静态 ICP 判断。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.hefumian.com/about.html",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    }
+  ]
+}

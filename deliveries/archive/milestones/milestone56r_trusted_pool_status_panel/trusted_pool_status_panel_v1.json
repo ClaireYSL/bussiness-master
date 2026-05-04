@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T09:59:46.101634+00:00",
-  "overall_status": "PASS_M201R_TRUSTED_POOL_L3_PUBLISH",
+  "generated_at": "2026-05-04T10:13:22.985819+00:00",
+  "overall_status": "PASS_M202R_L3_TO_L2_REPORT_ONLY",
   "counts": {
     "trusted_pool_count": 93,
     "l1_count": 34,
@@ -106,7 +106,13 @@
     "m201_published_l3_count": 19,
     "m201_vault_l3_written_count": 19,
     "entity_v2_source_trace_entity_count": 93,
-    "entity_v2_signed_customer_entity_count": 1059
+    "entity_v2_signed_customer_entity_count": 1059,
+    "m202_report_only_candidate_count": 19,
+    "m202_l2_preview_count": 19,
+    "m202_l3_remaining_count": 0,
+    "m202_second_source_ready_count": 19,
+    "m202_source_health_gap_count": 0,
+    "m202_gap_queue_count": 32
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -126,7 +132,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M201R",
+  "latest_milestone": "M202R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -143,7 +149,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M202：为 M201 新增 L3 补第二强来源，评估 L3 -> L2。",
+  "canonical_next_action": "进入 M203：对 M202 L2 preview 执行 guarded trusted pool/source trace/vault L2 更新；source health gap 保留 L3。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -2065,6 +2071,25 @@
       "multi_role_entity_count": 93,
       "signed_customer_gate_version": "v2",
       "canonical_update_source": "M201R_publish_M200_L3_preview"
+    }
+  },
+  "m202r_l3_to_l2_second_source": {
+    "generated_at": "2026-05-04T10:13:22.985821+00:00",
+    "status": "PASS",
+    "suggested_level_counts": {
+      "L2": 19
+    },
+    "decision_counts": {
+      "allow": 19
+    },
+    "second_source_summary": {
+      "input_l3_count": 19,
+      "second_source_ready_count": 19,
+      "source_health_gap_count": 0,
+      "source_gap_count": 0,
+      "customer_case_used_as_prospect_evidence": false,
+      "llm_used_as_evidence": false,
+      "trusted_pool_written": false
     }
   }
 }
