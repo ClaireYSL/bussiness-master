@@ -1,0 +1,204 @@
+{
+  "index_id": "m221r_source_trace_patch_v1",
+  "milestone": "M221R",
+  "generated_at": "2026-05-04T11:16:37.365501+00:00",
+  "summary": {
+    "candidate_count": 8,
+    "second_source_ready_count": 8,
+    "canonical_source_trace_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "sources": [
+        {
+          "source_type": "government_food_safety_disclosure",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "七分甜餐饮管理（上海）有限公司 的 M218 修复来源属于 regulatory_or_capital_market；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。"
+        },
+        {
+          "source_type": "brand_profile",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.cnpp.cn/pinpai/60662.html",
+          "evidence_strength": "brand_profile",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "七分甜餐饮管理（上海）有限公司 的第二强来源为 https://www.cnpp.cn/pinpai/60662.html，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 fnb_chain_beverage_coffee 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hsay.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "上海沪上阿姨餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。"
+        },
+        {
+          "source_type": "hkex_filing",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0507/2025050702204.pdf",
+          "evidence_strength": "hkex_filing",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "上海沪上阿姨餐饮管理有限公司 的第二强来源为 https://www.hkexnews.hk/listedco/listconews/sehk/2025/0507/2025050702204.pdf，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 fnb_chain_beverage_coffee 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.kuafood.com/brand",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "北京夸父餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。"
+        },
+        {
+          "source_type": "official_site_home",
+          "source_category": "official_owned",
+          "source_locator": "https://www.kuafood.com/",
+          "evidence_strength": "official_site_home",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "北京夸父餐饮管理有限公司 的第二强来源为 https://www.kuafood.com/，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 fnb_chain_standardized 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "sources": [
+        {
+          "source_type": "brand_profile",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.maigoo.com/brand/39146.html",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "南京大牌档美食文化有限公司 的 M218 修复来源属于 authoritative_third_party；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。"
+        },
+        {
+          "source_type": "authoritative_profile_pdf",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://file.hbvtc.net/5c13784d88cd2d4c1d0025bb/202204/20220419102722182_2juriwJJ.pdf",
+          "evidence_strength": "authoritative_profile_pdf",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "南京大牌档美食文化有限公司 的第二强来源为 https://file.hbvtc.net/5c13784d88cd2d4c1d0025bb/202204/20220419102722182_2juriwJJ.pdf，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 fnb_chain_standardized 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.tianfugroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "广东天福连锁商业集团有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.tfcn.site/about.html",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "广东天福连锁商业集团有限公司 的第二强来源为 https://www.tfcn.site/about.html，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 retail_multi_store 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.biemlf.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "比音勒芬服饰股份有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。"
+        },
+        {
+          "source_type": "cninfo",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2024-05-09/1220022469.PDF",
+          "evidence_strength": "cninfo",
+          "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
+          "summary": "比音勒芬服饰股份有限公司 的第二强来源为 https://static.cninfo.com.cn/finalpage/2024-05-09/1220022469.PDF，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chinalawson.com.cn/about.html",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "罗森（中国）投资有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。"
+        },
+        {
+          "source_type": "official_site_home",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chinalawson.com.cn/",
+          "evidence_strength": "official_site_home",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "罗森（中国）投资有限公司 的第二强来源为 https://www.chinalawson.com.cn/，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 retail_multi_store 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "sources": [
+        {
+          "source_type": "official_group_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.eekagroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "赢家时尚控股有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。"
+        },
+        {
+          "source_type": "hkex_filing",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0418/2024041801798.pdf",
+          "evidence_strength": "hkex_filing",
+          "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
+          "summary": "赢家时尚控股有限公司 的第二强来源为 https://www.hkexnews.hk/listedco/listconews/sehk/2024/0418/2024041801798.pdf，用于补充公开经营事实、平台/渠道或资本市场披露，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    }
+  ]
+}

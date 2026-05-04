@@ -1,0 +1,462 @@
+{
+  "batch_id": "m221r_l3_to_l2_report_only_v1",
+  "milestone": "M221R",
+  "generated_at": "2026-05-04T11:16:37.371480+00:00",
+  "mode": "report_only",
+  "candidate_signature": "c67d5a8ba5b2ea31b424c53af9f14ac0189482d1e0152b3927f70ac3a0eece8b",
+  "summary": {
+    "report_only_candidate_count": 8,
+    "decision_counts": {
+      "allow": 8
+    },
+    "suggested_level_counts": {
+      "L2": 8
+    },
+    "gap_queue_count": 11,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "candidates": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "task_id": "m210_task_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "七分甜餐饮管理（上海）有限公司 的 M218 修复来源属于 regulatory_or_capital_market；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。",
+      "core_product_service_summary": "连锁茶饮/咖啡服务，覆盖门店、加盟/直营、会员和供应链运营。",
+      "business_model_summary": "以饮品门店网络和品牌产品为核心，依靠门店扩张、会员运营和供应链能力服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "regulatory_or_capital_market",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "七分甜餐饮管理（上海）有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_7d9fddf4f43d",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "task_id": "m210_task_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "上海沪上阿姨餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。",
+      "core_product_service_summary": "连锁茶饮/咖啡服务，覆盖门店、加盟/直营、会员和供应链运营。",
+      "business_model_summary": "以饮品门店网络和品牌产品为核心，依靠门店扩张、会员运营和供应链能力服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.hsay.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "上海沪上阿姨餐饮管理有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_641ff4cf2f83",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "task_id": "m210_task_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_standardized",
+      "match_reason": "北京夸父餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。",
+      "core_product_service_summary": "标准化连锁餐饮服务，覆盖门店运营、供应链与服务标准。",
+      "business_model_summary": "以连锁门店经营为核心，通过标准化产品、门店和供应链体系服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.kuafood.com/brand",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "北京夸父餐饮管理有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_ab3d6459dc8d",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "task_id": "m210_task_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_standardized",
+      "match_reason": "南京大牌档美食文化有限公司 的 M218 修复来源属于 authoritative_third_party；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。",
+      "core_product_service_summary": "标准化连锁餐饮服务，覆盖门店运营、供应链与服务标准。",
+      "business_model_summary": "以连锁门店经营为核心，通过标准化产品、门店和供应链体系服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.maigoo.com/brand/39146.html",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "authoritative_third_party",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "南京大牌档美食文化有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_55d36bcce336",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "task_id": "m210_task_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "广东天福连锁商业集团有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。",
+      "core_product_service_summary": "多门店/多渠道零售业务，涉及门店网络、会员运营、商品与渠道协同。",
+      "business_model_summary": "以线下门店与线上渠道结合的零售经营模式服务终端消费者，核心复杂度在门店、商品、会员与区域运营协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "http://www.tianfugroup.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "广东天福连锁商业集团有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_8716c805106f",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "task_id": "m210_task_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "比音勒芬服饰股份有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。",
+      "core_product_service_summary": "高 SKU 消费品牌/零售业务，覆盖产品矩阵、渠道销售和品牌运营。",
+      "business_model_summary": "以品牌产品组合和多渠道销售触达消费者，核心复杂度在 SKU、渠道、库存与营销协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "http://www.biemlf.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "比音勒芬服饰股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_7d1c0e85434d",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "task_id": "m210_task_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "罗森（中国）投资有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。",
+      "core_product_service_summary": "多门店/多渠道零售业务，涉及门店网络、会员运营、商品与渠道协同。",
+      "business_model_summary": "以线下门店与线上渠道结合的零售经营模式服务终端消费者，核心复杂度在门店、商品、会员与区域运营协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.chinalawson.com.cn/about.html",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "罗森（中国）投资有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_f321d4b30e60",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "task_id": "m210_task_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "赢家时尚控股有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。",
+      "core_product_service_summary": "高 SKU 消费品牌/零售业务，覆盖产品矩阵、渠道销售和品牌运营。",
+      "business_model_summary": "以品牌产品组合和多渠道销售触达消费者，核心复杂度在 SKU、渠道、库存与营销协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.eekagroup.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M218R_source_repair_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "赢家时尚控股有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m219_d3498b3afe74",
+      "canonical_update_source": "M220R_publish_M219_L3_preview"
+    }
+  ],
+  "decisions": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "七分甜餐饮管理（上海）有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海沪上阿姨餐饮管理有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "北京夸父餐饮管理有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "南京大牌档美食文化有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "广东天福连锁商业集团有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "比音勒芬服饰股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "罗森（中国）投资有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=1。"
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "赢家时尚控股有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    }
+  ],
+  "gap_queue": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    }
+  ],
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

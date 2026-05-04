@@ -1,0 +1,29 @@
+{
+  "milestone": "M221R",
+  "generated_at": "2026-05-04T11:16:37.407102+00:00",
+  "status": "PASS_M221R_L3_TO_L2_REPORT_ONLY",
+  "summary": {
+    "report_only_candidate_count": 8,
+    "decision_counts": {
+      "allow": 8
+    },
+    "suggested_level_counts": {
+      "L2": 8
+    },
+    "gap_queue_count": 11,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false,
+    "second_source_summary": {
+      "input_l3_count": 8,
+      "second_source_ready_count": 8,
+      "source_health_gap_count": 0,
+      "source_gap_count": 0,
+      "customer_case_used_as_prospect_evidence": false,
+      "llm_used_as_evidence": false,
+      "trusted_pool_written": false
+    },
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M222：guarded update L2 preview；source health gap 继续保留 L3。"
+}

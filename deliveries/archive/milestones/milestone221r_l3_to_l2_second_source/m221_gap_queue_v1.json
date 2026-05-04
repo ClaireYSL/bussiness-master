@@ -1,0 +1,93 @@
+{
+  "milestone": "M221R",
+  "generated_at": "2026-05-04T11:16:37.373341+00:00",
+  "summary": {
+    "gap_queue_count": 11,
+    "by_queue_type": {
+      "source_gap_queue": 11
+    },
+    "by_field": {
+      "l1_evidence_chain": 8,
+      "l1_source_category": 3
+    }
+  },
+  "items": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    }
+  ]
+}

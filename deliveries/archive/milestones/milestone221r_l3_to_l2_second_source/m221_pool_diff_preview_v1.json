@@ -1,0 +1,77 @@
+{
+  "diff_id": "m221r_pool_diff_preview_v1",
+  "milestone": "M221R",
+  "generated_at": "2026-05-04T11:16:37.371500+00:00",
+  "summary": {
+    "update_existing_preview_count": 8,
+    "l2_preview_count": 8,
+    "l1_preview_count": 0,
+    "canonical_pool_updated": false
+  },
+  "items": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    }
+  ]
+}
