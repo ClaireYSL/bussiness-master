@@ -1,0 +1,22 @@
+{
+  "milestone": "M223R",
+  "generated_at": "2026-05-04T11:20:53.393890+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "本轮生产闭环把 8 条遗留来源问题候选修复并发布为正式 L2，老客未进入展示。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "source repair、report-only、guarded publish、vault 输出可回放；M223 为只读复盘。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "signed customer v2、客户案例边界、LLM/evidence 边界、动态字段隔离均保持。"
+  },
+  "summary": {
+    "trusted_pool_count": 116,
+    "l2_published_count": 8,
+    "remaining_source_collection_pending": 0
+  }
+}
