@@ -1,0 +1,380 @@
+{
+  "report_id": "m190r_gate_regression_report_v1",
+  "milestone": "M190R",
+  "generated_at": "2026-05-04T07:55:54.364854+00:00",
+  "summary": {
+    "signed_regression_sample_count": 13,
+    "signed_regression_blocked_count": 13,
+    "source_collection_pending_count": 16,
+    "customer_case_to_source_collection_violation_count": 0,
+    "missing_signed_customer_check_count": 0
+  },
+  "signed_customer_regression": {
+    "百胜中国": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "百胜中国",
+        "matched_customer_id": "signed_customer_百胜_中国_投资有限公司_3111f50a2d",
+        "matched_canonical_name": "百胜（中国）投资有限公司",
+        "matched_alias_name": "百胜中国",
+        "match_type": "legacy_customer_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "百胜中国",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "百胜中国",
+          "matched_customer_id": "signed_customer_百胜_中国_投资有限公司_3111f50a2d",
+          "matched_canonical_name": "百胜（中国）投资有限公司",
+          "matched_alias_name": "百胜中国",
+          "match_type": "legacy_customer_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "珀莱雅": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "珀莱雅",
+        "matched_customer_id": "signed_customer_珀莱雅化妆品股份有限公司_66f74ef5ec",
+        "matched_canonical_name": "珀莱雅化妆品股份有限公司",
+        "matched_alias_name": "珀莱雅",
+        "match_type": "legacy_customer_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "珀莱雅",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "珀莱雅",
+          "matched_customer_id": "signed_customer_珀莱雅化妆品股份有限公司_66f74ef5ec",
+          "matched_canonical_name": "珀莱雅化妆品股份有限公司",
+          "matched_alias_name": "珀莱雅",
+          "match_type": "legacy_customer_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "上海家化": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "上海家化",
+        "matched_customer_id": "signed_customer_上海家化联合股份有限公司_3e0c205876",
+        "matched_canonical_name": "上海家化联合股份有限公司",
+        "matched_alias_name": "上海家化",
+        "match_type": "legacy_customer_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "上海家化",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "上海家化",
+          "matched_customer_id": "signed_customer_上海家化联合股份有限公司_3e0c205876",
+          "matched_canonical_name": "上海家化联合股份有限公司",
+          "matched_alias_name": "上海家化",
+          "match_type": "legacy_customer_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "森马": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "森马",
+        "matched_customer_id": "legacy_customer_semir",
+        "matched_canonical_name": "浙江森马服饰股份有限公司",
+        "matched_alias_name": "森马",
+        "match_type": "legacy_customer_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "森马",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "森马",
+          "matched_customer_id": "legacy_customer_semir",
+          "matched_canonical_name": "浙江森马服饰股份有限公司",
+          "matched_alias_name": "森马",
+          "match_type": "legacy_customer_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "特步": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "特步",
+        "matched_customer_id": "legacy_customer_xtep",
+        "matched_canonical_name": "特步（中国）有限公司",
+        "matched_alias_name": "特步（中国）有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "特步",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "特步",
+          "matched_customer_id": "legacy_customer_xtep",
+          "matched_canonical_name": "特步（中国）有限公司",
+          "matched_alias_name": "特步（中国）有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "海澜之家": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "海澜之家",
+        "matched_customer_id": "legacy_customer_hla",
+        "matched_canonical_name": "海澜之家集团股份有限公司",
+        "matched_alias_name": "海澜之家集团股份有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "海澜之家",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "海澜之家",
+          "matched_customer_id": "legacy_customer_hla",
+          "matched_canonical_name": "海澜之家集团股份有限公司",
+          "matched_alias_name": "海澜之家集团股份有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "锅圈": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "锅圈",
+        "matched_customer_id": "legacy_customer_guoquan",
+        "matched_canonical_name": "锅圈食品（上海）股份有限公司",
+        "matched_alias_name": "锅圈",
+        "match_type": "market_or_group_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "锅圈",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "锅圈",
+          "matched_customer_id": "legacy_customer_guoquan",
+          "matched_canonical_name": "锅圈食品（上海）股份有限公司",
+          "matched_alias_name": "锅圈",
+          "match_type": "market_or_group_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "来伊份": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "来伊份",
+        "matched_customer_id": "signed_customer_上海来伊份股份有限公司_a7006e2d6e",
+        "matched_canonical_name": "上海来伊份股份有限公司",
+        "matched_alias_name": "来伊份",
+        "match_type": "legacy_customer_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "来伊份",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "来伊份",
+          "matched_customer_id": "signed_customer_上海来伊份股份有限公司_a7006e2d6e",
+          "matched_canonical_name": "上海来伊份股份有限公司",
+          "matched_alias_name": "来伊份",
+          "match_type": "legacy_customer_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "天味食品": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "天味食品",
+        "matched_customer_id": "legacy_customer_tianwei",
+        "matched_canonical_name": "天味食品股份有限公司",
+        "matched_alias_name": "天味食品股份有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "天味食品",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "天味食品",
+          "matched_customer_id": "legacy_customer_tianwei",
+          "matched_canonical_name": "天味食品股份有限公司",
+          "matched_alias_name": "天味食品股份有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "水星家纺": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "水星家纺",
+        "matched_customer_id": "legacy_customer_mercuryhome",
+        "matched_canonical_name": "水星家纺股份有限公司",
+        "matched_alias_name": "水星家纺股份有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "水星家纺",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "水星家纺",
+          "matched_customer_id": "legacy_customer_mercuryhome",
+          "matched_canonical_name": "水星家纺股份有限公司",
+          "matched_alias_name": "水星家纺股份有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "Lily服饰": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "Lily服饰",
+        "matched_customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+        "matched_canonical_name": "Lily服饰",
+        "matched_alias_name": "Lily服饰",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "Lily服饰",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "Lily服饰",
+          "matched_customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+          "matched_canonical_name": "Lily服饰",
+          "matched_alias_name": "Lily服饰",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "乐凯撒": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "乐凯撒",
+        "matched_customer_id": "signed_customer_user_confirmed_3635b16473",
+        "matched_canonical_name": "乐凯撒",
+        "matched_alias_name": "乐凯撒",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "乐凯撒",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "乐凯撒",
+          "matched_customer_id": "signed_customer_user_confirmed_3635b16473",
+          "matched_canonical_name": "乐凯撒",
+          "matched_alias_name": "乐凯撒",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    },
+    "零跑汽车": {
+      "signed": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "零跑汽车",
+        "matched_customer_id": "signed_customer_浙江零跑科技股份有限公司_d7c6665fb0",
+        "matched_canonical_name": "浙江零跑科技股份有限公司",
+        "matched_alias_name": "零跑汽车",
+        "match_type": "user_confirmed_brand_alias",
+        "reason": "exact_normalized_match"
+      },
+      "eligibility": {
+        "prospect_eligibility_status": "excluded_signed_customer",
+        "candidate_name": "零跑汽车",
+        "reason": "matched signed customer registry",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "零跑汽车",
+          "matched_customer_id": "signed_customer_浙江零跑科技股份有限公司_d7c6665fb0",
+          "matched_canonical_name": "浙江零跑科技股份有限公司",
+          "matched_alias_name": "零跑汽车",
+          "match_type": "user_confirmed_brand_alias",
+          "reason": "exact_normalized_match"
+        }
+      }
+    }
+  },
+  "customer_case_violations": [],
+  "missing_signed_customer_check": []
+}

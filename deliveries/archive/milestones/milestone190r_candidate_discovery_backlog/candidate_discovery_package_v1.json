@@ -1,0 +1,551 @@
+{
+  "package_id": "m190r_candidate_discovery_package_v1",
+  "milestone": "M190R",
+  "generated_at": "2026-05-04T07:55:54.235473+00:00",
+  "summary": {
+    "seed_count": 30,
+    "candidate_discovery_count": 30,
+    "candidate_source": "milestone55_expansion_seed_queue",
+    "knowledge_asset_registry_read": true,
+    "persona_registry_read": true,
+    "customer_case_reference_read": true,
+    "customer_case_used_as_prospect_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "vault_regular_area_written": false
+  },
+  "items": [
+    {
+      "task_id": "m190_task_3e0c205876c5",
+      "candidate_name": "上海家化联合股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.jahwa.com.cn/about/com",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_90f23cec4e63",
+      "candidate_name": "水羊集团股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://syounggroup.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_39f307a67327",
+      "candidate_name": "逸仙控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://ir.yatsenglobal.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_fb6afd34d8db",
+      "candidate_name": "稳健医疗用品股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.winnermedical.cn/investor/report.html",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_b60b200e8e84",
+      "candidate_name": "霸王茶姬控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://investor.chagee.com/",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_9bf3c7402d82",
+      "candidate_name": "九毛九国际控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.jiumaojiu.com/about/index.html",
+      "matched_persona": "fnb_chain_standardized",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_6672e63220ea",
+      "candidate_name": "盐津铺子食品股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_3c591a0accd0",
+      "candidate_name": "小熊电器股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://bears.com.cn/invest/notice.html",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_8e368a9648fd",
+      "candidate_name": "赛维时代科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.sailvan.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_88516c7ce3e1",
+      "candidate_name": "焦点科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.focuschina.com/",
+      "matched_persona": "cbec_platform_operator",
+      "persona_display_name": "平台化运营出海",
+      "icp_reference_asset_refs": [
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+          "title": "「倍思」BI案例分享",
+          "reference_role": "icp_reference_only_not_prospect_evidence"
+        },
+        {
+          "asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+          "title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+          "reference_role": "icp_reference_only_not_prospect_evidence"
+        },
+        {
+          "asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+          "title": "[互联网+]科技金融_详细案例_萨摩耶",
+          "reference_role": "icp_reference_only_not_prospect_evidence"
+        }
+      ],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_ed9c92986ae7",
+      "candidate_name": "云米科技有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://viomitechnology.gcs-web.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_f36d5e58d75b",
+      "candidate_name": "上海爱婴室商务服务股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.aiyingshi.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_f736020d9704",
+      "candidate_name": "良品铺子股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.517lppz.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_31c7524f6bc2",
+      "candidate_name": "名创优品集团控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://ir.miniso.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_4a802369793e",
+      "candidate_name": "泡泡玛特国际集团有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.popmart.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_373ca60655ce",
+      "candidate_name": "海底捞国际控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.haidilao.com/",
+      "matched_persona": "fnb_chain_standardized",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_53d52bc516c9",
+      "candidate_name": "奈雪的茶控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.naixuecha.com/",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_6fdc15620f2c",
+      "candidate_name": "安克创新科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.anker-in.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_5a006e1af1dc",
+      "candidate_name": "致欧家居科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.songmics.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_789de536089d",
+      "candidate_name": "华宝新能科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.hello-tech.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_2386dc0f707e",
+      "candidate_name": "科沃斯机器人股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.ecovacs.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_a931b6a14819",
+      "candidate_name": "小米集团",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.mi.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_a1885ca484df",
+      "candidate_name": "飞科电器股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.flyco.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_a131a7c57449",
+      "candidate_name": "公牛集团股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.gongniu.cn/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_1c8b4ee1b347",
+      "candidate_name": "老凤祥股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.laofengxiang.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_512347862b4c",
+      "candidate_name": "海澜之家集团股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.hla.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_e5d15b6d9b7f",
+      "candidate_name": "波司登国际控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://company.bosideng.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_755c43e41b6b",
+      "candidate_name": "百胜中国控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://ir.yumchina.com/",
+      "matched_persona": "fnb_chain_standardized",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_7998a8f5901f",
+      "candidate_name": "蜜雪冰城股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.mxbc.com/",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    },
+    {
+      "task_id": "m190_task_0a18cafefcf1",
+      "candidate_name": "古茗控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.gumingnc.com/",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true
+    }
+  ]
+}

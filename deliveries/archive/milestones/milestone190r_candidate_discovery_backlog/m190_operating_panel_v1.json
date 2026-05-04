@@ -1,0 +1,31 @@
+{
+  "milestone": "M190R",
+  "generated_at": "2026-05-04T07:55:54.400557+00:00",
+  "status": "PASS_M190R_CANDIDATE_DISCOVERY_BACKLOG",
+  "summary": {
+    "task_count": 30,
+    "state_counts": {
+      "eligibility_blocked": 14,
+      "source_collection_pending": 16
+    },
+    "eligibility_status_counts": {
+      "excluded_signed_customer": 3,
+      "duplicate_existing_prospect": 10,
+      "eligible_prospect": 16,
+      "boundary_review": 1
+    },
+    "source_collection_pending_count": 16,
+    "eligibility_blocked_count": 14,
+    "identity_pending_count": 0,
+    "excluded_signed_customer_count": 3,
+    "duplicate_existing_prospect_count": 10,
+    "boundary_review_count": 1,
+    "signed_customer_gate_version": "v2",
+    "old_workbook_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M191：对 source_collection_pending 候选采集公开强 evidence，完成后进入 report-only。"
+}
