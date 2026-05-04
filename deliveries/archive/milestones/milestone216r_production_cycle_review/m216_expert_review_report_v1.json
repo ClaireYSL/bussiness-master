@@ -1,0 +1,22 @@
+{
+  "milestone": "M216R",
+  "generated_at": "2026-05-04T11:02:48.582207+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "本轮生产闭环从 35 条候选任务产出 15 家正式 L2，用户层新增可消费对象，老客未进入展示。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "候选发现、evidence acquisition、report-only、guarded publish、vault 输出可回放；M216 为只读复盘。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "signed customer v2、客户案例边界、LLM/evidence 边界、动态字段隔离均保持。"
+  },
+  "summary": {
+    "trusted_pool_count": 108,
+    "l2_published_count": 15,
+    "remaining_source_collection_pending": 8
+  }
+}

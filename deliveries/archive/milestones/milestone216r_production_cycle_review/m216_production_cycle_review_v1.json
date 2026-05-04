@@ -1,0 +1,93 @@
+{
+  "milestone": "M216R",
+  "generated_at": "2026-05-04T11:02:48.195501+00:00",
+  "status": "PASS_M216R_PRODUCTION_CYCLE_REVIEW_READY",
+  "summary": {
+    "trusted_pool_count": 108,
+    "source_trace_count": 108,
+    "level_counts": {
+      "L1": 46,
+      "L2": 61,
+      "L4": 1
+    },
+    "persona_counts": {
+      "retail_high_sku_brand": 30,
+      "fnb_chain_beverage_coffee": 7,
+      "fnb_chain_standardized": 5,
+      "retail_multi_store": 12,
+      "cbec_multi_platform_brand": 46,
+      "cbec_platform_operator": 3,
+      "mfg_multi_factory_group": 3,
+      "mgmt_profit_improvement": 1,
+      "mgmt_inventory_supply_coordination": 1
+    },
+    "l2_persona_counts": {
+      "retail_multi_store": 7,
+      "cbec_multi_platform_brand": 26,
+      "fnb_chain_beverage_coffee": 4,
+      "retail_high_sku_brand": 16,
+      "mgmt_inventory_supply_coordination": 1,
+      "cbec_platform_operator": 2,
+      "fnb_chain_standardized": 3,
+      "mfg_multi_factory_group": 2
+    },
+    "signed_customer_registry_version": "v2",
+    "old_customer_hit_count": 0,
+    "entity_count": 1188,
+    "vault_l1_file_count": 46,
+    "vault_l2_file_count": 103,
+    "vault_l3_file_count": 29,
+    "vault_count_note": "vault 是用户阅读层；L1/L2 物理页可重叠，canonical pool/source trace 才是事实源。"
+  },
+  "funnel": {
+    "candidate_seed_count": 35,
+    "signed_customer_blocked_count": 11,
+    "boundary_review_count": 1,
+    "source_collection_pending_from_discovery": 23,
+    "report_only_ready_count": 15,
+    "source_collection_pending_after_evidence": 8,
+    "l3_preview_count": 15,
+    "l3_published_count": 15,
+    "l2_preview_count": 15,
+    "l2_published_count": 15,
+    "l3_cards_removed_count": 15
+  },
+  "conversion_rates": {
+    "seed_to_source_collection_rate": 0.6571,
+    "source_collection_to_report_ready_rate": 0.6522,
+    "report_ready_to_l2_published_rate": 1.0,
+    "seed_to_l2_published_rate": 0.4286
+  },
+  "quality_observations": [
+    "signed customer v2 gate 有效：35 条 seed 中 11 条被老客拦截，未进入 evidence collection。",
+    "15 条 report-only ready 候选全部从 L3 preview 推进到 L2 发布，说明第二来源补证策略有效。",
+    "仍有 8 条 source_collection_pending，主要是 locator 不可达或需要替代公开来源。",
+    "本轮没有引入动态经营字段，也没有把客户案例或 LLM 输出作为 prospect evidence。"
+  ],
+  "next_options": [
+    {
+      "option": "M217R_l1_preview_for_new_l2_batch",
+      "priority": "P1",
+      "description": "从新发布 15 家 L2 中筛选证据更强对象，补第三强来源并做 L1 preview。"
+    },
+    {
+      "option": "M218R_source_repair_for_pending_8",
+      "priority": "P0",
+      "description": "优先修复 M211 剩余 8 条 source_collection_pending，避免候选发现漏斗浪费。"
+    },
+    {
+      "option": "M220R_next_candidate_discovery_cycle",
+      "priority": "P1",
+      "description": "启动下一轮候选发现，但建议先处理 pending source repair。"
+    }
+  ],
+  "recommendation": "优先做 M218R 修复剩余 8 条来源，再决定是否推进新 L2 的 L1 preview；这样比继续盲目扩候选更稳。",
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}
