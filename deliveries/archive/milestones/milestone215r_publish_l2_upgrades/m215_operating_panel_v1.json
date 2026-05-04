@@ -1,0 +1,18 @@
+{
+  "milestone": "M215R",
+  "generated_at": "2026-05-04T10:58:28.550664+00:00",
+  "status": "PASS_M215R_L2_PUBLISH",
+  "summary": {
+    "trusted_pool_count": 108,
+    "level_counts": {
+      "L1": 46,
+      "L2": 61,
+      "L4": 1
+    },
+    "l2_updated_count": 15,
+    "vault_l2_written_count": 15,
+    "l3_card_removed_count": 15,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M204：完成本轮生产闭环复盘，并决定继续补 L1 证据链或启动下一轮候选发现。"
+}

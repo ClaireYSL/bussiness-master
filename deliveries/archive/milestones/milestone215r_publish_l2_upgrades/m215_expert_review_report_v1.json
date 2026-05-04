@@ -1,0 +1,21 @@
+{
+  "milestone": "M215R",
+  "generated_at": "2026-05-04T10:58:28.550515+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "M215 将 M214 已通过的 19 家 L2 preview 正式写入 L2 用户阅读层；未通过对象继续保留 L3。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "canonical pool/source trace/vault 写入均由显式 guard 触发，并输出 diff、baseline 继承和 removal manifest。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "未写旧 Excel、知识资产或 persona registry；signed customer v2 gate 复核通过；L3 duplicate 受控删除有 manifest。"
+  },
+  "summary": {
+    "l2_updated_count": 15,
+    "vault_l2_written_count": 15
+  }
+}

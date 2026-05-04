@@ -1,6 +1,6 @@
 {
   "registry_id": "account_entity_registry_v2",
-  "generated_at": "2026-05-04T10:49:31.919482+00:00",
+  "generated_at": "2026-05-04T10:58:28.472143+00:00",
   "source_milestone": "M185R",
   "summary": {
     "entity_count": 1188,
@@ -10,7 +10,7 @@
     "customer_case_reference_entity_count": 22,
     "multi_role_entity_count": 108,
     "signed_customer_gate_version": "v2",
-    "canonical_update_source": "M213R_publish_M212_L3_preview"
+    "canonical_update_source": "M215R_publish_M214_L2_preview"
   },
   "items": [
     {
@@ -33668,9 +33668,9 @@
         }
       ],
       "prospect_id": "m212_c904a7cba7f8",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_11eb2cc4a6ac",
@@ -33696,9 +33696,9 @@
         }
       ],
       "prospect_id": "m212_11eb2cc4a6ac",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_9b57718ff578",
@@ -33724,9 +33724,9 @@
         }
       ],
       "prospect_id": "m212_9b57718ff578",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_859a87d98d9a",
@@ -33752,9 +33752,9 @@
         }
       ],
       "prospect_id": "m212_859a87d98d9a",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_63f639244bec",
@@ -33780,9 +33780,9 @@
         }
       ],
       "prospect_id": "m212_63f639244bec",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_748b1a20942d",
@@ -33808,9 +33808,9 @@
         }
       ],
       "prospect_id": "m212_748b1a20942d",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_02ff075aea7f",
@@ -33836,9 +33836,9 @@
         }
       ],
       "prospect_id": "m212_02ff075aea7f",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_2f9ca072bf28",
@@ -33864,9 +33864,9 @@
         }
       ],
       "prospect_id": "m212_2f9ca072bf28",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_72a0a2db5ffe",
@@ -33892,9 +33892,9 @@
         }
       ],
       "prospect_id": "m212_72a0a2db5ffe",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_6e6640789898",
@@ -33920,9 +33920,9 @@
         }
       ],
       "prospect_id": "m212_6e6640789898",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_192abb151bd3",
@@ -33948,9 +33948,9 @@
         }
       ],
       "prospect_id": "m212_192abb151bd3",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "mfg_multi_factory_group",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_d250e1c7ff28",
@@ -33976,9 +33976,9 @@
         }
       ],
       "prospect_id": "m212_d250e1c7ff28",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "mfg_multi_factory_group",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_94fc9ae9d9a2",
@@ -34004,9 +34004,9 @@
         }
       ],
       "prospect_id": "m212_94fc9ae9d9a2",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "fnb_chain_beverage_coffee",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_419ffc22f200",
@@ -34032,9 +34032,9 @@
         }
       ],
       "prospect_id": "m212_419ffc22f200",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "fnb_chain_standardized",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     },
     {
       "entity_id": "entity_9dad5623f692",
@@ -34060,9 +34060,9 @@
         }
       ],
       "prospect_id": "m212_9dad5623f692",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M213R_publish_M212_L3_preview"
+      "canonical_update_source": "M215R_publish_M214_L2_preview"
     }
   ]
 }
