@@ -1,0 +1,10 @@
+{
+  "batch_id": "m150r_source_quality_admission_v1",
+  "generated_at": "2026-05-04T04:25:50.092956+00:00",
+  "summary": {
+    "evidence_row_count": 9,
+    "complete_evidence_row_count": 9,
+    "llm_used_as_evidence_count": 0
+  },
+  "invalid_sources": []
+}

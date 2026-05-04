@@ -1,6 +1,6 @@
 {
   "batch_id": "m140r_source_freshness_report_v1",
-  "generated_at": "2026-05-04T03:50:14.699320+00:00",
+  "generated_at": "2026-05-04T04:25:49.481033+00:00",
   "summary": {
     "source_checked_count": 196,
     "fresh_count": 166,
@@ -14,7 +14,7 @@
       "source_locator": "https://bears.com.cn/invest/notice.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698611+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480404+00:00"
     },
     {
       "prospect_id": "m44r_prospect_bear",
@@ -22,7 +22,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698619+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480411+00:00"
     },
     {
       "prospect_id": "m44r_prospect_bear",
@@ -30,7 +30,7 @@
       "source_locator": "https://www.bears.com.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698623+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480415+00:00"
     },
     {
       "prospect_id": "m44r_prospect_botanee",
@@ -38,7 +38,7 @@
       "source_locator": "https://www.botanee.com.cn/investor-relations.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698628+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480420+00:00"
     },
     {
       "prospect_id": "m44r_prospect_botanee",
@@ -46,7 +46,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300957&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698632+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480423+00:00"
     },
     {
       "prospect_id": "m44r_prospect_botanee",
@@ -54,7 +54,7 @@
       "source_locator": "https://www.botanee.com.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698636+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480427+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chabaidao",
@@ -62,7 +62,7 @@
       "source_locator": "https://www.chabaidao.com/home/index/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698640+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480430+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chabaidao",
@@ -70,7 +70,7 @@
       "source_locator": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh&stock_code=02555",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698644+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480434+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chabaidao",
@@ -78,7 +78,7 @@
       "source_locator": "https://www.chabaidao.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698647+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480437+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chagee",
@@ -86,7 +86,7 @@
       "source_locator": "https://investor.chagee.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698651+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480440+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chagee",
@@ -94,7 +94,7 @@
       "source_locator": "https://investor.chagee.com/financials/sec-filings",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698655+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480444+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chagee",
@@ -102,7 +102,7 @@
       "source_locator": "https://www.chagee.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698659+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480447+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chowtaiseng",
@@ -110,7 +110,7 @@
       "source_locator": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698662+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480450+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chowtaiseng",
@@ -118,7 +118,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002867&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698666+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480454+00:00"
     },
     {
       "prospect_id": "m44r_prospect_chowtaiseng",
@@ -126,7 +126,7 @@
       "source_locator": "https://www.chowtaiseng.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698669+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480457+00:00"
     },
     {
       "prospect_id": "m44r_prospect_focus_tech",
@@ -134,7 +134,7 @@
       "source_locator": "https://www.focuschina.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698673+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480460+00:00"
     },
     {
       "prospect_id": "m44r_prospect_focus_tech",
@@ -142,7 +142,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002315&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698677+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480464+00:00"
     },
     {
       "prospect_id": "m44r_prospect_focus_tech",
@@ -150,7 +150,7 @@
       "source_locator": "https://www.focuschina.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698679+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480466+00:00"
     },
     {
       "prospect_id": "m44r_prospect_jiumaojiu",
@@ -158,7 +158,7 @@
       "source_locator": "https://www.jiumaojiu.com/about/index.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698683+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480469+00:00"
     },
     {
       "prospect_id": "m44r_prospect_jiumaojiu",
@@ -166,7 +166,7 @@
       "source_locator": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh&stock_code=09922",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698686+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480473+00:00"
     },
     {
       "prospect_id": "m44r_prospect_jiumaojiu",
@@ -174,7 +174,7 @@
       "source_locator": "https://www.jiumaojiu.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698690+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480476+00:00"
     },
     {
       "prospect_id": "m44r_prospect_juewei",
@@ -182,7 +182,7 @@
       "source_locator": "https://www.juewei.cn/page/jwd/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698695+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480481+00:00"
     },
     {
       "prospect_id": "m44r_prospect_juewei",
@@ -190,7 +190,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603517&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698699+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480484+00:00"
     },
     {
       "prospect_id": "m44r_prospect_juewei",
@@ -198,7 +198,7 @@
       "source_locator": "https://www.juewei.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698702+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480488+00:00"
     },
     {
       "prospect_id": "m44r_prospect_kidswant",
@@ -206,7 +206,7 @@
       "source_locator": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698706+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480491+00:00"
     },
     {
       "prospect_id": "m44r_prospect_kidswant",
@@ -214,7 +214,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301078&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698710+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480494+00:00"
     },
     {
       "prospect_id": "m44r_prospect_kidswant",
@@ -222,7 +222,7 @@
       "source_locator": "https://www.haiziwang.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698713+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480498+00:00"
     },
     {
       "prospect_id": "m44r_prospect_luckin",
@@ -230,7 +230,7 @@
       "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698717+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480501+00:00"
     },
     {
       "prospect_id": "m44r_prospect_luckin",
@@ -238,7 +238,7 @@
       "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698719+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480503+00:00"
     },
     {
       "prospect_id": "m44r_prospect_luckin",
@@ -246,7 +246,7 @@
       "source_locator": "https://www.luckincoffee.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698722+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480506+00:00"
     },
     {
       "prospect_id": "m44r_prospect_pagoda",
@@ -254,7 +254,7 @@
       "source_locator": "https://www.pagoda.com.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698726+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480509+00:00"
     },
     {
       "prospect_id": "m44r_prospect_pagoda",
@@ -262,7 +262,7 @@
       "source_locator": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh&stock_code=02411",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698729+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480513+00:00"
     },
     {
       "prospect_id": "m44r_prospect_pagoda",
@@ -270,7 +270,7 @@
       "source_locator": "https://www.pagoda.com.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698731+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480515+00:00"
     },
     {
       "prospect_id": "m44r_prospect_roborock",
@@ -278,7 +278,7 @@
       "source_locator": "https://group.roborock.com/zh-hk/contact-us",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698735+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480518+00:00"
     },
     {
       "prospect_id": "m44r_prospect_roborock",
@@ -286,7 +286,7 @@
       "source_locator": "http://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688169",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698739+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480522+00:00"
     },
     {
       "prospect_id": "m44r_prospect_roborock",
@@ -294,7 +294,7 @@
       "source_locator": "https://www.roborock.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698742+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480525+00:00"
     },
     {
       "prospect_id": "m44r_prospect_sailvan",
@@ -302,7 +302,7 @@
       "source_locator": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217697315.PDF",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698746+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480528+00:00"
     },
     {
       "prospect_id": "m44r_prospect_sailvan",
@@ -310,7 +310,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698750+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480531+00:00"
     },
     {
       "prospect_id": "m44r_prospect_sailvan",
@@ -318,7 +318,7 @@
       "source_locator": "https://www.sailvan.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698753+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480535+00:00"
     },
     {
       "prospect_id": "m44r_prospect_syoung",
@@ -326,7 +326,7 @@
       "source_locator": "https://syounggroup.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698757+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480538+00:00"
     },
     {
       "prospect_id": "m44r_prospect_syoung",
@@ -334,7 +334,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300740&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698760+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480541+00:00"
     },
     {
       "prospect_id": "m44r_prospect_syoung",
@@ -342,7 +342,7 @@
       "source_locator": "https://syounggroup.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698763+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480543+00:00"
     },
     {
       "prospect_id": "m44r_prospect_three_squirrels",
@@ -350,7 +350,7 @@
       "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698766+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480547+00:00"
     },
     {
       "prospect_id": "m44r_prospect_three_squirrels",
@@ -358,7 +358,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300783&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698770+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480550+00:00"
     },
     {
       "prospect_id": "m44r_prospect_three_squirrels",
@@ -366,7 +366,7 @@
       "source_locator": "https://www.3songshu.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698774+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480554+00:00"
     },
     {
       "prospect_id": "m44r_prospect_viomi",
@@ -374,7 +374,7 @@
       "source_locator": "https://viomitechnology.gcs-web.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698778+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480557+00:00"
     },
     {
       "prospect_id": "m44r_prospect_viomi",
@@ -382,7 +382,7 @@
       "source_locator": "https://ir.viomi.com/financial-information/sec-filings",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698781+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480561+00:00"
     },
     {
       "prospect_id": "m44r_prospect_viomi",
@@ -390,7 +390,7 @@
       "source_locator": "https://www.viomi.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698784+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480564+00:00"
     },
     {
       "prospect_id": "m44r_prospect_winner_medical",
@@ -398,7 +398,7 @@
       "source_locator": "https://www.winnermedical.cn/investor/report.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698788+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480567+00:00"
     },
     {
       "prospect_id": "m44r_prospect_winner_medical",
@@ -406,7 +406,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300888&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698792+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480570+00:00"
     },
     {
       "prospect_id": "m44r_prospect_winner_medical",
@@ -414,7 +414,7 @@
       "source_locator": "https://www.winnermedical.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698795+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480574+00:00"
     },
     {
       "prospect_id": "m44r_prospect_yanjinpuzi",
@@ -422,7 +422,7 @@
       "source_locator": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698799+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480577+00:00"
     },
     {
       "prospect_id": "m44r_prospect_yanjinpuzi",
@@ -430,7 +430,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002847&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698803+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480580+00:00"
     },
     {
       "prospect_id": "m44r_prospect_yanjinpuzi",
@@ -438,7 +438,7 @@
       "source_locator": "https://www.yanjinpuzi.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698806+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480584+00:00"
     },
     {
       "prospect_id": "m44r_prospect_yatsen",
@@ -446,7 +446,7 @@
       "source_locator": "https://ir.yatsenglobal.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698810+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480587+00:00"
     },
     {
       "prospect_id": "m44r_prospect_yatsen",
@@ -454,7 +454,7 @@
       "source_locator": "https://ir.yatsenglobal.com/SEC-Filings",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698813+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480590+00:00"
     },
     {
       "prospect_id": "m44r_prospect_yatsen",
@@ -462,7 +462,7 @@
       "source_locator": "https://www.yatsenglobal.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698816+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480593+00:00"
     },
     {
       "prospect_id": "m68r_acc_babi",
@@ -470,7 +470,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698820+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480597+00:00"
     },
     {
       "prospect_id": "m68r_acc_babi",
@@ -478,7 +478,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698824+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480600+00:00"
     },
     {
       "prospect_id": "m68r_acc_babi",
@@ -486,7 +486,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698828+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480604+00:00"
     },
     {
       "prospect_id": "m68r_acc_babi",
@@ -494,7 +494,7 @@
       "source_locator": "https://www.babifood.com/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698832+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480607+00:00"
     },
     {
       "prospect_id": "m68r_acc_bbg",
@@ -502,7 +502,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698836+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480610+00:00"
     },
     {
       "prospect_id": "m68r_acc_bbg",
@@ -510,7 +510,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698838+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480613+00:00"
     },
     {
       "prospect_id": "m68r_acc_bbg",
@@ -518,7 +518,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698842+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480616+00:00"
     },
     {
       "prospect_id": "m68r_acc_bbg",
@@ -526,7 +526,7 @@
       "source_locator": "https://www.bbg.com.cn/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698845+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480619+00:00"
     },
     {
       "prospect_id": "m68r_acc_bear",
@@ -534,7 +534,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698850+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480623+00:00"
     },
     {
       "prospect_id": "m68r_acc_bear",
@@ -542,7 +542,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698854+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480627+00:00"
     },
     {
       "prospect_id": "m68r_acc_bear",
@@ -550,7 +550,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698857+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480630+00:00"
     },
     {
       "prospect_id": "m68r_acc_bear",
@@ -558,7 +558,7 @@
       "source_locator": "https://www.bears.com.cn/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698861+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480633+00:00"
     },
     {
       "prospect_id": "m68r_acc_bloomage",
@@ -566,7 +566,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698864+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480637+00:00"
     },
     {
       "prospect_id": "m68r_acc_bloomage",
@@ -574,7 +574,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698867+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480639+00:00"
     },
     {
       "prospect_id": "m68r_acc_bloomage",
@@ -582,7 +582,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698870+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480643+00:00"
     },
     {
       "prospect_id": "m68r_acc_bloomage",
@@ -590,7 +590,7 @@
       "source_locator": "https://www.bloomagebiotech.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698874+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480646+00:00"
     },
     {
       "prospect_id": "m68r_acc_haers",
@@ -598,7 +598,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698878+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480649+00:00"
     },
     {
       "prospect_id": "m68r_acc_haers",
@@ -606,7 +606,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698880+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480651+00:00"
     },
     {
       "prospect_id": "m68r_acc_haers",
@@ -614,7 +614,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698885+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480655+00:00"
     },
     {
       "prospect_id": "m68r_acc_haers",
@@ -622,7 +622,7 @@
       "source_locator": "https://www.haers.cn/knowUs/Default.htm",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698888+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480658+00:00"
     },
     {
       "prospect_id": "m68r_acc_hailide",
@@ -630,7 +630,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698892+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480661+00:00"
     },
     {
       "prospect_id": "m68r_acc_hailide",
@@ -638,7 +638,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698894+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480663+00:00"
     },
     {
       "prospect_id": "m68r_acc_hailide",
@@ -646,7 +646,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698898+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480667+00:00"
     },
     {
       "prospect_id": "m68r_acc_haixiang",
@@ -654,7 +654,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698902+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480670+00:00"
     },
     {
       "prospect_id": "m68r_acc_haixiang",
@@ -662,7 +662,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698904+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480672+00:00"
     },
     {
       "prospect_id": "m68r_acc_haixiang",
@@ -670,7 +670,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698908+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480676+00:00"
     },
     {
       "prospect_id": "m68r_acc_hengansecurity",
@@ -678,7 +678,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698912+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480679+00:00"
     },
     {
       "prospect_id": "m68r_acc_hengansecurity",
@@ -686,7 +686,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698914+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480681+00:00"
     },
     {
       "prospect_id": "m68r_acc_hengansecurity",
@@ -694,7 +694,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698917+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480685+00:00"
     },
     {
       "prospect_id": "m68r_acc_henglin",
@@ -702,7 +702,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698921+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480688+00:00"
     },
     {
       "prospect_id": "m68r_acc_henglin",
@@ -710,7 +710,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698924+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480690+00:00"
     },
     {
       "prospect_id": "m68r_acc_henglin",
@@ -718,7 +718,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698927+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480693+00:00"
     },
     {
       "prospect_id": "m68r_acc_henglin",
@@ -726,7 +726,7 @@
       "source_locator": "https://www.henglin.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698931+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480697+00:00"
     },
     {
       "prospect_id": "m68r_acc_hengwei",
@@ -734,7 +734,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698934+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480700+00:00"
     },
     {
       "prospect_id": "m68r_acc_hengwei",
@@ -742,7 +742,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698937+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480702+00:00"
     },
     {
       "prospect_id": "m68r_acc_hengwei",
@@ -750,7 +750,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698941+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480706+00:00"
     },
     {
       "prospect_id": "m68r_acc_hlin",
@@ -758,7 +758,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698945+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480710+00:00"
     },
     {
       "prospect_id": "m68r_acc_hlin",
@@ -766,7 +766,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698949+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480713+00:00"
     },
     {
       "prospect_id": "m68r_acc_hlin",
@@ -774,7 +774,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698953+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480716+00:00"
     },
     {
       "prospect_id": "m68r_acc_jame",
@@ -782,7 +782,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698956+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480720+00:00"
     },
     {
       "prospect_id": "m68r_acc_jame",
@@ -790,7 +790,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698959+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480722+00:00"
     },
     {
       "prospect_id": "m68r_acc_jame",
@@ -798,7 +798,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698962+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480725+00:00"
     },
     {
       "prospect_id": "m68r_acc_longood",
@@ -806,7 +806,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698966+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480729+00:00"
     },
     {
       "prospect_id": "m68r_acc_longood",
@@ -814,7 +814,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698968+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480731+00:00"
     },
     {
       "prospect_id": "m68r_acc_longood",
@@ -822,7 +822,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698972+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480734+00:00"
     },
     {
       "prospect_id": "m68r_acc_mengtian_wood",
@@ -830,7 +830,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698975+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480738+00:00"
     },
     {
       "prospect_id": "m68r_acc_mengtian_wood",
@@ -838,7 +838,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698978+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480740+00:00"
     },
     {
       "prospect_id": "m68r_acc_mengtian_wood",
@@ -846,7 +846,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698981+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480743+00:00"
     },
     {
       "prospect_id": "m68r_acc_mingxin",
@@ -854,7 +854,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698985+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480747+00:00"
     },
     {
       "prospect_id": "m68r_acc_mingxin",
@@ -862,7 +862,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698988+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480749+00:00"
     },
     {
       "prospect_id": "m68r_acc_mingxin",
@@ -870,7 +870,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698991+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480753+00:00"
     },
     {
       "prospect_id": "m68r_acc_mustangbat",
@@ -878,7 +878,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.698995+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480756+00:00"
     },
     {
       "prospect_id": "m68r_acc_mustangbat",
@@ -886,7 +886,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.698997+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480758+00:00"
     },
     {
       "prospect_id": "m68r_acc_mustangbat",
@@ -894,7 +894,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699001+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480762+00:00"
     },
     {
       "prospect_id": "m68r_acc_patio",
@@ -902,7 +902,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699005+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480765+00:00"
     },
     {
       "prospect_id": "m68r_acc_patio",
@@ -910,7 +910,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699007+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480767+00:00"
     },
     {
       "prospect_id": "m68r_acc_patio",
@@ -918,7 +918,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699011+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480770+00:00"
     },
     {
       "prospect_id": "m68r_acc_patio",
@@ -926,7 +926,7 @@
       "source_locator": "https://www.zhengte.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699014+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480773+00:00"
     },
     {
       "prospect_id": "m68r_acc_sailvan",
@@ -934,7 +934,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699018+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480777+00:00"
     },
     {
       "prospect_id": "m68r_acc_sailvan",
@@ -942,7 +942,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699020+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480779+00:00"
     },
     {
       "prospect_id": "m68r_acc_sailvan",
@@ -950,7 +950,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699024+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480782+00:00"
     },
     {
       "prospect_id": "m68r_acc_sailvan",
@@ -958,7 +958,7 @@
       "source_locator": "https://www.sailvan.com/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699027+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480785+00:00"
     },
     {
       "prospect_id": "m68r_acc_santai",
@@ -966,7 +966,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699031+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480789+00:00"
     },
     {
       "prospect_id": "m68r_acc_santai",
@@ -974,7 +974,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699035+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480793+00:00"
     },
     {
       "prospect_id": "m68r_acc_santai",
@@ -982,7 +982,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699039+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480796+00:00"
     },
     {
       "prospect_id": "m68r_acc_santai",
@@ -990,7 +990,7 @@
       "source_locator": "https://www.sfcservice.com/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699042+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480799+00:00"
     },
     {
       "prospect_id": "m68r_acc_shengtai",
@@ -998,7 +998,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699046+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480803+00:00"
     },
     {
       "prospect_id": "m68r_acc_shengtai",
@@ -1006,7 +1006,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699048+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480805+00:00"
     },
     {
       "prospect_id": "m68r_acc_shengtai",
@@ -1014,7 +1014,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699052+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480808+00:00"
     },
     {
       "prospect_id": "m68r_acc_skshu",
@@ -1022,7 +1022,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699056+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480812+00:00"
     },
     {
       "prospect_id": "m68r_acc_skshu",
@@ -1030,7 +1030,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699058+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480814+00:00"
     },
     {
       "prospect_id": "m68r_acc_skshu",
@@ -1038,7 +1038,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699062+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480817+00:00"
     },
     {
       "prospect_id": "m68r_acc_taipeng",
@@ -1046,7 +1046,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699065+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480821+00:00"
     },
     {
       "prospect_id": "m68r_acc_taipeng",
@@ -1054,7 +1054,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699068+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480823+00:00"
     },
     {
       "prospect_id": "m68r_acc_taipeng",
@@ -1062,7 +1062,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699071+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480826+00:00"
     },
     {
       "prospect_id": "m68r_acc_topstar",
@@ -1070,7 +1070,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699075+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480829+00:00"
     },
     {
       "prospect_id": "m68r_acc_topstar",
@@ -1078,7 +1078,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699077+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480832+00:00"
     },
     {
       "prospect_id": "m68r_acc_topstar",
@@ -1086,7 +1086,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699081+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480835+00:00"
     },
     {
       "prospect_id": "m68r_acc_topstar",
@@ -1094,7 +1094,7 @@
       "source_locator": "https://www.topstarltd.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699084+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480838+00:00"
     },
     {
       "prospect_id": "m68r_acc_uechairs",
@@ -1102,7 +1102,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699088+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480842+00:00"
     },
     {
       "prospect_id": "m68r_acc_uechairs",
@@ -1110,7 +1110,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699090+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480844+00:00"
     },
     {
       "prospect_id": "m68r_acc_uechairs",
@@ -1118,7 +1118,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699094+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480847+00:00"
     },
     {
       "prospect_id": "m68r_acc_uechairs",
@@ -1126,7 +1126,7 @@
       "source_locator": "https://www.uechairs.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699097+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480850+00:00"
     },
     {
       "prospect_id": "m68r_acc_washin",
@@ -1134,7 +1134,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699101+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480854+00:00"
     },
     {
       "prospect_id": "m68r_acc_washin",
@@ -1142,7 +1142,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699103+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480856+00:00"
     },
     {
       "prospect_id": "m68r_acc_washin",
@@ -1150,7 +1150,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699107+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480859+00:00"
     },
     {
       "prospect_id": "m68r_acc_xinghua",
@@ -1158,7 +1158,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699110+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480863+00:00"
     },
     {
       "prospect_id": "m68r_acc_xinghua",
@@ -1166,7 +1166,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699112+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480865+00:00"
     },
     {
       "prospect_id": "m68r_acc_xinghua",
@@ -1174,7 +1174,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699116+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480868+00:00"
     },
     {
       "prospect_id": "m68r_acc_yayi",
@@ -1182,7 +1182,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699121+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480872+00:00"
     },
     {
       "prospect_id": "m68r_acc_yayi",
@@ -1190,7 +1190,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699125+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480876+00:00"
     },
     {
       "prospect_id": "m68r_acc_yayi",
@@ -1198,7 +1198,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699128+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480879+00:00"
     },
     {
       "prospect_id": "m68r_acc_yotrio",
@@ -1206,7 +1206,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699132+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480882+00:00"
     },
     {
       "prospect_id": "m68r_acc_yotrio",
@@ -1214,7 +1214,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699134+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480885+00:00"
     },
     {
       "prospect_id": "m68r_acc_yotrio",
@@ -1222,7 +1222,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699138+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480888+00:00"
     },
     {
       "prospect_id": "m68r_acc_yotrio",
@@ -1230,7 +1230,7 @@
       "source_locator": "https://www.yotrio.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699141+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480891+00:00"
     },
     {
       "prospect_id": "m68r_acc_youkeshu",
@@ -1238,7 +1238,7 @@
       "source_locator": "https://sorobuy.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699145+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480895+00:00"
     },
     {
       "prospect_id": "m68r_acc_youkeshu",
@@ -1246,7 +1246,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699147+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480897+00:00"
     },
     {
       "prospect_id": "m68r_acc_zhengyu",
@@ -1254,7 +1254,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699151+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480900+00:00"
     },
     {
       "prospect_id": "m68r_acc_zhengyu",
@@ -1262,7 +1262,7 @@
       "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
       "source_category": "internal_or_legacy_reference",
       "source_freshness_status": "needs_recheck",
-      "source_health_checked_at": "2026-05-04T03:50:14.699153+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480902+00:00"
     },
     {
       "prospect_id": "m68r_acc_zhengyu",
@@ -1270,7 +1270,7 @@
       "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089&announcementType=010301",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699157+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480906+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_busyming",
@@ -1278,7 +1278,7 @@
       "source_locator": "https://www.busyming.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699161+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480909+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_busyming",
@@ -1286,7 +1286,7 @@
       "source_locator": "https://www.busyming.com/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699163+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480911+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_busyming",
@@ -1294,7 +1294,7 @@
       "source_locator": "https://www.stcn.com/article/detail/799343.html",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699166+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480914+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_zhaoyiming",
@@ -1302,7 +1302,7 @@
       "source_locator": "https://www.zymls.com/zsjm.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699170+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480917+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_zhaoyiming",
@@ -1310,7 +1310,7 @@
       "source_locator": "https://www.zymls.com/zsjm.html",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699172+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480919+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_zhaoyiming",
@@ -1318,7 +1318,7 @@
       "source_locator": "https://www.foodaily.com/articles/31851",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699176+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480923+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_kuafood",
@@ -1326,7 +1326,7 @@
       "source_locator": "https://www.kuafood.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699179+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480926+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_kuafood",
@@ -1334,7 +1334,7 @@
       "source_locator": "https://www.kuafood.com/brand",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699182+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480929+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_kuafood",
@@ -1342,7 +1342,7 @@
       "source_locator": "https://www.pencilnews.cn/p/39109.html",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699186+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480932+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_more_yogurt",
@@ -1350,7 +1350,7 @@
       "source_locator": "https://more-yogurt.com/index/about",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699189+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480935+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_more_yogurt",
@@ -1358,7 +1358,7 @@
       "source_locator": "https://more-yogurt.com/index/about",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699192+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480937+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_heytea",
@@ -1366,7 +1366,7 @@
       "source_locator": "https://www.heytea.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699195+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480941+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_heytea",
@@ -1374,7 +1374,7 @@
       "source_locator": "https://www.heytea.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699198+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480943+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_heytea",
@@ -1382,7 +1382,7 @@
       "source_locator": "https://www.hongshan.com/companies/heytea/",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699201+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480946+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_bananain",
@@ -1390,7 +1390,7 @@
       "source_locator": "http://www.bananain.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699205+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480949+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_bananain",
@@ -1398,7 +1398,7 @@
       "source_locator": "https://www.36kr.com/p/965180353109762",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699209+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480953+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_bananain",
@@ -1406,7 +1406,7 @@
       "source_locator": "https://www.morketing.com/detail/16999",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699212+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480956+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_hotmaxx",
@@ -1414,7 +1414,7 @@
       "source_locator": "https://www.hotmaxx.cn/index.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699216+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480960+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_hotmaxx",
@@ -1422,7 +1422,7 @@
       "source_locator": "https://www.hotmaxx.cn/index.html",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699218+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480962+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_hotmaxx",
@@ -1430,7 +1430,7 @@
       "source_locator": "https://www.cbinsights.com/company/hotmaxx",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699221+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480965+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_babycare",
@@ -1438,7 +1438,7 @@
       "source_locator": "https://www.babycare.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699225+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480968+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_babycare",
@@ -1446,7 +1446,7 @@
       "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699228+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480971+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_petkit",
@@ -1454,7 +1454,7 @@
       "source_locator": "https://www.petkit.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699232+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480975+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_petkit",
@@ -1462,7 +1462,7 @@
       "source_locator": "https://www.brandstar.com.cn/news/2314",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699235+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480978+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_petkit",
@@ -1470,7 +1470,7 @@
       "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202208251577645279_1.pdf",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699239+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480981+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_simpcare",
@@ -1478,7 +1478,7 @@
       "source_locator": "https://www.simpcare.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699244+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480984+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_simpcare",
@@ -1486,7 +1486,7 @@
       "source_locator": "https://news.pedaily.cn/202009/459918.shtml",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699248+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480987+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_kkv",
@@ -1494,7 +1494,7 @@
       "source_locator": "https://www.kkguan.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699251+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480991+00:00"
     },
     {
       "prospect_id": "m85r_nonlisted_kkv",
@@ -1502,7 +1502,7 @@
       "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699254+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480994+00:00"
     },
     {
       "prospect_id": "m127r_peacebird",
@@ -1510,7 +1510,7 @@
       "source_locator": "https://www.peacebird.com.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699279+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.480997+00:00"
     },
     {
       "prospect_id": "m127r_peacebird",
@@ -1518,7 +1518,7 @@
       "source_locator": "https://shop.peacebird.com/",
       "source_category": "platform_operating_fact",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699283+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481000+00:00"
     },
     {
       "prospect_id": "m127r_peacebird",
@@ -1526,7 +1526,7 @@
       "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222923564.PDF",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699287+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481003+00:00"
     },
     {
       "prospect_id": "m127r_anta",
@@ -1534,7 +1534,7 @@
       "source_locator": "https://www.anta.cn/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699290+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481006+00:00"
     },
     {
       "prospect_id": "m127r_anta",
@@ -1542,7 +1542,7 @@
       "source_locator": "https://ir.anta.com/en/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699294+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481010+00:00"
     },
     {
       "prospect_id": "m127r_anta",
@@ -1550,7 +1550,7 @@
       "source_locator": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0331/2025033100649.pdf",
       "source_category": "regulatory_or_capital_market",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699297+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481013+00:00"
     },
     {
       "prospect_id": "m127r_chando_group",
@@ -1558,7 +1558,7 @@
       "source_locator": "https://www.chandogroup.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699301+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481016+00:00"
     },
     {
       "prospect_id": "m127r_chando_group",
@@ -1566,7 +1566,7 @@
       "source_locator": "https://www.chandogroup.com/",
       "source_category": "official_owned",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699303+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481018+00:00"
     },
     {
       "prospect_id": "m127r_chando_group",
@@ -1574,7 +1574,7 @@
       "source_locator": "https://www.caffci.org/upload/files/20250709/2024%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%96%99%E9%A6%99%E7%B2%BE%E5%8C%96%E5%A6%86%E5%93%81%E8%A1%8C%E4%B8%9A%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B%E9%9B%86.pdf",
       "source_category": "authoritative_third_party",
       "source_freshness_status": "fresh",
-      "source_health_checked_at": "2026-05-04T03:50:14.699308+00:00"
+      "source_health_checked_at": "2026-05-04T04:25:49.481022+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "batch_id": "signed_customer_registry_update_policy_v1",
-  "generated_at": "2026-05-04T04:08:11.308519+00:00",
+  "generated_at": "2026-05-04T04:25:49.317427+00:00",
   "update_mode": "preview_first_explicit_guard",
   "required_guard": "--allow-signed-customer-registry-update",
   "diff_fields": [

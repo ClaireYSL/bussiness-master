@@ -1,0 +1,70 @@
+{
+  "batch_id": "m150r_production_trusted_pool_batch_v2",
+  "milestone": "M150R",
+  "generated_at": "2026-05-04T04:25:50.274316+00:00",
+  "status": "PASS_TRUSTED_POOL_BATCH_V2_READY",
+  "summary": {
+    "candidate_count": 3,
+    "suggested_level_counts": {
+      "L1": 2,
+      "L2": 1
+    },
+    "pool_diff_change_count": 3,
+    "canonical_pool_updated": true,
+    "source_trace_updated": true,
+    "baseline_candidate_count": 3,
+    "missing_guard_update_blocked": true,
+    "baseline_mismatch_failed": true,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  },
+  "pool_diff": {
+    "batch_id": "m128r_pool_diff_report_v1",
+    "generated_at": "2026-05-04T04:25:49.638257+00:00",
+    "summary": {
+      "change_count": 3,
+      "append_count": 0,
+      "update_count": 3
+    },
+    "items": [
+      {
+        "prospect_id": "m127r_peacebird",
+        "company_name": "宁波太平鸟时尚服饰股份有限公司",
+        "change_type": "update",
+        "suggested_level": "L1",
+        "gap_count": 0
+      },
+      {
+        "prospect_id": "m127r_anta",
+        "company_name": "安踏体育用品有限公司",
+        "change_type": "update",
+        "suggested_level": "L1",
+        "gap_count": 0
+      },
+      {
+        "prospect_id": "m127r_chando_group",
+        "company_name": "自然堂集团",
+        "change_type": "update",
+        "suggested_level": "L2",
+        "gap_count": 1
+      }
+    ]
+  },
+  "no_contamination_proof": {
+    "batch_id": "m128r_no_contamination_proof_v1",
+    "generated_at": "2026-05-04T04:25:49.638260+00:00",
+    "status": "PASS_NO_CONTAMINATION",
+    "old_excel_written": false,
+    "knowledge_asset_registry_written_from_prospect": false,
+    "persona_registry_written_from_prospect": false,
+    "trusted_pool_updated": true,
+    "source_trace_updated": true
+  },
+  "guard_probe_without_allow": {
+    "returncode": 0
+  },
+  "baseline_mismatch_probe": {
+    "returncode": 0
+  }
+}

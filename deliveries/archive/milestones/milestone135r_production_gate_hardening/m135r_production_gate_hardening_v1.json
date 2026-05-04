@@ -1,7 +1,7 @@
 {
   "batch_id": "m135r_production_gate_hardening_v1",
   "milestone": "M135R",
-  "generated_at": "2026-05-04T03:48:54.959518+00:00",
+  "generated_at": "2026-05-04T04:25:49.353455+00:00",
   "status": "PASS",
   "summary": {
     "signed_customer_count": 10,
@@ -31,7 +31,7 @@
     "stderr": ""
   },
   "json_parse": {
-    "checked_count": 14,
+    "checked_count": 15,
     "error_count": 0,
     "errors": []
   },

@@ -1,0 +1,61 @@
+{
+  "batch_id": "m150r_expert_review_package_v1",
+  "milestone": "M150R",
+  "generated_at": "2026-05-04T04:25:50.280435+00:00",
+  "review_roles": [
+    "product",
+    "architecture",
+    "data_governance"
+  ],
+  "product_review_checklist": [
+    {
+      "check": "用户可判断是否 ICP",
+      "status": "pass",
+      "evidence": "vault 输出包含 ICP 匹配理由、产品/服务、业务模式、证据、风险/缺口。"
+    },
+    {
+      "check": "用户无需读 JSON/milestone",
+      "status": "pass_with_followups",
+      "evidence": "vault 正区已写入新增对象；仍建议后续治理 L1/L2/L3 物理重复。"
+    }
+  ],
+  "architecture_review_checklist": [
+    {
+      "check": "统一入口",
+      "status": "pass",
+      "evidence": "businessmaster_pipeline.py 已作为默认入口，M150 接入 production/readiness。"
+    },
+    {
+      "check": "guard 完整",
+      "status": "pass",
+      "evidence": "trusted pool update guard 与 baseline mismatch 均有失败探针。"
+    },
+    {
+      "check": "registry 解耦",
+      "status": "pass",
+      "evidence": "knowledge/persona/signed/entity/case reference/trusted pool 独立承载。"
+    }
+  ],
+  "data_governance_review_checklist": [
+    {
+      "check": "source trace",
+      "status": "pass",
+      "evidence": "source trace count=63。"
+    },
+    {
+      "check": "老客排除",
+      "status": "pass",
+      "evidence": "signed customer gate 与 prospect eligibility gate 已进入生产路径。"
+    },
+    {
+      "check": "客户案例边界",
+      "status": "pass",
+      "evidence": "customer case reference 不作为 prospect evidence，不自动确认 signed customer。"
+    },
+    {
+      "check": "动态字段隔离",
+      "status": "pass",
+      "evidence": "dynamic-term scan PASS。"
+    }
+  ]
+}

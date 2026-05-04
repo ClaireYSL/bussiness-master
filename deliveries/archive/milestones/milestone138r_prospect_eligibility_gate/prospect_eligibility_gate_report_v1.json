@@ -1,6 +1,6 @@
 {
   "batch_id": "m138r_prospect_eligibility_gate_report_v1",
-  "generated_at": "2026-05-04T03:50:14.696965+00:00",
+  "generated_at": "2026-05-04T04:25:49.478558+00:00",
   "summary": {
     "excluded_signed_customer": 2,
     "duplicate_existing_prospect": 3,

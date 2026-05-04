@@ -1,6 +1,6 @@
 {
   "milestone": "M99R-M105R",
-  "generated_at": "2026-05-03T14:47:37.622701+00:00",
+  "generated_at": "2026-05-04T04:19:33.720488+00:00",
   "status": "PASS",
   "py_compile": {
     "cmd": [
@@ -19,7 +19,7 @@
     "stderr": ""
   },
   "json_parse": {
-    "checked_count": 21,
+    "checked_count": 24,
     "error_count": 0,
     "errors": []
   },
@@ -44,7 +44,7 @@
   },
   "pipeline_dry_run": {
     "returncode": 0,
-    "stdout": "{\n  \"mode\": \"readiness\",\n  \"generated_at\": \"2026-05-03T14:47:37.619668+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m99r_m105_product_system.py\",\n      \"--stage\",\n      \"readiness\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M98R\",\n    \"overall_status\": \"PASS_M98R_LEARNING_POOL_OPERATING_SYSTEM_READY\",\n    \"counts\": {\n      \"trusted_pool_count\": 61,\n      \"l1_count\": 35,\n      \"l2_count\": 25,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"icp_reference_gap_count\": 0,\n      \"scale_seed_ready_count\": 61\n    }\n  }\n}\n",
+    "stdout": "{\n  \"mode\": \"readiness\",\n  \"generated_at\": \"2026-05-04T04:19:33.717513+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m99r_m105_product_system.py\",\n      \"--stage\",\n      \"readiness\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M105R\",\n    \"overall_status\": \"PASS_M105R_PRODUCT_SYSTEM_READY\",\n    \"counts\": {\n      \"trusted_pool_count\": 63,\n      \"l1_count\": 36,\n      \"l2_count\": 26,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"knowledge_review_ready_count\": 40,\n      \"persona_source_gap_count\": 8,\n      \"scale_trial_seed_count\": 61\n    }\n  }\n}\n",
     "stderr": ""
   }
 }

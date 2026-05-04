@@ -1,0 +1,20 @@
+{
+  "batch_id": "m150r_expert_review_report_v1",
+  "milestone": "M150R",
+  "generated_at": "2026-05-04T04:25:50.280439+00:00",
+  "status": "pass_with_followups",
+  "summary": {
+    "product_review_status": "pass_with_followups",
+    "architecture_review_status": "pass",
+    "data_governance_review_status": "pass",
+    "vault_publish_allowed": true,
+    "followup_count": 1
+  },
+  "followups": [
+    {
+      "check": "用户无需读 JSON/milestone",
+      "status": "pass_with_followups",
+      "evidence": "vault 正区已写入新增对象；仍建议后续治理 L1/L2/L3 物理重复。"
+    }
+  ]
+}

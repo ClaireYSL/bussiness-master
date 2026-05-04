@@ -1,6 +1,6 @@
 {
   "batch_id": "m132r_signed_customer_gate_regression_v1",
-  "generated_at": "2026-05-04T04:08:26.797310+00:00",
+  "generated_at": "2026-05-04T04:25:49.312181+00:00",
   "summary": {
     "excluded_existing_customer": 11,
     "passed": 3,

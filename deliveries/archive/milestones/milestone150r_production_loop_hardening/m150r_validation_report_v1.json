@@ -1,0 +1,58 @@
+{
+  "batch_id": "m150r_validation_report_v1",
+  "milestone": "M150R",
+  "generated_at": "2026-05-04T04:25:50.434101+00:00",
+  "status": "PASS",
+  "summary": {
+    "py_compile_ok": true,
+    "json_parse_error_count": 0,
+    "dynamic_scan_status": "PASS",
+    "api_key_scan_status": "PASS",
+    "legacy_guard_blocked_without_override": true,
+    "signed_customer_block_regression_ok": true,
+    "duplicate_existing_prospect_regression_ok": true,
+    "customer_case_boundary_ok": true,
+    "source_quality_ok": true,
+    "expert_review_status": "pass_with_followups"
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m150r_production_loop_hardening.py",
+      "scripts/businessmaster_pipeline.py",
+      "scripts/build_m126r_m130_production_evidence_loop.py",
+      "shared/static_pool/prospect_eligibility_gate.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 24,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "legacy_guard_without_override": {
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/Users/clairelu2026/CodexProjects/BusinessMaster/shared/static_pool/legacy_guard.py\", line 17, in assert_legacy_workbook_write_allowed\n    raise PermissionError(\nPermissionError: m150r_validation blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed.\n"
+  },
+  "regression_assertions": {
+    "signed_customer_block_regression_ok": true,
+    "duplicate_existing_prospect_regression_ok": true,
+    "customer_case_boundary_ok": true,
+    "report_ready_candidates_have_evidence": true
+  }
+}

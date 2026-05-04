@@ -1,7 +1,7 @@
 {
   "batch_id": "m128r_production_trusted_pool_report_v1",
   "milestone": "M128R",
-  "generated_at": "2026-05-04T03:48:55.268150+00:00",
+  "generated_at": "2026-05-04T04:25:49.638253+00:00",
   "status": "PASS_TRUSTED_POOL_UPDATED",
   "summary": {
     "candidate_count": 3,

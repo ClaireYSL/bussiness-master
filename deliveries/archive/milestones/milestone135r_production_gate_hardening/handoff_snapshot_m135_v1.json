@@ -1,7 +1,7 @@
 {
   "batch_id": "handoff_snapshot_m135_v1",
   "milestone": "M135R",
-  "generated_at": "2026-05-04T03:48:54.959536+00:00",
+  "generated_at": "2026-05-04T04:25:49.353471+00:00",
   "status": "READY_FOR_SIGNED_CUSTOMER_GATED_PRODUCTION",
   "next_commands": [
     "python3 scripts/businessmaster_pipeline.py --mode signed-customer-gate",

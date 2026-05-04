@@ -1,28 +1,30 @@
 {
   "batch_id": "businessmaster_operating_panel_v1",
   "milestone": "M99R",
-  "generated_at": "2026-05-03T14:47:37.125175+00:00",
+  "generated_at": "2026-05-04T04:19:33.022735+00:00",
   "status": "PASS_OPERATING_PANEL_READY",
   "summary": {
     "system_phase": "product_system_consolidation",
-    "trusted_pool_count": 61,
+    "trusted_pool_count": 63,
     "level_counts": {
-      "L1": 35,
-      "L2": 25,
+      "L1": 36,
+      "L2": 26,
       "L4": 1
     },
     "persona_counts": {
-      "retail_high_sku_brand": 13,
+      "retail_high_sku_brand": 12,
       "fnb_chain_beverage_coffee": 5,
       "fnb_chain_standardized": 3,
       "retail_multi_store": 9,
       "cbec_multi_platform_brand": 29,
       "cbec_platform_operator": 1,
-      "mfg_multi_factory_group": 1
+      "mfg_multi_factory_group": 1,
+      "mgmt_inventory_supply_coordination": 2,
+      "mgmt_profit_improvement": 1
     },
-    "source_trace_count": 61,
+    "source_trace_count": 63,
     "vault_counts": {
-      "L1": 35,
+      "L1": 36,
       "L2": 57,
       "L3": 29,
       "L4": 1,

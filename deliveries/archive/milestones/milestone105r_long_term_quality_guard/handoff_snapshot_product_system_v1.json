@@ -1,7 +1,7 @@
 {
   "batch_id": "handoff_snapshot_product_system_v1",
   "milestone": "M105R",
-  "generated_at": "2026-05-03T14:47:37.622752+00:00",
+  "generated_at": "2026-05-04T04:19:33.720537+00:00",
   "status": "READY_FOR_NEXT_AGENT",
   "latest_milestone": "M105R",
   "key_artifacts": {

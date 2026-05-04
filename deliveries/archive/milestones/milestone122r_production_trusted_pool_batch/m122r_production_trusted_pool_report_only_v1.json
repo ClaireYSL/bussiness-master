@@ -1,7 +1,7 @@
 {
   "batch_id": "m122r_production_trusted_pool_report_only_v1",
   "milestone": "M122R",
-  "generated_at": "2026-05-04T03:48:54.595302+00:00",
+  "generated_at": "2026-05-04T04:25:48.978403+00:00",
   "status": "PASS_REPORT_ONLY_NO_READY_CANDIDATES",
   "summary": {
     "candidate_count": 0,

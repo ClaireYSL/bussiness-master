@@ -1,16 +1,16 @@
 {
   "batch_id": "businessmaster_pipeline_manifest_v1",
   "milestone": "M99R",
-  "generated_at": "2026-05-03T14:47:37.125022+00:00",
+  "generated_at": "2026-05-04T04:19:33.022401+00:00",
   "status": "PASS_SYSTEM_ENTRY_CONSOLIDATED",
   "summary": {
-    "trusted_pool_count": 61,
+    "trusted_pool_count": 63,
     "level_counts": {
-      "L1": 35,
-      "L2": 25,
+      "L1": 36,
+      "L2": 26,
       "L4": 1
     },
-    "latest_prior_milestone": "M98R",
+    "latest_prior_milestone": "M105R",
     "unified_entrypoint": "scripts/businessmaster_pipeline.py",
     "legacy_milestone_scripts_are_replay_only": true
   },

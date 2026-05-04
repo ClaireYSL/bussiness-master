@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T03:50:14.736407+00:00",
-  "overall_status": "PASS_M141R_SYSTEM_READINESS_V3",
+  "generated_at": "2026-05-04T04:25:50.434511+00:00",
+  "overall_status": "PASS_M150R_PRODUCTION_LOOP_HARDENED",
   "counts": {
     "trusted_pool_count": 63,
     "l1_count": 36,
@@ -14,12 +14,10 @@
     "excluded_existing_customer_count": 0,
     "signed_customer_boundary_review_count": 0,
     "vault_regular_write_count": 3,
-    "account_entity_count": 100,
-    "entity_multi_role_count": 74,
-    "eligibility_excluded_signed_customer_count": 2,
-    "eligibility_duplicate_existing_prospect_count": 3,
-    "customer_case_reference_count": 24,
-    "source_freshness_gap_count": 0
+    "m150_evidence_ready_count": 0,
+    "m150_report_only_ready_count": 0,
+    "m150_vault_published_count": 3,
+    "m150_expert_review_followup_count": 1
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -39,7 +37,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M141R",
+  "latest_milestone": "M150R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -56,7 +54,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "后续候选发现先过 entity resolution 与 prospect eligibility gate；客户案例只作 ICP 参考，不直接入 prospect evidence。",
+  "canonical_next_action": "M150 已将生产闭环硬化为 v1；下一轮优先补 identity_pending/source_collection_pending，而不是直接扩大规模。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -585,13 +583,13 @@
     "readiness_depends_on_m97": "PASS_LONG_TERM_OPERATION_READY"
   },
   "m99r_system_consolidation": {
-    "trusted_pool_count": 61,
+    "trusted_pool_count": 63,
     "level_counts": {
-      "L1": 35,
-      "L2": 25,
+      "L1": 36,
+      "L2": 26,
       "L4": 1
     },
-    "latest_prior_milestone": "M98R",
+    "latest_prior_milestone": "M105R",
     "unified_entrypoint": "scripts/businessmaster_pipeline.py",
     "legacy_milestone_scripts_are_replay_only": true
   },
@@ -875,5 +873,72 @@
     "fresh_count": 166,
     "needs_recheck_count": 30,
     "gap_queue_count": 0
+  },
+  "m150r_operating_panel": {
+    "trusted_pool_count": 63,
+    "level_counts": {
+      "L1": 36,
+      "L2": 26,
+      "L4": 1
+    },
+    "source_trace_count": 63,
+    "knowledge_asset_count": 40,
+    "persona_count": 8,
+    "signed_customer_count": 10,
+    "signed_customer_alias_count": 23,
+    "account_entity_count": 100,
+    "customer_case_reference_count": 24,
+    "vault_file_counts": {
+      "L1": 36,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "readiness_source_milestones": [
+      "M130R",
+      "M135R",
+      "M141R"
+    ],
+    "m130_status": "PASS",
+    "m135_status": "PASS",
+    "m141_status": "PASS",
+    "legacy_excel_fact_source": false
+  },
+  "m150r_evidence_acquisition": {
+    "excluded": 22,
+    "vault_published": 3,
+    "identity_pending": 1
+  },
+  "m150r_trusted_pool_batch": {
+    "candidate_count": 3,
+    "suggested_level_counts": {
+      "L1": 2,
+      "L2": 1
+    },
+    "pool_diff_change_count": 3,
+    "canonical_pool_updated": true,
+    "source_trace_updated": true,
+    "baseline_candidate_count": 3,
+    "missing_guard_update_blocked": true,
+    "baseline_mismatch_failed": true,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  },
+  "m150r_vault_delivery": {
+    "vault_preview_count": 3,
+    "vault_regular_write_count": 3,
+    "preview_regular_count_match": true,
+    "link_error_count": 0,
+    "dynamic_term_finding_count": 0,
+    "legacy_source_as_fact_finding_count": 0
+  },
+  "m150r_expert_review": {
+    "product_review_status": "pass_with_followups",
+    "architecture_review_status": "pass",
+    "data_governance_review_status": "pass",
+    "vault_publish_allowed": true,
+    "followup_count": 1
   }
 }

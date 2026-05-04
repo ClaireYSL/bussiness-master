@@ -1,0 +1,46 @@
+{
+  "batch_id": "m150r_operating_panel_v2",
+  "milestone": "M150R",
+  "generated_at": "2026-05-04T04:25:50.091884+00:00",
+  "status": "PASS_M150R_OPERATING_PANEL_READY",
+  "summary": {
+    "trusted_pool_count": 63,
+    "level_counts": {
+      "L1": 36,
+      "L2": 26,
+      "L4": 1
+    },
+    "source_trace_count": 63,
+    "knowledge_asset_count": 40,
+    "persona_count": 8,
+    "signed_customer_count": 10,
+    "signed_customer_alias_count": 23,
+    "account_entity_count": 100,
+    "customer_case_reference_count": 24,
+    "vault_file_counts": {
+      "L1": 36,
+      "L2": 57,
+      "L3": 29,
+      "L4": 1,
+      "L5": 1
+    },
+    "readiness_source_milestones": [
+      "M130R",
+      "M135R",
+      "M141R"
+    ],
+    "m130_status": "PASS",
+    "m135_status": "PASS",
+    "m141_status": "PASS",
+    "legacy_excel_fact_source": false
+  },
+  "canonical_sources": {
+    "trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "knowledge_asset_registry": "deliveries/canonical/businessmaster/knowledge_asset_registry_v1.json",
+    "persona_registry": "deliveries/canonical/businessmaster/persona_registry_v1.json",
+    "signed_customer_registry": "deliveries/canonical/businessmaster/signed_customer_registry_v1.json",
+    "account_entity_registry": "deliveries/canonical/businessmaster/account_entity_registry_v1.json",
+    "customer_case_reference_registry": "deliveries/canonical/businessmaster/customer_case_reference_registry_v1.json"
+  }
+}
