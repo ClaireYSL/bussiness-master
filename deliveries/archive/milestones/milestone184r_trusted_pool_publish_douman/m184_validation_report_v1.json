@@ -1,0 +1,34 @@
+{
+  "milestone": "M184R",
+  "generated_at": "2026-05-04T07:10:53.856956+00:00",
+  "status": "PASS",
+  "errors": [],
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m184r_trusted_pool_publish_douman.py",
+      "shared/static_pool/signed_customer_gate.py",
+      "shared/static_pool/prospect_eligibility_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 5,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "signed_customer_gate_version": "signed_customer_v2"
+}

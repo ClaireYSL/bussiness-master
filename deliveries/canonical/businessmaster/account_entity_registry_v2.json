@@ -1,16 +1,17 @@
 {
   "registry_id": "account_entity_registry_v2",
-  "generated_at": "2026-05-04T06:56:27.408073+00:00",
+  "generated_at": "2026-05-04T07:10:53.805149+00:00",
   "source_milestone": "M182R",
   "summary": {
-    "entity_count": 1136,
-    "trusted_pool_entity_count": 58,
+    "entity_count": 1137,
+    "trusted_pool_entity_count": 59,
     "signed_customer_entity_count": 1057,
-    "source_trace_entity_count": 58,
+    "source_trace_entity_count": 59,
     "customer_case_reference_entity_count": 22,
-    "multi_role_entity_count": 58,
+    "multi_role_entity_count": 59,
     "removed_signed_customer_active_prospect_count": 0,
-    "signed_customer_gate_version": "v2"
+    "signed_customer_gate_version": "v2",
+    "canonical_update_source": "M184R_trusted_pool_publish_douman"
   },
   "items": [
     {
@@ -32642,6 +32643,35 @@
         }
       ],
       "customer_id": "signed_customer_龙锦综合开发_成都_有限公司_fe72faca9f"
+    },
+    {
+      "entity_id": "entity_f77a2c1eaa64",
+      "canonical_name": "广州市斗满科技有限公司",
+      "normalized_name": "广州市斗满科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "广州市斗满科技有限公司",
+        "斗满",
+        "斗满科技"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m183_acc_douman",
+          "level": "L2",
+          "matched_persona": "cbec_platform_operator"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m183_acc_douman"
+        }
+      ],
+      "prospect_id": "m183_acc_douman",
+      "level": "L2",
+      "matched_persona": "cbec_platform_operator"
     }
   ]
 }

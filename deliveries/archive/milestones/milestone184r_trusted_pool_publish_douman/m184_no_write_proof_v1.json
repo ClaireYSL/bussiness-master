@@ -1,0 +1,12 @@
+{
+  "milestone": "M184R",
+  "generated_at": "2026-05-04T07:10:53.821444+00:00",
+  "status": "PASS_NO_FORBIDDEN_WRITE",
+  "old_excel_written": false,
+  "knowledge_asset_registry_written": false,
+  "persona_registry_written": false,
+  "customer_case_auto_signed_customer": false,
+  "trusted_pool_written": true,
+  "source_trace_written": true,
+  "vault_regular_area_written": true
+}

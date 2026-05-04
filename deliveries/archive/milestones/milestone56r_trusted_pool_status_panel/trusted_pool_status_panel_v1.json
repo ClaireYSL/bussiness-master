@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-05-04T06:56:27.566036+00:00",
-  "overall_status": "PASS_M183R_EVIDENCE_ACQUISITION_RESTART",
+  "overall_status": "PASS_M184R_TRUSTED_POOL_PUBLISHED",
   "counts": {
-    "trusted_pool_count": 58,
+    "trusted_pool_count": 59,
     "l1_count": 34,
-    "l2_count": 23,
+    "l2_count": 24,
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
@@ -33,14 +33,15 @@
     "m181_remediated_existing_customer_count": 5,
     "m181_post_trusted_pool_existing_customer_hit_count": 0,
     "m181_post_vault_existing_customer_hit_count": 0,
-    "source_trace_count": 58,
+    "source_trace_count": 59,
     "existing_customer_vault_hit_count": 0,
-    "entity_v2_count": 1136,
-    "entity_v2_trusted_pool_entity_count": 58,
+    "entity_v2_count": 1137,
+    "entity_v2_trusted_pool_entity_count": 59,
     "m182_source_collection_pending_count": 1,
     "m182_identity_pending_count": 13,
     "m182_eligibility_blocked_count": 4,
-    "m182_excluded_count": 8
+    "m182_excluded_count": 8,
+    "m184_new_l2_count": 1
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -60,7 +61,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M183R",
+  "latest_milestone": "M184R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -998,11 +999,11 @@
     "persona_registry_written": false
   },
   "current_canonical_state": {
-    "trusted_pool_count": 58,
-    "source_trace_count": 58,
+    "trusted_pool_count": 59,
+    "source_trace_count": 59,
     "level_counts": {
       "L1": 34,
-      "L2": 23,
+      "L2": 24,
       "L4": 1
     },
     "signed_customer_registry": "v2",
@@ -1032,5 +1033,46 @@
     "vault_regular_area_written": false,
     "signed_customer_gate_version": "signed_customer_v2",
     "next_recommended_action": "若接受 M183R preview，可在下一轮执行 guarded trusted pool update；否则继续补 authoritative_third_party/platform_operating_fact。"
+  },
+  "m184r_trusted_pool_publish": {
+    "generated_at": "2026-05-04T07:10:53.820467+00:00",
+    "published_prospect_id": "m183_acc_douman",
+    "company_name": "广州市斗满科技有限公司",
+    "level": "L2",
+    "trusted_pool_update": {
+      "change_type": "updated",
+      "before_count": 59,
+      "after_count": 59,
+      "before_levels": {
+        "L1": 34,
+        "L2": 24,
+        "L4": 1
+      },
+      "after_levels": {
+        "L1": 34,
+        "L2": 24,
+        "L4": 1
+      }
+    },
+    "source_trace_update": {
+      "change_type": "updated",
+      "before_count": 59,
+      "after_count": 59
+    },
+    "entity_registry_update": {
+      "change_type": "updated",
+      "before_count": 1137,
+      "after_count": 1137,
+      "trusted_pool_entity_count": 59,
+      "source_trace_entity_count": 59,
+      "entity_id": "entity_f77a2c1eaa64"
+    },
+    "vault_write": {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广州市斗满科技有限公司.md",
+      "change_type": "updated"
+    },
+    "signed_customer_gate_version": "signed_customer_v2",
+    "canonical_pool_updated": true,
+    "vault_regular_area_written": true
   }
 }

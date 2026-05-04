@@ -1,0 +1,72 @@
+{
+  "milestone": "M184R",
+  "generated_at": "2026-05-04T07:10:53.821291+00:00",
+  "candidate": {
+    "prospect_id": "m183_acc_douman",
+    "company_name": "广州市斗满科技有限公司",
+    "candidate_aliases": [
+      "斗满",
+      "斗满科技",
+      "广州市斗满科技有限公司"
+    ],
+    "level": "L2",
+    "matched_persona": "cbec_platform_operator",
+    "mapped_canonical_personas": [
+      "cbec_platform_operator",
+      "cbec_supply_chain_complex"
+    ],
+    "match_reason": "公开来源显示其面向跨境电商卖家提供海外仓储、国际物流、供应链与仓储物流服务，符合跨境平台/供应链复杂型 ICP 的多区域、多环节运营特征。",
+    "core_product_service_summary": "跨境电商物流、海外仓储、国际物流专线、亚马逊 FBA 头程、物流小包及定制化供应链服务。",
+    "business_model_summary": "以跨境电商卖家为服务对象，围绕海外仓储、补货、配送、国际物流专线和供应链综合服务提供一站式履约与物流解决方案。",
+    "risk_or_gap": "当前只完成公开来源 report-only；需后续确认是否存在未登记签约关系，并补充更多平台经营事实或权威第三方来源后再评估是否进入 L1。",
+    "source_locator": "http://www.dmfgroup.net/",
+    "evidence_strength": "official_site",
+    "signed_customer_gate_version": "signed_customer_v2",
+    "trusted_status": "static_l2_ready",
+    "static_promotion_summary": "广州市斗满科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。",
+    "static_gap_count": 1,
+    "static_evidence_count": 2,
+    "static_strong_evidence_count": 2,
+    "card_id": "card_m183_acc_douman",
+    "canonical_update_source": "M184R_trusted_pool_publish_douman",
+    "legacy_field_inherited": false
+  },
+  "trusted_pool_update": {
+    "change_type": "updated",
+    "before_count": 59,
+    "after_count": 59,
+    "before_levels": {
+      "L1": 34,
+      "L2": 24,
+      "L4": 1
+    },
+    "after_levels": {
+      "L1": 34,
+      "L2": 24,
+      "L4": 1
+    }
+  },
+  "source_trace_update": {
+    "change_type": "updated",
+    "before_count": 59,
+    "after_count": 59
+  },
+  "entity_registry_update": {
+    "change_type": "updated",
+    "before_count": 1137,
+    "after_count": 1137,
+    "trusted_pool_entity_count": 59,
+    "source_trace_entity_count": 59,
+    "entity_id": "entity_f77a2c1eaa64"
+  },
+  "vault_write": {
+    "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广州市斗满科技有限公司.md",
+    "change_type": "updated"
+  },
+  "canonical_files": {
+    "trusted_pool": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "source_trace": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "entity_registry": "deliveries/canonical/businessmaster/account_entity_registry_v2.json",
+    "vault_l2_file": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广州市斗满科技有限公司.md"
+  }
+}

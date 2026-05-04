@@ -1,0 +1,19 @@
+{
+  "milestone": "M184R",
+  "generated_at": "2026-05-04T07:10:53.855895+00:00",
+  "status": "PASS_M184R_TRUSTED_POOL_PUBLISHED",
+  "summary": {
+    "trusted_pool_count": 59,
+    "source_trace_count": 59,
+    "entity_v2_count": 1137,
+    "level_counts": {
+      "L1": 34,
+      "L2": 24,
+      "L4": 1
+    },
+    "new_l2_count": 1,
+    "vault_regular_write_count": 1,
+    "signed_customer_gate_version": "signed_customer_v2"
+  },
+  "next_recommended_action": "进入 M185：重跑系统一致性/实体/eligibility backlog，确认斗满成为 duplicate-existing-prospect 回归样本。"
+}

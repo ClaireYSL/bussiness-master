@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-04T06:47:07.844934+00:00",
+  "generated_at": "2026-05-04T07:10:53.796431+00:00",
   "summary": {
-    "source_trace_count": 58,
-    "canonical_update_source": "M181R_signed_customer_remediation_v2",
+    "source_trace_count": 59,
+    "canonical_update_source": "M184R_trusted_pool_publish_douman",
     "existing_customer_removed_count": 5,
     "signed_customer_v2_gate_applied": true
   },
@@ -2502,6 +2502,44 @@
           "summary": "行业协会材料收录自然堂集团相关实践，可作为权威第三方补充来源。"
         }
       ]
+    },
+    {
+      "prospect_id": "m183_acc_douman",
+      "company_name": "广州市斗满科技有限公司",
+      "source_locator": "http://www.dmfgroup.net/",
+      "evidence_strength": "official_site",
+      "matched_persona": "cbec_platform_operator",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.dmfgroup.net/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:cross_border_operations,overseas_warehouse,custom_supply_chain,official_owned",
+          "summary": "斗满官网披露公司名称、跨境电商物流服务、海外仓储、快速补货、定制化供应链、国际物流专线、FBA 头程和物流小包等业务。"
+        },
+        {
+          "source_type": "platform_service_profile",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.amz123.com/doumankeji",
+          "evidence_strength": "platform_service_profile",
+          "supports_dimension": "icp_match_support:cross_border_operations,warehouse_logistics,platform_operating_fact",
+          "summary": "AMZ123 斗满科技页面将其归为跨境物流服务商，并描述其为全球电商卖家提供仓储物流、定制化物流解决方案、全球云仓和打包发货服务。"
+        }
+      ],
+      "reference_only_sources": [
+        {
+          "reference_id": "m183_douman_guandata_case_reference",
+          "reference_type": "customer_case_reference",
+          "source_locator": "https://www.guandata.com/blogdetail/douman",
+          "usage_boundary": "ICP 判断参考，不计入 prospect evidence，不自动确认 signed customer。",
+          "supports_dimension": "icp_reference:cross_border_bi_use_case,warehouse_logistics_operations",
+          "summary": "观远客户案例用于说明斗满科技跨境物流与 BI 场景，不作为新潜客强 evidence。"
+        }
+      ],
+      "source_count": 2,
+      "canonical_update_source": "M184R_trusted_pool_publish_douman",
+      "signed_customer_gate_version": "signed_customer_v2"
     }
   ]
 }
