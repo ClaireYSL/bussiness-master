@@ -1,0 +1,392 @@
+{
+  "milestone": "M201R",
+  "generated_at": "2026-05-04T09:58:55.039119+00:00",
+  "pool_update": {
+    "before_hash": "138eb149ba794849f27e9b9f5eede744494de6b90f44ffecdfe7222fa1969bb0",
+    "after_hash": "31a1751fbfdc8b49e68b5dc1cf4e78494382e5763ce23dd3b5c4b4169bbcaa84",
+    "before_count": 74,
+    "after_count": 93,
+    "added_count": 19,
+    "updated_count": 0,
+    "before_levels": {
+      "L1": 34,
+      "L2": 39,
+      "L4": 1
+    },
+    "after_levels": {
+      "L1": 34,
+      "L2": 39,
+      "L4": 1,
+      "L3": 19
+    },
+    "changes": [
+      {
+        "prospect_id": "m200_b5edf73bd4e6",
+        "company_name": "杭州认养一头牛生物科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_d443f235d88b",
+        "company_name": "杭州花西子化妆品股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_b2928815d10e",
+        "company_name": "上海林清轩生物科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_596844a57563",
+        "company_name": "上海新锐供应链管理有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_f8e5b127043f",
+        "company_name": "细刻网络科技（上海）有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_96a10fa5dcbe",
+        "company_name": "深圳市傲基科技股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_67c24a3efdbb",
+        "company_name": "深圳市泽宝创新技术有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_62d14c462430",
+        "company_name": "深圳市蓝禾技术有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_2f660d14d234",
+        "company_name": "深圳市时商创展科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_678e6705b1df",
+        "company_name": "广州棒谷科技股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_67270fee7b44",
+        "company_name": "广州希音国际进出口有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_10e4826dc1c0",
+        "company_name": "广州影石创新科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_743b6529e25d",
+        "company_name": "深圳市大疆创新科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_fa3b843905b3",
+        "company_name": "追觅科技（苏州）有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_bfe244b6f8ca",
+        "company_name": "深圳绿米联创科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_e534c24d05d8",
+        "company_name": "添可智能科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_c5ab402aa53c",
+        "company_name": "北京元气森林饮料有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_071a8aac234a",
+        "company_name": "南京卫岗乳业有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m200_b35fee904018",
+        "company_name": "和府捞面餐饮管理有限公司",
+        "action": "added",
+        "level": "L3"
+      }
+    ]
+  },
+  "source_trace_update": {
+    "before_hash": "144342353234f284ba6cac59768b8c1bf868afa7994178f9f64ebaeeeb824b10",
+    "after_hash": "0ea7305cc72b6bb546ed9440dc8dda6fe2c9052170a8498dbbc3422a1c91f5f1",
+    "before_count": 74,
+    "after_count": 93,
+    "added_count": 19,
+    "updated_count": 0,
+    "changes": [
+      {
+        "prospect_id": "m200_b5edf73bd4e6",
+        "company_name": "杭州认养一头牛生物科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_d443f235d88b",
+        "company_name": "杭州花西子化妆品股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_b2928815d10e",
+        "company_name": "上海林清轩生物科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_596844a57563",
+        "company_name": "上海新锐供应链管理有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_f8e5b127043f",
+        "company_name": "细刻网络科技（上海）有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_96a10fa5dcbe",
+        "company_name": "深圳市傲基科技股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_67c24a3efdbb",
+        "company_name": "深圳市泽宝创新技术有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_62d14c462430",
+        "company_name": "深圳市蓝禾技术有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_2f660d14d234",
+        "company_name": "深圳市时商创展科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_678e6705b1df",
+        "company_name": "广州棒谷科技股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_67270fee7b44",
+        "company_name": "广州希音国际进出口有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_10e4826dc1c0",
+        "company_name": "广州影石创新科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_743b6529e25d",
+        "company_name": "深圳市大疆创新科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_fa3b843905b3",
+        "company_name": "追觅科技（苏州）有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_bfe244b6f8ca",
+        "company_name": "深圳绿米联创科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_e534c24d05d8",
+        "company_name": "添可智能科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_c5ab402aa53c",
+        "company_name": "北京元气森林饮料有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_071a8aac234a",
+        "company_name": "南京卫岗乳业有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m200_b35fee904018",
+        "company_name": "和府捞面餐饮管理有限公司",
+        "action": "added",
+        "source_count": 1
+      }
+    ]
+  },
+  "entity_update": {
+    "before_count": 1154,
+    "after_count": 1173,
+    "trusted_added_count": 19,
+    "trusted_updated_count": 0,
+    "signed_customer_added_count": 0,
+    "trusted_pool_entity_count": 93,
+    "source_trace_entity_count": 93,
+    "signed_customer_entity_count": 1059
+  },
+  "vault_write": {
+    "written_count": 19,
+    "items": [
+      {
+        "prospect_id": "m200_b5edf73bd4e6",
+        "company_name": "杭州认养一头牛生物科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/杭州认养一头牛生物科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_d443f235d88b",
+        "company_name": "杭州花西子化妆品股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/杭州花西子化妆品股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_b2928815d10e",
+        "company_name": "上海林清轩生物科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/上海林清轩生物科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_596844a57563",
+        "company_name": "上海新锐供应链管理有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/上海新锐供应链管理有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_f8e5b127043f",
+        "company_name": "细刻网络科技（上海）有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/细刻网络科技（上海）有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_96a10fa5dcbe",
+        "company_name": "深圳市傲基科技股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市傲基科技股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_67c24a3efdbb",
+        "company_name": "深圳市泽宝创新技术有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市泽宝创新技术有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_62d14c462430",
+        "company_name": "深圳市蓝禾技术有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市蓝禾技术有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_2f660d14d234",
+        "company_name": "深圳市时商创展科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市时商创展科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_678e6705b1df",
+        "company_name": "广州棒谷科技股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广州棒谷科技股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_67270fee7b44",
+        "company_name": "广州希音国际进出口有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广州希音国际进出口有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_10e4826dc1c0",
+        "company_name": "广州影石创新科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广州影石创新科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_743b6529e25d",
+        "company_name": "深圳市大疆创新科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市大疆创新科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_fa3b843905b3",
+        "company_name": "追觅科技（苏州）有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/追觅科技（苏州）有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_bfe244b6f8ca",
+        "company_name": "深圳绿米联创科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳绿米联创科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_e534c24d05d8",
+        "company_name": "添可智能科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/添可智能科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_c5ab402aa53c",
+        "company_name": "北京元气森林饮料有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/北京元气森林饮料有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_071a8aac234a",
+        "company_name": "南京卫岗乳业有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/南京卫岗乳业有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m200_b35fee904018",
+        "company_name": "和府捞面餐饮管理有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/和府捞面餐饮管理有限公司.md",
+        "change_type": "created"
+      }
+    ]
+  }
+}
