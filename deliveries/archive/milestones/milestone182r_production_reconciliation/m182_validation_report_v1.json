@@ -1,0 +1,53 @@
+{
+  "batch_id": "m182r_validation_report_v1",
+  "milestone": "M182R",
+  "generated_at": "2026-05-04T06:56:37.543422+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "readiness_pass": true,
+    "production_dry_run_has_m182": true,
+    "pool_trace_current_counts_pass": true,
+    "signed_customer_v2_count_pass": true,
+    "old_customer_hits_zero": true,
+    "removed_customers_not_active_prospects": true,
+    "source_collection_pending_all_eligible": true,
+    "gate_regression_pass": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "expert_review_pass": true,
+    "no_write_proof_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m182r_production_reconciliation.py",
+      "scripts/businessmaster_pipeline.py",
+      "shared/static_pool/prospect_eligibility_gate.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 10,
+    "error_count": 0,
+    "errors": []
+  },
+  "readiness_stdout_tail": "{\n  \"mode\": \"readiness\",\n  \"status\": \"PASS\",\n  \"current_status\": {\n    \"latest_milestone\": \"M182R\",\n    \"overall_status\": \"PASS_M182R_PRODUCTION_RECONCILED\",\n    \"counts\": {\n      \"trusted_pool_count\": 58,\n      \"l1_count\": 34,\n      \"l2_count\": 23,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"identity_ready_count\": 3,\n      \"public_evidence_candidate_count\": 3,\n      \"excluded_learning_case_count\": 22,\n      \"excluded_existing_customer_count\": 0,\n      \"signed_customer_boundary_review_count\": 0,\n      \"vault_regular_write_count\": 3,\n      \"m150_evidence_ready_count\": 0,\n      \"m150_report_only_ready_count\": 0,\n      \"m150_vault_published_count\": 3,\n      \"m150_expert_review_followup_count\": 1,\n      \"m160_vault_duplicate_display_count\": 47,\n      \"m160_l1_l2_missing_source_trace_count\": 0,\n      \"m160_backlog_actionable_next_count\": 1,\n      \"signed_customer_count\": 1057,\n      \"signed_customer_alias_count\": 2078,\n      \"existing_customer_trusted_pool_hit_count\": 0,\n      \"signed_customer_v2_count\": 1057,\n      \"signed_customer_alias_v2_count\": 2078,\n      \"m180_trusted_pool_existing_customer_hit_count\": 0,\n      \"m180_vault_existing_customer_hit_count\": 0,\n      \"signed_customer_v1_count\": 10,\n      \"signed_customer_alias_v1_count\": 24,\n      \"m181_remediated_existing_customer_count\": 5,\n      \"m181_post_trusted_pool_existing_customer_hit_count\": 0,\n      \"m181_post_vault_existing_customer_hit_count\": 0,\n      \"source_trace_count\": 58,\n      \"existing_customer_vault_hit_count\": 0,\n      \"entity_v2_count\": 1136,\n      \"entity_v2_trusted_pool_entity_count\": 58,\n      \"m182_source_collection_pending_count\": 1,\n      \"m182_identity_pending_count\": 13,\n      \"m182_eligibility_blocked_count\": 4,\n      \"m182_excluded_count\": 8\n    },\n    \"current_canonical_state\": {\n      \"trusted_pool_count\": 58,\n      \"source_trace_count\": 58,\n      \"level_counts\": {\n        \"L1\": 34,\n        \"L2\": 23,\n        \"L4\": 1\n      },\n      \"signed_customer_registry\": \"v2\",\n      \"signed_customer_count\": 1057,\n      \"old_customer_hits\": 0\n    }\n  },\n  \"results\": [\n    {\n      \"cmd\": [\n        \"python3\",\n        \"scripts/build_m160r_system_stabilization.py\",\n        \"--stage\",\n        \"readiness\"\n      ],\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"mode\\\": \\\"readiness\\\",\\n  \\\"milestone\\\": \\\"M160R\\\",\\n  \\\"generated_at\\\": \\\"2026-05-04T06:56:37.331158+00:00\\\",\\n  \\\"status\\\": \\\"PASS\\\",\\n  \\\"read_only\\\": true,\\n  \\\"summary\\\": {\\n    \\\"trusted_pool_count\\\": 58,\\n    \\\"source_trace_count\\\": 58,\\n    \\\"level_counts\\\": {\\n      \\\"L1\\\": 34,\\n      \\\"L2\\\": 23,\\n      \\\"L4\\\": 1\\n    },\\n    \\\"m150_expert_review_status\\\": \\\"pass_with_followups\\\",\\n    \\\"m150_followup_count\\\": 1,\\n    \\\"historical_m150_readiness_summary\\\": {\\n      \\\"trusted_pool_count\\\": 63,\\n      \\\"level_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 26,\\n        \\\"L4\\\": 1\\n      },\\n      \\\"source_trace_count\\\": 63,\\n      \\\"knowledge_asset_count\\\": 40,\\n      \\\"persona_count\\\": 8,\\n      \\\"signed_customer_count\\\": 10,\\n      \\\"signed_customer_alias_count\\\": 23,\\n      \\\"account_entity_count\\\": 100,\\n      \\\"customer_case_reference_count\\\": 24,\\n      \\\"vault_file_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 57,\\n        \\\"L3\\\": 29,\\n        \\\"L4\\\": 1,\\n        \\\"L5\\\": 1\\n      },\\n      \\\"readiness_source_milestones\\\": [\\n        \\\"M130R\\\",\\n        \\\"M135R\\\",\\n        \\\"M141R\\\"\\n      ],\\n      \\\"m130_status\\\": \\\"PASS\\\",\\n      \\\"m135_status\\\": \\\"PASS\\\",\\n      \\\"m141_status\\\": \\\"PASS\\\",\\n      \\\"legacy_excel_fact_source\\\": false\\n    },\\n    \\\"historical_snapshot_note\\\": \\\"M150/M160 nested readiness summaries are historical only; current canonical counts come from trusted pool/source trace.\\\"\\n  },\\n  \\\"next_action\\\": \\\"如需写产物，请运行 production 或显式 M160 all；readiness 本身不写任何 tracked JSON。\\\"\\n}\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"cmd\": [\n        \"python3\",\n        \"scripts/build_m180r_signed_customer_registry_v2.py\",\n        \"--stage\",\n        \"readiness\"\n      ],\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"mode\\\": \\\"readiness\\\",\\n  \\\"milestone\\\": \\\"M180R\\\",\\n  \\\"generated_at\\\": \\\"2026-05-04T06:56:37.472071+00:00\\\",\\n  \\\"status\\\": \\\"PASS\\\",\\n  \\\"read_only\\\": true,\\n  \\\"signed_customer_v2_enabled\\\": true,\\n  \\\"summary\\\": {\\n    \\\"signed_customer_v2_count\\\": 1057,\\n    \\\"signed_customer_alias_v2_count\\\": 2078,\\n    \\\"source_path\\\": \\\"/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx\\\",\\n    \\\"fallback_v1_available\\\": true\\n  }\\n}\\n\",\n      \"stderr\": \"\"\n    }\n  ]\n}\n",
+  "production_dry_run_stdout_tail": "{\n  \"mode\": \"production\",\n  \"generated_at\": \"2026-05-04T06:56:37.526656+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m120r_m125_sustainable_production_system.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-canonical-registry-update\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m131r_m135_signed_customer_registry.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m180r_signed_customer_registry_v2.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m182r_production_reconciliation.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m126r_m130_production_evidence_loop.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-trusted-pool-update\",\n      \"--allow-vault-regular-write\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m150r_production_loop_hardening.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m160r_system_stabilization.py\",\n      \"--stage\",\n      \"all\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M182R\",\n    \"overall_status\": \"PASS_M182R_PRODUCTION_RECONCILED\",\n    \"counts\": {\n      \"trusted_pool_count\": 58,\n      \"l1_count\": 34,\n      \"l2_count\": 23,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"identity_ready_count\": 3,\n      \"public_evidence_candidate_count\": 3,\n      \"excluded_learning_case_count\": 22,\n      \"excluded_existing_customer_count\": 0,\n      \"signed_customer_boundary_review_count\": 0,\n      \"vault_regular_write_count\": 3,\n      \"m150_evidence_ready_count\": 0,\n      \"m150_report_only_ready_count\": 0,\n      \"m150_vault_published_count\": 3,\n      \"m150_expert_review_followup_count\": 1,\n      \"m160_vault_duplicate_display_count\": 47,\n      \"m160_l1_l2_missing_source_trace_count\": 0,\n      \"m160_backlog_actionable_next_count\": 1,\n      \"signed_customer_count\": 1057,\n      \"signed_customer_alias_count\": 2078,\n      \"existing_customer_trusted_pool_hit_count\": 0,\n      \"signed_customer_v2_count\": 1057,\n      \"signed_customer_alias_v2_count\": 2078,\n      \"m180_trusted_pool_existing_customer_hit_count\": 0,\n      \"m180_vault_existing_customer_hit_count\": 0,\n      \"signed_customer_v1_count\": 10,\n      \"signed_customer_alias_v1_count\": 24,\n      \"m181_remediated_existing_customer_count\": 5,\n      \"m181_post_trusted_pool_existing_customer_hit_count\": 0,\n      \"m181_post_vault_existing_customer_hit_count\": 0,\n      \"source_trace_count\": 58,\n      \"existing_customer_vault_hit_count\": 0,\n      \"entity_v2_count\": 1136,\n      \"entity_v2_trusted_pool_entity_count\": 58,\n      \"m182_source_collection_pending_count\": 1,\n      \"m182_identity_pending_count\": 13,\n      \"m182_eligibility_blocked_count\": 4,\n      \"m182_excluded_count\": 8\n    },\n    \"current_canonical_state\": {\n      \"trusted_pool_count\": 58,\n      \"source_trace_count\": 58,\n      \"level_counts\": {\n        \"L1\": 34,\n        \"L2\": 23,\n        \"L4\": 1\n      },\n      \"signed_customer_registry\": \"v2\",\n      \"signed_customer_count\": 1057,\n      \"old_customer_hits\": 0\n    }\n  }\n}\n",
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  }
+}

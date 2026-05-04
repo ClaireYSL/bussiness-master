@@ -1,0 +1,34 @@
+{
+  "batch_id": "m182r_system_reconciliation_report_v1",
+  "milestone": "M182R",
+  "generated_at": "2026-05-04T06:56:27.565058+00:00",
+  "status": "PASS",
+  "summary": {
+    "trusted_pool_count": 58,
+    "source_trace_count": 58,
+    "level_counts": {
+      "L1": 34,
+      "L2": 23,
+      "L4": 1
+    },
+    "signed_customer_v2_count": 1057,
+    "signed_customer_alias_v2_count": 2078,
+    "trusted_pool_existing_customer_hit_count": 0,
+    "vault_existing_customer_hit_count": 0,
+    "entity_v2_count": 1136,
+    "backlog_state_counts": {
+      "excluded": 8,
+      "eligibility_blocked": 4,
+      "identity_pending": 13,
+      "source_collection_pending": 1
+    },
+    "legacy_snapshot_not_current": true
+  },
+  "current_signed_hits": {
+    "trusted_pool_hit_count": 0,
+    "vault_hit_count": 0,
+    "trusted_pool_hits": [],
+    "vault_hits": []
+  },
+  "source_of_truth": "trusted_prospect_pool_v1 + source_trace_index_v1 + signed_customer_registry_v2 + account_entity_registry_v2"
+}

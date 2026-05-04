@@ -1,0 +1,25 @@
+{
+  "batch_id": "m182r_expert_review_report_v1",
+  "milestone": "M182R",
+  "generated_at": "2026-05-04T06:56:27.565728+00:00",
+  "status": "pass",
+  "summary": {
+    "product_review_status": "pass",
+    "architecture_review_status": "pass",
+    "data_governance_review_status": "pass",
+    "followup_count": 0
+  },
+  "product_review": {
+    "status": "pass",
+    "evidence": "operating panel/readiness 已切到 M181 后真实池子；用户入口老客命中为 0。",
+    "followups": []
+  },
+  "architecture_review": {
+    "status": "pass",
+    "evidence": "ProspectEligibilityGate 默认 entity v2；production dry-run 顺序包含 M182 reconciliation。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "evidence": "signed customer v2、entity v2、customer case reference、prospect evidence 边界已分离。"
+  }
+}

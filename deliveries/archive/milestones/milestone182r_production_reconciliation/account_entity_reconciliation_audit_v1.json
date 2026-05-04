@@ -1,0 +1,1593 @@
+{
+  "batch_id": "m182r_account_entity_reconciliation_audit_v1",
+  "milestone": "M182R",
+  "generated_at": "2026-05-04T06:56:27.408403+00:00",
+  "summary": {
+    "entity_count": 1136,
+    "trusted_pool_entity_count": 58,
+    "signed_customer_entity_count": 1057,
+    "source_trace_entity_count": 58,
+    "customer_case_reference_entity_count": 22,
+    "multi_role_entity_count": 58,
+    "removed_signed_customer_active_prospect_count": 0,
+    "signed_customer_gate_version": "v2"
+  },
+  "removed_signed_customer_active_prospects": [],
+  "multi_role_entities_sample": [
+    {
+      "entity_id": "entity_8ac5ec8898",
+      "canonical_name": "三只松鼠股份有限公司",
+      "normalized_name": "三只松鼠",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "三只松鼠股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_three_squirrels",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_three_squirrels"
+        }
+      ],
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_a5a3afade6",
+      "canonical_name": "三立人（深圳）科技有限公司",
+      "normalized_name": "三立人(深圳)科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "三立人（深圳）科技有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_bananain",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_bananain"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_bananain",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_150af3de44",
+      "canonical_name": "上海芯果科技有限公司",
+      "normalized_name": "上海芯果科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "上海芯果科技有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_hotmaxx",
+          "level": "L2",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_hotmaxx"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "level": "L2",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_37574d2d0c",
+      "canonical_name": "中饮巴比食品股份有限公司",
+      "normalized_name": "中饮巴比食品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "中饮巴比食品股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_babi",
+          "level": "L1",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_babi"
+        }
+      ],
+      "prospect_id": "m68r_acc_babi",
+      "level": "L1",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_15397e65d5",
+      "canonical_name": "九毛九国际控股有限公司",
+      "normalized_name": "九毛九国际",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "九毛九国际控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_jiumaojiu",
+          "level": "L1",
+          "matched_persona": "fnb_chain_standardized"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_jiumaojiu"
+        }
+      ],
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "level": "L1",
+      "matched_persona": "fnb_chain_standardized"
+    },
+    {
+      "entity_id": "entity_cc581fd4ff",
+      "canonical_name": "云南贝泰妮生物科技集团股份有限公司",
+      "normalized_name": "云南贝泰妮生物科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "云南贝泰妮生物科技集团股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_botanee",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_botanee"
+        }
+      ],
+      "prospect_id": "m44r_prospect_botanee",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_c7d2d82a5c",
+      "canonical_name": "云米科技有限公司",
+      "normalized_name": "云米科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "云米科技有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_viomi",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_viomi"
+        }
+      ],
+      "prospect_id": "m44r_prospect_viomi",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_203b344258",
+      "canonical_name": "北京石头世纪科技股份有限公司",
+      "normalized_name": "北京石头世纪科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "北京石头世纪科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_roborock",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_roborock"
+        }
+      ],
+      "prospect_id": "m44r_prospect_roborock",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_0ef8116ef6",
+      "canonical_name": "华熙生物科技股份有限公司",
+      "normalized_name": "华熙生物科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "华熙生物科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_bloomage",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_bloomage"
+        }
+      ],
+      "prospect_id": "m68r_acc_bloomage",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_31785ac387",
+      "canonical_name": "周大生珠宝股份有限公司",
+      "normalized_name": "周大生珠宝",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "周大生珠宝股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_chowtaiseng",
+          "level": "L1",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_chowtaiseng"
+        }
+      ],
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "level": "L1",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_9841d9c2aa",
+      "canonical_name": "四川百茶百道实业股份有限公司",
+      "normalized_name": "四川百茶百道实业",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "四川百茶百道实业股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_chabaidao",
+          "level": "L1",
+          "matched_persona": "fnb_chain_beverage_coffee"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_chabaidao"
+        }
+      ],
+      "prospect_id": "m44r_prospect_chabaidao",
+      "level": "L1",
+      "matched_persona": "fnb_chain_beverage_coffee"
+    },
+    {
+      "entity_id": "entity_08a1d4e8d9",
+      "canonical_name": "孩子王儿童用品股份有限公司",
+      "normalized_name": "孩子王儿童用品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "孩子王儿童用品股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_kidswant",
+          "level": "L2",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_kidswant"
+        }
+      ],
+      "prospect_id": "m44r_prospect_kidswant",
+      "level": "L2",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_8ffca23488",
+      "canonical_name": "安踏体育用品有限公司",
+      "normalized_name": "安踏体育用品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "安踏体育用品有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m127r_anta",
+          "level": "L1",
+          "matched_persona": "mgmt_profit_improvement"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m127r_anta"
+        }
+      ],
+      "prospect_id": "m127r_anta",
+      "level": "L1",
+      "matched_persona": "mgmt_profit_improvement"
+    },
+    {
+      "entity_id": "entity_bbb45a6220",
+      "canonical_name": "宜春赵一鸣食品科技有限公司",
+      "normalized_name": "宜春赵一鸣食品科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "宜春赵一鸣食品科技有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_zhaoyiming",
+          "level": "L2",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_zhaoyiming"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "level": "L2",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_df92a1d747",
+      "canonical_name": "小佩网络科技（上海）有限公司",
+      "normalized_name": "小佩网络科技(上海)",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "小佩网络科技（上海）有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_petkit",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_petkit"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_petkit",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_ed568af623",
+      "canonical_name": "小熊电器股份有限公司",
+      "normalized_name": "小熊电器",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "小熊电器股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_bear",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_bear"
+        }
+      ],
+      "prospect_id": "m44r_prospect_bear",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_e74a3cbf69",
+      "canonical_name": "广东小熊电器股份有限公司",
+      "normalized_name": "广东小熊电器",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "广东小熊电器股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_bear",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_bear"
+        }
+      ],
+      "prospect_id": "m68r_acc_bear",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_92a9e2cf69",
+      "canonical_name": "广州极男化妆品有限公司",
+      "normalized_name": "广州极男化妆品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "广州极男化妆品有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_simpcare",
+          "level": "L2",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_simpcare"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "level": "L2",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_7605d35508",
+      "canonical_name": "恒林家居股份有限公司",
+      "normalized_name": "恒林家居",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "恒林家居股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_henglin",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_henglin"
+        }
+      ],
+      "prospect_id": "m68r_acc_henglin",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_2ea8e458fb",
+      "canonical_name": "拓斯达科技股份有限公司",
+      "normalized_name": "拓斯达科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "拓斯达科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_topstar",
+          "level": "L1",
+          "matched_persona": "mfg_multi_factory_group"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_topstar"
+        }
+      ],
+      "prospect_id": "m68r_acc_topstar",
+      "level": "L1",
+      "matched_persona": "mfg_multi_factory_group"
+    },
+    {
+      "entity_id": "entity_d2c22e7913",
+      "canonical_name": "星华新材股份有限公司",
+      "normalized_name": "星华新材",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "星华新材股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_xinghua",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_xinghua"
+        }
+      ],
+      "prospect_id": "m68r_acc_xinghua",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_9b7d8f4adc",
+      "canonical_name": "星徽股份有限公司",
+      "normalized_name": "星徽",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "星徽股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_skshu",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_skshu"
+        }
+      ],
+      "prospect_id": "m68r_acc_skshu",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_b47a37337b",
+      "canonical_name": "朗科智能电气股份有限公司",
+      "normalized_name": "朗科智能电气",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "朗科智能电气股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_longood",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_longood"
+        }
+      ],
+      "prospect_id": "m68r_acc_longood",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_2adfa08ae6",
+      "canonical_name": "步步高商业连锁股份有限公司",
+      "normalized_name": "步步高商业连锁",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "步步高商业连锁股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_bbg",
+          "level": "L1",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_bbg"
+        }
+      ],
+      "prospect_id": "m68r_acc_bbg",
+      "level": "L1",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_dd7a12b937",
+      "canonical_name": "水羊集团股份有限公司",
+      "normalized_name": "水羊",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "水羊集团股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_syoung",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_syoung"
+        }
+      ],
+      "prospect_id": "m44r_prospect_syoung",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_d79b1138cf",
+      "canonical_name": "永艺家具股份有限公司",
+      "normalized_name": "永艺家具",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "永艺家具股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_uechairs",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_uechairs"
+        }
+      ],
+      "prospect_id": "m68r_acc_uechairs",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_2cd15e9e34",
+      "canonical_name": "江苏恒辉安防股份有限公司",
+      "normalized_name": "江苏恒辉安防",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "江苏恒辉安防股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_hengansecurity",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_hengansecurity"
+        }
+      ],
+      "prospect_id": "m68r_acc_hengansecurity",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_8e83d4db29",
+      "canonical_name": "泰鹏智能家居股份有限公司",
+      "normalized_name": "泰鹏智能家居",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "泰鹏智能家居股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_taipeng",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_taipeng"
+        }
+      ],
+      "prospect_id": "m68r_acc_taipeng",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_174b3708b3",
+      "canonical_name": "浙江华生科技股份有限公司",
+      "normalized_name": "浙江华生科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江华生科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_washin",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_washin"
+        }
+      ],
+      "prospect_id": "m68r_acc_washin",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_7d3cdf689f",
+      "canonical_name": "浙江哈尔斯真空器皿股份有限公司",
+      "normalized_name": "浙江哈尔斯真空器皿",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江哈尔斯真空器皿股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_haers",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_haers"
+        }
+      ],
+      "prospect_id": "m68r_acc_haers",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_ab86da5e02",
+      "canonical_name": "浙江恒威电池股份有限公司",
+      "normalized_name": "浙江恒威电池",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江恒威电池股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_hengwei",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_hengwei"
+        }
+      ],
+      "prospect_id": "m68r_acc_hengwei",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_471a26b71d",
+      "canonical_name": "浙江恒林椅业股份有限公司",
+      "normalized_name": "浙江恒林椅业",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江恒林椅业股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_hlin",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_hlin"
+        }
+      ],
+      "prospect_id": "m68r_acc_hlin",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_37084d047c",
+      "canonical_name": "浙江明新旭腾新材料股份有限公司",
+      "normalized_name": "浙江明新旭腾新材料",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江明新旭腾新材料股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_mingxin",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_mingxin"
+        }
+      ],
+      "prospect_id": "m68r_acc_mingxin",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_867849f05a",
+      "canonical_name": "浙江梦天木作家居有限公司",
+      "normalized_name": "浙江梦天木作家居",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江梦天木作家居有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_mengtian_wood",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_mengtian_wood"
+        }
+      ],
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_0cea2d74ba",
+      "canonical_name": "浙江正特股份有限公司",
+      "normalized_name": "浙江正特",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江正特股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_patio",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_patio"
+        }
+      ],
+      "prospect_id": "m68r_acc_patio",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_e12b1247f2",
+      "canonical_name": "浙江正裕工业股份有限公司",
+      "normalized_name": "浙江正裕工业",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江正裕工业股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_zhengyu",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_zhengyu"
+        }
+      ],
+      "prospect_id": "m68r_acc_zhengyu",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_e64e2d962a",
+      "canonical_name": "浙江永强集团股份有限公司",
+      "normalized_name": "浙江永强",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江永强集团股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_yotrio",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_yotrio"
+        }
+      ],
+      "prospect_id": "m68r_acc_yotrio",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_f2ff4a4c82",
+      "canonical_name": "浙江海利得新材料股份有限公司",
+      "normalized_name": "浙江海利得新材料",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江海利得新材料股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_hailide",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_hailide"
+        }
+      ],
+      "prospect_id": "m68r_acc_hailide",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_e9cb47933f",
+      "canonical_name": "浙江盛泰服装集团股份有限公司",
+      "normalized_name": "浙江盛泰服装",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江盛泰服装集团股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_shengtai",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_shengtai"
+        }
+      ],
+      "prospect_id": "m68r_acc_shengtai",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_c701160d55",
+      "canonical_name": "浙江野马电池股份有限公司",
+      "normalized_name": "浙江野马电池",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江野马电池股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_mustangbat",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_mustangbat"
+        }
+      ],
+      "prospect_id": "m68r_acc_mustangbat",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_771e388b37",
+      "canonical_name": "浙江雅艺金属科技股份有限公司",
+      "normalized_name": "浙江雅艺金属科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "浙江雅艺金属科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_yayi",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_yayi"
+        }
+      ],
+      "prospect_id": "m68r_acc_yayi",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_0356b6a030",
+      "canonical_name": "海象新材料股份有限公司",
+      "normalized_name": "海象新材料",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "海象新材料股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_haixiang",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_haixiang"
+        }
+      ],
+      "prospect_id": "m68r_acc_haixiang",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_1689e63d31",
+      "canonical_name": "深圳市三态电子商务股份有限公司",
+      "normalized_name": "深圳市三态电子商务",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "深圳市三态电子商务股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_santai",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_santai"
+        }
+      ],
+      "prospect_id": "m68r_acc_santai",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_0ae6850090",
+      "canonical_name": "深圳市有棵树科技股份有限公司",
+      "normalized_name": "深圳市有棵树科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "深圳市有棵树科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_youkeshu",
+          "level": "L4",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_youkeshu"
+        }
+      ],
+      "prospect_id": "m68r_acc_youkeshu",
+      "level": "L4",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_84eefdc77a",
+      "canonical_name": "深圳市杰美特科技股份有限公司",
+      "normalized_name": "深圳市杰美特科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "深圳市杰美特科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_jame",
+          "level": "L2",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_jame"
+        }
+      ],
+      "prospect_id": "m68r_acc_jame",
+      "level": "L2",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_86841ad3a4",
+      "canonical_name": "深圳市赛维网络科技有限公司",
+      "normalized_name": "深圳市赛维网络科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "深圳市赛维网络科技有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m68r_acc_sailvan",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m68r_acc_sailvan"
+        }
+      ],
+      "prospect_id": "m68r_acc_sailvan",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_8126eba830",
+      "canonical_name": "深圳百果园实业集团股份有限公司",
+      "normalized_name": "深圳百果园实业",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "深圳百果园实业集团股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_pagoda",
+          "level": "L1",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_pagoda"
+        }
+      ],
+      "prospect_id": "m44r_prospect_pagoda",
+      "level": "L1",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_236ef9fcfd",
+      "canonical_name": "深圳美西西餐饮管理有限公司",
+      "normalized_name": "深圳美西西餐饮管理",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "深圳美西西餐饮管理有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_heytea",
+          "level": "L2",
+          "matched_persona": "fnb_chain_beverage_coffee"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_heytea"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_heytea",
+      "level": "L2",
+      "matched_persona": "fnb_chain_beverage_coffee"
+    },
+    {
+      "entity_id": "entity_b23622733d",
+      "canonical_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "normalized_name": "湖南鸣鸣很忙商业连锁",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "湖南鸣鸣很忙商业连锁股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m85r_nonlisted_busyming",
+          "level": "L1",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m85r_nonlisted_busyming"
+        }
+      ],
+      "prospect_id": "m85r_nonlisted_busyming",
+      "level": "L1",
+      "matched_persona": "retail_multi_store"
+    },
+    {
+      "entity_id": "entity_af7d2ff866",
+      "canonical_name": "焦点科技股份有限公司",
+      "normalized_name": "焦点科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "焦点科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_focus_tech",
+          "level": "L1",
+          "matched_persona": "cbec_platform_operator"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_focus_tech"
+        }
+      ],
+      "prospect_id": "m44r_prospect_focus_tech",
+      "level": "L1",
+      "matched_persona": "cbec_platform_operator"
+    },
+    {
+      "entity_id": "entity_2fd6224f6a",
+      "canonical_name": "瑞幸咖啡有限公司",
+      "normalized_name": "瑞幸咖啡",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "瑞幸咖啡有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_luckin",
+          "level": "L1",
+          "matched_persona": "fnb_chain_beverage_coffee"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_luckin"
+        }
+      ],
+      "prospect_id": "m44r_prospect_luckin",
+      "level": "L1",
+      "matched_persona": "fnb_chain_beverage_coffee"
+    },
+    {
+      "entity_id": "entity_2da15a1872",
+      "canonical_name": "盐津铺子食品股份有限公司",
+      "normalized_name": "盐津铺子食品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "盐津铺子食品股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_yanjinpuzi",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_yanjinpuzi"
+        }
+      ],
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_b0ea49a9d2",
+      "canonical_name": "稳健医疗用品股份有限公司",
+      "normalized_name": "稳健医疗用品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "稳健医疗用品股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_winner_medical",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_winner_medical"
+        }
+      ],
+      "prospect_id": "m44r_prospect_winner_medical",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_752fe4fce9",
+      "canonical_name": "绝味食品股份有限公司",
+      "normalized_name": "绝味食品",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "绝味食品股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_juewei",
+          "level": "L1",
+          "matched_persona": "fnb_chain_standardized"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_juewei"
+        }
+      ],
+      "prospect_id": "m44r_prospect_juewei",
+      "level": "L1",
+      "matched_persona": "fnb_chain_standardized"
+    },
+    {
+      "entity_id": "entity_fa3aa09b1a",
+      "canonical_name": "自然堂集团",
+      "normalized_name": "自然堂",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace",
+        "customer_case_reference"
+      ],
+      "aliases": [
+        "自然堂集团",
+        "自然堂"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m127r_chando_group",
+          "level": "L2",
+          "matched_persona": "mgmt_inventory_supply_coordination"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m127r_chando_group"
+        },
+        {
+          "source": "customer_case_reference_registry_v1",
+          "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_cf_07f3a04c",
+          "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_cf751e980256"
+        }
+      ],
+      "prospect_id": "m127r_chando_group",
+      "level": "L2",
+      "matched_persona": "mgmt_inventory_supply_coordination",
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_cf_07f3a04c",
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_cf751e980256"
+    },
+    {
+      "entity_id": "entity_50f02f58b9",
+      "canonical_name": "赛维时代科技股份有限公司",
+      "normalized_name": "赛维时代科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "赛维时代科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_sailvan",
+          "level": "L1",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_sailvan"
+        }
+      ],
+      "prospect_id": "m44r_prospect_sailvan",
+      "level": "L1",
+      "matched_persona": "cbec_multi_platform_brand"
+    },
+    {
+      "entity_id": "entity_389da0aa6f",
+      "canonical_name": "逸仙控股有限公司",
+      "normalized_name": "逸仙",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "逸仙控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_yatsen",
+          "level": "L1",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_yatsen"
+        }
+      ],
+      "prospect_id": "m44r_prospect_yatsen",
+      "level": "L1",
+      "matched_persona": "retail_high_sku_brand"
+    },
+    {
+      "entity_id": "entity_65a7831a5d",
+      "canonical_name": "霸王茶姬控股有限公司",
+      "normalized_name": "霸王茶姬",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "霸王茶姬控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m44r_prospect_chagee",
+          "level": "L1",
+          "matched_persona": "fnb_chain_beverage_coffee"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m44r_prospect_chagee"
+        }
+      ],
+      "prospect_id": "m44r_prospect_chagee",
+      "level": "L1",
+      "matched_persona": "fnb_chain_beverage_coffee"
+    }
+  ]
+}

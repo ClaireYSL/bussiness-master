@@ -401,7 +401,8 @@ def build_readiness_payload() -> dict[str, Any]:
             "level_counts": count_levels(pool.get("items") or []),
             "m150_expert_review_status": m150_expert.get("status"),
             "m150_followup_count": m150_expert.get("summary", {}).get("followup_count"),
-            "m150_readiness_summary": m150_panel.get("summary"),
+            "historical_m150_readiness_summary": m150_panel.get("summary"),
+            "historical_snapshot_note": "M150/M160 nested readiness summaries are historical only; current canonical counts come from trusted pool/source trace.",
         },
         "next_action": "如需写产物，请运行 production 或显式 M160 all；readiness 本身不写任何 tracked JSON。",
     }

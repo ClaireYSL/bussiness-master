@@ -1,0 +1,158 @@
+{
+  "batch_id": "m182r_production_guard_regression_report_v1",
+  "milestone": "M182R",
+  "generated_at": "2026-05-04T06:56:27.498867+00:00",
+  "status": "PASS",
+  "summary": {
+    "old_sample_block_count": 10,
+    "v2_sample_block_count": 4,
+    "duplicate_existing_prospect_status": "duplicate_existing_prospect",
+    "missing_v2_gate_update_package_failed": true,
+    "source_collection_pending_all_eligible": true,
+    "signed_customer_gate_version": "v2"
+  },
+  "old_block_results": {
+    "百胜中国": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "百胜中国",
+      "matched_customer_id": "signed_customer_百胜_中国_投资有限公司_3111f50a2d",
+      "matched_canonical_name": "百胜（中国）投资有限公司",
+      "matched_alias_name": "百胜中国",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    "珀莱雅": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "珀莱雅",
+      "matched_customer_id": "signed_customer_珀莱雅化妆品股份有限公司_66f74ef5ec",
+      "matched_canonical_name": "珀莱雅化妆品股份有限公司",
+      "matched_alias_name": "珀莱雅",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    "上海家化": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "上海家化",
+      "matched_customer_id": "signed_customer_上海家化联合股份有限公司_3e0c205876",
+      "matched_canonical_name": "上海家化联合股份有限公司",
+      "matched_alias_name": "上海家化",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    "森马": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "森马",
+      "matched_customer_id": "legacy_customer_semir",
+      "matched_canonical_name": "浙江森马服饰股份有限公司",
+      "matched_alias_name": "森马",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    "特步": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "特步",
+      "matched_customer_id": "legacy_customer_xtep",
+      "matched_canonical_name": "特步（中国）有限公司",
+      "matched_alias_name": "特步（中国）有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    "海澜之家": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "海澜之家",
+      "matched_customer_id": "legacy_customer_hla",
+      "matched_canonical_name": "海澜之家集团股份有限公司",
+      "matched_alias_name": "海澜之家集团股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    "锅圈": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "锅圈",
+      "matched_customer_id": "legacy_customer_guoquan",
+      "matched_canonical_name": "锅圈食品（上海）股份有限公司",
+      "matched_alias_name": "锅圈",
+      "match_type": "market_or_group_name",
+      "reason": "exact_normalized_match"
+    },
+    "来伊份": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "来伊份",
+      "matched_customer_id": "signed_customer_上海来伊份股份有限公司_a7006e2d6e",
+      "matched_canonical_name": "上海来伊份股份有限公司",
+      "matched_alias_name": "来伊份",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    "天味食品": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "天味食品",
+      "matched_customer_id": "legacy_customer_tianwei",
+      "matched_canonical_name": "天味食品股份有限公司",
+      "matched_alias_name": "天味食品股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    "水星家纺": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "水星家纺",
+      "matched_customer_id": "legacy_customer_mercuryhome",
+      "matched_canonical_name": "水星家纺股份有限公司",
+      "matched_alias_name": "水星家纺股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    }
+  },
+  "v2_block_results": {
+    "深圳智工坊科技有限公司": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "深圳智工坊科技有限公司",
+      "matched_customer_id": "signed_customer_深圳智工坊科技有限公司_459ac7d416",
+      "matched_canonical_name": "深圳智工坊科技有限公司",
+      "matched_alias_name": "深圳智工坊科技有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    "广州丸碧化妆品有限公司": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "广州丸碧化妆品有限公司",
+      "matched_customer_id": "signed_customer_广州丸碧化妆品有限公司_24a78857c0",
+      "matched_canonical_name": "广州丸碧化妆品有限公司",
+      "matched_alias_name": "广州丸碧化妆品有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    "广州优卡普科技有限公司": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "广州优卡普科技有限公司",
+      "matched_customer_id": "signed_customer_广州优卡普科技有限公司_c125bc0b41",
+      "matched_canonical_name": "广州优卡普科技有限公司",
+      "matched_alias_name": "广州优卡普科技有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    "深圳市美通供应链有限公司": {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "深圳市美通供应链有限公司",
+      "matched_customer_id": "signed_customer_深圳市美通供应链有限公司_e60e44f268",
+      "matched_canonical_name": "深圳市美通供应链有限公司",
+      "matched_alias_name": "深圳市美通供应链有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    }
+  },
+  "duplicate_existing_prospect_probe": {
+    "prospect_eligibility_status": "duplicate_existing_prospect",
+    "candidate_name": "瑞幸咖啡",
+    "reason": "entity already exists in trusted pool",
+    "matched_entity_id": "entity_2fd6224f6a",
+    "matched_entity_name": "瑞幸咖啡有限公司",
+    "matched_prospect_id": "m44r_prospect_luckin",
+    "signed_customer_match": null
+  },
+  "missing_gate_update_package_probe": {
+    "candidate_name": "测试候选公司",
+    "prospect_id": "m182_missing_gate_probe",
+    "signed_customer_gate_version": null
+  }
+}

@@ -23,12 +23,13 @@ MODE_COMMANDS = {
     "publish": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "publish"]],
     "scale-plan": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "scale-plan"]],
     "signed-customer-gate": [["python3", "scripts/build_m131r_m135_signed_customer_registry.py", "--stage", "all"]],
-    "cross-asset-readiness": [["python3", "scripts/build_m137r_m141_cross_asset_readiness.py", "--stage", "all"]],
+    "cross-asset-readiness": [["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"]],
+    "system-reconcile": [["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"]],
     "production": [
         ["python3", "scripts/build_m120r_m125_sustainable_production_system.py", "--stage", "all", "--allow-canonical-registry-update"],
         ["python3", "scripts/build_m131r_m135_signed_customer_registry.py", "--stage", "all"],
         ["python3", "scripts/build_m180r_signed_customer_registry_v2.py", "--stage", "all"],
-        ["python3", "scripts/build_m137r_m141_cross_asset_readiness.py", "--stage", "all"],
+        ["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"],
         ["python3", "scripts/build_m126r_m130_production_evidence_loop.py", "--stage", "all", "--allow-trusted-pool-update", "--allow-vault-regular-write"],
         ["python3", "scripts/build_m150r_production_loop_hardening.py", "--stage", "all"],
         ["python3", "scripts/build_m160r_system_stabilization.py", "--stage", "all"],
@@ -63,12 +64,25 @@ def main() -> int:
     args = build_parser().parse_args()
     commands = MODE_COMMANDS[args.mode]
     panel = read_json(STATUS_PANEL)
+    current_status = {
+        "latest_milestone": panel.get("latest_milestone"),
+        "overall_status": panel.get("overall_status"),
+        "counts": panel.get("counts"),
+        "current_canonical_state": panel.get("current_canonical_state"),
+    }
     if args.dry_run:
-        print(json.dumps({"mode": args.mode, "generated_at": now(), "commands": commands, "current_status": {"latest_milestone": panel.get("latest_milestone"), "overall_status": panel.get("overall_status"), "counts": panel.get("counts")}}, ensure_ascii=False, indent=2))
+        print(json.dumps({"mode": args.mode, "generated_at": now(), "commands": commands, "current_status": current_status}, ensure_ascii=False, indent=2))
         return 0
     results = [run(cmd) for cmd in commands]
     status = "PASS" if all(result["returncode"] == 0 for result in results) else "FAIL"
-    print(json.dumps({"mode": args.mode, "status": status, "results": results}, ensure_ascii=False, indent=2))
+    panel = read_json(STATUS_PANEL)
+    current_status = {
+        "latest_milestone": panel.get("latest_milestone"),
+        "overall_status": panel.get("overall_status"),
+        "counts": panel.get("counts"),
+        "current_canonical_state": panel.get("current_canonical_state"),
+    }
+    print(json.dumps({"mode": args.mode, "status": status, "current_status": current_status, "results": results}, ensure_ascii=False, indent=2))
     return 0 if status == "PASS" else 2
 
 

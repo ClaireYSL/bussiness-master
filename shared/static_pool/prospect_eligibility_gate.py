@@ -9,7 +9,9 @@ from typing import Any
 from shared.static_pool.signed_customer_gate import SignedCustomerGate, normalize_name
 
 WORKSPACE = Path(__file__).resolve().parents[2]
-DEFAULT_ENTITY_REGISTRY = WORKSPACE / "deliveries/canonical/businessmaster/account_entity_registry_v1.json"
+ACCOUNT_ENTITY_REGISTRY_V2 = WORKSPACE / "deliveries/canonical/businessmaster/account_entity_registry_v2.json"
+ACCOUNT_ENTITY_REGISTRY_V1 = WORKSPACE / "deliveries/canonical/businessmaster/account_entity_registry_v1.json"
+DEFAULT_ENTITY_REGISTRY = ACCOUNT_ENTITY_REGISTRY_V2
 
 NON_COMPANY_TOKENS = ["案例", "方案", "对话", "CTO", "CIO", "访谈", "复盘", "方法论", "汇报", "交流", "观远", "不用", "如何用"]
 
@@ -52,7 +54,10 @@ class ProspectEligibilityGate:
 
     @classmethod
     def from_files(cls, entity_registry_path: str | Path = DEFAULT_ENTITY_REGISTRY) -> "ProspectEligibilityGate":
-        return cls(read_json(entity_registry_path, {"items": []}))
+        registry_file = Path(entity_registry_path)
+        if registry_file == DEFAULT_ENTITY_REGISTRY and not registry_file.exists():
+            registry_file = ACCOUNT_ENTITY_REGISTRY_V1
+        return cls(read_json(registry_file, {"items": []}))
 
     def _build_index(self) -> None:
         for entity in self.entity_registry.get("items") or []:
