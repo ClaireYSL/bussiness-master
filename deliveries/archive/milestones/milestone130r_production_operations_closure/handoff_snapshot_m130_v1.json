@@ -1,0 +1,16 @@
+{
+  "batch_id": "handoff_snapshot_m130_v1",
+  "milestone": "M130R",
+  "generated_at": "2026-05-04T02:26:49.241306+00:00",
+  "status": "READY_FOR_NEXT_EVIDENCE_BATCH",
+  "next_commands": [
+    "python3 scripts/businessmaster_pipeline.py --mode production --dry-run",
+    "python3 scripts/build_m126r_m130_production_evidence_loop.py --stage all --allow-trusted-pool-update --allow-vault-regular-write"
+  ],
+  "hard_boundaries": [
+    "不写旧 Excel",
+    "不从潜客写知识资产",
+    "不从潜客写 persona registry",
+    "不引入动态经营字段"
+  ]
+}

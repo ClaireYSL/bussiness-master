@@ -1,0 +1,54 @@
+{
+  "batch_id": "m126r_public_evidence_collection_plan_v1",
+  "generated_at": "2026-05-04T02:26:48.899498+00:00",
+  "summary": {
+    "plan_count": 3
+  },
+  "items": [
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "minimum_entry_rule": "至少 1 条可定位强来源进入 report-only；L2/L1 需更多来源与完整解释。"
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
+      "company_name": "安踏体育用品有限公司",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "minimum_entry_rule": "至少 1 条可定位强来源进入 report-only；L2/L1 需更多来源与完整解释。"
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
+      "company_name": "自然堂集团",
+      "mapped_canonical_personas": [
+        "mgmt_inventory_supply_coordination",
+        "mgmt_profit_improvement"
+      ],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "minimum_entry_rule": "至少 1 条可定位强来源进入 report-only；L2/L1 需更多来源与完整解释。"
+    }
+  ]
+}

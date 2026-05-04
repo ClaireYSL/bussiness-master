@@ -1,7 +1,7 @@
 {
   "batch_id": "handoff_snapshot_m124_v1",
   "milestone": "M124R",
-  "generated_at": "2026-05-03T15:05:11.986744+00:00",
+  "generated_at": "2026-05-04T02:26:48.777721+00:00",
   "status": "READY_FOR_EVIDENCE_COLLECTION_AND_M125_SCALE",
   "current_state": "M120-M124 已把知识/画像 canonical registry、证据采集任务、trusted pool report-only 边界、vault 用户层和系统入口固化。",
   "next_commands": [

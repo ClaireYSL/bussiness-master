@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-03T14:05:53.538283+00:00",
+  "generated_at": "2026-05-04T02:26:48.900959+00:00",
   "summary": {
-    "trusted_pool_count": 61,
+    "trusted_pool_count": 64,
     "share_view_count": 20,
     "source_trace_count": 61,
     "trusted_match_ready_count": 49,
@@ -11,12 +11,12 @@
     "persona_registry_write_enabled": false,
     "no_write_proof_ok": true,
     "static_level_counts": {
-      "L1": 35,
-      "L2": 25,
+      "L1": 37,
+      "L2": 26,
       "L4": 1
     },
-    "canonical_update_source": "M88R",
-    "runner": "trusted_pool_runner_v3"
+    "canonical_update_source": "M128R",
+    "runner": "production_evidence_loop"
   },
   "items": [
     {
@@ -1220,6 +1220,72 @@
       "canonical_update_source": "M88R_from_M86R_hardened_ready",
       "source_locator_hardened": true,
       "legacy_field_inherited": false
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "level": "L1",
+      "trusted_status": "static_l1_ready",
+      "matched_persona": "mgmt_inventory_supply_coordination",
+      "match_reason": "太平鸟是多品牌时尚服饰零售企业，具备品牌矩阵、商品企划、全渠道零售与供应链协同复杂度，符合库存/商品/渠道协同类 ICP。",
+      "core_product_service_summary": "公司围绕 PEACEBIRD 太平鸟等服饰品牌开展设计、研发、零售和全网营销。",
+      "business_model_summary": "以品牌服饰研发设计、商品企划、直营网点/线上渠道/加盟等零售网络协同为核心。",
+      "risk_or_gap": "已具备官方与资本市场来源；后续可继续补平台店铺或门店网络页以增强非上市披露类经营事实。",
+      "source_locator": "https://www.peacebird.com.cn/",
+      "evidence_strength": "official_site",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "legacy_reference_only": false,
+      "production_source": "M127R_public_evidence_admission",
+      "static_promotion_summary": "宁波太平鸟时尚服饰股份有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。",
+      "static_gap_count": 0,
+      "static_evidence_count": 3,
+      "static_strong_evidence_count": 3,
+      "updated_by_milestone": "M128R"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "level": "L1",
+      "trusted_status": "static_l1_ready",
+      "matched_persona": "mgmt_profit_improvement",
+      "match_reason": "安踏是多品牌运动用品集团，具备品牌矩阵、直营/零售渠道、门店运营与多品牌经营复杂度，符合品牌零售与经营分析类 ICP。",
+      "core_product_service_summary": "集团经营 ANTA、FILA、DESCENTE、KOLON SPORT 等运动用品品牌与零售渠道。",
+      "business_model_summary": "以多品牌运动用品研发、品牌运营、零售网络与会员/渠道经营为核心。",
+      "risk_or_gap": "已具备官网、IR 与交易所披露来源；后续可补中国区门店/平台经营页提升经营事实颗粒度。",
+      "source_locator": "https://www.anta.cn/",
+      "evidence_strength": "official_site",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "legacy_reference_only": false,
+      "production_source": "M127R_public_evidence_admission",
+      "static_promotion_summary": "安踏体育用品有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=2。",
+      "static_gap_count": 0,
+      "static_evidence_count": 3,
+      "static_strong_evidence_count": 3,
+      "updated_by_milestone": "M128R"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "level": "L2",
+      "trusted_status": "static_l2_ready",
+      "matched_persona": "mgmt_inventory_supply_coordination",
+      "match_reason": "自然堂集团是多品牌美妆企业，具备产品矩阵、品牌运营、线上线下渠道和研发/营销协同复杂度，符合高 SKU 消费品牌类 ICP。",
+      "core_product_service_summary": "集团围绕自然堂等美妆品牌开展护肤、彩妆、研发和品牌经营。",
+      "business_model_summary": "以美妆品牌矩阵、产品研发、渠道经营和消费者运营为核心。",
+      "risk_or_gap": "非上市披露来源较少；本轮以官网和权威行业材料支撑，后续可补平台旗舰店或官方渠道页。",
+      "source_locator": "https://www.chandogroup.com/",
+      "evidence_strength": "official_site",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "legacy_reference_only": false,
+      "production_source": "M127R_public_evidence_admission",
+      "static_promotion_summary": "自然堂集团 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。",
+      "static_gap_count": 1,
+      "static_evidence_count": 2,
+      "static_strong_evidence_count": 2,
+      "updated_by_milestone": "M128R"
     }
   ]
 }

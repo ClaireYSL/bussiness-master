@@ -1,0 +1,57 @@
+{
+  "batch_id": "m130r_production_operations_closure_v1",
+  "milestone": "M130R",
+  "generated_at": "2026-05-04T02:26:49.241286+00:00",
+  "status": "PASS",
+  "summary": {
+    "trusted_pool_count": 64,
+    "level_counts": {
+      "L1": 37,
+      "L2": 26,
+      "L4": 1
+    },
+    "identity_ready_count": 3,
+    "public_evidence_candidate_count": 3,
+    "trusted_pool_updated": true,
+    "vault_regular_write_count": 3
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m126r_m130_production_evidence_loop.py",
+      "scripts/businessmaster_pipeline.py",
+      "scripts/trusted_pool_runner.py",
+      "shared/static_pool/static_promote.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 13,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "legacy_guard_without_override": {
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/Users/clairelu2026/CodexProjects/BusinessMaster/shared/static_pool/legacy_guard.py\", line 17, in assert_legacy_workbook_write_allowed\n    raise PermissionError(\nPermissionError: m126r_m130_validation blocked: old workbook write is legacy-only. Pass --allow-legacy-workbook-write and set STATIC_POOL_ALLOW_LEGACY_WORKBOOK_WRITE=I_UNDERSTAND_LEGACY_WRITE to proceed.\n"
+  },
+  "trusted_pool_update_guard_without_allow": {
+    "returncode": 0
+  },
+  "baseline_mismatch_check": {
+    "returncode": 0
+  }
+}

@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-05-03T14:29:59.778706+00:00",
+  "generated_at": "2026-05-04T02:26:48.902699+00:00",
   "summary": {
-    "source_trace_count": 61,
-    "m84_patch_count": 12,
-    "platform_operating_fact_count": 6,
-    "official_owned_count": 42,
-    "regulatory_or_capital_market_count": 82,
-    "skipped_count": 0,
-    "source_category_counts": {
-      "official_owned": 55,
-      "regulatory_or_capital_market": 82,
-      "authoritative_third_party": 13,
-      "internal_or_legacy_reference": 30,
-      "platform_operating_fact": 10
-    },
-    "canonical_update_source": "M91R_source_category_foundation_cleanup",
-    "source_type_counts": {
-      "ir": 7,
-      "annual_report": 42,
-      "official_site": 32,
-      "official": 9,
-      "exchange_announcement": 4,
-      "sec_filing": 4,
-      "authoritative_media": 1,
-      "regulatory": 2,
-      "cninfo": 29,
-      "structured_intake_patch": 30,
-      "official_channel_page": 11,
-      "official_product_page": 6,
-      "official_website": 1,
-      "media_report": 3,
-      "financing_news": 4,
-      "investor_portfolio": 1,
-      "company_profile": 1,
-      "industry_research": 3
-    },
-    "missing_source_locator_count": 0,
-    "source_category_null_count": 0,
-    "m91r_source_category_repaired_count": 149,
-    "m91r_source_category_newly_repaired_count": 0
+    "source_trace_count": 64,
+    "canonical_update_source": "M128R"
   },
   "items": [
     {
@@ -2730,6 +2694,96 @@
       "verified_source_count": 2,
       "added_by_milestone": "M88R",
       "source_locator_hardened": true
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.peacebird.com.cn/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:brand_product_matrix,multi_store_retail,official_owned",
+          "summary": "太平鸟集团官网介绍品牌发展、时尚设计、全网营销等业务特征。"
+        },
+        {
+          "source_type": "official_store",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://shop.peacebird.com/",
+          "evidence_strength": "official_store",
+          "supports_dimension": "icp_match_support:brand_product_matrix,platform_operating_fact",
+          "summary": "PEACEBIRD 官方线上店铺展示品牌商品与线上经营事实。"
+        },
+        {
+          "source_type": "annual_report",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222923564.PDF",
+          "evidence_strength": "annual_report",
+          "supports_dimension": "listed_company_disclosure,brand_product_matrix,icp_match_support",
+          "summary": "太平鸟 2024 年年度报告披露公司业务与经营情况。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.anta.cn/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+          "summary": "安踏官方商城展示品牌产品与线上零售入口。"
+        },
+        {
+          "source_type": "ir",
+          "source_category": "official_owned",
+          "source_locator": "https://ir.anta.com/en/",
+          "evidence_strength": "ir",
+          "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+          "summary": "安踏体育投资者关系网站披露集团品牌和财务报告入口。"
+        },
+        {
+          "source_type": "hkex_filing",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0331/2025033100649.pdf",
+          "evidence_strength": "annual_report",
+          "supports_dimension": "listed_company_disclosure,brand_product_matrix,icp_match_support",
+          "summary": "港交所公告中的安踏体育 2024 年报披露集团经营与品牌结构。"
+        }
+      ]
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chandogroup.com/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+          "summary": "自然堂集团官网介绍集团和品牌矩阵。"
+        },
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chandogroup.com/",
+          "evidence_strength": "official_site",
+          "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+          "summary": "自然堂集团官网可作为官方自有来源定位集团业务与品牌。"
+        },
+        {
+          "source_type": "industry_association",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.caffci.org/upload/files/20250709/2024%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%96%99%E9%A6%99%E7%B2%BE%E5%8C%96%E5%A6%86%E5%93%81%E8%A1%8C%E4%B8%9A%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B%E9%9B%86.pdf",
+          "evidence_strength": "industry_association",
+          "supports_dimension": "icp_match_support:brand_product_matrix,authoritative_third_party",
+          "summary": "行业协会材料收录自然堂集团相关实践，可作为权威第三方补充来源。"
+        }
+      ]
     }
   ]
 }

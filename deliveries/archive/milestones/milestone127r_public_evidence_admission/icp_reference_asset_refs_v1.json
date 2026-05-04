@@ -1,0 +1,25 @@
+{
+  "batch_id": "m127r_icp_reference_asset_refs_v1",
+  "generated_at": "2026-05-04T02:26:48.900084+00:00",
+  "summary": {
+    "candidate_count": 3,
+    "note": "本轮候选只保留画像引用，不把潜客写入知识资产。"
+  },
+  "items": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "icp_reference_asset_refs": []
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "icp_reference_asset_refs": []
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "icp_reference_asset_refs": []
+    }
+  ]
+}

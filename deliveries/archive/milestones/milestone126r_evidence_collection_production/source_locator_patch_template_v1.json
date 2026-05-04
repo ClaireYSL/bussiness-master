@@ -1,0 +1,25 @@
+{
+  "batch_id": "m126r_source_locator_patch_template_v1",
+  "generated_at": "2026-05-04T02:26:48.899500+00:00",
+  "required_fields": [
+    "prospect_id",
+    "company_name",
+    "source_type",
+    "source_category",
+    "source_locator",
+    "evidence_strength",
+    "supports_dimension",
+    "summary"
+  ],
+  "allowed_source_categories": [
+    "official_owned",
+    "platform_operating_fact",
+    "authoritative_third_party",
+    "regulatory_or_capital_market"
+  ],
+  "disallowed_as_strong_evidence": [
+    "internal_or_legacy_reference",
+    "learning_material_seed",
+    "llm_summary"
+  ]
+}

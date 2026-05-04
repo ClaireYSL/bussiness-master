@@ -19,7 +19,10 @@ MODE_COMMANDS = {
     "prospect": [["python3", "scripts/build_m95r_m98_learning_pool_operating_system.py"], ["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "prospect"]],
     "publish": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "publish"]],
     "scale-plan": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "scale-plan"]],
-    "production": [["python3", "scripts/build_m120r_m125_sustainable_production_system.py", "--stage", "all", "--allow-canonical-registry-update"]],
+    "production": [
+        ["python3", "scripts/build_m120r_m125_sustainable_production_system.py", "--stage", "all", "--allow-canonical-registry-update"],
+        ["python3", "scripts/build_m126r_m130_production_evidence_loop.py", "--stage", "all", "--allow-trusted-pool-update", "--allow-vault-regular-write"],
+    ],
     "all": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "all"]],
 }
 

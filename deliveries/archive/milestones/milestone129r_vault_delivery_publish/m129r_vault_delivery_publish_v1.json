@@ -1,0 +1,51 @@
+{
+  "batch_id": "m129r_vault_delivery_publish_v1",
+  "milestone": "M129R",
+  "generated_at": "2026-05-04T02:26:48.905546+00:00",
+  "status": "PASS_VAULT_REGULAR_WRITTEN",
+  "summary": {
+    "vault_preview_count": 3,
+    "vault_regular_write_count": 3,
+    "vault_regular_write_allowed": true
+  },
+  "preview_outputs": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/deliveries/archive/milestones/milestone129r_vault_delivery_publish/vault_preview/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/deliveries/archive/milestones/milestone129r_vault_delivery_publish/vault_preview/01-L1 ICP强匹配档案/安踏体育用品有限公司.md"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "level": "L2",
+      "path": "/Users/clairelu2026/CodexProjects/BusinessMaster/deliveries/archive/milestones/milestone129r_vault_delivery_publish/vault_preview/02-L2正式潜客档案/自然堂集团.md"
+    }
+  ],
+  "regular_outputs": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "level": "L1",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/安踏体育用品有限公司.md"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "level": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/自然堂集团.md"
+    }
+  ]
+}

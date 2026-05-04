@@ -1,0 +1,59 @@
+{
+  "batch_id": "m128r_production_trusted_pool_report_v1",
+  "milestone": "M128R",
+  "generated_at": "2026-05-04T02:26:48.904809+00:00",
+  "status": "PASS_TRUSTED_POOL_UPDATED",
+  "summary": {
+    "candidate_count": 3,
+    "suggested_level_counts": {
+      "L1": 2,
+      "L2": 1
+    },
+    "canonical_pool_updated": true,
+    "source_trace_updated": true,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  },
+  "decisions": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "宁波太平鸟时尚服饰股份有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "current_level": "L5",
+      "suggested_level": "L1",
+      "decision": "allow",
+      "gap_queue": [],
+      "evidence_count": 3,
+      "strong_evidence_count": 3,
+      "summary": "安踏体育用品有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "current_level": "L5",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "自然堂集团 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。"
+    }
+  ]
+}

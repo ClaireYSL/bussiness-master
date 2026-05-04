@@ -1,0 +1,32 @@
+{
+  "batch_id": "m128r_pool_diff_report_v1",
+  "generated_at": "2026-05-04T02:26:48.904819+00:00",
+  "summary": {
+    "change_count": 3,
+    "append_count": 0,
+    "update_count": 3
+  },
+  "items": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "change_type": "update",
+      "suggested_level": "L1",
+      "gap_count": 0
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "change_type": "update",
+      "suggested_level": "L1",
+      "gap_count": 0
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "change_type": "update",
+      "suggested_level": "L2",
+      "gap_count": 1
+    }
+  ]
+}

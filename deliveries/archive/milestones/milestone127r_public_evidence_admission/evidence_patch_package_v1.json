@@ -1,0 +1,165 @@
+{
+  "batch_id": "m127r_public_evidence_admission_v1",
+  "milestone": "M127R",
+  "generated_at": "2026-05-04T02:26:48.900078+00:00",
+  "status": "PASS_PUBLIC_EVIDENCE_READY",
+  "summary": {
+    "candidate_count": 3,
+    "evidence_count": 9,
+    "source_category_counts": {
+      "official_owned": 5,
+      "platform_operating_fact": 1,
+      "regulatory_or_capital_market": 2,
+      "authoritative_third_party": 1
+    },
+    "report_only_ready_count": 3,
+    "llm_used_as_evidence_count": 0,
+    "skipped_count": 0
+  },
+  "candidates": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "level": "L5",
+      "trusted_status": "candidate_seed",
+      "matched_persona": "mgmt_inventory_supply_coordination",
+      "match_reason": "太平鸟是多品牌时尚服饰零售企业，具备品牌矩阵、商品企划、全渠道零售与供应链协同复杂度，符合库存/商品/渠道协同类 ICP。",
+      "core_product_service_summary": "公司围绕 PEACEBIRD 太平鸟等服饰品牌开展设计、研发、零售和全网营销。",
+      "business_model_summary": "以品牌服饰研发设计、商品企划、直营网点/线上渠道/加盟等零售网络协同为核心。",
+      "risk_or_gap": "已具备官方与资本市场来源；后续可继续补平台店铺或门店网络页以增强非上市披露类经营事实。",
+      "source_locator": "https://www.peacebird.com.cn/",
+      "evidence_strength": "official_site",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "legacy_reference_only": false,
+      "production_source": "M127R_public_evidence_admission"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "level": "L5",
+      "trusted_status": "candidate_seed",
+      "matched_persona": "mgmt_profit_improvement",
+      "match_reason": "安踏是多品牌运动用品集团，具备品牌矩阵、直营/零售渠道、门店运营与多品牌经营复杂度，符合品牌零售与经营分析类 ICP。",
+      "core_product_service_summary": "集团经营 ANTA、FILA、DESCENTE、KOLON SPORT 等运动用品品牌与零售渠道。",
+      "business_model_summary": "以多品牌运动用品研发、品牌运营、零售网络与会员/渠道经营为核心。",
+      "risk_or_gap": "已具备官网、IR 与交易所披露来源；后续可补中国区门店/平台经营页提升经营事实颗粒度。",
+      "source_locator": "https://www.anta.cn/",
+      "evidence_strength": "official_site",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "legacy_reference_only": false,
+      "production_source": "M127R_public_evidence_admission"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "level": "L5",
+      "trusted_status": "candidate_seed",
+      "matched_persona": "mgmt_inventory_supply_coordination",
+      "match_reason": "自然堂集团是多品牌美妆企业，具备产品矩阵、品牌运营、线上线下渠道和研发/营销协同复杂度，符合高 SKU 消费品牌类 ICP。",
+      "core_product_service_summary": "集团围绕自然堂等美妆品牌开展护肤、彩妆、研发和品牌经营。",
+      "business_model_summary": "以美妆品牌矩阵、产品研发、渠道经营和消费者运营为核心。",
+      "risk_or_gap": "非上市披露来源较少；本轮以官网和权威行业材料支撑，后续可补平台旗舰店或官方渠道页。",
+      "source_locator": "https://www.chandogroup.com/",
+      "evidence_strength": "official_site",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "legacy_reference_only": false,
+      "production_source": "M127R_public_evidence_admission"
+    }
+  ],
+  "evidence_rows": [
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "source_type": "official_site",
+      "source_category": "official_owned",
+      "source_locator": "https://www.peacebird.com.cn/",
+      "evidence_strength": "official_site",
+      "supports_dimension": "icp_match_support:brand_product_matrix,multi_store_retail,official_owned",
+      "summary": "太平鸟集团官网介绍品牌发展、时尚设计、全网营销等业务特征。"
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "source_type": "official_store",
+      "source_category": "platform_operating_fact",
+      "source_locator": "https://shop.peacebird.com/",
+      "evidence_strength": "official_store",
+      "supports_dimension": "icp_match_support:brand_product_matrix,platform_operating_fact",
+      "summary": "PEACEBIRD 官方线上店铺展示品牌商品与线上经营事实。"
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "source_type": "annual_report",
+      "source_category": "regulatory_or_capital_market",
+      "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222923564.PDF",
+      "evidence_strength": "annual_report",
+      "supports_dimension": "listed_company_disclosure,brand_product_matrix,icp_match_support",
+      "summary": "太平鸟 2024 年年度报告披露公司业务与经营情况。"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "source_type": "official_site",
+      "source_category": "official_owned",
+      "source_locator": "https://www.anta.cn/",
+      "evidence_strength": "official_site",
+      "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+      "summary": "安踏官方商城展示品牌产品与线上零售入口。"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "source_type": "ir",
+      "source_category": "official_owned",
+      "source_locator": "https://ir.anta.com/en/",
+      "evidence_strength": "ir",
+      "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+      "summary": "安踏体育投资者关系网站披露集团品牌和财务报告入口。"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "source_type": "hkex_filing",
+      "source_category": "regulatory_or_capital_market",
+      "source_locator": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0331/2025033100649.pdf",
+      "evidence_strength": "annual_report",
+      "supports_dimension": "listed_company_disclosure,brand_product_matrix,icp_match_support",
+      "summary": "港交所公告中的安踏体育 2024 年报披露集团经营与品牌结构。"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "source_type": "official_site",
+      "source_category": "official_owned",
+      "source_locator": "https://www.chandogroup.com/",
+      "evidence_strength": "official_site",
+      "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+      "summary": "自然堂集团官网介绍集团和品牌矩阵。"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "source_type": "official_brand_site",
+      "source_category": "official_owned",
+      "source_locator": "https://www.chandogroup.com/",
+      "evidence_strength": "official_site",
+      "supports_dimension": "icp_match_support:brand_product_matrix,official_owned",
+      "summary": "自然堂集团官网可作为官方自有来源定位集团业务与品牌。"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "source_type": "industry_association",
+      "source_category": "authoritative_third_party",
+      "source_locator": "https://www.caffci.org/upload/files/20250709/2024%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%96%99%E9%A6%99%E7%B2%BE%E5%8C%96%E5%A6%86%E5%93%81%E8%A1%8C%E4%B8%9A%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B%E9%9B%86.pdf",
+      "evidence_strength": "industry_association",
+      "supports_dimension": "icp_match_support:brand_product_matrix,authoritative_third_party",
+      "summary": "行业协会材料收录自然堂集团相关实践，可作为权威第三方补充来源。"
+    }
+  ],
+  "skipped": []
+}
