@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-04T11:11:22.630885+00:00",
-  "overall_status": "PASS_M219R_STATIC_PROMOTE_REPORT_ONLY",
+  "generated_at": "2026-05-04T11:12:23.167196+00:00",
+  "overall_status": "PASS_M220R_TRUSTED_POOL_L3_PUBLISH",
   "counts": {
-    "trusted_pool_count": 108,
+    "trusted_pool_count": 116,
     "l1_count": 46,
     "l2_count": 61,
-    "l3_count": 0,
+    "l3_count": 8,
     "l4_count": 1,
     "l5_count": 0,
     "canonical_knowledge_asset_count": 40,
@@ -23,10 +23,10 @@
     "signed_customer_alias_v2_count": 2088,
     "m180_trusted_pool_existing_customer_hit_count": 0,
     "m180_vault_existing_customer_hit_count": 0,
-    "source_trace_count": 108,
+    "source_trace_count": 116,
     "existing_customer_vault_hit_count": 0,
-    "entity_v2_count": 1188,
-    "entity_v2_trusted_pool_entity_count": 108,
+    "entity_v2_count": 1196,
+    "entity_v2_trusted_pool_entity_count": 116,
     "m182_source_collection_pending_count": 1,
     "m182_identity_pending_count": 13,
     "m182_eligibility_blocked_count": 4,
@@ -105,7 +105,7 @@
     "m201_updated_l3_count": 0,
     "m201_published_l3_count": 19,
     "m201_vault_l3_written_count": 19,
-    "entity_v2_source_trace_entity_count": 108,
+    "entity_v2_source_trace_entity_count": 116,
     "entity_v2_signed_customer_entity_count": 1059,
     "m202_report_only_candidate_count": 19,
     "m202_l2_preview_count": 19,
@@ -171,7 +171,11 @@
     "m219_l3_candidate_count": 8,
     "m219_l2_candidate_count": 0,
     "m219_l1_candidate_count": 0,
-    "m219_gap_queue_count": 32
+    "m219_gap_queue_count": 32,
+    "m220_added_l3_count": 8,
+    "m220_updated_l3_count": 0,
+    "m220_published_l3_count": 8,
+    "m220_vault_l3_written_count": 8
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -191,7 +195,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M219R",
+  "latest_milestone": "M220R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -208,7 +212,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M201：基于 M219 pool diff preview 执行 guarded trusted pool update，或先补第二强来源提升 L2。",
+  "canonical_next_action": "进入 M221：为 M220 新增 L3 补第二强来源，评估 L3 -> L2。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -1129,12 +1133,13 @@
     "persona_registry_written": false
   },
   "current_canonical_state": {
-    "trusted_pool_count": 108,
-    "source_trace_count": 108,
+    "trusted_pool_count": 116,
+    "source_trace_count": 116,
     "level_counts": {
       "L1": 46,
       "L2": 61,
-      "L4": 1
+      "L4": 1,
+      "L3": 8
     },
     "signed_customer_registry": "v2",
     "signed_customer_count": 1059,
@@ -3357,5 +3362,137 @@
     },
     "gap_queue_count": 32,
     "canonical_pool_updated": false
+  },
+  "m220r_trusted_pool_l3_publish": {
+    "generated_at": "2026-05-04T11:12:23.167200+00:00",
+    "status": "PASS",
+    "pool_update": {
+      "before_hash": "b778a0291b49febdc8d0b5e5851b00198ed2659f80fd6c8ed8a195fe613b95fe",
+      "after_hash": "ebad9737e20a54131a774a126e41ff876251b56f701aee273da07c5d408cdda9",
+      "before_count": 108,
+      "after_count": 116,
+      "added_count": 8,
+      "updated_count": 0,
+      "before_levels": {
+        "L1": 46,
+        "L2": 61,
+        "L4": 1
+      },
+      "after_levels": {
+        "L1": 46,
+        "L2": 61,
+        "L4": 1,
+        "L3": 8
+      },
+      "changes": [
+        {
+          "prospect_id": "m219_d3498b3afe74",
+          "company_name": "赢家时尚控股有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_7d1c0e85434d",
+          "company_name": "比音勒芬服饰股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_641ff4cf2f83",
+          "company_name": "上海沪上阿姨餐饮管理有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_ab3d6459dc8d",
+          "company_name": "北京夸父餐饮管理有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_55d36bcce336",
+          "company_name": "南京大牌档美食文化有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_7d9fddf4f43d",
+          "company_name": "七分甜餐饮管理（上海）有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_8716c805106f",
+          "company_name": "广东天福连锁商业集团有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m219_f321d4b30e60",
+          "company_name": "罗森（中国）投资有限公司",
+          "action": "added",
+          "level": "L3"
+        }
+      ]
+    },
+    "source_trace_update": {
+      "before_hash": "0fbf23877a826e38893279b7a5a898986a7dcb7a5b8ed62f1e5a5306311da786",
+      "after_hash": "c962f4d1322a9bd9dab74c4de101641ce0dc525d4542b99e8fecd4608298d43f",
+      "before_count": 108,
+      "after_count": 116,
+      "added_count": 8,
+      "updated_count": 0,
+      "changes": [
+        {
+          "prospect_id": "m219_d3498b3afe74",
+          "company_name": "赢家时尚控股有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_7d1c0e85434d",
+          "company_name": "比音勒芬服饰股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_641ff4cf2f83",
+          "company_name": "上海沪上阿姨餐饮管理有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_ab3d6459dc8d",
+          "company_name": "北京夸父餐饮管理有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_55d36bcce336",
+          "company_name": "南京大牌档美食文化有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_7d9fddf4f43d",
+          "company_name": "七分甜餐饮管理（上海）有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_8716c805106f",
+          "company_name": "广东天福连锁商业集团有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m219_f321d4b30e60",
+          "company_name": "罗森（中国）投资有限公司",
+          "action": "added",
+          "source_count": 1
+        }
+      ]
+    },
+    "vault_write_count": 8
   }
 }

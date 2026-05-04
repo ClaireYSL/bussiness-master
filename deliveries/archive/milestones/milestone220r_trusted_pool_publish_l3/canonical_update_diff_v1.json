@@ -1,0 +1,194 @@
+{
+  "milestone": "M220R",
+  "generated_at": "2026-05-04T11:12:23.130471+00:00",
+  "pool_update": {
+    "before_hash": "b778a0291b49febdc8d0b5e5851b00198ed2659f80fd6c8ed8a195fe613b95fe",
+    "after_hash": "ebad9737e20a54131a774a126e41ff876251b56f701aee273da07c5d408cdda9",
+    "before_count": 108,
+    "after_count": 116,
+    "added_count": 8,
+    "updated_count": 0,
+    "before_levels": {
+      "L1": 46,
+      "L2": 61,
+      "L4": 1
+    },
+    "after_levels": {
+      "L1": 46,
+      "L2": 61,
+      "L4": 1,
+      "L3": 8
+    },
+    "changes": [
+      {
+        "prospect_id": "m219_d3498b3afe74",
+        "company_name": "赢家时尚控股有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_7d1c0e85434d",
+        "company_name": "比音勒芬服饰股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_641ff4cf2f83",
+        "company_name": "上海沪上阿姨餐饮管理有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_ab3d6459dc8d",
+        "company_name": "北京夸父餐饮管理有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_55d36bcce336",
+        "company_name": "南京大牌档美食文化有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_7d9fddf4f43d",
+        "company_name": "七分甜餐饮管理（上海）有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_8716c805106f",
+        "company_name": "广东天福连锁商业集团有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m219_f321d4b30e60",
+        "company_name": "罗森（中国）投资有限公司",
+        "action": "added",
+        "level": "L3"
+      }
+    ]
+  },
+  "source_trace_update": {
+    "before_hash": "0fbf23877a826e38893279b7a5a898986a7dcb7a5b8ed62f1e5a5306311da786",
+    "after_hash": "c962f4d1322a9bd9dab74c4de101641ce0dc525d4542b99e8fecd4608298d43f",
+    "before_count": 108,
+    "after_count": 116,
+    "added_count": 8,
+    "updated_count": 0,
+    "changes": [
+      {
+        "prospect_id": "m219_d3498b3afe74",
+        "company_name": "赢家时尚控股有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_7d1c0e85434d",
+        "company_name": "比音勒芬服饰股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_641ff4cf2f83",
+        "company_name": "上海沪上阿姨餐饮管理有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_ab3d6459dc8d",
+        "company_name": "北京夸父餐饮管理有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_55d36bcce336",
+        "company_name": "南京大牌档美食文化有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_7d9fddf4f43d",
+        "company_name": "七分甜餐饮管理（上海）有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_8716c805106f",
+        "company_name": "广东天福连锁商业集团有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m219_f321d4b30e60",
+        "company_name": "罗森（中国）投资有限公司",
+        "action": "added",
+        "source_count": 1
+      }
+    ]
+  },
+  "entity_update": {
+    "before_count": 1188,
+    "after_count": 1196,
+    "trusted_added_count": 8,
+    "trusted_updated_count": 0,
+    "signed_customer_added_count": 0,
+    "trusted_pool_entity_count": 116,
+    "source_trace_entity_count": 116,
+    "signed_customer_entity_count": 1059
+  },
+  "vault_write": {
+    "written_count": 8,
+    "items": [
+      {
+        "prospect_id": "m219_d3498b3afe74",
+        "company_name": "赢家时尚控股有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/赢家时尚控股有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_7d1c0e85434d",
+        "company_name": "比音勒芬服饰股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/比音勒芬服饰股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_641ff4cf2f83",
+        "company_name": "上海沪上阿姨餐饮管理有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/上海沪上阿姨餐饮管理有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_ab3d6459dc8d",
+        "company_name": "北京夸父餐饮管理有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/北京夸父餐饮管理有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_55d36bcce336",
+        "company_name": "南京大牌档美食文化有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/南京大牌档美食文化有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_7d9fddf4f43d",
+        "company_name": "七分甜餐饮管理（上海）有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/七分甜餐饮管理（上海）有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_8716c805106f",
+        "company_name": "广东天福连锁商业集团有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广东天福连锁商业集团有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m219_f321d4b30e60",
+        "company_name": "罗森（中国）投资有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/罗森（中国）投资有限公司.md",
+        "change_type": "created"
+      }
+    ]
+  }
+}
