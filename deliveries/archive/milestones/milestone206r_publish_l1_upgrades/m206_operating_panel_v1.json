@@ -1,0 +1,18 @@
+{
+  "milestone": "M206R",
+  "generated_at": "2026-05-04T10:36:48.659506+00:00",
+  "status": "PASS_M206R_L1_PUBLISH",
+  "summary": {
+    "trusted_pool_count": 93,
+    "level_counts": {
+      "L1": 46,
+      "L2": 46,
+      "L4": 1
+    },
+    "l1_updated_count": 12,
+    "vault_l1_written_count": 12,
+    "l2_dossier_retained": true,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M207：复盘 L1 发布结果；SHEIN 继续保留 L2，可单独补第三来源或进入下一轮候选发现。"
+}

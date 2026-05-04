@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-04T10:17:12.694149+00:00",
+  "generated_at": "2026-05-04T10:36:48.577558+00:00",
   "summary": {
     "source_trace_count": 93,
-    "canonical_update_source": "M203R_publish_M202_L2_preview",
+    "canonical_update_source": "M206R_publish_M205_L1_preview",
     "existing_customer_removed_count": 5,
     "signed_customer_v2_gate_applied": true,
     "source_category_counts": {
-      "official_owned": 103,
+      "official_owned": 107,
       "regulatory_or_capital_market": 94,
       "authoritative_third_party": 12,
       "internal_or_legacy_reference": 30,
-      "platform_operating_fact": 15
+      "platform_operating_fact": 23
     }
   },
   "items": [
@@ -3034,11 +3034,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:brand_product_matrix,global_brand_operations,channel_complexity",
           "summary": "杭州花西子化妆品股份有限公司 的第二强来源为 https://www.florasis.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_collection",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.florasis.com/collections/all",
+          "evidence_strength": "official_product_collection",
+          "supports_dimension": "icp_match_support:brand_product_matrix,sku_matrix,channel_complexity",
+          "summary": "杭州花西子化妆品股份有限公司 的第三强来源为 https://www.florasis.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3063,11 +3071,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
           "summary": "上海林清轩生物科技有限公司 的第二强来源为 https://www.lqxshop.com/about，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.lqxshop.com/products",
+          "evidence_strength": "official_product_page",
+          "supports_dimension": "icp_match_support:brand_product_matrix,sku_matrix,channel_complexity",
+          "summary": "上海林清轩生物科技有限公司 的第三强来源为 https://www.lqxshop.com/products，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3092,11 +3108,19 @@
           "evidence_strength": "official_product_collection",
           "supports_dimension": "icp_match_support:global_brand_operations,sku_matrix,cross_border_operations",
           "summary": "上海新锐供应链管理有限公司 的第二强来源为 https://www.cupshe.com/collections/swimwear，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_contact_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.cupshe.com/pages/contact-us",
+          "evidence_strength": "official_contact_page",
+          "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,multi_region",
+          "summary": "上海新锐供应链管理有限公司 的第三强来源为 https://www.cupshe.com/pages/contact-us，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3179,11 +3203,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_hardware_brand",
           "summary": "深圳市泽宝创新技术有限公司 的第二强来源为 https://www.ravpower.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_collection",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.ravpower.com/collections/all",
+          "evidence_strength": "official_product_collection",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,cross_border_operations",
+          "summary": "深圳市泽宝创新技术有限公司 的第三强来源为 https://www.ravpower.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3208,11 +3240,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_accessory_brand",
           "summary": "深圳市蓝禾技术有限公司 的第二强来源为 https://www.benks.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_collection",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.benks.com/collections/all",
+          "evidence_strength": "official_product_collection",
+          "supports_dimension": "icp_match_support:consumer_accessory_brand,sku_matrix,cross_border_operations",
+          "summary": "深圳市蓝禾技术有限公司 的第三强来源为 https://www.benks.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3237,11 +3277,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_accessory_brand",
           "summary": "深圳市时商创展科技有限公司 的第二强来源为 https://www.omoton.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_collection",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.omoton.com/collections/all",
+          "evidence_strength": "official_product_collection",
+          "supports_dimension": "icp_match_support:consumer_accessory_brand,sku_matrix,cross_border_operations",
+          "summary": "深圳市时商创展科技有限公司 的第三强来源为 https://www.omoton.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3266,11 +3314,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:platform_operator,cross_border_operations,multi_platform_commerce",
           "summary": "广州棒谷科技股份有限公司 的第二强来源为 https://www.banggood.cn/about-us.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_wholesale_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.banggood.cn/Wholesale.html",
+          "evidence_strength": "official_wholesale_page",
+          "supports_dimension": "icp_match_support:platform_operator,multi_platform_commerce,cross_border_operations",
+          "summary": "广州棒谷科技股份有限公司 的第三强来源为 https://www.banggood.cn/Wholesale.html，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3328,11 +3384,19 @@
           "evidence_strength": "official_product_page",
           "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,sku_matrix",
           "summary": "广州影石创新科技有限公司 的第二强来源为 https://www.insta360.com/product，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_support_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.insta360.com/support",
+          "evidence_strength": "official_support_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,multi_region",
+          "summary": "广州影石创新科技有限公司 的第三强来源为 https://www.insta360.com/support，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3357,11 +3421,19 @@
           "evidence_strength": "official_company_page",
           "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,multi_region",
           "summary": "深圳市大疆创新科技有限公司 的第二强来源为 https://www.dji.com/company，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.dji.com/products",
+          "evidence_strength": "official_product_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
+          "summary": "深圳市大疆创新科技有限公司 的第三强来源为 https://www.dji.com/products，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3386,11 +3458,19 @@
           "evidence_strength": "official_about_page",
           "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,sku_matrix",
           "summary": "追觅科技（苏州）有限公司 的第二强来源为 https://www.dreame.tech/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_product_collection",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.dreame.tech/collections/all",
+          "evidence_strength": "official_product_collection",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
+          "summary": "追觅科技（苏州）有限公司 的第三强来源为 https://www.dreame.tech/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3444,11 +3524,19 @@
           "evidence_strength": "official_product_page",
           "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
           "summary": "添可智能科技有限公司 的第二强来源为 https://www.tineco.com/products，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.tineco.com/about",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,channel_complexity",
+          "summary": "添可智能科技有限公司 的第三强来源为 https://www.tineco.com/about，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3473,11 +3561,19 @@
           "evidence_strength": "official_product_page",
           "supports_dimension": "icp_match_support:retail_high_sku_brand,sku_matrix,channel_complexity",
           "summary": "北京元气森林饮料有限公司 的第二强来源为 https://www.yuanqisenlin.com/products，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.yuanqisenlin.com/about",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:retail_high_sku_brand,sku_matrix,channel_complexity",
+          "summary": "北京元气森林饮料有限公司 的第三强来源为 https://www.yuanqisenlin.com/about，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 2,
-      "canonical_update_source": "M203R_publish_M202_L2_preview",
+      "source_count": 3,
+      "canonical_update_source": "M206R_publish_M205_L1_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {

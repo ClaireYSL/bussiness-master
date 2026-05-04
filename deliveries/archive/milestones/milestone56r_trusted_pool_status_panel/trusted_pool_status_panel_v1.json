@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-04T10:31:31.500647+00:00",
-  "overall_status": "PASS_M205R_L1_PREVIEW_FROM_L2",
+  "generated_at": "2026-05-04T10:36:48.659926+00:00",
+  "overall_status": "PASS_M206R_L1_PUBLISH",
   "counts": {
     "trusted_pool_count": 93,
-    "l1_count": 34,
-    "l2_count": 58,
+    "l1_count": 46,
+    "l2_count": 46,
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
@@ -124,7 +124,9 @@
     "m205_l2_remaining_count": 1,
     "m205_third_source_ready_count": 13,
     "m205_source_health_gap_count": 0,
-    "m205_gap_queue_count": 2
+    "m205_gap_queue_count": 2,
+    "m206_l1_updated_count": 12,
+    "m206_vault_l1_written_count": 12
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -144,7 +146,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M205R",
+  "latest_milestone": "M206R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -161,7 +163,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M206：对 M205 L1 preview 执行 guarded trusted pool/source trace/vault L1 更新，或先人工抽检 L1 证据链。",
+  "canonical_next_action": "进入 M207：复盘 L1 发布结果，并决定继续补 SHEIN 第三来源或重启下一轮候选发现。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -1085,8 +1087,8 @@
     "trusted_pool_count": 93,
     "source_trace_count": 93,
     "level_counts": {
-      "L1": 34,
-      "L2": 58,
+      "L1": 46,
+      "L2": 46,
       "L4": 1
     },
     "signed_customer_registry": "v2",
@@ -2429,5 +2431,194 @@
       "llm_used_as_evidence": false,
       "trusted_pool_written": false
     }
+  },
+  "m206r_l1_publish": {
+    "generated_at": "2026-05-04T10:36:48.659928+00:00",
+    "status": "PASS",
+    "pool_update": {
+      "before_hash": "29409eb7e7789eee4a59c325ff768d6eac16f4f4ed49f849d4e774ebf003b5a7",
+      "after_hash": "991bd231b652862e672d5262b3c808027c5f5de25a7a3df6bb158984145c728e",
+      "before_count": 93,
+      "after_count": 93,
+      "before_levels": {
+        "L1": 34,
+        "L2": 58,
+        "L4": 1
+      },
+      "after_levels": {
+        "L1": 46,
+        "L2": 46,
+        "L4": 1
+      },
+      "updated_count": 12,
+      "changes": [
+        {
+          "prospect_id": "m200_596844a57563",
+          "company_name": "上海新锐供应链管理有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_b2928815d10e",
+          "company_name": "上海林清轩生物科技有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_c5ab402aa53c",
+          "company_name": "北京元气森林饮料有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_10e4826dc1c0",
+          "company_name": "广州影石创新科技有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_678e6705b1df",
+          "company_name": "广州棒谷科技股份有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_d443f235d88b",
+          "company_name": "杭州花西子化妆品股份有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_743b6529e25d",
+          "company_name": "深圳市大疆创新科技有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_2f660d14d234",
+          "company_name": "深圳市时商创展科技有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_67c24a3efdbb",
+          "company_name": "深圳市泽宝创新技术有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_62d14c462430",
+          "company_name": "深圳市蓝禾技术有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_e534c24d05d8",
+          "company_name": "添可智能科技有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        },
+        {
+          "prospect_id": "m200_fa3b843905b3",
+          "company_name": "追觅科技（苏州）有限公司",
+          "action": "updated",
+          "from_level": "L2",
+          "to_level": "L1"
+        }
+      ]
+    },
+    "source_trace_update": {
+      "before_hash": "f4b42f0ddc3610925c02f0baa32ca9979e6381156c58929f62662cfac3fda2a6",
+      "after_hash": "f14ed476373b0f749cb20672da5489ffa81792d2ab3f3cb44e8fc55cc29c3a5a",
+      "before_count": 93,
+      "after_count": 93,
+      "updated_count": 12,
+      "changes": [
+        {
+          "prospect_id": "m200_596844a57563",
+          "company_name": "上海新锐供应链管理有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_b2928815d10e",
+          "company_name": "上海林清轩生物科技有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_c5ab402aa53c",
+          "company_name": "北京元气森林饮料有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_10e4826dc1c0",
+          "company_name": "广州影石创新科技有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_678e6705b1df",
+          "company_name": "广州棒谷科技股份有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_d443f235d88b",
+          "company_name": "杭州花西子化妆品股份有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_743b6529e25d",
+          "company_name": "深圳市大疆创新科技有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_2f660d14d234",
+          "company_name": "深圳市时商创展科技有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_67c24a3efdbb",
+          "company_name": "深圳市泽宝创新技术有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_62d14c462430",
+          "company_name": "深圳市蓝禾技术有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_e534c24d05d8",
+          "company_name": "添可智能科技有限公司",
+          "action": "updated",
+          "source_count": 3
+        },
+        {
+          "prospect_id": "m200_fa3b843905b3",
+          "company_name": "追觅科技（苏州）有限公司",
+          "action": "updated",
+          "source_count": 3
+        }
+      ]
+    },
+    "vault_l1_written_count": 12
   }
 }

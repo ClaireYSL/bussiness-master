@@ -1,0 +1,60 @@
+{
+  "milestone": "M206R",
+  "generated_at": "2026-05-04T10:36:48.658541+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "pool_update_count_matches_l1_preview": true,
+    "source_trace_update_count_matches_l1_preview": true,
+    "vault_l1_write_count_matches_l1_preview": true,
+    "canonical_pool_count_unchanged": true,
+    "canonical_trace_count_unchanged": true,
+    "l1_count_expected": true,
+    "l2_count_expected": true,
+    "l4_count_expected": true,
+    "canonical_pool_hash_changed": true,
+    "canonical_trace_hash_changed": true,
+    "entity_registry_updated": true,
+    "l1_index_includes_written_files": true,
+    "l2_dossiers_retained": true,
+    "signed_customer_v2_gate_pass": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_forbidden_write_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m206r_publish_l1_upgrades.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 7,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": true,
+    "canonical_source_trace_written": true,
+    "vault_regular_area_written": true
+  }
+}

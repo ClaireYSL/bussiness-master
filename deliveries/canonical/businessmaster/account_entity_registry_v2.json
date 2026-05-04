@@ -1,6 +1,6 @@
 {
   "registry_id": "account_entity_registry_v2",
-  "generated_at": "2026-05-04T10:17:12.701392+00:00",
+  "generated_at": "2026-05-04T10:36:48.584342+00:00",
   "source_milestone": "M185R",
   "summary": {
     "entity_count": 1173,
@@ -10,7 +10,7 @@
     "customer_case_reference_entity_count": 22,
     "multi_role_entity_count": 93,
     "signed_customer_gate_version": "v2",
-    "canonical_update_source": "M203R_publish_M202_L2_preview"
+    "canonical_update_source": "M206R_publish_M205_L1_preview"
   },
   "items": [
     {
@@ -33164,9 +33164,9 @@
         }
       ],
       "prospect_id": "m200_d443f235d88b",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_b2928815d10e",
@@ -33192,9 +33192,9 @@
         }
       ],
       "prospect_id": "m200_b2928815d10e",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_596844a57563",
@@ -33220,9 +33220,9 @@
         }
       ],
       "prospect_id": "m200_596844a57563",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_f8e5b127043f",
@@ -33304,9 +33304,9 @@
         }
       ],
       "prospect_id": "m200_67c24a3efdbb",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_62d14c462430",
@@ -33332,9 +33332,9 @@
         }
       ],
       "prospect_id": "m200_62d14c462430",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_2f660d14d234",
@@ -33360,9 +33360,9 @@
         }
       ],
       "prospect_id": "m200_2f660d14d234",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_678e6705b1df",
@@ -33388,9 +33388,9 @@
         }
       ],
       "prospect_id": "m200_678e6705b1df",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_67270fee7b44",
@@ -33444,9 +33444,9 @@
         }
       ],
       "prospect_id": "m200_10e4826dc1c0",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_743b6529e25d",
@@ -33472,9 +33472,9 @@
         }
       ],
       "prospect_id": "m200_743b6529e25d",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_fa3b843905b3",
@@ -33500,9 +33500,9 @@
         }
       ],
       "prospect_id": "m200_fa3b843905b3",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "cbec_multi_platform_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_bfe244b6f8ca",
@@ -33556,9 +33556,9 @@
         }
       ],
       "prospect_id": "m200_e534c24d05d8",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_c5ab402aa53c",
@@ -33584,9 +33584,9 @@
         }
       ],
       "prospect_id": "m200_c5ab402aa53c",
-      "level": "L2",
+      "level": "L1",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M203R_publish_M202_L2_preview"
+      "canonical_update_source": "M206R_publish_M205_L1_preview"
     },
     {
       "entity_id": "entity_071a8aac234a",
