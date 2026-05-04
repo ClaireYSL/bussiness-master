@@ -1,0 +1,218 @@
+{
+  "milestone": "M199R",
+  "generated_at": "2026-05-04T09:44:39.384877+00:00",
+  "summary": {
+    "input_source_collection_pending_count": 25,
+    "evidence_item_count": 25,
+    "report_only_ready_count": 19,
+    "reachable_locator_count": 19,
+    "signed_customer_blocked_count": 0,
+    "duplicate_or_ineligible_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false
+  },
+  "items": [
+    {
+      "task_id": "m198_task_b5edf73bd4e6",
+      "candidate_name": "杭州认养一头牛生物科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_d443f235d88b",
+      "candidate_name": "杭州花西子化妆品股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_b2928815d10e",
+      "candidate_name": "上海林清轩生物科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_94f464fd25e1",
+      "candidate_name": "上海钟薛高食品有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "locator_reachable": false
+    },
+    {
+      "task_id": "m198_task_596844a57563",
+      "candidate_name": "上海新锐供应链管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_f8e5b127043f",
+      "candidate_name": "细刻网络科技（上海）有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_96a10fa5dcbe",
+      "candidate_name": "深圳市傲基科技股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_67c24a3efdbb",
+      "candidate_name": "深圳市泽宝创新技术有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_27cfae0b7bb6",
+      "candidate_name": "深圳市万拓科技创新有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "locator_reachable": false
+    },
+    {
+      "task_id": "m198_task_feb903b01ee5",
+      "candidate_name": "深圳市帕拓逊网络技术有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "locator_reachable": false
+    },
+    {
+      "task_id": "m198_task_62d14c462430",
+      "candidate_name": "深圳市蓝禾技术有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_2f660d14d234",
+      "candidate_name": "深圳市时商创展科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_678e6705b1df",
+      "candidate_name": "广州棒谷科技股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_67270fee7b44",
+      "candidate_name": "广州希音国际进出口有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_867af754b4b3",
+      "candidate_name": "子不语集团有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "locator_reachable": false
+    },
+    {
+      "task_id": "m198_task_10e4826dc1c0",
+      "candidate_name": "广州影石创新科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_743b6529e25d",
+      "candidate_name": "深圳市大疆创新科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_fa3b843905b3",
+      "candidate_name": "追觅科技（苏州）有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_bfe244b6f8ca",
+      "candidate_name": "深圳绿米联创科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_e534c24d05d8",
+      "candidate_name": "添可智能科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_c5ab402aa53c",
+      "candidate_name": "北京元气森林饮料有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_071a8aac234a",
+      "candidate_name": "南京卫岗乳业有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_db64834d3c2f",
+      "candidate_name": "上海小南国餐饮控股有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "locator_reachable": false
+    },
+    {
+      "task_id": "m198_task_b35fee904018",
+      "candidate_name": "和府捞面餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m198_task_e458fe3fdcf4",
+      "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "locator_reachable": false
+    }
+  ]
+}

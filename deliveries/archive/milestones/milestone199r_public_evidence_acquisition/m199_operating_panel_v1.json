@@ -1,0 +1,23 @@
+{
+  "milestone": "M199R",
+  "generated_at": "2026-05-04T09:44:39.726454+00:00",
+  "status": "PASS_M199R_PUBLIC_EVIDENCE_ACQUISITION",
+  "summary": {
+    "input_source_collection_pending_count": 25,
+    "evidence_item_count": 25,
+    "report_only_ready_count": 19,
+    "reachable_locator_count": 19,
+    "signed_customer_blocked_count": 0,
+    "duplicate_or_ineligible_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "backlog_state_counts": {
+      "report_only_ready": 19,
+      "source_collection_pending": 6
+    },
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M200：对 report_only_ready 候选执行静态升层 report-only。"
+}

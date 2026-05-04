@@ -1,0 +1,1136 @@
+{
+  "package_id": "m199r_public_evidence_patch_package_v1",
+  "milestone": "M199R",
+  "generated_at": "2026-05-04T09:44:39.384814+00:00",
+  "summary": {
+    "input_source_collection_pending_count": 25,
+    "evidence_item_count": 25,
+    "report_only_ready_count": 19,
+    "reachable_locator_count": 19,
+    "signed_customer_blocked_count": 0,
+    "duplicate_or_ineligible_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false
+  },
+  "items": [
+    {
+      "evidence_id": "m199_evidence_d434b3bf5609",
+      "task_id": "m198_task_b5edf73bd4e6",
+      "candidate_name": "杭州认养一头牛生物科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.rangy.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "杭州认养一头牛生物科技有限公司 的 source locator seed 为 https://www.rangy.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.rangy.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州认养一头牛生物科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州认养一头牛生物科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_54c2b0b845b4",
+      "task_id": "m198_task_d443f235d88b",
+      "candidate_name": "杭州花西子化妆品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.florasis.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "杭州花西子化妆品股份有限公司 的 source locator seed 为 https://www.florasis.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.florasis.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州花西子化妆品股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州花西子化妆品股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_b3df26d03446",
+      "task_id": "m198_task_b2928815d10e",
+      "candidate_name": "上海林清轩生物科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.lqxshop.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "上海林清轩生物科技有限公司 的 source locator seed 为 https://www.lqxshop.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.lqxshop.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海林清轩生物科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海林清轩生物科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_3d8a0e2f49f2",
+      "task_id": "m198_task_94f464fd25e1",
+      "candidate_name": "上海钟薛高食品有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.chicecream.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "上海钟薛高食品有限公司 的 source locator seed 为 https://www.chicecream.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.chicecream.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+          }
+        ]
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海钟薛高食品有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海钟薛高食品有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_802c2970fec7",
+      "task_id": "m198_task_596844a57563",
+      "candidate_name": "上海新锐供应链管理有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.cupshe.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "上海新锐供应链管理有限公司 的 source locator seed 为 https://www.cupshe.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.cupshe.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海新锐供应链管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海新锐供应链管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_0e9b2ea05a7d",
+      "task_id": "m198_task_f8e5b127043f",
+      "candidate_name": "细刻网络科技（上海）有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.chicme.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "细刻网络科技（上海）有限公司 的 source locator seed 为 https://www.chicme.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.chicme.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "细刻网络科技（上海）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "细刻网络科技（上海）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_44090b38c9b7",
+      "task_id": "m198_task_96a10fa5dcbe",
+      "candidate_name": "深圳市傲基科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.aukeys.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市傲基科技股份有限公司 的 source locator seed 为 https://www.aukeys.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.aukeys.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市傲基科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市傲基科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_4d4e56796613",
+      "task_id": "m198_task_67c24a3efdbb",
+      "candidate_name": "深圳市泽宝创新技术有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.ravpower.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市泽宝创新技术有限公司 的 source locator seed 为 https://www.ravpower.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.ravpower.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市泽宝创新技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市泽宝创新技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_97e6ada2d73f",
+      "task_id": "m198_task_27cfae0b7bb6",
+      "candidate_name": "深圳市万拓科技创新有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.vantopgroup.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市万拓科技创新有限公司 的 source locator seed 为 https://www.vantopgroup.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.vantopgroup.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市万拓科技创新有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市万拓科技创新有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_28b00ebdf079",
+      "task_id": "m198_task_feb903b01ee5",
+      "candidate_name": "深圳市帕拓逊网络技术有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.patozon.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市帕拓逊网络技术有限公司 的 source locator seed 为 https://www.patozon.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.patozon.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市帕拓逊网络技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市帕拓逊网络技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_940fbff0d3fd",
+      "task_id": "m198_task_62d14c462430",
+      "candidate_name": "深圳市蓝禾技术有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.benks.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市蓝禾技术有限公司 的 source locator seed 为 https://www.benks.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.benks.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市蓝禾技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市蓝禾技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_519718d6ca37",
+      "task_id": "m198_task_2f660d14d234",
+      "candidate_name": "深圳市时商创展科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.omoton.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市时商创展科技有限公司 的 source locator seed 为 https://www.omoton.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.omoton.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市时商创展科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市时商创展科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_43e9355d2aa4",
+      "task_id": "m198_task_678e6705b1df",
+      "candidate_name": "广州棒谷科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.banggood.cn/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "广州棒谷科技股份有限公司 的 source locator seed 为 https://www.banggood.cn/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.banggood.cn/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州棒谷科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州棒谷科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_8d57ede82871",
+      "task_id": "m198_task_67270fee7b44",
+      "candidate_name": "广州希音国际进出口有限公司",
+      "matched_persona": "cbec_platform_operator",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.sheingroup.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:platform_operator,multi_region,cross_border_operations",
+      "summary": "广州希音国际进出口有限公司 的 source locator seed 为 https://www.sheingroup.com/。该公开来源用于确认公司及其平台化跨境/多区域经营事实，支撑平台运营 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.sheingroup.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州希音国际进出口有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州希音国际进出口有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_5e3eab5c7b36",
+      "task_id": "m198_task_867af754b4b3",
+      "candidate_name": "子不语集团有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.zibuyu.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "子不语集团有限公司 的 source locator seed 为 https://www.zibuyu.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.zibuyu.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "子不语集团有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "子不语集团有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_75eaa7cb9cb4",
+      "task_id": "m198_task_10e4826dc1c0",
+      "candidate_name": "广州影石创新科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.insta360.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "广州影石创新科技有限公司 的 source locator seed 为 https://www.insta360.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.insta360.com/",
+        "reachable": true,
+        "http_status": 403,
+        "method": "HEAD",
+        "error": "HTTP Error 403: Forbidden",
+        "reachable_reason": "public locator reachable but rejects request"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州影石创新科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州影石创新科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_67dcd0e3a4f6",
+      "task_id": "m198_task_743b6529e25d",
+      "candidate_name": "深圳市大疆创新科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.dji.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "深圳市大疆创新科技有限公司 的 source locator seed 为 https://www.dji.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.dji.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html;charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市大疆创新科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市大疆创新科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_437ceec462f2",
+      "task_id": "m198_task_fa3b843905b3",
+      "candidate_name": "追觅科技（苏州）有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.dreame.tech/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+      "summary": "追觅科技（苏州）有限公司 的 source locator seed 为 https://www.dreame.tech/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.dreame.tech/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html;charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "追觅科技（苏州）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "追觅科技（苏州）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_4c511d6b3095",
+      "task_id": "m198_task_bfe244b6f8ca",
+      "candidate_name": "深圳绿米联创科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.aqara.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "深圳绿米联创科技有限公司 的 source locator seed 为 https://www.aqara.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.aqara.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳绿米联创科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳绿米联创科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_3c88784fd926",
+      "task_id": "m198_task_e534c24d05d8",
+      "candidate_name": "添可智能科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.tineco.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "添可智能科技有限公司 的 source locator seed 为 https://www.tineco.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.tineco.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "添可智能科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "添可智能科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_93c529c9c858",
+      "task_id": "m198_task_c5ab402aa53c",
+      "candidate_name": "北京元气森林饮料有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.yuanqisenlin.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "北京元气森林饮料有限公司 的 source locator seed 为 https://www.yuanqisenlin.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.yuanqisenlin.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "北京元气森林饮料有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "北京元气森林饮料有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_c12460bccadc",
+      "task_id": "m198_task_071a8aac234a",
+      "candidate_name": "南京卫岗乳业有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.weigangdairy.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+      "summary": "南京卫岗乳业有限公司 的 source locator seed 为 https://www.weigangdairy.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.weigangdairy.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "南京卫岗乳业有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "南京卫岗乳业有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_05284f1a538b",
+      "task_id": "m198_task_db64834d3c2f",
+      "candidate_name": "上海小南国餐饮控股有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.xiaonanguo.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+      "summary": "上海小南国餐饮控股有限公司 的 source locator seed 为 https://www.xiaonanguo.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.xiaonanguo.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xiaonanguo.com'. (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xiaonanguo.com'. (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海小南国餐饮控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海小南国餐饮控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_8e2bfbc76778",
+      "task_id": "m198_task_b35fee904018",
+      "candidate_name": "和府捞面餐饮管理有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.hefumian.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+      "summary": "和府捞面餐饮管理有限公司 的 source locator seed 为 https://www.hefumian.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.hefumian.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "和府捞面餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "和府捞面餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "evidence_id": "m199_evidence_33b3d1e12185",
+      "task_id": "m198_task_e458fe3fdcf4",
+      "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_type": "official_site_or_brand_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.amashouzuo.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+      "summary": "上海阿嬷手作餐饮管理有限公司 的 source locator seed 为 https://www.amashouzuo.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。",
+      "prospect_evidence": true,
+      "seed_used_as_locator_only": true,
+      "llm_used_as_evidence": false,
+      "customer_case_used_as_prospect_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.amashouzuo.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    }
+  ]
+}

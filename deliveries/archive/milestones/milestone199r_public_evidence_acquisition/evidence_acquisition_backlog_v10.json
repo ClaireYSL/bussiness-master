@@ -1,0 +1,1817 @@
+{
+  "batch_id": "m199r_evidence_acquisition_backlog_v10",
+  "milestone": "M199R",
+  "generated_at": "2026-05-04T09:44:39.384875+00:00",
+  "summary": {
+    "task_count": 25,
+    "state_counts": {
+      "report_only_ready": 19,
+      "source_collection_pending": 6
+    },
+    "report_only_ready_count": 19,
+    "source_collection_pending_count": 6,
+    "signed_customer_gate_version": "v2",
+    "old_workbook_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "items": [
+    {
+      "task_id": "m198_task_b5edf73bd4e6",
+      "candidate_name": "杭州认养一头牛生物科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.rangy.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "高 SKU 乳制品品牌与全渠道零售",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州认养一头牛生物科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州认养一头牛生物科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_d434b3bf5609",
+      "locator_check": {
+        "source_locator": "https://www.rangy.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州认养一头牛生物科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州认养一头牛生物科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_d443f235d88b",
+      "candidate_name": "杭州花西子化妆品股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.florasis.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "美妆品牌、产品矩阵与跨境/全渠道运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州花西子化妆品股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州花西子化妆品股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_54c2b0b845b4",
+      "locator_check": {
+        "source_locator": "https://www.florasis.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州花西子化妆品股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州花西子化妆品股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_b2928815d10e",
+      "candidate_name": "上海林清轩生物科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.lqxshop.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "美妆护肤品牌与门店/线上渠道运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海林清轩生物科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海林清轩生物科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_b3df26d03446",
+      "locator_check": {
+        "source_locator": "https://www.lqxshop.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海林清轩生物科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海林清轩生物科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_94f464fd25e1",
+      "candidate_name": "上海钟薛高食品有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.chicecream.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "消费品牌、冷链与多渠道零售",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "source_collection_pending",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海钟薛高食品有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海钟薛高食品有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m199_evidence_3d8a0e2f49f2",
+      "locator_check": {
+        "source_locator": "https://www.chicecream.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+          }
+        ]
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海钟薛高食品有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海钟薛高食品有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。"
+    },
+    {
+      "task_id": "m198_task_596844a57563",
+      "candidate_name": "上海新锐供应链管理有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.cupshe.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境服饰品牌、多平台与全球运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海新锐供应链管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海新锐供应链管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_802c2970fec7",
+      "locator_check": {
+        "source_locator": "https://www.cupshe.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海新锐供应链管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海新锐供应链管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_f8e5b127043f",
+      "candidate_name": "细刻网络科技（上海）有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.chicme.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境电商品牌、多区域和多平台运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "细刻网络科技（上海）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "细刻网络科技（上海）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_0e9b2ea05a7d",
+      "locator_check": {
+        "source_locator": "https://www.chicme.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "细刻网络科技（上海）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "细刻网络科技（上海）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_96a10fa5dcbe",
+      "candidate_name": "深圳市傲基科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.aukeys.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境消费电子品牌、多平台运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市傲基科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市傲基科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_44090b38c9b7",
+      "locator_check": {
+        "source_locator": "https://www.aukeys.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市傲基科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市傲基科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_67c24a3efdbb",
+      "candidate_name": "深圳市泽宝创新技术有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.ravpower.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境消费电子品牌和全球渠道",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市泽宝创新技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市泽宝创新技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_4d4e56796613",
+      "locator_check": {
+        "source_locator": "https://www.ravpower.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市泽宝创新技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市泽宝创新技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_27cfae0b7bb6",
+      "candidate_name": "深圳市万拓科技创新有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.vantopgroup.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境智能硬件与多品牌运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "source_collection_pending",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市万拓科技创新有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市万拓科技创新有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m199_evidence_97e6ada2d73f",
+      "locator_check": {
+        "source_locator": "https://www.vantopgroup.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市万拓科技创新有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市万拓科技创新有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。"
+    },
+    {
+      "task_id": "m198_task_feb903b01ee5",
+      "candidate_name": "深圳市帕拓逊网络技术有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.patozon.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境电商与品牌矩阵运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "source_collection_pending",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市帕拓逊网络技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市帕拓逊网络技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m199_evidence_28b00ebdf079",
+      "locator_check": {
+        "source_locator": "https://www.patozon.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市帕拓逊网络技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市帕拓逊网络技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。"
+    },
+    {
+      "task_id": "m198_task_62d14c462430",
+      "candidate_name": "深圳市蓝禾技术有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.benks.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "消费电子配件品牌、多渠道运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市蓝禾技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市蓝禾技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_940fbff0d3fd",
+      "locator_check": {
+        "source_locator": "https://www.benks.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市蓝禾技术有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市蓝禾技术有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_2f660d14d234",
+      "candidate_name": "深圳市时商创展科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.omoton.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境消费电子配件与平台店运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市时商创展科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市时商创展科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_519718d6ca37",
+      "locator_check": {
+        "source_locator": "https://www.omoton.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市时商创展科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市时商创展科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_678e6705b1df",
+      "candidate_name": "广州棒谷科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.banggood.cn/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境电商平台运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州棒谷科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州棒谷科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_43e9355d2aa4",
+      "locator_check": {
+        "source_locator": "https://www.banggood.cn/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州棒谷科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州棒谷科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_67270fee7b44",
+      "candidate_name": "广州希音国际进出口有限公司",
+      "matched_persona": "cbec_platform_operator",
+      "source_locator_seed": "https://www.sheingroup.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "全球化时尚平台与供应链运营",
+      "icp_reference_asset_refs": [
+        "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+        "ka_review_geo_l1_cases_02ab1f15f8cc",
+        "ka_review_dingtalk_2026_03_28_aeafed6ba8d8"
+      ],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州希音国际进出口有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州希音国际进出口有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_8d57ede82871",
+      "locator_check": {
+        "source_locator": "https://www.sheingroup.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州希音国际进出口有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州希音国际进出口有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_867af754b4b3",
+      "candidate_name": "子不语集团有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.zibuyu.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "跨境服饰品牌与多平台运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "source_collection_pending",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "子不语集团有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "子不语集团有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m199_evidence_5e3eab5c7b36",
+      "locator_check": {
+        "source_locator": "https://www.zibuyu.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "子不语集团有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "子不语集团有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。"
+    },
+    {
+      "task_id": "m198_task_10e4826dc1c0",
+      "candidate_name": "广州影石创新科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.insta360.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "全球化智能硬件品牌与渠道运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州影石创新科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州影石创新科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_75eaa7cb9cb4",
+      "locator_check": {
+        "source_locator": "https://www.insta360.com/",
+        "reachable": true,
+        "http_status": 403,
+        "method": "HEAD",
+        "error": "HTTP Error 403: Forbidden",
+        "reachable_reason": "public locator reachable but rejects request"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州影石创新科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州影石创新科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_743b6529e25d",
+      "candidate_name": "深圳市大疆创新科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.dji.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "全球智能硬件品牌、SKU 与渠道复杂度",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市大疆创新科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市大疆创新科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_67dcd0e3a4f6",
+      "locator_check": {
+        "source_locator": "https://www.dji.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html;charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市大疆创新科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市大疆创新科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_fa3b843905b3",
+      "candidate_name": "追觅科技（苏州）有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "source_locator_seed": "https://www.dreame.tech/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "智能家电品牌与全球多渠道运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "追觅科技（苏州）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "追觅科技（苏州）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_437ceec462f2",
+      "locator_check": {
+        "source_locator": "https://www.dreame.tech/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html;charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "追觅科技（苏州）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "追觅科技（苏州）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_bfe244b6f8ca",
+      "candidate_name": "深圳绿米联创科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.aqara.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "IoT 智能家居品牌和产品矩阵",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳绿米联创科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳绿米联创科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_4c511d6b3095",
+      "locator_check": {
+        "source_locator": "https://www.aqara.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳绿米联创科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳绿米联创科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_e534c24d05d8",
+      "candidate_name": "添可智能科技有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.tineco.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "智能清洁家电品牌与全球渠道",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "添可智能科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "添可智能科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_3c88784fd926",
+      "locator_check": {
+        "source_locator": "https://www.tineco.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "添可智能科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "添可智能科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_c5ab402aa53c",
+      "candidate_name": "北京元气森林饮料有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.yuanqisenlin.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "饮料品牌、SKU 与全渠道零售",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "北京元气森林饮料有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "北京元气森林饮料有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_93c529c9c858",
+      "locator_check": {
+        "source_locator": "https://www.yuanqisenlin.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "北京元气森林饮料有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "北京元气森林饮料有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_071a8aac234a",
+      "candidate_name": "南京卫岗乳业有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "source_locator_seed": "https://www.weigangdairy.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "区域乳制品品牌与渠道运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "南京卫岗乳业有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "南京卫岗乳业有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_c12460bccadc",
+      "locator_check": {
+        "source_locator": "https://www.weigangdairy.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "南京卫岗乳业有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "南京卫岗乳业有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_db64834d3c2f",
+      "candidate_name": "上海小南国餐饮控股有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "source_locator_seed": "https://www.xiaonanguo.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "连锁餐饮门店与标准化运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "source_collection_pending",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海小南国餐饮控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海小南国餐饮控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m199_evidence_05284f1a538b",
+      "locator_check": {
+        "source_locator": "https://www.xiaonanguo.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xiaonanguo.com'. (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xiaonanguo.com'. (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海小南国餐饮控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海小南国餐饮控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。"
+    },
+    {
+      "task_id": "m198_task_b35fee904018",
+      "candidate_name": "和府捞面餐饮管理有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "source_locator_seed": "https://www.hefumian.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "连锁餐饮门店与供应链标准化",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "report_only_ready",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "和府捞面餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "和府捞面餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m199_evidence_8e2bfbc76778",
+      "locator_check": {
+        "source_locator": "https://www.hefumian.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD",
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "和府捞面餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "和府捞面餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M200 report-only 静态升层评估。"
+    },
+    {
+      "task_id": "m198_task_e458fe3fdcf4",
+      "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "source_locator_seed": "https://www.amashouzuo.com/",
+      "candidate_source": "M198_learning_persona_seed_v1",
+      "seed_basis": "连锁饮品门店运营",
+      "icp_reference_asset_refs": [],
+      "customer_case_used_as_prospect_evidence": false,
+      "old_excel_written": false,
+      "trusted_pool_written": false,
+      "task_state": "source_collection_pending",
+      "entity_resolution_status": "resolved_candidate_name",
+      "signed_customer_gate_version": "v2",
+      "signed_customer_gate_result": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility_status": "eligible_prospect",
+      "prospect_eligibility_result": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_required_action": "collect_public_strong_evidence",
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m199_evidence_33b3d1e12185",
+      "locator_check": {
+        "source_locator": "https://www.amashouzuo.com/",
+        "reachable": false,
+        "http_status": null,
+        "method": "HEAD+GET",
+        "attempts": [
+          {
+            "method": "HEAD",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          },
+          {
+            "method": "GET",
+            "http_status": null,
+            "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+          }
+        ]
+      },
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海阿嬷手作餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。"
+    }
+  ]
+}
