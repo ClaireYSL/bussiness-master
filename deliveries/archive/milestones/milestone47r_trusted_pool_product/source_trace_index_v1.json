@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-04T09:58:54.987140+00:00",
+  "generated_at": "2026-05-04T10:17:12.694149+00:00",
   "summary": {
     "source_trace_count": 93,
-    "canonical_update_source": "M201R_publish_M200_L3_preview",
+    "canonical_update_source": "M203R_publish_M202_L2_preview",
     "existing_customer_removed_count": 5,
     "signed_customer_v2_gate_applied": true,
     "source_category_counts": {
-      "official_owned": 89,
+      "official_owned": 103,
       "regulatory_or_capital_market": 94,
-      "authoritative_third_party": 11,
+      "authoritative_third_party": 12,
       "internal_or_legacy_reference": 30,
-      "platform_operating_fact": 11
+      "platform_operating_fact": 15
     }
   },
   "items": [
@@ -2997,11 +2997,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "杭州认养一头牛生物科技有限公司 的 source locator seed 为 https://www.rangy.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.ryytn.com/aboutus/index.jhtml",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:sku_matrix,supply_chain_operations,dairy_brand_operations",
+          "summary": "杭州认养一头牛生物科技有限公司 的第二强来源为 https://www.ryytn.com/aboutus/index.jhtml，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3018,11 +3026,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "杭州花西子化妆品股份有限公司 的 source locator seed 为 https://www.florasis.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.florasis.com/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:brand_product_matrix,global_brand_operations,channel_complexity",
+          "summary": "杭州花西子化妆品股份有限公司 的第二强来源为 https://www.florasis.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3039,11 +3055,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "上海林清轩生物科技有限公司 的 source locator seed 为 https://www.lqxshop.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.lqxshop.com/about",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
+          "summary": "上海林清轩生物科技有限公司 的第二强来源为 https://www.lqxshop.com/about，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3060,11 +3084,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "上海新锐供应链管理有限公司 的 source locator seed 为 https://www.cupshe.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_product_collection",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.cupshe.com/collections/swimwear",
+          "evidence_strength": "official_product_collection",
+          "supports_dimension": "icp_match_support:global_brand_operations,sku_matrix,cross_border_operations",
+          "summary": "上海新锐供应链管理有限公司 的第二强来源为 https://www.cupshe.com/collections/swimwear，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3081,11 +3113,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "细刻网络科技（上海）有限公司 的 source locator seed 为 https://www.chicme.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chicme.com/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,platform_operator",
+          "summary": "细刻网络科技（上海）有限公司 的第二强来源为 https://www.chicme.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3102,11 +3142,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "深圳市傲基科技股份有限公司 的 source locator seed 为 https://www.aukeys.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.aukeys.com/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_hardware_brand",
+          "summary": "深圳市傲基科技股份有限公司 的第二强来源为 https://www.aukeys.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3123,11 +3171,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "深圳市泽宝创新技术有限公司 的 source locator seed 为 https://www.ravpower.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.ravpower.com/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_hardware_brand",
+          "summary": "深圳市泽宝创新技术有限公司 的第二强来源为 https://www.ravpower.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3144,11 +3200,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "深圳市蓝禾技术有限公司 的 source locator seed 为 https://www.benks.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.benks.com/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_accessory_brand",
+          "summary": "深圳市蓝禾技术有限公司 的第二强来源为 https://www.benks.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3165,11 +3229,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "深圳市时商创展科技有限公司 的 source locator seed 为 https://www.omoton.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.omoton.com/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,consumer_accessory_brand",
+          "summary": "深圳市时商创展科技有限公司 的第二强来源为 https://www.omoton.com/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3186,11 +3258,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "广州棒谷科技股份有限公司 的 source locator seed 为 https://www.banggood.cn/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.banggood.cn/about-us.html",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:platform_operator,cross_border_operations,multi_platform_commerce",
+          "summary": "广州棒谷科技股份有限公司 的第二强来源为 https://www.banggood.cn/about-us.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3207,6 +3287,14 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:platform_operator,multi_region,cross_border_operations",
           "summary": "广州希音国际进出口有限公司 的 source locator seed 为 https://www.sheingroup.com/。该公开来源用于确认公司及其平台化跨境/多区域经营事实，支撑平台运营 ICP 初筛。"
+        },
+        {
+          "source_type": "official_newsroom",
+          "source_category": "official_owned",
+          "source_locator": "https://www.sheingroup.com/newsroom",
+          "evidence_strength": "official_newsroom",
+          "supports_dimension": "icp_match_support:platform_operator,global_brand_operations,cross_border_operations",
+          "summary": "广州希音国际进出口有限公司 的第二强来源为 https://www.sheingroup.com/newsroom，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_platform_operator 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [
@@ -3214,8 +3302,8 @@
         "ka_review_geo_l1_cases_02ab1f15f8cc",
         "ka_review_dingtalk_2026_03_28_aeafed6ba8d8"
       ],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3232,11 +3320,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "广州影石创新科技有限公司 的 source locator seed 为 https://www.insta360.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_product_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.insta360.com/product",
+          "evidence_strength": "official_product_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,sku_matrix",
+          "summary": "广州影石创新科技有限公司 的第二强来源为 https://www.insta360.com/product，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3253,11 +3349,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "深圳市大疆创新科技有限公司 的 source locator seed 为 https://www.dji.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_company_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.dji.com/company",
+          "evidence_strength": "official_company_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,multi_region",
+          "summary": "深圳市大疆创新科技有限公司 的第二强来源为 https://www.dji.com/company，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3274,11 +3378,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
           "summary": "追觅科技（苏州）有限公司 的 source locator seed 为 https://www.dreame.tech/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.dreame.tech/pages/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,sku_matrix",
+          "summary": "追觅科技（苏州）有限公司 的第二强来源为 https://www.dreame.tech/pages/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3295,11 +3407,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "深圳绿米联创科技有限公司 的 source locator seed 为 https://www.aqara.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.aqara.com/about-us",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:iot_product_matrix,global_brand_operations,channel_complexity",
+          "summary": "深圳绿米联创科技有限公司 的第二强来源为 https://www.aqara.com/about-us，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3316,11 +3436,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "添可智能科技有限公司 的 source locator seed 为 https://www.tineco.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "official_product_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.tineco.com/products",
+          "evidence_strength": "official_product_page",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
+          "summary": "添可智能科技有限公司 的第二强来源为 https://www.tineco.com/products，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3337,11 +3465,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "北京元气森林饮料有限公司 的 source locator seed 为 https://www.yuanqisenlin.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "official_product_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.yuanqisenlin.com/products",
+          "evidence_strength": "official_product_page",
+          "supports_dimension": "icp_match_support:retail_high_sku_brand,sku_matrix,channel_complexity",
+          "summary": "北京元气森林饮料有限公司 的第二强来源为 https://www.yuanqisenlin.com/products，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3358,11 +3494,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
           "summary": "南京卫岗乳业有限公司 的 source locator seed 为 https://www.weigangdairy.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "industry_association_profile",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://cdia.org.cn/index/cate/ex_info/id/2937.html",
+          "evidence_strength": "industry_association_profile",
+          "supports_dimension": "icp_match_support:retail_high_sku_brand,dairy_operations,regional_channel_complexity",
+          "summary": "南京卫岗乳业有限公司 的第二强来源为 https://cdia.org.cn/index/cate/ex_info/id/2937.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     },
     {
@@ -3379,11 +3523,19 @@
           "evidence_strength": "public_strong_source_locator",
           "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
           "summary": "和府捞面餐饮管理有限公司 的 source locator seed 为 https://www.hefumian.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。"
+        },
+        {
+          "source_type": "official_about_page",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hefumian.com/about.html",
+          "evidence_strength": "official_about_page",
+          "supports_dimension": "icp_match_support:chain_standardization,store_network,fnb_chain_operations",
+          "summary": "和府捞面餐饮管理有限公司 的第二强来源为 https://www.hefumian.com/about.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 fnb_chain_standardized 的静态 ICP 判断。"
         }
       ],
       "icp_reference_asset_refs": [],
-      "source_count": 1,
-      "canonical_update_source": "M201R_publish_M200_L3_preview",
+      "source_count": 2,
+      "canonical_update_source": "M203R_publish_M202_L2_preview",
       "signed_customer_gate_version": "signed_customer_v2"
     }
   ]
