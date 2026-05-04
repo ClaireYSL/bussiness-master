@@ -1,0 +1,14 @@
+{
+  "milestone": "M196R",
+  "generated_at": "2026-05-04T08:51:55.766212+00:00",
+  "removed_count": 1,
+  "items": [
+    {
+      "prospect_id": "m192_a931b6a14819",
+      "company_name": "小米集团",
+      "removed_l3_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/小米集团.md",
+      "corresponding_l2_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/小米集团.md",
+      "reason": "promoted_to_l2_after_source_health_fix"
+    }
+  ]
+}

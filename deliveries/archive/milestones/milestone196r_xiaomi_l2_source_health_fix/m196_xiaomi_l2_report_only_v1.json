@@ -1,0 +1,87 @@
+{
+  "milestone": "M196R",
+  "generated_at": "2026-05-04T08:51:55.708105+00:00",
+  "mode": "report_only",
+  "candidate_signature": "19c7809302f42cbb1284a0819c5f89728cf7e0f9dcc173aa784c067d48b49037",
+  "summary": {
+    "report_only_candidate_count": 1,
+    "suggested_level": "L2",
+    "decision": "allow",
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "candidate": {
+    "prospect_id": "m192_a931b6a14819",
+    "task_id": "m190_task_a931b6a14819",
+    "company_name": "小米集团",
+    "level": "L3",
+    "matched_persona": "retail_high_sku_brand",
+    "match_reason": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+    "core_product_service_summary": "小米覆盖智能手机、IoT 与消费电子产品矩阵，具有高 SKU、跨品类和全球品牌运营特征。",
+    "business_model_summary": "以自有品牌硬件、IoT 生态和线上线下渠道销售为核心，结合互联网服务与全球市场运营。",
+    "risk_or_gap": "已补充第二条官方强来源，可进入 L2；若后续评估 L1，仍需第三强来源及更细的渠道/区域经营事实。",
+    "source_locator": "https://www.mi.com/",
+    "evidence_strength": "public_strong_source_locator",
+    "source_category": "official_owned",
+    "icp_reference_asset_refs": [],
+    "signed_customer_gate_version": "signed_customer_v2",
+    "legacy_field_inherited": false,
+    "candidate_source": "M191R_report_only_ready_input",
+    "trusted_status": "trusted_summary_ready",
+    "static_promotion_summary": "小米集团 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+    "static_gap_count": 4,
+    "static_evidence_count": 1,
+    "static_strong_evidence_count": 1,
+    "card_id": "card_m192_a931b6a14819",
+    "canonical_update_source": "M193R_publish_M192_L3_preview"
+  },
+  "sources": [
+    {
+      "source_type": "official_site_or_ir_seed",
+      "source_category": "official_owned",
+      "source_locator": "https://www.mi.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+      "summary": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+    },
+    {
+      "source_type": "official_product_list",
+      "source_category": "official_owned",
+      "source_locator": "https://www.mi.com/global/product-list/",
+      "evidence_strength": "official_product_page",
+      "supports_dimension": "icp_match_support:high_sku_brand,sku_matrix,iot_product_matrix,global_brand_operations",
+      "summary": "小米全球产品列表页是官方自有来源，用于支撑其高 SKU/IoT 产品矩阵与全球品牌运营事实。"
+    }
+  ],
+  "decision": {
+    "prospect_id": "m192_a931b6a14819",
+    "company_name": "小米集团",
+    "current_level": "L3",
+    "suggested_level": "L2",
+    "decision": "allow",
+    "gap_queue": [
+      {
+        "queue_type": "source_gap_queue",
+        "field": "l1_evidence_chain",
+        "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+      },
+      {
+        "queue_type": "source_gap_queue",
+        "field": "l1_source_category",
+        "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+      }
+    ],
+    "evidence_count": 2,
+    "strong_evidence_count": 2,
+    "summary": "小米集团 静态升层建议：L3 -> L2，强来源=2，L1来源类别=1。"
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

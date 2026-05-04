@@ -1,6 +1,6 @@
 {
   "registry_id": "account_entity_registry_v2",
-  "generated_at": "2026-05-04T08:46:07.965359+00:00",
+  "generated_at": "2026-05-04T08:51:55.748050+00:00",
   "source_milestone": "M185R",
   "summary": {
     "entity_count": 1154,
@@ -10,7 +10,7 @@
     "customer_case_reference_entity_count": 22,
     "multi_role_entity_count": 74,
     "signed_customer_gate_version": "v2",
-    "canonical_update_source": "M195R_publish_M194_L2_preview"
+    "canonical_update_source": "M196R_xiaomi_l2_source_health_fix"
   },
   "items": [
     {
@@ -32954,9 +32954,9 @@
         }
       ],
       "prospect_id": "m192_a931b6a14819",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
-      "canonical_update_source": "M193R_publish_M192_L3_preview"
+      "canonical_update_source": "M196R_xiaomi_l2_source_health_fix"
     },
     {
       "entity_id": "entity_a131a7c57449",

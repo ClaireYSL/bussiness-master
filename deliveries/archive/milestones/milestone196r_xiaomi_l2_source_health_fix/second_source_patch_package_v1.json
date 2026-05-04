@@ -1,0 +1,50 @@
+{
+  "milestone": "M196R",
+  "generated_at": "2026-05-04T08:51:55.708074+00:00",
+  "summary": {
+    "target_company": "小米集团",
+    "source_ready": true,
+    "canonical_pool_written": false,
+    "vault_regular_area_written": false
+  },
+  "item": {
+    "prospect_id": "m192_a931b6a14819",
+    "company_name": "小米集团",
+    "current_level": "L3",
+    "new_source": {
+      "source_type": "official_product_list",
+      "source_category": "official_owned",
+      "source_locator": "https://www.mi.com/global/product-list/",
+      "evidence_strength": "official_product_page",
+      "supports_dimension": "icp_match_support:high_sku_brand,sku_matrix,iot_product_matrix,global_brand_operations",
+      "summary": "小米全球产品列表页是官方自有来源，用于支撑其高 SKU/IoT 产品矩阵与全球品牌运营事实。",
+      "prospect_evidence": true,
+      "llm_used_as_evidence": false,
+      "locator_check": {
+        "source_locator": "https://www.mi.com/global/product-list/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "GET",
+        "content_type": "text/html; charset=utf-8"
+      }
+    },
+    "sources_after_patch": [
+      {
+        "source_type": "official_site_or_ir_seed",
+        "source_category": "official_owned",
+        "source_locator": "https://www.mi.com/",
+        "evidence_strength": "public_strong_source_locator",
+        "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+        "summary": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+      },
+      {
+        "source_type": "official_product_list",
+        "source_category": "official_owned",
+        "source_locator": "https://www.mi.com/global/product-list/",
+        "evidence_strength": "official_product_page",
+        "supports_dimension": "icp_match_support:high_sku_brand,sku_matrix,iot_product_matrix,global_brand_operations",
+        "summary": "小米全球产品列表页是官方自有来源，用于支撑其高 SKU/IoT 产品矩阵与全球品牌运营事实。"
+      }
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-04T08:46:08.038713+00:00",
-  "overall_status": "PASS_M195R_L2_PUBLISH",
+  "generated_at": "2026-05-04T08:51:55.799035+00:00",
+  "overall_status": "PASS_M196R_XIAOMI_L2_SOURCE_HEALTH_FIX",
   "counts": {
     "trusted_pool_count": 74,
     "l1_count": 34,
-    "l2_count": 38,
-    "l3_count": 1,
+    "l2_count": 39,
+    "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
     "canonical_knowledge_asset_count": 40,
@@ -78,7 +78,10 @@
     "m194_gap_queue_count": 15,
     "m195_l2_updated_count": 14,
     "m195_vault_l2_written_count": 14,
-    "m195_l3_card_removed_count": 14
+    "m195_l3_card_removed_count": 14,
+    "m196_l2_updated_count": 1,
+    "m196_vault_l2_written_count": 1,
+    "m196_l3_card_removed_count": 1
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -98,7 +101,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M195R",
+  "latest_milestone": "M196R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -115,7 +118,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M196：处理 M194 source health gap（小米保留 L3）或启动下一轮候选发现/补源。",
+  "canonical_next_action": "进入 M197：重新盘点生产池状态并规划下一轮候选发现/学习驱动扩容。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -1040,9 +1043,8 @@
     "source_trace_count": 74,
     "level_counts": {
       "L1": 34,
-      "L2": 38,
-      "L4": 1,
-      "L3": 1
+      "L2": 39,
+      "L4": 1
     },
     "signed_customer_registry": "v2",
     "signed_customer_count": 1059,
@@ -1650,5 +1652,29 @@
     },
     "vault_l2_written_count": 14,
     "l3_card_removed_count": 14
+  },
+  "m196r_xiaomi_l2_source_health_fix": {
+    "generated_at": "2026-05-04T08:51:55.799037+00:00",
+    "status": "PASS",
+    "pool_update": {
+      "before_hash": "f8ccec1d2a5df22222c5e49b01e299a9ad76b7b562b54fd92b0291ad1dd2c759",
+      "after_hash": "138eb149ba794849f27e9b9f5eede744494de6b90f44ffecdfe7222fa1969bb0",
+      "updated_count": 1,
+      "from_level": "L3",
+      "to_level": "L2",
+      "after_levels": {
+        "L1": 34,
+        "L2": 39,
+        "L4": 1
+      }
+    },
+    "source_trace_update": {
+      "before_hash": "ff463fdb110722404edb07d04d3ccca4515ae454dcaededfbe52935aaf26710f",
+      "after_hash": "144342353234f284ba6cac59768b8c1bf868afa7994178f9f64ebaeeeb824b10",
+      "updated_count": 1,
+      "source_count": 2
+    },
+    "vault_l2_written_count": 1,
+    "l3_card_removed_count": 1
   }
 }

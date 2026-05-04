@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T08:46:07.956242+00:00",
+  "generated_at": "2026-05-04T08:51:55.745544+00:00",
   "summary": {
     "trusted_pool_count": 74,
     "share_view_count": 19,
@@ -12,11 +12,10 @@
     "no_write_proof_ok": true,
     "static_level_counts": {
       "L1": 34,
-      "L2": 38,
-      "L4": 1,
-      "L3": 1
+      "L2": 39,
+      "L4": 1
     },
-    "canonical_update_source": "M195R_publish_M194_L2_preview",
+    "canonical_update_source": "M196R_xiaomi_l2_source_health_fix",
     "runner": "production_evidence_loop",
     "existing_customer_removed_count": 5,
     "signed_customer_v2_gate_applied": true,
@@ -1480,12 +1479,12 @@
       "prospect_id": "m192_a931b6a14819",
       "task_id": "m190_task_a931b6a14819",
       "company_name": "小米集团",
-      "level": "L3",
+      "level": "L2",
       "matched_persona": "retail_high_sku_brand",
       "match_reason": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
-      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
-      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
-      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "core_product_service_summary": "小米覆盖智能手机、IoT 与消费电子产品矩阵，具有高 SKU、跨品类和全球品牌运营特征。",
+      "business_model_summary": "以自有品牌硬件、IoT 生态和线上线下渠道销售为核心，结合互联网服务与全球市场运营。",
+      "risk_or_gap": "已补充第二条官方强来源，可进入 L2；若后续评估 L1，仍需第三强来源及更细的渠道/区域经营事实。",
       "source_locator": "https://www.mi.com/",
       "evidence_strength": "public_strong_source_locator",
       "source_category": "official_owned",
@@ -1493,13 +1492,13 @@
       "signed_customer_gate_version": "signed_customer_v2",
       "legacy_field_inherited": false,
       "candidate_source": "M191R_report_only_ready_input",
-      "trusted_status": "trusted_summary_ready",
-      "static_promotion_summary": "小米集团 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
-      "static_gap_count": 4,
-      "static_evidence_count": 1,
-      "static_strong_evidence_count": 1,
+      "trusted_status": "static_l2_ready",
+      "static_promotion_summary": "小米集团 静态升层建议：L3 -> L2，强来源=2，L1来源类别=1。",
+      "static_gap_count": 2,
+      "static_evidence_count": 2,
+      "static_strong_evidence_count": 2,
       "card_id": "card_m192_a931b6a14819",
-      "canonical_update_source": "M193R_publish_M192_L3_preview"
+      "canonical_update_source": "M196R_xiaomi_l2_source_health_fix"
     },
     {
       "prospect_id": "m192_a131a7c57449",
