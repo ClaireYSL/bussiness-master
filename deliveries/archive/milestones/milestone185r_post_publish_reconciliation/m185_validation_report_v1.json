@@ -1,0 +1,51 @@
+{
+  "milestone": "M185R",
+  "generated_at": "2026-05-04T07:16:10.816913+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "guard_regression_pass": true,
+    "douman_no_longer_pending": true,
+    "source_collection_pending_all_eligible": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_forbidden_write_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m185r_post_publish_reconciliation.py",
+      "scripts/businessmaster_pipeline.py",
+      "shared/static_pool/prospect_eligibility_gate.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 6,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

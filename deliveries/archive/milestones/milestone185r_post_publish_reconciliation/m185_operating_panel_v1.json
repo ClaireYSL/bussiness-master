@@ -1,0 +1,23 @@
+{
+  "milestone": "M185R",
+  "generated_at": "2026-05-04T07:16:10.817301+00:00",
+  "status": "PASS_M185R_POST_PUBLISH_RECONCILED",
+  "summary": {
+    "trusted_pool_count": 59,
+    "source_trace_count": 59,
+    "entity_v2_count": 1137,
+    "level_counts": {
+      "L1": 34,
+      "L2": 24,
+      "L4": 1
+    },
+    "backlog_state_counts": {
+      "excluded": 8,
+      "eligibility_blocked": 5,
+      "identity_pending": 13
+    },
+    "duplicate_existing_prospect_count": 2,
+    "source_collection_pending_count": 0
+  },
+  "next_recommended_action": "进入 M186：处理 backlog_v4 中剩余 identity_pending，或寻找新的 eligible source_collection_pending 候选。"
+}

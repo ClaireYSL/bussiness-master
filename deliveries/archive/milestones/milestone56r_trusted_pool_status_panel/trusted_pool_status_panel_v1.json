@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T06:56:27.566036+00:00",
-  "overall_status": "PASS_M184R_TRUSTED_POOL_PUBLISHED",
+  "generated_at": "2026-05-04T07:16:10.716333+00:00",
+  "overall_status": "PASS_M185R_POST_PUBLISH_RECONCILED",
   "counts": {
     "trusted_pool_count": 59,
     "l1_count": 34,
@@ -8,31 +8,21 @@
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
-    "identity_ready_count": 3,
-    "public_evidence_candidate_count": 3,
-    "excluded_learning_case_count": 22,
-    "excluded_existing_customer_count": 0,
-    "signed_customer_boundary_review_count": 0,
-    "vault_regular_write_count": 3,
-    "m150_evidence_ready_count": 0,
-    "m150_report_only_ready_count": 0,
-    "m150_vault_published_count": 3,
-    "m150_expert_review_followup_count": 1,
-    "m160_vault_duplicate_display_count": 47,
-    "m160_l1_l2_missing_source_trace_count": 0,
-    "m160_backlog_actionable_next_count": 1,
+    "canonical_knowledge_asset_count": 40,
+    "canonical_persona_count": 8,
+    "evidence_collection_task_count": 26,
+    "excluded_learning_source_case_count": 35,
+    "trusted_pool_report_only_candidate_count": 0,
+    "vault_regular_write_count": 0,
     "signed_customer_count": 1057,
     "signed_customer_alias_count": 2078,
     "existing_customer_trusted_pool_hit_count": 0,
+    "signed_customer_v1_count": 10,
+    "signed_customer_alias_v1_count": 24,
     "signed_customer_v2_count": 1057,
     "signed_customer_alias_v2_count": 2078,
     "m180_trusted_pool_existing_customer_hit_count": 0,
     "m180_vault_existing_customer_hit_count": 0,
-    "signed_customer_v1_count": 10,
-    "signed_customer_alias_v1_count": 24,
-    "m181_remediated_existing_customer_count": 5,
-    "m181_post_trusted_pool_existing_customer_hit_count": 0,
-    "m181_post_vault_existing_customer_hit_count": 0,
     "source_trace_count": 59,
     "existing_customer_vault_hit_count": 0,
     "entity_v2_count": 1137,
@@ -41,7 +31,18 @@
     "m182_identity_pending_count": 13,
     "m182_eligibility_blocked_count": 4,
     "m182_excluded_count": 8,
-    "m184_new_l2_count": 1
+    "m185_source_collection_pending_count": 0,
+    "m185_duplicate_existing_prospect_count": 2,
+    "m185_identity_pending_count": 13,
+    "m185_eligibility_blocked_count": 5,
+    "m185_excluded_count": 8,
+    "m150_evidence_ready_count": 0,
+    "m150_report_only_ready_count": 0,
+    "m150_vault_published_count": 3,
+    "m150_expert_review_followup_count": 1,
+    "m160_vault_duplicate_display_count": 47,
+    "m160_l1_l2_missing_source_trace_count": 0,
+    "m160_backlog_actionable_next_count": 1
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -61,7 +62,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M184R",
+  "latest_milestone": "M185R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -78,7 +79,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M183：基于 evidence_acquisition_backlog_v3 中 source_collection_pending/identity_pending 任务做公开强 evidence 采集；所有候选必须先过 signed customer v2 gate。",
+  "canonical_next_action": "进入 M186：从 backlog_v4 中 identity_pending 或 source_collection_pending 的真实 eligible prospect 继续采集公开强 evidence；斗满已作为 duplicate 回归样本。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -761,8 +762,8 @@
     "persona_registry_written": false
   },
   "m123r_user_delivery_product": {
-    "l1_vault_file_count": 36,
-    "l2_vault_file_count": 56,
+    "l1_vault_file_count": 34,
+    "l2_vault_file_count": 54,
     "l3_vault_file_count": 29,
     "new_vault_preview_count": 0,
     "new_vault_regular_write_count": 0,
@@ -899,22 +900,22 @@
     "gap_queue_count": 0
   },
   "m150r_operating_panel": {
-    "trusted_pool_count": 63,
+    "trusted_pool_count": 59,
     "level_counts": {
-      "L1": 36,
-      "L2": 26,
+      "L1": 34,
+      "L2": 24,
       "L4": 1
     },
-    "source_trace_count": 63,
+    "source_trace_count": 59,
     "knowledge_asset_count": 40,
     "persona_count": 8,
     "signed_customer_count": 10,
-    "signed_customer_alias_count": 23,
+    "signed_customer_alias_count": 24,
     "account_entity_count": 100,
     "customer_case_reference_count": 24,
     "vault_file_counts": {
-      "L1": 36,
-      "L2": 57,
+      "L1": 34,
+      "L2": 55,
       "L3": 29,
       "L4": 1,
       "L5": 1
@@ -954,7 +955,7 @@
     "vault_preview_count": 3,
     "vault_regular_write_count": 3,
     "preview_regular_count_match": true,
-    "link_error_count": 0,
+    "link_error_count": 1,
     "dynamic_term_finding_count": 0,
     "legacy_source_as_fact_finding_count": 0
   },
@@ -962,7 +963,7 @@
     "product_review_status": "pass_with_followups",
     "architecture_review_status": "pass",
     "data_governance_review_status": "pass",
-    "vault_publish_allowed": true,
+    "vault_publish_allowed": false,
     "followup_count": 1
   },
   "m160r_system_stabilization": {
@@ -984,9 +985,9 @@
     "signed_customer_count": 1057,
     "alias_count": 2078,
     "source_path": "/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx",
-    "trusted_pool_hit_count": 5,
-    "vault_hit_count": 5,
-    "expert_review_status": "pass_with_followups",
+    "trusted_pool_hit_count": 0,
+    "vault_hit_count": 0,
+    "expert_review_status": "pass",
     "v2_default_gate_enabled": true
   },
   "m181r_signed_customer_remediation_v2": {
@@ -1015,15 +1016,15 @@
     "signed_customer_v1_reference_only": true
   },
   "m182r_production_reconciliation": {
-    "status": "PASS",
-    "entity_v2_count": 1136,
+    "status": "FAIL",
+    "entity_v2_count": 1137,
     "backlog_state_counts": {
       "excluded": 8,
       "eligibility_blocked": 4,
       "identity_pending": 13,
       "source_collection_pending": 1
     },
-    "expert_review_status": "pass"
+    "expert_review_status": "fail"
   },
   "m183r_evidence_acquisition": {
     "generated_at": "2026-05-04T07:05:21.133019+00:00",
@@ -1074,5 +1075,16 @@
     "signed_customer_gate_version": "signed_customer_v2",
     "canonical_pool_updated": true,
     "vault_regular_area_written": true
+  },
+  "m185r_post_publish_reconciliation": {
+    "generated_at": "2026-05-04T07:16:10.716376+00:00",
+    "status": "PASS",
+    "backlog_state_counts": {
+      "excluded": 8,
+      "eligibility_blocked": 5,
+      "identity_pending": 13
+    },
+    "douman_duplicate_existing_prospect": true,
+    "expert_review_status": "pass"
   }
 }

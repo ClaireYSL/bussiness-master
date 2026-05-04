@@ -25,15 +25,10 @@ MODE_COMMANDS = {
     "signed-customer-gate": [["python3", "scripts/build_m131r_m135_signed_customer_registry.py", "--stage", "all"]],
     "cross-asset-readiness": [["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"]],
     "system-reconcile": [["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"]],
-    "evidence-acquisition": [["python3", "scripts/build_m183r_evidence_acquisition_restart.py", "--stage", "all", "--update-status-panel"]],
+    "evidence-acquisition": [["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"]],
+    "post-publish-reconcile": [["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"]],
     "production": [
-        ["python3", "scripts/build_m120r_m125_sustainable_production_system.py", "--stage", "all", "--allow-canonical-registry-update"],
-        ["python3", "scripts/build_m131r_m135_signed_customer_registry.py", "--stage", "all"],
-        ["python3", "scripts/build_m180r_signed_customer_registry_v2.py", "--stage", "all"],
-        ["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"],
-        ["python3", "scripts/build_m183r_evidence_acquisition_restart.py", "--stage", "all", "--update-status-panel"],
-        ["python3", "scripts/build_m150r_production_loop_hardening.py", "--stage", "all"],
-        ["python3", "scripts/build_m160r_system_stabilization.py", "--stage", "all"],
+        ["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"],
     ],
     "all": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "all"]],
 }
