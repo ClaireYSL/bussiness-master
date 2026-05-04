@@ -25,10 +25,12 @@ MODE_COMMANDS = {
     "signed-customer-gate": [["python3", "scripts/build_m131r_m135_signed_customer_registry.py", "--stage", "all"]],
     "cross-asset-readiness": [["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"]],
     "system-reconcile": [["python3", "scripts/build_m182r_production_reconciliation.py", "--stage", "all"]],
-    "evidence-acquisition": [["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"]],
+    "evidence-acquisition": [["python3", "scripts/build_m186r_identity_resolution_backlog.py", "--stage", "all"]],
     "post-publish-reconcile": [["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"]],
+    "identity-resolution": [["python3", "scripts/build_m186r_identity_resolution_backlog.py", "--stage", "all"]],
     "production": [
         ["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"],
+        ["python3", "scripts/build_m186r_identity_resolution_backlog.py", "--stage", "all"],
     ],
     "all": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "all"]],
 }

@@ -1,0 +1,27 @@
+{
+  "milestone": "M186R",
+  "generated_at": "2026-05-04T07:24:48.300736+00:00",
+  "status": "PASS_M186R_IDENTITY_BACKLOG_REBUILT",
+  "summary": {
+    "input_identity_pending_count": 13,
+    "resolved_company_candidate_count": 13,
+    "still_identity_pending_count": 0,
+    "source_collection_pending_count": 3,
+    "eligibility_blocked_count": 15,
+    "backlog_state_counts": {
+      "excluded": 8,
+      "eligibility_blocked": 15,
+      "source_collection_pending": 3
+    },
+    "eligibility_status_counts": {
+      "not_checked": 8,
+      "boundary_review": 7,
+      "excluded_signed_customer": 3,
+      "eligible_prospect": 3,
+      "duplicate_candidate_in_backlog": 2,
+      "excluded_non_company": 1,
+      "duplicate_existing_prospect": 2
+    }
+  },
+  "next_recommended_action": "进入 M187：对 source_collection_pending 的候选采集公开强 evidence。"
+}

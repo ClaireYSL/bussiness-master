@@ -1,0 +1,17 @@
+{
+  "milestone": "M186R",
+  "generated_at": "2026-05-04T07:24:48.300661+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "身份解析后只保留去重且过 gate 的候选进入 source collection。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "M186 不写 trusted pool/vault，只更新 backlog 和状态面板。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "老客、边界 review、重复候选均在 eligibility gate 层处理，customer case seed 不作为 evidence。"
+  }
+}

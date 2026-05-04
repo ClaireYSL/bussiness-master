@@ -1,0 +1,143 @@
+{
+  "package_id": "m186r_candidate_identity_resolution_package_v1",
+  "milestone": "M186R",
+  "generated_at": "2026-05-04T07:24:48.212118+00:00",
+  "summary": {
+    "input_identity_pending_count": 13,
+    "resolved_company_candidate_count": 13,
+    "still_identity_pending_count": 0,
+    "unique_resolved_company_count": 8
+  },
+  "items": [
+    {
+      "task_id": "m41r_geo_l1_cases_93c9999e4a70",
+      "source_seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "raw_candidate_name": "Lily服饰前CIO陶润堂",
+      "resolved_company_name": "Lily服饰",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+      "source_seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "raw_candidate_name": "乐凯撒CTO黄道泳",
+      "resolved_company_name": "乐凯撒",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_geo_l1_cases_d0e2101bd015",
+      "source_seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "raw_candidate_name": "吉家宠物张志伟",
+      "resolved_company_name": "吉家宠物",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_geo_l1_cases_402d01c4227d",
+      "source_seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "raw_candidate_name": "来伊份余迁",
+      "resolved_company_name": "来伊份",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_geo_l1_cases_e0b009efa094",
+      "source_seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "raw_candidate_name": "正新集团赵先瑞",
+      "resolved_company_name": "正新集团",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "group_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
+      "source_seed_title": "120国订单交付更精准，首帆动力如何用观远BI实现定制化生产？",
+      "raw_candidate_name": "120国订单交付更精准",
+      "resolved_company_name": "首帆动力",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
+      "source_seed_title": "Lily服饰前CIO陶润堂：时尚行业数字化战略成功的3个关键点",
+      "raw_candidate_name": "Lily服饰前CIO陶润堂",
+      "resolved_company_name": "Lily服饰",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
+      "source_seed_title": "七秒易购的数字化飞跃：以BI赋能供应链精细化管理",
+      "raw_candidate_name": "七秒易购的数字化飞跃",
+      "resolved_company_name": "七秒易购",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
+      "source_seed_title": "乐凯撒CTO黄道泳：餐饮企业的数智化建设，要看企业所处发展阶段",
+      "raw_candidate_name": "乐凯撒CTO黄道泳",
+      "resolved_company_name": "乐凯撒",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_4ac584c7c94f",
+      "source_seed_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "raw_candidate_name": "吉家宠物张志伟",
+      "resolved_company_name": "吉家宠物",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_929ce18ef32a",
+      "source_seed_title": "来伊份余迁：BI建设要拥抱业务，服务业务",
+      "raw_candidate_name": "来伊份余迁",
+      "resolved_company_name": "来伊份",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_0bb7114cea95",
+      "source_seed_title": "正新集团赵先瑞：搭建敏捷数据中心，助力万店高效运营",
+      "raw_candidate_name": "正新集团赵先瑞",
+      "resolved_company_name": "正新集团",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "group_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    },
+    {
+      "task_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
+      "source_seed_title": "零跑汽车李盼盼：BI是一个六边形武器",
+      "raw_candidate_name": "零跑汽车李盼盼",
+      "resolved_company_name": "零跑汽车",
+      "identity_resolution_status": "resolved_company_candidate",
+      "resolution_method": "brand_name_from_title",
+      "confidence": "medium",
+      "boundary_note": "身份解析只用于进入 signed customer/duplicate gate，不作为 prospect evidence。"
+    }
+  ]
+}
