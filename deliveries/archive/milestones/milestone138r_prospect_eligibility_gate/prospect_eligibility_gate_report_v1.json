@@ -1,0 +1,450 @@
+{
+  "batch_id": "m138r_prospect_eligibility_gate_report_v1",
+  "generated_at": "2026-05-04T03:48:55.098842+00:00",
+  "summary": {
+    "excluded_signed_customer": 2,
+    "duplicate_existing_prospect": 3,
+    "excluded_non_company": 14,
+    "eligible_prospect": 20,
+    "boundary_review": 2
+  },
+  "items": [
+    {
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "candidate_name": "上海家化",
+      "reason": "matched signed customer registry",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "上海家化",
+        "matched_customer_id": "legacy_customer_jahwa",
+        "matched_canonical_name": "上海家化联合股份有限公司",
+        "matched_alias_name": "上海家化",
+        "match_type": "market_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "prospect_eligibility_status": "duplicate_existing_prospect",
+      "candidate_name": "安踏体育用品有限公司",
+      "reason": "entity already exists in trusted pool",
+      "matched_entity_id": "entity_8ffca234",
+      "matched_entity_name": "安踏体育用品有限公司",
+      "matched_prospect_id": "m127r_anta",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_eligibility_status": "duplicate_existing_prospect",
+      "candidate_name": "自然堂集团",
+      "reason": "entity already exists in trusted pool",
+      "matched_entity_id": "entity_fa3aa09b",
+      "matched_entity_name": "自然堂集团",
+      "matched_prospect_id": "m127r_chando_group",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "candidate_name": "森马",
+      "reason": "matched signed customer registry",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "森马",
+        "matched_customer_id": "legacy_customer_semir",
+        "matched_canonical_name": "浙江森马服饰股份有限公司",
+        "matched_alias_name": "森马",
+        "match_type": "market_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_1ac505ada0e9",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "LLLM采销供应链数据化解决方案",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_d3021536e889",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "鲜丰水果数据智能化应用汇报交流-观远数据-完整版v1.2",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "太平鸟",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "安踏",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8818e883a66c",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_93c9999e4a70",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "Lily服饰前CIO陶润堂",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "乐凯撒CTO黄道泳",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_d0e2101bd015",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "吉家宠物张志伟",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_402d01c4227d",
+      "prospect_eligibility_status": "boundary_review",
+      "candidate_name": "来伊份余迁",
+      "reason": "possible signed customer alias overlap",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": {
+        "existing_customer_check_status": "boundary_review",
+        "candidate_name": "来伊份余迁",
+        "matched_customer_id": "legacy_customer_laiyifen",
+        "matched_canonical_name": "上海来伊份股份有限公司",
+        "matched_alias_name": "来伊份",
+        "match_type": "market_name",
+        "reason": "partial_normalized_name_overlap"
+      }
+    },
+    {
+      "seed_id": "m41r_geo_l1_cases_e0b009efa094",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "正新集团赵先瑞",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "120国订单交付更精准",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_cb261a56a0a8",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "3-4人团队撬动10亿目标！森马如何使用观远BI实现商品企划效能升级？",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "Lily服饰前CIO陶润堂",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "七秒易购的数字化飞跃",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_6b727dee25d9",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "不用3年只需3个月",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "乐凯撒CTO黄道泳",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_e6c36fa80a37",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "博士眼镜 × 观远数据 × 飞书  AI 和 BI 赋能业务实践",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4ac584c7c94f",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "吉家宠物张志伟",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_f59bd0733b0b",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "咖啡连锁品牌M Stand签约观远数据，BI赋能品牌高效分析与敏捷决策",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_4757b1291658",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "斗满",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_929ce18ef32a",
+      "prospect_eligibility_status": "boundary_review",
+      "candidate_name": "来伊份余迁",
+      "reason": "possible signed customer alias overlap",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": {
+        "existing_customer_check_status": "boundary_review",
+        "candidate_name": "来伊份余迁",
+        "matched_customer_id": "legacy_customer_laiyifen",
+        "matched_canonical_name": "上海来伊份股份有限公司",
+        "matched_alias_name": "来伊份",
+        "match_type": "market_name",
+        "reason": "partial_normalized_name_overlap"
+      }
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_0bb7114cea95",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "正新集团赵先瑞",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_659f379bf984",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "用数据驱动全渠道增长：花西子与观远数据的敏捷经营实践",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
+      "prospect_eligibility_status": "duplicate_existing_prospect",
+      "candidate_name": "自然堂",
+      "reason": "entity already exists in trusted pool",
+      "matched_entity_id": "entity_fa3aa09b",
+      "matched_entity_name": "自然堂集团",
+      "matched_prospect_id": "m127r_chando_group",
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_d2b0c1804748",
+      "prospect_eligibility_status": "excluded_non_company",
+      "candidate_name": "观远BI助力老乡鸡数字化转型升级，多场景落地全方位提升经营效能",
+      "reason": "candidate name looks like a case title/person/material, not a company",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "seed_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "零跑汽车李盼盼",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "云南贝泰妮生物科技集团股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_cc581fd4",
+      "matched_entity_name": "云南贝泰妮生物科技集团股份有限公司",
+      "matched_prospect_id": "m44r_prospect_botanee",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "水羊集团股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_dd7a12b9",
+      "matched_entity_name": "水羊集团股份有限公司",
+      "matched_prospect_id": "m44r_prospect_syoung",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "逸仙控股有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_389da0aa",
+      "matched_entity_name": "逸仙控股有限公司",
+      "matched_prospect_id": "m44r_prospect_yatsen",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "稳健医疗用品股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_b0ea49a9",
+      "matched_entity_name": "稳健医疗用品股份有限公司",
+      "matched_prospect_id": "m44r_prospect_winner_medical",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "瑞幸咖啡有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_2fd6224f",
+      "matched_entity_name": "瑞幸咖啡有限公司",
+      "matched_prospect_id": "m44r_prospect_luckin",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "霸王茶姬控股有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_65a7831a",
+      "matched_entity_name": "霸王茶姬控股有限公司",
+      "matched_prospect_id": "m44r_prospect_chagee",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "四川百茶百道实业股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_9841d9c2",
+      "matched_entity_name": "四川百茶百道实业股份有限公司",
+      "matched_prospect_id": "m44r_prospect_chabaidao",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "九毛九国际控股有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_15397e65",
+      "matched_entity_name": "九毛九国际控股有限公司",
+      "matched_prospect_id": "m44r_prospect_jiumaojiu",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "绝味食品股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_752fe4fc",
+      "matched_entity_name": "绝味食品股份有限公司",
+      "matched_prospect_id": "m44r_prospect_juewei",
+      "signed_customer_match": null
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "深圳百果园实业集团股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_8126eba8",
+      "matched_entity_name": "深圳百果园实业集团股份有限公司",
+      "matched_prospect_id": "m44r_prospect_pagoda",
+      "signed_customer_match": null
+    }
+  ]
+}

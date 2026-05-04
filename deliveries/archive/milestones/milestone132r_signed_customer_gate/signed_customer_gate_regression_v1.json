@@ -1,0 +1,146 @@
+{
+  "batch_id": "m132r_signed_customer_gate_regression_v1",
+  "generated_at": "2026-05-04T03:48:54.910596+00:00",
+  "summary": {
+    "excluded_existing_customer": 11,
+    "passed": 3,
+    "boundary_review": 1
+  },
+  "items": [
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "百胜中国",
+      "matched_customer_id": "legacy_customer_yumchina",
+      "matched_canonical_name": "百胜（中国）投资有限公司",
+      "matched_alias_name": "百胜中国",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "珀莱雅",
+      "matched_customer_id": "legacy_customer_proya",
+      "matched_canonical_name": "珀莱雅化妆品股份有限公司",
+      "matched_alias_name": "珀莱雅",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "上海家化",
+      "matched_customer_id": "legacy_customer_jahwa",
+      "matched_canonical_name": "上海家化联合股份有限公司",
+      "matched_alias_name": "上海家化",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "森马",
+      "matched_customer_id": "legacy_customer_semir",
+      "matched_canonical_name": "浙江森马服饰股份有限公司",
+      "matched_alias_name": "森马",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "特步",
+      "matched_customer_id": "legacy_customer_xtep",
+      "matched_canonical_name": "特步（中国）有限公司",
+      "matched_alias_name": "特步（中国）有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "海澜之家",
+      "matched_customer_id": "legacy_customer_hla",
+      "matched_canonical_name": "海澜之家集团股份有限公司",
+      "matched_alias_name": "海澜之家集团股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "锅圈食汇",
+      "matched_customer_id": "legacy_customer_guoquan",
+      "matched_canonical_name": "锅圈食品（上海）股份有限公司",
+      "matched_alias_name": "锅圈食汇",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "来伊份",
+      "matched_customer_id": "legacy_customer_laiyifen",
+      "matched_canonical_name": "上海来伊份股份有限公司",
+      "matched_alias_name": "来伊份",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "天味食品",
+      "matched_customer_id": "legacy_customer_tianwei",
+      "matched_canonical_name": "天味食品股份有限公司",
+      "matched_alias_name": "天味食品股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "水星家纺",
+      "matched_customer_id": "legacy_customer_mercuryhome",
+      "matched_canonical_name": "水星家纺股份有限公司",
+      "matched_alias_name": "水星家纺股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "passed",
+      "candidate_name": "安踏体育用品有限公司",
+      "matched_customer_id": null,
+      "matched_canonical_name": null,
+      "matched_alias_name": null,
+      "match_type": null,
+      "reason": "no signed customer match"
+    },
+    {
+      "existing_customer_check_status": "passed",
+      "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+      "matched_customer_id": null,
+      "matched_canonical_name": null,
+      "matched_alias_name": null,
+      "match_type": null,
+      "reason": "no signed customer match"
+    },
+    {
+      "existing_customer_check_status": "passed",
+      "candidate_name": "自然堂集团",
+      "matched_customer_id": null,
+      "matched_canonical_name": null,
+      "matched_alias_name": null,
+      "match_type": null,
+      "reason": "no signed customer match"
+    },
+    {
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "上海家化集团",
+      "matched_customer_id": "legacy_customer_jahwa",
+      "matched_canonical_name": "上海家化联合股份有限公司",
+      "matched_alias_name": "上海家化",
+      "match_type": "market_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "existing_customer_check_status": "boundary_review",
+      "candidate_name": "水星",
+      "matched_customer_id": "legacy_customer_mercuryhome",
+      "matched_canonical_name": "水星家纺股份有限公司",
+      "matched_alias_name": "水星家纺股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "partial_normalized_name_overlap"
+    }
+  ]
+}

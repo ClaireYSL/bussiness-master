@@ -37,7 +37,7 @@ GENERIC_BUSINESS_VALUES = {
 }
 
 USER_AGENT = {"User-Agent": "Mozilla/5.0"}
-SEARCH_TOKEN = "D43BF722C8E33BDC906FB84D85E326E8"
+EASTMONEY_SEARCH_TOKEN = os.environ.get("EASTMONEY_SEARCH_TOKEN", "").strip()
 SESSION = requests.Session()
 SESSION.headers.update(USER_AGENT)
 
@@ -94,12 +94,14 @@ def search_candidates(name: str, aliases: list[str] | None = None) -> list[str]:
 
 
 def eastmoney_search(name: str, aliases: list[str] | None = None) -> dict | None:
+    if not EASTMONEY_SEARCH_TOKEN:
+        return None
     url = "https://searchapi.eastmoney.com/api/suggest/get"
     for candidate in search_candidates(name, aliases):
         params = {
             "input": candidate,
             "type": "14",
-            "token": SEARCH_TOKEN,
+            "token": EASTMONEY_SEARCH_TOKEN,
             "count": "10",
         }
         data = SESSION.get(url, params=params, timeout=20).json()

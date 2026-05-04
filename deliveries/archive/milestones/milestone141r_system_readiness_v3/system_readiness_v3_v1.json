@@ -1,0 +1,49 @@
+{
+  "batch_id": "m141r_system_readiness_v3_v1",
+  "milestone": "M141R",
+  "generated_at": "2026-05-04T03:48:55.136612+00:00",
+  "status": "PASS",
+  "summary": {
+    "entity_count": 100,
+    "eligibility_check_count": 41,
+    "case_reference_count": 24,
+    "source_checked_count": 196,
+    "source_gap_count": 0,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written_from_prospect": false,
+    "persona_registry_written_from_prospect": false
+  },
+  "regression_assertions": {
+    "signed_customer_blocked": true,
+    "customer_case_not_prospect_evidence": true,
+    "customer_case_not_signed_customer_auto_confirm": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m137r_m141_cross_asset_readiness.py",
+      "shared/static_pool/prospect_eligibility_gate.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 15,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  }
+}

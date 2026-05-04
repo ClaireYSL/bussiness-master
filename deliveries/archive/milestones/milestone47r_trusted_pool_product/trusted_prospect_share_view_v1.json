@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-05-03T08:09:16.418155+00:00",
+  "generated_at": "2026-05-04T03:13:58.373842+00:00",
   "summary": {
-    "trusted_pool_count": 20,
-    "share_view_count": 20,
-    "source_trace_count": 20,
-    "trusted_match_ready_count": 20,
+    "trusted_pool_count": 19,
+    "share_view_count": 19,
+    "source_trace_count": 19,
+    "trusted_match_ready_count": 19,
     "persona_count": 6,
     "old_workbook_write_enabled": false,
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
-    "no_write_proof_ok": true
+    "no_write_proof_ok": true,
+    "existing_customer_removed_count": 0
   },
   "items": [
     {
@@ -19,16 +20,6 @@
       "core_info": "以皮肤健康互联网+大健康为定位，覆盖功效性护肤品与相关健康消费品。",
       "business_model": "品牌研发、生产/供应链、线上线下渠道销售与会员运营并重。",
       "evidence": "https://www.botanee.com.cn/investor-relations.html",
-      "status": "trusted_match_ready",
-      "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。"
-    },
-    {
-      "company_name": "上海家化联合股份有限公司",
-      "matched_persona": "retail_high_sku_brand",
-      "why_worth_review": "拥有多品牌日化美妆产品和多工厂/多渠道经营结构，符合品牌零售高 SKU 复杂度画像。",
-      "core_info": "日用化妆品、护肤、洗护、母婴等品牌与产品组合。",
-      "business_model": "上市日化集团，品牌矩阵、生产基地、渠道分销和消费者运营共同驱动。",
-      "evidence": "https://www.jahwa.com.cn/about/com",
       "status": "trusted_match_ready",
       "risk_or_gap": "需在正式入池前继续补充第二来源和业务人工复核。"
     },

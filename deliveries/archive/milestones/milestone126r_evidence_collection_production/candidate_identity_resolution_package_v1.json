@@ -1,13 +1,16 @@
 {
   "batch_id": "m126r_candidate_identity_resolution_package_v1",
   "milestone": "M126R",
-  "generated_at": "2026-05-04T02:26:48.899387+00:00",
+  "generated_at": "2026-05-04T03:48:55.259680+00:00",
   "status": "PASS_IDENTITY_RESOLUTION_READY",
   "summary": {
     "input_task_count": 26,
     "ready_for_source_collection_count": 3,
     "needs_company_identification_count": 1,
-    "excluded_learning_case_count": 22
+    "excluded_learning_case_count": 22,
+    "excluded_existing_customer_count": 0,
+    "signed_customer_boundary_review_count": 0,
+    "signed_customer_check_missing_count": 0
   },
   "items": [
     {
@@ -28,7 +31,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_dingtalk_2026_03_28_d3021536e889",
@@ -49,7 +53,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
@@ -71,7 +76,14 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": "宁波太平鸟时尚服饰股份有限公司",
       "production_task_status": "ready_for_source_collection",
-      "identity_resolution_reason": "命中人工确认的清晰公司名；仍需独立公开 evidence，不使用学习素材本身作证据。"
+      "identity_resolution_reason": "命中人工确认的清晰公司名；仍需独立公开 evidence，不使用学习素材本身作证据。",
+      "existing_customer_check_status": "passed",
+      "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+      "matched_customer_id": null,
+      "matched_canonical_name": null,
+      "matched_alias_name": null,
+      "match_type": null,
+      "reason": "no signed customer match"
     },
     {
       "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
@@ -93,7 +105,14 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": "安踏体育用品有限公司",
       "production_task_status": "ready_for_source_collection",
-      "identity_resolution_reason": "命中人工确认的清晰公司名；仍需独立公开 evidence，不使用学习素材本身作证据。"
+      "identity_resolution_reason": "命中人工确认的清晰公司名；仍需独立公开 evidence，不使用学习素材本身作证据。",
+      "existing_customer_check_status": "passed",
+      "candidate_name": "安踏体育用品有限公司",
+      "matched_customer_id": null,
+      "matched_canonical_name": null,
+      "matched_alias_name": null,
+      "match_type": null,
+      "reason": "no signed customer match"
     },
     {
       "seed_id": "m41r_geo_l1_cases_8818e883a66c",
@@ -113,7 +132,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_geo_l1_cases_93c9999e4a70",
@@ -135,7 +155,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_geo_l1_cases_8cbb9aa49aa2",
@@ -157,7 +178,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_geo_l1_cases_d0e2101bd015",
@@ -179,7 +201,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_geo_l1_cases_402d01c4227d",
@@ -202,7 +225,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_geo_l1_cases_e0b009efa094",
@@ -225,7 +249,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_75acd34d075a",
@@ -247,7 +272,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_cb261a56a0a8",
@@ -267,7 +293,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_986fb2fea865",
@@ -289,7 +316,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_148bb8eec10a",
@@ -311,7 +339,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_6b727dee25d9",
@@ -333,7 +362,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_d9b96a804489",
@@ -355,7 +385,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_e6c36fa80a37",
@@ -376,7 +407,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_4ac584c7c94f",
@@ -398,7 +430,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_f59bd0733b0b",
@@ -419,7 +452,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_4757b1291658",
@@ -441,7 +475,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": "斗满",
       "production_task_status": "needs_company_identification",
-      "identity_resolution_reason": "无法稳定确认 canonical 公司名。"
+      "identity_resolution_reason": "无法稳定确认 canonical 公司名。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_929ce18ef32a",
@@ -464,7 +499,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_0bb7114cea95",
@@ -487,7 +523,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_659f379bf984",
@@ -507,7 +544,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
@@ -529,7 +567,14 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": "自然堂集团",
       "production_task_status": "ready_for_source_collection",
-      "identity_resolution_reason": "命中人工确认的清晰公司名；仍需独立公开 evidence，不使用学习素材本身作证据。"
+      "identity_resolution_reason": "命中人工确认的清晰公司名；仍需独立公开 evidence，不使用学习素材本身作证据。",
+      "existing_customer_check_status": "passed",
+      "candidate_name": "自然堂集团",
+      "matched_customer_id": null,
+      "matched_canonical_name": null,
+      "matched_alias_name": null,
+      "match_type": null,
+      "reason": "no signed customer match"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_d2b0c1804748",
@@ -549,7 +594,8 @@
       "ready_for_trusted_pool_report_only": false,
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     },
     {
       "seed_id": "m41r_l1_customer_cases_20260313_20f6c2805c2d",
@@ -571,7 +617,8 @@
       "boundary_note": "学习素材触发的候选线索必须重新采集公开强来源；seed 本身不计入 prospect evidence。",
       "resolved_company_name": null,
       "production_task_status": "excluded_learning_case",
-      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。"
+      "identity_resolution_reason": "标题或候选名显示为客户案例、人物访谈、方案素材或标题片段，不能直接进入潜客 evidence。",
+      "existing_customer_check_status": "not_applicable"
     }
   ]
 }

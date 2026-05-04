@@ -1,0 +1,474 @@
+{
+  "registry_id": "customer_case_reference_registry_v1",
+  "generated_at": "2026-05-04T03:48:55.099586+00:00",
+  "source_milestone": "M139R",
+  "summary": {
+    "case_reference_count": 24,
+    "usable_reference_case_count": 24,
+    "prospect_evidence_count": 0,
+    "signed_customer_auto_confirm_count": 0
+  },
+  "items": [
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_e2_285e7db3",
+      "case_title": "「倍思」BI案例分享",
+      "customer_or_brand_name": "倍思",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf",
+      "track_ids": [
+        "cross_border_ecommerce"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_geo_l1_cases_02ab1f15f_a7bd2be5",
+      "case_title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "customer_or_brand_name": "走近乐其SmallRig，",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx",
+      "track_ids": [
+        "cross_border_ecommerce"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "cross_border_operation",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_ae_c633b650",
+      "case_title": "[互联网+]科技金融_详细案例_萨摩耶",
+      "customer_or_brand_name": "互联网+科技金融",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_80_6d31bf45",
+      "case_title": "「品牌零售- BI」气味图书馆案例总结",
+      "customer_or_brand_name": "品牌零售",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「品牌零售- BI」气味图书馆案例总结.pdf",
+      "track_ids": [
+        "retail_consumer"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_80952c20c7cb",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_92_151d07ce",
+      "case_title": "「案例详情_AI」家清-联合利华UL",
+      "customer_or_brand_name": "「案例详情_AI」家清-联合利华UL",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」家清-联合利华UL.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_9215204b4d2a",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_7a_5a152497",
+      "case_title": "「案例详情_AI」美妆-LVMH",
+      "customer_or_brand_name": "「案例详情_AI」美妆-LVMH",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-LVMH.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_7a3bee760da2",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_40_43f8ca57",
+      "case_title": "「案例详情_AI」美妆-丝芙兰",
+      "customer_or_brand_name": "「案例详情_AI」美妆-丝芙兰",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-丝芙兰.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_4037aeb27f02",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_9d_35134f6c",
+      "case_title": "「案例详情_BI」母婴-惠氏臻朗",
+      "customer_or_brand_name": "「案例详情_BI」母婴-惠氏臻朗",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」母婴-惠氏臻朗.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_9d8a56a2e839",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_c8_a331bab3",
+      "case_title": "「案例详情_BI」美妆-colorkey",
+      "customer_or_brand_name": "「案例详情_BI」美妆-colorkey",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」美妆-colorkey.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_c8265955ebe6",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_75_7540f2a9",
+      "case_title": "「案例详情_BI」饮料-简爱酸奶",
+      "customer_or_brand_name": "「案例详情_BI」饮料-简爱酸奶",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-简爱酸奶.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_75ef96f73fff",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_13_fcb35267",
+      "case_title": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "customer_or_brand_name": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_130a9a6f71a9",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_eb_e20bbb67",
+      "case_title": "「森马电商」BI案例分享",
+      "customer_or_brand_name": "森马电商",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「森马电商」BI案例分享.pdf",
+      "track_ids": [
+        "cross_border_ecommerce"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_eb4587059543",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_92_84a83d94",
+      "case_title": "「珀莱雅」BI案例分享",
+      "customer_or_brand_name": "珀莱雅",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「珀莱雅」BI案例分享.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_92990f246359",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_cf_07f3a04c",
+      "case_title": "「自然堂」BI案例分享",
+      "customer_or_brand_name": "自然堂",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「自然堂」BI案例分享.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_cf751e980256",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_9e_9a1cf4e0",
+      "case_title": "「连锁餐饮- BI」德克士案例方案",
+      "customer_or_brand_name": "连锁餐饮",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」德克士案例方案.pdf",
+      "track_ids": [
+        "retail_consumer"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "chain_standardization",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_9ed76ba72c74",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_ff_80510cc9",
+      "case_title": "「连锁餐饮- BI」顶誉食品案例总结",
+      "customer_or_brand_name": "连锁餐饮",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」顶誉食品案例总结.pdf",
+      "track_ids": [
+        "retail_consumer"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "chain_standardization",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_ff5e0fb4be5b",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_66_4e606d76",
+      "case_title": "【母婴宠物】观远BI典型案例",
+      "customer_or_brand_name": "母婴宠物",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【母婴宠物】观远BI典型案例.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_66b6e5dd8c70",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_c4_66976a4d",
+      "case_title": "【美妆个护】观远BI典型案例",
+      "customer_or_brand_name": "美妆个护",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【美妆个护】观远BI典型案例.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_c42c913e351e",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_50_3656b946",
+      "case_title": "【连锁餐饮-BI-详细案例】遇见小面",
+      "customer_or_brand_name": "连锁餐饮",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【连锁餐饮-BI-详细案例】遇见小面.pdf",
+      "track_ids": [
+        "retail_consumer"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "chain_standardization",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_50e032ac0d3f",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_73_f2bb740e",
+      "case_title": "【鞋服】观远BI典型案例",
+      "customer_or_brand_name": "鞋服",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【鞋服】观远BI典型案例.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_73705b68ef09",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_26_ec03633d",
+      "case_title": "【鞋服行业】首威集团_财务项目_案例总结_20230218",
+      "customer_or_brand_name": "鞋服行业首威集团",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【鞋服行业】首威集团_财务项目_案例总结_20230218.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "finance_management",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_26cc3790d0ca",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_7d_e49751db",
+      "case_title": "数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》",
+      "customer_or_brand_name": "数禾科技",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_7d51c399df29",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_dingtalk_2026_03_28_75_8be3167c",
+      "case_title": "详细案例-商超便利-全家",
+      "customer_or_brand_name": "详细",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/详细案例-商超便利-全家.pdf",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_dingtalk_2026_03_28_7536582d826a",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    },
+    {
+      "case_reference_id": "case_ref_ka_review_geo_l1_cases_d0e2101bd_7618c6ac",
+      "case_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "customer_or_brand_name": "吉家宠物张志伟",
+      "reference_status": "usable_reference_case",
+      "source_material": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/吉家宠物张志伟：宠物行业全链路数据分析方法论与实践.docx",
+      "track_ids": [
+        "general_business"
+      ],
+      "persona_hints": [],
+      "icp_signals": [
+        "channel_complexity",
+        "supply_chain_complexity",
+        "management_visibility"
+      ],
+      "knowledge_asset_id": "ka_review_geo_l1_cases_d0e2101bd015",
+      "not_prospect_evidence": true,
+      "does_not_confirm_signed_customer": true
+    }
+  ]
+}

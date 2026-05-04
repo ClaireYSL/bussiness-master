@@ -1,0 +1,1580 @@
+{
+  "batch_id": "m140r_source_freshness_report_v1",
+  "generated_at": "2026-05-04T03:48:55.101633+00:00",
+  "summary": {
+    "source_checked_count": 196,
+    "fresh_count": 166,
+    "needs_recheck_count": 30,
+    "gap_queue_count": 0
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "source_locator": "https://bears.com.cn/invest/notice.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100936+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100945+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_bear",
+      "company_name": "小熊电器股份有限公司",
+      "source_locator": "https://www.bears.com.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100950+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "source_locator": "https://www.botanee.com.cn/investor-relations.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100955+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300957&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100959+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_botanee",
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "source_locator": "https://www.botanee.com.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100962+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "source_locator": "https://www.chabaidao.com/home/index/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100966+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "source_locator": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh&stock_code=02555",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100970+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chabaidao",
+      "company_name": "四川百茶百道实业股份有限公司",
+      "source_locator": "https://www.chabaidao.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100974+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "source_locator": "https://investor.chagee.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100977+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "source_locator": "https://investor.chagee.com/financials/sec-filings",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100981+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chagee",
+      "company_name": "霸王茶姬控股有限公司",
+      "source_locator": "https://www.chagee.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100985+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "source_locator": "https://www.chowtaiseng.com/uploads/%E5%91%A8%E5%A4%A7%E7%94%9F%E7%8F%A0%E5%AE%9D%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A_1724297789.pdf",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100989+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002867&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100992+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "company_name": "周大生珠宝股份有限公司",
+      "source_locator": "https://www.chowtaiseng.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100996+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "source_locator": "https://www.focuschina.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.100999+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002315&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101003+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_focus_tech",
+      "company_name": "焦点科技股份有限公司",
+      "source_locator": "https://www.focuschina.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101005+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "source_locator": "https://www.jiumaojiu.com/about/index.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101009+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "source_locator": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh&stock_code=09922",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101013+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "company_name": "九毛九国际控股有限公司",
+      "source_locator": "https://www.jiumaojiu.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101016+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "source_locator": "https://www.juewei.cn/page/jwd/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101021+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603517&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101025+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_juewei",
+      "company_name": "绝味食品股份有限公司",
+      "source_locator": "https://www.juewei.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101029+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "source_locator": "https://stock.stockstar.com/notice/SN2026040800035202.shtml",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101032+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301078&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101036+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_kidswant",
+      "company_name": "孩子王儿童用品股份有限公司",
+      "source_locator": "https://www.haiziwang.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101039+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101043+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "source_locator": "https://investor.luckincoffee.com/financial-information/annual-reports/",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101045+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_luckin",
+      "company_name": "瑞幸咖啡有限公司",
+      "source_locator": "https://www.luckincoffee.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101049+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "source_locator": "https://www.pagoda.com.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101052+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "source_locator": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh&stock_code=02411",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101056+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_pagoda",
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "source_locator": "https://www.pagoda.com.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101058+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "source_locator": "https://group.roborock.com/zh-hk/contact-us",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101062+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "source_locator": "http://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688169",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101066+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_roborock",
+      "company_name": "北京石头世纪科技股份有限公司",
+      "source_locator": "https://www.roborock.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101069+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "source_locator": "https://static.cninfo.com.cn/finalpage/2023-08-30/1217697315.PDF",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101073+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101076+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_sailvan",
+      "company_name": "赛维时代科技股份有限公司",
+      "source_locator": "https://www.sailvan.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101080+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "source_locator": "https://syounggroup.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101083+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300740&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101087+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_syoung",
+      "company_name": "水羊集团股份有限公司",
+      "source_locator": "https://syounggroup.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101089+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222926822.PDF",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101093+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300783&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101096+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "company_name": "三只松鼠股份有限公司",
+      "source_locator": "https://www.3songshu.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101101+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "source_locator": "https://viomitechnology.gcs-web.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101104+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "source_locator": "https://ir.viomi.com/financial-information/sec-filings",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101108+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_viomi",
+      "company_name": "云米科技有限公司",
+      "source_locator": "https://www.viomi.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101111+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "source_locator": "https://www.winnermedical.cn/investor/report.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101115+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300888&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101118+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_winner_medical",
+      "company_name": "稳健医疗用品股份有限公司",
+      "source_locator": "https://www.winnermedical.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101122+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "source_locator": "https://www.yanjinpuzi.com/about_complex.aspx?FId=n1%3A1%3A1",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101126+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002847&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101129+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "company_name": "盐津铺子食品股份有限公司",
+      "source_locator": "https://www.yanjinpuzi.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101133+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "source_locator": "https://ir.yatsenglobal.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101136+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "source_locator": "https://ir.yatsenglobal.com/SEC-Filings",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101139+00:00"
+    },
+    {
+      "prospect_id": "m44r_prospect_yatsen",
+      "company_name": "逸仙控股有限公司",
+      "source_locator": "https://www.yatsenglobal.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101143+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101146+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101151+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605338&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101155+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_babi",
+      "company_name": "中饮巴比食品股份有限公司",
+      "source_locator": "https://www.babifood.com/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101158+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101162+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101164+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002251&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101168+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bbg",
+      "company_name": "步步高商业连锁股份有限公司",
+      "source_locator": "https://www.bbg.com.cn/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101171+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101176+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101180+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002959&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101183+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bear",
+      "company_name": "广东小熊电器股份有限公司",
+      "source_locator": "https://www.bears.com.cn/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101187+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101190+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101193+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=688363&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101197+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_bloomage",
+      "company_name": "华熙生物科技股份有限公司",
+      "source_locator": "https://www.bloomagebiotech.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101200+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101204+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101206+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002615&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101210+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haers",
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "source_locator": "https://www.haers.cn/knowUs/Default.htm",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101213+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101217+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101219+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hailide",
+      "company_name": "浙江海利得新材料股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002206&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101223+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101226+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101229+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_haixiang",
+      "company_name": "海象新材料股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=003011&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101232+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101236+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101238+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hengansecurity",
+      "company_name": "江苏恒辉安防股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300952&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101242+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101245+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101248+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101251+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_henglin",
+      "company_name": "恒林家居股份有限公司",
+      "source_locator": "https://www.henglin.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101254+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101258+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101261+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hengwei",
+      "company_name": "浙江恒威电池股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301222&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101265+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101269+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101272+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_hlin",
+      "company_name": "浙江恒林椅业股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603661&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101276+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101280+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101282+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_jame",
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300868&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101285+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101289+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101291+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_longood",
+      "company_name": "朗科智能电气股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300543&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101295+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101299+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101301+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "company_name": "浙江梦天木作家居有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603216&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101305+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101309+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101311+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mingxin",
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605068&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101315+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101318+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101321+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_mustangbat",
+      "company_name": "浙江野马电池股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605378&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101324+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101328+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101330+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=001238&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101334+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_patio",
+      "company_name": "浙江正特股份有限公司",
+      "source_locator": "https://www.zhengte.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101337+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101341+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101343+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301381&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101347+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_sailvan",
+      "company_name": "深圳市赛维网络科技有限公司",
+      "source_locator": "https://www.sailvan.com/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101350+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101354+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101358+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301558&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101362+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_santai",
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "source_locator": "https://www.sfcservice.com/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101365+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101369+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101371+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_shengtai",
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605138&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101375+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101379+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101381+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_skshu",
+      "company_name": "星徽股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300464&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101385+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101388+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101390+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_taipeng",
+      "company_name": "泰鹏智能家居股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=873132&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101394+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101398+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101400+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=300607&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101404+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_topstar",
+      "company_name": "拓斯达科技股份有限公司",
+      "source_locator": "https://www.topstarltd.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101407+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101410+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101413+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603600&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101416+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_uechairs",
+      "company_name": "永艺家具股份有限公司",
+      "source_locator": "https://www.uechairs.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101420+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101423+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101426+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_washin",
+      "company_name": "浙江华生科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=605180&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101429+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101433+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101435+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_xinghua",
+      "company_name": "星华新材股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301077&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101439+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101444+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101448+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yayi",
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=301113&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101452+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101455+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101457+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=002489&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101461+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_yotrio",
+      "company_name": "浙江永强集团股份有限公司",
+      "source_locator": "https://www.yotrio.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101464+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "source_locator": "https://sorobuy.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101468+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_youkeshu",
+      "company_name": "深圳市有棵树科技股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101470+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101474+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "source_locator": "internal://milestone25r/trusted_expansion_intake_patch",
+      "source_category": "internal_or_legacy_reference",
+      "source_freshness_status": "needs_recheck",
+      "source_health_checked_at": "2026-05-04T03:48:55.101476+00:00"
+    },
+    {
+      "prospect_id": "m68r_acc_zhengyu",
+      "company_name": "浙江正裕工业股份有限公司",
+      "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=603089&announcementType=010301",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101480+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "source_locator": "https://www.busyming.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101483+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "source_locator": "https://www.busyming.com/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101485+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_busyming",
+      "company_name": "湖南鸣鸣很忙商业连锁股份有限公司",
+      "source_locator": "https://www.stcn.com/article/detail/799343.html",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101489+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "source_locator": "https://www.zymls.com/zsjm.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101492+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "source_locator": "https://www.zymls.com/zsjm.html",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101495+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_zhaoyiming",
+      "company_name": "宜春赵一鸣食品科技有限公司",
+      "source_locator": "https://www.foodaily.com/articles/31851",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101498+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "source_locator": "https://www.kuafood.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101502+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "source_locator": "https://www.kuafood.com/brand",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101505+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "source_locator": "https://www.pencilnews.cn/p/39109.html",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101509+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "source_locator": "https://more-yogurt.com/index/about",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101512+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "source_locator": "https://more-yogurt.com/index/about",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101515+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "source_locator": "https://www.heytea.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101518+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "source_locator": "https://www.heytea.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101521+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_heytea",
+      "company_name": "深圳美西西餐饮管理有限公司",
+      "source_locator": "https://www.hongshan.com/companies/heytea/",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101524+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "source_locator": "http://www.bananain.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101539+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "source_locator": "https://www.36kr.com/p/965180353109762",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101544+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_bananain",
+      "company_name": "三立人（深圳）科技有限公司",
+      "source_locator": "https://www.morketing.com/detail/16999",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101548+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "source_locator": "https://www.hotmaxx.cn/index.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101552+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "source_locator": "https://www.hotmaxx.cn/index.html",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101554+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_hotmaxx",
+      "company_name": "上海芯果科技有限公司",
+      "source_locator": "https://www.cbinsights.com/company/hotmaxx",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101557+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "source_locator": "https://www.babycare.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101561+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101564+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "source_locator": "https://www.petkit.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101568+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "source_locator": "https://www.brandstar.com.cn/news/2314",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101571+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_petkit",
+      "company_name": "小佩网络科技（上海）有限公司",
+      "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202208251577645279_1.pdf",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101575+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "source_locator": "https://www.simpcare.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101578+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_simpcare",
+      "company_name": "广州极男化妆品有限公司",
+      "source_locator": "https://news.pedaily.cn/202009/459918.shtml",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101582+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "source_locator": "https://www.kkguan.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101585+00:00"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101589+00:00"
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "source_locator": "https://www.peacebird.com.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101592+00:00"
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "source_locator": "https://shop.peacebird.com/",
+      "source_category": "platform_operating_fact",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101596+00:00"
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222923564.PDF",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101599+00:00"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "source_locator": "https://www.anta.cn/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101602+00:00"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "source_locator": "https://ir.anta.com/en/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101606+00:00"
+    },
+    {
+      "prospect_id": "m127r_anta",
+      "company_name": "安踏体育用品有限公司",
+      "source_locator": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0331/2025033100649.pdf",
+      "source_category": "regulatory_or_capital_market",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101609+00:00"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "source_locator": "https://www.chandogroup.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101613+00:00"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "source_locator": "https://www.chandogroup.com/",
+      "source_category": "official_owned",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101615+00:00"
+    },
+    {
+      "prospect_id": "m127r_chando_group",
+      "company_name": "自然堂集团",
+      "source_locator": "https://www.caffci.org/upload/files/20250709/2024%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%96%99%E9%A6%99%E7%B2%BE%E5%8C%96%E5%A6%86%E5%93%81%E8%A1%8C%E4%B8%9A%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B%E9%9B%86.pdf",
+      "source_category": "authoritative_third_party",
+      "source_freshness_status": "fresh",
+      "source_health_checked_at": "2026-05-04T03:48:55.101620+00:00"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "batch_id": "m126r_public_evidence_collection_plan_v1",
-  "generated_at": "2026-05-04T02:26:48.899498+00:00",
+  "generated_at": "2026-05-04T03:48:55.259805+00:00",
   "summary": {
     "plan_count": 3
   },
@@ -8,6 +8,7 @@
     {
       "seed_id": "m41r_dingtalk_2026_03_28_3b267fa4f181",
       "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "existing_customer_check_status": "passed",
       "mapped_canonical_personas": [
         "mgmt_inventory_supply_coordination",
         "mgmt_profit_improvement"
@@ -23,6 +24,7 @@
     {
       "seed_id": "m41r_dingtalk_2026_03_28_7373f739f85b",
       "company_name": "安踏体育用品有限公司",
+      "existing_customer_check_status": "passed",
       "mapped_canonical_personas": [
         "mgmt_inventory_supply_coordination",
         "mgmt_profit_improvement"
@@ -38,6 +40,7 @@
     {
       "seed_id": "m41r_l1_customer_cases_20260313_5c2505e2ede9",
       "company_name": "自然堂集团",
+      "existing_customer_check_status": "passed",
       "mapped_canonical_personas": [
         "mgmt_inventory_supply_coordination",
         "mgmt_profit_improvement"

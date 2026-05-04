@@ -1,11 +1,11 @@
 {
   "batch_id": "m123r_user_delivery_product_v1",
   "milestone": "M123R",
-  "generated_at": "2026-05-04T02:26:48.596397+00:00",
+  "generated_at": "2026-05-04T03:48:54.595804+00:00",
   "status": "PASS_USER_DELIVERY_PRODUCT_READY",
   "summary": {
-    "l1_vault_file_count": 37,
-    "l2_vault_file_count": 57,
+    "l1_vault_file_count": 36,
+    "l2_vault_file_count": 56,
     "l3_vault_file_count": 29,
     "new_vault_preview_count": 0,
     "new_vault_regular_write_count": 0,

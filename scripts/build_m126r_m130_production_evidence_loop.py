@@ -15,6 +15,8 @@ if str(WORKSPACE) not in sys.path:
     sys.path.insert(0, str(WORKSPACE))
 
 from shared.static_pool.static_promote import evaluate_static_promotion
+from shared.static_pool.prospect_eligibility_gate import ProspectEligibilityGate
+from shared.static_pool.signed_customer_gate import SignedCustomerGate
 
 MILESTONES = WORKSPACE / "deliveries/archive/milestones"
 M47 = MILESTONES / "milestone47r_trusted_pool_product"
@@ -146,7 +148,25 @@ def resolve_identity(task: dict[str, Any]) -> dict[str, Any]:
 
 def build_m126() -> dict[str, Any]:
     queue = read_json(M121 / "evidence_collection_task_queue_v1.json", {"items": []})
-    resolved = [resolve_identity(item) for item in queue.get("items") or []]
+    gate = SignedCustomerGate.from_files()
+    resolved = []
+    for item in queue.get("items") or []:
+        resolved_item = resolve_identity(item)
+        if resolved_item.get("production_task_status") == "ready_for_source_collection":
+            check = gate.check(resolved_item.get("resolved_company_name")).to_dict()
+            resolved_item = {**resolved_item, **check}
+            if check["existing_customer_check_status"] == "excluded_existing_customer":
+                resolved_item["production_task_status"] = "excluded_existing_customer"
+                resolved_item["identity_resolution_reason"] = "命中已签约老客 registry；不得进入新潜客 source collection。"
+            elif check["existing_customer_check_status"] == "boundary_review":
+                resolved_item["production_task_status"] = "signed_customer_boundary_review"
+                resolved_item["identity_resolution_reason"] = "疑似命中已签约老客 alias，需要人工确认边界后才能继续。"
+            elif check["existing_customer_check_status"] != "passed":
+                resolved_item["production_task_status"] = "signed_customer_check_missing"
+                resolved_item["identity_resolution_reason"] = "未完成 signed customer gate，不得进入 source collection。"
+        else:
+            resolved_item = {**resolved_item, "existing_customer_check_status": "not_applicable"}
+        resolved.append(resolved_item)
     counts = Counter(item["production_task_status"] for item in resolved)
     source_plan = []
     for item in resolved:
@@ -154,6 +174,7 @@ def build_m126() -> dict[str, Any]:
             source_plan.append({
                 "seed_id": item.get("seed_id"),
                 "company_name": item.get("resolved_company_name"),
+                "existing_customer_check_status": item.get("existing_customer_check_status"),
                 "mapped_canonical_personas": item.get("mapped_canonical_personas") or [],
                 "required_source_categories": ["official_owned", "platform_operating_fact", "authoritative_third_party", "regulatory_or_capital_market"],
                 "minimum_entry_rule": "至少 1 条可定位强来源进入 report-only；L2/L1 需更多来源与完整解释。",
@@ -168,6 +189,9 @@ def build_m126() -> dict[str, Any]:
             "ready_for_source_collection_count": counts.get("ready_for_source_collection", 0),
             "needs_company_identification_count": counts.get("needs_company_identification", 0),
             "excluded_learning_case_count": counts.get("excluded_learning_case", 0),
+            "excluded_existing_customer_count": counts.get("excluded_existing_customer", 0),
+            "signed_customer_boundary_review_count": counts.get("signed_customer_boundary_review", 0),
+            "signed_customer_check_missing_count": counts.get("signed_customer_check_missing", 0),
         },
         "items": resolved,
     }
@@ -202,11 +226,18 @@ def build_candidate_input(company: str, payload: dict[str, Any]) -> dict[str, An
         "icp_reference_asset_refs": [],
         "legacy_reference_only": False,
         "production_source": "M127R_public_evidence_admission",
+        "existing_customer_check_status": "passed",
     }
 
 
 def build_m127(m126: dict[str, Any]) -> dict[str, Any]:
-    ready = {item["resolved_company_name"] for item in m126["package"].get("items") or [] if item.get("production_task_status") == "ready_for_source_collection"}
+    eligibility_gate = ProspectEligibilityGate.from_files()
+    ready_items = {
+        item["resolved_company_name"]: item
+        for item in m126["package"].get("items") or []
+        if item.get("production_task_status") == "ready_for_source_collection" and item.get("existing_customer_check_status") == "passed"
+    }
+    ready = set(ready_items)
     candidates = []
     trace_items = []
     evidence_rows = []
@@ -216,7 +247,18 @@ def build_m127(m126: dict[str, Any]) -> dict[str, Any]:
             skipped.append({"company_name": company, "reason": "not_ready_in_m126_identity_resolution"})
             continue
         candidate = build_candidate_input(company, payload)
-        candidates.append(candidate)
+        eligibility = eligibility_gate.check(company, payload["prospect_id"]).to_dict()
+        candidate.update(eligibility)
+        candidate["existing_customer_check"] = {
+            key: ready_items[company].get(key)
+            for key in ["existing_customer_check_status", "matched_customer_id", "matched_canonical_name", "matched_alias_name", "match_type", "reason"]
+            if key in ready_items[company]
+        }
+        if eligibility["prospect_eligibility_status"] == "eligible_prospect":
+            candidates.append(candidate)
+        else:
+            skipped.append({"company_name": company, "reason": "prospect_eligibility_gate_not_passed", **eligibility})
+            continue
         sources = payload["sources"]
         trace_items.append({"prospect_id": payload["prospect_id"], "company_name": company, "sources": sources})
         for source in sources:
@@ -232,6 +274,8 @@ def build_m127(m126: dict[str, Any]) -> dict[str, Any]:
             "evidence_count": len(evidence_rows),
             "source_category_counts": dict(category_counts),
             "report_only_ready_count": len(candidates),
+            "signed_customer_gate_passed_count": len(candidates),
+            "prospect_eligibility_passed_count": len(candidates),
             "llm_used_as_evidence_count": 0,
             "skipped_count": len(skipped),
         },
@@ -294,6 +338,16 @@ def write_baseline(path: Path, candidates: list[dict[str, Any]]) -> dict[str, An
 def build_m128(m127: dict[str, Any], allow_update: bool) -> dict[str, Any]:
     candidates = m127["package"].get("candidates") or []
     trace_items = m127["trace"].get("items") or []
+    signed_customer_gate_errors = [
+        {"prospect_id": item.get("prospect_id"), "company_name": item.get("company_name"), "existing_customer_check_status": item.get("existing_customer_check_status")}
+        for item in candidates
+        if item.get("existing_customer_check_status") != "passed"
+    ]
+    prospect_eligibility_errors = [
+        {"prospect_id": item.get("prospect_id"), "company_name": item.get("company_name"), "prospect_eligibility_status": item.get("prospect_eligibility_status")}
+        for item in candidates
+        if item.get("prospect_eligibility_status") != "eligible_prospect"
+    ]
     decisions = [evaluate_static_promotion(item, source_trace_by_prospect=source_trace_map(trace_items)).to_dict() for item in candidates]
     counts = Counter(d["suggested_level"] for d in decisions)
     baseline = write_baseline(M128 / "m128r_baseline_v1.json", candidates)
@@ -301,7 +355,7 @@ def build_m128(m127: dict[str, Any], allow_update: bool) -> dict[str, Any]:
     merged_items, diff_items = merge_pool_items(old_pool.get("items") or [], candidates, decisions)
     pool_updated = False
     trace_updated = False
-    if allow_update and candidates:
+    if allow_update and candidates and not signed_customer_gate_errors and not prospect_eligibility_errors:
         level_count = level_counts(merged_items)
         new_pool = dict(old_pool)
         new_pool["generated_at"] = now()
@@ -312,7 +366,8 @@ def build_m128(m127: dict[str, Any], allow_update: bool) -> dict[str, Any]:
         new_trace = merge_trace(read_json(TRACE, {"items": []}), m127["trace"])
         write_json(TRACE, new_trace)
         trace_updated = True
-    report = {"batch_id": "m128r_production_trusted_pool_report_v1", "milestone": "M128R", "generated_at": now(), "status": "PASS_TRUSTED_POOL_UPDATED" if pool_updated else "PASS_REPORT_ONLY_PREVIEW", "summary": {"candidate_count": len(candidates), "suggested_level_counts": dict(counts), "canonical_pool_updated": pool_updated, "source_trace_updated": trace_updated, "old_excel_written": False, "knowledge_asset_registry_written": False, "persona_registry_written": False}, "decisions": decisions}
+    report_status = "FAIL_PROSPECT_ELIGIBILITY_REQUIRED" if prospect_eligibility_errors else "FAIL_SIGNED_CUSTOMER_CHECK_REQUIRED" if signed_customer_gate_errors else "PASS_TRUSTED_POOL_UPDATED" if pool_updated else "PASS_REPORT_ONLY_PREVIEW"
+    report = {"batch_id": "m128r_production_trusted_pool_report_v1", "milestone": "M128R", "generated_at": now(), "status": report_status, "summary": {"candidate_count": len(candidates), "suggested_level_counts": dict(counts), "canonical_pool_updated": pool_updated, "source_trace_updated": trace_updated, "signed_customer_gate_error_count": len(signed_customer_gate_errors), "prospect_eligibility_error_count": len(prospect_eligibility_errors), "old_excel_written": False, "knowledge_asset_registry_written": False, "persona_registry_written": False}, "signed_customer_gate_errors": signed_customer_gate_errors, "prospect_eligibility_errors": prospect_eligibility_errors, "decisions": decisions}
     diff = {"batch_id": "m128r_pool_diff_report_v1", "generated_at": now(), "summary": {"change_count": len(diff_items), "append_count": sum(1 for item in diff_items if item["change_type"] == "append"), "update_count": sum(1 for item in diff_items if item["change_type"] == "update")}, "items": diff_items}
     no_write = {"batch_id": "m128r_no_contamination_proof_v1", "generated_at": now(), "status": "PASS_NO_CONTAMINATION", "old_excel_written": False, "knowledge_asset_registry_written_from_prospect": False, "persona_registry_written_from_prospect": False, "trusted_pool_updated": pool_updated, "source_trace_updated": trace_updated}
     write_json(M128 / "m128r_production_trusted_pool_report_v1.json", report)
@@ -396,9 +451,12 @@ def build_m129(m127: dict[str, Any], m128: dict[str, Any], allow_write: bool) ->
     candidates = m127["package"].get("candidates") or []
     trace_items = m127["trace"].get("items") or []
     decisions = m128["report"].get("decisions") or []
-    preview = write_vault_outputs(candidates, trace_items, decisions, regular=False)
-    regular = write_vault_outputs(candidates, trace_items, decisions, regular=True) if allow_write else []
-    package = {"batch_id": "m129r_vault_delivery_publish_v1", "milestone": "M129R", "generated_at": now(), "status": "PASS_VAULT_REGULAR_WRITTEN" if regular else "PASS_VAULT_PREVIEW_READY", "summary": {"vault_preview_count": len(preview), "vault_regular_write_count": len(regular), "vault_regular_write_allowed": allow_write}, "preview_outputs": preview, "regular_outputs": regular}
+    publishable_candidates = [item for item in candidates if item.get("existing_customer_check_status") == "passed" and item.get("prospect_eligibility_status") == "eligible_prospect"]
+    publishable_ids = {item.get("prospect_id") for item in publishable_candidates}
+    publishable_decisions = [item for item in decisions if item.get("prospect_id") in publishable_ids]
+    preview = write_vault_outputs(publishable_candidates, trace_items, publishable_decisions, regular=False)
+    regular = write_vault_outputs(publishable_candidates, trace_items, publishable_decisions, regular=True) if allow_write else []
+    package = {"batch_id": "m129r_vault_delivery_publish_v1", "milestone": "M129R", "generated_at": now(), "status": "PASS_VAULT_REGULAR_WRITTEN" if regular else "PASS_VAULT_PREVIEW_READY", "summary": {"vault_preview_count": len(preview), "vault_regular_write_count": len(regular), "vault_regular_write_allowed": allow_write, "signed_customer_gate_checked_count": len(publishable_candidates)}, "preview_outputs": preview, "regular_outputs": regular}
     write_json(M129 / "m129r_vault_delivery_publish_v1.json", package)
     return package
 
@@ -442,7 +500,7 @@ def scan_api_keys(paths: list[Path]) -> dict[str, Any]:
 
 
 def build_m130(m126: dict[str, Any], m127: dict[str, Any], m128: dict[str, Any], m129: dict[str, Any]) -> dict[str, Any]:
-    py_compile = run(["python3", "-m", "py_compile", "scripts/build_m126r_m130_production_evidence_loop.py", "scripts/businessmaster_pipeline.py", "scripts/trusted_pool_runner.py", "shared/static_pool/static_promote.py"])
+    py_compile = run(["python3", "-m", "py_compile", "scripts/build_m126r_m130_production_evidence_loop.py", "scripts/businessmaster_pipeline.py", "scripts/trusted_pool_runner.py", "shared/static_pool/static_promote.py", "shared/static_pool/signed_customer_gate.py", "shared/static_pool/prospect_eligibility_gate.py"])
     roots = [M126, M127, M128, M129, M130]
     checked = 0
     errors = []
@@ -458,10 +516,12 @@ def build_m130(m126: dict[str, Any], m127: dict[str, Any], m128: dict[str, Any],
     legacy_guard = run(["python3", "-c", "from shared.static_pool.legacy_guard import assert_legacy_workbook_write_allowed; assert_legacy_workbook_write_allowed(cli_override=False, context='m126r_m130_validation')"])
     trusted_pool_guard = run(["bash", "-lc", "tmp=/tmp/bm_m130_guard; rm -rf $tmp; mkdir -p $tmp; cp deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json $tmp/pool.json; python3 scripts/trusted_pool_runner.py --mode update_trusted_pool --trusted-pool $tmp/pool.json --output-file $tmp/report.json --gap-queue-file $tmp/gap.json --source-trace-output $tmp/trace.json --no-write-proof-file $tmp/no_write.json --pool-diff-file $tmp/diff.json --validation-report-file $tmp/validation.json >/tmp/bm_m130_guard.out 2>/tmp/bm_m130_guard.err; test $? -ne 0"])
     mismatch = run(["bash", "-lc", "tmp=/tmp/bm_m130_baseline; rm -rf $tmp; mkdir -p $tmp; cp deliveries/archive/milestones/milestone128r_production_trusted_pool_update/m128r_baseline_v1.json $tmp/baseline.json; python3 - <<'PY'\nimport json\nfrom pathlib import Path\np=Path('/tmp/bm_m130_baseline/baseline.json')\nd=json.loads(p.read_text())\nd['candidate_signature']='bad-signature'\np.write_text(json.dumps(d))\nPY\npython3 - <<'PY'\nimport json,hashlib,sys\nfrom pathlib import Path\nactual=json.loads(Path('deliveries/archive/milestones/milestone128r_production_trusted_pool_update/m128r_baseline_v1.json').read_text())['candidate_signature']\nexpected=json.loads(Path('/tmp/bm_m130_baseline/baseline.json').read_text())['candidate_signature']\nsys.exit(0 if actual != expected else 2)\nPY"])
-    status = "PASS" if py_compile["returncode"] == 0 and not errors and dynamic["status"] == "PASS" and api["status"] == "PASS" and legacy_guard["returncode"] != 0 and trusted_pool_guard["returncode"] == 0 and mismatch["returncode"] == 0 else "FAIL"
+    signed_customer_gate_ok = m128["report"]["summary"].get("signed_customer_gate_error_count", 0) == 0
+    prospect_eligibility_ok = m128["report"]["summary"].get("prospect_eligibility_error_count", 0) == 0
+    status = "PASS" if py_compile["returncode"] == 0 and not errors and dynamic["status"] == "PASS" and api["status"] == "PASS" and legacy_guard["returncode"] != 0 and trusted_pool_guard["returncode"] == 0 and mismatch["returncode"] == 0 and signed_customer_gate_ok and prospect_eligibility_ok else "FAIL"
     pool = read_json(POOL, {"items": []})
     counts = level_counts(pool.get("items") or [])
-    report = {"batch_id": "m130r_production_operations_closure_v1", "milestone": "M130R", "generated_at": now(), "status": status, "summary": {"trusted_pool_count": len(pool.get("items") or []), "level_counts": counts, "identity_ready_count": m126["package"]["summary"]["ready_for_source_collection_count"], "public_evidence_candidate_count": m127["package"]["summary"]["candidate_count"], "trusted_pool_updated": m128["report"]["summary"]["canonical_pool_updated"], "vault_regular_write_count": m129["summary"]["vault_regular_write_count"]}, "py_compile": py_compile, "json_parse": {"checked_count": checked, "error_count": len(errors), "errors": errors[:20]}, "dynamic_term_scan": dynamic, "api_key_scan": api, "legacy_guard_without_override": {"returncode": legacy_guard["returncode"], "stderr": legacy_guard["stderr"]}, "trusted_pool_update_guard_without_allow": {"returncode": trusted_pool_guard["returncode"]}, "baseline_mismatch_check": {"returncode": mismatch["returncode"]}}
+    report = {"batch_id": "m130r_production_operations_closure_v1", "milestone": "M130R", "generated_at": now(), "status": status, "summary": {"trusted_pool_count": len(pool.get("items") or []), "level_counts": counts, "identity_ready_count": m126["package"]["summary"]["ready_for_source_collection_count"], "public_evidence_candidate_count": m127["package"]["summary"]["candidate_count"], "signed_customer_gate_error_count": m128["report"]["summary"].get("signed_customer_gate_error_count", 0), "prospect_eligibility_error_count": m128["report"]["summary"].get("prospect_eligibility_error_count", 0), "trusted_pool_updated": m128["report"]["summary"]["canonical_pool_updated"], "vault_regular_write_count": m129["summary"]["vault_regular_write_count"]}, "py_compile": py_compile, "json_parse": {"checked_count": checked, "error_count": len(errors), "errors": errors[:20]}, "dynamic_term_scan": dynamic, "api_key_scan": api, "legacy_guard_without_override": {"returncode": legacy_guard["returncode"], "stderr": legacy_guard["stderr"]}, "trusted_pool_update_guard_without_allow": {"returncode": trusted_pool_guard["returncode"]}, "baseline_mismatch_check": {"returncode": mismatch["returncode"]}, "signed_customer_gate_required": {"status": "PASS" if signed_customer_gate_ok else "FAIL"}, "prospect_eligibility_gate_required": {"status": "PASS" if prospect_eligibility_ok else "FAIL"}}
     handoff = {"batch_id": "handoff_snapshot_m130_v1", "milestone": "M130R", "generated_at": now(), "status": "READY_FOR_NEXT_EVIDENCE_BATCH" if status == "PASS" else "NEEDS_FIX", "next_commands": ["python3 scripts/businessmaster_pipeline.py --mode production --dry-run", "python3 scripts/build_m126r_m130_production_evidence_loop.py --stage all --allow-trusted-pool-update --allow-vault-regular-write"], "hard_boundaries": ["不写旧 Excel", "不从潜客写知识资产", "不从潜客写 persona registry", "不引入动态经营字段"]}
     write_json(M130 / "m130r_production_operations_closure_v1.json", report)
     write_json(M130 / "handoff_snapshot_m130_v1.json", handoff)
@@ -486,6 +546,8 @@ def update_panel(m126: dict[str, Any], m127: dict[str, Any], m128: dict[str, Any
             "identity_ready_count": m126["package"]["summary"]["ready_for_source_collection_count"],
             "public_evidence_candidate_count": m127["package"]["summary"]["candidate_count"],
             "excluded_learning_case_count": m126["package"]["summary"]["excluded_learning_case_count"],
+            "excluded_existing_customer_count": m126["package"]["summary"].get("excluded_existing_customer_count", 0),
+            "signed_customer_boundary_review_count": m126["package"]["summary"].get("signed_customer_boundary_review_count", 0),
             "vault_regular_write_count": m129["summary"]["vault_regular_write_count"],
         },
         "canonical_next_action": "继续从 M126 identity_pending / excluded 队列中人工确认真实新潜客；不要把客户案例标题或人物访谈直接作为潜客。",

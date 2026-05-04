@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-04T02:26:48.902699+00:00",
+  "generated_at": "2026-05-04T03:48:55.266804+00:00",
   "summary": {
-    "source_trace_count": 64,
+    "source_trace_count": 63,
     "canonical_update_source": "M128R"
   },
   "items": [
@@ -232,45 +232,6 @@
           "evidence_strength": "official_site",
           "supports_dimension": "icp_match_support:platform_operator",
           "summary": "焦点科技官网用于支撑 B2B 平台运营特征，作为 L1 ICP 匹配来源。",
-          "added_by_milestone": "M82R",
-          "source_category": "official_owned",
-          "source_category_inferred_by": "M91R_static_promote_source_category"
-        }
-      ],
-      "source_count": 3
-    },
-    {
-      "prospect_id": "m44r_prospect_jahwa",
-      "company_name": "上海家化联合股份有限公司",
-      "source_locator": "https://www.jahwa.com.cn/about/com",
-      "evidence_strength": "official",
-      "matched_persona": "retail_high_sku_brand",
-      "sources": [
-        {
-          "source_type": "official",
-          "source_locator": "https://www.jahwa.com.cn/about/com",
-          "evidence_strength": "official",
-          "supports_dimension": "existing_source_trace",
-          "summary": "上海家化联合股份有限公司 既有可信来源。",
-          "source_category": "official_owned",
-          "source_category_inferred_by": "M91R_static_promote_source_category"
-        },
-        {
-          "source_type": "annual_report",
-          "source_locator": "https://www.cninfo.com.cn/new/disclosure/stock?stockCode=600315&announcementType=010301",
-          "evidence_strength": "annual_report",
-          "supports_dimension": "listed_company_disclosure,second_strong_source",
-          "summary": "上海家化 CNINFO 年报/定期报告披露入口，补充 L2 第二强来源。",
-          "added_by_milestone": "M81R",
-          "source_category": "regulatory_or_capital_market",
-          "source_category_inferred_by": "M91R_static_promote_source_category"
-        },
-        {
-          "source_type": "official_site",
-          "source_locator": "https://www.jahwa.com.cn/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:brand_product_matrix",
-          "summary": "上海家化官网用于支撑多品牌消费品经营特征，作为 L1 ICP 匹配来源。",
           "added_by_milestone": "M82R",
           "source_category": "official_owned",
           "source_category_inferred_by": "M91R_static_promote_source_category"

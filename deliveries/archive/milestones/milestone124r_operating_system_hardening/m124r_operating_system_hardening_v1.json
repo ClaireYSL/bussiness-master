@@ -1,7 +1,7 @@
 {
   "batch_id": "m124r_operating_system_hardening_v1",
   "milestone": "M124R",
-  "generated_at": "2026-05-04T02:26:48.777687+00:00",
+  "generated_at": "2026-05-04T03:48:54.777189+00:00",
   "status": "PASS",
   "summary": {
     "canonical_knowledge_asset_count": 40,
@@ -26,7 +26,7 @@
     "stderr": ""
   },
   "json_parse": {
-    "checked_count": 17,
+    "checked_count": 21,
     "error_count": 0,
     "errors": []
   },
@@ -53,7 +53,7 @@
       "--dry-run"
     ],
     "returncode": 0,
-    "stdout": "{\n  \"mode\": \"production\",\n  \"generated_at\": \"2026-05-04T02:26:48.775226+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m120r_m125_sustainable_production_system.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-canonical-registry-update\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m126r_m130_production_evidence_loop.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-trusted-pool-update\",\n      \"--allow-vault-regular-write\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M130R\",\n    \"overall_status\": \"PASS_M130R_PRODUCTION_EVIDENCE_LOOP_READY\",\n    \"counts\": {\n      \"trusted_pool_count\": 64,\n      \"l1_count\": 37,\n      \"l2_count\": 26,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"identity_ready_count\": 3,\n      \"public_evidence_candidate_count\": 3,\n      \"excluded_learning_case_count\": 22,\n      \"vault_regular_write_count\": 3\n    }\n  }\n}\n",
+    "stdout": "{\n  \"mode\": \"production\",\n  \"generated_at\": \"2026-05-04T03:48:54.774691+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m120r_m125_sustainable_production_system.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-canonical-registry-update\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m131r_m135_signed_customer_registry.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m137r_m141_cross_asset_readiness.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m126r_m130_production_evidence_loop.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-trusted-pool-update\",\n      \"--allow-vault-regular-write\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M130R\",\n    \"overall_status\": \"PASS_M130R_PRODUCTION_EVIDENCE_LOOP_READY\",\n    \"counts\": {\n      \"trusted_pool_count\": 63,\n      \"l1_count\": 36,\n      \"l2_count\": 26,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"identity_ready_count\": 3,\n      \"public_evidence_candidate_count\": 3,\n      \"excluded_learning_case_count\": 22,\n      \"excluded_existing_customer_count\": 0,\n      \"signed_customer_boundary_review_count\": 0,\n      \"vault_regular_write_count\": 3\n    }\n  }\n}\n",
     "stderr": ""
   }
 }

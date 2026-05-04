@@ -1,6 +1,6 @@
 {
   "batch_id": "m127r_icp_reference_asset_refs_v1",
-  "generated_at": "2026-05-04T02:26:48.900084+00:00",
+  "generated_at": "2026-05-04T03:48:55.264458+00:00",
   "summary": {
     "candidate_count": 3,
     "note": "本轮候选只保留画像引用，不把潜客写入知识资产。"

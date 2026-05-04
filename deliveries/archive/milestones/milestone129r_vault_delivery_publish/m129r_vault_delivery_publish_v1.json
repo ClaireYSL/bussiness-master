@@ -1,12 +1,13 @@
 {
   "batch_id": "m129r_vault_delivery_publish_v1",
   "milestone": "M129R",
-  "generated_at": "2026-05-04T02:26:48.905546+00:00",
+  "generated_at": "2026-05-04T03:48:55.268930+00:00",
   "status": "PASS_VAULT_REGULAR_WRITTEN",
   "summary": {
     "vault_preview_count": 3,
     "vault_regular_write_count": 3,
-    "vault_regular_write_allowed": true
+    "vault_regular_write_allowed": true,
+    "signed_customer_gate_checked_count": 3
   },
   "preview_outputs": [
     {

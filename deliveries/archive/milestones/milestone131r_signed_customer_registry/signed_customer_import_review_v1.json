@@ -1,0 +1,313 @@
+{
+  "batch_id": "m131r_signed_customer_import_review_v1",
+  "generated_at": "2026-05-04T03:48:54.907413+00:00",
+  "summary": {
+    "workbook_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx",
+    "workbook_read": true,
+    "legacy_customer_rows": 10,
+    "alias_rows": 21,
+    "error": null
+  },
+  "confirmed_customers": [
+    {
+      "customer_id": "legacy_customer_yumchina",
+      "canonical_name": "百胜（中国）投资有限公司",
+      "aliases": [
+        "百胜中国",
+        "百胜（中国）投资有限公司"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_proya",
+      "canonical_name": "珀莱雅化妆品股份有限公司",
+      "aliases": [
+        "珀莱雅",
+        "珀莱雅化妆品股份有限公司",
+        "珀莱雅集团"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_jahwa",
+      "canonical_name": "上海家化联合股份有限公司",
+      "aliases": [
+        "上海家化",
+        "上海家化联合股份有限公司"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_semir",
+      "canonical_name": "浙江森马服饰股份有限公司",
+      "aliases": [
+        "森马",
+        "森马服饰",
+        "浙江森马服饰股份有限公司"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_xtep",
+      "canonical_name": "特步（中国）有限公司",
+      "aliases": [
+        "特步",
+        "特步（中国）有限公司"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_hla",
+      "canonical_name": "海澜之家集团股份有限公司",
+      "aliases": [
+        "海澜之家",
+        "海澜之家集团股份有限公司"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_guoquan",
+      "canonical_name": "锅圈食品（上海）股份有限公司",
+      "aliases": [
+        "锅圈食品（上海）股份有限公司",
+        "锅圈食汇"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_laiyifen",
+      "canonical_name": "上海来伊份股份有限公司",
+      "aliases": [
+        "上海来伊份股份有限公司",
+        "来伊份"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_tianwei",
+      "canonical_name": "天味食品股份有限公司",
+      "aliases": [
+        "天味食品",
+        "天味食品股份有限公司"
+      ]
+    },
+    {
+      "customer_id": "legacy_customer_mercuryhome",
+      "canonical_name": "水星家纺股份有限公司",
+      "aliases": [
+        "水星家纺",
+        "水星家纺股份有限公司"
+      ]
+    }
+  ],
+  "customer_case_review_candidates": [
+    {
+      "review_candidate_id": "signed_review_bi_f33d8538",
+      "candidate_name": "倍思",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_e2e58dc752b6",
+      "source_title": "「倍思」BI案例分享",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/已入学习队列/pdf/「倍思」BI案例分享.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_smallrig_cf133c14",
+      "candidate_name": "走近乐其SmallRig，",
+      "source_asset_id": "ka_review_geo_l1_cases_02ab1f15f8cc",
+      "source_title": "走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/已入学习队列/docx/走近乐其SmallRig，观远数据携手共建跨境电商数据分析体系.docx",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_8d2846b8",
+      "candidate_name": "互联网+科技金融",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_aeafed6ba8d8",
+      "source_title": "[互联网+]科技金融_详细案例_萨摩耶",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/[互联网+]科技金融_详细案例_萨摩耶.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_28f3c708",
+      "candidate_name": "品牌零售",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_80952c20c7cb",
+      "source_title": "「品牌零售- BI」气味图书馆案例总结",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「品牌零售- BI」气味图书馆案例总结.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_ai_ul_7dfe41d4",
+      "candidate_name": "「案例详情_AI」家清-联合利华UL",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_9215204b4d2a",
+      "source_title": "「案例详情_AI」家清-联合利华UL",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」家清-联合利华UL.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_ai_lvmh_152e3245",
+      "candidate_name": "「案例详情_AI」美妆-LVMH",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_7a3bee760da2",
+      "source_title": "「案例详情_AI」美妆-LVMH",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-LVMH.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_ai_99a77011",
+      "candidate_name": "「案例详情_AI」美妆-丝芙兰",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_4037aeb27f02",
+      "source_title": "「案例详情_AI」美妆-丝芙兰",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_AI」美妆-丝芙兰.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_f23600e8",
+      "candidate_name": "「案例详情_BI」母婴-惠氏臻朗",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_9d8a56a2e839",
+      "source_title": "「案例详情_BI」母婴-惠氏臻朗",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」母婴-惠氏臻朗.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_colorkey_bc7eb10a",
+      "candidate_name": "「案例详情_BI」美妆-colorkey",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_c8265955ebe6",
+      "source_title": "「案例详情_BI」美妆-colorkey",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」美妆-colorkey.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_a7e4151e",
+      "candidate_name": "「案例详情_BI」饮料-简爱酸奶",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_75ef96f73fff",
+      "source_title": "「案例详情_BI」饮料-简爱酸奶",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-简爱酸奶.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_pr_3a49773d",
+      "candidate_name": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_130a9a6f71a9",
+      "source_title": "「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「案例详情_BI」饮料-维他奶（注：目前已禁止对外PR）.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_1feb943d",
+      "candidate_name": "森马电商",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_eb4587059543",
+      "source_title": "「森马电商」BI案例分享",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「森马电商」BI案例分享.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_baa5b88e",
+      "candidate_name": "珀莱雅",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_92990f246359",
+      "source_title": "「珀莱雅」BI案例分享",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「珀莱雅」BI案例分享.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_386992a7",
+      "candidate_name": "自然堂",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_cf751e980256",
+      "source_title": "「自然堂」BI案例分享",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「自然堂」BI案例分享.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_8de5a1c9",
+      "candidate_name": "连锁餐饮",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_9ed76ba72c74",
+      "source_title": "「连锁餐饮- BI」德克士案例方案",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」德克士案例方案.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_6f15dc7f",
+      "candidate_name": "连锁餐饮",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_ff5e0fb4be5b",
+      "source_title": "「连锁餐饮- BI」顶誉食品案例总结",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/「连锁餐饮- BI」顶誉食品案例总结.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_0a1c6edc",
+      "candidate_name": "母婴宠物",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_66b6e5dd8c70",
+      "source_title": "【母婴宠物】观远BI典型案例",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【母婴宠物】观远BI典型案例.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_473d7ac9",
+      "candidate_name": "美妆个护",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_c42c913e351e",
+      "source_title": "【美妆个护】观远BI典型案例",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【美妆个护】观远BI典型案例.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_c580c5de",
+      "candidate_name": "连锁餐饮",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_50e032ac0d3f",
+      "source_title": "【连锁餐饮-BI-详细案例】遇见小面",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【连锁餐饮-BI-详细案例】遇见小面.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_93e9b4e5",
+      "candidate_name": "鞋服",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_73705b68ef09",
+      "source_title": "【鞋服】观远BI典型案例",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【鞋服】观远BI典型案例.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_20230218_604a0541",
+      "candidate_name": "鞋服行业首威集团",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_26cc3790d0ca",
+      "source_title": "【鞋服行业】首威集团_财务项目_案例总结_20230218",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/【鞋服行业】首威集团_财务项目_案例总结_20230218.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_bi_2156587a",
+      "candidate_name": "数禾科技",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_7d51c399df29",
+      "source_title": "数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/数禾科技-王冠军老师-《金融科技场景下的敏捷BI实践》.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_8507e3b8",
+      "candidate_name": "详细",
+      "source_asset_id": "ka_review_dingtalk_2026_03_28_7536582d826a",
+      "source_title": "详细案例-商超便利-全家",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/dingtalk_2026_03_28/待评估/pdf/详细案例-商超便利-全家.pdf",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    },
+    {
+      "review_candidate_id": "signed_review_e9bb17a5",
+      "candidate_name": "吉家宠物张志伟：宠物行业全链路",
+      "source_asset_id": "ka_review_geo_l1_cases_d0e2101bd015",
+      "source_title": "吉家宠物张志伟：宠物行业全链路数据分析方法论与实践",
+      "source_locator": "/Users/clairelu2026/CodexProjects/BusinessMaster/static-pool-deps-20260419_151148/static-pool-raw-materials/geo_l1_cases/待评估/docx/吉家宠物张志伟：宠物行业全链路数据分析方法论与实践.docx",
+      "review_status": "needs_signed_relationship_review",
+      "reason": "customer_case knowledge asset can imply existing customer, but does not automatically confirm signed status."
+    }
+  ]
+}

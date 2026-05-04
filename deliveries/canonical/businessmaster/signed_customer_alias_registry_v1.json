@@ -1,0 +1,264 @@
+{
+  "registry_id": "signed_customer_alias_registry_v1",
+  "generated_at": "2026-05-04T03:48:54.907410+00:00",
+  "source_milestone": "M131R",
+  "summary": {
+    "alias_count": 23,
+    "active_alias_count": 23
+  },
+  "items": [
+    {
+      "alias_id": "alias_legacy_yumchina_brand",
+      "alias_name": "百胜中国",
+      "customer_id": "legacy_customer_yumchina",
+      "canonical_name": "百胜（中国）投资有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "存量客户品牌名映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_yumchina_legal",
+      "alias_name": "百胜中国控股有限公司",
+      "customer_id": "legacy_customer_yumchina",
+      "canonical_name": "百胜（中国）投资有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "候选主体映射到已知签约主体，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_yumchina_signing",
+      "alias_name": "百胜（中国）投资有限公司",
+      "customer_id": "legacy_customer_yumchina",
+      "canonical_name": "百胜（中国）投资有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "已知签约主体 canonical 占位，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_proya_brand",
+      "alias_name": "珀莱雅",
+      "customer_id": "legacy_customer_proya",
+      "canonical_name": "珀莱雅化妆品股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "存量客户品牌名映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_proya_legal",
+      "alias_name": "珀莱雅化妆品股份有限公司",
+      "customer_id": "legacy_customer_proya",
+      "canonical_name": "珀莱雅化妆品股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "存量客户主体映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_jahwa_brand",
+      "alias_name": "上海家化",
+      "customer_id": "legacy_customer_jahwa",
+      "canonical_name": "上海家化联合股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "存量客户品牌名映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_jahwa_legal",
+      "alias_name": "上海家化联合股份有限公司",
+      "customer_id": "legacy_customer_jahwa",
+      "canonical_name": "上海家化联合股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "Milestone 3 L5 扩展回滚修正",
+      "note": "存量客户主体映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_semir_brand",
+      "alias_name": "森马",
+      "customer_id": "legacy_customer_semir",
+      "canonical_name": "浙江森马服饰股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户纠正-静态池回滚",
+      "note": "存量客户品牌名映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_semir_legal",
+      "alias_name": "浙江森马服饰股份有限公司",
+      "customer_id": "legacy_customer_semir",
+      "canonical_name": "浙江森马服饰股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户纠正-静态池回滚",
+      "note": "存量客户主体映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_xtep_brand",
+      "alias_name": "特步",
+      "customer_id": "legacy_customer_xtep",
+      "canonical_name": "特步（中国）有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_xtep_legal",
+      "alias_name": "特步（中国）有限公司",
+      "customer_id": "legacy_customer_xtep",
+      "canonical_name": "特步（中国）有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_hla_brand",
+      "alias_name": "海澜之家",
+      "customer_id": "legacy_customer_hla",
+      "canonical_name": "海澜之家集团股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_hla_legal",
+      "alias_name": "海澜之家集团股份有限公司",
+      "customer_id": "legacy_customer_hla",
+      "canonical_name": "海澜之家集团股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_guoquan_brand",
+      "alias_name": "锅圈食汇",
+      "customer_id": "legacy_customer_guoquan",
+      "canonical_name": "锅圈食品（上海）股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_guoquan_legal",
+      "alias_name": "锅圈食品（上海）股份有限公司",
+      "customer_id": "legacy_customer_guoquan",
+      "canonical_name": "锅圈食品（上海）股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_laiyifen_brand",
+      "alias_name": "来伊份",
+      "customer_id": "legacy_customer_laiyifen",
+      "canonical_name": "上海来伊份股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_laiyifen_legal",
+      "alias_name": "上海来伊份股份有限公司",
+      "customer_id": "legacy_customer_laiyifen",
+      "canonical_name": "上海来伊份股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_tianwei_brand",
+      "alias_name": "天味食品",
+      "customer_id": "legacy_customer_tianwei",
+      "canonical_name": "天味食品股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_tianwei_legal",
+      "alias_name": "天味食品股份有限公司",
+      "customer_id": "legacy_customer_tianwei",
+      "canonical_name": "天味食品股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_mercuryhome_brand",
+      "alias_name": "水星家纺",
+      "customer_id": "legacy_customer_mercuryhome",
+      "canonical_name": "水星家纺股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "alias_legacy_customer_mercuryhome_legal",
+      "alias_name": "水星家纺股份有限公司",
+      "customer_id": "legacy_customer_mercuryhome",
+      "canonical_name": "水星家纺股份有限公司",
+      "alias_type": "legacy_customer_name",
+      "status": "active",
+      "source_note": "用户人工确认-2026-03-29",
+      "note": "存量客户映射，用于老客排除",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "signed_alias_legacy_customer_proya_71f1b1f1",
+      "alias_name": "珀莱雅集团",
+      "customer_id": "legacy_customer_proya",
+      "canonical_name": "珀莱雅化妆品股份有限公司",
+      "alias_type": "market_or_group_name",
+      "status": "active",
+      "source_note": "generated_from_signed_customer_registry",
+      "note": "canonical signed customer alias for exclusion gate",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "signed_alias_legacy_customer_semir_11fb0cad",
+      "alias_name": "森马服饰",
+      "customer_id": "legacy_customer_semir",
+      "canonical_name": "浙江森马服饰股份有限公司",
+      "alias_type": "market_or_group_name",
+      "status": "active",
+      "source_note": "generated_from_signed_customer_registry",
+      "note": "canonical signed customer alias for exclusion gate",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    }
+  ]
+}

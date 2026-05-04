@@ -1,7 +1,7 @@
 {
   "batch_id": "m120r_canonical_registry_production_v1",
   "milestone": "M120R",
-  "generated_at": "2026-05-04T02:26:48.592736+00:00",
+  "generated_at": "2026-05-04T03:48:54.592113+00:00",
   "status": "PASS_CANONICAL_REGISTRY_UPDATED",
   "summary": {
     "knowledge_asset_count": 40,
@@ -17,7 +17,7 @@
   },
   "knowledge_registry_preview": {
     "registry_id": "knowledge_asset_registry_v1",
-    "generated_at": "2026-05-04T02:26:48.590742+00:00",
+    "generated_at": "2026-05-04T03:48:54.589352+00:00",
     "source_milestone": "M109R",
     "summary": {
       "asset_count": 40,
@@ -790,7 +790,7 @@
   },
   "persona_registry_preview": {
     "registry_id": "persona_registry_v1",
-    "generated_at": "2026-05-04T02:26:48.590886+00:00",
+    "generated_at": "2026-05-04T03:48:54.589516+00:00",
     "source_milestone": "M110R",
     "summary": {
       "persona_count": 8,
@@ -1120,7 +1120,7 @@
   },
   "reference_map_preview": {
     "map_id": "learning_persona_reference_map_v1",
-    "generated_at": "2026-05-04T02:26:48.590890+00:00",
+    "generated_at": "2026-05-04T03:48:54.589526+00:00",
     "summary": {
       "knowledge_asset_count": 40,
       "persona_count": 8,

@@ -1,0 +1,19 @@
+{
+  "batch_id": "signed_customer_registry_update_policy_v1",
+  "generated_at": "2026-05-04T03:48:54.915657+00:00",
+  "update_mode": "preview_first_explicit_guard",
+  "required_guard": "--allow-signed-customer-registry-update",
+  "diff_fields": [
+    "new_customers",
+    "new_aliases",
+    "conflicting_aliases",
+    "duplicate_candidates",
+    "affected_prospect_candidates"
+  ],
+  "hard_boundaries": [
+    "不写旧 Excel",
+    "不写 trusted pool",
+    "不写 knowledge asset registry",
+    "不写 persona registry"
+  ]
+}

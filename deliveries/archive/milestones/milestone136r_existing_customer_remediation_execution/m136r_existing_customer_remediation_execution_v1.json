@@ -1,0 +1,47 @@
+{
+  "batch_id": "m136r_existing_customer_remediation_execution_v1",
+  "milestone": "M136R",
+  "generated_at": "2026-05-04T03:13:58.434108+00:00",
+  "status": "PASS",
+  "summary": {
+    "target_count": 0,
+    "trusted_pool_before_count": 63,
+    "trusted_pool_after_count": 63,
+    "removed_from_trusted_pool_count": 1,
+    "remediated_target_count": 1,
+    "removed_vault_file_count": 2,
+    "edited_vault_index_count": 3,
+    "post_trusted_pool_hit_count": 0,
+    "post_vault_hit_count": 0,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m136r_existing_customer_remediation_execution.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 10,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  }
+}

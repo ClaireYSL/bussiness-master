@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-04T02:26:49.241980+00:00",
+  "generated_at": "2026-05-04T03:48:55.632080+00:00",
   "overall_status": "PASS_M130R_PRODUCTION_EVIDENCE_LOOP_READY",
   "counts": {
-    "trusted_pool_count": 64,
-    "l1_count": 37,
+    "trusted_pool_count": 63,
+    "l1_count": 36,
     "l2_count": 26,
     "l3_count": 0,
     "l4_count": 1,
@@ -11,6 +11,8 @@
     "identity_ready_count": 3,
     "public_evidence_candidate_count": 3,
     "excluded_learning_case_count": 22,
+    "excluded_existing_customer_count": 0,
+    "signed_customer_boundary_review_count": 0,
     "vault_regular_write_count": 3
   },
   "persona_distribution_l2": {
@@ -731,8 +733,8 @@
     "persona_registry_written": false
   },
   "m123r_user_delivery_product": {
-    "l1_vault_file_count": 37,
-    "l2_vault_file_count": 57,
+    "l1_vault_file_count": 36,
+    "l2_vault_file_count": 56,
     "l3_vault_file_count": 29,
     "new_vault_preview_count": 0,
     "new_vault_regular_write_count": 0,
@@ -770,7 +772,10 @@
     "input_task_count": 26,
     "ready_for_source_collection_count": 3,
     "needs_company_identification_count": 1,
-    "excluded_learning_case_count": 22
+    "excluded_learning_case_count": 22,
+    "excluded_existing_customer_count": 0,
+    "signed_customer_boundary_review_count": 0,
+    "signed_customer_check_missing_count": 0
   },
   "m127r_public_evidence_admission": {
     "candidate_count": 3,
@@ -782,6 +787,8 @@
       "authoritative_third_party": 1
     },
     "report_only_ready_count": 3,
+    "signed_customer_gate_passed_count": 3,
+    "prospect_eligibility_passed_count": 3,
     "llm_used_as_evidence_count": 0,
     "skipped_count": 0
   },
@@ -793,6 +800,8 @@
     },
     "canonical_pool_updated": true,
     "source_trace_updated": true,
+    "signed_customer_gate_error_count": 0,
+    "prospect_eligibility_error_count": 0,
     "old_excel_written": false,
     "knowledge_asset_registry_written": false,
     "persona_registry_written": false
@@ -800,18 +809,65 @@
   "m129r_vault_delivery_publish": {
     "vault_preview_count": 3,
     "vault_regular_write_count": 3,
-    "vault_regular_write_allowed": true
+    "vault_regular_write_allowed": true,
+    "signed_customer_gate_checked_count": 3
   },
   "m130r_operations_closure": {
-    "trusted_pool_count": 64,
+    "trusted_pool_count": 63,
     "level_counts": {
-      "L1": 37,
+      "L1": 36,
       "L2": 26,
       "L4": 1
     },
     "identity_ready_count": 3,
     "public_evidence_candidate_count": 3,
+    "signed_customer_gate_error_count": 0,
+    "prospect_eligibility_error_count": 0,
     "trusted_pool_updated": true,
     "vault_regular_write_count": 3
+  },
+  "signed_customer_gate": {
+    "signed_customer_count": 10,
+    "signed_customer_alias_count": 23,
+    "regression_blocked_ok": true,
+    "regression_non_hit_ok": true,
+    "missing_signed_customer_check_update_blocked": true,
+    "trusted_pool_existing_customer_hit_count": 0,
+    "vault_existing_customer_hit_count": 0,
+    "old_excel_written": false,
+    "trusted_pool_written_by_signed_customer_registry": false,
+    "knowledge_asset_registry_written_from_prospect": false,
+    "persona_registry_written_from_prospect": false
+  },
+  "m136r_existing_customer_remediation": {
+    "removed_from_trusted_pool_count": 1,
+    "post_trusted_pool_hit_count": 0,
+    "post_vault_hit_count": 0
+  },
+  "m137r_account_entity_registry": {
+    "entity_count": 100,
+    "trusted_pool_entity_count": 63,
+    "signed_customer_entity_count": 10,
+    "customer_case_reference_entity_count": 22,
+    "multi_role_entity_count": 74
+  },
+  "m138r_prospect_eligibility_gate": {
+    "excluded_signed_customer": 2,
+    "duplicate_existing_prospect": 3,
+    "excluded_non_company": 14,
+    "eligible_prospect": 20,
+    "boundary_review": 2
+  },
+  "m139r_customer_case_reference_registry": {
+    "case_reference_count": 24,
+    "usable_reference_case_count": 24,
+    "prospect_evidence_count": 0,
+    "signed_customer_auto_confirm_count": 0
+  },
+  "m140r_source_freshness": {
+    "source_checked_count": 196,
+    "fresh_count": 166,
+    "needs_recheck_count": 30,
+    "gap_queue_count": 0
   }
 }

@@ -1,0 +1,85 @@
+{
+  "batch_id": "m136r_existing_customer_remediation_manifest_v1",
+  "generated_at": "2026-05-04T03:13:58.434094+00:00",
+  "targets": [],
+  "pre_hits": {
+    "trusted_pool_hit_count": 0,
+    "vault_hit_count": 0,
+    "trusted_pool_hits": [],
+    "vault_hits": []
+  },
+  "pool_update": {
+    "before_count": 63,
+    "after_count": 63,
+    "removed": [],
+    "summary": {
+      "trusted_pool_count": 63,
+      "share_view_count": 19,
+      "source_trace_count": 63,
+      "trusted_match_ready_count": 62,
+      "persona_count": 9,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "no_write_proof_ok": true,
+      "static_level_counts": {
+        "L1": 36,
+        "L2": 26,
+        "L4": 1
+      },
+      "canonical_update_source": "M136R_existing_customer_remediation",
+      "runner": "production_evidence_loop",
+      "existing_customer_removed_count": 0
+    }
+  },
+  "source_trace_update": {
+    "before_count": 63,
+    "after_count": 63,
+    "removed": [],
+    "summary": {
+      "source_trace_count": 63,
+      "canonical_update_source": "M136R_existing_customer_remediation",
+      "existing_customer_removed_count": 0
+    }
+  },
+  "share_view_update": {
+    "before_count": 19,
+    "after_count": 19,
+    "removed": []
+  },
+  "package_update": {
+    "package_exists": true,
+    "changes": {
+      "trusted_prospect_pool_v1": {
+        "before_count": 19,
+        "after_count": 19,
+        "removed_count": 0
+      },
+      "trusted_prospect_share_view": {
+        "before_count": 19,
+        "after_count": 19,
+        "removed_count": 0
+      },
+      "source_trace_index": {
+        "before_count": 19,
+        "after_count": 19,
+        "removed_count": 0
+      }
+    }
+  },
+  "vault_update": {
+    "removed_files": [],
+    "edited_indexes": []
+  },
+  "post_hits": {
+    "trusted_pool_hit_count": 0,
+    "vault_hit_count": 0,
+    "trusted_pool_hits": [],
+    "vault_hits": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  }
+}

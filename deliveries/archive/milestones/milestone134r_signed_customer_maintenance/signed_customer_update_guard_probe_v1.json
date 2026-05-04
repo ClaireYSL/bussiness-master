@@ -1,0 +1,4 @@
+{
+  "returncode": 2,
+  "stderr": "signed customer registry update requires --allow-signed-customer-registry-update"
+}

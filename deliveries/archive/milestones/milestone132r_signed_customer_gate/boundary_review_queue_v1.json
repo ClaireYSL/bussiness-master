@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-05-04T03:48:54.910891+00:00",
+  "summary": {
+    "boundary_review_count": 1
+  },
+  "items": [
+    {
+      "existing_customer_check_status": "boundary_review",
+      "candidate_name": "水星",
+      "matched_customer_id": "legacy_customer_mercuryhome",
+      "matched_canonical_name": "水星家纺股份有限公司",
+      "matched_alias_name": "水星家纺股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "partial_normalized_name_overlap"
+    }
+  ]
+}

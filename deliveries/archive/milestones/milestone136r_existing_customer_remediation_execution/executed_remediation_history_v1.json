@@ -1,0 +1,25 @@
+{
+  "batch_id": "m136r_executed_remediation_history_v1",
+  "generated_at": "2026-05-04T03:12:12.414481+00:00",
+  "summary": {
+    "remediated_customer_count": 1,
+    "trusted_pool_target_removed": true,
+    "vault_l1_l2_pages_removed": true,
+    "vault_indexes_cleaned": true,
+    "current_post_hit_count": 0
+  },
+  "items": [
+    {
+      "prospect_id": "m44r_prospect_jahwa",
+      "company_name": "上海家化联合股份有限公司",
+      "matched_signed_customer_id": "legacy_customer_jahwa",
+      "matched_signed_customer_name": "上海家化联合股份有限公司",
+      "action": "removed_from_prospect_trusted_pool_and_vault_user_outputs",
+      "preserve_as": "signed_customer_or_customer_case_reference_outside_prospect_pool",
+      "removed_vault_paths": [
+        "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/上海家化联合股份有限公司.md",
+        "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海家化联合股份有限公司.md"
+      ]
+    }
+  ]
+}

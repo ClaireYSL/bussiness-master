@@ -1,17 +1,19 @@
 {
   "batch_id": "m130r_production_operations_closure_v1",
   "milestone": "M130R",
-  "generated_at": "2026-05-04T02:26:49.241286+00:00",
+  "generated_at": "2026-05-04T03:48:55.630970+00:00",
   "status": "PASS",
   "summary": {
-    "trusted_pool_count": 64,
+    "trusted_pool_count": 63,
     "level_counts": {
-      "L1": 37,
+      "L1": 36,
       "L2": 26,
       "L4": 1
     },
     "identity_ready_count": 3,
     "public_evidence_candidate_count": 3,
+    "signed_customer_gate_error_count": 0,
+    "prospect_eligibility_error_count": 0,
     "trusted_pool_updated": true,
     "vault_regular_write_count": 3
   },
@@ -23,7 +25,9 @@
       "scripts/build_m126r_m130_production_evidence_loop.py",
       "scripts/businessmaster_pipeline.py",
       "scripts/trusted_pool_runner.py",
-      "shared/static_pool/static_promote.py"
+      "shared/static_pool/static_promote.py",
+      "shared/static_pool/signed_customer_gate.py",
+      "shared/static_pool/prospect_eligibility_gate.py"
     ],
     "returncode": 0,
     "stdout": "",
@@ -53,5 +57,11 @@
   },
   "baseline_mismatch_check": {
     "returncode": 0
+  },
+  "signed_customer_gate_required": {
+    "status": "PASS"
+  },
+  "prospect_eligibility_gate_required": {
+    "status": "PASS"
   }
 }

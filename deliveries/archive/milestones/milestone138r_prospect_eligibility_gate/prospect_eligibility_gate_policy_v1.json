@@ -1,0 +1,15 @@
+{
+  "batch_id": "prospect_eligibility_gate_policy_v1",
+  "generated_at": "2026-05-04T03:48:55.098847+00:00",
+  "required_status_before_source_collection": "eligible_prospect",
+  "blocking_statuses": [
+    "excluded_signed_customer",
+    "excluded_non_company",
+    "duplicate_existing_prospect",
+    "missing_entity_check"
+  ],
+  "review_statuses": [
+    "boundary_review"
+  ],
+  "note": "same prospect_id update is eligible; different prospect_id duplicate is blocked."
+}

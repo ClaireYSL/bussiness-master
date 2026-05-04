@@ -1,0 +1,22 @@
+{
+  "batch_id": "m132r_signed_customer_gate_policy_v1",
+  "generated_at": "2026-05-04T03:48:54.910603+00:00",
+  "decision_order": [
+    "identity_resolution",
+    "signed_customer_gate",
+    "public_source_collection",
+    "trusted_pool_report_only",
+    "vault_publish"
+  ],
+  "blocking_statuses": [
+    "excluded_existing_customer",
+    "missing_check"
+  ],
+  "review_statuses": [
+    "boundary_review"
+  ],
+  "pass_statuses": [
+    "passed"
+  ],
+  "production_rule": "任何候选进入 source collection / trusted pool update / vault publish 前，必须已有 existing_customer_check_status=passed。"
+}

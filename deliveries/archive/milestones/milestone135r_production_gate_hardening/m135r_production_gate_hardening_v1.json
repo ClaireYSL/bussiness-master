@@ -1,0 +1,57 @@
+{
+  "batch_id": "m135r_production_gate_hardening_v1",
+  "milestone": "M135R",
+  "generated_at": "2026-05-04T03:48:54.959518+00:00",
+  "status": "PASS",
+  "summary": {
+    "signed_customer_count": 10,
+    "signed_customer_alias_count": 23,
+    "regression_blocked_ok": true,
+    "regression_non_hit_ok": true,
+    "missing_signed_customer_check_update_blocked": true,
+    "trusted_pool_existing_customer_hit_count": 0,
+    "vault_existing_customer_hit_count": 0,
+    "old_excel_written": false,
+    "trusted_pool_written_by_signed_customer_registry": false,
+    "knowledge_asset_registry_written_from_prospect": false,
+    "persona_registry_written_from_prospect": false
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "shared/static_pool/signed_customer_gate.py",
+      "scripts/build_m131r_m135_signed_customer_registry.py",
+      "scripts/build_m126r_m130_production_evidence_loop.py",
+      "scripts/businessmaster_pipeline.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 14,
+    "error_count": 0,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "signed_customer_update_guard_without_allow": {
+    "returncode": 2,
+    "stderr": "signed customer registry update requires --allow-signed-customer-registry-update"
+  },
+  "trusted_pool_update_missing_signed_check_probe": {
+    "returncode": 2,
+    "status": "PASS_BLOCKED",
+    "reason": "synthetic trusted pool update candidate without existing_customer_check_status=passed is rejected by production gate policy"
+  }
+}

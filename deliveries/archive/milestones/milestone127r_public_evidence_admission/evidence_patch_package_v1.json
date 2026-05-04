@@ -1,7 +1,7 @@
 {
   "batch_id": "m127r_public_evidence_admission_v1",
   "milestone": "M127R",
-  "generated_at": "2026-05-04T02:26:48.900078+00:00",
+  "generated_at": "2026-05-04T03:48:55.264452+00:00",
   "status": "PASS_PUBLIC_EVIDENCE_READY",
   "summary": {
     "candidate_count": 3,
@@ -13,6 +13,8 @@
       "authoritative_third_party": 1
     },
     "report_only_ready_count": 3,
+    "signed_customer_gate_passed_count": 3,
+    "prospect_eligibility_passed_count": 3,
     "llm_used_as_evidence_count": 0,
     "skipped_count": 0
   },
@@ -32,7 +34,23 @@
       "source_category": "official_owned",
       "icp_reference_asset_refs": [],
       "legacy_reference_only": false,
-      "production_source": "M127R_public_evidence_admission"
+      "production_source": "M127R_public_evidence_admission",
+      "existing_customer_check_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_9e39c8f7",
+      "matched_entity_name": "宁波太平鸟时尚服饰股份有限公司",
+      "matched_prospect_id": "m127r_peacebird",
+      "signed_customer_match": null,
+      "existing_customer_check": {
+        "existing_customer_check_status": "passed",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      }
     },
     {
       "prospect_id": "m127r_anta",
@@ -49,7 +67,23 @@
       "source_category": "official_owned",
       "icp_reference_asset_refs": [],
       "legacy_reference_only": false,
-      "production_source": "M127R_public_evidence_admission"
+      "production_source": "M127R_public_evidence_admission",
+      "existing_customer_check_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "安踏体育用品有限公司",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_8ffca234",
+      "matched_entity_name": "安踏体育用品有限公司",
+      "matched_prospect_id": "m127r_anta",
+      "signed_customer_match": null,
+      "existing_customer_check": {
+        "existing_customer_check_status": "passed",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      }
     },
     {
       "prospect_id": "m127r_chando_group",
@@ -66,7 +100,23 @@
       "source_category": "official_owned",
       "icp_reference_asset_refs": [],
       "legacy_reference_only": false,
-      "production_source": "M127R_public_evidence_admission"
+      "production_source": "M127R_public_evidence_admission",
+      "existing_customer_check_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "自然堂集团",
+      "reason": "same prospect_id update is allowed",
+      "matched_entity_id": "entity_fa3aa09b",
+      "matched_entity_name": "自然堂集团",
+      "matched_prospect_id": "m127r_chando_group",
+      "signed_customer_match": null,
+      "existing_customer_check": {
+        "existing_customer_check_status": "passed",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      }
     }
   ],
   "evidence_rows": [

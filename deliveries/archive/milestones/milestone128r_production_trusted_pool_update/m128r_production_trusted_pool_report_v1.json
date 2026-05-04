@@ -1,7 +1,7 @@
 {
   "batch_id": "m128r_production_trusted_pool_report_v1",
   "milestone": "M128R",
-  "generated_at": "2026-05-04T02:26:48.904809+00:00",
+  "generated_at": "2026-05-04T03:48:55.268150+00:00",
   "status": "PASS_TRUSTED_POOL_UPDATED",
   "summary": {
     "candidate_count": 3,
@@ -11,10 +11,14 @@
     },
     "canonical_pool_updated": true,
     "source_trace_updated": true,
+    "signed_customer_gate_error_count": 0,
+    "prospect_eligibility_error_count": 0,
     "old_excel_written": false,
     "knowledge_asset_registry_written": false,
     "persona_registry_written": false
   },
+  "signed_customer_gate_errors": [],
+  "prospect_eligibility_errors": [],
   "decisions": [
     {
       "prospect_id": "m127r_peacebird",
