@@ -1,0 +1,23 @@
+{
+  "milestone": "M211R",
+  "generated_at": "2026-05-04T10:47:24.444773+00:00",
+  "status": "PASS_M211R_PUBLIC_EVIDENCE_ACQUISITION",
+  "summary": {
+    "input_source_collection_pending_count": 23,
+    "evidence_item_count": 23,
+    "report_only_ready_count": 15,
+    "reachable_locator_count": 15,
+    "signed_customer_blocked_count": 0,
+    "duplicate_or_ineligible_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "backlog_state_counts": {
+      "report_only_ready": 15,
+      "source_collection_pending": 8
+    },
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M200：对 report_only_ready 候选执行静态升层 report-only。"
+}

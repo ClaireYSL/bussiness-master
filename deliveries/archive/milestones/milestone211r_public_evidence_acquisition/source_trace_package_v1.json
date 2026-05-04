@@ -1,0 +1,403 @@
+{
+  "index_id": "m211r_source_trace_package_v1",
+  "milestone": "M211R",
+  "generated_at": "2026-05-04T10:47:24.099126+00:00",
+  "summary": {
+    "source_trace_candidate_count": 23,
+    "prospect_evidence_source_count": 23,
+    "canonical_source_trace_written": false
+  },
+  "items": [
+    {
+      "task_id": "m210_task_c904a7cba7f8",
+      "candidate_name": "上海百秋尚美科技服务集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.buyquickly.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "上海百秋尚美科技服务集团股份有限公司 的 source locator seed 为 https://www.buyquickly.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_11eb2cc4a6ac",
+      "candidate_name": "广州环亚化妆品科技股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.uniasia.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "广州环亚化妆品科技股份有限公司 的 source locator seed 为 https://www.uniasia.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_9b57718ff578",
+      "candidate_name": "广州逸仙电子商务有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.yatsenglobal.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "广州逸仙电子商务有限公司 的 source locator seed 为 https://www.yatsenglobal.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_d3498b3afe74",
+      "candidate_name": "赢家时尚控股有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.eeka.cn/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "赢家时尚控股有限公司 的 source locator seed 为 https://www.eeka.cn/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_7d1c0e85434d",
+      "candidate_name": "比音勒芬服饰股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.biemlf.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "比音勒芬服饰股份有限公司 的 source locator seed 为 https://www.biemlf.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_859a87d98d9a",
+      "candidate_name": "深圳歌力思服饰股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.ellassay.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "深圳歌力思服饰股份有限公司 的 source locator seed 为 https://www.ellassay.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_63f639244bec",
+      "candidate_name": "上海得物信息集团有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.dewu.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "上海得物信息集团有限公司 的 source locator seed 为 https://www.dewu.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_748b1a20942d",
+      "candidate_name": "深圳市绿联科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.ugreen.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "深圳市绿联科技股份有限公司 的 source locator seed 为 https://www.ugreen.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_02ff075aea7f",
+      "candidate_name": "深圳市倍思科技有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.baseus.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "深圳市倍思科技有限公司 的 source locator seed 为 https://www.baseus.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_2f9ca072bf28",
+      "candidate_name": "广东德尔玛科技股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.deerma.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "广东德尔玛科技股份有限公司 的 source locator seed 为 https://www.deerma.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_72a0a2db5ffe",
+      "candidate_name": "云鲸智能创新（深圳）有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.narwal.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "云鲸智能创新（深圳）有限公司 的 source locator seed 为 https://www.narwal.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_6e6640789898",
+      "candidate_name": "小狗电器互联网科技（北京）股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.xgdq.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "小狗电器互联网科技（北京）股份有限公司 的 source locator seed 为 https://www.xgdq.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_192abb151bd3",
+      "candidate_name": "浙江大华技术股份有限公司",
+      "matched_persona": "mfg_multi_factory_group",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.dahuatech.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:static_icp_reference,public_company_fact",
+          "summary": "浙江大华技术股份有限公司 的 source locator seed 为 https://www.dahuatech.com/。该公开来源用于确认公司存在与静态 ICP 相关经营事实。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_d250e1c7ff28",
+      "candidate_name": "杭州海康威视数字技术股份有限公司",
+      "matched_persona": "mfg_multi_factory_group",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hikvision.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:static_icp_reference,public_company_fact",
+          "summary": "杭州海康威视数字技术股份有限公司 的 source locator seed 为 https://www.hikvision.com/。该公开来源用于确认公司存在与静态 ICP 相关经营事实。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_94fc9ae9d9a2",
+      "candidate_name": "库迪科技（天津）有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.cotti.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "库迪科技（天津）有限公司 的 source locator seed 为 https://www.cotti.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_641ff4cf2f83",
+      "candidate_name": "上海沪上阿姨餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hushangayi.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "上海沪上阿姨餐饮管理有限公司 的 source locator seed 为 https://www.hushangayi.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_419ffc22f200",
+      "candidate_name": "湖南费大厨餐饮管理有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.feidachu.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "湖南费大厨餐饮管理有限公司 的 source locator seed 为 https://www.feidachu.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_ab3d6459dc8d",
+      "candidate_name": "北京夸父餐饮管理有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.kuafuzhacuan.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "北京夸父餐饮管理有限公司 的 source locator seed 为 https://www.kuafuzhacuan.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_55d36bcce336",
+      "candidate_name": "南京大牌档美食文化有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.njdapaidang.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "南京大牌档美食文化有限公司 的 source locator seed 为 https://www.njdapaidang.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_7d9fddf4f43d",
+      "candidate_name": "七分甜餐饮管理（上海）有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.7-fen.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "七分甜餐饮管理（上海）有限公司 的 source locator seed 为 https://www.7-fen.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_8716c805106f",
+      "candidate_name": "广东天福连锁商业集团有限公司",
+      "matched_persona": "retail_multi_store",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.tianfugroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "广东天福连锁商业集团有限公司 的 source locator seed 为 https://www.tianfugroup.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_f321d4b30e60",
+      "candidate_name": "罗森（中国）投资有限公司",
+      "matched_persona": "retail_multi_store",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.lawson.com.cn/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "罗森（中国）投资有限公司 的 source locator seed 为 https://www.lawson.com.cn/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    },
+    {
+      "task_id": "m210_task_9dad5623f692",
+      "candidate_name": "十月稻田集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "sources": [
+        {
+          "source_type": "official_site_or_brand_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.shiyuedaotian.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "十月稻田集团股份有限公司 的 source locator seed 为 https://www.shiyuedaotian.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "source_trace_boundary": "icp_reference_asset_refs 仅为 ICP 判断参考；不计入 prospect evidence。"
+    }
+  ]
+}

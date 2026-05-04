@@ -1,0 +1,33 @@
+{
+  "milestone": "M211R",
+  "generated_at": "2026-05-04T10:47:24.444674+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "M211 将 M210 的候选任务推进到公开 evidence 采集层；未就绪来源保留在 source_collection_pending。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "M211 只写批次产物，不写 canonical pool/source trace/vault；M200 才 report-only。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "公开来源、signed customer v2 gate、eligibility gate 和客户案例边界均保留。"
+  },
+  "summary": {
+    "input_source_collection_pending_count": 23,
+    "evidence_item_count": 23,
+    "report_only_ready_count": 15,
+    "reachable_locator_count": 15,
+    "signed_customer_blocked_count": 0,
+    "duplicate_or_ineligible_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "backlog_state_counts": {
+      "report_only_ready": 15,
+      "source_collection_pending": 8
+    }
+  }
+}
