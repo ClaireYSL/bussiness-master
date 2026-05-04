@@ -297,7 +297,8 @@ def build_m134(allow_update_probe: bool = False) -> dict[str, Any]:
         "generated_at": now(),
         "required_fields": ["canonical_name", "signed_status", "source_locator", "exclusion_scope", "aliases"],
         "allowed_signed_status": ["confirmed_signed_customer", "review_candidate", "deprecated"],
-        "example": {"canonical_name": "示例签约客户有限公司", "signed_status": "confirmed_signed_customer", "contract_entity": "示例签约客户有限公司", "brand_names": ["示例品牌"], "aliases": ["示例客户", "示例品牌"], "source_locator": "用户提供的签约客户清单或 CRM 导出路径", "exclusion_scope": "exclude_from_static_pool"},
+        "input_shape": {"items": ["signed_customer_update_item"]},
+        "example": {"items": [{"canonical_name": "示例签约客户有限公司", "signed_status": "confirmed_signed_customer", "contract_entity": "示例签约客户有限公司", "brand_names": ["示例品牌"], "aliases": ["示例客户", "示例品牌"], "source_type": "user_signed_list", "source_locator": "用户提供的签约客户清单或 CRM 导出路径", "exclusion_scope": "exclude_from_static_pool"}]},
     }
     update_policy = {
         "batch_id": "signed_customer_registry_update_policy_v1",
@@ -314,6 +315,151 @@ def build_m134(allow_update_probe: bool = False) -> dict[str, Any]:
     write_json(M134 / "signed_customer_registry_update_policy_v1.json", update_policy)
     write_json(M134 / "signed_customer_update_guard_probe_v1.json", probe)
     return {"template": template, "policy": update_policy, "guard_probe": probe}
+
+
+def normalize_update_item(raw: dict[str, Any]) -> dict[str, Any]:
+    canonical_name = str(raw.get("canonical_name") or "").strip()
+    signed_status = str(raw.get("signed_status") or "confirmed_signed_customer").strip()
+    contract_entity = str(raw.get("contract_entity") or canonical_name).strip()
+    market_name = str(raw.get("market_name") or "").strip()
+    group_name = str(raw.get("group_name") or "").strip()
+    brand_names = [str(x).strip() for x in (raw.get("brand_names") or []) if str(x or "").strip()]
+    aliases = {canonical_name, contract_entity, market_name, group_name, *brand_names, *(raw.get("aliases") or [])}
+    aliases = sorted({str(x).strip() for x in aliases if str(x or "").strip()})
+    customer_id = str(raw.get("customer_id") or stable_id("signed_customer", canonical_name))
+    return {
+        "customer_id": customer_id,
+        "canonical_name": canonical_name,
+        "contract_entity": contract_entity,
+        "market_name": market_name,
+        "group_name": group_name,
+        "brand_names": brand_names,
+        "aliases": aliases,
+        "signed_status": signed_status,
+        "exclusion_scope": str(raw.get("exclusion_scope") or "exclude_from_static_pool"),
+        "source_type": str(raw.get("source_type") or "user_signed_list"),
+        "source_locator": str(raw.get("source_locator") or "").strip(),
+        "source_note": str(raw.get("source_note") or ""),
+        "note": str(raw.get("note") or ""),
+        "effective_from": str(raw.get("effective_from") or now()[:10]),
+        "last_verified_at": now(),
+    }
+
+
+def load_signed_update_package(path: Path) -> list[dict[str, Any]]:
+    payload = read_json(path, {})
+    raw_items = payload.get("items") if isinstance(payload, dict) else payload
+    if not isinstance(raw_items, list):
+        raise ValueError("signed customer update package must be a JSON object with items[] or a JSON list")
+    return [normalize_update_item(item) for item in raw_items if isinstance(item, dict)]
+
+
+def build_aliases_for_customer(customer: dict[str, Any]) -> list[dict[str, Any]]:
+    aliases = []
+    for name in customer.get("aliases") or []:
+        alias_id = stable_id("signed_alias", f"{customer['customer_id']}::{name}")
+        aliases.append({
+            "alias_id": alias_id,
+            "alias_name": name,
+            "customer_id": customer["customer_id"],
+            "canonical_name": customer["canonical_name"],
+            "alias_type": "contract_entity" if name == customer.get("contract_entity") else "brand_or_market_name",
+            "status": "active",
+            "source_note": "generated_from_signed_customer_update_package",
+            "note": "canonical signed customer alias for exclusion gate",
+            "source_locator": customer.get("source_locator"),
+        })
+    return aliases
+
+
+def build_signed_customer_update_diff(update_package: Path, *, allow_write: bool) -> dict[str, Any]:
+    updates = load_signed_update_package(update_package)
+    if not updates:
+        raise ValueError("signed customer update package contains no valid items")
+    registry = read_json(SIGNED_REGISTRY, {"items": [], "review_candidates": []})
+    alias_registry = read_json(SIGNED_ALIAS, {"items": []})
+    existing_customers = registry.get("items") or []
+    existing_aliases = alias_registry.get("items") or []
+    existing_by_norm = {normalize_name(item.get("canonical_name")): item for item in existing_customers if normalize_name(item.get("canonical_name"))}
+    existing_alias_by_norm = {normalize_name(item.get("alias_name")): item for item in existing_aliases if normalize_name(item.get("alias_name"))}
+    new_customers: list[dict[str, Any]] = []
+    updated_customers: list[dict[str, Any]] = []
+    duplicate_candidates: list[dict[str, Any]] = []
+    new_aliases: list[dict[str, Any]] = []
+    conflicting_aliases: list[dict[str, Any]] = []
+    for update in updates:
+        norm = normalize_name(update.get("canonical_name"))
+        if not update.get("canonical_name") or not update.get("source_locator"):
+            duplicate_candidates.append({"candidate": update.get("canonical_name"), "reason": "missing canonical_name or source_locator"})
+            continue
+        existing = existing_by_norm.get(norm)
+        if existing:
+            merged = dict(existing)
+            for key in ["contract_entity", "market_name", "group_name", "brand_names", "aliases", "signed_status", "exclusion_scope", "source_type", "source_locator", "source_note", "note", "effective_from", "last_verified_at"]:
+                if update.get(key):
+                    merged[key] = update[key]
+            merged["customer_id"] = existing.get("customer_id") or update["customer_id"]
+            updated_customers.append(merged)
+        else:
+            new_customers.append(update)
+        for alias_item in build_aliases_for_customer(update):
+            alias_norm = normalize_name(alias_item.get("alias_name"))
+            current = existing_alias_by_norm.get(alias_norm)
+            if current and current.get("customer_id") != update.get("customer_id") and current.get("canonical_name") != update.get("canonical_name"):
+                conflicting_aliases.append({"alias_name": alias_item.get("alias_name"), "existing_customer_id": current.get("customer_id"), "incoming_customer_id": update.get("customer_id"), "existing_canonical_name": current.get("canonical_name"), "incoming_canonical_name": update.get("canonical_name")})
+            elif not current:
+                new_aliases.append(alias_item)
+    incoming_names = {item.get("canonical_name") for item in [*new_customers, *updated_customers]}
+    pool = read_json(POOL, {"items": []})
+    affected = [item for item in pool.get("items") or [] if item.get("company_name") in incoming_names]
+    can_apply = bool(allow_write) and not conflicting_aliases and not any(item.get("reason") for item in duplicate_candidates)
+    diff = {
+        "batch_id": "signed_customer_registry_update_diff_v1",
+        "generated_at": now(),
+        "update_package": str(update_package),
+        "mode": "apply" if allow_write else "preview",
+        "summary": {
+            "incoming_item_count": len(updates),
+            "new_customer_count": len(new_customers),
+            "updated_customer_count": len(updated_customers),
+            "new_alias_count": len(new_aliases),
+            "conflicting_alias_count": len(conflicting_aliases),
+            "duplicate_or_invalid_count": len(duplicate_candidates),
+            "affected_prospect_candidate_count": len(affected),
+            "canonical_registry_written": can_apply,
+            "old_excel_written": False,
+            "trusted_pool_written": False,
+            "knowledge_asset_registry_written": False,
+            "persona_registry_written": False,
+        },
+        "new_customers": new_customers,
+        "updated_customers": updated_customers,
+        "new_aliases": new_aliases,
+        "conflicting_aliases": conflicting_aliases,
+        "duplicate_candidates": duplicate_candidates,
+        "affected_prospect_candidates": [{"prospect_id": x.get("prospect_id"), "company_name": x.get("company_name"), "level": x.get("level")} for x in affected],
+    }
+    write_json(M134 / "signed_customer_registry_update_diff_v1.json", diff)
+    if can_apply:
+        customer_by_id = {item.get("customer_id"): item for item in existing_customers}
+        for item in [*new_customers, *updated_customers]:
+            customer_by_id[item["customer_id"]] = item
+        alias_by_id = {item.get("alias_id"): item for item in existing_aliases}
+        for item in new_aliases:
+            alias_by_id[item["alias_id"]] = item
+        registry["items"] = sorted(customer_by_id.values(), key=lambda x: str(x.get("customer_id") or ""))
+        alias_registry["items"] = sorted(alias_by_id.values(), key=lambda x: str(x.get("alias_id") or ""))
+        registry["generated_at"] = now()
+        alias_registry["generated_at"] = now()
+        registry["summary"] = dict(registry.get("summary") or {})
+        registry["summary"]["confirmed_signed_customer_count"] = sum(1 for x in registry["items"] if x.get("signed_status") == "confirmed_signed_customer")
+        registry["summary"]["review_candidate_count"] = len(registry.get("review_candidates") or [])
+        alias_registry["summary"] = {"alias_count": len(alias_registry["items"]), "active_alias_count": sum(1 for x in alias_registry["items"] if x.get("status") == "active")}
+        write_json(SIGNED_REGISTRY, registry)
+        write_json(SIGNED_ALIAS, alias_registry)
+        write_json(M131 / "signed_customer_registry_v1.json", registry)
+        write_json(M131 / "signed_customer_alias_registry_v1.json", alias_registry)
+    return diff
 
 
 def scan_dynamic_terms(paths: list[Path]) -> dict[str, Any]:
@@ -478,13 +624,22 @@ def update_panel(report: dict[str, Any]) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build M131R-M135R signed customer registry and exclusion gate.")
-    parser.add_argument("--stage", choices=("all", "registry", "gate", "audit", "maintenance", "ops"), default="all")
-    parser.add_argument("--allow-signed-customer-registry-update", action="store_true", help="Reserved for future guarded registry update packages; current initial import writes canonical v1 from legacy confirmed sources.")
+    parser.add_argument("--stage", choices=("all", "registry", "gate", "audit", "maintenance", "update-preview", "apply-update", "ops"), default="all")
+    parser.add_argument("--update-package", help="Path to a signed customer update package JSON. Required for update-preview/apply-update.")
+    parser.add_argument("--allow-signed-customer-registry-update", action="store_true", help="Allow guarded canonical signed customer registry update when --stage apply-update is used.")
     return parser
 
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.stage in {"update-preview", "apply-update"}:
+        if not args.update_package:
+            raise SystemExit("--update-package is required for update-preview/apply-update")
+        if args.stage == "apply-update" and not args.allow_signed_customer_registry_update:
+            raise SystemExit("apply-update requires --allow-signed-customer-registry-update")
+        diff = build_signed_customer_update_diff(Path(args.update_package), allow_write=args.stage == "apply-update")
+        print(json.dumps({"stage": args.stage, "summary": diff["summary"]}, ensure_ascii=False, indent=2))
+        return 0 if diff["summary"]["conflicting_alias_count"] == 0 and diff["summary"]["duplicate_or_invalid_count"] == 0 else 2
     m131 = build_m131() if args.stage in {"all", "registry"} else {"registry": read_json(SIGNED_REGISTRY), "aliases": read_json(SIGNED_ALIAS)}
     m132 = build_m132() if args.stage in {"all", "gate"} else {"report": read_json(M132 / "signed_customer_gate_regression_v1.json"), "blocked": read_json(M132 / "blocked_existing_customer_candidates_v1.json", {"items": []}).get("items", []), "boundary": read_json(M132 / "boundary_review_queue_v1.json", {"items": []}).get("items", [])}
     m133 = build_m133() if args.stage in {"all", "audit"} else {"audit": read_json(M133 / "existing_customer_audit_report_v1.json"), "remediation": read_json(M133 / "existing_customer_remediation_package_v1.json")}

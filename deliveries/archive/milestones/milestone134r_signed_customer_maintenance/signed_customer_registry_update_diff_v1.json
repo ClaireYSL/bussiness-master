@@ -1,0 +1,84 @@
+{
+  "batch_id": "signed_customer_registry_update_diff_v1",
+  "generated_at": "2026-05-04T04:07:56.251525+00:00",
+  "update_package": "/tmp/signed_customer_update.XXXXXX.json",
+  "mode": "preview",
+  "summary": {
+    "incoming_item_count": 1,
+    "new_customer_count": 1,
+    "updated_customer_count": 0,
+    "new_alias_count": 3,
+    "conflicting_alias_count": 0,
+    "duplicate_or_invalid_count": 0,
+    "affected_prospect_candidate_count": 0,
+    "canonical_registry_written": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  },
+  "new_customers": [
+    {
+      "customer_id": "signed_customer_aa1e56b7",
+      "canonical_name": "示例新签约客户有限公司",
+      "contract_entity": "示例新签约客户有限公司",
+      "market_name": "",
+      "group_name": "",
+      "brand_names": [
+        "示例新品牌"
+      ],
+      "aliases": [
+        "示例新品牌",
+        "示例新客户",
+        "示例新签约客户有限公司"
+      ],
+      "signed_status": "confirmed_signed_customer",
+      "exclusion_scope": "exclude_from_static_pool",
+      "source_type": "user_signed_list",
+      "source_locator": "用户提供的签约客户清单-测试样例",
+      "source_note": "",
+      "note": "",
+      "effective_from": "2026-05-04",
+      "last_verified_at": "2026-05-04T04:07:56.249944+00:00"
+    }
+  ],
+  "updated_customers": [],
+  "new_aliases": [
+    {
+      "alias_id": "signed_alias_signed_customer_aa1e56b7_e9c25a3b",
+      "alias_name": "示例新品牌",
+      "customer_id": "signed_customer_aa1e56b7",
+      "canonical_name": "示例新签约客户有限公司",
+      "alias_type": "brand_or_market_name",
+      "status": "active",
+      "source_note": "generated_from_signed_customer_update_package",
+      "note": "canonical signed customer alias for exclusion gate",
+      "source_locator": "用户提供的签约客户清单-测试样例"
+    },
+    {
+      "alias_id": "signed_alias_signed_customer_aa1e56b7_8cd964a2",
+      "alias_name": "示例新客户",
+      "customer_id": "signed_customer_aa1e56b7",
+      "canonical_name": "示例新签约客户有限公司",
+      "alias_type": "brand_or_market_name",
+      "status": "active",
+      "source_note": "generated_from_signed_customer_update_package",
+      "note": "canonical signed customer alias for exclusion gate",
+      "source_locator": "用户提供的签约客户清单-测试样例"
+    },
+    {
+      "alias_id": "signed_alias_signed_customer_aa1e56b7_e2da657c",
+      "alias_name": "示例新签约客户有限公司",
+      "customer_id": "signed_customer_aa1e56b7",
+      "canonical_name": "示例新签约客户有限公司",
+      "alias_type": "contract_entity",
+      "status": "active",
+      "source_note": "generated_from_signed_customer_update_package",
+      "note": "canonical signed customer alias for exclusion gate",
+      "source_locator": "用户提供的签约客户清单-测试样例"
+    }
+  ],
+  "conflicting_aliases": [],
+  "duplicate_candidates": [],
+  "affected_prospect_candidates": []
+}

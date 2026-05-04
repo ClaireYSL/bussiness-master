@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T03:48:55.632080+00:00",
-  "overall_status": "PASS_M130R_PRODUCTION_EVIDENCE_LOOP_READY",
+  "generated_at": "2026-05-04T03:50:14.736407+00:00",
+  "overall_status": "PASS_M141R_SYSTEM_READINESS_V3",
   "counts": {
     "trusted_pool_count": 63,
     "l1_count": 36,
@@ -13,7 +13,13 @@
     "excluded_learning_case_count": 22,
     "excluded_existing_customer_count": 0,
     "signed_customer_boundary_review_count": 0,
-    "vault_regular_write_count": 3
+    "vault_regular_write_count": 3,
+    "account_entity_count": 100,
+    "entity_multi_role_count": 74,
+    "eligibility_excluded_signed_customer_count": 2,
+    "eligibility_duplicate_existing_prospect_count": 3,
+    "customer_case_reference_count": 24,
+    "source_freshness_gap_count": 0
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -33,7 +39,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M130R",
+  "latest_milestone": "M141R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -50,7 +56,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "继续从 M126 identity_pending / excluded 队列中人工确认真实新潜客；不要把客户案例标题或人物访谈直接作为潜客。",
+  "canonical_next_action": "后续候选发现先过 entity resolution 与 prospect eligibility gate；客户案例只作 ICP 参考，不直接入 prospect evidence。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,

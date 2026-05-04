@@ -1,6 +1,6 @@
 {
   "batch_id": "signed_customer_update_template_v1",
-  "generated_at": "2026-05-04T03:48:54.915655+00:00",
+  "generated_at": "2026-05-04T04:08:11.308343+00:00",
   "required_fields": [
     "canonical_name",
     "signed_status",
@@ -13,18 +13,28 @@
     "review_candidate",
     "deprecated"
   ],
+  "input_shape": {
+    "items": [
+      "signed_customer_update_item"
+    ]
+  },
   "example": {
-    "canonical_name": "示例签约客户有限公司",
-    "signed_status": "confirmed_signed_customer",
-    "contract_entity": "示例签约客户有限公司",
-    "brand_names": [
-      "示例品牌"
-    ],
-    "aliases": [
-      "示例客户",
-      "示例品牌"
-    ],
-    "source_locator": "用户提供的签约客户清单或 CRM 导出路径",
-    "exclusion_scope": "exclude_from_static_pool"
+    "items": [
+      {
+        "canonical_name": "示例签约客户有限公司",
+        "signed_status": "confirmed_signed_customer",
+        "contract_entity": "示例签约客户有限公司",
+        "brand_names": [
+          "示例品牌"
+        ],
+        "aliases": [
+          "示例客户",
+          "示例品牌"
+        ],
+        "source_type": "user_signed_list",
+        "source_locator": "用户提供的签约客户清单或 CRM 导出路径",
+        "exclusion_scope": "exclude_from_static_pool"
+      }
+    ]
   }
 }

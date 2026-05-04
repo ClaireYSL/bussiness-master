@@ -1,6 +1,6 @@
 {
   "batch_id": "prospect_eligibility_gate_policy_v1",
-  "generated_at": "2026-05-04T03:48:55.098847+00:00",
+  "generated_at": "2026-05-04T03:50:14.696972+00:00",
   "required_status_before_source_collection": "eligible_prospect",
   "blocking_statuses": [
     "excluded_signed_customer",

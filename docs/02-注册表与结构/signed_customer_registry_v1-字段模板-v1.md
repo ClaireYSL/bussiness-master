@@ -60,3 +60,45 @@
 - 不写 knowledge asset registry。
 - 不写 persona registry。
 - 不自动删除当前 trusted pool；若回溯命中老客，只生成 remediation package。
+
+## 7. 增量维护入口
+
+后续新增签约客户不再直接改 JSON，也不回写旧 Excel；统一使用结构化 update package。
+
+最小输入形态：
+
+```json
+{
+  "items": [
+    {
+      "canonical_name": "示例签约客户有限公司",
+      "signed_status": "confirmed_signed_customer",
+      "contract_entity": "示例签约客户有限公司",
+      "brand_names": ["示例品牌"],
+      "aliases": ["示例客户", "示例品牌"],
+      "source_type": "user_signed_list",
+      "source_locator": "用户提供的签约客户清单或 CRM 导出路径",
+      "exclusion_scope": "exclude_from_static_pool"
+    }
+  ]
+}
+```
+
+维护命令：
+
+```bash
+python3 scripts/build_m131r_m135_signed_customer_registry.py \
+  --stage update-preview \
+  --update-package path/to/signed_customer_update_package.json
+```
+
+正式写入必须显式加 guard：
+
+```bash
+python3 scripts/build_m131r_m135_signed_customer_registry.py \
+  --stage apply-update \
+  --update-package path/to/signed_customer_update_package.json \
+  --allow-signed-customer-registry-update
+```
+
+`update-preview` 只生成 diff，不写 canonical registry；`apply-update` 只更新 `signed_customer_registry_v1.json` 与 `signed_customer_alias_registry_v1.json`，不写旧 Excel、trusted pool、knowledge asset registry 或 persona registry。
