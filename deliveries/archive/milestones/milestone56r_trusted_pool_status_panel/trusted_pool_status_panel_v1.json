@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T04:54:59.716129+00:00",
-  "overall_status": "PASS_M160R_SYSTEM_STABILIZED",
+  "generated_at": "2026-05-04T06:22:47.834807+00:00",
+  "overall_status": "PASS_M180R_SIGNED_CUSTOMER_REGISTRY_V2_READY",
   "counts": {
     "trusted_pool_count": 63,
     "l1_count": 36,
@@ -21,9 +21,15 @@
     "m160_vault_duplicate_display_count": 47,
     "m160_l1_l2_missing_source_trace_count": 0,
     "m160_backlog_actionable_next_count": 1,
-    "signed_customer_count": 10,
-    "signed_customer_alias_count": 24,
-    "existing_customer_trusted_pool_hit_count": 0
+    "signed_customer_count": 1057,
+    "signed_customer_alias_count": 2078,
+    "existing_customer_trusted_pool_hit_count": 0,
+    "signed_customer_v2_count": 1057,
+    "signed_customer_alias_v2_count": 2078,
+    "m180_trusted_pool_existing_customer_hit_count": 5,
+    "m180_vault_existing_customer_hit_count": 5,
+    "signed_customer_v1_count": 10,
+    "signed_customer_alias_v1_count": 24
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -43,7 +49,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M160R",
+  "latest_milestone": "M180R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -60,7 +66,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "按 evidence acquisition backlog v2 处理 identity_pending/source_collection_pending；用户层优先按 cleanup plan 收口重复入口。",
+  "canonical_next_action": "基于 M180 remediation preview 审阅当前 trusted pool/vault 的老客命中；下一步单独执行受控 remediation。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -960,5 +966,15 @@
     },
     "expert_review_status": "pass_with_followups",
     "readiness_read_only_required": true
+  },
+  "m180r_signed_customer_registry_v2": {
+    "status": "PASS_M180R_SIGNED_CUSTOMER_REGISTRY_V2_READY",
+    "signed_customer_count": 1057,
+    "alias_count": 2078,
+    "source_path": "/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx",
+    "trusted_pool_hit_count": 5,
+    "vault_hit_count": 5,
+    "expert_review_status": "pass_with_followups",
+    "v2_default_gate_enabled": true
   }
 }

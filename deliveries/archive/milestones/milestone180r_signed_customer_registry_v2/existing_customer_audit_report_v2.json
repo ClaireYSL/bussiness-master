@@ -1,0 +1,158 @@
+{
+  "batch_id": "m180r_existing_customer_audit_report_v2",
+  "milestone": "M180R",
+  "generated_at": "2026-05-04T06:22:47.832996+00:00",
+  "status": "PASS_AUDIT_READY",
+  "summary": {
+    "trusted_pool_count": 63,
+    "trusted_pool_hit_count": 5,
+    "trusted_pool_block_hit_count": 5,
+    "trusted_pool_boundary_review_count": 0,
+    "vault_hit_count": 5,
+    "auto_remediation_executed": false
+  },
+  "trusted_pool_hits": [
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "level": "L1",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "北京万皮思食品科技有限公司",
+        "matched_customer_id": "signed_customer_北京万皮思食品科技有限公司_330ab23e58",
+        "matched_canonical_name": "北京万皮思食品科技有限公司",
+        "matched_alias_name": "北京万皮思食品科技有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "level": "L2",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "上海伯邑餐饮管理有限公司",
+        "matched_customer_id": "signed_customer_上海伯邑餐饮管理有限公司_6b5eb1b6f6",
+        "matched_canonical_name": "上海伯邑餐饮管理有限公司",
+        "matched_alias_name": "上海伯邑餐饮管理有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "level": "L2",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "杭州贝咖实业有限公司",
+        "matched_customer_id": "signed_customer_杭州贝咖实业有限公司_4ae0d49e84",
+        "matched_canonical_name": "杭州贝咖实业有限公司",
+        "matched_alias_name": "杭州贝咖实业有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "level": "L2",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "广东快客电子商务有限公司",
+        "matched_customer_id": "signed_customer_广东快客电子商务有限公司_807d898bc0",
+        "matched_canonical_name": "广东快客电子商务有限公司",
+        "matched_alias_name": "广东快客电子商务有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "level": "L1",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+        "matched_customer_id": "signed_customer_宁波太平鸟时尚服饰股份有限公司_a2e6fddb33",
+        "matched_canonical_name": "宁波太平鸟时尚服饰股份有限公司",
+        "matched_alias_name": "宁波太平鸟时尚服饰股份有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    }
+  ],
+  "vault_hits": [
+    {
+      "company_name": "北京万皮思食品科技有限公司",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京万皮思食品科技有限公司.md",
+      "folder": "01-L1 ICP强匹配档案",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "北京万皮思食品科技有限公司",
+        "matched_customer_id": "signed_customer_北京万皮思食品科技有限公司_330ab23e58",
+        "matched_canonical_name": "北京万皮思食品科技有限公司",
+        "matched_alias_name": "北京万皮思食品科技有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md",
+      "folder": "01-L1 ICP强匹配档案",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+        "matched_customer_id": "signed_customer_宁波太平鸟时尚服饰股份有限公司_a2e6fddb33",
+        "matched_canonical_name": "宁波太平鸟时尚服饰股份有限公司",
+        "matched_alias_name": "宁波太平鸟时尚服饰股份有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海伯邑餐饮管理有限公司.md",
+      "folder": "02-L2正式潜客档案",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "上海伯邑餐饮管理有限公司",
+        "matched_customer_id": "signed_customer_上海伯邑餐饮管理有限公司_6b5eb1b6f6",
+        "matched_canonical_name": "上海伯邑餐饮管理有限公司",
+        "matched_alias_name": "上海伯邑餐饮管理有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "company_name": "广东快客电子商务有限公司",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东快客电子商务有限公司.md",
+      "folder": "02-L2正式潜客档案",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "广东快客电子商务有限公司",
+        "matched_customer_id": "signed_customer_广东快客电子商务有限公司_807d898bc0",
+        "matched_canonical_name": "广东快客电子商务有限公司",
+        "matched_alias_name": "广东快客电子商务有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    },
+    {
+      "company_name": "杭州贝咖实业有限公司",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/杭州贝咖实业有限公司.md",
+      "folder": "02-L2正式潜客档案",
+      "match": {
+        "existing_customer_check_status": "excluded_existing_customer",
+        "candidate_name": "杭州贝咖实业有限公司",
+        "matched_customer_id": "signed_customer_杭州贝咖实业有限公司_4ae0d49e84",
+        "matched_canonical_name": "杭州贝咖实业有限公司",
+        "matched_alias_name": "杭州贝咖实业有限公司",
+        "match_type": "canonical_name",
+        "reason": "exact_normalized_match"
+      }
+    }
+  ]
+}

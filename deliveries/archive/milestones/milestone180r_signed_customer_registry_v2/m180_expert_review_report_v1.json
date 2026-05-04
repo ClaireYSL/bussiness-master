@@ -1,0 +1,29 @@
+{
+  "batch_id": "m180r_expert_review_report_v1",
+  "milestone": "M180R",
+  "generated_at": "2026-05-04T06:22:47.833760+00:00",
+  "status": "pass_with_followups",
+  "summary": {
+    "product_review_status": "pass_with_followups",
+    "architecture_review_status": "pass",
+    "data_governance_review_status": "pass",
+    "followup_count": 2,
+    "remediation_write_allowed": false
+  },
+  "product_review": {
+    "status": "pass_with_followups",
+    "followups": [
+      "当前 trusted pool 命中签约老客 v2，需要后续受控 remediation；本轮只生成 preview。",
+      "vault 用户层存在签约老客命中，需要后续受控治理；本轮不删除文件。"
+    ],
+    "evidence": "v2 gate 已覆盖近千家合作客户；命中项只输出 remediation preview。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "evidence": "signed_customer_gate 默认 v2，v1 fallback/reference；pipeline readiness/production 接入 M180。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "evidence": "历史合作名单为 primary source，legacy 10 家为 supplemental；客户案例不自动确认 signed customer。"
+  }
+}

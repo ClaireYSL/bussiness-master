@@ -13,7 +13,10 @@ MILESTONES = WORKSPACE / "deliveries/archive/milestones"
 STATUS_PANEL = MILESTONES / "milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json"
 
 MODE_COMMANDS = {
-    "readiness": [["python3", "scripts/build_m160r_system_stabilization.py", "--stage", "readiness"]],
+    "readiness": [
+        ["python3", "scripts/build_m160r_system_stabilization.py", "--stage", "readiness"],
+        ["python3", "scripts/build_m180r_signed_customer_registry_v2.py", "--stage", "readiness"],
+    ],
     "learn": [["python3", "scripts/build_m91r_m94_learning_system.py"], ["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "learn"]],
     "persona": [["python3", "scripts/build_m91r_m94_learning_system.py"], ["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "persona"]],
     "prospect": [["python3", "scripts/build_m95r_m98_learning_pool_operating_system.py"], ["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "prospect"]],
@@ -24,6 +27,7 @@ MODE_COMMANDS = {
     "production": [
         ["python3", "scripts/build_m120r_m125_sustainable_production_system.py", "--stage", "all", "--allow-canonical-registry-update"],
         ["python3", "scripts/build_m131r_m135_signed_customer_registry.py", "--stage", "all"],
+        ["python3", "scripts/build_m180r_signed_customer_registry_v2.py", "--stage", "all"],
         ["python3", "scripts/build_m137r_m141_cross_asset_readiness.py", "--stage", "all"],
         ["python3", "scripts/build_m126r_m130_production_evidence_loop.py", "--stage", "all", "--allow-trusted-pool-update", "--allow-vault-regular-write"],
         ["python3", "scripts/build_m150r_production_loop_hardening.py", "--stage", "all"],

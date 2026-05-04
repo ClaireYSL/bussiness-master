@@ -1,0 +1,57 @@
+{
+  "batch_id": "m180r_existing_customer_remediation_preview_v2",
+  "milestone": "M180R",
+  "generated_at": "2026-05-04T06:22:47.833013+00:00",
+  "status": "PASS_PREVIEW_READY",
+  "summary": {
+    "remediation_candidate_count": 5,
+    "auto_apply_enabled": false
+  },
+  "items": [
+    {
+      "entity_name": "北京万皮思食品科技有限公司",
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "current_level": "L1",
+      "match_status": "excluded_existing_customer",
+      "recommended_action": "从新潜客展示层移除或标记 excluded_existing_customer；保留为知识/客户案例参考。",
+      "auto_apply": false
+    },
+    {
+      "entity_name": "上海伯邑餐饮管理有限公司",
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "current_level": "L2",
+      "match_status": "excluded_existing_customer",
+      "recommended_action": "从新潜客展示层移除或标记 excluded_existing_customer；保留为知识/客户案例参考。",
+      "auto_apply": false
+    },
+    {
+      "entity_name": "杭州贝咖实业有限公司",
+      "prospect_id": "m85r_nonlisted_babycare",
+      "current_level": "L2",
+      "match_status": "excluded_existing_customer",
+      "recommended_action": "从新潜客展示层移除或标记 excluded_existing_customer；保留为知识/客户案例参考。",
+      "auto_apply": false
+    },
+    {
+      "entity_name": "广东快客电子商务有限公司",
+      "prospect_id": "m85r_nonlisted_kkv",
+      "current_level": "L2",
+      "match_status": "excluded_existing_customer",
+      "recommended_action": "从新潜客展示层移除或标记 excluded_existing_customer；保留为知识/客户案例参考。",
+      "auto_apply": false
+    },
+    {
+      "entity_name": "宁波太平鸟时尚服饰股份有限公司",
+      "prospect_id": "m127r_peacebird",
+      "current_level": "L1",
+      "match_status": "excluded_existing_customer",
+      "recommended_action": "从新潜客展示层移除或标记 excluded_existing_customer；保留为知识/客户案例参考。",
+      "auto_apply": false
+    }
+  ],
+  "no_write_proof": {
+    "trusted_pool_written": false,
+    "vault_written": false,
+    "old_excel_written": false
+  }
+}

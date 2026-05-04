@@ -7,8 +7,12 @@ from pathlib import Path
 from typing import Any
 
 WORKSPACE = Path(__file__).resolve().parents[2]
-DEFAULT_SIGNED_CUSTOMER_REGISTRY = WORKSPACE / "deliveries/canonical/businessmaster/signed_customer_registry_v1.json"
-DEFAULT_SIGNED_CUSTOMER_ALIAS_REGISTRY = WORKSPACE / "deliveries/canonical/businessmaster/signed_customer_alias_registry_v1.json"
+SIGNED_CUSTOMER_REGISTRY_V2 = WORKSPACE / "deliveries/canonical/businessmaster/signed_customer_registry_v2.json"
+SIGNED_CUSTOMER_ALIAS_REGISTRY_V2 = WORKSPACE / "deliveries/canonical/businessmaster/signed_customer_alias_registry_v2.json"
+SIGNED_CUSTOMER_REGISTRY_V1 = WORKSPACE / "deliveries/canonical/businessmaster/signed_customer_registry_v1.json"
+SIGNED_CUSTOMER_ALIAS_REGISTRY_V1 = WORKSPACE / "deliveries/canonical/businessmaster/signed_customer_alias_registry_v1.json"
+DEFAULT_SIGNED_CUSTOMER_REGISTRY = SIGNED_CUSTOMER_REGISTRY_V2
+DEFAULT_SIGNED_CUSTOMER_ALIAS_REGISTRY = SIGNED_CUSTOMER_ALIAS_REGISTRY_V2
 
 LEGAL_SUFFIX_PATTERNS = [
     r"股份有限公司$",
@@ -81,8 +85,14 @@ class SignedCustomerGate:
         registry_path: str | Path = DEFAULT_SIGNED_CUSTOMER_REGISTRY,
         alias_path: str | Path = DEFAULT_SIGNED_CUSTOMER_ALIAS_REGISTRY,
     ) -> "SignedCustomerGate":
-        registry = read_json(registry_path, {"items": []})
-        alias_registry = read_json(alias_path, {"items": []})
+        registry_file = Path(registry_path)
+        alias_file = Path(alias_path)
+        if registry_file == DEFAULT_SIGNED_CUSTOMER_REGISTRY and not registry_file.exists():
+            registry_file = SIGNED_CUSTOMER_REGISTRY_V1
+        if alias_file == DEFAULT_SIGNED_CUSTOMER_ALIAS_REGISTRY and not alias_file.exists():
+            alias_file = SIGNED_CUSTOMER_ALIAS_REGISTRY_V1
+        registry = read_json(registry_file, {"items": []})
+        alias_registry = read_json(alias_file, {"items": []})
         return cls(registry.get("items") or [], alias_registry.get("items") or [])
 
     def _add_name(self, customer: dict[str, Any], name: Any, match_type: str) -> None:
