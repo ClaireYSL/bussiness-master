@@ -1,0 +1,30 @@
+{
+  "milestone": "M192R",
+  "generated_at": "2026-05-04T08:23:54.857390+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "M192 将 M191 候选评估为静态可信摘要层，不硬升 L2；用户仍不会看到未发布对象。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "report-only、baseline、pool diff preview、no-write proof 已分离，后续 guarded update 可回放。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "signed customer v2 / duplicate gate 已在 M191 前置，本轮不写旧 Excel、knowledge/persona registry、trusted pool 或 vault。"
+  },
+  "report_summary": {
+    "report_only_candidate_count": 15,
+    "decision_counts": {
+      "allow": 15
+    },
+    "suggested_level_counts": {
+      "L3": 15
+    },
+    "gap_queue_count": 60,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

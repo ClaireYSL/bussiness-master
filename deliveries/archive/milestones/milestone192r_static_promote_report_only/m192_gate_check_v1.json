@@ -1,0 +1,15 @@
+{
+  "report_id": "m192r_gate_check_v1",
+  "milestone": "M192R",
+  "generated_at": "2026-05-04T08:23:54.825119+00:00",
+  "summary": {
+    "baseline_match": true,
+    "baseline_mismatch_probe_failed": true,
+    "report_only_candidate_count": 15,
+    "non_block_candidate_count": 15,
+    "block_candidate_count": 0,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false
+  },
+  "blocked_candidates": []
+}
