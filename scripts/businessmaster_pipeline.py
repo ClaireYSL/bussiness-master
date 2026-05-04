@@ -29,6 +29,7 @@ MODE_COMMANDS = {
         ["python3", "scripts/build_m190r_candidate_discovery_backlog.py", "--stage", "all"],
         ["python3", "scripts/build_m191r_public_evidence_acquisition.py", "--stage", "all"],
         ["python3", "scripts/build_m192r_static_promote_report_only.py", "--stage", "all"],
+        ["python3", "scripts/build_m194r_l3_to_l2_second_source.py", "--stage", "all"],
     ],
     "post-publish-reconcile": [["python3", "scripts/build_m185r_post_publish_reconciliation.py", "--stage", "all"]],
     "identity-resolution": [["python3", "scripts/build_m186r_identity_resolution_backlog.py", "--stage", "all"]],
@@ -38,6 +39,7 @@ MODE_COMMANDS = {
         ["python3", "scripts/build_m190r_candidate_discovery_backlog.py", "--stage", "all"],
         ["python3", "scripts/build_m191r_public_evidence_acquisition.py", "--stage", "all"],
         ["python3", "scripts/build_m192r_static_promote_report_only.py", "--stage", "all"],
+        ["python3", "scripts/build_m194r_l3_to_l2_second_source.py", "--stage", "all"],
     ],
     "all": [["python3", "scripts/build_m99r_m105_product_system.py", "--stage", "all"]],
 }

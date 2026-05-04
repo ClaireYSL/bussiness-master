@@ -1,0 +1,117 @@
+{
+  "milestone": "M194R",
+  "generated_at": "2026-05-04T08:38:51.490964+00:00",
+  "summary": {
+    "gap_queue_count": 15,
+    "by_queue_type": {
+      "source_gap_queue": 15
+    }
+  },
+  "items": [
+    {
+      "prospect_id": "m192_f36d5e58d75b",
+      "company_name": "上海爱婴室商务服务股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_f736020d9704",
+      "company_name": "良品铺子股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_31c7524f6bc2",
+      "company_name": "名创优品集团控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_4a802369793e",
+      "company_name": "泡泡玛特国际集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_373ca60655ce",
+      "company_name": "海底捞国际控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_53d52bc516c9",
+      "company_name": "奈雪的茶控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_6fdc15620f2c",
+      "company_name": "安克创新科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_5a006e1af1dc",
+      "company_name": "致欧家居科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_789de536089d",
+      "company_name": "华宝新能科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_2386dc0f707e",
+      "company_name": "科沃斯机器人股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_a931b6a14819",
+      "company_name": "小米集团",
+      "queue_type": "source_gap_queue",
+      "field": "second_source_locator_health",
+      "reason": "第二强来源 locator 当前不可达或未配置，保留 L3。"
+    },
+    {
+      "prospect_id": "m192_a131a7c57449",
+      "company_name": "公牛集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_1c8b4ee1b347",
+      "company_name": "老凤祥股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_e5d15b6d9b7f",
+      "company_name": "波司登国际控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_7998a8f5901f",
+      "company_name": "蜜雪冰城股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    }
+  ]
+}

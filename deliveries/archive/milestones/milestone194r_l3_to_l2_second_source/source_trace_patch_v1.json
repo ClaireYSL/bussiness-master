@@ -1,0 +1,364 @@
+{
+  "index_id": "m194r_source_trace_patch_v1",
+  "milestone": "M194R",
+  "generated_at": "2026-05-04T08:38:51.486759+00:00",
+  "summary": {
+    "candidate_count": 15,
+    "second_source_ready_count": 14,
+    "canonical_source_trace_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m192_f36d5e58d75b",
+      "company_name": "上海爱婴室商务服务股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.aiyingshi.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "上海爱婴室商务服务股份有限公司 的 source locator seed 为 https://www.aiyingshi.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        },
+        {
+          "source_type": "exchange_announcement_index",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603214",
+          "evidence_strength": "exchange_announcement_index",
+          "supports_dimension": "icp_match_support:multi_store_retail,regulatory_disclosure,listed_company_operations",
+          "summary": "上海爱婴室商务服务股份有限公司 的第二强来源为 https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603214，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_multi_store 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_f736020d9704",
+      "company_name": "良品铺子股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.517lppz.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "良品铺子股份有限公司 的 source locator seed 为 https://www.517lppz.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "exchange_announcement_index",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603719",
+          "evidence_strength": "exchange_announcement_index",
+          "supports_dimension": "icp_match_support:high_sku_brand,regulatory_disclosure,retail_product_portfolio",
+          "summary": "良品铺子股份有限公司 的第二强来源为 https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603719，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_31c7524f6bc2",
+      "company_name": "名创优品集团控股有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://ir.miniso.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "名创优品集团控股有限公司 的 source locator seed 为 https://ir.miniso.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        },
+        {
+          "source_type": "annual_report_page",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://ir.miniso.com/Interim-Annual-Reports",
+          "evidence_strength": "annual_report_page",
+          "supports_dimension": "icp_match_support:multi_store_retail,global_store_network,product_portfolio",
+          "summary": "名创优品集团控股有限公司 的第二强来源为 https://ir.miniso.com/Interim-Annual-Reports，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_multi_store 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_4a802369793e",
+      "company_name": "泡泡玛特国际集团有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.popmart.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "泡泡玛特国际集团有限公司 的 source locator seed 为 https://www.popmart.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "annual_report_pdf",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2023_c2e4bab1ae.pdf",
+          "evidence_strength": "annual_report_pdf",
+          "supports_dimension": "icp_match_support:high_sku_brand,ip_product_matrix,global_brand_operations",
+          "summary": "泡泡玛特国际集团有限公司 的第二强来源为 https://prod-out-res.popmart.com/cms/ANNUAL_REPORT_2023_c2e4bab1ae.pdf，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_373ca60655ce",
+      "company_name": "海底捞国际控股有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.haidilao.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "海底捞国际控股有限公司 的 source locator seed 为 https://www.haidilao.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。"
+        },
+        {
+          "source_type": "official_supplier_platform",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://srm.haidilao.com/",
+          "evidence_strength": "official_supplier_platform",
+          "supports_dimension": "icp_match_support:chain_standardization,supplier_operations,multi_store_fnb",
+          "summary": "海底捞国际控股有限公司 的第二强来源为 https://srm.haidilao.com/，用于补充上市披露、财报/IR 或平台经营事实，支撑 fnb_chain_standardized 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_53d52bc516c9",
+      "company_name": "奈雪的茶控股有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.naixuecha.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "奈雪的茶控股有限公司 的 source locator seed 为 https://www.naixuecha.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        },
+        {
+          "source_type": "financial_report_page",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://nayuki-umb.azurewebsites.net/cn/investors/financial-reports/",
+          "evidence_strength": "financial_report_page",
+          "supports_dimension": "icp_match_support:chain_beverage,store_network,regulatory_disclosure",
+          "summary": "奈雪的茶控股有限公司 的第二强来源为 https://nayuki-umb.azurewebsites.net/cn/investors/financial-reports/，用于补充上市披露、财报/IR 或平台经营事实，支撑 fnb_chain_beverage_coffee 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_6fdc15620f2c",
+      "company_name": "安克创新科技股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.anker-in.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "安克创新科技股份有限公司 的 source locator seed 为 https://www.anker-in.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "cninfo_disclosure_page",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "http://www.cninfo.com.cn/new/disclosure/stock?stockCode=300866",
+          "evidence_strength": "cninfo_disclosure_page",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_brand,regulatory_disclosure",
+          "summary": "安克创新科技股份有限公司 的第二强来源为 http://www.cninfo.com.cn/new/disclosure/stock?stockCode=300866，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_5a006e1af1dc",
+      "company_name": "致欧家居科技股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.songmics.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "致欧家居科技股份有限公司 的 source locator seed 为 https://www.songmics.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "cninfo_disclosure_page",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "http://www.cninfo.com.cn/new/disclosure/stock?stockCode=301376",
+          "evidence_strength": "cninfo_disclosure_page",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_brand,regulatory_disclosure",
+          "summary": "致欧家居科技股份有限公司 的第二强来源为 http://www.cninfo.com.cn/new/disclosure/stock?stockCode=301376，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_789de536089d",
+      "company_name": "华宝新能科技股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hello-tech.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "华宝新能科技股份有限公司 的 source locator seed 为 https://www.hello-tech.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "cninfo_disclosure_page",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "http://www.cninfo.com.cn/new/disclosure/stock?stockCode=301327",
+          "evidence_strength": "cninfo_disclosure_page",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,energy_storage_brand,regulatory_disclosure",
+          "summary": "华宝新能科技股份有限公司 的第二强来源为 http://www.cninfo.com.cn/new/disclosure/stock?stockCode=301327，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_2386dc0f707e",
+      "company_name": "科沃斯机器人股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.ecovacs.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "科沃斯机器人股份有限公司 的 source locator seed 为 https://www.ecovacs.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        },
+        {
+          "source_type": "exchange_announcement_index",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603486",
+          "evidence_strength": "exchange_announcement_index",
+          "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,regulatory_disclosure",
+          "summary": "科沃斯机器人股份有限公司 的第二强来源为 https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603486，用于补充上市披露、财报/IR 或平台经营事实，支撑 cbec_multi_platform_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_a931b6a14819",
+      "company_name": "小米集团",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.mi.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "new_source_ready": false,
+      "source_count_after_patch": 1
+    },
+    {
+      "prospect_id": "m192_a131a7c57449",
+      "company_name": "公牛集团股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.gongniu.cn/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "公牛集团股份有限公司 的 source locator seed 为 https://www.gongniu.cn/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        },
+        {
+          "source_type": "exchange_announcement_index",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603195",
+          "evidence_strength": "exchange_announcement_index",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_channel_complexity,regulatory_disclosure",
+          "summary": "公牛集团股份有限公司 的第二强来源为 https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603195，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_high_sku_brand 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_1c8b4ee1b347",
+      "company_name": "老凤祥股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.laofengxiang.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "老凤祥股份有限公司 的 source locator seed 为 https://www.laofengxiang.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        },
+        {
+          "source_type": "exchange_announcement_index",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=600612",
+          "evidence_strength": "exchange_announcement_index",
+          "supports_dimension": "icp_match_support:multi_store_retail,jewelry_chain_operations,regulatory_disclosure",
+          "summary": "老凤祥股份有限公司 的第二强来源为 https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=600612，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_multi_store 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_e5d15b6d9b7f",
+      "company_name": "波司登国际控股有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://company.bosideng.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "波司登国际控股有限公司 的 source locator seed 为 https://company.bosideng.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        },
+        {
+          "source_type": "financial_publications_page",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://company.bosideng.com/en/ir/financial.php?year=2025",
+          "evidence_strength": "financial_publications_page",
+          "supports_dimension": "icp_match_support:multi_store_retail,apparel_brand_matrix,regulatory_disclosure",
+          "summary": "波司登国际控股有限公司 的第二强来源为 https://company.bosideng.com/en/ir/financial.php?year=2025，用于补充上市披露、财报/IR 或平台经营事实，支撑 retail_multi_store 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    },
+    {
+      "prospect_id": "m192_7998a8f5901f",
+      "company_name": "蜜雪冰城股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.mxbc.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "蜜雪冰城股份有限公司 的 source locator seed 为 https://www.mxbc.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        },
+        {
+          "source_type": "official_operations_page",
+          "source_category": "platform_operating_fact",
+          "source_locator": "https://www.mxbc.com/about.html",
+          "evidence_strength": "official_operations_page",
+          "supports_dimension": "icp_match_support:chain_beverage,store_network,supply_chain_operations,platform_operating_fact",
+          "summary": "蜜雪冰城股份有限公司 的第二强来源为 https://www.mxbc.com/about.html，用于补充上市披露、财报/IR 或平台经营事实，支撑 fnb_chain_beverage_coffee 的静态 ICP 判断。"
+        }
+      ],
+      "new_source_ready": true,
+      "source_count_after_patch": 2
+    }
+  ]
+}

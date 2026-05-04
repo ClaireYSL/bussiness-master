@@ -1,0 +1,771 @@
+{
+  "batch_id": "m194r_l3_to_l2_report_only_v1",
+  "milestone": "M194R",
+  "generated_at": "2026-05-04T08:38:51.490410+00:00",
+  "mode": "report_only",
+  "candidate_signature": "4e8bb59d9f91fcb29472fe98cc514d14e6383b39f7bc408141cf7c8140c5f197",
+  "summary": {
+    "report_only_candidate_count": 15,
+    "decision_counts": {
+      "allow": 14,
+      "warn": 1
+    },
+    "suggested_level_counts": {
+      "L2": 14,
+      "L3": 1
+    },
+    "gap_queue_count": 15,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "candidates": [
+    {
+      "prospect_id": "m192_f36d5e58d75b",
+      "task_id": "m190_task_f36d5e58d75b",
+      "company_name": "上海爱婴室商务服务股份有限公司",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "上海爱婴室商务服务股份有限公司 的 source locator seed 为 https://www.aiyingshi.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "多门店/多渠道零售业务，涉及门店网络、会员运营、商品与渠道协同。",
+      "business_model_summary": "以线下门店与线上渠道结合的零售经营模式服务终端消费者，核心复杂度在门店、商品、会员与区域运营协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.aiyingshi.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "上海爱婴室商务服务股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_f36d5e58d75b",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_f736020d9704",
+      "task_id": "m190_task_f736020d9704",
+      "company_name": "良品铺子股份有限公司",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "良品铺子股份有限公司 的 source locator seed 为 https://www.517lppz.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "高 SKU 消费品牌/零售业务，覆盖产品矩阵、渠道销售和品牌运营。",
+      "business_model_summary": "以品牌产品组合和多渠道销售触达消费者，核心复杂度在 SKU、渠道、库存与营销协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.517lppz.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "良品铺子股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_f736020d9704",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_31c7524f6bc2",
+      "task_id": "m190_task_31c7524f6bc2",
+      "company_name": "名创优品集团控股有限公司",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "名创优品集团控股有限公司 的 source locator seed 为 https://ir.miniso.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "多门店/多渠道零售业务，涉及门店网络、会员运营、商品与渠道协同。",
+      "business_model_summary": "以线下门店与线上渠道结合的零售经营模式服务终端消费者，核心复杂度在门店、商品、会员与区域运营协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://ir.miniso.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "名创优品集团控股有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_31c7524f6bc2",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_4a802369793e",
+      "task_id": "m190_task_4a802369793e",
+      "company_name": "泡泡玛特国际集团有限公司",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "泡泡玛特国际集团有限公司 的 source locator seed 为 https://www.popmart.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "高 SKU 消费品牌/零售业务，覆盖产品矩阵、渠道销售和品牌运营。",
+      "business_model_summary": "以品牌产品组合和多渠道销售触达消费者，核心复杂度在 SKU、渠道、库存与营销协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.popmart.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "泡泡玛特国际集团有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_4a802369793e",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_373ca60655ce",
+      "task_id": "m190_task_373ca60655ce",
+      "company_name": "海底捞国际控股有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_standardized",
+      "match_reason": "海底捞国际控股有限公司 的 source locator seed 为 https://www.haidilao.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。",
+      "core_product_service_summary": "标准化连锁餐饮服务，覆盖门店运营、供应链与服务标准。",
+      "business_model_summary": "以连锁门店经营为核心，通过标准化产品、门店和供应链体系服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.haidilao.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "海底捞国际控股有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_373ca60655ce",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_53d52bc516c9",
+      "task_id": "m190_task_53d52bc516c9",
+      "company_name": "奈雪的茶控股有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "奈雪的茶控股有限公司 的 source locator seed 为 https://www.naixuecha.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。",
+      "core_product_service_summary": "连锁茶饮/饮品服务，覆盖门店、加盟/直营、会员和供应链运营。",
+      "business_model_summary": "以饮品门店网络和品牌产品为核心，依靠门店扩张、会员运营和供应链能力服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.naixuecha.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "奈雪的茶控股有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_53d52bc516c9",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_6fdc15620f2c",
+      "task_id": "m190_task_6fdc15620f2c",
+      "company_name": "安克创新科技股份有限公司",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "安克创新科技股份有限公司 的 source locator seed 为 https://www.anker-in.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "多平台消费品牌/跨境或全球化品牌经营，覆盖产品、渠道和区域市场。",
+      "business_model_summary": "通过自有品牌、线上线下渠道及多区域市场运营实现消费品销售，核心复杂度在渠道、供应链和区域协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.anker-in.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "安克创新科技股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_6fdc15620f2c",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_5a006e1af1dc",
+      "task_id": "m190_task_5a006e1af1dc",
+      "company_name": "致欧家居科技股份有限公司",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "致欧家居科技股份有限公司 的 source locator seed 为 https://www.songmics.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "多平台消费品牌/跨境或全球化品牌经营，覆盖产品、渠道和区域市场。",
+      "business_model_summary": "通过自有品牌、线上线下渠道及多区域市场运营实现消费品销售，核心复杂度在渠道、供应链和区域协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.songmics.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "致欧家居科技股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_5a006e1af1dc",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_789de536089d",
+      "task_id": "m190_task_789de536089d",
+      "company_name": "华宝新能科技股份有限公司",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "华宝新能科技股份有限公司 的 source locator seed 为 https://www.hello-tech.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "多平台消费品牌/跨境或全球化品牌经营，覆盖产品、渠道和区域市场。",
+      "business_model_summary": "通过自有品牌、线上线下渠道及多区域市场运营实现消费品销售，核心复杂度在渠道、供应链和区域协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.hello-tech.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "华宝新能科技股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_789de536089d",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_2386dc0f707e",
+      "task_id": "m190_task_2386dc0f707e",
+      "company_name": "科沃斯机器人股份有限公司",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "科沃斯机器人股份有限公司 的 source locator seed 为 https://www.ecovacs.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "多平台消费品牌/跨境或全球化品牌经营，覆盖产品、渠道和区域市场。",
+      "business_model_summary": "通过自有品牌、线上线下渠道及多区域市场运营实现消费品销售，核心复杂度在渠道、供应链和区域协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.ecovacs.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "科沃斯机器人股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_2386dc0f707e",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_a931b6a14819",
+      "task_id": "m190_task_a931b6a14819",
+      "company_name": "小米集团",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "高 SKU 消费品牌/零售业务，覆盖产品矩阵、渠道销售和品牌运营。",
+      "business_model_summary": "以品牌产品组合和多渠道销售触达消费者，核心复杂度在 SKU、渠道、库存与营销协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.mi.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "小米集团 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_a931b6a14819",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_a131a7c57449",
+      "task_id": "m190_task_a131a7c57449",
+      "company_name": "公牛集团股份有限公司",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "公牛集团股份有限公司 的 source locator seed 为 https://www.gongniu.cn/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "高 SKU 消费品牌/零售业务，覆盖产品矩阵、渠道销售和品牌运营。",
+      "business_model_summary": "以品牌产品组合和多渠道销售触达消费者，核心复杂度在 SKU、渠道、库存与营销协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.gongniu.cn/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "公牛集团股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_a131a7c57449",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_1c8b4ee1b347",
+      "task_id": "m190_task_1c8b4ee1b347",
+      "company_name": "老凤祥股份有限公司",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "老凤祥股份有限公司 的 source locator seed 为 https://www.laofengxiang.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "多门店/多渠道零售业务，涉及门店网络、会员运营、商品与渠道协同。",
+      "business_model_summary": "以线下门店与线上渠道结合的零售经营模式服务终端消费者，核心复杂度在门店、商品、会员与区域运营协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.laofengxiang.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "老凤祥股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_1c8b4ee1b347",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_e5d15b6d9b7f",
+      "task_id": "m190_task_e5d15b6d9b7f",
+      "company_name": "波司登国际控股有限公司",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "match_reason": "波司登国际控股有限公司 的 source locator seed 为 https://company.bosideng.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "多门店/多渠道零售业务，涉及门店网络、会员运营、商品与渠道协同。",
+      "business_model_summary": "以线下门店与线上渠道结合的零售经营模式服务终端消费者，核心复杂度在门店、商品、会员与区域运营协同。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://company.bosideng.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "波司登国际控股有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_e5d15b6d9b7f",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "prospect_id": "m192_7998a8f5901f",
+      "task_id": "m190_task_7998a8f5901f",
+      "company_name": "蜜雪冰城股份有限公司",
+      "level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "蜜雪冰城股份有限公司 的 source locator seed 为 https://www.mxbc.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。",
+      "core_product_service_summary": "连锁茶饮/饮品服务，覆盖门店、加盟/直营、会员和供应链运营。",
+      "business_model_summary": "以饮品门店网络和品牌产品为核心，依靠门店扩张、会员运营和供应链能力服务消费者。",
+      "risk_or_gap": "已补第二强来源；仍需后续进一步补充更细粒度的经营事实、门店/渠道数据和第三强来源后再评估 L1。",
+      "source_locator": "https://www.mxbc.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "signed_customer_v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M191R_report_only_ready_input",
+      "trusted_status": "trusted_summary_ready",
+      "static_promotion_summary": "蜜雪冰城股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "static_gap_count": 4,
+      "static_evidence_count": 1,
+      "static_strong_evidence_count": 1,
+      "card_id": "card_m192_7998a8f5901f",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    }
+  ],
+  "decisions": [
+    {
+      "prospect_id": "m192_f36d5e58d75b",
+      "company_name": "上海爱婴室商务服务股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "上海爱婴室商务服务股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_f736020d9704",
+      "company_name": "良品铺子股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "良品铺子股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_31c7524f6bc2",
+      "company_name": "名创优品集团控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "名创优品集团控股有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_4a802369793e",
+      "company_name": "泡泡玛特国际集团有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "泡泡玛特国际集团有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_373ca60655ce",
+      "company_name": "海底捞国际控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "海底捞国际控股有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_53d52bc516c9",
+      "company_name": "奈雪的茶控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "奈雪的茶控股有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_6fdc15620f2c",
+      "company_name": "安克创新科技股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "安克创新科技股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_5a006e1af1dc",
+      "company_name": "致欧家居科技股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "致欧家居科技股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_789de536089d",
+      "company_name": "华宝新能科技股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "华宝新能科技股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_2386dc0f707e",
+      "company_name": "科沃斯机器人股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "科沃斯机器人股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_a931b6a14819",
+      "company_name": "小米集团",
+      "current_level": "L3",
+      "suggested_level": "L3",
+      "decision": "warn",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_source_locator_health",
+          "reason": "第二强来源 locator 当前不可达或未配置，保留 L3。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "小米集团 第二来源未就绪，保留 L3。"
+    },
+    {
+      "prospect_id": "m192_a131a7c57449",
+      "company_name": "公牛集团股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "公牛集团股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_1c8b4ee1b347",
+      "company_name": "老凤祥股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "老凤祥股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_e5d15b6d9b7f",
+      "company_name": "波司登国际控股有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "波司登国际控股有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    },
+    {
+      "prospect_id": "m192_7998a8f5901f",
+      "company_name": "蜜雪冰城股份有限公司",
+      "current_level": "L3",
+      "suggested_level": "L2",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        }
+      ],
+      "evidence_count": 2,
+      "strong_evidence_count": 2,
+      "summary": "蜜雪冰城股份有限公司 静态升层建议：L3 -> L2，强来源=2，L1来源类别=2。"
+    }
+  ],
+  "gap_queue": [
+    {
+      "prospect_id": "m192_f36d5e58d75b",
+      "company_name": "上海爱婴室商务服务股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_f736020d9704",
+      "company_name": "良品铺子股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_31c7524f6bc2",
+      "company_name": "名创优品集团控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_4a802369793e",
+      "company_name": "泡泡玛特国际集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_373ca60655ce",
+      "company_name": "海底捞国际控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_53d52bc516c9",
+      "company_name": "奈雪的茶控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_6fdc15620f2c",
+      "company_name": "安克创新科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_5a006e1af1dc",
+      "company_name": "致欧家居科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_789de536089d",
+      "company_name": "华宝新能科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_2386dc0f707e",
+      "company_name": "科沃斯机器人股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_a931b6a14819",
+      "company_name": "小米集团",
+      "queue_type": "source_gap_queue",
+      "field": "second_source_locator_health",
+      "reason": "第二强来源 locator 当前不可达或未配置，保留 L3。"
+    },
+    {
+      "prospect_id": "m192_a131a7c57449",
+      "company_name": "公牛集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_1c8b4ee1b347",
+      "company_name": "老凤祥股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_e5d15b6d9b7f",
+      "company_name": "波司登国际控股有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m192_7998a8f5901f",
+      "company_name": "蜜雪冰城股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    }
+  ],
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}
