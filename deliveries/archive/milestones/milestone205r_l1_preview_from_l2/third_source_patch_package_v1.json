@@ -1,0 +1,327 @@
+{
+  "package_id": "m205r_third_source_patch_package_v1",
+  "milestone": "M205R",
+  "generated_at": "2026-05-04T10:31:31.459221+00:00",
+  "summary": {
+    "target_l2_count": 13,
+    "third_source_ready_count": 13,
+    "source_health_gap_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "trusted_pool_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m200_596844a57563",
+      "company_name": "上海新锐供应链管理有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_contact_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.cupshe.com/pages/contact-us",
+        "supports_dimension": "icp_match_support:global_brand_operations,cross_border_operations,multi_region",
+        "evidence_strength": "official_contact_page",
+        "summary": "上海新锐供应链管理有限公司 的第三强来源为 https://www.cupshe.com/pages/contact-us，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.cupshe.com/pages/contact-us",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_b2928815d10e",
+      "company_name": "上海林清轩生物科技有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_product_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.lqxshop.com/products",
+        "supports_dimension": "icp_match_support:brand_product_matrix,sku_matrix,channel_complexity",
+        "evidence_strength": "official_product_page",
+        "summary": "上海林清轩生物科技有限公司 的第三强来源为 https://www.lqxshop.com/products，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.lqxshop.com/products",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_c5ab402aa53c",
+      "company_name": "北京元气森林饮料有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.yuanqisenlin.com/about",
+        "supports_dimension": "icp_match_support:retail_high_sku_brand,sku_matrix,channel_complexity",
+        "evidence_strength": "official_about_page",
+        "summary": "北京元气森林饮料有限公司 的第三强来源为 https://www.yuanqisenlin.com/about，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.yuanqisenlin.com/about",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_67270fee7b44",
+      "company_name": "广州希音国际进出口有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_platform_operator",
+      "new_source": {
+        "source_type": "official_newsroom",
+        "source_category": "official_owned",
+        "source_locator": "https://www.sheingroup.com/newsroom",
+        "supports_dimension": "icp_match_support:platform_operator,global_brand_operations,cross_border_operations",
+        "evidence_strength": "official_newsroom",
+        "summary": "广州希音国际进出口有限公司 的第三强来源为 https://www.sheingroup.com/newsroom，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.sheingroup.com/newsroom",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_10e4826dc1c0",
+      "company_name": "广州影石创新科技有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_support_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.insta360.com/support",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,multi_region",
+        "evidence_strength": "official_support_page",
+        "summary": "广州影石创新科技有限公司 的第三强来源为 https://www.insta360.com/support，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.insta360.com/support",
+          "reachable": true,
+          "http_status": 403,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_678e6705b1df",
+      "company_name": "广州棒谷科技股份有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_wholesale_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.banggood.cn/Wholesale.html",
+        "supports_dimension": "icp_match_support:platform_operator,multi_platform_commerce,cross_border_operations",
+        "evidence_strength": "official_wholesale_page",
+        "summary": "广州棒谷科技股份有限公司 的第三强来源为 https://www.banggood.cn/Wholesale.html，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.banggood.cn/Wholesale.html",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_d443f235d88b",
+      "company_name": "杭州花西子化妆品股份有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_product_collection",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.florasis.com/collections/all",
+        "supports_dimension": "icp_match_support:brand_product_matrix,sku_matrix,channel_complexity",
+        "evidence_strength": "official_product_collection",
+        "summary": "杭州花西子化妆品股份有限公司 的第三强来源为 https://www.florasis.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.florasis.com/collections/all",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_743b6529e25d",
+      "company_name": "深圳市大疆创新科技有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_page",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.dji.com/products",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
+        "evidence_strength": "official_product_page",
+        "summary": "深圳市大疆创新科技有限公司 的第三强来源为 https://www.dji.com/products，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.dji.com/products",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_2f660d14d234",
+      "company_name": "深圳市时商创展科技有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_collection",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.omoton.com/collections/all",
+        "supports_dimension": "icp_match_support:consumer_accessory_brand,sku_matrix,cross_border_operations",
+        "evidence_strength": "official_product_collection",
+        "summary": "深圳市时商创展科技有限公司 的第三强来源为 https://www.omoton.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.omoton.com/collections/all",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_67c24a3efdbb",
+      "company_name": "深圳市泽宝创新技术有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_collection",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.ravpower.com/collections/all",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,cross_border_operations",
+        "evidence_strength": "official_product_collection",
+        "summary": "深圳市泽宝创新技术有限公司 的第三强来源为 https://www.ravpower.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.ravpower.com/collections/all",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_62d14c462430",
+      "company_name": "深圳市蓝禾技术有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_collection",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.benks.com/collections/all",
+        "supports_dimension": "icp_match_support:consumer_accessory_brand,sku_matrix,cross_border_operations",
+        "evidence_strength": "official_product_collection",
+        "summary": "深圳市蓝禾技术有限公司 的第三强来源为 https://www.benks.com/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.benks.com/collections/all",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_e534c24d05d8",
+      "company_name": "添可智能科技有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "official_about_page",
+        "source_category": "official_owned",
+        "source_locator": "https://www.tineco.com/about",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,global_brand_operations,channel_complexity",
+        "evidence_strength": "official_about_page",
+        "summary": "添可智能科技有限公司 的第三强来源为 https://www.tineco.com/about，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.tineco.com/about",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m200_fa3b843905b3",
+      "company_name": "追觅科技（苏州）有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "cbec_multi_platform_brand",
+      "new_source": {
+        "source_type": "official_product_collection",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.dreame.tech/collections/all",
+        "supports_dimension": "icp_match_support:consumer_hardware_brand,sku_matrix,global_brand_operations",
+        "evidence_strength": "official_product_collection",
+        "summary": "追觅科技（苏州）有限公司 的第三强来源为 https://www.dreame.tech/collections/all，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.dreame.tech/collections/all",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    }
+  ]
+}

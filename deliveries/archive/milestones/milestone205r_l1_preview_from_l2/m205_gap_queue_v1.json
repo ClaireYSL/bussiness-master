@@ -1,0 +1,30 @@
+{
+  "milestone": "M205R",
+  "generated_at": "2026-05-04T10:31:31.463708+00:00",
+  "summary": {
+    "gap_queue_count": 2,
+    "by_queue_type": {
+      "source_gap_queue": 2
+    },
+    "by_field": {
+      "l1_evidence_chain": 1,
+      "l1_source_category": 1
+    }
+  },
+  "items": [
+    {
+      "prospect_id": "m200_67270fee7b44",
+      "company_name": "广州希音国际进出口有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m200_67270fee7b44",
+      "company_name": "广州希音国际进出口有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "milestone": "M205R",
+  "generated_at": "2026-05-04T10:31:31.499960+00:00",
+  "status": "PASS_M205R_L1_PREVIEW_FROM_L2",
+  "summary": {
+    "report_only_candidate_count": 13,
+    "decision_counts": {
+      "allow": 12,
+      "warn": 1
+    },
+    "suggested_level_counts": {
+      "L1": 12,
+      "L2": 1
+    },
+    "l1_preview_count": 12,
+    "l2_remaining_count": 1,
+    "gap_queue_count": 2,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false,
+    "third_source_summary": {
+      "target_l2_count": 13,
+      "third_source_ready_count": 13,
+      "source_health_gap_count": 0,
+      "customer_case_used_as_prospect_evidence": false,
+      "llm_used_as_evidence": false,
+      "trusted_pool_written": false
+    },
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M206：guarded update L1 preview；或先人工抽检 L1 证据链。"
+}
