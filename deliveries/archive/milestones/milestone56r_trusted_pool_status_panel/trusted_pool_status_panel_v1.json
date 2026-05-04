@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-04T06:22:47.834807+00:00",
-  "overall_status": "PASS_M180R_SIGNED_CUSTOMER_REGISTRY_V2_READY",
+  "generated_at": "2026-05-04T06:47:08.230831+00:00",
+  "overall_status": "PASS_M181R_SIGNED_CUSTOMER_REMEDIATION_COMPLETE",
   "counts": {
-    "trusted_pool_count": 63,
-    "l1_count": 36,
-    "l2_count": 26,
+    "trusted_pool_count": 58,
+    "l1_count": 34,
+    "l2_count": 23,
     "l3_count": 0,
     "l4_count": 1,
     "l5_count": 0,
@@ -26,10 +26,13 @@
     "existing_customer_trusted_pool_hit_count": 0,
     "signed_customer_v2_count": 1057,
     "signed_customer_alias_v2_count": 2078,
-    "m180_trusted_pool_existing_customer_hit_count": 5,
-    "m180_vault_existing_customer_hit_count": 5,
+    "m180_trusted_pool_existing_customer_hit_count": 0,
+    "m180_vault_existing_customer_hit_count": 0,
     "signed_customer_v1_count": 10,
-    "signed_customer_alias_v1_count": 24
+    "signed_customer_alias_v1_count": 24,
+    "m181_remediated_existing_customer_count": 5,
+    "m181_post_trusted_pool_existing_customer_hit_count": 0,
+    "m181_post_vault_existing_customer_hit_count": 0
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -49,7 +52,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M180R",
+  "latest_milestone": "M181R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -66,7 +69,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "基于 M180 remediation preview 审阅当前 trusted pool/vault 的老客命中；下一步单独执行受控 remediation。",
+  "canonical_next_action": "继续使用 signed customer v2 gate 作为候选发现前置闸门；后续新增签约客户先更新 v2 registry，再跑生产链路。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -976,5 +979,14 @@
     "vault_hit_count": 5,
     "expert_review_status": "pass_with_followups",
     "v2_default_gate_enabled": true
+  },
+  "m181r_signed_customer_remediation_v2": {
+    "status": "PASS",
+    "target_count": 5,
+    "post_trusted_pool_hit_count": 0,
+    "post_vault_hit_count": 0,
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
   }
 }

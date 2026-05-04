@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-05-04T04:25:49.637050+00:00",
+  "generated_at": "2026-05-04T06:47:07.844934+00:00",
   "summary": {
-    "source_trace_count": 63,
-    "canonical_update_source": "M128R"
+    "source_trace_count": 58,
+    "canonical_update_source": "M181R_signed_customer_remediation_v2",
+    "existing_customer_removed_count": 5,
+    "signed_customer_v2_gate_applied": true
   },
   "items": [
     {
@@ -2121,123 +2123,6 @@
       "source_locator_hardened": true
     },
     {
-      "prospect_id": "m85r_nonlisted_kuafood",
-      "company_name": "北京万皮思食品科技有限公司",
-      "matched_persona": "fnb_chain_standardized",
-      "source_count": 3,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.kuafood.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "北京万皮思食品科技有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.kuafood.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.kuafood.com/",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "official_channel_page",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://www.kuafood.com/brand",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:chain_standardization,store_network",
-          "summary": "夸父品牌页披露连锁、供应与数字化经营特征。",
-          "locator_hardening": {
-            "source_locator": "https://www.kuafood.com/brand",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.kuafood.com/brand",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "financing_news",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://www.pencilnews.cn/p/39109.html",
-          "evidence_strength": "authoritative_media",
-          "supports_dimension": "icp_match_support:financing_and_chain_growth",
-          "summary": "铅笔道报道夸父融资、门店增长与数字化运营。",
-          "locator_hardening": {
-            "source_locator": "https://www.pencilnews.cn/p/39109.html",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.pencilnews.cn/p/39109.html",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 3,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m85r_nonlisted_more_yogurt",
-      "company_name": "上海伯邑餐饮管理有限公司",
-      "matched_persona": "fnb_chain_beverage_coffee",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://more-yogurt.com/index/about",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "上海伯邑餐饮管理有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://more-yogurt.com/index/about",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://more-yogurt.com/index/about",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "official_channel_page",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://more-yogurt.com/index/about",
-          "evidence_strength": "official_channel_page",
-          "supports_dimension": "icp_match_support:chain_store_operations",
-          "summary": "茉酸奶官网关于品牌与门店加盟信息。",
-          "locator_hardening": {
-            "source_locator": "https://more-yogurt.com/index/about",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://more-yogurt.com/index/about",
-            "content_type": "text/html; charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
       "prospect_id": "m85r_nonlisted_heytea",
       "company_name": "深圳美西西餐饮管理有限公司",
       "matched_persona": "fnb_chain_beverage_coffee",
@@ -2442,55 +2327,6 @@
       "source_locator_hardened": true
     },
     {
-      "prospect_id": "m85r_nonlisted_babycare",
-      "company_name": "杭州贝咖实业有限公司",
-      "matched_persona": "retail_high_sku_brand",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.babycare.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "杭州贝咖实业有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.babycare.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.babycare.com/",
-            "content_type": "text/html; charset=UTF-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "industry_research",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
-          "evidence_strength": "industry_research",
-          "supports_dimension": "icp_match_support:brand_product_matrix,offline_store",
-          "summary": "行业研究报告提及 Babycare 产品、门店与融资信息。",
-          "locator_hardening": {
-            "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
-            "content_type": "application/pdf",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
       "prospect_id": "m85r_nonlisted_petkit",
       "company_name": "小佩网络科技（上海）有限公司",
       "matched_persona": "cbec_multi_platform_brand",
@@ -2606,85 +2442,6 @@
       "verified_source_count": 2,
       "added_by_milestone": "M88R",
       "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m85r_nonlisted_kkv",
-      "company_name": "广东快客电子商务有限公司",
-      "matched_persona": "retail_multi_store",
-      "source_count": 2,
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.kkguan.com/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:official_owned",
-          "summary": "广东快客电子商务有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
-          "locator_hardening": {
-            "source_locator": "https://www.kkguan.com/",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://www.kkgroup.cn/zh-CN",
-            "content_type": "text/html;charset=utf-8",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        },
-        {
-          "source_type": "industry_research",
-          "source_category": "authoritative_third_party",
-          "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
-          "evidence_strength": "industry_research",
-          "supports_dimension": "icp_match_support:multi_store_retail,sku_matrix",
-          "summary": "行业报告提及 KKV/KK 集团多品牌零售与门店扩张。",
-          "locator_hardening": {
-            "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
-            "availability_status": "verified",
-            "verified": true,
-            "status_code": 200,
-            "final_url": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
-            "content_type": "application/pdf",
-            "method": "HEAD",
-            "error": ""
-          },
-          "added_by_milestone": "M88R"
-        }
-      ],
-      "verified_source_count": 2,
-      "added_by_milestone": "M88R",
-      "source_locator_hardened": true
-    },
-    {
-      "prospect_id": "m127r_peacebird",
-      "company_name": "宁波太平鸟时尚服饰股份有限公司",
-      "sources": [
-        {
-          "source_type": "official_site",
-          "source_category": "official_owned",
-          "source_locator": "https://www.peacebird.com.cn/",
-          "evidence_strength": "official_site",
-          "supports_dimension": "icp_match_support:brand_product_matrix,multi_store_retail,official_owned",
-          "summary": "太平鸟集团官网介绍品牌发展、时尚设计、全网营销等业务特征。"
-        },
-        {
-          "source_type": "official_store",
-          "source_category": "platform_operating_fact",
-          "source_locator": "https://shop.peacebird.com/",
-          "evidence_strength": "official_store",
-          "supports_dimension": "icp_match_support:brand_product_matrix,platform_operating_fact",
-          "summary": "PEACEBIRD 官方线上店铺展示品牌商品与线上经营事实。"
-        },
-        {
-          "source_type": "annual_report",
-          "source_category": "regulatory_or_capital_market",
-          "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222923564.PDF",
-          "evidence_strength": "annual_report",
-          "supports_dimension": "listed_company_disclosure,brand_product_matrix,icp_match_support",
-          "summary": "太平鸟 2024 年年度报告披露公司业务与经营情况。"
-        }
-      ]
     },
     {
       "prospect_id": "m127r_anta",

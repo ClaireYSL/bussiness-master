@@ -1,6 +1,6 @@
 {
   "batch_id": "milestone47r_trusted_pool_product_package_v1",
-  "generated_at": "2026-05-04T03:13:58.374251+00:00",
+  "generated_at": "2026-05-04T06:47:07.847784+00:00",
   "summary": {
     "trusted_pool_count": 19,
     "share_view_count": 19,
@@ -11,7 +11,8 @@
     "knowledge_asset_write_enabled": false,
     "persona_registry_write_enabled": false,
     "no_write_proof_ok": true,
-    "existing_customer_removed_count": 0
+    "existing_customer_removed_count": 5,
+    "canonical_update_source": "M181R_signed_customer_remediation_v2"
   },
   "trusted_prospect_pool_v1": [
     {

@@ -1,0 +1,729 @@
+{
+  "batch_id": "m181r_signed_customer_remediation_manifest_v1",
+  "milestone": "M181R",
+  "generated_at": "2026-05-04T06:47:08.233039+00:00",
+  "targets": [
+    {
+      "prospect_id": "m85r_nonlisted_kuafood",
+      "company_name": "北京万皮思食品科技有限公司",
+      "current_level": "L1",
+      "match_status": "excluded_existing_customer",
+      "source_preview": "deliveries/archive/milestones/milestone180r_signed_customer_registry_v2/remediation_preview_v2.json",
+      "remediation_action": "remove_from_active_trusted_pool_and_vault_user_entry"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_more_yogurt",
+      "company_name": "上海伯邑餐饮管理有限公司",
+      "current_level": "L2",
+      "match_status": "excluded_existing_customer",
+      "source_preview": "deliveries/archive/milestones/milestone180r_signed_customer_registry_v2/remediation_preview_v2.json",
+      "remediation_action": "remove_from_active_trusted_pool_and_vault_user_entry"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_babycare",
+      "company_name": "杭州贝咖实业有限公司",
+      "current_level": "L2",
+      "match_status": "excluded_existing_customer",
+      "source_preview": "deliveries/archive/milestones/milestone180r_signed_customer_registry_v2/remediation_preview_v2.json",
+      "remediation_action": "remove_from_active_trusted_pool_and_vault_user_entry"
+    },
+    {
+      "prospect_id": "m85r_nonlisted_kkv",
+      "company_name": "广东快客电子商务有限公司",
+      "current_level": "L2",
+      "match_status": "excluded_existing_customer",
+      "source_preview": "deliveries/archive/milestones/milestone180r_signed_customer_registry_v2/remediation_preview_v2.json",
+      "remediation_action": "remove_from_active_trusted_pool_and_vault_user_entry"
+    },
+    {
+      "prospect_id": "m127r_peacebird",
+      "company_name": "宁波太平鸟时尚服饰股份有限公司",
+      "current_level": "L1",
+      "match_status": "excluded_existing_customer",
+      "source_preview": "deliveries/archive/milestones/milestone180r_signed_customer_registry_v2/remediation_preview_v2.json",
+      "remediation_action": "remove_from_active_trusted_pool_and_vault_user_entry"
+    }
+  ],
+  "guards": {
+    "allow_trusted_pool_update": true,
+    "allow_vault_regular_write": true
+  },
+  "pre_hits": {
+    "trusted_pool_hit_count": 5,
+    "vault_hit_count": 5,
+    "trusted_pool_hits": [
+      {
+        "prospect_id": "m85r_nonlisted_kuafood",
+        "company_name": "北京万皮思食品科技有限公司",
+        "level": "L1",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "北京万皮思食品科技有限公司",
+          "matched_customer_id": "signed_customer_北京万皮思食品科技有限公司_330ab23e58",
+          "matched_canonical_name": "北京万皮思食品科技有限公司",
+          "matched_alias_name": "北京万皮思食品科技有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "prospect_id": "m85r_nonlisted_more_yogurt",
+        "company_name": "上海伯邑餐饮管理有限公司",
+        "level": "L2",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "上海伯邑餐饮管理有限公司",
+          "matched_customer_id": "signed_customer_上海伯邑餐饮管理有限公司_6b5eb1b6f6",
+          "matched_canonical_name": "上海伯邑餐饮管理有限公司",
+          "matched_alias_name": "上海伯邑餐饮管理有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "prospect_id": "m85r_nonlisted_babycare",
+        "company_name": "杭州贝咖实业有限公司",
+        "level": "L2",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "杭州贝咖实业有限公司",
+          "matched_customer_id": "signed_customer_杭州贝咖实业有限公司_4ae0d49e84",
+          "matched_canonical_name": "杭州贝咖实业有限公司",
+          "matched_alias_name": "杭州贝咖实业有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "prospect_id": "m85r_nonlisted_kkv",
+        "company_name": "广东快客电子商务有限公司",
+        "level": "L2",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "广东快客电子商务有限公司",
+          "matched_customer_id": "signed_customer_广东快客电子商务有限公司_807d898bc0",
+          "matched_canonical_name": "广东快客电子商务有限公司",
+          "matched_alias_name": "广东快客电子商务有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "prospect_id": "m127r_peacebird",
+        "company_name": "宁波太平鸟时尚服饰股份有限公司",
+        "level": "L1",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+          "matched_customer_id": "signed_customer_宁波太平鸟时尚服饰股份有限公司_a2e6fddb33",
+          "matched_canonical_name": "宁波太平鸟时尚服饰股份有限公司",
+          "matched_alias_name": "宁波太平鸟时尚服饰股份有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    ],
+    "vault_hits": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海伯邑餐饮管理有限公司.md",
+        "folder": "02-L2正式潜客档案",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "上海伯邑餐饮管理有限公司",
+          "matched_customer_id": "signed_customer_上海伯邑餐饮管理有限公司_6b5eb1b6f6",
+          "matched_canonical_name": "上海伯邑餐饮管理有限公司",
+          "matched_alias_name": "上海伯邑餐饮管理有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东快客电子商务有限公司.md",
+        "folder": "02-L2正式潜客档案",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "广东快客电子商务有限公司",
+          "matched_customer_id": "signed_customer_广东快客电子商务有限公司_807d898bc0",
+          "matched_canonical_name": "广东快客电子商务有限公司",
+          "matched_alias_name": "广东快客电子商务有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/杭州贝咖实业有限公司.md",
+        "folder": "02-L2正式潜客档案",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "杭州贝咖实业有限公司",
+          "matched_customer_id": "signed_customer_杭州贝咖实业有限公司_4ae0d49e84",
+          "matched_canonical_name": "杭州贝咖实业有限公司",
+          "matched_alias_name": "杭州贝咖实业有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京万皮思食品科技有限公司.md",
+        "folder": "01-L1 ICP强匹配档案",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "北京万皮思食品科技有限公司",
+          "matched_customer_id": "signed_customer_北京万皮思食品科技有限公司_330ab23e58",
+          "matched_canonical_name": "北京万皮思食品科技有限公司",
+          "matched_alias_name": "北京万皮思食品科技有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md",
+        "folder": "01-L1 ICP强匹配档案",
+        "match": {
+          "existing_customer_check_status": "excluded_existing_customer",
+          "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+          "matched_customer_id": "signed_customer_宁波太平鸟时尚服饰股份有限公司_a2e6fddb33",
+          "matched_canonical_name": "宁波太平鸟时尚服饰股份有限公司",
+          "matched_alias_name": "宁波太平鸟时尚服饰股份有限公司",
+          "match_type": "canonical_name",
+          "reason": "exact_normalized_match"
+        }
+      }
+    ]
+  },
+  "pool_update": {
+    "path": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+    "before_count": 63,
+    "after_count": 58,
+    "removed_count": 5,
+    "removed_items": [
+      {
+        "prospect_id": "m85r_nonlisted_kuafood",
+        "company_name": "北京万皮思食品科技有限公司",
+        "matched_persona": "fnb_chain_standardized",
+        "match_reason": "夸父炸串具备小门店、大连锁、标准化供应和加盟运营特征，符合连锁餐饮标准化 ICP。",
+        "core_product_service_summary": "运营夸父炸串等小吃连锁品牌。",
+        "business_model_summary": "以连锁加盟、统一供应链、门店运营标准化和数字化运营为核心。",
+        "risk_or_gap": "需继续核验最新门店数量和海外拓展口径。",
+        "source_locator": "https://www.kuafood.com/",
+        "evidence_strength": "official_site",
+        "level": "L1",
+        "trusted_status": "static_l1_ready",
+        "legacy_reference_only": false,
+        "candidate_origin": "M85R_non_listed_high_growth_trial",
+        "static_promotion_summary": "北京万皮思食品科技有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。",
+        "static_gap_count": 0,
+        "static_evidence_count": 3,
+        "static_strong_evidence_count": 3,
+        "canonical_update_source": "M88R_from_M86R_hardened_ready",
+        "source_locator_hardened": true,
+        "legacy_field_inherited": false
+      },
+      {
+        "prospect_id": "m85r_nonlisted_more_yogurt",
+        "company_name": "上海伯邑餐饮管理有限公司",
+        "matched_persona": "fnb_chain_beverage_coffee",
+        "match_reason": "茉酸奶具备现制饮品、加盟门店和品牌标准化运营特征，符合茶饮/饮品连锁 ICP。",
+        "core_product_service_summary": "运营茉酸奶酸奶奶昔及现制饮品品牌。",
+        "business_model_summary": "通过直营网点与加盟体系扩张门店网络。",
+        "risk_or_gap": "需补充更强的门店网络与第三方增长来源。",
+        "source_locator": "https://more-yogurt.com/index/about",
+        "evidence_strength": "official_site",
+        "level": "L2",
+        "trusted_status": "static_l2_ready",
+        "legacy_reference_only": false,
+        "candidate_origin": "M85R_non_listed_high_growth_trial",
+        "static_promotion_summary": "上海伯邑餐饮管理有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。",
+        "static_gap_count": 1,
+        "static_evidence_count": 2,
+        "static_strong_evidence_count": 2,
+        "canonical_update_source": "M88R_from_M86R_hardened_ready",
+        "source_locator_hardened": true,
+        "legacy_field_inherited": false
+      },
+      {
+        "prospect_id": "m85r_nonlisted_babycare",
+        "company_name": "杭州贝咖实业有限公司",
+        "matched_persona": "retail_high_sku_brand",
+        "match_reason": "Babycare 具备母婴全品类产品矩阵、线上线下渠道和会员运营复杂度，符合高 SKU 消费品牌 ICP。",
+        "core_product_service_summary": "运营 Babycare 母婴用品品牌。",
+        "business_model_summary": "以母婴产品研发、电商零售、线下门店和会员服务为核心。",
+        "risk_or_gap": "需补充官方门店/渠道页和权威融资来源。",
+        "source_locator": "https://www.babycare.com/",
+        "evidence_strength": "official_site",
+        "level": "L2",
+        "trusted_status": "static_l2_ready",
+        "legacy_reference_only": false,
+        "candidate_origin": "M85R_non_listed_high_growth_trial",
+        "static_promotion_summary": "杭州贝咖实业有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。",
+        "static_gap_count": 1,
+        "static_evidence_count": 2,
+        "static_strong_evidence_count": 2,
+        "canonical_update_source": "M88R_from_M86R_hardened_ready",
+        "source_locator_hardened": true,
+        "legacy_field_inherited": false
+      },
+      {
+        "prospect_id": "m85r_nonlisted_kkv",
+        "company_name": "广东快客电子商务有限公司",
+        "matched_persona": "retail_multi_store",
+        "match_reason": "KKV 具备潮流集合零售、多门店和高 SKU 选品运营特征，符合多门店零售 ICP。",
+        "core_product_service_summary": "运营 KKV 等潮流集合零售品牌。",
+        "business_model_summary": "以线下集合店、多品牌矩阵和高 SKU 商品运营为核心。",
+        "risk_or_gap": "需补充官方主体和门店网络来源。",
+        "source_locator": "https://www.kkguan.com/",
+        "evidence_strength": "official_site",
+        "level": "L2",
+        "trusted_status": "static_l2_ready",
+        "legacy_reference_only": false,
+        "candidate_origin": "M85R_non_listed_high_growth_trial",
+        "static_promotion_summary": "广东快客电子商务有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。",
+        "static_gap_count": 1,
+        "static_evidence_count": 2,
+        "static_strong_evidence_count": 2,
+        "canonical_update_source": "M88R_from_M86R_hardened_ready",
+        "source_locator_hardened": true,
+        "legacy_field_inherited": false
+      },
+      {
+        "prospect_id": "m127r_peacebird",
+        "company_name": "宁波太平鸟时尚服饰股份有限公司",
+        "level": "L1",
+        "trusted_status": "static_l1_ready",
+        "matched_persona": "mgmt_inventory_supply_coordination",
+        "match_reason": "太平鸟是多品牌时尚服饰零售企业，具备品牌矩阵、商品企划、全渠道零售与供应链协同复杂度，符合库存/商品/渠道协同类 ICP。",
+        "core_product_service_summary": "公司围绕 PEACEBIRD 太平鸟等服饰品牌开展设计、研发、零售和全网营销。",
+        "business_model_summary": "以品牌服饰研发设计、商品企划、直营网点/线上渠道/加盟等零售网络协同为核心。",
+        "risk_or_gap": "已具备官方与资本市场来源；后续可继续补平台店铺或门店网络页以增强非上市披露类经营事实。",
+        "source_locator": "https://www.peacebird.com.cn/",
+        "evidence_strength": "official_site",
+        "source_category": "official_owned",
+        "icp_reference_asset_refs": [],
+        "legacy_reference_only": false,
+        "production_source": "M127R_public_evidence_admission",
+        "static_promotion_summary": "宁波太平鸟时尚服饰股份有限公司 静态升层建议：L5 -> L1，强来源=3，L1来源类别=3。",
+        "static_gap_count": 0,
+        "static_evidence_count": 3,
+        "static_strong_evidence_count": 3,
+        "updated_by_milestone": "M128R",
+        "existing_customer_check_status": "passed",
+        "existing_customer_check": {
+          "existing_customer_check_status": "passed",
+          "matched_customer_id": null,
+          "matched_canonical_name": null,
+          "matched_alias_name": null,
+          "match_type": null,
+          "reason": "no signed customer match"
+        },
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "宁波太平鸟时尚服饰股份有限公司",
+        "reason": "same prospect_id update is allowed",
+        "matched_entity_id": "entity_9e39c8f7",
+        "matched_entity_name": "宁波太平鸟时尚服饰股份有限公司",
+        "matched_prospect_id": "m127r_peacebird",
+        "signed_customer_match": null
+      }
+    ],
+    "write_executed": true,
+    "summary": {
+      "trusted_pool_count": 58,
+      "share_view_count": 19,
+      "source_trace_count": 58,
+      "trusted_match_ready_count": 57,
+      "persona_count": 9,
+      "old_workbook_write_enabled": false,
+      "knowledge_asset_write_enabled": false,
+      "persona_registry_write_enabled": false,
+      "no_write_proof_ok": true,
+      "static_level_counts": {
+        "L1": 34,
+        "L2": 23,
+        "L4": 1
+      },
+      "canonical_update_source": "M181R_signed_customer_remediation_v2",
+      "runner": "production_evidence_loop",
+      "existing_customer_removed_count": 5,
+      "signed_customer_v2_gate_applied": true
+    }
+  },
+  "source_trace_update": {
+    "path": "deliveries/archive/milestones/milestone47r_trusted_pool_product/source_trace_index_v1.json",
+    "before_count": 63,
+    "after_count": 58,
+    "removed_count": 5,
+    "removed_items": [
+      {
+        "prospect_id": "m85r_nonlisted_kuafood",
+        "company_name": "北京万皮思食品科技有限公司",
+        "matched_persona": "fnb_chain_standardized",
+        "source_count": 3,
+        "sources": [
+          {
+            "source_type": "official_site",
+            "source_category": "official_owned",
+            "source_locator": "https://www.kuafood.com/",
+            "evidence_strength": "official_site",
+            "supports_dimension": "icp_match_support:official_owned",
+            "summary": "北京万皮思食品科技有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+            "locator_hardening": {
+              "source_locator": "https://www.kuafood.com/",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://www.kuafood.com/",
+              "content_type": "text/html; charset=UTF-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          },
+          {
+            "source_type": "official_channel_page",
+            "source_category": "platform_operating_fact",
+            "source_locator": "https://www.kuafood.com/brand",
+            "evidence_strength": "official_channel_page",
+            "supports_dimension": "icp_match_support:chain_standardization,store_network",
+            "summary": "夸父品牌页披露连锁、供应与数字化经营特征。",
+            "locator_hardening": {
+              "source_locator": "https://www.kuafood.com/brand",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://www.kuafood.com/brand",
+              "content_type": "text/html; charset=UTF-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          },
+          {
+            "source_type": "financing_news",
+            "source_category": "authoritative_third_party",
+            "source_locator": "https://www.pencilnews.cn/p/39109.html",
+            "evidence_strength": "authoritative_media",
+            "supports_dimension": "icp_match_support:financing_and_chain_growth",
+            "summary": "铅笔道报道夸父融资、门店增长与数字化运营。",
+            "locator_hardening": {
+              "source_locator": "https://www.pencilnews.cn/p/39109.html",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://www.pencilnews.cn/p/39109.html",
+              "content_type": "text/html; charset=utf-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          }
+        ],
+        "verified_source_count": 3,
+        "added_by_milestone": "M88R",
+        "source_locator_hardened": true
+      },
+      {
+        "prospect_id": "m85r_nonlisted_more_yogurt",
+        "company_name": "上海伯邑餐饮管理有限公司",
+        "matched_persona": "fnb_chain_beverage_coffee",
+        "source_count": 2,
+        "sources": [
+          {
+            "source_type": "official_site",
+            "source_category": "official_owned",
+            "source_locator": "https://more-yogurt.com/index/about",
+            "evidence_strength": "official_site",
+            "supports_dimension": "icp_match_support:official_owned",
+            "summary": "上海伯邑餐饮管理有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+            "locator_hardening": {
+              "source_locator": "https://more-yogurt.com/index/about",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://more-yogurt.com/index/about",
+              "content_type": "text/html; charset=utf-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          },
+          {
+            "source_type": "official_channel_page",
+            "source_category": "platform_operating_fact",
+            "source_locator": "https://more-yogurt.com/index/about",
+            "evidence_strength": "official_channel_page",
+            "supports_dimension": "icp_match_support:chain_store_operations",
+            "summary": "茉酸奶官网关于品牌与门店加盟信息。",
+            "locator_hardening": {
+              "source_locator": "https://more-yogurt.com/index/about",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://more-yogurt.com/index/about",
+              "content_type": "text/html; charset=utf-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          }
+        ],
+        "verified_source_count": 2,
+        "added_by_milestone": "M88R",
+        "source_locator_hardened": true
+      },
+      {
+        "prospect_id": "m85r_nonlisted_babycare",
+        "company_name": "杭州贝咖实业有限公司",
+        "matched_persona": "retail_high_sku_brand",
+        "source_count": 2,
+        "sources": [
+          {
+            "source_type": "official_site",
+            "source_category": "official_owned",
+            "source_locator": "https://www.babycare.com/",
+            "evidence_strength": "official_site",
+            "supports_dimension": "icp_match_support:official_owned",
+            "summary": "杭州贝咖实业有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+            "locator_hardening": {
+              "source_locator": "https://www.babycare.com/",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://www.babycare.com/",
+              "content_type": "text/html; charset=UTF-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          },
+          {
+            "source_type": "industry_research",
+            "source_category": "authoritative_third_party",
+            "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+            "evidence_strength": "industry_research",
+            "supports_dimension": "icp_match_support:brand_product_matrix,offline_store",
+            "summary": "行业研究报告提及 Babycare 产品、门店与融资信息。",
+            "locator_hardening": {
+              "source_locator": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://www.idigital.com.cn/nfs/reports/47572dee8d15c9751e4d/09523fa6df4d6190ee92.pdf",
+              "content_type": "application/pdf",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          }
+        ],
+        "verified_source_count": 2,
+        "added_by_milestone": "M88R",
+        "source_locator_hardened": true
+      },
+      {
+        "prospect_id": "m85r_nonlisted_kkv",
+        "company_name": "广东快客电子商务有限公司",
+        "matched_persona": "retail_multi_store",
+        "source_count": 2,
+        "sources": [
+          {
+            "source_type": "official_site",
+            "source_category": "official_owned",
+            "source_locator": "https://www.kkguan.com/",
+            "evidence_strength": "official_site",
+            "supports_dimension": "icp_match_support:official_owned",
+            "summary": "广东快客电子商务有限公司 官方/品牌入口，用于支撑公司事实与 ICP 初判。",
+            "locator_hardening": {
+              "source_locator": "https://www.kkguan.com/",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://www.kkgroup.cn/zh-CN",
+              "content_type": "text/html;charset=utf-8",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          },
+          {
+            "source_type": "industry_research",
+            "source_category": "authoritative_third_party",
+            "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+            "evidence_strength": "industry_research",
+            "supports_dimension": "icp_match_support:multi_store_retail,sku_matrix",
+            "summary": "行业报告提及 KKV/KK 集团多品牌零售与门店扩张。",
+            "locator_hardening": {
+              "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+              "availability_status": "verified",
+              "verified": true,
+              "status_code": 200,
+              "final_url": "https://pdf.dfcfw.com/pdf/H3_AP202209061578070249_1.pdf",
+              "content_type": "application/pdf",
+              "method": "HEAD",
+              "error": ""
+            },
+            "added_by_milestone": "M88R"
+          }
+        ],
+        "verified_source_count": 2,
+        "added_by_milestone": "M88R",
+        "source_locator_hardened": true
+      },
+      {
+        "prospect_id": "m127r_peacebird",
+        "company_name": "宁波太平鸟时尚服饰股份有限公司",
+        "sources": [
+          {
+            "source_type": "official_site",
+            "source_category": "official_owned",
+            "source_locator": "https://www.peacebird.com.cn/",
+            "evidence_strength": "official_site",
+            "supports_dimension": "icp_match_support:brand_product_matrix,multi_store_retail,official_owned",
+            "summary": "太平鸟集团官网介绍品牌发展、时尚设计、全网营销等业务特征。"
+          },
+          {
+            "source_type": "official_store",
+            "source_category": "platform_operating_fact",
+            "source_locator": "https://shop.peacebird.com/",
+            "evidence_strength": "official_store",
+            "supports_dimension": "icp_match_support:brand_product_matrix,platform_operating_fact",
+            "summary": "PEACEBIRD 官方线上店铺展示品牌商品与线上经营事实。"
+          },
+          {
+            "source_type": "annual_report",
+            "source_category": "regulatory_or_capital_market",
+            "source_locator": "https://static.cninfo.com.cn/finalpage/2025-03-28/1222923564.PDF",
+            "evidence_strength": "annual_report",
+            "supports_dimension": "listed_company_disclosure,brand_product_matrix,icp_match_support",
+            "summary": "太平鸟 2024 年年度报告披露公司业务与经营情况。"
+          }
+        ]
+      }
+    ],
+    "write_executed": true,
+    "summary": {
+      "source_trace_count": 58,
+      "canonical_update_source": "M181R_signed_customer_remediation_v2",
+      "existing_customer_removed_count": 5,
+      "signed_customer_v2_gate_applied": true
+    }
+  },
+  "share_view_update": {
+    "path": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_share_view_v1.json",
+    "before_count": 19,
+    "after_count": 19,
+    "removed_count": 0,
+    "removed_items": [],
+    "write_executed": true
+  },
+  "package_update": {
+    "path": "deliveries/archive/milestones/milestone47r_trusted_pool_product/milestone47r_trusted_pool_product_package_v1.json",
+    "package_exists": true,
+    "changes": {
+      "trusted_prospect_pool_v1": {
+        "before_count": 19,
+        "after_count": 19,
+        "removed_count": 0,
+        "removed_items": []
+      },
+      "trusted_prospect_share_view": {
+        "before_count": 19,
+        "after_count": 19,
+        "removed_count": 0,
+        "removed_items": []
+      },
+      "source_trace_index": {
+        "before_count": 19,
+        "after_count": 19,
+        "removed_count": 0,
+        "removed_items": []
+      }
+    },
+    "write_executed": true
+  },
+  "vault_update": {
+    "candidate_file_count": 5,
+    "removal_manifest": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京万皮思食品科技有限公司.md",
+        "file_name": "北京万皮思食品科技有限公司.md",
+        "folder": "01-L1 ICP强匹配档案",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md",
+        "file_name": "宁波太平鸟时尚服饰股份有限公司.md",
+        "folder": "01-L1 ICP强匹配档案",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海伯邑餐饮管理有限公司.md",
+        "file_name": "上海伯邑餐饮管理有限公司.md",
+        "folder": "02-L2正式潜客档案",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东快客电子商务有限公司.md",
+        "file_name": "广东快客电子商务有限公司.md",
+        "folder": "02-L2正式潜客档案",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/杭州贝咖实业有限公司.md",
+        "file_name": "杭州贝咖实业有限公司.md",
+        "folder": "02-L2正式潜客档案",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      }
+    ],
+    "write_executed": true,
+    "removed_files": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京万皮思食品科技有限公司.md",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海伯邑餐饮管理有限公司.md",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东快客电子商务有限公司.md",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/杭州贝咖实业有限公司.md",
+        "reason": "signed_customer_v2_excluded_from_new_prospect_user_entry"
+      }
+    ],
+    "edited_indexes": [
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L2正式档案索引.md",
+        "removed_line_count": 3
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/L1 ICP强匹配索引.md",
+        "removed_line_count": 1
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source trace index.md",
+        "removed_line_count": 4
+      },
+      {
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source Trace Browser.md",
+        "removed_line_count": 14
+      }
+    ]
+  },
+  "post_hits": {
+    "trusted_pool_hit_count": 0,
+    "vault_hit_count": 0,
+    "trusted_pool_hits": [],
+    "vault_hits": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batch_id": "m181r_expert_review_report_v1",
+  "milestone": "M181R",
+  "generated_at": "2026-05-04T06:47:07.919510+00:00",
+  "status": "pass",
+  "summary": {
+    "product_review_status": "pass",
+    "architecture_review_status": "pass",
+    "data_governance_review_status": "pass",
+    "target_count": 5,
+    "pre_trusted_pool_hit_count": 5,
+    "post_trusted_pool_hit_count": 0,
+    "pre_vault_hit_count": 5,
+    "post_vault_hit_count": 0,
+    "followup_count": 0
+  },
+  "product_review": {
+    "status": "pass",
+    "evidence": "命中签约老客已从新潜客用户入口移除。",
+    "followups": []
+  },
+  "architecture_review": {
+    "status": "pass",
+    "evidence": "remediation 由 M180 preview 驱动，canonical pool/source trace/share/package/vault 同步更新。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "evidence": "不写旧 Excel、不写知识资产、不改 persona registry；删除动作保留 manifest。"
+  }
+}
