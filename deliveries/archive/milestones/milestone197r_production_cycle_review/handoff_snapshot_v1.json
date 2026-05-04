@@ -1,0 +1,44 @@
+{
+  "milestone": "M197R",
+  "generated_at": "2026-05-04T09:32:43.006351+00:00",
+  "status": "PASS_M197R_PRODUCTION_CYCLE_REVIEW",
+  "current_state": {
+    "trusted_pool_count": 74,
+    "source_trace_count": 74,
+    "level_counts": {
+      "L1": 34,
+      "L2": 39,
+      "L4": 1
+    },
+    "signed_customer_count": 1059,
+    "signed_customer_alias_count": 2088,
+    "entity_count": 1154,
+    "source_category_counts": {
+      "official_owned": 70,
+      "regulatory_or_capital_market": 94,
+      "authoritative_third_party": 11,
+      "internal_or_legacy_reference": 30,
+      "platform_operating_fact": 11
+    },
+    "missing_source_trace_count": 0,
+    "missing_source_trace_samples": [],
+    "l1_vault_file_count": 34,
+    "l2_vault_file_count": 69,
+    "l3_vault_file_count": 29,
+    "l4_vault_file_count": 0,
+    "l5_vault_file_count": 0
+  },
+  "next_commands": [
+    "python3 scripts/businessmaster_pipeline.py --mode readiness",
+    "python3 scripts/businessmaster_pipeline.py --mode production --dry-run",
+    "python3 scripts/build_m197r_production_cycle_review.py",
+    "M198: build next candidate discovery batch"
+  ],
+  "hard_boundaries": [
+    "不写旧 Excel",
+    "不从潜客写知识资产",
+    "不从潜客写 persona registry",
+    "不引入动态经营字段",
+    "signed customer v2 是候选前置闸门"
+  ]
+}

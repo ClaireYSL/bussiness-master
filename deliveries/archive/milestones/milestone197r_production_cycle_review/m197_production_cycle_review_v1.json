@@ -1,0 +1,55 @@
+{
+  "milestone": "M197R",
+  "generated_at": "2026-05-04T09:32:42.496566+00:00",
+  "status": "PASS_PRODUCTION_CYCLE_REVIEW_READY",
+  "cycle_scope": "M190-M196 candidate discovery -> evidence acquisition -> static promote -> trusted pool/vault publish",
+  "current_state": {
+    "trusted_pool_count": 74,
+    "source_trace_count": 74,
+    "level_counts": {
+      "L1": 34,
+      "L2": 39,
+      "L4": 1
+    },
+    "signed_customer_count": 1059,
+    "signed_customer_alias_count": 2088,
+    "entity_count": 1154,
+    "source_category_counts": {
+      "official_owned": 70,
+      "regulatory_or_capital_market": 94,
+      "authoritative_third_party": 11,
+      "internal_or_legacy_reference": 30,
+      "platform_operating_fact": 11
+    },
+    "missing_source_trace_count": 0,
+    "missing_source_trace_samples": [],
+    "l1_vault_file_count": 34,
+    "l2_vault_file_count": 69,
+    "l3_vault_file_count": 29,
+    "l4_vault_file_count": 0,
+    "l5_vault_file_count": 0
+  },
+  "cycle_funnel": {
+    "m190_discovered_tasks": 30,
+    "m190_source_collection_pending": 16,
+    "m190_blocked_or_review": 14,
+    "m191_report_only_ready": 15,
+    "m191_source_collection_pending_after_collection": 1,
+    "m192_l3_report_only": 15,
+    "m194_l2_preview": 14,
+    "m196_final_new_batch_l3_remaining": 0
+  },
+  "production_interpretation": [
+    "候选发现入口恢复：M190 生成 30 条任务，并通过 signed customer v2 / duplicate gate 分流。",
+    "公开 evidence 采集可工作：16 条可采集任务中 15 条进入 report_only_ready。",
+    "静态升层可持续运转：15 条先进入 L3，再通过第二来源补证全部推进到 L2。",
+    "老客排除仍为硬闸门：当前 trusted pool/vault 老客命中为 0，signed customer v2 是默认来源。"
+  ],
+  "hard_boundaries": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "customer_case_used_as_prospect_evidence": false,
+    "dynamic_sales_fields_used": false
+  }
+}

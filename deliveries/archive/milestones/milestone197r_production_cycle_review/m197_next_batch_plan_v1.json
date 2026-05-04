@@ -1,0 +1,35 @@
+{
+  "milestone": "M197R",
+  "generated_at": "2026-05-04T09:32:42.496862+00:00",
+  "status": "READY_FOR_M198_NEXT_CANDIDATE_DISCOVERY_BATCH",
+  "recommended_next_milestone": "M198R",
+  "recommended_goal": "学习/画像驱动的新一轮候选发现，不重复使用已被老客/重复闸门拦截的 M190 存量任务。",
+  "current_pool_snapshot": {
+    "trusted_pool_count": 74,
+    "level_counts": {
+      "L1": 34,
+      "L2": 39,
+      "L4": 1
+    },
+    "signed_customer_count": 1059,
+    "old_customer_hits": 0
+  },
+  "next_batch_policy": [
+    "从 canonical knowledge/persona source gap 和未消费学习队列中抽取新 seed，不从客户案例标题直接当候选。",
+    "候选必须先做 entity resolution、signed customer v2 gate、duplicate existing prospect gate。",
+    "进入 source_collection_pending 的任务必须有明确 source category 缺口和公开来源采集路径。",
+    "M198 只生成候选和 backlog；M199 再做公开 evidence 采集；M200 再做 report-only/update。"
+  ],
+  "do_not_reuse_as_prospect_tasks": {
+    "excluded_signed_customer_count": 0,
+    "duplicate_existing_prospect_count": 0,
+    "boundary_review_count": 0,
+    "samples": []
+  },
+  "target_for_next_batch": {
+    "candidate_task_target": "30-50",
+    "source_collection_pending_target": "15-25",
+    "report_only_ready_target_after_evidence": "10-20",
+    "quality_priority": "老客/重复/非公司名拦截优先于数量。"
+  }
+}

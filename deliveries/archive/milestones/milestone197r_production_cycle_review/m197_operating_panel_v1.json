@@ -1,0 +1,25 @@
+{
+  "milestone": "M197R",
+  "generated_at": "2026-05-04T09:32:43.006127+00:00",
+  "status": "PASS_M197R_PRODUCTION_CYCLE_REVIEW",
+  "summary": {
+    "trusted_pool_count": 74,
+    "level_counts": {
+      "L1": 34,
+      "L2": 39,
+      "L4": 1
+    },
+    "cycle_funnel": {
+      "m190_discovered_tasks": 30,
+      "m190_source_collection_pending": 16,
+      "m190_blocked_or_review": 14,
+      "m191_report_only_ready": 15,
+      "m191_source_collection_pending_after_collection": 1,
+      "m192_l3_report_only": 15,
+      "m194_l2_preview": 14,
+      "m196_final_new_batch_l3_remaining": 0
+    },
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "学习/画像驱动的新一轮候选发现，不重复使用已被老客/重复闸门拦截的 M190 存量任务。"
+}
