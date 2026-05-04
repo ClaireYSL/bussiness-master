@@ -1,10 +1,10 @@
 {
   "registry_id": "signed_customer_alias_registry_v1",
-  "generated_at": "2026-05-04T04:25:49.309759+00:00",
+  "generated_at": "2026-05-04T04:54:42.880590+00:00",
   "source_milestone": "M131R",
   "summary": {
-    "alias_count": 23,
-    "active_alias_count": 23
+    "alias_count": 24,
+    "active_alias_count": 24
   },
   "items": [
     {
@@ -254,6 +254,17 @@
       "alias_name": "森马服饰",
       "customer_id": "legacy_customer_semir",
       "canonical_name": "浙江森马服饰股份有限公司",
+      "alias_type": "market_or_group_name",
+      "status": "active",
+      "source_note": "generated_from_signed_customer_registry",
+      "note": "canonical signed customer alias for exclusion gate",
+      "source_locator": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/治理与证据.xlsx"
+    },
+    {
+      "alias_id": "signed_alias_legacy_customer_guoquan_16107b6a",
+      "alias_name": "锅圈",
+      "customer_id": "legacy_customer_guoquan",
+      "canonical_name": "锅圈食品（上海）股份有限公司",
       "alias_type": "market_or_group_name",
       "status": "active",
       "source_note": "generated_from_signed_customer_registry",

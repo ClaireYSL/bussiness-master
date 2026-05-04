@@ -8,7 +8,7 @@ M131-M135 已将已签约老客 registry 与 alias 维护纳入 evidence-first �
 
 - 状态：`PASS`
 - 签约客户数：`10`
-- alias 数：`23`
+- alias 数：`24`
 - 当前 trusted pool 命中老客：`0`
 - 当前 vault 命中老客页面：`0`
 

@@ -166,6 +166,12 @@ def build_m131() -> dict[str, Any]:
     by_id = {item["customer_id"]: item for item in customers}
     for customer in by_id.values():
         alias_names = {customer.get("canonical_name"), customer.get("contract_entity"), customer.get("market_name"), customer.get("group_name"), *(customer.get("aliases") or [])}
+        # 部分消费品牌在日常交流中会省略后缀，例如“锅圈食汇”常被简称为“锅圈”。
+        # 这里仅从已确认签约客户别名派生短品牌名，用于老客排除，不反向确认新签约关系。
+        for existing_name in list(alias_names):
+            text = str(existing_name or "").strip()
+            if text.endswith("食汇") and len(text) > 2:
+                alias_names.add(text[:-2])
         for name in sorted(x for x in alias_names if x):
             alias_id = stable_id("signed_alias", f"{customer['customer_id']}::{name}")
             if not any(a.get("alias_id") == alias_id or (a.get("customer_id") == customer["customer_id"] and a.get("alias_name") == name) for a in aliases):

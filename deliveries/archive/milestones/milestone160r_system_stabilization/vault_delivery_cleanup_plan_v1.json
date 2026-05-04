@@ -1,0 +1,1826 @@
+{
+  "batch_id": "M160R-vault-delivery-cleanup-plan-v1",
+  "milestone": "M160R",
+  "generated_at": "2026-05-04T04:54:59.710229+00:00",
+  "status": "PASS_PLAN_READY",
+  "scope": "仅治理新可信池正区、索引、source trace browser 与重复展示；不物理删除 legacy 历史文件。",
+  "vault_root": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案",
+  "vault_file_counts": {
+    "L1": 36,
+    "L2": 56,
+    "L3": 29,
+    "L4": 0,
+    "L5": 0
+  },
+  "canonical_level_counts": {
+    "L1": 36,
+    "L2": 26,
+    "L4": 1
+  },
+  "duplicate_display_count": 47,
+  "stale_level_page_count": 59,
+  "noncanonical_page_count": 2,
+  "legacy_entry_candidate_count": 125,
+  "duplicate_pages": [
+    {
+      "company_name": "三只松鼠股份有限公司",
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/三只松鼠股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/三只松鼠股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "中饮巴比食品股份有限公司",
+      "prospect_id": "m68r_acc_babi",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/中饮巴比食品股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/中饮巴比食品股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/中饮巴比食品股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "九毛九国际控股有限公司",
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/九毛九国际控股有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/九毛九国际控股有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "prospect_id": "m44r_prospect_botanee",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/云南贝泰妮生物科技集团股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云南贝泰妮生物科技集团股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "云米科技有限公司",
+      "prospect_id": "m44r_prospect_viomi",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/云米科技有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云米科技有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "北京石头世纪科技股份有限公司",
+      "prospect_id": "m44r_prospect_roborock",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京石头世纪科技股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/北京石头世纪科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "华熙生物科技股份有限公司",
+      "prospect_id": "m68r_acc_bloomage",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/华熙生物科技股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/华熙生物科技股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/华熙生物科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "周大生珠宝股份有限公司",
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/周大生珠宝股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/周大生珠宝股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "四川百茶百道实业股份有限公司",
+      "prospect_id": "m44r_prospect_chabaidao",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/四川百茶百道实业股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/四川百茶百道实业股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "小熊电器股份有限公司",
+      "prospect_id": "m44r_prospect_bear",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/小熊电器股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/小熊电器股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "广东小熊电器股份有限公司",
+      "prospect_id": "m68r_acc_bear",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/广东小熊电器股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东小熊电器股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广东小熊电器股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "恒林家居股份有限公司",
+      "prospect_id": "m68r_acc_henglin",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/恒林家居股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/恒林家居股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/恒林家居股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "拓斯达科技股份有限公司",
+      "prospect_id": "m68r_acc_topstar",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/拓斯达科技股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/拓斯达科技股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/拓斯达科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "星华新材股份有限公司",
+      "prospect_id": "m68r_acc_xinghua",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/星华新材股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/星华新材股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "星徽股份有限公司",
+      "prospect_id": "m68r_acc_skshu",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/星徽股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/星徽股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "朗科智能电气股份有限公司",
+      "prospect_id": "m68r_acc_longood",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/朗科智能电气股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/朗科智能电气股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "步步高商业连锁股份有限公司",
+      "prospect_id": "m68r_acc_bbg",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/步步高商业连锁股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/步步高商业连锁股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/步步高商业连锁股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "水羊集团股份有限公司",
+      "prospect_id": "m44r_prospect_syoung",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/水羊集团股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/水羊集团股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "永艺家具股份有限公司",
+      "prospect_id": "m68r_acc_uechairs",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/永艺家具股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/永艺家具股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/永艺家具股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "江苏恒辉安防股份有限公司",
+      "prospect_id": "m68r_acc_hengansecurity",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/江苏恒辉安防股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/江苏恒辉安防股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "泰鹏智能家居股份有限公司",
+      "prospect_id": "m68r_acc_taipeng",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/泰鹏智能家居股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/泰鹏智能家居股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江华生科技股份有限公司",
+      "prospect_id": "m68r_acc_washin",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江华生科技股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江华生科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "prospect_id": "m68r_acc_haers",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/浙江哈尔斯真空器皿股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江哈尔斯真空器皿股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江哈尔斯真空器皿股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江恒威电池股份有限公司",
+      "prospect_id": "m68r_acc_hengwei",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江恒威电池股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江恒威电池股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江恒林椅业股份有限公司",
+      "prospect_id": "m68r_acc_hlin",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江恒林椅业股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江恒林椅业股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "prospect_id": "m68r_acc_mingxin",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江明新旭腾新材料股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江明新旭腾新材料股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江梦天木作家居有限公司",
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江梦天木作家居有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江梦天木作家居有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江正特股份有限公司",
+      "prospect_id": "m68r_acc_patio",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/浙江正特股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江正特股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江正特股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江正裕工业股份有限公司",
+      "prospect_id": "m68r_acc_zhengyu",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江正裕工业股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江正裕工业股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江永强集团股份有限公司",
+      "prospect_id": "m68r_acc_yotrio",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/浙江永强集团股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江永强集团股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江永强集团股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江海利得新材料股份有限公司",
+      "prospect_id": "m68r_acc_hailide",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江海利得新材料股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江海利得新材料股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "prospect_id": "m68r_acc_shengtai",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江盛泰服装集团股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江盛泰服装集团股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江野马电池股份有限公司",
+      "prospect_id": "m68r_acc_mustangbat",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江野马电池股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江野马电池股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "prospect_id": "m68r_acc_yayi",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江雅艺金属科技股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江雅艺金属科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "海象新材料股份有限公司",
+      "prospect_id": "m68r_acc_haixiang",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/海象新材料股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/海象新材料股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "prospect_id": "m68r_acc_santai",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/深圳市三态电子商务股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市三态电子商务股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市三态电子商务股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "prospect_id": "m68r_acc_jame",
+      "canonical_level": "L2",
+      "display_locations": [
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市杰美特科技股份有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市杰美特科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "深圳市赛维网络科技有限公司",
+      "prospect_id": "m68r_acc_sailvan",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/深圳市赛维网络科技有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市赛维网络科技有限公司.md"
+        },
+        {
+          "level": "L3",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市赛维网络科技有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "prospect_id": "m44r_prospect_pagoda",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/深圳百果园实业集团股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳百果园实业集团股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "焦点科技股份有限公司",
+      "prospect_id": "m44r_prospect_focus_tech",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/焦点科技股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/焦点科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "瑞幸咖啡有限公司",
+      "prospect_id": "m44r_prospect_luckin",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/瑞幸咖啡有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/瑞幸咖啡有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "盐津铺子食品股份有限公司",
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/盐津铺子食品股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/盐津铺子食品股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "稳健医疗用品股份有限公司",
+      "prospect_id": "m44r_prospect_winner_medical",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/稳健医疗用品股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/稳健医疗用品股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "绝味食品股份有限公司",
+      "prospect_id": "m44r_prospect_juewei",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/绝味食品股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/绝味食品股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "赛维时代科技股份有限公司",
+      "prospect_id": "m44r_prospect_sailvan",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/赛维时代科技股份有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/赛维时代科技股份有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "逸仙控股有限公司",
+      "prospect_id": "m44r_prospect_yatsen",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/逸仙控股有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/逸仙控股有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    },
+    {
+      "company_name": "霸王茶姬控股有限公司",
+      "prospect_id": "m44r_prospect_chagee",
+      "canonical_level": "L1",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/霸王茶姬控股有限公司.md"
+        },
+        {
+          "level": "L2",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/霸王茶姬控股有限公司.md"
+        }
+      ],
+      "recommended_action": "保留 canonical level 对应入口；其他入口降为交叉引用或后续受控移除。"
+    }
+  ],
+  "stale_level_pages": [
+    {
+      "company_name": "三只松鼠股份有限公司",
+      "prospect_id": "m44r_prospect_three_squirrels",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/三只松鼠股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "中饮巴比食品股份有限公司",
+      "prospect_id": "m68r_acc_babi",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/中饮巴比食品股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "中饮巴比食品股份有限公司",
+      "prospect_id": "m68r_acc_babi",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/中饮巴比食品股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "九毛九国际控股有限公司",
+      "prospect_id": "m44r_prospect_jiumaojiu",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/九毛九国际控股有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "云南贝泰妮生物科技集团股份有限公司",
+      "prospect_id": "m44r_prospect_botanee",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云南贝泰妮生物科技集团股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "云米科技有限公司",
+      "prospect_id": "m44r_prospect_viomi",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云米科技有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "北京石头世纪科技股份有限公司",
+      "prospect_id": "m44r_prospect_roborock",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/北京石头世纪科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "华熙生物科技股份有限公司",
+      "prospect_id": "m68r_acc_bloomage",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/华熙生物科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "华熙生物科技股份有限公司",
+      "prospect_id": "m68r_acc_bloomage",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/华熙生物科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "周大生珠宝股份有限公司",
+      "prospect_id": "m44r_prospect_chowtaiseng",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/周大生珠宝股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "四川百茶百道实业股份有限公司",
+      "prospect_id": "m44r_prospect_chabaidao",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/四川百茶百道实业股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "小熊电器股份有限公司",
+      "prospect_id": "m44r_prospect_bear",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/小熊电器股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "广东小熊电器股份有限公司",
+      "prospect_id": "m68r_acc_bear",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东小熊电器股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "广东小熊电器股份有限公司",
+      "prospect_id": "m68r_acc_bear",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广东小熊电器股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "恒林家居股份有限公司",
+      "prospect_id": "m68r_acc_henglin",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/恒林家居股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "恒林家居股份有限公司",
+      "prospect_id": "m68r_acc_henglin",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/恒林家居股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "拓斯达科技股份有限公司",
+      "prospect_id": "m68r_acc_topstar",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/拓斯达科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "拓斯达科技股份有限公司",
+      "prospect_id": "m68r_acc_topstar",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/拓斯达科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "星华新材股份有限公司",
+      "prospect_id": "m68r_acc_xinghua",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/星华新材股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "星徽股份有限公司",
+      "prospect_id": "m68r_acc_skshu",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/星徽股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "朗科智能电气股份有限公司",
+      "prospect_id": "m68r_acc_longood",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/朗科智能电气股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "步步高商业连锁股份有限公司",
+      "prospect_id": "m68r_acc_bbg",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/步步高商业连锁股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "步步高商业连锁股份有限公司",
+      "prospect_id": "m68r_acc_bbg",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/步步高商业连锁股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "水羊集团股份有限公司",
+      "prospect_id": "m44r_prospect_syoung",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/水羊集团股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "永艺家具股份有限公司",
+      "prospect_id": "m68r_acc_uechairs",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/永艺家具股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "永艺家具股份有限公司",
+      "prospect_id": "m68r_acc_uechairs",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/永艺家具股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "江苏恒辉安防股份有限公司",
+      "prospect_id": "m68r_acc_hengansecurity",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/江苏恒辉安防股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "泰鹏智能家居股份有限公司",
+      "prospect_id": "m68r_acc_taipeng",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/泰鹏智能家居股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江华生科技股份有限公司",
+      "prospect_id": "m68r_acc_washin",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江华生科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "prospect_id": "m68r_acc_haers",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江哈尔斯真空器皿股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江哈尔斯真空器皿股份有限公司",
+      "prospect_id": "m68r_acc_haers",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江哈尔斯真空器皿股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江恒威电池股份有限公司",
+      "prospect_id": "m68r_acc_hengwei",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江恒威电池股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江恒林椅业股份有限公司",
+      "prospect_id": "m68r_acc_hlin",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江恒林椅业股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江明新旭腾新材料股份有限公司",
+      "prospect_id": "m68r_acc_mingxin",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江明新旭腾新材料股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江梦天木作家居有限公司",
+      "prospect_id": "m68r_acc_mengtian_wood",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江梦天木作家居有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江正特股份有限公司",
+      "prospect_id": "m68r_acc_patio",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江正特股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江正特股份有限公司",
+      "prospect_id": "m68r_acc_patio",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江正特股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江正裕工业股份有限公司",
+      "prospect_id": "m68r_acc_zhengyu",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江正裕工业股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江永强集团股份有限公司",
+      "prospect_id": "m68r_acc_yotrio",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江永强集团股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江永强集团股份有限公司",
+      "prospect_id": "m68r_acc_yotrio",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江永强集团股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江海利得新材料股份有限公司",
+      "prospect_id": "m68r_acc_hailide",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江海利得新材料股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江盛泰服装集团股份有限公司",
+      "prospect_id": "m68r_acc_shengtai",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江盛泰服装集团股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江野马电池股份有限公司",
+      "prospect_id": "m68r_acc_mustangbat",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江野马电池股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "浙江雅艺金属科技股份有限公司",
+      "prospect_id": "m68r_acc_yayi",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江雅艺金属科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "海象新材料股份有限公司",
+      "prospect_id": "m68r_acc_haixiang",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/海象新材料股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "prospect_id": "m68r_acc_santai",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市三态电子商务股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "深圳市三态电子商务股份有限公司",
+      "prospect_id": "m68r_acc_santai",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市三态电子商务股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "深圳市杰美特科技股份有限公司",
+      "prospect_id": "m68r_acc_jame",
+      "canonical_level": "L2",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市杰美特科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "深圳市赛维网络科技有限公司",
+      "prospect_id": "m68r_acc_sailvan",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市赛维网络科技有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "深圳市赛维网络科技有限公司",
+      "prospect_id": "m68r_acc_sailvan",
+      "canonical_level": "L1",
+      "actual_level_folder": "L3",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市赛维网络科技有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "深圳百果园实业集团股份有限公司",
+      "prospect_id": "m44r_prospect_pagoda",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳百果园实业集团股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "焦点科技股份有限公司",
+      "prospect_id": "m44r_prospect_focus_tech",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/焦点科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "瑞幸咖啡有限公司",
+      "prospect_id": "m44r_prospect_luckin",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/瑞幸咖啡有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "盐津铺子食品股份有限公司",
+      "prospect_id": "m44r_prospect_yanjinpuzi",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/盐津铺子食品股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "稳健医疗用品股份有限公司",
+      "prospect_id": "m44r_prospect_winner_medical",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/稳健医疗用品股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "绝味食品股份有限公司",
+      "prospect_id": "m44r_prospect_juewei",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/绝味食品股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "赛维时代科技股份有限公司",
+      "prospect_id": "m44r_prospect_sailvan",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/赛维时代科技股份有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "逸仙控股有限公司",
+      "prospect_id": "m44r_prospect_yatsen",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/逸仙控股有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    },
+    {
+      "company_name": "霸王茶姬控股有限公司",
+      "prospect_id": "m44r_prospect_chagee",
+      "canonical_level": "L1",
+      "actual_level_folder": "L2",
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/霸王茶姬控股有限公司.md",
+      "recommended_action": "不立即删除；先在用户入口隐藏或在下轮 vault cleanup 中受控处理。"
+    }
+  ],
+  "noncanonical_pages": [
+    {
+      "company_name": "三立人(深圳)科技有限公司",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/三立人（深圳）科技有限公司.md"
+        }
+      ],
+      "recommended_action": "未命中 canonical trusted pool；仅保留为 legacy/待核验引用，不作为默认用户入口。"
+    },
+    {
+      "company_name": "小佩网络科技(上海)有限公司",
+      "display_locations": [
+        {
+          "level": "L1",
+          "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/小佩网络科技（上海）有限公司.md"
+        }
+      ],
+      "recommended_action": "未命中 canonical trusted pool；仅保留为 legacy/待核验引用，不作为默认用户入口。"
+    }
+  ],
+  "legacy_entry_candidates": [
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云米科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/小熊电器股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江恒林椅业股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/霸王茶姬控股有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/海象新材料股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/逸仙控股有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/江苏恒辉安防股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/赛维时代科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市三态电子商务股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳美西西餐饮管理有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江海利得新材料股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/星华新材股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江盛泰服装集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海芯果科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/九毛九国际控股有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/自然堂集团.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/北京石头世纪科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市赛维网络科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/拓斯达科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江正裕工业股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳市杰美特科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江明新旭腾新材料股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/焦点科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/四川百茶百道实业股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/恒林家居股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/盐津铺子食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江野马电池股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江梦天木作家居有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/稳健医疗用品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/华熙生物科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/三只松鼠股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/绝味食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江永强集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/泰鹏智能家居股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/宜春赵一鸣食品科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江雅艺金属科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/深圳百果园实业集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/孩子王儿童用品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/永艺家具股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江恒威电池股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/上海伯邑餐饮管理有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/水羊集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江哈尔斯真空器皿股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广州极男化妆品有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江正特股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/浙江华生科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/周大生珠宝股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东快客电子商务有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/步步高商业连锁股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/中饮巴比食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/杭州贝咖实业有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/星徽股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/云南贝泰妮生物科技集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/朗科智能电气股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/瑞幸咖啡有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/02-L2正式潜客档案/广东小熊电器股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/云米科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/小熊电器股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京万皮思食品科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/霸王茶姬控股有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/逸仙控股有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/赛维时代科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/深圳市三态电子商务股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/安踏体育用品有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/三立人（深圳）科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/九毛九国际控股有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/北京石头世纪科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/深圳市赛维网络科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/拓斯达科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/焦点科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/四川百茶百道实业股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/恒林家居股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/盐津铺子食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/稳健医疗用品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/华熙生物科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/三只松鼠股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/绝味食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/浙江永强集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/深圳百果园实业集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/永艺家具股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/湖南鸣鸣很忙商业连锁股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/小佩网络科技（上海）有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/水羊集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/浙江哈尔斯真空器皿股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/浙江正特股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/周大生珠宝股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/宁波太平鸟时尚服饰股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/步步高商业连锁股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/中饮巴比食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/云南贝泰妮生物科技集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/瑞幸咖啡有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/01-L1 ICP强匹配档案/广东小熊电器股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/M57R-L2业务反馈模板.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Legacy-L1旧入口占位.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source Trace Browser.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/可信潜客池工作台.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江恒林椅业股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/海象新材料股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/江苏恒辉安防股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市三态电子商务股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江海利得新材料股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/星华新材股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江盛泰服装集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市赛维网络科技有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/拓斯达科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江正裕工业股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市杰美特科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江明新旭腾新材料股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/恒林家居股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江野马电池股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江梦天木作家居有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/华熙生物科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江永强集团股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/泰鹏智能家居股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江雅艺金属科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/永艺家具股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江恒威电池股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江哈尔斯真空器皿股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江正特股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江华生科技股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/步步高商业连锁股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/中饮巴比食品股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/星徽股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/朗科智能电气股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    },
+    {
+      "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广东小熊电器股份有限公司.md",
+      "recommended_action": "只作为 legacy reference，不能作为新可信池事实源。"
+    }
+  ],
+  "no_delete_performed": true,
+  "next_action": "优先统一默认入口与索引显示；若要删除重复页面，需另跑带 removal manifest 的受控清理。"
+}

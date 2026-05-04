@@ -1,6 +1,6 @@
 {
   "batch_id": "signed_customer_update_template_v1",
-  "generated_at": "2026-05-04T04:25:49.317424+00:00",
+  "generated_at": "2026-05-04T04:54:42.888905+00:00",
   "required_fields": [
     "canonical_name",
     "signed_status",

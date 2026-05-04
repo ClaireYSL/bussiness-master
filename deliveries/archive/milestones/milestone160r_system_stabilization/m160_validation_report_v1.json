@@ -1,0 +1,54 @@
+{
+  "batch_id": "M160R-validation-report-v1",
+  "milestone": "M160R",
+  "generated_at": "2026-05-04T04:54:59.991930+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "readiness_pass": true,
+    "readiness_read_only_pass": true,
+    "production_dry_run_pass": true,
+    "signed_customer_regression_pass": true,
+    "duplicate_existing_prospect_pass": true,
+    "customer_case_boundary_pass": true,
+    "source_trace_browser_l1_l2_pass": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "expert_review_allows_publish": true,
+    "no_delete_performed": true
+  },
+  "json_errors": [],
+  "readiness_stdout_tail": "{\n  \"mode\": \"readiness\",\n  \"status\": \"PASS\",\n  \"results\": [\n    {\n      \"cmd\": [\n        \"python3\",\n        \"scripts/build_m160r_system_stabilization.py\",\n        \"--stage\",\n        \"readiness\"\n      ],\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"mode\\\": \\\"readiness\\\",\\n  \\\"milestone\\\": \\\"M160R\\\",\\n  \\\"generated_at\\\": \\\"2026-05-04T04:54:59.900304+00:00\\\",\\n  \\\"status\\\": \\\"PASS\\\",\\n  \\\"read_only\\\": true,\\n  \\\"summary\\\": {\\n    \\\"trusted_pool_count\\\": 63,\\n    \\\"source_trace_count\\\": 63,\\n    \\\"level_counts\\\": {\\n      \\\"L1\\\": 36,\\n      \\\"L2\\\": 26,\\n      \\\"L4\\\": 1\\n    },\\n    \\\"m150_expert_review_status\\\": \\\"pass_with_followups\\\",\\n    \\\"m150_followup_count\\\": 1,\\n    \\\"m150_readiness_summary\\\": {\\n      \\\"trusted_pool_count\\\": 63,\\n      \\\"level_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 26,\\n        \\\"L4\\\": 1\\n      },\\n      \\\"source_trace_count\\\": 63,\\n      \\\"knowledge_asset_count\\\": 40,\\n      \\\"persona_count\\\": 8,\\n      \\\"signed_customer_count\\\": 10,\\n      \\\"signed_customer_alias_count\\\": 23,\\n      \\\"account_entity_count\\\": 100,\\n      \\\"customer_case_reference_count\\\": 24,\\n      \\\"vault_file_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 57,\\n        \\\"L3\\\": 29,\\n        \\\"L4\\\": 1,\\n        \\\"L5\\\": 1\\n      },\\n      \\\"readiness_source_milestones\\\": [\\n        \\\"M130R\\\",\\n        \\\"M135R\\\",\\n        \\\"M141R\\\"\\n      ],\\n      \\\"m130_status\\\": \\\"PASS\\\",\\n      \\\"m135_status\\\": \\\"PASS\\\",\\n      \\\"m141_status\\\": \\\"PASS\\\",\\n      \\\"legacy_excel_fact_source\\\": false\\n    }\\n  },\\n  \\\"next_action\\\": \\\"如需写产物，请运行 production 或显式 M160 all；readiness 本身不写任何 tracked JSON。\\\"\\n}\\n\",\n      \"stderr\": \"\"\n    }\n  ]\n}\n",
+  "readiness_stderr_tail": "",
+  "readiness_status_before": " M deliveries/archive/milestones/milestone131r_signed_customer_registry/signed_customer_alias_registry_v1.json\n M deliveries/archive/milestones/milestone131r_signed_customer_registry/signed_customer_import_review_v1.json\n M deliveries/archive/milestones/milestone131r_signed_customer_registry/signed_customer_registry_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/blocked_existing_customer_candidates_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/boundary_review_queue_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/signed_customer_gate_policy_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/signed_customer_gate_regression_v1.json\n M deliveries/archive/milestones/milestone133r_existing_customer_audit/existing_customer_audit_report_v1.json\n M deliveries/archive/milestones/milestone133r_existing_customer_audit/existing_customer_remediation_package_v1.json\n M deliveries/archive/milestones/milestone134r_signed_customer_maintenance/signed_customer_registry_update_policy_v1.json\n M deliveries/archive/milestones/milestone134r_signed_customer_maintenance/signed_customer_update_template_v1.json\n M deliveries/archive/milestones/milestone135r_production_gate_hardening/handoff_snapshot_m135_v1.json\n M deliveries/archive/milestones/milestone135r_production_gate_hardening/m135r_production_gate_hardening_v1.json\n M deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json\n M deliveries/canonical/businessmaster/signed_customer_alias_registry_v1.json\n M deliveries/canonical/businessmaster/signed_customer_registry_v1.json\n M \"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/BusinessMaster-M131-M135\\347\\255\\276\\347\\272\\246\\350\\200\\201\\345\\256\\242\\351\\227\\270\\351\\227\\250\\345\\244\\215\\347\\233\\230-v1.md\"\n M scripts/build_m131r_m135_signed_customer_registry.py\n M scripts/businessmaster_pipeline.py\n?? deliveries/archive/milestones/milestone160r_system_stabilization/\n?? \"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/BusinessMaster-M160\\347\\224\\237\\344\\272\\247\\347\\263\\273\\347\\273\\237\\347\\250\\263\\345\\256\\232\\345\\214\\226\\345\\244\\215\\347\\233\\230-v1.md\"\n?? scripts/build_m160r_system_stabilization.py\n",
+  "readiness_status_after": " M deliveries/archive/milestones/milestone131r_signed_customer_registry/signed_customer_alias_registry_v1.json\n M deliveries/archive/milestones/milestone131r_signed_customer_registry/signed_customer_import_review_v1.json\n M deliveries/archive/milestones/milestone131r_signed_customer_registry/signed_customer_registry_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/blocked_existing_customer_candidates_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/boundary_review_queue_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/signed_customer_gate_policy_v1.json\n M deliveries/archive/milestones/milestone132r_signed_customer_gate/signed_customer_gate_regression_v1.json\n M deliveries/archive/milestones/milestone133r_existing_customer_audit/existing_customer_audit_report_v1.json\n M deliveries/archive/milestones/milestone133r_existing_customer_audit/existing_customer_remediation_package_v1.json\n M deliveries/archive/milestones/milestone134r_signed_customer_maintenance/signed_customer_registry_update_policy_v1.json\n M deliveries/archive/milestones/milestone134r_signed_customer_maintenance/signed_customer_update_template_v1.json\n M deliveries/archive/milestones/milestone135r_production_gate_hardening/handoff_snapshot_m135_v1.json\n M deliveries/archive/milestones/milestone135r_production_gate_hardening/m135r_production_gate_hardening_v1.json\n M deliveries/archive/milestones/milestone56r_trusted_pool_status_panel/trusted_pool_status_panel_v1.json\n M deliveries/canonical/businessmaster/signed_customer_alias_registry_v1.json\n M deliveries/canonical/businessmaster/signed_customer_registry_v1.json\n M \"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/BusinessMaster-M131-M135\\347\\255\\276\\347\\272\\246\\350\\200\\201\\345\\256\\242\\351\\227\\270\\351\\227\\250\\345\\244\\215\\347\\233\\230-v1.md\"\n M scripts/build_m131r_m135_signed_customer_registry.py\n M scripts/businessmaster_pipeline.py\n?? deliveries/archive/milestones/milestone160r_system_stabilization/\n?? \"docs/00-\\345\\275\\223\\345\\211\\215\\346\\200\\273\\350\\247\\210/BusinessMaster-M160\\347\\224\\237\\344\\272\\247\\347\\263\\273\\347\\273\\237\\347\\250\\263\\345\\256\\232\\345\\214\\226\\345\\244\\215\\347\\233\\230-v1.md\"\n?? scripts/build_m160r_system_stabilization.py\n",
+  "production_dry_run_stdout_tail": "{\n  \"mode\": \"production\",\n  \"generated_at\": \"2026-05-04T04:54:59.955171+00:00\",\n  \"commands\": [\n    [\n      \"python3\",\n      \"scripts/build_m120r_m125_sustainable_production_system.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-canonical-registry-update\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m131r_m135_signed_customer_registry.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m137r_m141_cross_asset_readiness.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m126r_m130_production_evidence_loop.py\",\n      \"--stage\",\n      \"all\",\n      \"--allow-trusted-pool-update\",\n      \"--allow-vault-regular-write\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m150r_production_loop_hardening.py\",\n      \"--stage\",\n      \"all\"\n    ],\n    [\n      \"python3\",\n      \"scripts/build_m160r_system_stabilization.py\",\n      \"--stage\",\n      \"all\"\n    ]\n  ],\n  \"current_status\": {\n    \"latest_milestone\": \"M160R\",\n    \"overall_status\": \"PASS_M160R_SYSTEM_STABILIZED\",\n    \"counts\": {\n      \"trusted_pool_count\": 63,\n      \"l1_count\": 36,\n      \"l2_count\": 26,\n      \"l3_count\": 0,\n      \"l4_count\": 1,\n      \"l5_count\": 0,\n      \"identity_ready_count\": 3,\n      \"public_evidence_candidate_count\": 3,\n      \"excluded_learning_case_count\": 22,\n      \"excluded_existing_customer_count\": 0,\n      \"signed_customer_boundary_review_count\": 0,\n      \"vault_regular_write_count\": 3,\n      \"m150_evidence_ready_count\": 0,\n      \"m150_report_only_ready_count\": 0,\n      \"m150_vault_published_count\": 3,\n      \"m150_expert_review_followup_count\": 1,\n      \"m160_vault_duplicate_display_count\": 47,\n      \"m160_l1_l2_missing_source_trace_count\": 0,\n      \"m160_backlog_actionable_next_count\": 1,\n      \"signed_customer_count\": 10,\n      \"signed_customer_alias_count\": 24,\n      \"existing_customer_trusted_pool_hit_count\": 0\n    }\n  }\n}\n",
+  "signed_customer_regression_statuses": {
+    "百胜中国": "excluded_existing_customer",
+    "珀莱雅": "excluded_existing_customer",
+    "上海家化": "excluded_existing_customer",
+    "森马": "excluded_existing_customer",
+    "特步": "excluded_existing_customer",
+    "海澜之家": "excluded_existing_customer",
+    "锅圈": "excluded_existing_customer",
+    "来伊份": "excluded_existing_customer",
+    "天味食品": "excluded_existing_customer",
+    "水星家纺": "excluded_existing_customer"
+  },
+  "duplicate_probe_status": "duplicate_existing_prospect",
+  "dynamic_term_findings": [],
+  "secret_findings": [],
+  "compile_result": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m160r_system_stabilization.py",
+      "scripts/businessmaster_pipeline.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

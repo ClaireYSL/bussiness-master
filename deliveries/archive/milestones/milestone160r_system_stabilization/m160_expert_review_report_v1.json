@@ -1,0 +1,100 @@
+{
+  "batch_id": "M160R-expert-review-report-v1",
+  "milestone": "M160R",
+  "generated_at": "2026-05-04T04:54:59.712156+00:00",
+  "status": "pass_with_followups",
+  "summary": {
+    "product_review_status": "pass_with_followups",
+    "architecture_review_status": "pass",
+    "data_governance_review_status": "pass",
+    "vault_publish_allowed": true,
+    "followup_count": 1
+  },
+  "product_review": {
+    "status": "pass_with_followups",
+    "checklist": [
+      {
+        "item": "用户可从 vault 判断是不是 ICP、为什么、证据够不够",
+        "status": "pass",
+        "evidence": "Source Trace Browser 已生成，L1/L2 source trace 覆盖可检查。"
+      },
+      {
+        "item": "默认入口不依赖旧 Excel/旧共享版",
+        "status": "pass",
+        "evidence": "M160 仅读取 canonical trusted pool + source trace。"
+      },
+      {
+        "item": "物理重复和入口噪音",
+        "status": "followup",
+        "evidence": "duplicate=47, stale=59"
+      }
+    ],
+    "followups": [
+      "vault 新可信池仍存在物理重复或 stale level 页面；M160 已产出 cleanup plan，但未执行删除。"
+    ]
+  },
+  "architecture_review": {
+    "status": "pass",
+    "checklist": [
+      {
+        "item": "readiness 只读",
+        "status": "pass",
+        "evidence": "由 validation 的 git status 前后对比证明。"
+      },
+      {
+        "item": "pipeline 模式清晰",
+        "status": "pass",
+        "evidence": "readiness 只读；production 写产物；M160 all 用于显式稳定化。"
+      },
+      {
+        "item": "写入 guard 完整",
+        "status": "pass",
+        "evidence": "trusted pool/vault/legacy 写入仍由既有 guard 控制。"
+      }
+    ]
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "checklist": [
+      {
+        "item": "source trace 可浏览",
+        "status": "pass",
+        "evidence": {
+          "trusted_pool_count": 63,
+          "l1_l2_count": 62,
+          "l1_l2_missing_source_trace_count": 0,
+          "source_category_counts": {
+            "official_owned": 40,
+            "regulatory_or_capital_market": 50,
+            "authoritative_third_party": 12,
+            "internal_or_legacy_reference": 30,
+            "platform_operating_fact": 11
+          },
+          "vault_browser_path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/00-索引与说明/Source Trace Browser.md"
+        }
+      },
+      {
+        "item": "signed customer/entity/customer case 边界仍成立",
+        "status": "pass",
+        "evidence": "validation regression 覆盖。"
+      },
+      {
+        "item": "no-contamination",
+        "status": "pass",
+        "evidence": "本阶段不写旧 Excel、不写知识资产、不改 persona registry。"
+      }
+    ]
+  },
+  "backlog_summary": {
+    "task_count": 26,
+    "state_counts": {
+      "excluded": 22,
+      "vault_published": 3,
+      "identity_pending": 1
+    },
+    "actionable_next_count": 1,
+    "identity_pending_count": 1,
+    "source_collection_pending_count": 0,
+    "evidence_ready_count": 0
+  }
+}

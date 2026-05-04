@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T04:25:50.434511+00:00",
-  "overall_status": "PASS_M150R_PRODUCTION_LOOP_HARDENED",
+  "generated_at": "2026-05-04T04:54:59.716129+00:00",
+  "overall_status": "PASS_M160R_SYSTEM_STABILIZED",
   "counts": {
     "trusted_pool_count": 63,
     "l1_count": 36,
@@ -17,7 +17,13 @@
     "m150_evidence_ready_count": 0,
     "m150_report_only_ready_count": 0,
     "m150_vault_published_count": 3,
-    "m150_expert_review_followup_count": 1
+    "m150_expert_review_followup_count": 1,
+    "m160_vault_duplicate_display_count": 47,
+    "m160_l1_l2_missing_source_trace_count": 0,
+    "m160_backlog_actionable_next_count": 1,
+    "signed_customer_count": 10,
+    "signed_customer_alias_count": 24,
+    "existing_customer_trusted_pool_hit_count": 0
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -37,7 +43,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M150R",
+  "latest_milestone": "M160R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -54,7 +60,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "M150 已将生产闭环硬化为 v1；下一轮优先补 identity_pending/source_collection_pending，而不是直接扩大规模。",
+  "canonical_next_action": "按 evidence acquisition backlog v2 处理 identity_pending/source_collection_pending；用户层优先按 cleanup plan 收口重复入口。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -832,7 +838,7 @@
   },
   "signed_customer_gate": {
     "signed_customer_count": 10,
-    "signed_customer_alias_count": 23,
+    "signed_customer_alias_count": 24,
     "regression_blocked_ok": true,
     "regression_non_hit_ok": true,
     "missing_signed_customer_check_update_blocked": true,
@@ -940,5 +946,19 @@
     "data_governance_review_status": "pass",
     "vault_publish_allowed": true,
     "followup_count": 1
+  },
+  "m160r_system_stabilization": {
+    "status": "PASS_M160R_SYSTEM_STABILIZED",
+    "vault_duplicate_display_count": 47,
+    "vault_stale_level_page_count": 59,
+    "source_trace_browser_status": "PASS_BROWSER_READY",
+    "l1_l2_missing_source_trace_count": 0,
+    "backlog_state_counts": {
+      "excluded": 22,
+      "vault_published": 3,
+      "identity_pending": 1
+    },
+    "expert_review_status": "pass_with_followups",
+    "readiness_read_only_required": true
   }
 }
