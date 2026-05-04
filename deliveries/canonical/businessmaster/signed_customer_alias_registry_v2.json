@@ -1,12 +1,14 @@
 {
   "registry_id": "signed_customer_alias_registry_v2",
-  "generated_at": "2026-05-04T06:22:47.712794+00:00",
+  "generated_at": "2026-05-04T07:35:04.286041+00:00",
   "source_milestone": "M180R",
   "summary": {
-    "alias_count": 2078,
-    "active_alias_count": 2078,
+    "alias_count": 2088,
+    "active_alias_count": 2088,
     "source_registry": "signed_customer_registry_v2",
-    "conservative_alias_policy": true
+    "conservative_alias_policy": true,
+    "m187_added_alias_count": 0,
+    "last_hotfix_source": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix"
   },
   "items": [
     {
@@ -22866,6 +22868,126 @@
       "source_type": "historical_cooperation_list",
       "source_locator": "/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx",
       "risk_level": "conservative"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_3e69128ed6",
+      "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "canonical_name": "Lily服饰",
+      "alias_name": "Lily服饰",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：Lily服饰为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_95307423bc",
+      "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "canonical_name": "Lily服饰",
+      "alias_name": "LILY服饰",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：Lily服饰为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_2732aae131",
+      "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "canonical_name": "Lily服饰",
+      "alias_name": "Lily",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：Lily服饰为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_c35b7eb1df",
+      "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "canonical_name": "Lily服饰",
+      "alias_name": "LILY",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：Lily服饰为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_926f51d6e7",
+      "customer_id": "signed_customer_user_confirmed_3635b16473",
+      "canonical_name": "乐凯撒",
+      "alias_name": "乐凯撒",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：乐凯撒为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_42d6890268",
+      "customer_id": "signed_customer_user_confirmed_3635b16473",
+      "canonical_name": "乐凯撒",
+      "alias_name": "乐凯撒披萨",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：乐凯撒为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_a876210ff5",
+      "customer_id": "signed_customer_user_confirmed_3635b16473",
+      "canonical_name": "乐凯撒",
+      "alias_name": "乐凯撒Pizza",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：乐凯撒为存量签约客户。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_49ae36f287",
+      "customer_id": "signed_customer_浙江零跑科技股份有限公司_d7c6665fb0",
+      "canonical_name": "浙江零跑科技股份有限公司",
+      "alias_name": "零跑汽车",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：零跑汽车为存量签约客户；主名单已有浙江零跑科技股份有限公司。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_49fda698f4",
+      "customer_id": "signed_customer_浙江零跑科技股份有限公司_d7c6665fb0",
+      "canonical_name": "浙江零跑科技股份有限公司",
+      "alias_name": "零跑",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：零跑汽车为存量签约客户；主名单已有浙江零跑科技股份有限公司。",
+      "risk_level": "user_confirmed"
+    },
+    {
+      "alias_id": "signed_alias_user_confirmed_c77ae94fe5",
+      "customer_id": "signed_customer_浙江零跑科技股份有限公司_d7c6665fb0",
+      "canonical_name": "浙江零跑科技股份有限公司",
+      "alias_name": "Leapmotor",
+      "alias_type": "user_confirmed_brand_alias",
+      "status": "active",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：零跑汽车为存量签约客户；主名单已有浙江零跑科技股份有限公司。",
+      "risk_level": "user_confirmed"
     }
   ]
 }

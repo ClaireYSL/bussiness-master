@@ -1,0 +1,17 @@
+{
+  "milestone": "M187R",
+  "generated_at": "2026-05-04T07:35:04.450408+00:00",
+  "status": "PASS_M187R_SIGNED_CUSTOMER_ALIAS_HOTFIX",
+  "summary": {
+    "signed_customer_v2_count": 1059,
+    "signed_customer_alias_v2_count": 2088,
+    "added_customer_count": 0,
+    "added_alias_count": 0,
+    "source_collection_pending_count": 0,
+    "backlog_state_counts": {
+      "excluded": 8,
+      "eligibility_blocked": 18
+    }
+  },
+  "next_recommended_action": "当前 backlog 无可采集新潜客；进入 M188 重新从学习/画像生成新候选，或继续补签约客户 alias。"
+}

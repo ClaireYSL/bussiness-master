@@ -1,0 +1,17 @@
+{
+  "milestone": "M187R",
+  "generated_at": "2026-05-04T07:35:04.450325+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "用户确认的存量客户不再进入新潜客 evidence acquisition。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "signed customer v2 registry/alias 通过显式 guard 更新，并重建 backlog。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "本轮只写 signed customer registry/alias 与 backlog，不写 trusted pool、source trace、vault、knowledge/persona registry。"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "registry_id": "signed_customer_registry_v2",
-  "generated_at": "2026-05-04T06:22:47.697665+00:00",
+  "generated_at": "2026-05-04T07:35:04.285775+00:00",
   "source_milestone": "M180R",
   "summary": {
-    "confirmed_signed_customer_count": 1057,
+    "confirmed_signed_customer_count": 1059,
     "primary_historical_customer_count": 1051,
     "supplemental_legacy_customer_count": 6,
     "source_path": "/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx",
@@ -11,7 +11,11 @@
     "old_excel_written": false,
     "trusted_pool_written": false,
     "knowledge_asset_registry_written": false,
-    "persona_registry_written": false
+    "persona_registry_written": false,
+    "supplemental_user_confirmed_customer_count": 2,
+    "m187_added_customer_count": 0,
+    "m187_added_alias_count": 0,
+    "last_hotfix_source": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix"
   },
   "items": [
     {
@@ -13780,6 +13784,32 @@
       "last_verified_at": "2026-05-04T06:22:47.692910+00:00",
       "exclusion_scope": "exclude_from_static_pool",
       "source_priority": "primary"
+    },
+    {
+      "row_index": null,
+      "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "canonical_name": "Lily服饰",
+      "signed_status": "confirmed_signed_customer",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：Lily服饰为存量签约客户。",
+      "first_signed_quarter": null,
+      "last_verified_at": "2026-05-04T07:34:07.593622+00:00",
+      "exclusion_scope": "exclude_from_static_pool",
+      "source_priority": "supplemental_user_confirmed"
+    },
+    {
+      "row_index": null,
+      "customer_id": "signed_customer_user_confirmed_3635b16473",
+      "canonical_name": "乐凯撒",
+      "signed_status": "confirmed_signed_customer",
+      "source_type": "user_confirmed_signed_customer_hotfix",
+      "source_locator": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+      "source_note": "用户确认：乐凯撒为存量签约客户。",
+      "first_signed_quarter": null,
+      "last_verified_at": "2026-05-04T07:34:07.593820+00:00",
+      "exclusion_scope": "exclude_from_static_pool",
+      "source_priority": "supplemental_user_confirmed"
     }
   ]
 }

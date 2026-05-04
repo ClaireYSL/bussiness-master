@@ -1,0 +1,30 @@
+{
+  "milestone": "M187R",
+  "generated_at": "2026-05-04T07:35:04.300775+00:00",
+  "source": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix",
+  "added_customers": [],
+  "added_aliases": [],
+  "registry_summary": {
+    "confirmed_signed_customer_count": 1059,
+    "primary_historical_customer_count": 1051,
+    "supplemental_legacy_customer_count": 6,
+    "source_path": "/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx",
+    "source_sheet": "历年合作列表",
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "supplemental_user_confirmed_customer_count": 2,
+    "m187_added_customer_count": 0,
+    "m187_added_alias_count": 0,
+    "last_hotfix_source": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix"
+  },
+  "alias_summary": {
+    "alias_count": 2088,
+    "active_alias_count": 2088,
+    "source_registry": "signed_customer_registry_v2",
+    "conservative_alias_policy": true,
+    "m187_added_alias_count": 0,
+    "last_hotfix_source": "user_confirmation://2026-05-04/m187_signed_customer_alias_hotfix"
+  }
+}
