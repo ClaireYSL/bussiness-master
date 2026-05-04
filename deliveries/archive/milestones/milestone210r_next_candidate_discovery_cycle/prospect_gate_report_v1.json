@@ -1,0 +1,309 @@
+{
+  "milestone": "M210R",
+  "generated_at": "2026-05-04T10:45:05.295112+00:00",
+  "summary": {
+    "task_count": 35,
+    "state_counts": {
+      "eligibility_blocked": 12,
+      "source_collection_pending": 23
+    },
+    "eligibility_status_counts": {
+      "excluded_signed_customer": 11,
+      "eligible_prospect": 23,
+      "boundary_review": 1
+    },
+    "source_collection_pending_count": 23,
+    "eligibility_blocked_count": 12,
+    "excluded_signed_customer_count": 11,
+    "duplicate_existing_prospect_count": 0,
+    "boundary_review_count": 1,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "items": [
+    {
+      "task_id": "m210_task_282f5fe3ddd2",
+      "candidate_name": "毛戈平化妆品股份有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_c904a7cba7f8",
+      "candidate_name": "上海百秋尚美科技服务集团股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_11eb2cc4a6ac",
+      "candidate_name": "广州环亚化妆品科技股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_9b57718ff578",
+      "candidate_name": "广州逸仙电子商务有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_b86578e919e8",
+      "candidate_name": "上海上美化妆品股份有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_e5e7c824ca48",
+      "candidate_name": "地素时尚股份有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_a41f6e9d0052",
+      "candidate_name": "江南布衣有限公司",
+      "signed_customer_status": "boundary_review",
+      "prospect_eligibility_status": "boundary_review",
+      "task_state": "eligibility_blocked",
+      "reason": "possible signed customer alias overlap"
+    },
+    {
+      "task_id": "m210_task_d3498b3afe74",
+      "candidate_name": "赢家时尚控股有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_7d1c0e85434d",
+      "candidate_name": "比音勒芬服饰股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_859a87d98d9a",
+      "candidate_name": "深圳歌力思服饰股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_a34c46b01419",
+      "candidate_name": "快尚时装（广州）有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_63f639244bec",
+      "candidate_name": "上海得物信息集团有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_748b1a20942d",
+      "candidate_name": "深圳市绿联科技股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_02ff075aea7f",
+      "candidate_name": "深圳市倍思科技有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_2f9ca072bf28",
+      "candidate_name": "广东德尔玛科技股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_72a0a2db5ffe",
+      "candidate_name": "云鲸智能创新（深圳）有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_6e6640789898",
+      "candidate_name": "小狗电器互联网科技（北京）股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_6e77b1190461",
+      "candidate_name": "深圳市倍轻松科技股份有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_192abb151bd3",
+      "candidate_name": "浙江大华技术股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_d250e1c7ff28",
+      "candidate_name": "杭州海康威视数字技术股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_94fc9ae9d9a2",
+      "candidate_name": "库迪科技（天津）有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_641ff4cf2f83",
+      "candidate_name": "上海沪上阿姨餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_87ff54e1a658",
+      "candidate_name": "四川书亦餐饮管理有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_edd4abe347f3",
+      "candidate_name": "安徽老乡鸡餐饮股份有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_be8fa80eb1e8",
+      "candidate_name": "乡村基（重庆）投资有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_419ffc22f200",
+      "candidate_name": "湖南费大厨餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_ab3d6459dc8d",
+      "candidate_name": "北京夸父餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_55d36bcce336",
+      "candidate_name": "南京大牌档美食文化有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_7d9fddf4f43d",
+      "candidate_name": "七分甜餐饮管理（上海）有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_27500e83a43c",
+      "candidate_name": "上海陈香贵餐饮管理有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_b65394f33ff4",
+      "candidate_name": "厦门见福连锁管理有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    },
+    {
+      "task_id": "m210_task_8716c805106f",
+      "candidate_name": "广东天福连锁商业集团有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_f321d4b30e60",
+      "candidate_name": "罗森（中国）投资有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_9dad5623f692",
+      "candidate_name": "十月稻田集团股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "source_collection_pending",
+      "reason": "passed eligibility gate"
+    },
+    {
+      "task_id": "m210_task_1e72afee9763",
+      "candidate_name": "锅圈食品（上海）股份有限公司",
+      "signed_customer_status": "excluded_existing_customer",
+      "prospect_eligibility_status": "excluded_signed_customer",
+      "task_state": "eligibility_blocked",
+      "reason": "matched signed customer registry"
+    }
+  ]
+}

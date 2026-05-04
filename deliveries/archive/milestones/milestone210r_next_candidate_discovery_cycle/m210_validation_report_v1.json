@@ -1,0 +1,193 @@
+{
+  "milestone": "M210R",
+  "generated_at": "2026-05-04T10:45:05.619088+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "readiness_pass": true,
+    "candidate_task_count_30_to_40": true,
+    "source_collection_pending_15_to_25": true,
+    "signed_customer_blocks_present": true,
+    "every_pending_is_eligible": true,
+    "every_pending_has_source_categories": true,
+    "signed_customer_gate_v2_applied": true,
+    "blocked_not_in_pending": true,
+    "signed_customer_regression_samples_blocked": true,
+    "customer_case_not_prospect_evidence": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_write_proof_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m210r_next_candidate_discovery_cycle.py",
+      "shared/static_pool/prospect_eligibility_gate.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 3,
+    "errors": []
+  },
+  "readiness": {
+    "returncode": 0,
+    "stdout_tail": "{\\n      \\\"L1\\\": 46,\\n      \\\"L2\\\": 46,\\n      \\\"L4\\\": 1\\n    },\\n    \\\"m150_expert_review_status\\\": \\\"pass_with_followups\\\",\\n    \\\"m150_followup_count\\\": 1,\\n    \\\"historical_m150_readiness_summary\\\": {\\n      \\\"trusted_pool_count\\\": 63,\\n      \\\"level_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 26,\\n        \\\"L4\\\": 1\\n      },\\n      \\\"source_trace_count\\\": 63,\\n      \\\"knowledge_asset_count\\\": 40,\\n      \\\"persona_count\\\": 8,\\n      \\\"signed_customer_count\\\": 10,\\n      \\\"signed_customer_alias_count\\\": 23,\\n      \\\"account_entity_count\\\": 100,\\n      \\\"customer_case_reference_count\\\": 24,\\n      \\\"vault_file_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 57,\\n        \\\"L3\\\": 29,\\n        \\\"L4\\\": 1,\\n        \\\"L5\\\": 1\\n      },\\n      \\\"readiness_source_milestones\\\": [\\n        \\\"M130R\\\",\\n        \\\"M135R\\\",\\n        \\\"M141R\\\"\\n      ],\\n      \\\"m130_status\\\": \\\"PASS\\\",\\n      \\\"m135_status\\\": \\\"PASS\\\",\\n      \\\"m141_status\\\": \\\"PASS\\\",\\n      \\\"legacy_excel_fact_source\\\": false\\n    },\\n    \\\"historical_snapshot_note\\\": \\\"M150/M160 nested readiness summaries are historical only; current canonical counts come from trusted pool/source trace.\\\"\\n  },\\n  \\\"next_action\\\": \\\"如需写产物，请运行 production 或显式 M160 all；readiness 本身不写任何 tracked JSON。\\\"\\n}\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"cmd\": [\n        \"python3\",\n        \"scripts/build_m180r_signed_customer_registry_v2.py\",\n        \"--stage\",\n        \"readiness\"\n      ],\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"mode\\\": \\\"readiness\\\",\\n  \\\"milestone\\\": \\\"M180R\\\",\\n  \\\"generated_at\\\": \\\"2026-05-04T10:45:05.579865+00:00\\\",\\n  \\\"status\\\": \\\"PASS\\\",\\n  \\\"read_only\\\": true,\\n  \\\"signed_customer_v2_enabled\\\": true,\\n  \\\"summary\\\": {\\n    \\\"signed_customer_v2_count\\\": 1059,\\n    \\\"signed_customer_alias_v2_count\\\": 2088,\\n    \\\"source_path\\\": \\\"/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx\\\",\\n    \\\"fallback_v1_available\\\": true\\n  }\\n}\\n\",\n      \"stderr\": \"\"\n    }\n  ]\n}\n"
+  },
+  "signed_customer_gate_regression": [
+    {
+      "name": "百胜中国",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "百胜中国",
+      "matched_customer_id": "signed_customer_百胜_中国_投资有限公司_3111f50a2d",
+      "matched_canonical_name": "百胜（中国）投资有限公司",
+      "matched_alias_name": "百胜中国",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "珀莱雅",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "珀莱雅",
+      "matched_customer_id": "signed_customer_珀莱雅化妆品股份有限公司_66f74ef5ec",
+      "matched_canonical_name": "珀莱雅化妆品股份有限公司",
+      "matched_alias_name": "珀莱雅",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "上海家化",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "上海家化",
+      "matched_customer_id": "signed_customer_上海家化联合股份有限公司_3e0c205876",
+      "matched_canonical_name": "上海家化联合股份有限公司",
+      "matched_alias_name": "上海家化",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "森马",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "森马",
+      "matched_customer_id": "legacy_customer_semir",
+      "matched_canonical_name": "浙江森马服饰股份有限公司",
+      "matched_alias_name": "森马",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "特步",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "特步",
+      "matched_customer_id": "legacy_customer_xtep",
+      "matched_canonical_name": "特步（中国）有限公司",
+      "matched_alias_name": "特步（中国）有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "海澜之家",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "海澜之家",
+      "matched_customer_id": "legacy_customer_hla",
+      "matched_canonical_name": "海澜之家集团股份有限公司",
+      "matched_alias_name": "海澜之家集团股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "锅圈",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "锅圈",
+      "matched_customer_id": "legacy_customer_guoquan",
+      "matched_canonical_name": "锅圈食品（上海）股份有限公司",
+      "matched_alias_name": "锅圈",
+      "match_type": "market_or_group_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "来伊份",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "来伊份",
+      "matched_customer_id": "signed_customer_上海来伊份股份有限公司_a7006e2d6e",
+      "matched_canonical_name": "上海来伊份股份有限公司",
+      "matched_alias_name": "来伊份",
+      "match_type": "legacy_customer_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "天味食品",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "天味食品",
+      "matched_customer_id": "legacy_customer_tianwei",
+      "matched_canonical_name": "天味食品股份有限公司",
+      "matched_alias_name": "天味食品股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "水星家纺",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "水星家纺",
+      "matched_customer_id": "legacy_customer_mercuryhome",
+      "matched_canonical_name": "水星家纺股份有限公司",
+      "matched_alias_name": "水星家纺股份有限公司",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "Lily服饰",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "Lily服饰",
+      "matched_customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "matched_canonical_name": "Lily服饰",
+      "matched_alias_name": "Lily服饰",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "乐凯撒",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "乐凯撒",
+      "matched_customer_id": "signed_customer_user_confirmed_3635b16473",
+      "matched_canonical_name": "乐凯撒",
+      "matched_alias_name": "乐凯撒",
+      "match_type": "canonical_name",
+      "reason": "exact_normalized_match"
+    },
+    {
+      "name": "零跑汽车",
+      "existing_customer_check_status": "excluded_existing_customer",
+      "candidate_name": "零跑汽车",
+      "matched_customer_id": "signed_customer_浙江零跑科技股份有限公司_d7c6665fb0",
+      "matched_canonical_name": "浙江零跑科技股份有限公司",
+      "matched_alias_name": "零跑汽车",
+      "match_type": "user_confirmed_brand_alias",
+      "reason": "exact_normalized_match"
+    }
+  ],
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

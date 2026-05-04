@@ -1,0 +1,40 @@
+{
+  "milestone": "M210R",
+  "generated_at": "2026-05-04T10:45:05.619890+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "M210 恢复下一轮新潜客候选输入；老客、重复和 boundary 不会进入 source collection。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "candidate discovery -> signed customer v2 -> eligibility gate 已成为 evidence acquisition 前置链路；本轮不写 canonical。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "知识/画像/客户案例只作为 ICP reference；候选 seed 不作为 evidence。"
+  },
+  "summary": {
+    "task_count": 35,
+    "state_counts": {
+      "eligibility_blocked": 12,
+      "source_collection_pending": 23
+    },
+    "eligibility_status_counts": {
+      "excluded_signed_customer": 11,
+      "eligible_prospect": 23,
+      "boundary_review": 1
+    },
+    "source_collection_pending_count": 23,
+    "eligibility_blocked_count": 12,
+    "excluded_signed_customer_count": 11,
+    "duplicate_existing_prospect_count": 0,
+    "boundary_review_count": 1,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}
