@@ -1,0 +1,31 @@
+{
+  "milestone": "M198R",
+  "generated_at": "2026-05-04T09:38:03.762477+00:00",
+  "status": "PASS_M198R_NEXT_CANDIDATE_DISCOVERY",
+  "summary": {
+    "task_count": 30,
+    "state_counts": {
+      "source_collection_pending": 25,
+      "eligibility_blocked": 4,
+      "identity_pending": 1
+    },
+    "eligibility_status_counts": {
+      "eligible_prospect": 26,
+      "duplicate_existing_prospect": 2,
+      "excluded_signed_customer": 2
+    },
+    "source_collection_pending_count": 25,
+    "eligibility_blocked_count": 4,
+    "excluded_signed_customer_count": 2,
+    "duplicate_existing_prospect_count": 2,
+    "boundary_review_count": 0,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M199：采集 source_collection_pending 的公开强来源。"
+}
