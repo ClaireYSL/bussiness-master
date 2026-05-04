@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-04T10:47:24.445235+00:00",
-  "overall_status": "PASS_M211R_PUBLIC_EVIDENCE_ACQUISITION",
+  "generated_at": "2026-05-04T10:48:28.252740+00:00",
+  "overall_status": "PASS_M212R_STATIC_PROMOTE_REPORT_ONLY",
   "counts": {
     "trusted_pool_count": 93,
     "l1_count": 46,
@@ -139,7 +139,12 @@
     "m211_input_source_collection_pending_count": 23,
     "m211_report_only_ready_count": 15,
     "m211_source_collection_pending_count": 8,
-    "m211_reachable_locator_count": 15
+    "m211_reachable_locator_count": 15,
+    "m212_report_only_candidate_count": 15,
+    "m212_l3_candidate_count": 15,
+    "m212_l2_candidate_count": 0,
+    "m212_l1_candidate_count": 0,
+    "m212_gap_queue_count": 60
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -159,7 +164,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M211R",
+  "latest_milestone": "M212R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -176,7 +181,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M200：对 M211 report_only_ready 输入执行静态升层 report-only 和 pool diff preview。",
+  "canonical_next_action": "进入 M201：基于 M212 pool diff preview 执行 guarded trusted pool update，或先补第二强来源提升 L2。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -2746,5 +2751,17 @@
       "source_trace_written": false,
       "vault_regular_area_written": false
     }
+  },
+  "m212r_static_promote_report_only": {
+    "generated_at": "2026-05-04T10:48:28.252760+00:00",
+    "status": "PASS",
+    "suggested_level_counts": {
+      "L3": 15
+    },
+    "decision_counts": {
+      "allow": 15
+    },
+    "gap_queue_count": 60,
+    "canonical_pool_updated": false
   }
 }

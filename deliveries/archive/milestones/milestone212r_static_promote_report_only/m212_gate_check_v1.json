@@ -1,0 +1,15 @@
+{
+  "report_id": "m212r_gate_check_v1",
+  "milestone": "M212R",
+  "generated_at": "2026-05-04T10:48:28.195525+00:00",
+  "summary": {
+    "baseline_match": true,
+    "baseline_mismatch_probe_failed": true,
+    "report_only_candidate_count": 15,
+    "non_block_candidate_count": 15,
+    "block_candidate_count": 0,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false
+  },
+  "blocked_candidates": []
+}

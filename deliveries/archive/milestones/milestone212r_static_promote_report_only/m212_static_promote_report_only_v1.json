@@ -1,0 +1,1474 @@
+{
+  "batch_id": "m212r_static_promote_report_only_v1",
+  "milestone": "M212R",
+  "generated_at": "2026-05-04T10:48:28.192572+00:00",
+  "mode": "report_only",
+  "candidate_signature": "6eb68ba74071f8535eb7d33b479b041b4d830c904b80ad905fdcdff1b6f45ecc",
+  "summary": {
+    "report_only_candidate_count": 15,
+    "decision_counts": {
+      "allow": 15
+    },
+    "suggested_level_counts": {
+      "L3": 15
+    },
+    "gap_queue_count": 60,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "candidates": [
+    {
+      "prospect_id": "m212_c904a7cba7f8",
+      "task_id": "m210_task_c904a7cba7f8",
+      "company_name": "上海百秋尚美科技服务集团股份有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "上海百秋尚美科技服务集团股份有限公司 的 source locator seed 为 https://www.buyquickly.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.buyquickly.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_11eb2cc4a6ac",
+      "task_id": "m210_task_11eb2cc4a6ac",
+      "company_name": "广州环亚化妆品科技股份有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "广州环亚化妆品科技股份有限公司 的 source locator seed 为 https://www.uniasia.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.uniasia.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_9b57718ff578",
+      "task_id": "m210_task_9b57718ff578",
+      "company_name": "广州逸仙电子商务有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "广州逸仙电子商务有限公司 的 source locator seed 为 https://www.yatsenglobal.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.yatsenglobal.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_859a87d98d9a",
+      "task_id": "m210_task_859a87d98d9a",
+      "company_name": "深圳歌力思服饰股份有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "深圳歌力思服饰股份有限公司 的 source locator seed 为 https://www.ellassay.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.ellassay.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_63f639244bec",
+      "task_id": "m210_task_63f639244bec",
+      "company_name": "上海得物信息集团有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "上海得物信息集团有限公司 的 source locator seed 为 https://www.dewu.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.dewu.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_748b1a20942d",
+      "task_id": "m210_task_748b1a20942d",
+      "company_name": "深圳市绿联科技股份有限公司",
+      "level": "L5",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "深圳市绿联科技股份有限公司 的 source locator seed 为 https://www.ugreen.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.ugreen.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_02ff075aea7f",
+      "task_id": "m210_task_02ff075aea7f",
+      "company_name": "深圳市倍思科技有限公司",
+      "level": "L5",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "深圳市倍思科技有限公司 的 source locator seed 为 https://www.baseus.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.baseus.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_2f9ca072bf28",
+      "task_id": "m210_task_2f9ca072bf28",
+      "company_name": "广东德尔玛科技股份有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "广东德尔玛科技股份有限公司 的 source locator seed 为 https://www.deerma.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.deerma.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_72a0a2db5ffe",
+      "task_id": "m210_task_72a0a2db5ffe",
+      "company_name": "云鲸智能创新（深圳）有限公司",
+      "level": "L5",
+      "matched_persona": "cbec_multi_platform_brand",
+      "match_reason": "云鲸智能创新（深圳）有限公司 的 source locator seed 为 https://www.narwal.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.narwal.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_6e6640789898",
+      "task_id": "m210_task_6e6640789898",
+      "company_name": "小狗电器互联网科技（北京）股份有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "小狗电器互联网科技（北京）股份有限公司 的 source locator seed 为 https://www.xgdq.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.xgdq.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_192abb151bd3",
+      "task_id": "m210_task_192abb151bd3",
+      "company_name": "浙江大华技术股份有限公司",
+      "level": "L5",
+      "matched_persona": "mfg_multi_factory_group",
+      "match_reason": "浙江大华技术股份有限公司 的 source locator seed 为 https://www.dahuatech.com/。该公开来源用于确认公司存在与静态 ICP 相关经营事实。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.dahuatech.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_d250e1c7ff28",
+      "task_id": "m210_task_d250e1c7ff28",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "level": "L5",
+      "matched_persona": "mfg_multi_factory_group",
+      "match_reason": "杭州海康威视数字技术股份有限公司 的 source locator seed 为 https://www.hikvision.com/。该公开来源用于确认公司存在与静态 ICP 相关经营事实。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.hikvision.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_94fc9ae9d9a2",
+      "task_id": "m210_task_94fc9ae9d9a2",
+      "company_name": "库迪科技（天津）有限公司",
+      "level": "L5",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "match_reason": "库迪科技（天津）有限公司 的 source locator seed 为 https://www.cotti.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.cotti.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_419ffc22f200",
+      "task_id": "m210_task_419ffc22f200",
+      "company_name": "湖南费大厨餐饮管理有限公司",
+      "level": "L5",
+      "matched_persona": "fnb_chain_standardized",
+      "match_reason": "湖南费大厨餐饮管理有限公司 的 source locator seed 为 https://www.feidachu.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.feidachu.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    },
+    {
+      "prospect_id": "m212_9dad5623f692",
+      "task_id": "m210_task_9dad5623f692",
+      "company_name": "十月稻田集团股份有限公司",
+      "level": "L5",
+      "matched_persona": "retail_high_sku_brand",
+      "match_reason": "十月稻田集团股份有限公司 的 source locator seed 为 https://www.shiyuedaotian.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M211 已完成首条公开强来源定位；M200 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M200 report-only 评估证据成熟度。",
+      "source_locator": "https://www.shiyuedaotian.com/",
+      "evidence_strength": "public_strong_source_locator",
+      "source_category": "official_owned",
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2",
+      "legacy_field_inherited": false,
+      "candidate_source": "M211R_report_only_ready_input"
+    }
+  ],
+  "decisions": [
+    {
+      "prospect_id": "m212_c904a7cba7f8",
+      "company_name": "上海百秋尚美科技服务集团股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海百秋尚美科技服务集团股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海百秋尚美科技服务集团股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海百秋尚美科技服务集团股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_11eb2cc4a6ac",
+      "company_name": "广州环亚化妆品科技股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "广州环亚化妆品科技股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州环亚化妆品科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州环亚化妆品科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_9b57718ff578",
+      "company_name": "广州逸仙电子商务有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "广州逸仙电子商务有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广州逸仙电子商务有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广州逸仙电子商务有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_859a87d98d9a",
+      "company_name": "深圳歌力思服饰股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "深圳歌力思服饰股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳歌力思服饰股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳歌力思服饰股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_63f639244bec",
+      "company_name": "上海得物信息集团有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "上海得物信息集团有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海得物信息集团有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海得物信息集团有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_748b1a20942d",
+      "company_name": "深圳市绿联科技股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "深圳市绿联科技股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市绿联科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市绿联科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_02ff075aea7f",
+      "company_name": "深圳市倍思科技有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "深圳市倍思科技有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "深圳市倍思科技有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "深圳市倍思科技有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_2f9ca072bf28",
+      "company_name": "广东德尔玛科技股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "广东德尔玛科技股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "广东德尔玛科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "广东德尔玛科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_72a0a2db5ffe",
+      "company_name": "云鲸智能创新（深圳）有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "云鲸智能创新（深圳）有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "云鲸智能创新（深圳）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "云鲸智能创新（深圳）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_6e6640789898",
+      "company_name": "小狗电器互联网科技（北京）股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "小狗电器互联网科技（北京）股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "小狗电器互联网科技（北京）股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "小狗电器互联网科技（北京）股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_192abb151bd3",
+      "company_name": "浙江大华技术股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "浙江大华技术股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "浙江大华技术股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "浙江大华技术股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_d250e1c7ff28",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "杭州海康威视数字技术股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "杭州海康威视数字技术股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "杭州海康威视数字技术股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_94fc9ae9d9a2",
+      "company_name": "库迪科技（天津）有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "库迪科技（天津）有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "库迪科技（天津）有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "库迪科技（天津）有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_419ffc22f200",
+      "company_name": "湖南费大厨餐饮管理有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "湖南费大厨餐饮管理有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "湖南费大厨餐饮管理有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "湖南费大厨餐饮管理有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    },
+    {
+      "prospect_id": "m212_9dad5623f692",
+      "company_name": "十月稻田集团股份有限公司",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "gap_queue": [
+        {
+          "queue_type": "source_gap_queue",
+          "field": "second_strong_evidence",
+          "reason": "至少需要 2 条强来源才能进入 L2。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_evidence_chain",
+          "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+        },
+        {
+          "queue_type": "source_gap_queue",
+          "field": "l1_source_category",
+          "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+        },
+        {
+          "queue_type": "persona_gap_queue",
+          "field": "l1_icp_support_source",
+          "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+        }
+      ],
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "summary": "十月稻田集团股份有限公司 静态升层建议：L5 -> L3，强来源=1，L1来源类别=1。",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "十月稻田集团股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "十月稻田集团股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      }
+    }
+  ],
+  "gap_queue": [
+    {
+      "prospect_id": "m212_c904a7cba7f8",
+      "company_name": "上海百秋尚美科技服务集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_c904a7cba7f8",
+      "company_name": "上海百秋尚美科技服务集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_c904a7cba7f8",
+      "company_name": "上海百秋尚美科技服务集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_c904a7cba7f8",
+      "company_name": "上海百秋尚美科技服务集团股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_11eb2cc4a6ac",
+      "company_name": "广州环亚化妆品科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_11eb2cc4a6ac",
+      "company_name": "广州环亚化妆品科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_11eb2cc4a6ac",
+      "company_name": "广州环亚化妆品科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_11eb2cc4a6ac",
+      "company_name": "广州环亚化妆品科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_9b57718ff578",
+      "company_name": "广州逸仙电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_9b57718ff578",
+      "company_name": "广州逸仙电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_9b57718ff578",
+      "company_name": "广州逸仙电子商务有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_9b57718ff578",
+      "company_name": "广州逸仙电子商务有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_859a87d98d9a",
+      "company_name": "深圳歌力思服饰股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_859a87d98d9a",
+      "company_name": "深圳歌力思服饰股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_859a87d98d9a",
+      "company_name": "深圳歌力思服饰股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_859a87d98d9a",
+      "company_name": "深圳歌力思服饰股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_63f639244bec",
+      "company_name": "上海得物信息集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_63f639244bec",
+      "company_name": "上海得物信息集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_63f639244bec",
+      "company_name": "上海得物信息集团有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_63f639244bec",
+      "company_name": "上海得物信息集团有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_748b1a20942d",
+      "company_name": "深圳市绿联科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_748b1a20942d",
+      "company_name": "深圳市绿联科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_748b1a20942d",
+      "company_name": "深圳市绿联科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_748b1a20942d",
+      "company_name": "深圳市绿联科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_02ff075aea7f",
+      "company_name": "深圳市倍思科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_02ff075aea7f",
+      "company_name": "深圳市倍思科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_02ff075aea7f",
+      "company_name": "深圳市倍思科技有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_02ff075aea7f",
+      "company_name": "深圳市倍思科技有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_2f9ca072bf28",
+      "company_name": "广东德尔玛科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_2f9ca072bf28",
+      "company_name": "广东德尔玛科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_2f9ca072bf28",
+      "company_name": "广东德尔玛科技股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_2f9ca072bf28",
+      "company_name": "广东德尔玛科技股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_72a0a2db5ffe",
+      "company_name": "云鲸智能创新（深圳）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_72a0a2db5ffe",
+      "company_name": "云鲸智能创新（深圳）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_72a0a2db5ffe",
+      "company_name": "云鲸智能创新（深圳）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_72a0a2db5ffe",
+      "company_name": "云鲸智能创新（深圳）有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_6e6640789898",
+      "company_name": "小狗电器互联网科技（北京）股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_6e6640789898",
+      "company_name": "小狗电器互联网科技（北京）股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_6e6640789898",
+      "company_name": "小狗电器互联网科技（北京）股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_6e6640789898",
+      "company_name": "小狗电器互联网科技（北京）股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_192abb151bd3",
+      "company_name": "浙江大华技术股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_192abb151bd3",
+      "company_name": "浙江大华技术股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_192abb151bd3",
+      "company_name": "浙江大华技术股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_192abb151bd3",
+      "company_name": "浙江大华技术股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_d250e1c7ff28",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_d250e1c7ff28",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_d250e1c7ff28",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_d250e1c7ff28",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_94fc9ae9d9a2",
+      "company_name": "库迪科技（天津）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_94fc9ae9d9a2",
+      "company_name": "库迪科技（天津）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_94fc9ae9d9a2",
+      "company_name": "库迪科技（天津）有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_94fc9ae9d9a2",
+      "company_name": "库迪科技（天津）有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_419ffc22f200",
+      "company_name": "湖南费大厨餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_419ffc22f200",
+      "company_name": "湖南费大厨餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_419ffc22f200",
+      "company_name": "湖南费大厨餐饮管理有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_419ffc22f200",
+      "company_name": "湖南费大厨餐饮管理有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    },
+    {
+      "prospect_id": "m212_9dad5623f692",
+      "company_name": "十月稻田集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "second_strong_evidence",
+      "reason": "至少需要 2 条强来源才能进入 L2。"
+    },
+    {
+      "prospect_id": "m212_9dad5623f692",
+      "company_name": "十月稻田集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_evidence_chain",
+      "reason": "L1 需要至少 3 条可定位强来源，且 internal/legacy 不计入。"
+    },
+    {
+      "prospect_id": "m212_9dad5623f692",
+      "company_name": "十月稻田集团股份有限公司",
+      "queue_type": "source_gap_queue",
+      "field": "l1_source_category",
+      "reason": "L1 需要至少 2 个不同 source_category，避免只堆叠上市披露。"
+    },
+    {
+      "prospect_id": "m212_9dad5623f692",
+      "company_name": "十月稻田集团股份有限公司",
+      "queue_type": "persona_gap_queue",
+      "field": "l1_icp_support_source",
+      "reason": "L1 至少需要 1 条来源直接支撑 ICP 匹配。"
+    }
+  ],
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}
