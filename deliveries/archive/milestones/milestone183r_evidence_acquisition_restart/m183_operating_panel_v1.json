@@ -1,0 +1,27 @@
+{
+  "milestone": "M183R",
+  "generated_at": "2026-05-04T07:05:21.133556+00:00",
+  "status": "PASS_M183R_EVIDENCE_ACQUISITION_RESTART",
+  "summary": {
+    "selected_candidate": "广州市斗满科技有限公司",
+    "suggested_level": "L2",
+    "public_strong_source_count": 2,
+    "canonical_pool_updated": false,
+    "vault_regular_area_written": false,
+    "signed_customer_gate_version": "signed_customer_v2",
+    "source_category_counts": {
+      "official_owned": 1,
+      "platform_operating_fact": 1
+    }
+  },
+  "status_panel_update": {
+    "generated_at": "2026-05-04T07:05:21.133019+00:00",
+    "report_only_candidate_count": 1,
+    "suggested_level": "L2",
+    "canonical_pool_updated": false,
+    "vault_regular_area_written": false,
+    "signed_customer_gate_version": "signed_customer_v2",
+    "next_recommended_action": "若接受 M183R preview，可在下一轮执行 guarded trusted pool update；否则继续补 authoritative_third_party/platform_operating_fact。"
+  },
+  "next_recommended_action": "进入 M184：对 M183 L2 preview 做受控 trusted pool update，或继续补 authoritative_third_party 后再写入。"
+}

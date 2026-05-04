@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-04T06:56:27.566036+00:00",
-  "overall_status": "PASS_M182R_PRODUCTION_RECONCILED",
+  "overall_status": "PASS_M183R_EVIDENCE_ACQUISITION_RESTART",
   "counts": {
     "trusted_pool_count": 58,
     "l1_count": 34,
@@ -60,7 +60,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M182R",
+  "latest_milestone": "M183R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -1023,5 +1023,14 @@
       "source_collection_pending": 1
     },
     "expert_review_status": "pass"
+  },
+  "m183r_evidence_acquisition": {
+    "generated_at": "2026-05-04T07:05:21.133019+00:00",
+    "report_only_candidate_count": 1,
+    "suggested_level": "L2",
+    "canonical_pool_updated": false,
+    "vault_regular_area_written": false,
+    "signed_customer_gate_version": "signed_customer_v2",
+    "next_recommended_action": "若接受 M183R preview，可在下一轮执行 guarded trusted pool update；否则继续补 authoritative_third_party/platform_operating_fact。"
   }
 }

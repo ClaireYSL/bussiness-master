@@ -1,0 +1,27 @@
+{
+  "milestone": "M183R",
+  "generated_at": "2026-05-04T07:05:21.166482+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "checklist": [
+      "候选通过 signed customer v2 与 duplicate gate，不把已签约老客展示为新潜客。",
+      "preview 页面能回答是不是 ICP、为什么、公开证据是什么、仍缺什么。"
+    ]
+  },
+  "architecture_review": {
+    "status": "pass",
+    "checklist": [
+      "M183 只生成 report-only 与 preview，不隐式更新 canonical pool 或 vault 正区。",
+      "production pipeline 新增 evidence-acquisition 入口，历史脚本仍为 replay/reference。"
+    ]
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "checklist": [
+      "客户案例 reference 不计入 prospect evidence。",
+      "source_locator 可定位，source_category 合法，signed_customer_gate_version=v2。",
+      "未写旧 Excel、knowledge asset registry、persona registry。"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "backlog_file": "deliveries/archive/milestones/milestone182r_production_reconciliation/evidence_acquisition_backlog_v3.json",
+  "source_collection_pending_count": 1,
+  "selected_task": {
+    "task_id": "m41r_l1_customer_cases_20260313_4757b1291658",
+    "source_seed_title": "撬动万亿跨境电商市场，斗满科技借力BI驱动生意增长",
+    "candidate_name": "斗满",
+    "identity_status": "resolved_company_candidate",
+    "identity_reason": "candidate_company_name is available",
+    "current_state": "source_collection_pending",
+    "mapped_canonical_personas": [
+      "cbec_platform_operator",
+      "cbec_supply_chain_complex"
+    ],
+    "required_sources": [
+      "official_owned",
+      "platform_operating_fact",
+      "authoritative_third_party",
+      "regulatory_or_capital_market"
+    ],
+    "signed_customer_gate_version": "signed_customer_v2",
+    "prospect_eligibility": {
+      "prospect_eligibility_status": "eligible_prospect",
+      "candidate_name": "斗满",
+      "reason": "passed eligibility gate",
+      "matched_entity_id": null,
+      "matched_entity_name": null,
+      "matched_prospect_id": null,
+      "signed_customer_match": null
+    },
+    "next_action": "采集 official_owned / platform_operating_fact / authoritative_third_party 等公开强来源后再进入 report-only。",
+    "not_prospect_evidence_until_public_source_collected": true
+  }
+}

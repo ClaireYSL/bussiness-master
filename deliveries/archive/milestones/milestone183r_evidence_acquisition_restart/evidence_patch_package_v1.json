@@ -1,0 +1,81 @@
+{
+  "package_id": "m183r_evidence_patch_package_v1",
+  "milestone": "M183R",
+  "generated_at": "2026-05-04T07:05:19.978641+00:00",
+  "identity_resolution_status": "resolved_company_candidate",
+  "signed_customer_gate_version": "signed_customer_v2",
+  "prospect_evidence_policy": "customer_case_reference_not_counted_as_prospect_evidence",
+  "items": [
+    {
+      "source_id": "m183_douman_official_site",
+      "prospect_id": "m183_acc_douman",
+      "company_name": "广州市斗满科技有限公司",
+      "source_type": "official_site",
+      "source_category": "official_owned",
+      "source_locator": "http://www.dmfgroup.net/",
+      "evidence_strength": "official_site",
+      "supports_dimension": "icp_match_support:cross_border_operations,overseas_warehouse,custom_supply_chain,official_owned",
+      "summary": "斗满官网披露公司名称、跨境电商物流服务、海外仓储、快速补货、定制化供应链、国际物流专线、FBA 头程和物流小包等业务。",
+      "prospect_evidence": true,
+      "locator_check": {
+        "source_locator": "http://www.dmfgroup.net/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "source_id": "m183_douman_amz123_profile",
+      "prospect_id": "m183_acc_douman",
+      "company_name": "广州市斗满科技有限公司",
+      "source_type": "platform_service_profile",
+      "source_category": "platform_operating_fact",
+      "source_locator": "https://www.amz123.com/doumankeji",
+      "evidence_strength": "platform_service_profile",
+      "supports_dimension": "icp_match_support:cross_border_operations,warehouse_logistics,platform_operating_fact",
+      "summary": "AMZ123 斗满科技页面将其归为跨境物流服务商，并描述其为全球电商卖家提供仓储物流、定制化物流解决方案、全球云仓和打包发货服务。",
+      "prospect_evidence": true,
+      "locator_check": {
+        "source_locator": "https://www.amz123.com/doumankeji",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    }
+  ],
+  "reference_only_sources": [
+    {
+      "reference_id": "m183_douman_guandata_case_reference",
+      "reference_type": "customer_case_reference",
+      "source_locator": "https://www.guandata.com/blogdetail/douman",
+      "usage_boundary": "ICP 判断参考，不计入 prospect evidence，不自动确认 signed customer。",
+      "supports_dimension": "icp_reference:cross_border_bi_use_case,warehouse_logistics_operations",
+      "summary": "观远客户案例用于说明斗满科技跨境物流与 BI 场景，不作为新潜客强 evidence。",
+      "locator_check": {
+        "source_locator": "https://www.guandata.com/blogdetail/douman",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    }
+  ],
+  "source_text_probe": {
+    "source_locator": "http://www.dmfgroup.net/",
+    "probe_ok": true,
+    "token_hits": {
+      "广州市斗满科技有限公司": true,
+      "海外仓储": true,
+      "电子商务": true,
+      "定制化供应链": true,
+      "亚马逊FBA头程": true,
+      "跨境": true
+    },
+    "excerpt": " 广州市斗满科技有限公司 让跨境简单 而有效 为跨境电商提供专属物流服务 海外智能仓储 海外暂存 海外仓储及品牌产品配送 快速补货 定制化供应链 供应链服务综合物流解决方案 以品质、产品服务为发展目标 成为行业优秀品牌影响者 主营业务 海外仓储 海外智能仓储，海外暂存，快速补货 定制化供应链，一站式服务，安全、高效、便捷 电子商务 拥有多家国际知名品牌的一级代理权以及现代化跨境电子商务平台 致力于打造透明、高效的电子商务聚合平台，将更多高品质优价产品与消费者连接起来 公司品牌 海外仓储派送 主要专注于中高端产品的开发，注重品质和设计，满足中高端品质客户的需求 国际物流专线 耐心满足热爱户外运动和越野骑行的客户的品质追求 亚马逊FBA头程 根据市场发展需要，开发设计轻小、方便的中端城市产品，满足年轻化市场的需求 国际物流小包 以优良的品质、卓越的服务为品牌竞争力 关于我们 海外仓储: 海外智能仓储，海外暂存，快速补货，定制化供应链，一站式服务，安全、高效、便捷。 电子商务: 拥有多家国际知名品牌的一级代理权以及现代化跨境电子商务平台，致力于打造透明、高效的电子商务聚合平台，将更多高品质优"
+  },
+  "summary": {
+    "prospect_evidence_count": 2,
+    "strong_public_source_count": 2,
+    "reference_only_count": 1,
+    "locator_reachable_count": 3
+  }
+}

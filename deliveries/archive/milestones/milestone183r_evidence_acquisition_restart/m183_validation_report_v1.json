@@ -1,0 +1,36 @@
+{
+  "milestone": "M183R",
+  "generated_at": "2026-05-04T07:05:21.166096+00:00",
+  "status": "PASS",
+  "errors": [],
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m183r_evidence_acquisition_restart.py",
+      "scripts/businessmaster_pipeline.py",
+      "shared/static_pool/static_promote.py",
+      "shared/static_pool/signed_customer_gate.py",
+      "shared/static_pool/prospect_eligibility_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 11,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "status_panel_updated": true
+}

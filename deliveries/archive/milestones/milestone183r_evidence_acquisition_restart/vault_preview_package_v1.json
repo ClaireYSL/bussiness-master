@@ -1,0 +1,17 @@
+{
+  "package_id": "m183r_vault_preview_package_v1",
+  "milestone": "M183R",
+  "generated_at": "2026-05-04T07:05:21.094843+00:00",
+  "summary": {
+    "vault_preview_count": 1,
+    "vault_regular_area_written": false,
+    "suggested_level": "L2"
+  },
+  "items": [
+    {
+      "prospect_id": "m183_acc_douman",
+      "company_name": "广州市斗满科技有限公司",
+      "preview_path": "deliveries/archive/milestones/milestone183r_evidence_acquisition_restart/vault_preview/广州市斗满科技有限公司.md"
+    }
+  ]
+}

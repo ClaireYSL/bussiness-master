@@ -1,0 +1,29 @@
+{
+  "diff_id": "m183r_pool_diff_preview_v1",
+  "milestone": "M183R",
+  "generated_at": "2026-05-04T07:05:21.094656+00:00",
+  "canonical_pool_file": "deliveries/archive/milestones/milestone47r_trusted_pool_product/trusted_prospect_pool_v1.json",
+  "mode": "preview_only",
+  "summary": {
+    "canonical_pool_count_before": 58,
+    "new_candidate_count": 1,
+    "duplicate_existing_prospect_count": 0,
+    "suggested_level": "L2",
+    "write_allowed_in_m183": false
+  },
+  "items": [
+    {
+      "prospect_id": "m183_acc_douman",
+      "company_name": "广州市斗满科技有限公司",
+      "change_type": "add_candidate_preview",
+      "static_fields_preview": {
+        "level": "L2",
+        "trusted_status": "static_l2_ready",
+        "static_promotion_summary": "广州市斗满科技有限公司 静态升层建议：L5 -> L2，强来源=2，L1来源类别=2。",
+        "static_gap_count": 1,
+        "static_evidence_count": 2,
+        "static_strong_evidence_count": 2
+      }
+    }
+  ]
+}
