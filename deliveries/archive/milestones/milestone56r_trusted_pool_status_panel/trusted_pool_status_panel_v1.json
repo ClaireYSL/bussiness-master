@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-04T08:38:51.524399+00:00",
-  "overall_status": "PASS_M194R_L3_TO_L2_REPORT_ONLY",
+  "generated_at": "2026-05-04T08:46:08.038713+00:00",
+  "overall_status": "PASS_M195R_L2_PUBLISH",
   "counts": {
     "trusted_pool_count": 74,
     "l1_count": 34,
-    "l2_count": 24,
-    "l3_count": 15,
+    "l2_count": 38,
+    "l3_count": 1,
     "l4_count": 1,
     "l5_count": 0,
     "canonical_knowledge_asset_count": 40,
@@ -75,7 +75,10 @@
     "m194_l3_remaining_count": 1,
     "m194_second_source_ready_count": 14,
     "m194_source_health_gap_count": 1,
-    "m194_gap_queue_count": 15
+    "m194_gap_queue_count": 15,
+    "m195_l2_updated_count": 14,
+    "m195_vault_l2_written_count": 14,
+    "m195_l3_card_removed_count": 14
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -95,7 +98,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M194R",
+  "latest_milestone": "M195R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -112,7 +115,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M195：对 M194 L2 preview 执行 guarded trusted pool/source trace/vault L2 更新；source health gap 保留 L3。",
+  "canonical_next_action": "进入 M196：处理 M194 source health gap（小米保留 L3）或启动下一轮候选发现/补源。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -1037,9 +1040,9 @@
     "source_trace_count": 74,
     "level_counts": {
       "L1": 34,
-      "L2": 24,
+      "L2": 38,
       "L4": 1,
-      "L3": 15
+      "L3": 1
     },
     "signed_customer_registry": "v2",
     "signed_customer_count": 1059,
@@ -1429,5 +1432,223 @@
       "llm_used_as_evidence": false,
       "trusted_pool_written": false
     }
+  },
+  "m195r_l2_publish": {
+    "generated_at": "2026-05-04T08:46:08.038718+00:00",
+    "status": "PASS",
+    "pool_update": {
+      "before_hash": "d8466576c383bd60fbe08a8f413aef7c872a81d86f2e9c5e976d0e4e388ed6b3",
+      "after_hash": "f8ccec1d2a5df22222c5e49b01e299a9ad76b7b562b54fd92b0291ad1dd2c759",
+      "before_count": 74,
+      "after_count": 74,
+      "before_levels": {
+        "L1": 34,
+        "L2": 24,
+        "L4": 1,
+        "L3": 15
+      },
+      "after_levels": {
+        "L1": 34,
+        "L2": 38,
+        "L4": 1,
+        "L3": 1
+      },
+      "updated_count": 14,
+      "changes": [
+        {
+          "prospect_id": "m192_f36d5e58d75b",
+          "company_name": "上海爱婴室商务服务股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_f736020d9704",
+          "company_name": "良品铺子股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_31c7524f6bc2",
+          "company_name": "名创优品集团控股有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_4a802369793e",
+          "company_name": "泡泡玛特国际集团有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_373ca60655ce",
+          "company_name": "海底捞国际控股有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_53d52bc516c9",
+          "company_name": "奈雪的茶控股有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_6fdc15620f2c",
+          "company_name": "安克创新科技股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_5a006e1af1dc",
+          "company_name": "致欧家居科技股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_789de536089d",
+          "company_name": "华宝新能科技股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_2386dc0f707e",
+          "company_name": "科沃斯机器人股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_a131a7c57449",
+          "company_name": "公牛集团股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_1c8b4ee1b347",
+          "company_name": "老凤祥股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_e5d15b6d9b7f",
+          "company_name": "波司登国际控股有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        },
+        {
+          "prospect_id": "m192_7998a8f5901f",
+          "company_name": "蜜雪冰城股份有限公司",
+          "action": "updated",
+          "from_level": "L3",
+          "to_level": "L2"
+        }
+      ]
+    },
+    "source_trace_update": {
+      "before_hash": "4b44ec2ae025442b15150431c63e1f7b17070ae73451f519b0193ca208f0617d",
+      "after_hash": "ff463fdb110722404edb07d04d3ccca4515ae454dcaededfbe52935aaf26710f",
+      "before_count": 74,
+      "after_count": 74,
+      "updated_count": 14,
+      "changes": [
+        {
+          "prospect_id": "m192_f36d5e58d75b",
+          "company_name": "上海爱婴室商务服务股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_f736020d9704",
+          "company_name": "良品铺子股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_31c7524f6bc2",
+          "company_name": "名创优品集团控股有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_4a802369793e",
+          "company_name": "泡泡玛特国际集团有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_373ca60655ce",
+          "company_name": "海底捞国际控股有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_53d52bc516c9",
+          "company_name": "奈雪的茶控股有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_6fdc15620f2c",
+          "company_name": "安克创新科技股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_5a006e1af1dc",
+          "company_name": "致欧家居科技股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_789de536089d",
+          "company_name": "华宝新能科技股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_2386dc0f707e",
+          "company_name": "科沃斯机器人股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_a131a7c57449",
+          "company_name": "公牛集团股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_1c8b4ee1b347",
+          "company_name": "老凤祥股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_e5d15b6d9b7f",
+          "company_name": "波司登国际控股有限公司",
+          "action": "updated",
+          "source_count": 2
+        },
+        {
+          "prospect_id": "m192_7998a8f5901f",
+          "company_name": "蜜雪冰城股份有限公司",
+          "action": "updated",
+          "source_count": 2
+        }
+      ]
+    },
+    "vault_l2_written_count": 14,
+    "l3_card_removed_count": 14
   }
 }

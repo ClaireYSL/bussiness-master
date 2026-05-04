@@ -1,0 +1,19 @@
+{
+  "milestone": "M195R",
+  "generated_at": "2026-05-04T08:46:08.038165+00:00",
+  "status": "PASS_M195R_L2_PUBLISH",
+  "summary": {
+    "trusted_pool_count": 74,
+    "level_counts": {
+      "L1": 34,
+      "L2": 38,
+      "L4": 1,
+      "L3": 1
+    },
+    "l2_updated_count": 14,
+    "vault_l2_written_count": 14,
+    "l3_card_removed_count": 14,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M196：处理小米 second source health gap，或重启下一轮 evidence acquisition。"
+}
