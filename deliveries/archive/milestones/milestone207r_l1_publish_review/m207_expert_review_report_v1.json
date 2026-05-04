@@ -1,0 +1,21 @@
+{
+  "milestone": "M207R",
+  "generated_at": "2026-05-04T10:40:53.506619+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "L1 发布后用户可看到 46 家高质量静态可信潜客；SHEIN 留 L2 的原因可解释。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "M207 是只读复盘，不改 canonical/vault；readiness 与 production dry-run 均可用。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "老客 gate 回归通过，物理 vault L1/L2 重叠已被标注为展示层设计，不影响 canonical 分级事实。"
+  },
+  "summary": {
+    "l1_count": 46,
+    "remaining_l2_from_m205_count": 1
+  }
+}

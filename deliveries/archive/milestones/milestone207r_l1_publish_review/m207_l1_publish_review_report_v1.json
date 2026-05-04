@@ -1,0 +1,86 @@
+{
+  "milestone": "M207R",
+  "generated_at": "2026-05-04T10:40:53.174224+00:00",
+  "status": "PASS_M207R_L1_PUBLISH_REVIEW_READY",
+  "summary": {
+    "m205_l1_preview_count": 12,
+    "m205_l2_remaining_count": 1,
+    "m206_l1_published_count": 12,
+    "m206_vault_l1_written_count": 12,
+    "m206_validation_status": "PASS",
+    "m206_expert_review_status": "pass",
+    "canonical_pool_count": 93,
+    "canonical_source_trace_count": 93,
+    "canonical_level_counts": {
+      "L1": 46,
+      "L2": 46,
+      "L4": 1
+    },
+    "persona_counts": {
+      "retail_high_sku_brand": 22,
+      "fnb_chain_beverage_coffee": 6,
+      "fnb_chain_standardized": 4,
+      "retail_multi_store": 12,
+      "cbec_multi_platform_brand": 43,
+      "cbec_platform_operator": 3,
+      "mfg_multi_factory_group": 1,
+      "mgmt_profit_improvement": 1,
+      "mgmt_inventory_supply_coordination": 1
+    },
+    "l1_persona_counts": {
+      "retail_high_sku_brand": 14,
+      "fnb_chain_beverage_coffee": 3,
+      "fnb_chain_standardized": 2,
+      "retail_multi_store": 5,
+      "cbec_multi_platform_brand": 19,
+      "cbec_platform_operator": 1,
+      "mfg_multi_factory_group": 1,
+      "mgmt_profit_improvement": 1
+    },
+    "l2_persona_counts": {
+      "retail_multi_store": 7,
+      "cbec_multi_platform_brand": 23,
+      "fnb_chain_beverage_coffee": 3,
+      "retail_high_sku_brand": 8,
+      "mgmt_inventory_supply_coordination": 1,
+      "cbec_platform_operator": 2,
+      "fnb_chain_standardized": 2
+    },
+    "l1_physical_file_count": 46,
+    "l2_physical_file_count": 88,
+    "l3_physical_file_count": 29,
+    "vault_physical_count_note": "L1/L2 物理页面允许重叠；canonical level counts 才是当前静态等级事实。",
+    "remaining_l2_from_m205_count": 1,
+    "old_customer_hit_count": 0
+  },
+  "remaining_l2_from_m205": [
+    {
+      "prospect_id": "m200_67270fee7b44",
+      "company_name": "广州希音国际进出口有限公司",
+      "current_level": "L2",
+      "reason": "L1 准入未通过：强来源数量或 source category 多样性不足。",
+      "source_count": 2,
+      "source_categories": [
+        "official_owned"
+      ],
+      "gap_fields": [
+        "l1_evidence_chain",
+        "l1_source_category"
+      ],
+      "recommended_action": "补 1 条非 official_owned 的可定位强来源，例如平台经营事实、权威第三方、监管/资本市场披露；补齐后再单独跑 L1 preview。"
+    }
+  ],
+  "next_options": [
+    {
+      "option": "M208R_shein_targeted_l1_source_patch",
+      "priority": "P1",
+      "description": "只针对 SHEIN 补第三来源与第二 source category，若通过则单独升 L1。"
+    },
+    {
+      "option": "M210R_next_candidate_discovery_cycle",
+      "priority": "P0",
+      "description": "启动下一轮候选发现，目标恢复 source_collection_pending 生产队列。"
+    }
+  ],
+  "recommendation": "优先进入 M210R 重启候选发现；SHEIN 单点补源可作为并行小修，不阻塞主线生产。"
+}
