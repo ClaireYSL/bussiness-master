@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-04T10:48:28.252740+00:00",
-  "overall_status": "PASS_M212R_STATIC_PROMOTE_REPORT_ONLY",
+  "generated_at": "2026-05-04T10:49:31.973058+00:00",
+  "overall_status": "PASS_M213R_TRUSTED_POOL_L3_PUBLISH",
   "counts": {
-    "trusted_pool_count": 93,
+    "trusted_pool_count": 108,
     "l1_count": 46,
     "l2_count": 46,
-    "l3_count": 0,
+    "l3_count": 15,
     "l4_count": 1,
     "l5_count": 0,
     "canonical_knowledge_asset_count": 40,
@@ -23,10 +23,10 @@
     "signed_customer_alias_v2_count": 2088,
     "m180_trusted_pool_existing_customer_hit_count": 0,
     "m180_vault_existing_customer_hit_count": 0,
-    "source_trace_count": 93,
+    "source_trace_count": 108,
     "existing_customer_vault_hit_count": 0,
-    "entity_v2_count": 1173,
-    "entity_v2_trusted_pool_entity_count": 93,
+    "entity_v2_count": 1188,
+    "entity_v2_trusted_pool_entity_count": 108,
     "m182_source_collection_pending_count": 1,
     "m182_identity_pending_count": 13,
     "m182_eligibility_blocked_count": 4,
@@ -105,7 +105,7 @@
     "m201_updated_l3_count": 0,
     "m201_published_l3_count": 19,
     "m201_vault_l3_written_count": 19,
-    "entity_v2_source_trace_entity_count": 93,
+    "entity_v2_source_trace_entity_count": 108,
     "entity_v2_signed_customer_entity_count": 1059,
     "m202_report_only_candidate_count": 19,
     "m202_l2_preview_count": 19,
@@ -144,7 +144,11 @@
     "m212_l3_candidate_count": 15,
     "m212_l2_candidate_count": 0,
     "m212_l1_candidate_count": 0,
-    "m212_gap_queue_count": 60
+    "m212_gap_queue_count": 60,
+    "m213_added_l3_count": 15,
+    "m213_updated_l3_count": 0,
+    "m213_published_l3_count": 15,
+    "m213_vault_l3_written_count": 15
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -164,7 +168,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M212R",
+  "latest_milestone": "M213R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -181,7 +185,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M201：基于 M212 pool diff preview 执行 guarded trusted pool update，或先补第二强来源提升 L2。",
+  "canonical_next_action": "进入 M202：为 M213 新增 L3 补第二强来源，评估 L3 -> L2。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -1102,12 +1106,13 @@
     "persona_registry_written": false
   },
   "current_canonical_state": {
-    "trusted_pool_count": 93,
-    "source_trace_count": 93,
+    "trusted_pool_count": 108,
+    "source_trace_count": 108,
     "level_counts": {
       "L1": 46,
       "L2": 46,
-      "L4": 1
+      "L4": 1,
+      "L3": 15
     },
     "signed_customer_registry": "v2",
     "signed_customer_count": 1059,
@@ -2763,5 +2768,221 @@
     },
     "gap_queue_count": 60,
     "canonical_pool_updated": false
+  },
+  "m213r_trusted_pool_l3_publish": {
+    "generated_at": "2026-05-04T10:49:31.973060+00:00",
+    "status": "PASS",
+    "pool_update": {
+      "before_hash": "991bd231b652862e672d5262b3c808027c5f5de25a7a3df6bb158984145c728e",
+      "after_hash": "cc82ee86a07f78db023b700c5a21906fa7b791d4c9fe32154106923591a5ed64",
+      "before_count": 93,
+      "after_count": 108,
+      "added_count": 15,
+      "updated_count": 0,
+      "before_levels": {
+        "L1": 46,
+        "L2": 46,
+        "L4": 1
+      },
+      "after_levels": {
+        "L1": 46,
+        "L2": 46,
+        "L4": 1,
+        "L3": 15
+      },
+      "changes": [
+        {
+          "prospect_id": "m212_c904a7cba7f8",
+          "company_name": "上海百秋尚美科技服务集团股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_11eb2cc4a6ac",
+          "company_name": "广州环亚化妆品科技股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_9b57718ff578",
+          "company_name": "广州逸仙电子商务有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_859a87d98d9a",
+          "company_name": "深圳歌力思服饰股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_63f639244bec",
+          "company_name": "上海得物信息集团有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_748b1a20942d",
+          "company_name": "深圳市绿联科技股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_02ff075aea7f",
+          "company_name": "深圳市倍思科技有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_2f9ca072bf28",
+          "company_name": "广东德尔玛科技股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_72a0a2db5ffe",
+          "company_name": "云鲸智能创新（深圳）有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_6e6640789898",
+          "company_name": "小狗电器互联网科技（北京）股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_192abb151bd3",
+          "company_name": "浙江大华技术股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_d250e1c7ff28",
+          "company_name": "杭州海康威视数字技术股份有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_94fc9ae9d9a2",
+          "company_name": "库迪科技（天津）有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_419ffc22f200",
+          "company_name": "湖南费大厨餐饮管理有限公司",
+          "action": "added",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m212_9dad5623f692",
+          "company_name": "十月稻田集团股份有限公司",
+          "action": "added",
+          "level": "L3"
+        }
+      ]
+    },
+    "source_trace_update": {
+      "before_hash": "f14ed476373b0f749cb20672da5489ffa81792d2ab3f3cb44e8fc55cc29c3a5a",
+      "after_hash": "fafed378a11755c4b0b2548a0c085d115a1cff6440648e8b1142d3722bbe42fd",
+      "before_count": 93,
+      "after_count": 108,
+      "added_count": 15,
+      "updated_count": 0,
+      "changes": [
+        {
+          "prospect_id": "m212_c904a7cba7f8",
+          "company_name": "上海百秋尚美科技服务集团股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_11eb2cc4a6ac",
+          "company_name": "广州环亚化妆品科技股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_9b57718ff578",
+          "company_name": "广州逸仙电子商务有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_859a87d98d9a",
+          "company_name": "深圳歌力思服饰股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_63f639244bec",
+          "company_name": "上海得物信息集团有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_748b1a20942d",
+          "company_name": "深圳市绿联科技股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_02ff075aea7f",
+          "company_name": "深圳市倍思科技有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_2f9ca072bf28",
+          "company_name": "广东德尔玛科技股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_72a0a2db5ffe",
+          "company_name": "云鲸智能创新（深圳）有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_6e6640789898",
+          "company_name": "小狗电器互联网科技（北京）股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_192abb151bd3",
+          "company_name": "浙江大华技术股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_d250e1c7ff28",
+          "company_name": "杭州海康威视数字技术股份有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_94fc9ae9d9a2",
+          "company_name": "库迪科技（天津）有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_419ffc22f200",
+          "company_name": "湖南费大厨餐饮管理有限公司",
+          "action": "added",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m212_9dad5623f692",
+          "company_name": "十月稻田集团股份有限公司",
+          "action": "added",
+          "source_count": 1
+        }
+      ]
+    },
+    "vault_write_count": 15
   }
 }

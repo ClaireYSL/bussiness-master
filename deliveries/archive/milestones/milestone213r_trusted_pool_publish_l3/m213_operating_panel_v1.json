@@ -1,0 +1,14 @@
+{
+  "milestone": "M213R",
+  "generated_at": "2026-05-04T10:49:31.968993+00:00",
+  "status": "PASS_M213R_TRUSTED_POOL_L3_PUBLISH",
+  "summary": {
+    "pool_after_count": 108,
+    "source_trace_after_count": 108,
+    "added_l3_count": 15,
+    "updated_l3_count": 0,
+    "vault_l3_written_count": 15,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M202：补第二强来源并评估 L3 -> L2。"
+}

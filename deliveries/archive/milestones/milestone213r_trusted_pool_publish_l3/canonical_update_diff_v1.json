@@ -1,0 +1,320 @@
+{
+  "milestone": "M213R",
+  "generated_at": "2026-05-04T10:49:31.934482+00:00",
+  "pool_update": {
+    "before_hash": "991bd231b652862e672d5262b3c808027c5f5de25a7a3df6bb158984145c728e",
+    "after_hash": "cc82ee86a07f78db023b700c5a21906fa7b791d4c9fe32154106923591a5ed64",
+    "before_count": 93,
+    "after_count": 108,
+    "added_count": 15,
+    "updated_count": 0,
+    "before_levels": {
+      "L1": 46,
+      "L2": 46,
+      "L4": 1
+    },
+    "after_levels": {
+      "L1": 46,
+      "L2": 46,
+      "L4": 1,
+      "L3": 15
+    },
+    "changes": [
+      {
+        "prospect_id": "m212_c904a7cba7f8",
+        "company_name": "上海百秋尚美科技服务集团股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_11eb2cc4a6ac",
+        "company_name": "广州环亚化妆品科技股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_9b57718ff578",
+        "company_name": "广州逸仙电子商务有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_859a87d98d9a",
+        "company_name": "深圳歌力思服饰股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_63f639244bec",
+        "company_name": "上海得物信息集团有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_748b1a20942d",
+        "company_name": "深圳市绿联科技股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_02ff075aea7f",
+        "company_name": "深圳市倍思科技有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_2f9ca072bf28",
+        "company_name": "广东德尔玛科技股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_72a0a2db5ffe",
+        "company_name": "云鲸智能创新（深圳）有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_6e6640789898",
+        "company_name": "小狗电器互联网科技（北京）股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_192abb151bd3",
+        "company_name": "浙江大华技术股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_d250e1c7ff28",
+        "company_name": "杭州海康威视数字技术股份有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_94fc9ae9d9a2",
+        "company_name": "库迪科技（天津）有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_419ffc22f200",
+        "company_name": "湖南费大厨餐饮管理有限公司",
+        "action": "added",
+        "level": "L3"
+      },
+      {
+        "prospect_id": "m212_9dad5623f692",
+        "company_name": "十月稻田集团股份有限公司",
+        "action": "added",
+        "level": "L3"
+      }
+    ]
+  },
+  "source_trace_update": {
+    "before_hash": "f14ed476373b0f749cb20672da5489ffa81792d2ab3f3cb44e8fc55cc29c3a5a",
+    "after_hash": "fafed378a11755c4b0b2548a0c085d115a1cff6440648e8b1142d3722bbe42fd",
+    "before_count": 93,
+    "after_count": 108,
+    "added_count": 15,
+    "updated_count": 0,
+    "changes": [
+      {
+        "prospect_id": "m212_c904a7cba7f8",
+        "company_name": "上海百秋尚美科技服务集团股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_11eb2cc4a6ac",
+        "company_name": "广州环亚化妆品科技股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_9b57718ff578",
+        "company_name": "广州逸仙电子商务有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_859a87d98d9a",
+        "company_name": "深圳歌力思服饰股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_63f639244bec",
+        "company_name": "上海得物信息集团有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_748b1a20942d",
+        "company_name": "深圳市绿联科技股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_02ff075aea7f",
+        "company_name": "深圳市倍思科技有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_2f9ca072bf28",
+        "company_name": "广东德尔玛科技股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_72a0a2db5ffe",
+        "company_name": "云鲸智能创新（深圳）有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_6e6640789898",
+        "company_name": "小狗电器互联网科技（北京）股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_192abb151bd3",
+        "company_name": "浙江大华技术股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_d250e1c7ff28",
+        "company_name": "杭州海康威视数字技术股份有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_94fc9ae9d9a2",
+        "company_name": "库迪科技（天津）有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_419ffc22f200",
+        "company_name": "湖南费大厨餐饮管理有限公司",
+        "action": "added",
+        "source_count": 1
+      },
+      {
+        "prospect_id": "m212_9dad5623f692",
+        "company_name": "十月稻田集团股份有限公司",
+        "action": "added",
+        "source_count": 1
+      }
+    ]
+  },
+  "entity_update": {
+    "before_count": 1173,
+    "after_count": 1188,
+    "trusted_added_count": 15,
+    "trusted_updated_count": 0,
+    "signed_customer_added_count": 0,
+    "trusted_pool_entity_count": 108,
+    "source_trace_entity_count": 108,
+    "signed_customer_entity_count": 1059
+  },
+  "vault_write": {
+    "written_count": 15,
+    "items": [
+      {
+        "prospect_id": "m212_c904a7cba7f8",
+        "company_name": "上海百秋尚美科技服务集团股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/上海百秋尚美科技服务集团股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_11eb2cc4a6ac",
+        "company_name": "广州环亚化妆品科技股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广州环亚化妆品科技股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_9b57718ff578",
+        "company_name": "广州逸仙电子商务有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广州逸仙电子商务有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_859a87d98d9a",
+        "company_name": "深圳歌力思服饰股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳歌力思服饰股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_63f639244bec",
+        "company_name": "上海得物信息集团有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/上海得物信息集团有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_748b1a20942d",
+        "company_name": "深圳市绿联科技股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市绿联科技股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_02ff075aea7f",
+        "company_name": "深圳市倍思科技有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/深圳市倍思科技有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_2f9ca072bf28",
+        "company_name": "广东德尔玛科技股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/广东德尔玛科技股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_72a0a2db5ffe",
+        "company_name": "云鲸智能创新（深圳）有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/云鲸智能创新（深圳）有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_6e6640789898",
+        "company_name": "小狗电器互联网科技（北京）股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/小狗电器互联网科技（北京）股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_192abb151bd3",
+        "company_name": "浙江大华技术股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/浙江大华技术股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_d250e1c7ff28",
+        "company_name": "杭州海康威视数字技术股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/杭州海康威视数字技术股份有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_94fc9ae9d9a2",
+        "company_name": "库迪科技（天津）有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/库迪科技（天津）有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_419ffc22f200",
+        "company_name": "湖南费大厨餐饮管理有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/湖南费大厨餐饮管理有限公司.md",
+        "change_type": "created"
+      },
+      {
+        "prospect_id": "m212_9dad5623f692",
+        "company_name": "十月稻田集团股份有限公司",
+        "path": "/Users/clairelu2026/26M3-Obsidian-潜客池/潜客池/07-可信潜客档案/03-L3可信摘要卡/十月稻田集团股份有限公司.md",
+        "change_type": "created"
+      }
+    ]
+  }
+}
