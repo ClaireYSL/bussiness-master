@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-04T08:23:54.857913+00:00",
-  "overall_status": "PASS_M192R_STATIC_PROMOTE_REPORT_ONLY",
+  "generated_at": "2026-05-04T08:29:33.562892+00:00",
+  "overall_status": "PASS_M193R_TRUSTED_POOL_L3_PUBLISH",
   "counts": {
-    "trusted_pool_count": 59,
+    "trusted_pool_count": 74,
     "l1_count": 34,
     "l2_count": 24,
-    "l3_count": 0,
+    "l3_count": 15,
     "l4_count": 1,
     "l5_count": 0,
     "canonical_knowledge_asset_count": 40,
@@ -23,7 +23,7 @@
     "signed_customer_alias_v2_count": 2088,
     "m180_trusted_pool_existing_customer_hit_count": 0,
     "m180_vault_existing_customer_hit_count": 0,
-    "source_trace_count": 59,
+    "source_trace_count": 74,
     "existing_customer_vault_hit_count": 0,
     "entity_v2_count": 1137,
     "entity_v2_trusted_pool_entity_count": 59,
@@ -65,7 +65,11 @@
     "m192_l3_candidate_count": 15,
     "m192_l2_candidate_count": 0,
     "m192_l1_candidate_count": 0,
-    "m192_gap_queue_count": 60
+    "m192_gap_queue_count": 60,
+    "m193_added_l3_count": 0,
+    "m193_vault_l3_written_count": 15,
+    "m193_updated_l3_count": 15,
+    "m193_published_l3_count": 15
   },
   "persona_distribution_l2": {
     "retail_high_sku_brand": 2,
@@ -85,7 +89,7 @@
     "persona_registry_write_enabled": false,
     "legacy_field_inherited": false
   },
-  "latest_milestone": "M192R",
+  "latest_milestone": "M193R",
   "m58r_static_boundary": {
     "milestone": "M58R",
     "generated_at": "2026-05-03T10:50:08.093214+00:00",
@@ -102,7 +106,7 @@
     "dynamic_term_findings_count": 0,
     "next_recommended_action": "M59R：补第三强来源和 ICP 强匹配解释，形成首批静态 L1 准入样本。"
   },
-  "canonical_next_action": "进入 M193：基于 M192 pool diff preview 执行 guarded trusted pool update，或先补第二强来源提升 L2。",
+  "canonical_next_action": "进入 M194：为 M193 新增 L3 补第二强来源，评估 L3 -> L2。",
   "legacy_optional_feedback": {
     "m57r_external_feedback": {
       "l2_formal_count": 8,
@@ -1023,12 +1027,13 @@
     "persona_registry_written": false
   },
   "current_canonical_state": {
-    "trusted_pool_count": 59,
-    "source_trace_count": 59,
+    "trusted_pool_count": 74,
+    "source_trace_count": 74,
     "level_counts": {
       "L1": 34,
       "L2": 24,
-      "L4": 1
+      "L4": 1,
+      "L3": 15
     },
     "signed_customer_registry": "v2",
     "signed_customer_count": 1059,
@@ -1180,5 +1185,222 @@
     },
     "gap_queue_count": 60,
     "canonical_pool_updated": false
+  },
+  "m193r_trusted_pool_l3_publish": {
+    "generated_at": "2026-05-04T08:29:33.562893+00:00",
+    "status": "PASS",
+    "pool_update": {
+      "before_hash": "2be2e3540641bccb91609321150c4d54cfad5ecfe781a85660cda1356dcf0133",
+      "after_hash": "d8466576c383bd60fbe08a8f413aef7c872a81d86f2e9c5e976d0e4e388ed6b3",
+      "before_count": 74,
+      "after_count": 74,
+      "added_count": 0,
+      "updated_count": 15,
+      "before_levels": {
+        "L1": 34,
+        "L2": 24,
+        "L4": 1,
+        "L3": 15
+      },
+      "after_levels": {
+        "L1": 34,
+        "L2": 24,
+        "L4": 1,
+        "L3": 15
+      },
+      "changes": [
+        {
+          "prospect_id": "m192_f36d5e58d75b",
+          "company_name": "上海爱婴室商务服务股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_f736020d9704",
+          "company_name": "良品铺子股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_31c7524f6bc2",
+          "company_name": "名创优品集团控股有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_4a802369793e",
+          "company_name": "泡泡玛特国际集团有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_373ca60655ce",
+          "company_name": "海底捞国际控股有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_53d52bc516c9",
+          "company_name": "奈雪的茶控股有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_6fdc15620f2c",
+          "company_name": "安克创新科技股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_5a006e1af1dc",
+          "company_name": "致欧家居科技股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_789de536089d",
+          "company_name": "华宝新能科技股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_2386dc0f707e",
+          "company_name": "科沃斯机器人股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_a931b6a14819",
+          "company_name": "小米集团",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_a131a7c57449",
+          "company_name": "公牛集团股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_1c8b4ee1b347",
+          "company_name": "老凤祥股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_e5d15b6d9b7f",
+          "company_name": "波司登国际控股有限公司",
+          "action": "updated",
+          "level": "L3"
+        },
+        {
+          "prospect_id": "m192_7998a8f5901f",
+          "company_name": "蜜雪冰城股份有限公司",
+          "action": "updated",
+          "level": "L3"
+        }
+      ]
+    },
+    "source_trace_update": {
+      "before_hash": "24024c5d76f077e286e48bf6ccecc33765e94636980b82355bfd52d4a075c48e",
+      "after_hash": "4b44ec2ae025442b15150431c63e1f7b17070ae73451f519b0193ca208f0617d",
+      "before_count": 74,
+      "after_count": 74,
+      "added_count": 0,
+      "updated_count": 15,
+      "changes": [
+        {
+          "prospect_id": "m192_f36d5e58d75b",
+          "company_name": "上海爱婴室商务服务股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_f736020d9704",
+          "company_name": "良品铺子股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_31c7524f6bc2",
+          "company_name": "名创优品集团控股有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_4a802369793e",
+          "company_name": "泡泡玛特国际集团有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_373ca60655ce",
+          "company_name": "海底捞国际控股有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_53d52bc516c9",
+          "company_name": "奈雪的茶控股有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_6fdc15620f2c",
+          "company_name": "安克创新科技股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_5a006e1af1dc",
+          "company_name": "致欧家居科技股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_789de536089d",
+          "company_name": "华宝新能科技股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_2386dc0f707e",
+          "company_name": "科沃斯机器人股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_a931b6a14819",
+          "company_name": "小米集团",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_a131a7c57449",
+          "company_name": "公牛集团股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_1c8b4ee1b347",
+          "company_name": "老凤祥股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_e5d15b6d9b7f",
+          "company_name": "波司登国际控股有限公司",
+          "action": "updated",
+          "source_count": 1
+        },
+        {
+          "prospect_id": "m192_7998a8f5901f",
+          "company_name": "蜜雪冰城股份有限公司",
+          "action": "updated",
+          "source_count": 1
+        }
+      ]
+    },
+    "vault_write_count": 15
   }
 }

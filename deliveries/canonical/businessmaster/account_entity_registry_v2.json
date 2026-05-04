@@ -1,16 +1,16 @@
 {
   "registry_id": "account_entity_registry_v2",
-  "generated_at": "2026-05-04T07:16:10.418735+00:00",
+  "generated_at": "2026-05-04T08:29:33.511036+00:00",
   "source_milestone": "M185R",
   "summary": {
-    "entity_count": 1137,
-    "trusted_pool_entity_count": 59,
-    "source_trace_entity_count": 59,
-    "signed_customer_entity_count": 1057,
+    "entity_count": 1154,
+    "trusted_pool_entity_count": 74,
+    "source_trace_entity_count": 74,
+    "signed_customer_entity_count": 1059,
     "customer_case_reference_entity_count": 22,
-    "multi_role_entity_count": 59,
+    "multi_role_entity_count": 74,
     "signed_customer_gate_version": "v2",
-    "canonical_update_source": "M185R_post_publish_reconciliation"
+    "canonical_update_source": "M193R_publish_M192_L3_preview"
   },
   "items": [
     {
@@ -32649,6 +32649,468 @@
         }
       ],
       "customer_id": "signed_customer_龙锦综合开发_成都_有限公司_fe72faca9f"
+    },
+    {
+      "entity_id": "entity_f36d5e58d75b",
+      "canonical_name": "上海爱婴室商务服务股份有限公司",
+      "normalized_name": "上海爱婴室商务服务",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "上海爱婴室商务服务股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_f36d5e58d75b",
+          "level": "L3",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_f36d5e58d75b"
+        }
+      ],
+      "prospect_id": "m192_f36d5e58d75b",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_f736020d9704",
+      "canonical_name": "良品铺子股份有限公司",
+      "normalized_name": "良品铺子",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "良品铺子股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_f736020d9704",
+          "level": "L3",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_f736020d9704"
+        }
+      ],
+      "prospect_id": "m192_f736020d9704",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_31c7524f6bc2",
+      "canonical_name": "名创优品集团控股有限公司",
+      "normalized_name": "名创优品集团",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "名创优品集团控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_31c7524f6bc2",
+          "level": "L3",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_31c7524f6bc2"
+        }
+      ],
+      "prospect_id": "m192_31c7524f6bc2",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_4a802369793e",
+      "canonical_name": "泡泡玛特国际集团有限公司",
+      "normalized_name": "泡泡玛特国际",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "泡泡玛特国际集团有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_4a802369793e",
+          "level": "L3",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_4a802369793e"
+        }
+      ],
+      "prospect_id": "m192_4a802369793e",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_373ca60655ce",
+      "canonical_name": "海底捞国际控股有限公司",
+      "normalized_name": "海底捞国际",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "海底捞国际控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_373ca60655ce",
+          "level": "L3",
+          "matched_persona": "fnb_chain_standardized"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_373ca60655ce"
+        }
+      ],
+      "prospect_id": "m192_373ca60655ce",
+      "level": "L3",
+      "matched_persona": "fnb_chain_standardized",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_53d52bc516c9",
+      "canonical_name": "奈雪的茶控股有限公司",
+      "normalized_name": "奈雪的茶",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "奈雪的茶控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_53d52bc516c9",
+          "level": "L3",
+          "matched_persona": "fnb_chain_beverage_coffee"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_53d52bc516c9"
+        }
+      ],
+      "prospect_id": "m192_53d52bc516c9",
+      "level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_6fdc15620f2c",
+      "canonical_name": "安克创新科技股份有限公司",
+      "normalized_name": "安克创新科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "安克创新科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_6fdc15620f2c",
+          "level": "L3",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_6fdc15620f2c"
+        }
+      ],
+      "prospect_id": "m192_6fdc15620f2c",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_5a006e1af1dc",
+      "canonical_name": "致欧家居科技股份有限公司",
+      "normalized_name": "致欧家居科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "致欧家居科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_5a006e1af1dc",
+          "level": "L3",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_5a006e1af1dc"
+        }
+      ],
+      "prospect_id": "m192_5a006e1af1dc",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_789de536089d",
+      "canonical_name": "华宝新能科技股份有限公司",
+      "normalized_name": "华宝新能科技",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "华宝新能科技股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_789de536089d",
+          "level": "L3",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_789de536089d"
+        }
+      ],
+      "prospect_id": "m192_789de536089d",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_2386dc0f707e",
+      "canonical_name": "科沃斯机器人股份有限公司",
+      "normalized_name": "科沃斯机器人",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "科沃斯机器人股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_2386dc0f707e",
+          "level": "L3",
+          "matched_persona": "cbec_multi_platform_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_2386dc0f707e"
+        }
+      ],
+      "prospect_id": "m192_2386dc0f707e",
+      "level": "L3",
+      "matched_persona": "cbec_multi_platform_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_a931b6a14819",
+      "canonical_name": "小米集团",
+      "normalized_name": "小米",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "小米集团"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_a931b6a14819",
+          "level": "L3",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_a931b6a14819"
+        }
+      ],
+      "prospect_id": "m192_a931b6a14819",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_a131a7c57449",
+      "canonical_name": "公牛集团股份有限公司",
+      "normalized_name": "公牛",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "公牛集团股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_a131a7c57449",
+          "level": "L3",
+          "matched_persona": "retail_high_sku_brand"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_a131a7c57449"
+        }
+      ],
+      "prospect_id": "m192_a131a7c57449",
+      "level": "L3",
+      "matched_persona": "retail_high_sku_brand",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_1c8b4ee1b347",
+      "canonical_name": "老凤祥股份有限公司",
+      "normalized_name": "老凤祥",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "老凤祥股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_1c8b4ee1b347",
+          "level": "L3",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_1c8b4ee1b347"
+        }
+      ],
+      "prospect_id": "m192_1c8b4ee1b347",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_e5d15b6d9b7f",
+      "canonical_name": "波司登国际控股有限公司",
+      "normalized_name": "波司登国际",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "波司登国际控股有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_e5d15b6d9b7f",
+          "level": "L3",
+          "matched_persona": "retail_multi_store"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_e5d15b6d9b7f"
+        }
+      ],
+      "prospect_id": "m192_e5d15b6d9b7f",
+      "level": "L3",
+      "matched_persona": "retail_multi_store",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_7998a8f5901f",
+      "canonical_name": "蜜雪冰城股份有限公司",
+      "normalized_name": "蜜雪冰城",
+      "entity_roles": [
+        "trusted_pool",
+        "source_trace"
+      ],
+      "aliases": [
+        "蜜雪冰城股份有限公司"
+      ],
+      "source_refs": [
+        {
+          "source": "trusted_prospect_pool_v1",
+          "prospect_id": "m192_7998a8f5901f",
+          "level": "L3",
+          "matched_persona": "fnb_chain_beverage_coffee"
+        },
+        {
+          "source": "source_trace_index_v1",
+          "prospect_id": "m192_7998a8f5901f"
+        }
+      ],
+      "prospect_id": "m192_7998a8f5901f",
+      "level": "L3",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "canonical_update_source": "M193R_publish_M192_L3_preview"
+    },
+    {
+      "entity_id": "entity_signed_b4e66b3f1adb",
+      "canonical_name": "Lily服饰",
+      "normalized_name": "lily服饰",
+      "entity_roles": [
+        "signed_customer"
+      ],
+      "aliases": [
+        "Lily服饰"
+      ],
+      "source_refs": [
+        {
+          "source": "signed_customer_registry_v2",
+          "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+          "source_type": "user_confirmed_signed_customer_hotfix"
+        }
+      ],
+      "customer_id": "signed_customer_user_confirmed_b4e66b3f1a",
+      "signed_status": "confirmed_signed_customer",
+      "canonical_update_source": "M193R_sync_signed_customer_entities"
+    },
+    {
+      "entity_id": "entity_signed_3635b1647319",
+      "canonical_name": "乐凯撒",
+      "normalized_name": "乐凯撒",
+      "entity_roles": [
+        "signed_customer"
+      ],
+      "aliases": [
+        "乐凯撒"
+      ],
+      "source_refs": [
+        {
+          "source": "signed_customer_registry_v2",
+          "customer_id": "signed_customer_user_confirmed_3635b16473",
+          "source_type": "user_confirmed_signed_customer_hotfix"
+        }
+      ],
+      "customer_id": "signed_customer_user_confirmed_3635b16473",
+      "signed_status": "confirmed_signed_customer",
+      "canonical_update_source": "M193R_sync_signed_customer_entities"
     }
   ]
 }
