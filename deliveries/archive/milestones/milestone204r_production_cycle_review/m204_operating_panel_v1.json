@@ -1,0 +1,26 @@
+{
+  "milestone": "M204R",
+  "generated_at": "2026-05-04T10:21:07.011326+00:00",
+  "status": "PASS_M204R_PRODUCTION_CYCLE_REVIEW",
+  "summary": {
+    "trusted_pool_count": 93,
+    "source_trace_count": 93,
+    "level_counts": {
+      "L1": 34,
+      "L2": 58,
+      "L4": 1
+    },
+    "signed_customer_v2_count": 1059,
+    "signed_customer_alias_v2_count": 2088,
+    "cycle_all_validation_pass": true,
+    "cycle_all_expert_pass": true,
+    "l2_published_this_cycle": 19,
+    "remaining_source_collection_pending": 6,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": {
+    "id": "M205R",
+    "goal": "L1 证据链补强与高质量 L1 preview，优先从 58 家 L2 中选择证据最接近 L1 的对象补第三来源和 ICP 支撑来源。",
+    "alternative": "也可先做 M206R 下一轮候选发现，但建议先用 M205R 把 L1 质量天花板做出来。"
+  }
+}
