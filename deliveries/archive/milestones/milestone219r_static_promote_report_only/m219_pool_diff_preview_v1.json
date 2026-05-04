@@ -1,0 +1,208 @@
+{
+  "diff_id": "m219r_pool_diff_preview_v1",
+  "milestone": "M219R",
+  "generated_at": "2026-05-04T11:11:22.596153+00:00",
+  "mode": "preview_only",
+  "summary": {
+    "append_new_preview_count": 8,
+    "blocked_or_existing_count": 0,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "action": "append_new",
+      "current_level": "L5",
+      "suggested_level": "L3",
+      "decision": "allow",
+      "canonical_pool_updated": false
+    }
+  ],
+  "source_trace_preview": [
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "sources": [
+        {
+          "source_type": "official_group_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.eekagroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "赢家时尚控股有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.biemlf.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "比音勒芬服饰股份有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hsay.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "上海沪上阿姨餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.kuafood.com/brand",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "北京夸父餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "sources": [
+        {
+          "source_type": "brand_profile",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.maigoo.com/brand/39146.html",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "南京大牌档美食文化有限公司 的 M218 修复来源属于 authoritative_third_party；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "sources": [
+        {
+          "source_type": "government_food_safety_disclosure",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "七分甜餐饮管理（上海）有限公司 的 M218 修复来源属于 regulatory_or_capital_market；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.tianfugroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "广东天福连锁商业集团有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chinalawson.com.cn/about.html",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "罗森（中国）投资有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。"
+        }
+      ],
+      "canonical_source_trace_written": false
+    }
+  ]
+}

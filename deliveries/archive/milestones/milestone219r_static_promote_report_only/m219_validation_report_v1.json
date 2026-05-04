@@ -1,0 +1,55 @@
+{
+  "milestone": "M219R",
+  "generated_at": "2026-05-04T11:11:22.630124+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "report_only_candidate_count_positive": true,
+    "baseline_match_pass": true,
+    "baseline_mismatch_probe_failed": true,
+    "no_block_candidates": true,
+    "pool_diff_preview_matches_candidates": true,
+    "all_candidates_l3_or_above": true,
+    "gap_queue_present_for_second_source": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_write_proof_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m219r_static_promote_report_only.py",
+      "shared/static_pool/static_promote.py",
+      "shared/static_pool/signed_customer_gate.py",
+      "shared/static_pool/prospect_eligibility_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 5,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

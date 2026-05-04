@@ -1,0 +1,20 @@
+{
+  "milestone": "M219R",
+  "generated_at": "2026-05-04T11:11:22.630387+00:00",
+  "status": "PASS_M219R_STATIC_PROMOTE_REPORT_ONLY",
+  "summary": {
+    "report_only_candidate_count": 8,
+    "decision_counts": {
+      "allow": 8
+    },
+    "suggested_level_counts": {
+      "L3": 8
+    },
+    "gap_queue_count": 32,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false,
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M201：可选择先将 L3 preview guarded update 到 trusted pool，或补第二强来源后再冲 L2。"
+}
