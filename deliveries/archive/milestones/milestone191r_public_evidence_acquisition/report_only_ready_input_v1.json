@@ -1,0 +1,372 @@
+{
+  "package_id": "m191r_report_only_ready_input_v1",
+  "milestone": "M191R",
+  "generated_at": "2026-05-04T08:10:07.856773+00:00",
+  "summary": {
+    "report_only_ready_count": 15,
+    "trusted_pool_written": false,
+    "source_trace_written": false
+  },
+  "items": [
+    {
+      "task_id": "m190_task_f36d5e58d75b",
+      "candidate_name": "上海爱婴室商务服务股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "level": "L5",
+      "source_locator": "https://www.aiyingshi.com/",
+      "source_category": "official_owned",
+      "match_reason": "上海爱婴室商务服务股份有限公司 的 source locator seed 为 https://www.aiyingshi.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.aiyingshi.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "上海爱婴室商务服务股份有限公司 的 source locator seed 为 https://www.aiyingshi.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_f736020d9704",
+      "candidate_name": "良品铺子股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "level": "L5",
+      "source_locator": "https://www.517lppz.com/",
+      "source_category": "official_owned",
+      "match_reason": "良品铺子股份有限公司 的 source locator seed 为 https://www.517lppz.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.517lppz.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "良品铺子股份有限公司 的 source locator seed 为 https://www.517lppz.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_31c7524f6bc2",
+      "candidate_name": "名创优品集团控股有限公司",
+      "matched_persona": "retail_multi_store",
+      "level": "L5",
+      "source_locator": "https://ir.miniso.com/",
+      "source_category": "official_owned",
+      "match_reason": "名创优品集团控股有限公司 的 source locator seed 为 https://ir.miniso.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://ir.miniso.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "名创优品集团控股有限公司 的 source locator seed 为 https://ir.miniso.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_4a802369793e",
+      "candidate_name": "泡泡玛特国际集团有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "level": "L5",
+      "source_locator": "https://www.popmart.com/",
+      "source_category": "official_owned",
+      "match_reason": "泡泡玛特国际集团有限公司 的 source locator seed 为 https://www.popmart.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.popmart.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "泡泡玛特国际集团有限公司 的 source locator seed 为 https://www.popmart.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_373ca60655ce",
+      "candidate_name": "海底捞国际控股有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "level": "L5",
+      "source_locator": "https://www.haidilao.com/",
+      "source_category": "official_owned",
+      "match_reason": "海底捞国际控股有限公司 的 source locator seed 为 https://www.haidilao.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.haidilao.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "海底捞国际控股有限公司 的 source locator seed 为 https://www.haidilao.com/。该公开来源用于确认公司及其连锁餐饮经营事实，支撑标准化连锁门店 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_53d52bc516c9",
+      "candidate_name": "奈雪的茶控股有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "level": "L5",
+      "source_locator": "https://www.naixuecha.com/",
+      "source_category": "official_owned",
+      "match_reason": "奈雪的茶控股有限公司 的 source locator seed 为 https://www.naixuecha.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.naixuecha.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "奈雪的茶控股有限公司 的 source locator seed 为 https://www.naixuecha.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_6fdc15620f2c",
+      "candidate_name": "安克创新科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "level": "L5",
+      "source_locator": "https://www.anker-in.com/",
+      "source_category": "official_owned",
+      "match_reason": "安克创新科技股份有限公司 的 source locator seed 为 https://www.anker-in.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.anker-in.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "安克创新科技股份有限公司 的 source locator seed 为 https://www.anker-in.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_5a006e1af1dc",
+      "candidate_name": "致欧家居科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "level": "L5",
+      "source_locator": "https://www.songmics.com/",
+      "source_category": "official_owned",
+      "match_reason": "致欧家居科技股份有限公司 的 source locator seed 为 https://www.songmics.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.songmics.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "致欧家居科技股份有限公司 的 source locator seed 为 https://www.songmics.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_789de536089d",
+      "candidate_name": "华宝新能科技股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "level": "L5",
+      "source_locator": "https://www.hello-tech.com/",
+      "source_category": "official_owned",
+      "match_reason": "华宝新能科技股份有限公司 的 source locator seed 为 https://www.hello-tech.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hello-tech.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "华宝新能科技股份有限公司 的 source locator seed 为 https://www.hello-tech.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_2386dc0f707e",
+      "candidate_name": "科沃斯机器人股份有限公司",
+      "matched_persona": "cbec_multi_platform_brand",
+      "level": "L5",
+      "source_locator": "https://www.ecovacs.com/",
+      "source_category": "official_owned",
+      "match_reason": "科沃斯机器人股份有限公司 的 source locator seed 为 https://www.ecovacs.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.ecovacs.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_platform_commerce,cross_border_or_consumer_brand,channel_complexity",
+          "summary": "科沃斯机器人股份有限公司 的 source locator seed 为 https://www.ecovacs.com/。该公开来源用于确认公司及其消费品牌/多平台经营事实，支撑多平台品牌 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_a931b6a14819",
+      "candidate_name": "小米集团",
+      "matched_persona": "retail_high_sku_brand",
+      "level": "L5",
+      "source_locator": "https://www.mi.com/",
+      "source_category": "official_owned",
+      "match_reason": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.mi.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "小米集团 的 source locator seed 为 https://www.mi.com/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_a131a7c57449",
+      "candidate_name": "公牛集团股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "level": "L5",
+      "source_locator": "https://www.gongniu.cn/",
+      "source_category": "official_owned",
+      "match_reason": "公牛集团股份有限公司 的 source locator seed 为 https://www.gongniu.cn/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.gongniu.cn/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio",
+          "summary": "公牛集团股份有限公司 的 source locator seed 为 https://www.gongniu.cn/。该公开来源用于确认公司及其品牌、产品组合或零售经营事实，支撑高 SKU/品牌零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_1c8b4ee1b347",
+      "candidate_name": "老凤祥股份有限公司",
+      "matched_persona": "retail_multi_store",
+      "level": "L5",
+      "source_locator": "https://www.laofengxiang.com/",
+      "source_category": "official_owned",
+      "match_reason": "老凤祥股份有限公司 的 source locator seed 为 https://www.laofengxiang.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.laofengxiang.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "老凤祥股份有限公司 的 source locator seed 为 https://www.laofengxiang.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_e5d15b6d9b7f",
+      "candidate_name": "波司登国际控股有限公司",
+      "matched_persona": "retail_multi_store",
+      "level": "L5",
+      "source_locator": "https://company.bosideng.com/",
+      "source_category": "official_owned",
+      "match_reason": "波司登国际控股有限公司 的 source locator seed 为 https://company.bosideng.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://company.bosideng.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "波司登国际控股有限公司 的 source locator seed 为 https://company.bosideng.com/。该公开来源用于确认公司及其零售/门店/渠道经营事实，支撑多门店零售 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m190_task_7998a8f5901f",
+      "candidate_name": "蜜雪冰城股份有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "level": "L5",
+      "source_locator": "https://www.mxbc.com/",
+      "source_category": "official_owned",
+      "match_reason": "蜜雪冰城股份有限公司 的 source locator seed 为 https://www.mxbc.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。",
+      "core_product_service_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M191 已完成首条公开强来源定位；M192 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源定位，尚未正式写入 trusted pool；需 M192 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site_or_ir_seed",
+          "source_category": "official_owned",
+          "source_locator": "https://www.mxbc.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "蜜雪冰城股份有限公司 的 source locator seed 为 https://www.mxbc.com/。该公开来源用于确认公司及其茶饮/饮品连锁经营事实，支撑连锁饮品 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    }
+  ]
+}

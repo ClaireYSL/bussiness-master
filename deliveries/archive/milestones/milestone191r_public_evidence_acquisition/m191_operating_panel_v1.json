@@ -1,0 +1,22 @@
+{
+  "milestone": "M191R",
+  "generated_at": "2026-05-04T08:10:07.913594+00:00",
+  "status": "PASS_M191R_PUBLIC_EVIDENCE_ACQUISITION",
+  "summary": {
+    "task_count": 16,
+    "state_counts": {
+      "report_only_ready": 15,
+      "source_collection_pending": 1
+    },
+    "report_only_ready_count": 15,
+    "source_collection_pending_count": 1,
+    "signed_customer_gate_version": "v2",
+    "old_workbook_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false,
+    "expert_review_status": "pass",
+    "reachable_locator_count": 15
+  },
+  "next_recommended_action": "M192：对 report_only_ready_input_v1 运行静态升层 report-only、baseline、pool diff；仍不写旧 Excel。"
+}

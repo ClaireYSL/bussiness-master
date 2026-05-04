@@ -1,0 +1,857 @@
+{
+  "batch_id": "m191r_evidence_acquisition_backlog_v8",
+  "milestone": "M191R",
+  "generated_at": "2026-05-04T08:10:07.847895+00:00",
+  "summary": {
+    "task_count": 16,
+    "state_counts": {
+      "report_only_ready": 15,
+      "source_collection_pending": 1
+    },
+    "report_only_ready_count": 15,
+    "source_collection_pending_count": 1,
+    "signed_customer_gate_version": "v2",
+    "old_workbook_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "items": [
+    {
+      "task_id": "m190_task_f36d5e58d75b",
+      "candidate_name": "上海爱婴室商务服务股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.aiyingshi.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "上海爱婴室商务服务股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "上海爱婴室商务服务股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "上海爱婴室商务服务股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_2003bf7e2d8c",
+      "locator_check": {
+        "source_locator": "https://www.aiyingshi.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_f736020d9704",
+      "candidate_name": "良品铺子股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.517lppz.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "良品铺子股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "良品铺子股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "良品铺子股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_517d1fa84d37",
+      "locator_check": {
+        "source_locator": "https://www.517lppz.com/",
+        "reachable": true,
+        "http_status": 405,
+        "method": "HEAD",
+        "error": "HTTP Error 405: Not Allowed"
+      }
+    },
+    {
+      "task_id": "m190_task_31c7524f6bc2",
+      "candidate_name": "名创优品集团控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://ir.miniso.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party",
+        "regulatory_or_capital_market"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "名创优品集团控股有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "名创优品集团控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "名创优品集团控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_f4cc9da7fb18",
+      "locator_check": {
+        "source_locator": "https://ir.miniso.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_4a802369793e",
+      "candidate_name": "泡泡玛特国际集团有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.popmart.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "泡泡玛特国际集团有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "泡泡玛特国际集团有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "泡泡玛特国际集团有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_a0387615d28d",
+      "locator_check": {
+        "source_locator": "https://www.popmart.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_373ca60655ce",
+      "candidate_name": "海底捞国际控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.haidilao.com/",
+      "matched_persona": "fnb_chain_standardized",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "海底捞国际控股有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "海底捞国际控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "海底捞国际控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_bda03188dad2",
+      "locator_check": {
+        "source_locator": "https://www.haidilao.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_53d52bc516c9",
+      "candidate_name": "奈雪的茶控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.naixuecha.com/",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "奈雪的茶控股有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "奈雪的茶控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "奈雪的茶控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_2030d8e99724",
+      "locator_check": {
+        "source_locator": "https://www.naixuecha.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_6fdc15620f2c",
+      "candidate_name": "安克创新科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.anker-in.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "安克创新科技股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "安克创新科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "安克创新科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_275e9dfd827b",
+      "locator_check": {
+        "source_locator": "https://www.anker-in.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_5a006e1af1dc",
+      "candidate_name": "致欧家居科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.songmics.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "致欧家居科技股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "致欧家居科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "致欧家居科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_53f91ad43ab6",
+      "locator_check": {
+        "source_locator": "https://www.songmics.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_789de536089d",
+      "candidate_name": "华宝新能科技股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.hello-tech.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "华宝新能科技股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "华宝新能科技股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "华宝新能科技股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_81f4ca715630",
+      "locator_check": {
+        "source_locator": "https://www.hello-tech.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_2386dc0f707e",
+      "candidate_name": "科沃斯机器人股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.ecovacs.com/",
+      "matched_persona": "cbec_multi_platform_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "科沃斯机器人股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "科沃斯机器人股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "科沃斯机器人股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_650e4fa63813",
+      "locator_check": {
+        "source_locator": "https://www.ecovacs.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_a931b6a14819",
+      "candidate_name": "小米集团",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.mi.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "小米集团",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "小米集团",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "小米集团",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_c2561a9126f9",
+      "locator_check": {
+        "source_locator": "https://www.mi.com/",
+        "reachable": true,
+        "http_status": 403,
+        "method": "HEAD",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "task_id": "m190_task_a1885ca484df",
+      "candidate_name": "飞科电器股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.flyco.com/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "source_collection_pending",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "飞科电器股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "飞科电器股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "飞科电器股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "补可定位公开强来源或修复 source locator 后再进入 report-only。",
+      "public_evidence_collection_status": "needs_source_recheck",
+      "evidence_patch_id": "m191_evidence_4de266ca0391",
+      "locator_check": {
+        "source_locator": "https://www.flyco.com/",
+        "reachable": false,
+        "http_status": 502,
+        "method": "HEAD",
+        "error": "HTTP Error 502: Bad Gateway"
+      }
+    },
+    {
+      "task_id": "m190_task_a131a7c57449",
+      "candidate_name": "公牛集团股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.gongniu.cn/",
+      "matched_persona": "retail_high_sku_brand",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "公牛集团股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "公牛集团股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "公牛集团股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_15d01007ea5f",
+      "locator_check": {
+        "source_locator": "https://www.gongniu.cn/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_1c8b4ee1b347",
+      "candidate_name": "老凤祥股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.laofengxiang.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "老凤祥股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "老凤祥股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "老凤祥股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_5af1c92e98d0",
+      "locator_check": {
+        "source_locator": "https://www.laofengxiang.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_e5d15b6d9b7f",
+      "candidate_name": "波司登国际控股有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://company.bosideng.com/",
+      "matched_persona": "retail_multi_store",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "波司登国际控股有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "波司登国际控股有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "波司登国际控股有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_795f3752825a",
+      "locator_check": {
+        "source_locator": "https://company.bosideng.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    },
+    {
+      "task_id": "m190_task_7998a8f5901f",
+      "candidate_name": "蜜雪冰城股份有限公司",
+      "candidate_source": "milestone55_expansion_seed_queue",
+      "source_locator_seed": "https://www.mxbc.com/",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "persona_display_name": null,
+      "icp_reference_asset_refs": [],
+      "required_source_categories": [
+        "official_owned",
+        "platform_operating_fact",
+        "authoritative_third_party"
+      ],
+      "source_boundary": "seed/source_locator 只作为候选发现线索；进入 trusted pool 前必须重新采集可定位公开强 evidence。",
+      "customer_case_reference_overlap": false,
+      "not_prospect_evidence_until_public_source_collected": true,
+      "current_state": "report_only_ready",
+      "identity_resolution": {
+        "identity_resolution_status": "resolved_company_candidate",
+        "resolved_company_name": "蜜雪冰城股份有限公司",
+        "resolution_method": "seed_company_name",
+        "entity_resolution_required_before_source_collection": true
+      },
+      "signed_customer_gate_version": "v2",
+      "signed_customer_check": {
+        "existing_customer_check_status": "passed",
+        "candidate_name": "蜜雪冰城股份有限公司",
+        "matched_customer_id": null,
+        "matched_canonical_name": null,
+        "matched_alias_name": null,
+        "match_type": null,
+        "reason": "no signed customer match"
+      },
+      "prospect_eligibility": {
+        "prospect_eligibility_status": "eligible_prospect",
+        "candidate_name": "蜜雪冰城股份有限公司",
+        "reason": "passed eligibility gate",
+        "matched_entity_id": null,
+        "matched_entity_name": null,
+        "matched_prospect_id": null,
+        "signed_customer_match": null
+      },
+      "next_action": "进入 M192 report-only 静态升层评估。",
+      "public_evidence_collection_status": "evidence_ready",
+      "evidence_patch_id": "m191_evidence_281ba0a991ed",
+      "locator_check": {
+        "source_locator": "https://www.mxbc.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "HEAD"
+      }
+    }
+  ]
+}

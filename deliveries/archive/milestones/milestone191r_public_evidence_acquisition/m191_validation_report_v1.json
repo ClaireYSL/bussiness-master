@@ -1,0 +1,60 @@
+{
+  "milestone": "M191R",
+  "generated_at": "2026-05-04T08:10:07.913255+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "input_pending_count_positive": true,
+    "evidence_count_matches_input": true,
+    "report_only_ready_count_positive": true,
+    "report_only_ready_count_matches_input": true,
+    "all_report_ready_have_locator": true,
+    "all_sources_have_valid_category": true,
+    "no_blocked_ready_candidates": true,
+    "signed_customer_regression_pass": true,
+    "customer_case_not_prospect_evidence": true,
+    "llm_not_used_as_evidence": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_write_proof_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m191r_public_evidence_acquisition.py",
+      "scripts/businessmaster_pipeline.py",
+      "shared/static_pool/signed_customer_gate.py",
+      "shared/static_pool/prospect_eligibility_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 8,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false
+  }
+}
