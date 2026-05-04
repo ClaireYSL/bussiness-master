@@ -1,0 +1,60 @@
+{
+  "milestone": "M218R",
+  "generated_at": "2026-05-04T11:10:27.445436+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "readiness_pass": true,
+    "input_pending_8": true,
+    "report_only_ready_positive": true,
+    "report_only_ready_matches_input": true,
+    "every_ready_has_locator": true,
+    "every_ready_is_eligible": true,
+    "every_ready_passed_signed_gate_v2": true,
+    "customer_case_not_prospect_evidence": true,
+    "llm_not_used_as_evidence": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_write_proof_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m218r_source_repair_for_pending.py",
+      "shared/static_pool/prospect_eligibility_gate.py",
+      "shared/static_pool/signed_customer_gate.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 6,
+    "errors": []
+  },
+  "readiness": {
+    "returncode": 0,
+    "stdout": "{\\n      \\\"L1\\\": 46,\\n      \\\"L2\\\": 61,\\n      \\\"L4\\\": 1\\n    },\\n    \\\"m150_expert_review_status\\\": \\\"pass_with_followups\\\",\\n    \\\"m150_followup_count\\\": 1,\\n    \\\"historical_m150_readiness_summary\\\": {\\n      \\\"trusted_pool_count\\\": 63,\\n      \\\"level_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 26,\\n        \\\"L4\\\": 1\\n      },\\n      \\\"source_trace_count\\\": 63,\\n      \\\"knowledge_asset_count\\\": 40,\\n      \\\"persona_count\\\": 8,\\n      \\\"signed_customer_count\\\": 10,\\n      \\\"signed_customer_alias_count\\\": 23,\\n      \\\"account_entity_count\\\": 100,\\n      \\\"customer_case_reference_count\\\": 24,\\n      \\\"vault_file_counts\\\": {\\n        \\\"L1\\\": 36,\\n        \\\"L2\\\": 57,\\n        \\\"L3\\\": 29,\\n        \\\"L4\\\": 1,\\n        \\\"L5\\\": 1\\n      },\\n      \\\"readiness_source_milestones\\\": [\\n        \\\"M130R\\\",\\n        \\\"M135R\\\",\\n        \\\"M141R\\\"\\n      ],\\n      \\\"m130_status\\\": \\\"PASS\\\",\\n      \\\"m135_status\\\": \\\"PASS\\\",\\n      \\\"m141_status\\\": \\\"PASS\\\",\\n      \\\"legacy_excel_fact_source\\\": false\\n    },\\n    \\\"historical_snapshot_note\\\": \\\"M150/M160 nested readiness summaries are historical only; current canonical counts come from trusted pool/source trace.\\\"\\n  },\\n  \\\"next_action\\\": \\\"如需写产物，请运行 production 或显式 M160 all；readiness 本身不写任何 tracked JSON。\\\"\\n}\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"cmd\": [\n        \"python3\",\n        \"scripts/build_m180r_signed_customer_registry_v2.py\",\n        \"--stage\",\n        \"readiness\"\n      ],\n      \"returncode\": 0,\n      \"stdout\": \"{\\n  \\\"mode\\\": \\\"readiness\\\",\\n  \\\"milestone\\\": \\\"M180R\\\",\\n  \\\"generated_at\\\": \\\"2026-05-04T11:10:27.429309+00:00\\\",\\n  \\\"status\\\": \\\"PASS\\\",\\n  \\\"read_only\\\": true,\\n  \\\"signed_customer_v2_enabled\\\": true,\\n  \\\"summary\\\": {\\n    \\\"signed_customer_v2_count\\\": 1059,\\n    \\\"signed_customer_alias_v2_count\\\": 2088,\\n    \\\"source_path\\\": \\\"/Users/clairelu2026/个人文档【重要】【20260406】/07销售管理-LTO/静态潜客池/历年合作列表 2026-02-23 14_24_22.xlsx\\\",\\n    \\\"fallback_v1_available\\\": true\\n  }\\n}\\n\",\n      \"stderr\": \"\"\n    }\n  ]\n}\n"
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

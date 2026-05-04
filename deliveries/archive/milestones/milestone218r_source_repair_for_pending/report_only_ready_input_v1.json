@@ -1,0 +1,212 @@
+{
+  "package_id": "m218r_report_only_ready_input_v1",
+  "milestone": "M218R",
+  "generated_at": "2026-05-04T11:10:27.145934+00:00",
+  "summary": {
+    "report_only_ready_count": 8,
+    "trusted_pool_written": false,
+    "source_trace_written": false
+  },
+  "items": [
+    {
+      "task_id": "m210_task_d3498b3afe74",
+      "candidate_name": "赢家时尚控股有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "level": "L5",
+      "source_locator": "https://www.eekagroup.com/",
+      "source_category": "official_owned",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "赢家时尚控股有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源修复，尚未正式写入 trusted pool；需下一轮 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_group_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.eekagroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "赢家时尚控股有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_7d1c0e85434d",
+      "candidate_name": "比音勒芬服饰股份有限公司",
+      "matched_persona": "retail_high_sku_brand",
+      "level": "L5",
+      "source_locator": "http://www.biemlf.com/",
+      "source_category": "official_owned",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "比音勒芬服饰股份有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源修复，尚未正式写入 trusted pool；需下一轮 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.biemlf.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:high_sku_brand,retail_operations,product_portfolio,sku_matrix",
+          "summary": "比音勒芬服饰股份有限公司 的 M218 修复来源属于 official_owned；用于支撑品牌零售、产品组合或高 SKU 运营 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_641ff4cf2f83",
+      "candidate_name": "上海沪上阿姨餐饮管理有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "level": "L5",
+      "source_locator": "https://www.hsay.com/",
+      "source_category": "official_owned",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "上海沪上阿姨餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源修复，尚未正式写入 trusted pool；需下一轮 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.hsay.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "上海沪上阿姨餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_ab3d6459dc8d",
+      "candidate_name": "北京夸父餐饮管理有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "level": "L5",
+      "source_locator": "https://www.kuafood.com/brand",
+      "source_category": "official_owned",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "北京夸父餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源修复，尚未正式写入 trusted pool；需下一轮 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.kuafood.com/brand",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "北京夸父餐饮管理有限公司 的 M218 修复来源属于 official_owned；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_55d36bcce336",
+      "candidate_name": "南京大牌档美食文化有限公司",
+      "matched_persona": "fnb_chain_standardized",
+      "level": "L5",
+      "source_locator": "https://www.maigoo.com/brand/39146.html",
+      "source_category": "authoritative_third_party",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "南京大牌档美食文化有限公司 的 M218 修复来源属于 authoritative_third_party；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "补南京大牌档官方公众号/官网或更权威经营披露来源。",
+      "sources": [
+        {
+          "source_type": "brand_profile",
+          "source_category": "authoritative_third_party",
+          "source_locator": "https://www.maigoo.com/brand/39146.html",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+          "summary": "南京大牌档美食文化有限公司 的 M218 修复来源属于 authoritative_third_party；用于支撑标准化连锁餐饮门店与供应/运营体系 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_7d9fddf4f43d",
+      "candidate_name": "七分甜餐饮管理（上海）有限公司",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "level": "L5",
+      "source_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+      "source_category": "regulatory_or_capital_market",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "七分甜餐饮管理（上海）有限公司 的 M218 修复来源属于 regulatory_or_capital_market；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "补 7 分甜官方品牌页、官方小程序或平台门店网络来源。",
+      "sources": [
+        {
+          "source_type": "government_food_safety_disclosure",
+          "source_category": "regulatory_or_capital_market",
+          "source_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+          "summary": "七分甜餐饮管理（上海）有限公司 的 M218 修复来源属于 regulatory_or_capital_market；用于支撑连锁饮品/茶饮门店扩张与标准化运营 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_8716c805106f",
+      "candidate_name": "广东天福连锁商业集团有限公司",
+      "matched_persona": "retail_multi_store",
+      "level": "L5",
+      "source_locator": "http://www.tianfugroup.com/",
+      "source_category": "official_owned",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "广东天福连锁商业集团有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源修复，尚未正式写入 trusted pool；需下一轮 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_site",
+          "source_category": "official_owned",
+          "source_locator": "http://www.tianfugroup.com/",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "广东天福连锁商业集团有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    },
+    {
+      "task_id": "m210_task_f321d4b30e60",
+      "candidate_name": "罗森（中国）投资有限公司",
+      "matched_persona": "retail_multi_store",
+      "level": "L5",
+      "source_locator": "https://www.chinalawson.com.cn/about.html",
+      "source_category": "official_owned",
+      "evidence_strength": "public_strong_source_locator",
+      "match_reason": "罗森（中国）投资有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。",
+      "core_product_service_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充产品/服务摘要。",
+      "business_model_summary": "M218 已修复首条公开强来源定位；后续 report-only 需进一步补充业务模式摘要。",
+      "risk_or_gap": "当前仅完成公开来源修复，尚未正式写入 trusted pool；需下一轮 report-only 评估证据成熟度。",
+      "sources": [
+        {
+          "source_type": "official_brand_site",
+          "source_category": "official_owned",
+          "source_locator": "https://www.chinalawson.com.cn/about.html",
+          "evidence_strength": "public_strong_source_locator",
+          "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+          "summary": "罗森（中国）投资有限公司 的 M218 修复来源属于 official_owned；用于支撑多门店零售/便利店渠道复杂度与前线运营 ICP 初筛。"
+        }
+      ],
+      "icp_reference_asset_refs": [],
+      "signed_customer_gate_version": "v2"
+    }
+  ]
+}

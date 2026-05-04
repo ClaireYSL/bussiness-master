@@ -1,0 +1,87 @@
+{
+  "milestone": "M218R",
+  "generated_at": "2026-05-04T11:10:27.138441+00:00",
+  "summary": {
+    "input_source_collection_pending_count": 8,
+    "source_repair_attempt_count": 8,
+    "report_only_ready_count": 8,
+    "source_collection_pending_count": 0,
+    "reachable_locator_count": 8,
+    "official_owned_count": 6,
+    "authoritative_or_regulatory_count": 2,
+    "followup_gap_count": 2,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "items": [
+    {
+      "task_id": "m210_task_d3498b3afe74",
+      "candidate_name": "赢家时尚控股有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_7d1c0e85434d",
+      "candidate_name": "比音勒芬服饰股份有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_641ff4cf2f83",
+      "candidate_name": "上海沪上阿姨餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_ab3d6459dc8d",
+      "candidate_name": "北京夸父餐饮管理有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_55d36bcce336",
+      "candidate_name": "南京大牌档美食文化有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_7d9fddf4f43d",
+      "candidate_name": "七分甜餐饮管理（上海）有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_8716c805106f",
+      "candidate_name": "广东天福连锁商业集团有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    },
+    {
+      "task_id": "m210_task_f321d4b30e60",
+      "candidate_name": "罗森（中国）投资有限公司",
+      "signed_customer_status": "passed",
+      "prospect_eligibility_status": "eligible_prospect",
+      "task_state": "report_only_ready",
+      "locator_reachable": true
+    }
+  ]
+}

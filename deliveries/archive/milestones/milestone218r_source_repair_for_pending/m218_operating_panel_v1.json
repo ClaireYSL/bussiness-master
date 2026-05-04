@@ -1,0 +1,27 @@
+{
+  "milestone": "M218R",
+  "generated_at": "2026-05-04T11:10:27.445797+00:00",
+  "status": "PASS_M218R_SOURCE_REPAIR_FOR_PENDING",
+  "summary": {
+    "input_source_collection_pending_count": 8,
+    "source_repair_attempt_count": 8,
+    "report_only_ready_count": 8,
+    "source_collection_pending_count": 0,
+    "reachable_locator_count": 8,
+    "official_owned_count": 6,
+    "authoritative_or_regulatory_count": 2,
+    "followup_gap_count": 2,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false,
+    "backlog_state_counts": {
+      "report_only_ready": 8
+    },
+    "expert_review_status": "pass_with_followups"
+  },
+  "next_recommended_action": "对 M218 report_only_ready 输入执行静态升层 report-only；带 followup_gap 的对象升 L2/L1 前补官方或第二来源。"
+}

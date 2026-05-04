@@ -1,0 +1,184 @@
+{
+  "package_id": "m218r_source_repair_plan_v1",
+  "milestone": "M218R",
+  "generated_at": "2026-05-04T11:10:27.138066+00:00",
+  "summary": {
+    "input_source_collection_pending_count": 8,
+    "source_repair_attempt_count": 8,
+    "report_only_ready_count": 8,
+    "source_collection_pending_count": 0,
+    "reachable_locator_count": 8,
+    "official_owned_count": 6,
+    "authoritative_or_regulatory_count": 2,
+    "followup_gap_count": 2,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false
+  },
+  "items": [
+    {
+      "task_id": "m210_task_d3498b3afe74",
+      "candidate_name": "赢家时尚控股有限公司",
+      "original_locator": "https://www.eeka.cn/",
+      "repaired_locator": "https://www.eekagroup.com/",
+      "repair_source_category": "official_owned",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "https://www.eekagroup.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html; charset=UTF-8",
+        "url_effective": "https://www.eekagroup.com/",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": null
+    },
+    {
+      "task_id": "m210_task_7d1c0e85434d",
+      "candidate_name": "比音勒芬服饰股份有限公司",
+      "original_locator": "https://www.biemlf.com/",
+      "repaired_locator": "http://www.biemlf.com/",
+      "repair_source_category": "official_owned",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "http://www.biemlf.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html; charset=utf-8",
+        "url_effective": "http://www.biemlf.com/",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": null
+    },
+    {
+      "task_id": "m210_task_641ff4cf2f83",
+      "candidate_name": "上海沪上阿姨餐饮管理有限公司",
+      "original_locator": "https://www.hushangayi.com/",
+      "repaired_locator": "https://www.hsay.com/",
+      "repair_source_category": "official_owned",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "https://www.hsay.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html",
+        "url_effective": "https://www.hsay.com/",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": null
+    },
+    {
+      "task_id": "m210_task_ab3d6459dc8d",
+      "candidate_name": "北京夸父餐饮管理有限公司",
+      "original_locator": "https://www.kuafuzhacuan.com/",
+      "repaired_locator": "https://www.kuafood.com/brand",
+      "repair_source_category": "official_owned",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "https://www.kuafood.com/brand",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html; charset=UTF-8",
+        "url_effective": "https://www.kuafood.com/brand",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": null
+    },
+    {
+      "task_id": "m210_task_55d36bcce336",
+      "candidate_name": "南京大牌档美食文化有限公司",
+      "original_locator": "https://www.njdapaidang.com/",
+      "repaired_locator": "https://www.maigoo.com/brand/39146.html",
+      "repair_source_category": "authoritative_third_party",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "https://www.maigoo.com/brand/39146.html",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html; charset=UTF-8",
+        "url_effective": "https://www.maigoo.com/brand/39146.html",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": "补南京大牌档官方公众号/官网或更权威经营披露来源。"
+    },
+    {
+      "task_id": "m210_task_7d9fddf4f43d",
+      "candidate_name": "七分甜餐饮管理（上海）有限公司",
+      "original_locator": "https://www.7-fen.com/",
+      "repaired_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+      "repair_source_category": "regulatory_or_capital_market",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "application/pdf",
+        "url_effective": "https://zwgk.shcn.gov.cn/xxgk/jdgl-scjgjzdgz/2025/269/79010/82578b4a2b294b09b1009ea85de3f462.pdf",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": "补 7 分甜官方品牌页、官方小程序或平台门店网络来源。"
+    },
+    {
+      "task_id": "m210_task_8716c805106f",
+      "candidate_name": "广东天福连锁商业集团有限公司",
+      "original_locator": "https://www.tianfugroup.com/",
+      "repaired_locator": "http://www.tianfugroup.com/",
+      "repair_source_category": "official_owned",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "http://www.tianfugroup.com/",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html; charset=utf-8",
+        "url_effective": "http://www.tianfugroup.com/",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": null
+    },
+    {
+      "task_id": "m210_task_f321d4b30e60",
+      "candidate_name": "罗森（中国）投资有限公司",
+      "original_locator": "https://www.lawson.com.cn/",
+      "repaired_locator": "https://www.chinalawson.com.cn/about.html",
+      "repair_source_category": "official_owned",
+      "repair_status": "ready",
+      "locator_check": {
+        "source_locator": "https://www.chinalawson.com.cn/about.html",
+        "reachable": true,
+        "http_status": 200,
+        "method": "curl_HEAD",
+        "content_type": "text/html; charset=utf-8",
+        "url_effective": "https://www.chinalawson.com.cn/about.html",
+        "returncode": 0,
+        "error": null,
+        "reachable_reason": "public locator reachable or request-restricted"
+      },
+      "followup_gap": null
+    }
+  ]
+}

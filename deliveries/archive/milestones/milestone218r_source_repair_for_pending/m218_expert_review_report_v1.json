@@ -1,0 +1,40 @@
+{
+  "milestone": "M218R",
+  "generated_at": "2026-05-04T11:10:27.445693+00:00",
+  "overall_review_status": "pass_with_followups",
+  "product_review": {
+    "status": "pass",
+    "notes": "M218 将 M211 遗留的 8 条来源问题候选推进为可继续 report-only 的结构化输入；不直接扩池、不写用户层。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "M218 仅写 milestone 产物，保留 signed customer v2 gate 与 eligibility gate，未写 canonical pool/source trace/vault。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "修复来源均为可定位公开 locator；LLM、客户案例、legacy/internal reference 均未作为 prospect evidence。"
+  },
+  "followups": [
+    "部分候选使用监管/第三方来源完成修复，后续升 L2/L1 前仍建议补官方 owned source。"
+  ],
+  "summary": {
+    "input_source_collection_pending_count": 8,
+    "source_repair_attempt_count": 8,
+    "report_only_ready_count": 8,
+    "source_collection_pending_count": 0,
+    "reachable_locator_count": 8,
+    "official_owned_count": 6,
+    "authoritative_or_regulatory_count": 2,
+    "followup_gap_count": 2,
+    "signed_customer_gate_version": "v2",
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "old_excel_written": false,
+    "trusted_pool_written": false,
+    "source_trace_written": false,
+    "vault_regular_area_written": false,
+    "backlog_state_counts": {
+      "report_only_ready": 8
+    }
+  }
+}
