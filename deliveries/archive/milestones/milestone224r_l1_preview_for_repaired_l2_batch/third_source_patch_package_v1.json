@@ -1,0 +1,207 @@
+{
+  "package_id": "m224r_third_source_patch_package_v1",
+  "milestone": "M224R",
+  "generated_at": "2026-05-04T11:42:50.855899+00:00",
+  "summary": {
+    "target_l2_count": 8,
+    "third_source_ready_count": 8,
+    "source_health_gap_count": 0,
+    "customer_case_used_as_prospect_evidence": false,
+    "llm_used_as_evidence": false,
+    "trusted_pool_written": false
+  },
+  "items": [
+    {
+      "prospect_id": "m219_7d9fddf4f43d",
+      "company_name": "七分甜餐饮管理（上海）有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "new_source": {
+        "source_type": "public_brand_profile",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://zh.wikipedia.org/wiki/7%E5%88%86%E7%94%9C",
+        "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+        "evidence_strength": "public_brand_profile",
+        "summary": "七分甜餐饮管理（上海）有限公司 的第三强来源为 https://zh.wikipedia.org/wiki/7%E5%88%86%E7%94%9C，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://zh.wikipedia.org/wiki/7%E5%88%86%E7%94%9C",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_641ff4cf2f83",
+      "company_name": "上海沪上阿姨餐饮管理有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "fnb_chain_beverage_coffee",
+      "new_source": {
+        "source_type": "industry_research",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202601161817651355_1.pdf?1768572691000.pdf=",
+        "supports_dimension": "icp_match_support:chain_beverage,multi_store_operations,brand_expansion",
+        "evidence_strength": "industry_research",
+        "summary": "上海沪上阿姨餐饮管理有限公司 的第三强来源为 https://pdf.dfcfw.com/pdf/H3_AP202601161817651355_1.pdf?1768572691000.pdf=，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202601161817651355_1.pdf?1768572691000.pdf=",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_ab3d6459dc8d",
+      "company_name": "北京夸父餐饮管理有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "fnb_chain_standardized",
+      "new_source": {
+        "source_type": "industry_report_pdf",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://www.dituhui.com/static/upload/file/20250701/1751339631356413.pdf",
+        "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+        "evidence_strength": "industry_report_pdf",
+        "summary": "北京夸父餐饮管理有限公司 的第三强来源为 https://www.dituhui.com/static/upload/file/20250701/1751339631356413.pdf，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.dituhui.com/static/upload/file/20250701/1751339631356413.pdf",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_55d36bcce336",
+      "company_name": "南京大牌档美食文化有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "fnb_chain_standardized",
+      "new_source": {
+        "source_type": "brand_store_profile",
+        "source_category": "platform_operating_fact",
+        "source_locator": "https://www.pinpai2.com/shop/19723.html",
+        "supports_dimension": "icp_match_support:chain_standardization,multi_store_fnb,frontline_operations",
+        "evidence_strength": "brand_store_profile",
+        "summary": "南京大牌档美食文化有限公司 的第三强来源为 https://www.pinpai2.com/shop/19723.html，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.pinpai2.com/shop/19723.html",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_8716c805106f",
+      "company_name": "广东天福连锁商业集团有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_multi_store",
+      "new_source": {
+        "source_type": "authoritative_media",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://www.hollyorder.com/help/news/198.html",
+        "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+        "evidence_strength": "authoritative_media",
+        "summary": "广东天福连锁商业集团有限公司 的第三强来源为 https://www.hollyorder.com/help/news/198.html，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.hollyorder.com/help/news/198.html",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_7d1c0e85434d",
+      "company_name": "比音勒芬服饰股份有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "industry_association_profile",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://www.cncic.org/?p=2860",
+        "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
+        "evidence_strength": "industry_association_profile",
+        "summary": "比音勒芬服饰股份有限公司 的第三强来源为 https://www.cncic.org/?p=2860，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.cncic.org/?p=2860",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_f321d4b30e60",
+      "company_name": "罗森（中国）投资有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_multi_store",
+      "new_source": {
+        "source_type": "authoritative_media",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://www.cls.cn/detail/851557",
+        "supports_dimension": "icp_match_support:multi_store_retail,channel_complexity,frontline_operations",
+        "evidence_strength": "authoritative_media",
+        "summary": "罗森（中国）投资有限公司 的第三强来源为 https://www.cls.cn/detail/851557，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://www.cls.cn/detail/851557",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    },
+    {
+      "prospect_id": "m219_d3498b3afe74",
+      "company_name": "赢家时尚控股有限公司",
+      "current_level": "L2",
+      "patch_status": "third_source_ready",
+      "matched_persona": "retail_high_sku_brand",
+      "new_source": {
+        "source_type": "industry_research",
+        "source_category": "authoritative_third_party",
+        "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202501011641502696_1.pdf",
+        "supports_dimension": "icp_match_support:brand_product_matrix,retail_high_sku_brand,channel_complexity",
+        "evidence_strength": "industry_research",
+        "summary": "赢家时尚控股有限公司 的第三强来源为 https://pdf.dfcfw.com/pdf/H3_AP202501011641502696_1.pdf，用于补充 L1 所需的来源多样性、经营事实和 ICP 支撑。",
+        "prospect_evidence": true,
+        "llm_used_as_evidence": false,
+        "locator_check": {
+          "source_locator": "https://pdf.dfcfw.com/pdf/H3_AP202501011641502696_1.pdf",
+          "reachable": true,
+          "http_status": 200,
+          "method": "curl_HEAD",
+          "error": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "milestone": "M224R",
+  "generated_at": "2026-05-04T11:42:50.894052+00:00",
+  "status": "PASS_M224R_L1_PREVIEW_FROM_L2",
+  "summary": {
+    "report_only_candidate_count": 8,
+    "decision_counts": {
+      "allow": 8
+    },
+    "suggested_level_counts": {
+      "L1": 8
+    },
+    "l1_preview_count": 8,
+    "l2_remaining_count": 0,
+    "gap_queue_count": 0,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false,
+    "third_source_summary": {
+      "target_l2_count": 8,
+      "third_source_ready_count": 8,
+      "source_health_gap_count": 0,
+      "customer_case_used_as_prospect_evidence": false,
+      "llm_used_as_evidence": false,
+      "trusted_pool_written": false
+    },
+    "expert_review_status": "pass"
+  },
+  "next_recommended_action": "M225：guarded update L1 preview；或先人工抽检 L1 证据链。"
+}

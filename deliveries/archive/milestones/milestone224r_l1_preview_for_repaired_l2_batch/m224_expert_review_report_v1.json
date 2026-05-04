@@ -1,0 +1,32 @@
+{
+  "milestone": "M224R",
+  "generated_at": "2026-05-04T11:42:50.893964+00:00",
+  "overall_review_status": "pass",
+  "product_review": {
+    "status": "pass",
+    "notes": "M224 只形成 L1 preview，不把 L2 自动改成 L1；用户入口暂不变化。"
+  },
+  "architecture_review": {
+    "status": "pass",
+    "notes": "第三来源 patch、source trace patch、report-only、baseline、pool diff preview 分离，未写 canonical。"
+  },
+  "data_governance_review": {
+    "status": "pass",
+    "notes": "第三来源来自公开可定位来源；客户案例与 LLM 均未作为 evidence；不写旧 Excel、knowledge/persona registry。"
+  },
+  "report_summary": {
+    "report_only_candidate_count": 8,
+    "decision_counts": {
+      "allow": 8
+    },
+    "suggested_level_counts": {
+      "L1": 8
+    },
+    "l1_preview_count": 8,
+    "l2_remaining_count": 0,
+    "gap_queue_count": 0,
+    "canonical_pool_updated": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}

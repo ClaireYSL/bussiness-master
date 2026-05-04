@@ -1,0 +1,53 @@
+{
+  "milestone": "M224R",
+  "generated_at": "2026-05-04T11:42:50.893779+00:00",
+  "status": "PASS",
+  "checks": {
+    "py_compile_pass": true,
+    "json_parse_pass": true,
+    "target_l2_count_positive": true,
+    "third_source_ready_positive": true,
+    "baseline_match_pass": true,
+    "l1_preview_positive": true,
+    "l1_or_l2_only": true,
+    "customer_case_not_prospect_evidence": true,
+    "llm_not_used_as_evidence": true,
+    "dynamic_term_scan_pass": true,
+    "api_key_scan_pass": true,
+    "no_write_proof_pass": true
+  },
+  "py_compile": {
+    "cmd": [
+      "python3",
+      "-m",
+      "py_compile",
+      "scripts/build_m224r_l1_preview_for_repaired_l2_batch.py",
+      "shared/static_pool/static_promote.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "json_parse": {
+    "checked_count": 9,
+    "errors": []
+  },
+  "dynamic_term_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "api_key_scan": {
+    "status": "PASS",
+    "finding_count": 0,
+    "findings": []
+  },
+  "no_write_proof": {
+    "old_excel_written": false,
+    "knowledge_asset_registry_written": false,
+    "persona_registry_written": false,
+    "trusted_pool_written": false,
+    "canonical_source_trace_written": false,
+    "vault_regular_area_written": false
+  }
+}
